@@ -1,0 +1,61 @@
+ClioInput - version $Revision$ SWI $Date$
+29-5-2017 15-9
+
+Processing data file:/Users/jrc/develop/mhk_users/soure/documents/baptismos/teste.CLI
+-------------------------------------------
+Generic Act translation module with geoentities (XML).
+     Joaquim Ramos de Carvalho (joaquim@uc.pt) 
+** New document: kleio
+1: kleio$gacto.str
+=========================
+kleio translation started
+=========================
+Structure: gacto.str
+Prefix: 
+Autorel: 
+Translation count: 
+Obs: 
+Translation count not set or invalid, counting as zero: 
+2:    fonte$baptismos 1686/tipo=reg paroquiais/localizacao=fol. 34-/data=16860000
+3: 
+**** auto rels 2 STARTED.
+** Processing source fonte$baptismos 1686
+4:       b$b1686.40/5/7/1686/0/0/0/manuel cordeiro
+5: 
+**** auto rels 2 STARTED.
+** Processing act b$b1686.40
+6:          n$joana/f/id=b1686.40-per1
+7: 
+8:             pai$bartolomeu antunes/m/id=b1686.40-per1-per2
+9:                ls$residencia/casal do livreiro
+10: 
+11:             mae$isabel luis/f/id=b1686.40-per1-per3
+12: 
+13:             pad$antonio de sequeira baracho/m/id=baracho
+14:                ls$profissao/padre
+15:                ls$cargo/prior de penela
+16:                ls$freguesia/penela
+17: 
+18:             procurador-pad$manuel mateus/id=rb05071686
+19:                ls$profissao/padre
+20:                ls$titulo/frei
+21:                ls$cargo/beneficiado na igreja de soure
+22: 
+23:                mad$maria madeira/f/id=b1686.40-per4
+24: 
+25:                mrmad$manuel antunes/m/id=b1686.40-per5
+26:                   ls$residencia/casal do livreiro
+27: *** End of File
+0  errors.
+**** auto rels 2 STARTED.
+   ** auto rel: from b1686.40-per1-per2 to b1686.40-per1 parentesco/pai
+   ** auto rel: from b1686.40-per1-per3 to b1686.40-per1 parentesco/mae
+   ** auto rel: from b1686.40-per1-per2 to b1686.40-per1-per3 parentesco/marido
+   ** Automatic attribute: b1686.40-per1-per2/ec/c
+   ** Automatic attribute: b1686.40-per1-per3/ec/c
+   ** auto rel: from rb05071686 to baracho sociabilidade/procurador
+** Translation finished.
+** data file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/teste.CLI
+** original file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/teste.org
+** old file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/teste.old
+** original file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/teste.ids

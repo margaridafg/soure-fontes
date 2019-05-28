@@ -1,0 +1,62 @@
+ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
+10-8-2018 14-2
+
+Processing data file /Users/jrc/mhk-home/sources/soure/documents/casamentos/c1686.cli
+-------------------------------------------
+Generic Act translation module with geoentities (XML).
+     Joaquim Ramos de Carvalho (joaquim@uc.pt) 
+** New document: kleio
+=========================
+kleio translation started
+=========================
+Structure: gacto2.str
+Prefix: 
+Autorel: 
+Translation count: 1
+Obs: 
+** Processing source fonte$casamentos 1686
+6: cas$c1686.1
+41: cas$c1686.2
+67: cas$c1686.3
+98: cas$c1686.4
+126: cas$c1686.5
+
+/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1686.cli:143:destination id of "same as" not found. Will check again at the end of file.
+
+
+WARNING: c1686.cli line 142 destination id of "same as" not found. Will check again at the end of file.
+Near line: 142          test$paulo ribeiro cabral/mesmo_que=c24-7#corigido posteriormente 'a compilcao. Tinha c6-7./id=c1686.5-per7
+Near line: 143             rel$parentesco/filho/luis ribeiro cabral/c6-7-pai
+
+147: cas$c1686.6
+180: cas$c1686.7
+
+/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1686.cli:196:destination id of "same as" not found. Will check again at the end of file.
+
+
+WARNING: c1686.cli line 195 destination id of "same as" not found. Will check again at the end of file.
+Near line: 195 
+Near line: 196          test$antonia/id=c1686.7-per8
+
+
+/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1686.cli:201:destination id of "same as" not found. Will check again at the end of file.
+
+
+WARNING: c1686.cli line 200 destination id of "same as" not found. Will check again at the end of file.
+Near line: 200          referido$jose barbosa canais%jose barbosa/mesmo_que=c17-7/id=c1686.7-per9
+Near line: 201             ls$nome/jose barbosa
+
+216: cas$c1686.8
+243: cas$c1686.9
+276: cas$c1686.10
+317: cas$c1686.11
+*** End of File
+ERROR:  Could not find same_as id c24-7 referred in line 143. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c12-7 referred in line 196. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c17-7 referred in line 201. If  original reference is on another file use xsame_as
+
+3  errors. 
+3  warnings.
+Translation finished.

@@ -1,0 +1,546 @@
+<?xml version='1.0'?>
+<KLEIO STRUCTURE="gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/documents/baptismos/bpo1.cli" TRANSLATOR="gactoxml2.str" WHEN="2018-8-10 14:2:27" OBS="" SPACE="">
+<CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="loc" COLUMN="loc" CLASS="loc" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="ref" COLUMN="ref" CLASS="ref" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="kleiofile" COLUMN="kleiofile" CLASS="kleiofile" TYPE="varchar" SIZE="512" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="baptismos bpo1" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="4">
+    <ELEMENT NAME="line" CLASS="line"><core>4</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>baptismos bpo1</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>fonte</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>source</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>1</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>1</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[reg paroquiais]]></core>   </ELEMENT>
+   <ELEMENT NAME="localizacao" CLASS="loc">
+         <core><![CDATA[processos de ordenacao]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Estes sao baptismos dispersos pelos processos de ordenacao dos quais nao se conservao registo original. O numero do processo vem nas observacoes do registo]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+   <ELEMENT NAME="kleiofile" CLASS="kleiofile">
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/documents/baptismos/bpo1.cli]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="b">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="loc" COLUMN="loc" CLASS="loc" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="ref" COLUMN="ref" CLASS="ref" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="po115-b167o" NAME="b" CLASS="act" ORDER="2" LEVEL="2" LINE="6">
+    <ELEMENT NAME="line" CLASS="line"><core>6</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>b</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>baptismos bpo1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>act</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="dia" CLASS="undef">
+         <core><![CDATA[15]]></core>   </ELEMENT>
+   <ELEMENT NAME="mes" CLASS="undef">
+         <core><![CDATA[3]]></core>   </ELEMENT>
+   <ELEMENT NAME="ano" CLASS="undef">
+         <core><![CDATA[1670]]></core>   </ELEMENT>
+   <ELEMENT NAME="dian" CLASS="undef">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+   <ELEMENT NAME="mesn" CLASS="undef">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+   <ELEMENT NAME="anon" CLASS="undef">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+   <ELEMENT NAME="celebrante" CLASS="undef">
+         <core><![CDATA[?]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Incluido em processo de ordenacao cx.1645,p.19 [115]]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16700315]]></core>   </ELEMENT>
+   <ELEMENT NAME="type" CLASS="type">
+         <core><![CDATA[b]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="person" SUPER="entity" TABLE="persons" GROUP="n">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="name" COLUMN="name" CLASS="name" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="sex" COLUMN="sex" CLASS="sex" TYPE="char" SIZE="1" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="po115-b167o-per1" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="8">
+    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>3</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[sebastiao]]></core>   </ELEMENT>
+   <ELEMENT NAME="sexo" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="relation" SUPER="entity" TABLE="relations" GROUP="relation">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="origin" COLUMN="origin" CLASS="origin" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="destination" COLUMN="destination" CLASS="destination" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="po115-b167o-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="8">
+    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>4</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>b</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela1</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-per1-per2" NAME="pai" CLASS="person" ORDER="5" LEVEL="4" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>pai</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>5</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[sebastiao ferreira]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per1-rela2" NAME="relation"  ORDER="6" LEVEL="5" CLASS="relation" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>6</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>b</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-rela2</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP><CLASS NAME="attribute" SUPER="entity" TABLE="attributes" GROUP="ls">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="entity" COLUMN="entity" CLASS="entity" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="po115-b167o-per1-per2-att1-2" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="5" LINE="11">
+    <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-per2-att1-2</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1-per2</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>7</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[residencia]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[vale do freixo]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[po115-b167o-per1-per2-att1-2]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[po115-b167o-per1-per2]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16700315]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per1-per3" NAME="mae" CLASS="person" ORDER="8" LEVEL="4" LINE="13">
+    <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>mae</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[francisca goncalves]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per1-rela3" NAME="relation"  ORDER="9" LEVEL="5" CLASS="relation" LINE="13">
+    <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>9</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>b</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-rela3</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-per4" NAME="mad" CLASS="person" ORDER="10" LEVEL="4" LINE="15">
+    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per4</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>mad</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>10</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[maria gaspar]]></core>   </ELEMENT>
+   <ELEMENT NAME="mesmo_que" CLASS="undef">
+         <core><![CDATA[c1693.32-p5]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per1-rela4" NAME="relation"  ORDER="11" LEVEL="5" CLASS="relation" LINE="15">
+    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per4</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>11</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>mad</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>b</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per4</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-rela4</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-per5" NAME="mrmad" CLASS="person" ORDER="13" LEVEL="5" LINE="17">
+    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per5</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>mrmad</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per4</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>13</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[antonio madeira]]></core>   </ELEMENT>
+   <ELEMENT NAME="sexo" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="mesmo_que" CLASS="undef">
+         <core><![CDATA[c1688.7-p4]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per4-rela6" NAME="relation"  ORDER="14" LEVEL="6" CLASS="relation" LINE="17">
+    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per5</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>14</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>mrmad</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>b</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per5</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per4-rela6</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-per6" NAME="pad" CLASS="person" ORDER="16" LEVEL="4" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>pad</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>16</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[manuel mateus]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per1-rela8" NAME="relation"  ORDER="17" LEVEL="5" CLASS="relation" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per6</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>17</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>pad</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>b</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per6</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-rela8</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-per6-att2-2" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="5" LINE="19">
+    <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6-att2-2</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per6</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>18</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[profissao]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[padre]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[po115-b167o-per6-att2-2]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[po115-b167o-per6]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16700315]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-per6-att3-2" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="5" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6-att3-2</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per6</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[titulo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[frei]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[po115-b167o-per6-att3-2]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[po115-b167o-per6]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16700315]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="po115-b167o-rela9" NAME="relation"  ORDER="20" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>20</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>parent</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela9</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela10" NAME="relation"  ORDER="21" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>21</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>parent</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per5</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per4</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela10</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela11" NAME="relation"  ORDER="22" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>22</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>parent</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela11</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela12" NAME="relation"  ORDER="23" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>23</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>co-parent</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela12</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela13" NAME="relation"  ORDER="24" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>24</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>co-parent</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela13</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela14" NAME="relation"  ORDER="25" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>25</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>couple</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela14</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela15" NAME="relation"  ORDER="26" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>26</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>*family</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>couple</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela15</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela16" NAME="relation"  ORDER="27" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>27</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela16</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela17" NAME="relation"  ORDER="28" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>28</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela17</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-rela18" NAME="relation"  ORDER="29" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>29</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-rela18</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-atra6073" NAME="ls"  ORDER="30" LEVEL="6" CLASS="attribute" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>30</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
+    <ELEMENT NAME="entity" CLASS="entity"><core>po115-b167o-per1-per2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-atra6073</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<GROUP ID="po115-b167o-atra6074" NAME="ls"  ORDER="31" LEVEL="6" CLASS="attribute" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>31</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
+    <ELEMENT NAME="entity" CLASS="entity"><core>po115-b167o-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-atra6074</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<RELATION ID="po115-b167o-per1-rela5" ORG="po115-b167o-per4" DEST="c1693.32-p5" TYPE="META" VALUE="same_as"/>
+<GROUP ID="po115-b167o-per1-rela5" NAME="relation"  ORDER="12" LEVEL="5"  CLASS="relation" LINE="15">
+    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>12</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per4</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>c1693.32-p5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-rela5</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP>
+<RELATION ID="po115-b167o-per4-rela7" ORG="po115-b167o-per5" DEST="c1688.7-p4" TYPE="META" VALUE="same_as"/>
+<GROUP ID="po115-b167o-per4-rela7" NAME="relation"  ORDER="15" LEVEL="6"  CLASS="relation" LINE="17">
+    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per4</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>15</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>6</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>po115-b167o-per5</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>c1688.7-p4</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per4-rela7</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
+</GROUP></KLEIO>

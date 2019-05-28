@@ -2,20 +2,6 @@
 
 This directory contains source files in kleio notation collected in the scope of the Timelink/MHK project.
 
-## Usage
-
-This repository should be forked to a new repository with the name of the new community project. 
-
-On Azure DevOps:
-
-
-On GitHub:
-
-
-Then, clone on work computer with:
-
-
-
 ## What is Timelink?
 
 Timelink, formerly known as MHK (Micro History with Kleio) is an information system designed for processing person related information collected from historical sources. 
@@ -28,11 +14,17 @@ Timelink provides:
 
 Timelink is open source MIT License software available at http://github.com/joaquimrcarvalho/timelink
 
-## Source collections included in this repository
+## Sources included in this repository
 
-* <NAME OF COMMUNITY RELATED TO THIS REPOSITORY>
+Esta directoria contém registos paroquiais e outras fontes relativas à paróquia de Soure, diocese de Coimbra, Portugal, entre  1680 e 1732. 
 
-    <BRIEF DESCRIPTION: TYPES OF HISTORICAL SOURCES, CRONOLOGY, PURPOSE.
+As fontes incluídas na directoria soure_fase1 foram recolhidas por Joaquim Ramos de Carvalho como parte da investigação conducente à dissertação de doutoramento _Comportamentos Morais e Estruturas Sociais numa paróquia de Antigo Regime (Soure, 1680-1720)_. Universidade de Coimbra, 1997 e foram a primeira aplicação da abordagem que mais tarde deu origem ao Timelink. 
+
+As fontes incluídas em soure_fase2, correspondem ao período 1721-1735 e foram recolhidas por Fernando José Gouveia Pais no âmbito da dissertação de Mestrado intitulada _Reconstituição de uma comunidade histórica: Soure 1685/1735_, Universidade de Coimbra, 2010.
+
+A maior parte das fontes são registos paroquiais, mas na fase 1 existe um conjunto variado de fontes, incluindo documentos da Misericórdia de Soure, visitas pastorais, livros notariais e outras. Na fase 2 apenas foram recolhidos registos paroquiais.
+
+O formato das fontes da fase1 é por vezes diferente dos atualmente usados, uma vez que a recolha foi feita numa fase muito inicial de criação do sistema. 
 
 ## License
 
@@ -40,9 +32,10 @@ Timelink link software is distributed under a MIT license that includes usage fo
 
 Kleio transcriptions of historical sources are not distributed under the same license. 
 
+
 Each Kleio transcription file is copyright of the person or persons that produced the transcription.
 
-(c) Universidade de Coimbra, <OTHER PEOPLE OR INSTITUTIONS>.
+(c) Universidade de Coimbra, Joaquim Ramos de Carvalho e Fernando Gouveia Pais.
 
 _Files in this repository are covered by the Creative Commons 
 Attribution-NonCommmercial-ShareAlike 4.0 International_
