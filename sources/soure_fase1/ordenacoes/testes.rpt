@@ -1,0 +1,52 @@
+ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
+13-6-2019 22-50
+
+Processing data file testes.cli
+-------------------------------------------
+Generic Act translation module with geoentities (XML).
+     Joaquim Ramos de Carvalho (joaquim@uc.pt) 
+1: compatibilitySWI.pl
+2:     assert(remember_(Name,Value)).
+3:     assert(remember_(Name,Value)),!.
+4:    assert(prop_(Atom,Prop,Value)).
+5:    assert(prop_(Atom,Prop,Value)).
+6: dataDictionary.pl
+7:     assert(clioStru(File)),         % store a structure predicate %
+8:    assert(clioGroup(Group,Id)),!.
+9:    assert(clioElement(Element,Id)),!.
+10: gacto.pl
+11:                   assert(rel_ref(PESSOA-NOME,IDDEST2,NOMEDEST))),
+
+ERROR: testes.cli line 11 ** Failure: undefined element. 
+Near line: 11                   assert(rel_ref(PESSOA-NOME,IDDEST2,NOMEDEST))),
+Near line: 12     assert(mesmo(ID,MKEY)),% registamos a equivalencia */
+
+12:     assert(mesmo(ID,MKEY)),% registamos a equivalencia */
+13:     assert(rpessoa(KEY,NOME)),
+14:     assert(rpessoa(KEY,NOME)),
+15:     assert(externa(KEY)),
+16: gactoxml.pl
+17:       assert(group_path(NewPath)),!.
+18:    	  assert(attribute_cache(AncId,ID,T,V)),
+19:         assert(used_id(Id)),!.
+20:    get_group_id(Group,Id,Id0) :- check_id_prefix(Id0,Id),put_value(Group,Id),\+ used_id(Id),assert(used_id(Id)),!. % If everything fails accept the kleio auto id
+21:       assert(carel(Group,Group2,Type,Value),true),fail.
+22:       assert(carel(Person,Person2,Type,Value)).
+23:       assert(carelnot(Person,Person2)),fail.
+24: struSyntax.pl
+25: storeGroupDoc(gdoc(G,DOC)):- assert(gdoc(G,DOC)),put_value(lastGroupDoc,G).
+
+ERROR: testes.cli line 25 **  unknown element: G.
+Near line: 25 storeGroupDoc(gdoc(G,DOC)):- assert(gdoc(G,DOC)),put_value(lastGroupDoc,G).
+Near line: 26 storeElementDoc(edoc(E,DOC)):- (get_value(lastGroupDoc,G);G='*'),assert(edoc(G,E,DOC)).
+
+26: storeElementDoc(edoc(E,DOC)):- (get_value(lastGroupDoc,G);G='*'),assert(edoc(G,E,DOC)).
+27: topLevel.pl
+28:      assert(cmd(OldCmd,NewTokens)),!.
+29:      assert(cmd(Command,Tokens)),!.
+30:      assert(cmd(Command,Tokens)),!.
+31: utilities.pl
+32: setgensymbol(S,N):- assert(current_num(S,N)),!.*** End of File
+2  errors. 
+0  warnings.
+Translation finished.

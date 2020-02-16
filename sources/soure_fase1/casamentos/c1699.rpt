@@ -1,11 +1,12 @@
 ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 14-7
+13-6-2019 22-48
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli
+Processing data file c1699.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
+1: kleio$gacto.str/gactoxml.str
 =========================
 kleio translation started
 =========================
@@ -15,124 +16,660 @@ Autorel:
 Translation count: 
 Obs: 
 Translation count not set or invalid, counting as zero: 
+2:    fonte$casamentos 1699/tipo=reg paroquiais/data=16990000/localizacao=?
+3: 
 ** Processing source fonte$casamentos 1699
+4:       cas$c1699-122/7/1/1699/igreja matriz/luis alvares pinto/obs=dispensados em terceiro grau de consaguinidade
+5: 
 6: cas$c1699-122
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:24:destination id of "same as" not found. Will check again at the end of file.
-
+6:          noivo$paulo antunes/id=c122-1
+7: 
+8:          pnoivo$domingos antunes/id=c122-2
+9:             ls$residencia/casal das brancas
+10:             ls$morto/antes
+11: 
+12:          mnoivo$maria mateus/id=c122-3
+13:             ls$residencia/casal das brancas
+14:             ls$morta/antes
+15: 
+16:          noiva$catarina fernandes/id=c122-4
+17: 
+18:          pnoiva$manuel ferreira/id=c122-5
+19:             ls$residencia/casal das brancas
+20: 
+21:          mnoiva$isabel goncalves/id=c122-6
+22: 
+23:          test$paulo ribeiro cabral/id=c122-7/mesmo_que=c24-7
 
 WARNING: c1699.cli line 23 destination id of "same as" not found. Will check again at the end of file.
 Near line: 23          test$paulo ribeiro cabral/id=c122-7/mesmo_que=c24-7
 Near line: 24             ls$residencia/soure
 
+24:             ls$residencia/soure
+25:             ls$cargo/capitao-mor
+26: 
+27:          test$domingos goncalves/id=c122-8
+28:             ls$residencia/soure
+29: 
+30:       cas$c1699-123/7/1/1699/igreja matriz/frei jose pinto, beneficiado
+31: 
 32: cas$c1699-123
+32:          noivo$manuel ramos/id=c123-1
+33: 
+34:          pnoivo$manuel ramos/id=c123-2
+35:             ls$residencia/casal dos cavaleiros
+36: 
+37:          mnoivo$maria joao/id=c123-3
+38:             ls$morta/antes
+39: 
+40:          noiva$isabel rodrigues/id=c123-4
+41: 
+42:          pnoiva$manuel francisco/id=c123-5
+43:             ls$residencia/alencarce de cima
+44: 
+45:          mnoiva$domingas rodrigues/id=c123-6
+46:             ls$morta/antes
+47: 
+48:          test$manuel jorge/id=c123-7
+49:             ls$residencia/alencarce
+50: 
+51:          test$sebastiao goncalves/id=c123-8
+52:             ls$residencia/soure
+53: 
+54:       cas$c1699-124/7/1/1699/igreja matriz/frei jose pinto beneficiado
+55: 
 56: cas$c1699-124
+56:          noivo$alexandre gomes/id=c124-1
+57: 
+58:          pnoivo$manuel gomes/id=c124-2
+59:             ls$residencia/paleao
+60:             ls$morto/antes
+61: 
+62:          mnoivo$maria simoes/id=c124-3
+63:             ls$residencia/paleao
+64:             ls$morta/antes
+65: 
+66:          noiva$ana esteves/id=c124-4
+67: 
+68:          pnoiva$manuel mateus/id=c124-5
+69:             ls$residencia/paleao
+70: 
+71:          mnoiva$ana esteves/id=c124-6
+72: 
+73:          test$joao gaspar/id=c124-7
+74:             ls$residencia/paleao
+75: 
+76:          test$joao soares/id=c124-8
+77:             ls$residencia/paleao
+78: 
+79:       cas$c1699-125/15/2/1699/igreja da misericordia/frei manuel duarte de morais, beneficiado
+80: 
 81: cas$c1699-125
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:105:destination id of "same as" not found. Will check again at the end of file.
-
+81:          referido$manuel duarte morais/id=c125-r1
+82:             ls$profissao/padre
+83:             ls$cargo/beneficiado da igreja de Soure
+84: 
+85:          noivo$manuel goncalves/id=c125-1
+86: 
+87:          pnoivo$pedro jorge/id=c125-2
+88:             ls$residencia/casal de assamassa
+89: 
+90:          mnoivo$maria goncalves/id=c125-3
+91: 
+92:          noiva$antonia ferreira/id=c125-4
+93: 
+94:          pnoiva$domingos rodrigues/id=c125-5
+95:             ls$residencia/casal do rei
+96:             ls$morto/antes
+97: 
+98:          mnoiva$antonia francisca/id=c125-6
+99:             ls$residencia/casal do rei
+100: 
+101:          test$manuel soares coelho/id=c125-7
+102:             ls$residencia/soure
+103: 
+104:          test$vicente colaco/id=c125-8/mesmo_que=c104-7
 
 WARNING: c1699.cli line 104 destination id of "same as" not found. Will check again at the end of file.
 Near line: 104          test$vicente colaco/id=c125-8/mesmo_que=c104-7
 Near line: 105             ls$residencia/soure
 
+105:             ls$residencia/soure
+106: 
+107:          test$mateus goncalves/id=c125-9
+108:             ls$residencia/soure
+109: 
+110:       cas$c1699-126/16/2/1699/igreja matriz/luis alvares pinto
+111: 
 112: cas$c1699-126
+112:          noivo$francisco rodrigues/id=c126-1
+113: 
+114:          pnoivo$francisco simoes/id=c126-2
+115:             ls$residencia/paleao
+116: 
+117:          mnoivo$francisca rodrigues/id=c126-3
+118: 
+119:          noiva$maria rodrigues/id=c126-4
+120: 
+121:          pnoiva$domingos manuel/id=c126-5
+122:             ls$residencia/casal novo
+123:             ls$morto/antes
+124: 
+125:          mnoiva$filipa rodrigues/id=c126-6
+126:             ls$residencia/casal novo
+127: 
+128:          test$joao simoes/id=c126-7
+129:             ls$residencia/casal novo
+130: 
+131:          test$jorge martins/id=c126-8
+132:             ls$residencia/casal novo
+133: 
+134:          test$francisco rodrigues/id=c126-9
+135:             ls$residencia/paleao
+136: 
+137:       cas$c1699-127/16/2/1699/Ermida do Espirito Santo dos Casais/padre domingos goncalves/obs= o padre domingos goncalves ja tinha casado outra filha de Mateus Goncalves e de Maria Simoes. Ver casamento 120a Os pais dos noivos nao sao registados explicitamente como marido e mulher.
+138: 
 139: cas$c1699-127
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:140:destination id of "same as" not found. Will check again at the end of file.
-
+139:          referido$domingos goncalves/id=c127-r1/mesmo_que=c2-7
 
 WARNING: c1699.cli line 139 destination id of "same as" not found. Will check again at the end of file.
 Near line: 139          referido$domingos goncalves/id=c127-r1/mesmo_que=c2-7
 Near line: 140             ls$residencia/casais do espirito santo/obs=celebra casamento em 16/2/1699
 
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:141:** Failure: undefined element. 
-
+140:             ls$residencia/casais do espirito santo/obs=celebra casamento em 16/2/1699
 
 ERROR: c1699.cli line 140 ** Failure: undefined element. 
 Near line: 140             ls$residencia/casais do espirito santo/obs=celebra casamento em 16/2/1699
 Near line: 141             ls$profissao/padre
 
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:159:destination id of "same as" not found. Will check again at the end of file.
-
+141:             ls$profissao/padre
+142: 
+143:          noivo$manuel jorge/id=c127-1
+144:             ls$freguesia/condeixa-a-velha
+145:             ls$residencia/cumeixeira, freguesia de condeixa-a-velha
+146: 
+147:          pnoivo$antonio fernandes/id=c127-2
+148:             ls$residencia/cumeixeira, freguesia de condeixa-a-velha
+149:             ls$morto/antes
+150:             ls$freguesia/condeixa-a-velha
+151: 
+152:          mnoivo$maria jorge/id=c127-3
+153:             ls$residencia/cumeixeira, freguesia de condeixa-a-velha
+154:             ls$freguesia/condeixa-a-velha
+155: 
+156:          noiva$francisca simoes/id=c127-4
+157: 
+158:          pnoiva$mateus goncalves/id=c127-5/mesmo_que=c120a-5
 
 WARNING: c1699.cli line 158 destination id of "same as" not found. Will check again at the end of file.
 Near line: 158          pnoiva$mateus goncalves/id=c127-5/mesmo_que=c120a-5
 Near line: 159             ls$morto/antes
 
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:163:destination id of "same as" not found. Will check again at the end of file.
-
+159:             ls$morto/antes
+160:             ls$residencia/casal do espirito santo
+161: 
+162:          mnoiva$maria simoes/id=c127-6/mesmo_que=c120a-6
 
 WARNING: c1699.cli line 162 destination id of "same as" not found. Will check again at the end of file.
 Near line: 162          mnoiva$maria simoes/id=c127-6/mesmo_que=c120a-6
 Near line: 163             ls$residencia/casal do espirito santo
 
+163:             ls$residencia/casal do espirito santo
+164: 
+165:          test$manuel goncalves/id=c127-7
+166:             ls$residencia/casal do espirito santo
+167: 
+168:          test$antonio simoes/id=c127-8
+169:             ls$residencia/casal de assamassa
+170: 
+171:          test$jose velho/id=c127-9
+172:             ls$residencia/soure
+173: 
+174:       cas$c1699-128/22/2/1699/igreja matriz/luis alvares pinto
+175: 
 176: cas$c1699-128
+176:          noivo$manuel martins/id=c128-1
+177:             ls$freguesia/ega
+178:             ls$residencia/ega, freguesia da ega
+179: 
+180:          pnoivo$joao simoes/id=c128-2
+181:             ls$residencia/ega, freguesia da ega
+182:             ls$freguesia/ega
+183:             ls$morto/antes
+184: 
+185:          mnoivo$isabel martins/id=c128-3
+186:             ls$residencia/ega, freguesia da ega
+187:             ls$freguesia/ega
+188:             ls$morta/antes
+189: 
+190:          noiva$catarina antunes/id=c128-4
+191: 
+192:          pnoiva$manuel antunes/id=c128-5
+193:             ls$residencia/alencarce de cima
+194: 
+195:          mnoiva$ana rodrigues/id=c128-6
+196: 
+197:          test$sebastiao gomes/id=c128-7
+198:             ls$residencia/ega, freguesia da ega
+199:             ls$freguesia/ega
+200: 
+201:          test$antonio rodrigues/id=c128-8
+202:             ls$residencia/alencarce
+203: 
+204:       cas$c1699-129/2/3/1699/igreja matriz/luis alvares pinto
+205: 
 206: cas$c1699-129
+206:          noivo$pedro goncalves/id=c129-1
+207:             ls$freguesia/granja do ulmeiro
+208: 
+209:          pnoivo$diogo goncalves/id=c129-2
+210:             ls$residencia/freguesia de granja do ulmeiro
+211:             ls$morto/antes
+212:             ls$freguesia/granja do ulmeiro
+213: 
+214:          mnoivo$maria rodrigues/id=c129-3
+215:             ls$residencia/freguesia de granja do ulmeiro
+216:             ls$freguesia/granja do ulmeiro
+217:             ls$morta/antes
+218: 
+219:          noiva$maria do espirito santo/id=c129-4
+220: 
+221:          pnoiva$antonio pires/id=c129-5
+222:             ls$residencia/assamassa
+223: 
+224:          mnoiva$maria goncalves/id=c129-6
+225:             ls$morta/antes
+226: 
+227:          test$manuel goncalves galhardo/id=c129-7
+228:             ls$residencia/soure
+229:             ls$profissao/padre
+230:             ls$titulo/frei
+231: 
+232:          test$domingos goncalves galhardo/id=c129-8
+233:             ls$residencia/soure
+234:             ls$titulo/licenciado
+235: 
+236:          test$manuel goncalves/id=c129-9
+237:             ls$residencia/casal da amoreira
+238: 
+239:       cas$c1699-130/6/4/1699/igreja matriz/luis alvares pinto
+240: 
 241: cas$c1699-130
+241:          noivo$manuel rodrigues/id=c130-1
+242: 
+243:          pnoivo$tome rodrigues/id=c130-2
+244:             ls$residencia/casal da venda%casal da venda do sobral
+245:             ls$morto/antes
+246: 
+247:          mnoivo$maria francisca/id=c130-3
+248:             ls$residencia/casal da venda%casal da venda do sobral
+249:             ls$morta/antes
+250: 
+251:          noiva$maria tome/id=c130-4
+252:             ls$residencia/casal dos beltroes
+253: 
+254:          pnoiva$manuel luis/id=c130-5
+255:             ls$residencia/alencarce de cima
+256:             ls$morto/antes
+257: 
+258:          mnoiva$maria tome/id=c130-6
+259:             ls$residencia/alencarce de cima
+260:             ls$morta/antes
+261: 
+262:          test$sebastiao goncalves/id=c130-7
+263:             ls$residencia/soure
+264: 
+265:          test$manuel luis/id=c130-8
+266:             ls$residencia/vale da borra
+267: 
+268:       cas$c1699-131/8/6/1699/igreja matriz/luis alvares pinto/obs=dispensa em 4.o grau de afinidade
+269: 
 270: cas$c1699-131
+270:          noivo$manuel francisco/id=c131-1
+271: 
+272:          pnoivo$joao francisco/id=c131-2
+273:             ls$residencia/casal dos bechos
+274: 
+275:          mnoivo$sebastiana francisca/id=c131-3
+276: 
+277:          noiva$sebastiana rodrigues/id=c131-4
+278:             rel$parentesco/grau 4a/manuel francisco/c131-1
+279:             ls$residencia/alencarce de cima
+280: 
+281:          pnoiva$manuel rodrigues/id=c131-5
+282:             ls$residencia/porto coelheiro
+283:             ls$morto/antes
+284: 
+285:          mnoiva$isabel rodrigues/id=c131-6
+286:             ls$morta/antes
+287:             ls$residencia/porto coelheiro
+288: 
+289:          test$manuel rodrigues/id=c131-7
+290:             ls$residencia/porto coelheiro
+291:             ls$profissao/estudante
+292: 
+293:          test$joao francisco/id=c131-8
+294:             ls$residencia/bechos
+295: 
+296:          test$luis goncalves/id=c131-9
+297:             ls$residencia/bechos
+298: 
+299:       cas$c1699-132/30/8/1699/igreja matriz/luis alvares pinto
+300: 
 301: cas$c1699-132
+301:          noivo$domingos jorge/id=c132-1
+302: 
+303:          pnoivo$manuel jorge/id=c132-2
+304:             ls$residencia/sobral
+305:             ls$morto/antes
+306: 
+307:          mnoivo$maria rodrigues/id=c132-3
+308:             ls$residencia/sobral
+309:             ls$morta/antes
+310: 
+311:          noiva$antonia jorge/id=c132-4
+312: 
+313:          pnoiva$joao dias/id=c132-5
+314:             ls$residencia/sobral
+315:             ls$morto/antes
+316: 
+317:          mnoiva$maria jorge/id=c132-6
+318:             ls$residencia/sobral
+319: 
+320:          test$manuel jorge/id=c132-7
+321:             ls$residencia/sobral
+322: 
+323:          test$antonio jorge/id=c132-8
+324:             ls$residencia/sobral
+325: 
+326:          test$joao dias/id=c132-9
+327:             ls$residencia/sobral
+328: 
+329:       cas$c1699-133/31/8/1699/igreja matriz/luis alvares pinto/obs=dispensados em 4.o grau de consguinidade
+330: 
 331: cas$c1699-133
+331:          noivo$antonio rodrigues/id=c133-1
+332: 
+333:          pnoivo$simao rodrigues/id=c133-2
+334:             ls$residencia/quinta de porto coelheiro
+335: 
+336:          mnoivo$maria joao/id=c133-3
+337:             ls$morta/antes
+338: 
+339:          noiva$maria rodrigues/id=c133-4
+340:             rel$parentesco/grau 4c/simao rodrigues/c133-2
+341: 
+342:          pnoiva$joao rodrigues/id=c133-5
+343:             ls$residencia/quinta de porto coelheiro
+344:             ls$morto/antes
+345: 
+346:          mnoiva$ana henriques/id=c133-6
+347:             ls$residencia/quinta de porto coelheiro
+348: 
+349:          test$jose vaz/id=c133-7
+350:             ls$residencia/laranjeiras
+351: 
+352:          test$simao domingues/id=c133-8
+353:             ls$residencia/quinta de porto coelheiro
+354: 
+355:          test$bento martins/id=c133-9
+356:             ls$residencia/quinta de porto coelheiro
+357: 
+358:       cas$c1699-134/21/9/1699/igreja matriz/luis alvares pinto
+359: 
 360: cas$c1699-134
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:377:destination id of "same as" not found. Will check again at the end of file.
-
+360:          noivo$miguel francisco/id=c134-1
+361: 
+362:          pnoivo$manuel francisco/id=c134-2
+363:             ls$residencia/soure
+364:             ls$morto/antes
+365: 
+366:          mnoivo$isabel goncalves/id=c134-3
+367:             ls$residencia/soure
+368: 
+369:          noiva$maria jeronima/id=c134-4
+370: 
+371:          pnoiva$manuel carvalho/id=c134-5
+372:             ls$residencia/soure
+373: 
+374:          mnoiva$domingas jeronima/id=c134-6
+375: 
+376:          test$manuel homem de quadros/id=c134-7/mesmo_que=c6-7
 
 WARNING: c1699.cli line 376 destination id of "same as" not found. Will check again at the end of file.
 Near line: 376          test$manuel homem de quadros/id=c134-7/mesmo_que=c6-7
 Near line: 377             ls$residencia/soure
 
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:383:destination id of "same as" not found. Will check again at the end of file.
-
+377:             ls$residencia/soure
+378: 
+379:          test$luis coelho dos reis/id=c134-8
+380:             ls$residencia/soure
+381: 
+382:          test$vicente colaco/id=c134-9/mesmo_que=c104-7
 
 WARNING: c1699.cli line 382 destination id of "same as" not found. Will check again at the end of file.
 Near line: 382          test$vicente colaco/id=c134-9/mesmo_que=c104-7
 Near line: 383             ls$residencia/soure
 
+383:             ls$residencia/soure
+384: 
+385:       cas$c1699-135/25/10/1699/igreja matriz/luis alvares pinto
+386: 
 387: cas$c1699-135
+387:          noivo$gaspar rodrigues/id=c135-1
+388: 
+389:          pnoivo$antonio dinis/id=c135-2
+390:             ls$residencia/casal das areias/obs=existem areias do pinheiro nao longe de podengos
+391: 
+392:          mnoivo$maria rodrigues/id=c135-3
+393: 
+394:          noiva$antonia rodrigues/id=c135-4
+395: 
+396:          pnoiva$antonio goncalves/id=c135-5
+397:             ls$residencia/casal dos podengos
+398: 
+399:          mnoiva$isabel rodrigues/id=c135-6
+400: 
+401:          test$antonio madeira/id=c135-7
+402:             ls$residencia/casal das areias
+403: 
+404:          test$gaspar antunes/id=c135-8
+405:             ls$residencia/casal das areias
+406: 
+407:          test$manuel gomes/id=c135-9
+408:             ls$residencia/podengos
+409: 
+410:       cas$c1699-136/2/11/1699/igreja matriz/luis alvares pinto
+411: 
 412: cas$c1699-136
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:415:destination id of "same as" not found. Will check again at the end of file.
-
+412:          noivo$tome dias/id=c136-1
+413: 
+414:          pnoivo$mateus dias/id=c136-2/mesmo_que=c59-5
 
 WARNING: c1699.cli line 414 destination id of "same as" not found. Will check again at the end of file.
 Near line: 414          pnoivo$mateus dias/id=c136-2/mesmo_que=c59-5
 Near line: 415             ls$residencia/bonitos/obs=notar a variacao na residencia
 
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:419:destination id of "same as" not found. Will check again at the end of file.
-
+415:             ls$residencia/bonitos/obs=notar a variacao na residencia
+416: 
+417:          mnoivo$maria luis/id=c136-3/mesmo_que=c59-6
+418: 
 
 WARNING: c1699.cli line 418 destination id of "same as" not found. Will check again at the end of file.
 Near line: 418 
 Near line: 419          noiva$manuela de oliveira/id=c136-4
 
+419:          noiva$manuela de oliveira/id=c136-4
+420: 
+421:          pnoiva$antonio gomes/id=c136-5
+422:             ls$residencia/bonitos
+423: 
+424:          mnoiva$domingas de oliveira/id=c136-6
+425: 
+426:          test$manuel francisco canenho?/id=c136-7
+427:             ls$residencia/soure
+428: 
+429:          test$diogo domingues/id=c136-8
+430:             ls$residencia/simoes
+431: 
+432:          test$manuel joao caldeiro/id=c136-9
+433:             ls$residencia/bonitos
+434: 
+435:       cas$c1699-137/17/11/1699/igreja matriz/luis alvares pinto
+436: 
 437: cas$c1699-137
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:458:destination id of "same as" not found. Will check again at the end of file.
-
+437:          noivo$manuel rodrigues/id=c137-1
+438: 
+439:          pnoivo$diogo rodrigues/id=c137-2
+440:             ls$residencia/vale da borra
+441:             ls$morto/antes
+442: 
+443:          mnoivo$maria francisca/id=c137-3
+444:             ls$residencia/vale da borra
+445: 
+446:          noiva$maria rodrigues/id=c137-4
+447: 
+448:          pnoiva$simao jorge/id=c137-5
+449:             ls$residencia/casal de marzagao
+450: 
+451:          mnoiva$maria rodrigues/id=c137-6
+452: 
+453:          test$manuel jorge/id=c137-7
+454:             ls$residencia/santo izidro
+455:             ls$alcunha/moco
+456: 
+457:          test$manuel rodrigues pachancas?/id=c137-8/mesmo_que=c116-9
 
 WARNING: c1699.cli line 457 destination id of "same as" not found. Will check again at the end of file.
 Near line: 457          test$manuel rodrigues pachancas?/id=c137-8/mesmo_que=c116-9
 Near line: 458             ls$residencia/sobral
 
+458:             ls$residencia/sobral
+459: 
+460:          test$domingos joao palaio/id=c137-9
+461:             ls$residencia/mogadouro
+462: 
+463:       cas$c1699-138/23/11/1699/igreja matriz/frei jose pinto beneficiado
+464: 
 465: cas$c1699-138
+465:          noivo$manuel rodrigues/id=c138-1
+466: 
+467:          pnoivo$luis rodrigues/id=c138-2
+468:             ls$residencia/casal dos feijoes
+469: 
+470:          mnoivo$maria simoes/id=c138-3
+471: 
+472:          noiva$catarina esteves/id=c138-4
+473: 
+474:          pnoiva$manuel francisco/id=c138-5
+475:             ls$residencia/casal do barril
+476:             ls$morto/antes
+477: 
+478:          mnoiva$maria esteves/id=c138-6
+479:             ls$residencia/casal do barril
+480: 
+481:          test$sebastiao goncalves/id=c138-7
+482:             ls$residencia/soure
+483: 
+484:          test$domingos goncalves/id=c138-8
+485:             ls$residencia/soure
+486: 
+487:       cas$c1699-139/26/11/1699/igreja matriz/luis alvares pinto
+488: 
 489: cas$c1699-139
+489:          noivo$domingos francisco/id=c139-1
+490:             ls$freguesia/vinha da rainha
+491:             ls$residencia/casal de mira olhos, freguesia de vinha da rainha
+492: 
+493:          pnoivo$manuel francisco/id=c139-2
+494:             ls$residencia/casal de mira olhos, freguesia de vinha da rainha
+495:             ls$freguesia/vinha da rainha
+496:             ls$morto/antes
+497: 
+498:          mnoivo$maria francisca/id=c139-3
+499:             ls$residencia/casal de mira olhos, freguesia de vinha da rainha
+500:             ls$freguesia/vinha da rainha
+501: 
+502:          noiva$antonia domingues/id=c139-4
+503: 
+504:          pnoiva$joao rodrigues/id=c139-5
+505:             ls$residencia/sobral
+506: 
+507:          mnoiva$antonia domingues/id=c139-6
+508: 
+509:          test$joao alves/id=c139-7
+510:             ls$residencia/quinta dos almeidas, freguesia de vinha da rainha
+511:             ls$freguesia/vinha da rainha
+512: 
+513:          test$jose alves/id=c139-8
+514:             ls$residencia/freguesia de vinha da rainha
+515: 
+516:          test$antonio lourenco/id=c139-9
+517:             ls$residencia/soure
+518: 
+519:       cas$c1699-140/26/11/1699/igreja matriz/luis alvares pinto
+520: 
 521: cas$c1699-140
+521:          noivo$joao lourenco/id=c140-1
+522: 
+523:          pnoivo$joao lourenco/id=c140-2
+524:             ls$residencia/simoes
+525: 
+526:          mnoivo$maria francisca/id=c140-3
+527: 
+528:          noiva$isabel rodrigues/id=c140-4
+529: 
+530:          pnoiva$joao rodrigues/id=c140-5
+531:             ls$residencia/sobral
+532: 
+533:          mnoiva$antonia jorge/id=c140-6
+534:             ls$morta/antes
+535: 
+536:          test$antonio lourenco/id=c140-7
+537:             ls$residencia/soure
+538: 
+539:          test$manuel rodrigues/id=c140-8
+540:             ls$residencia/sobral
+541:             ls$profissao/estudante
+542: 
+543:          test$antonio simoes/id=c140-9
+544:             ls$residencia/sobral
+545: 
+546:       cas$c1699-141/20/12/1699/igreja matriz/luis alvares pinto
+547: 
 548: cas$c1699-141
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1699.cli:566:destination id of "same as" not found. Will check again at the end of file.
-
+548:          noivo$antonio goncalves/id=c141-1
+549: 
+550:          pnoivo$antonio goncalves/id=c141-2
+551:             ls$residencia/assamassa
+552:             ls$morto/antes
+553: 
+554:          mnoivo$maria da costa/id=c141-3
+555:             ls$residencia/assamassa
+556: 
+557:          noiva$isabel goncalves/id=c141-4
+558: 
+559:          pnoiva$joao goncalves/id=c141-5
+560:             ls$residencia/assamassa
+561: 
+562:          mnoiva$maria carvalho/id=c141-6
+563:             ls$morta/antes
+564: 
+565:          test$domingos goncalves/id=c141-7/mesmo_que=c2-7
 
 WARNING: c1699.cli line 565 destination id of "same as" not found. Will check again at the end of file.
 Near line: 565          test$domingos goncalves/id=c141-7/mesmo_que=c2-7
 Near line: 566             ls$residencia/casais do espirito santo
 
-*** End of File
+566:             ls$residencia/casais do espirito santo
+567:             ls$profissao/padre
+568: 
+569:          test$manuel goncalves/id=c141-8
+570:             ls$residencia/amoreira
+571: 
+572:          test$antonio rodrigues/id=c141-9
+573:             ls$residencia/assamassa
+574: *** End of File
 ERROR:  Could not find same_as id c24-7 referred in line 24. If  original reference is on another file use xsame_as
 
 ERROR:  Could not find same_as id c104-7 referred in line 105. If  original reference is on another file use xsame_as

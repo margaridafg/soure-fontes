@@ -1,54 +1,1925 @@
 ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 14-23
+13-6-2019 22-49
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/irmaos_misericordia/eleicoes1.cli
+Processing data file eleicoes1.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
+1: kleio$gacto2.str/translations=2
 =========================
 kleio translation started
 =========================
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 2
 Obs: 
-Translation count not set or invalid, counting as zero: 
+2:    fonte$mis mesa1/tipo=livro de eleicoes datas/localizacao=arquivo da santa casa da misericordia de soure
+3: 
 ** Processing source fonte$mis mesa1
+4:       amz$amz1/2/7/1684/12/resumo=termo de eleicao de irmaos da mesa
+5: 
 6: amz$amz1
+6:          eleitor$ manuel homem de quadros/id=amz1-per1
+7: 
+8:          eleitor$ luis coelho/id=amz1-per2
+9:             ls$profissao/padre
+10:             ls$ec/solteiro
+11: 
+12:          eleitor$ paulo de almeida/id=amz1-per3
+13: 
+14:          eleitor$ sebastiao colaco/id=amz1-per4
+15: 
+16:          eleitor$ manuel francisco morais/id=amz1-per5
+17: 
+18:          eleitor$ sebastiao machado/id=amz1-per6
+19: 
+20:          eleitor$pedro de menezes/id=amz1-per7
+21:             ls$titulo/dom
+22: 
+23:          eleitor$ antonio lopes/id=amz1-per8
+24: 
+25:          eleitor$ joao goncalves/id=amz1-per9
+26:             ls$profissao/padre
+27:             ls$titulo/frei
+28:             ls$ec/solteiro
+29: 
+30:          eleitor$sebastiao goncalves/id=amz1-per10
+31: 
+32:          eleito$pedro de menezes/id=amz1-per11
+33:             ls$titulo/dom
+34:             ls$cargo/provedor
+35: 
+36:          eleito$manuel colaco/id=amz1-per12
+37:             ls$profissao/padre
+38:             ls$ec/solteiro
+39:             ls$titulo/frei
+40:             ls$cargo/escrivao
+41: 
+42:          eleito$manuel coelho/id=amz1-per13
+43:             ls$cargo/mordomo
+44: 
+45:          eleito$ luis coelho dos reis/id=amz1-per14
+46:             ls$titulo/licenciado
+47:             ls$cargo/irmao de maior condicao
+48: 
+49:          eleito$sebastiao colaco/id=amz1-per15
+50:             ls$cargo/irmao de maior condicao
+51: 
+52:          eleito$sebastiao soares coelho/id=amz1-per16
+53:             ls$cargo/irmao de maior condicao
+54: 
+55:          eleito$ antonio coelho de carvalho/id=amz1-per17
+56:             ls$titulo/licenciado
+57:             ls$cargo/irmao de maior condicao
+58: 
+59:          eleito$ amaro de pina/id=amz1-per18
+60:             ls$cargo/irmao de maior condicao
+61: 
+62:          eleito$jose velho/id=amz1-per19
+63:             ls$cargo/irmao de menor condicao
+64: 
+65:          eleito$manuel dias duqueso/id=amz1-per20
+66:             ls$cargo/irmao de menor condicao
+67: 
+68:          eleito$joao da fonseca/id=amz1-per21
+69:             ls$profissao/ferrador
+70:             ls$cargo/irmao de menor condicao
+71: 
+72:          eleito$manuel jorge/id=amz1-per22
+73:             ls$profissao/serralheiro
+74:             ls$cargo/irmao de menor condicao
+75: 
+76:          eleito$ antonio lourenco/id=amz1-per23
+77:             ls$cargo/irmao de menor condicao
+78: 
+
+ERROR: eleicoes1.cli line 78 ** fim unknown element: id.
+Near line: 78 
+Near line: 79       fim$/id=mis mesa1-end1-2
+
+79:       fim$/id=mis mesa1-end1-2
+80: 
+81:       amz$amz2/2/7/1685/15/resumo=termo de eleicao de irmaos da mesa
+82: 
 83: amz$amz2
+83:          eleitor$ pedro de menezes/id=amz2-per1
+84:             ls$titulo/dom
+85: 
+86:          eleitor$ luis coelho dos reis/id=amz2-per2
+87:             ls$titulo/licenciado
+88: 
+89:          eleitor$sebastiao colaco/id=amz2-per3
+90: 
+91:          eleitor$ sebastiao rodrigues/id=amz2-per4
+92:             ls$profissao/padre
+93: 
+94:          eleitor$ joao goncalves/id=amz2-per5
+95:             ls$profissao/padre
+96:             ls$titulo/frei
+97: 
+98:          eleitor$ manuel de tavora/id=amz2-per6
+99:             ls$titulo/doutor
+100: 
+101:          eleitor$ antonio de carvalho/id=amz2-per7
+102:             ls$titulo/licenciado
+103: 
+104:          eleitor$jose velho/id=amz2-per8
+105: 
+106:          eleito$pedro de menezes/id=amz2-per9
+107:             ls$titulo/dom
+108:             ls$cargo/provedor
+109: 
+110:          eleito$luis coelho dos reis/id=amz2-per10
+111:             ls$titulo/licenciado
+112:             ls$cargo/escrivao
+113: 
+114:          eleito$mateus goncalves/id=amz2-per11
+115:             ls$profissao/carpinteiro
+116:             ls$residencia/soure
+117:             ls$cargo/mordomo
+118: 
+119:          eleito$manuel de tavora, o moco/id=amz2-per12
+120:             ls$cargo/irmao de maior condicao
+121:             ls$alcunha/ moco
+122: 
+123:          eleito$jose pinto de abreu/id=amz2-per13
+124:             ls$cargo/irmao de maior condicao
+125: 
+126:          eleito$antonio lopes da silva/id=amz2-per14
+127:             ls$cargo/irmao de maior condicao
+128: 
+129:          eleito$bento gomes da costa/id=amz2-per15
+130:             ls$cargo/irmao de maior condicao
+131: 
+132:          eleito$mateus manhos de abreu/id=amz2-per16
+133:             ls$cargo/irmao de maior condicao
+134: 
+135:          eleito$joao rodrigues aceita/id=amz2-per17
+136:             ls$cargo/irmao de menor condicao
+137: 
+138:          eleito$manuel gomes lendea/id=amz2-per18
+139:             ls$cargo/irmao de menor condicao
+140: 
+141:          eleito$antonio rodrigues subtil/id=amz2-per19
+142:             ls$cargo/irmao de menor condicao
+143: 
+144:          eleito$joao rodrigues/id=amz2-per20
+145:             ls$cargo/irmao de menor condicao
+146:             ls$profissao/barbeiro
+147: 
+148:          eleito$jose velho/id=amz2-per21
+149:             ls$cargo/irmao de menor condicao
+150: 
+
+ERROR: eleicoes1.cli line 150 ** fim unknown element: id.
+Near line: 150 
+Near line: 151       fim$/id=mis mesa1-end2-2
+
+151:       fim$/id=mis mesa1-end2-2
+152: 
+153:       amz$amz3/2/7/1686/17/resumo=termo de eleicao de irmaos da mesa
+154: 
 155: amz$amz3
+155:          eleitor$ pedro de menezes/id=amz3-per1
+156:             ls$titulo/dom
+157: 
+158:          eleitor$joao de seabra jaques/id=amz3-per2
+159: 
+160:          eleitor$ joao colaco/id=amz3-per3
+161:             ls$profissao/padre
+162:             ls$titulo/dom
+163: 
+164:          eleitor$ domingos simoes/id=amz3-per4
+165:             ls$profissao/padre
+166: 
+167:          eleitor$manuel de tavora/id=amz3-per5
+168: 
+169:          eleitor$sebastiao goncalves/id=amz3-per6
+170: 
+171:          eleitor$antonio rodrigues subtil/id=amz3-per7
+172: 
+173:          eleitor$joao rodrigues/id=amz3-per8
+174:             ls$profissao/barbeiro
+175: 
+176:          eleitor$manuel coelho/id=amz3-per9
+177: 
+178:          eleitor$joao rodrigues aceita/id=amz3-per10
+179: 
+180:          eleito$ manuel homem de quadros/id=amz3-per11
+181:             ls$cargo/provedor
+182: 
+183:          eleito$ joao colaco/id=amz3-per12
+184:             ls$titulo/frade
+185:             ls$profissao/padre
+186:             ls$ec/solteiro
+187:             ls$cargo/escrivao
+188: 
+189:          eleito$ manuel dias duqueso/id=amz3-per13
+190:             ls$cargo/escrivao
+191: 
+192:          eleito$ antonio coelho de carvalho/id=amz3-per14
+193:             ls$titulo/licenciado
+194:             ls$cargo/irmao de maior condicao
+195: 
+196:          eleito$ sebastiao colaco leitao/id=amz3-per15
+197:             ls$cargo/irmao de maior condicao
+198: 
+199:          eleito$ manuel de tavora/id=amz3-per16
+200:             ls$cargo/irmao de maior condicao
+201: 
+202:          eleito$ amaro de pina/id=amz3-per17
+203:             ls$cargo/irmao de maior condicao
+204: 
+205:          eleito$ bento gomes da costa/id=amz3-per18
+206:             ls$cargo/irmao de maior condicao
+207: 
+208:          eleito$ antonio rodrigues subtil/id=amz3-per19
+209:             ls$cargo/irmao de menor condicao
+210: 
+211:          eleito$ miguel rodrigues/id=amz3-per20
+212:             ls$profissao/carpinteiro
+213:             ls$cargo/irmao de menor condicao
+214: 
+215:          eleito$ antonio lopes/id=amz3-per21
+216:             ls$profissao/sapateiro
+217:             ls$cargo/irmao de menor condicao
+218: 
+219:          eleito$ joao rodrigues aceita/id=amz3-per22
+220:             ls$cargo/irmao de menor condicao
+221: 
+222:          eleito$ jorge soeiro/id=amz3-per23
+223:             ls$cargo/irmao de menor condicao
+224: 
+
+ERROR: eleicoes1.cli line 224 ** fim unknown element: id.
+Near line: 224 
+Near line: 225       fim$/id=mis mesa1-end3-2
+
+225:       fim$/id=mis mesa1-end3-2
+226: 
+227:       amz$amz4/2/7/1687/19/resumo=termo de eleicao de irmaos da mesa
+228: 
 229: amz$amz4
+229:          eleitor$ pedro de menezes/id=amz4-per1
+230:             ls$titulo/dom
+231: 
+232:          eleitor$manuel homem de quadros/id=amz4-per2
+233: 
+234:          eleitor$ luis coelho dos reis/id=amz4-per3
+235:             ls$titulo/licenciado
+236: 
+237:          eleitor$sebastiao colaco leitao/id=amz4-per4
+238: 
+239:          eleitor$ joao de seabra jacques/id=amz4-per5
+240:             ls$cargo/capitao
+241: 
+242:          eleitor$manuel francisco de morais/id=amz4-per6
+243: 
+244:          eleitor$manuel de tavora/id=amz4-per7
+245: 
+246:          eleitor$amaro de pina/id=amz4-per8
+247: 
+248:          eleitor$bento gomes da costa/id=amz4-per9
+249: 
+250:          eleitor$ antonio de carvalho/id=amz4-per10
+251:             ls$titulo/licenciado
+252: 
+253:          eleito$ manuel homem de quadros/id=amz4-per11
+254:             ls$cargo/provedor
+255: 
+256:          eleito$ joao colaco/id=amz4-per12
+257:             ls$profissao/padre
+258:             ls$ec/solteiro
+259:             ls$cargo/escrivao
+260: 
+261:          eleito$ manuel dias duqueso/id=amz4-per13
+262:             ls$cargo/mordomo
+263: 
+264:          eleito$ antonio de carvalho coelho/id=amz4-per14
+265:             ls$cargo/irmao de maior condicao
+266:             ls$titulo/licenciado
+267: 
+268:          eleito$bento gomes da costa/id=amz4-per15
+269:             ls$cargo/irmao de maior condicao
+270: 
+271:          eleito$manuel de tavora/id=amz4-per16
+272:             ls$cargo/irmao de maior condicao
+273: 
+274:          eleito$sebastiao colaco leitao/id=amz4-per17
+275:             ls$cargo/irmao de maior condicao
+276: 
+277:          eleito$????/id=amz4-per18
+278:             ls$cargo/irmao de maior condicao
+279: 
+280:          eleito$domingos cardoso/id=amz4-per19
+281:             ls$cargo/irmao de menor condicao
+282:             ls$profissao/sapateiro
+283: 
+284:          eleito$manuel carvalho/id=amz4-per20
+285:             ls$cargo/irmao de menor condicao
+286:             ls$profissao/sapateiro
+287: 
+288:          eleito$lazaro de barros/id=amz4-per21
+289:             ls$cargo/irmao de menor condicao
+290: 
+291:          eleito$??? (jose) velho/id=amz4-per22
+292:             ls$cargo/irmao de menor condicao
+293: 
+294:          eleito$antonio fernandes/id=amz4-per23
+295:             ls$cargo/irmao de menor condicao
+296:             ls$profissao/sapateiro
+297: 
+
+ERROR: eleicoes1.cli line 297 ** fim unknown element: id.
+Near line: 297 
+Near line: 298       fim$/id=mis mesa1-end4-2
+
+298:       fim$/id=mis mesa1-end4-2
+299: 
+300:       amz$amz5/4/7/1688/21/resumo=termo de eleicao de irmaos da mesa
+301: 
 302: amz$amz5
+302:          eleitor$ pedro de menezes/id=amz5-per1
+303:             ls$titulo/dom
+304: 
+305:          eleitor$manuel homem de quadros/id=amz5-per2
+306: 
+307:          eleitor$sebastiao colaco leitao/id=amz5-per3
+308: 
+309:          eleitor$ luis coelho dos reis/id=amz5-per4
+310:             ls$titulo/licenciado
+311: 
+312:          eleitor$manuel de tavora/id=amz5-per5
+313: 
+314:          eleitor$manuel de carvalho/id=amz5-per6
+315: 
+316:          eleitor$antonio rodrigues subtil/id=amz5-per7
+317: 
+318:          eleitor$domingos cardoso/id=amz5-per8
+319: 
+320:          eleitor$jose velho/id=amz5-per9
+321: 
+322:          eleitor$joao francisco/id=amz5-per10
+323: 
+324:          eleito$ (leao???) colaco/id=amz5-per11
+325:             ls$profissao/padre
+326:             ls$titulo/frei
+327:             ls$ec/solteiro
+328:             ls$cargo/provedor
+329: 
+330:          eleito$ lopo antunes pinto/id=amz5-per12
+331:             ls$profissao/padre
+332:             ls$ec/solteiro
+333:             ls$cargo/escrivao
+334: 
+335:          eleito$ manuel carvalho/id=amz5-per13
+336:             ls$profissao/sapateiro
+337:             ls$cargo/mordomo
+338: 
+339:          eleito$ luis coelho dos reis/id=amz5-per14
+340:             ls$cargo/irmao de maior condicao
+341:             ls$titulo/licenciado
+342: 
+343:          eleito$alexandre mendes ravasco/id=amz5-per15
+344:             ls$cargo/irmao de maior condicao
+345: 
+346:          eleito$luis de seabra jacques/id=amz5-per16
+347:             ls$cargo/irmao de maior condicao
+348: 
+349:          eleito$sebastiao machado/id=amz5-per17
+350:             ls$cargo/irmao de maior condicao
+351: 
+352:          eleito$tome velho/id=amz5-per18
+353:             ls$cargo/irmao de maior condicao
+354: 
+355:          eleito$antonio lourenco/id=amz5-per19
+356:             ls$cargo/irmao de menor condicao
+357: 
+358:          eleito$antonio rodrigues subtil/id=amz5-per20
+359:             ls$cargo/irmao de menor condicao
+360: 
+361:          eleito$lazaro de barros/id=amz5-per21
+362:             ls$cargo/irmao de menor condicao
+363: 
+364:          eleito$manuel dias duqueso/id=amz5-per22
+365:             ls$cargo/irmao de menor condicao
+366: 
+367:          eleito$manuel carvalho/id=amz5-per23
+368:             ls$cargo/irmao de menor condicao
+369: 
+
+ERROR: eleicoes1.cli line 369 ** fim unknown element: id.
+Near line: 369 
+Near line: 370       fim$/id=mis mesa1-end5-2
+
+370:       fim$/id=mis mesa1-end5-2
+371: 
+372:       amz$amz6/3/7/1689/22/resumo=termo de eleicao de irmaos da mesa
+373: 
 374: amz$amz6
+374:          eleitor$ pedro de menezes/id=amz6-per1
+375:             ls$titulo/dom
+376: 
+377:          eleitor$ joao colaco/id=amz6-per2
+378:             ls$profissao/padre
+379:             ls$titulo/frei
+380:             ls$ec/solteiro
+381: 
+382:          eleitor$ luis coelho/id=amz6-per3
+383:             ls$titulo/licenciado
+384: 
+385:          eleitor$manuel de tavora/id=amz6-per4
+386: 
+387:          eleitor$manuel homem de quadros/id=amz6-per5
+388: 
+389:          eleitor$joao francisco/id=amz6-per6
+390: 
+391:          eleitor$jose velho/id=amz6-per7
+392: 
+393:          eleitor$joao mendes/id=amz6-per8
+394: 
+395:          eleitor$joao fonseca/id=amz6-per9
+396: 
+397:          eleito$ padre joao colaco/id=amz6-per10
+398:             ls$profissao/padre
+399:             ls$titulo/frei
+400:             ls$ec/solteiro
+401:             ls$cargo/provedor
+402: 
+403:          eleito$antonio lopes de oliveira/id=amz6-per11
+404:             ls$cargo/escrivao
+405: 
+406:          eleito$ manuel coelho/id=amz6-per12
+407:             ls$cargo/mordomo
+408: 
+409:          eleito$bento gomes da costa/id=amz6-per13
+410:             ls$cargo/irmao de maior condicao
+411: 
+412:          eleito$mateus manhos de abreu/id=amz6-per14
+413:             ls$cargo/irmao de maior condicao
+414: 
+415:          eleito$alexandre mendes ravasco/id=amz6-per15
+416:             ls$cargo/irmao de maior condicao
+417: 
+418:          eleito$luis de seabra jacques/id=amz6-per16
+419:             ls$cargo/irmao de maior condicao
+420: 
+421:          eleito$ antonio coelho de carvalho/id=amz6-per17
+422:             ls$cargo/irmao de maior condicao
+423:             ls$titulo/licenciado
+424: 
+425:          eleito$joao francisco/id=amz6-per18
+426:             ls$profissao/marceneiro
+427:             ls$cargo/irmao de menor condicao
+428: 
+429:          eleito$joao da fonseca/id=amz6-per19
+430:             ls$cargo/irmao de menor condicao
+431: 
+432:          eleito$joao rodrigues alvaro/id=amz6-per20
+433:             ls$cargo/irmao de menor condicao
+434: 
+435:          eleito$antonio cardoso/id=amz6-per21
+436:             ls$cargo/irmao de menor condicao
+437: 
+438:          eleito$joao mendes/id=amz6-per22
+439:             ls$cargo/irmao de menor condicao
+440: 
+
+ERROR: eleicoes1.cli line 440 ** fim unknown element: id.
+Near line: 440 
+Near line: 441       fim$/id=mis mesa1-end6-2
+
+441:       fim$/id=mis mesa1-end6-2
+442: 
+443:       amz$amz7/2/7/1690/26/resumo=termo de eleicao de irmaos da mesa
+444: 
 445: amz$amz7
+445:          eleito$ pedro de menezes/id=amz7-per1
+446:             ls$cargo/provedor
+447:             ls$titulo/dom
+448: 
+449:          eleito$ antonio coelho de carvalho/id=amz7-per2
+450:             ls$cargo/escrivao
+451:             ls$titulo/licenciado
+452: 
+453:          eleito$???/id=amz7-per3
+454:             ls$cargo/mordomo
+455: 
+456:          eleito$luis manhos de abreu/id=amz7-per4
+457:             ls$cargo/irmao de maior condicao
+458: 
+459:          eleito$jose barbosa canais/id=amz7-per5
+460:             ls$cargo/irmao de maior condicao
+461: 
+462:          eleito$inacio coelho de sequeira/id=amz7-per6
+463:             ls$cargo/irmao de maior condicao
+464: 
+465:          eleito$antonio galvao ribeiro/id=amz7-per7
+466:             ls$cargo/irmao de maior condicao
+467: 
+468:          eleito$mateus manhos de abreu/id=amz7-per8
+469:             ls$cargo/irmao de maior condicao
+470: 
+471:          eleito$joao mendes/id=amz7-per9
+472:             ls$cargo/irmao de menor condicao
+473: 
+474:          eleito$joao rodrigues alvaro/id=amz7-per10
+475:             ls$cargo/irmao de menor condicao
+476: 
+477:          eleito$joao pimentel/id=amz7-per11
+478:             ls$cargo/irmao de menor condicao
+479: 
+480:          eleito$manuel cardoso/id=amz7-per12
+481:             ls$cargo/irmao de menor condicao
+482: 
+483:          eleito$domingos cardoso/id=amz7-per13
+484:             ls$cargo/irmao de menor condicao
+485: 
+
+ERROR: eleicoes1.cli line 485 ** fim unknown element: id.
+Near line: 485 
+Near line: 486       fim$/id=mis mesa1-end7-2
+
+486:       fim$/id=mis mesa1-end7-2
+487: 
+488:       amz$amz8/2/7/1691/31v/resumo=termo de eleicao de irmaos da mesa/obs= adiado para domingo seguinte a tarde por se encontrarem ausentes muitos irmaos
+489: 
 490: amz$amz8
+
+ERROR: eleicoes1.cli line 489 ** fim unknown element: id.
+Near line: 489 
+Near line: 490       fim$/id=mis mesa1-end8-2
+
+490:       fim$/id=mis mesa1-end8-2
+491: 
+492:       amz$amz9/8/7/1691/32/resumo=termo de eleicao de irmaos da mesa
+493: 
 494: amz$amz9
+494:          eleitor$ pedro de menezes/id=amz9-per1
+495:             ls$titulo/dom
+496: 
+497:          eleitor$ joao colaco/id=amz9-per2
+498:             ls$profissao/padre
+499:             ls$titulo/frei
+500:             ls$ec/solteiro
+501: 
+502:          eleitor$sebastiao colaco/id=amz9-per3
+503: 
+504:          eleitor$luis manhos de abreu/id=amz9-per4
+505: 
+506:          eleitor$luis de seabra/obs=ausente/id=amz9-per5
+507: 
+508:          eleitor$ inacio coelho de sequeira/obs=na ausencia de luis de seabra/id=amz9-per6
+509: 
+510:          eleitor$joao rodrigues alvaro/id=amz9-per7
+511: 
+512:          eleitor$manuel cardoso/id=amz9-per8
+513: 
+514:          eleitor$joao mendes/id=amz9-per9
+515:             ls$profissao/pedreiro
+516: 
+517:          eleitor$manuel coelho/id=amz9-per10
+518: 
+519:          eleitor$domingos cardoso/id=amz9-per11
+520: 
+521:          eleito$ luis coelho dos reis/id=amz9-per12
+522:             ls$cargo/provedor
+523:             ls$titulo/licenciado
+524: 
+525:          eleito$ manuel cordeiro/id=amz9-per13
+526:             ls$cargo/escrivao
+527:             ls$profissao/padre
+528:             ls$ec/solteiro
+529: 
+530:          eleito$ mateus goncalves/id=amz9-per14
+531:             ls$cargo/mordomo
+532:             ls$profissao/carpinteiro
+533: 
+534:          eleito$antonio galvao ribeiro/obs=morre durante o ano sendo substituido por antonio manhos de abreu/id=amz9-per15
+535:             ls$cargo/irmao de maior condicao
+536: 
+537:          eleito$antonio manhos de abreu/id=amz9-per16
+538:             ls$titulo/doutor
+539:             ls$cargo/irmao de maior condicao/obs=em 5-7-1692 por morte de antonio galvao ribeiro
+540: 
+541:          eleito$mateus manhos/id=amz9-per17
+542:             ls$cargo/irmao de maior condicao
+543: 
+544:          eleito$luis de seabra/id=amz9-per18
+545:             ls$cargo/irmao de maior condicao
+546: 
+547:          eleito$luis manhos/id=amz9-per19
+548:             ls$cargo/irmao de maior condicao
+549: 
+550:          eleito$inacio coelho/id=amz9-per20
+551:             ls$cargo/irmao de maior condicao
+552: 
+553:          eleito$miguel mendes/id=amz9-per21
+554:             ls$profissao/pedreiro
+555:             ls$cargo/irmao de menor condicao
+556: 
+557:          eleito$joao mendes/id=amz9-per22
+558:             ls$profissao/pedreiro
+559:             ls$cargo/irmao de menor condicao
+560: 
+561:          eleito$manuel jorge/id=amz9-per23
+562:             ls$profissao/serralheiro
+563:             ls$cargo/irmao de menor condicao
+564: 
+565:          eleito$joao rodrigues alvaro/id=amz9-per24
+566:             ls$cargo/irmao de menor condicao
+567: 
+568:          eleito$manuel cardoso/id=amz9-per25
+569:             ls$cargo/irmao de menor condicao
+570: 
+
+ERROR: eleicoes1.cli line 570 ** fim unknown element: id.
+Near line: 570 
+Near line: 571       fim$/id=mis mesa1-end9-2
+
+571:       fim$/id=mis mesa1-end9-2
+572: 
+573:       amz$amz10/0/0/1692/39/resumo=termo de eleicao de irmaos da mesa
+574: 
 575: amz$amz10
+575:          eleitor$ pedro de menezes/id=amz10-per1
+576:             ls$titulo/dom
+577: 
+578:          eleitor$luis coelho dos reis/id=amz10-per2
+579: 
+580:          eleitor$mateus manhos/id=amz10-per3
+581: 
+582:          eleitor$luis manhos/id=amz10-per4
+583: 
+584:          eleitor$sebastiao colaco/id=amz10-per5
+585: 
+586:          eleitor$ manuel cardoso/id=amz10-per6
+587: 
+588:          eleitor$manuel jorge/id=amz10-per7
+589: 
+590:          eleitor$miguel mendes/id=amz10-per8
+591: 
+592:          eleitor$joao mendes/id=amz10-per9
+593: 
+594:          eleitor$joao rodrigues alvaro/id=amz10-per10
+595: 
+596:          eleito$luis coelho dos reis/id=amz10-per11
+597:             ls$cargo/provedor
+598: 
+599:          eleito$ manuel cordeiro/id=amz10-per12
+600:             ls$cargo/escrivao
+601:             ls$profissao/padre
+602:             ls$ec/solteiro
+603: 
+604:          eleito$ mateus goncalves/id=amz10-per13
+605:             ls$cargo/mordomo
+606:             ls$profissao/carpinteiro
+607: 
+608:          eleito$mateus manhos de abreu/id=amz10-per14
+609:             ls$cargo/irmao de maior condicao
+610: 
+611:          eleito$ antonio manhos de abreu/id=amz10-per15
+612:             ls$cargo/irmao de maior condicao
+613:             ls$titulo/licenciado
+614: 
+615:          eleito$inacio coelho de sequeira/id=amz10-per16
+616:             ls$cargo/irmao de maior condicao
+617: 
+618:          eleito$luis de seabra/id=amz10-per17
+619:             ls$cargo/irmao de maior condicao
+620: 
+621:          eleito$ manuel lopes de oliveira/id=amz10-per18
+622:             ls$cargo/irmao de maior condicao
+623:             ls$titulo/licenciado
+624: 
+625:          eleito$miguel mendes/id=amz10-per19
+626:             ls$cargo/irmao de menor condicao
+627: 
+628:          eleito$manuel cardoso/id=amz10-per20
+629:             ls$cargo/irmao de menor condicao
+630: 
+631:          eleito$manuel jorge/id=amz10-per21
+632:             ls$cargo/irmao de menor condicao
+633: 
+634:          eleito$joao mendes/id=amz10-per22
+635:             ls$cargo/irmao de menor condicao
+636: 
+637:          eleito$joao rodrigues alvaro/id=amz10-per23
+638:             ls$cargo/irmao de menor condicao
+639: 
+
+ERROR: eleicoes1.cli line 639 ** fim unknown element: id.
+Near line: 639 
+Near line: 640       fim$/id=mis mesa1-end10-2
+
+640:       fim$/id=mis mesa1-end10-2
+641: 
+642:       amz$amz11/0/0/1693/43/resumo=termo de eleicao de irmaos da mesa
+643: 
 644: amz$amz11
+644:          eleitor$ pedro de menezes/id=amz11-per1
+645:             ls$titulo/dom
+646: 
+647:          eleitor$sebastiao colaco de morais/id=amz11-per2
+648: 
+649:          eleitor$manuel soares coelho/id=amz11-per3
+650: 
+651:          eleitor$ antonio manhos/id=amz11-per4
+652:             ls$titulo/doutor
+653: 
+654:          eleitor$luis coelho/id=amz11-per5
+655: 
+656:          eleitor$mateus goncalves/id=amz11-per6
+657: 
+658:          eleitor$antonio lourenco/id=amz11-per7
+659: 
+660:          eleitor$domingos cardoso/id=amz11-per8
+661: 
+662:          eleitor$joao da fonseca/id=amz11-per9
+663: 
+664:          eleitor$antonio velho/id=amz11-per10
+665: 
+666:          eleito$ sebastiao soares coelho/id=amz11-per11
+667:             ls$cargo/provedor
+668: 
+669:          eleito$ manuel rodrigues/id=amz11-per12
+670:             ls$profissao/padre
+671:             ls$ec/solteiro
+672:             ls$cargo/escrivao
+673: 
+674:          eleito$ antonio lourenco/id=amz11-per13
+675:             ls$cargo/mordomo
+676: 
+677:          eleito$manuel marques de oliveira/id=amz11-per14
+678:             ls$cargo/irmao de maior condicao
+679: 
+680:          eleito$mateus manhos de abreu/id=amz11-per15
+681:             ls$cargo/irmao de maior condicao
+682: 
+683:          eleito$inacio coelho de sequeira/id=amz11-per16
+684:             ls$cargo/irmao de maior condicao
+685: 
+686:          eleito$antonio manhos/id=amz11-per17
+687:             ls$cargo/irmao de maior condicao
+688: 
+689:          eleito$alexandre mendes ravasco/id=amz11-per18
+690:             ls$cargo/irmao de maior condicao
+691: 
+692:          eleito$mateus goncalves/id=amz11-per19
+693:             ls$cargo/irmao de menor condicao
+694:             ls$profissao/carpiteiro
+695: 
+696:          eleito$antonio lopes sapateiro/id=amz11-per20
+697:             ls$cargo/irmao de menor condicao
+698:             ls$profissao/sapateiro
+699: 
+700:          eleito$joao da fonseca/id=amz11-per21
+701:             ls$cargo/irmao de menor condicao
+702:             ls$profissao/ferrador
+703: 
+704:          eleito$joao mendes/id=amz11-per22
+705:             ls$cargo/irmao de menor condicao
+706: 
+707:          eleito$domingos cardoso/id=amz11-per23
+708:             ls$cargo/irmao de menor condicao
+709: 
+
+ERROR: eleicoes1.cli line 709 ** fim unknown element: id.
+Near line: 709 
+Near line: 710       fim$/id=mis mesa1-end11-2
+
+710:       fim$/id=mis mesa1-end11-2
+711: 
+712:       amz$amz12/0/0/1694/45/resumo=termo de eleicao de irmaos da mesa
+713: 
 714: amz$amz12
+714:          eleitor$ pedro de menezes/id=amz12-per1
+715:             ls$titulo/dom
+716: 
+717:          eleitor$sebastiao soares coelho/id=amz12-per2
+718: 
+719:          eleitor$vicente colaco/id=amz12-per3
+720: 
+721:          eleitor$luis coelho/id=amz12-per4
+722: 
+723:          eleitor$ antonio manhos de abreu/id=amz12-per5
+724:             ls$titulo/licenciado
+725: 
+726:          eleitor$antonio lourenco/id=amz12-per6
+727: 
+728:          eleitor$mateus goncalves/id=amz12-per7
+729: 
+730:          eleitor$antonio lopes/id=amz12-per8
+731: 
+732:          eleitor$joao da fonseca/id=amz12-per9
+733: 
+734:          eleitor$domingos cardoso/id=amz12-per10
+735: 
+736:          eleito$sebastiao soares coelho/id=amz12-per11
+737:             ls$cargo/provedor
+738: 
+739:          eleito$ manuel rodrigues/id=amz12-per12
+740:             ls$cargo/escrivao
+741:             ls$profissao/padre
+742:             ls$ec/solteiro
+743: 
+744:          eleito$ antonio lourenco/id=amz12-per13
+745:             ls$cargo/mordomo
+746: 
+747:          eleito$antonio manhos de abreu/id=amz12-per14
+748:             ls$cargo/irmao de maior condicao
+749: 
+750:          eleito$manuel marques de oliveira/id=amz12-per15
+751:             ls$cargo/irmao de maior condicao
+752: 
+753:          eleito$mateus manhos de abreu/id=amz12-per16
+754:             ls$cargo/irmao de maior condicao
+755: 
+756:          eleito$alexandre mendes ravasco/id=amz12-per17
+757:             ls$cargo/irmao de maior condicao
+758: 
+759:          eleito$inacio coelho de sequeira/id=amz12-per18
+760:             ls$cargo/irmao de maior condicao
+761: 
+762:          eleito$joao da fonseca/id=amz12-per19
+763:             ls$cargo/irmao de menor condicao
+764: 
+765:          eleito$mateus goncalves/id=amz12-per20
+766:             ls$cargo/irmao de menor condicao
+767: 
+768:          eleito$antonio lopes/id=amz12-per21
+769:             ls$cargo/irmao de menor condicao
+770: 
+771:          eleito$domingos cardoso/id=amz12-per22
+772:             ls$cargo/irmao de menor condicao
+773: 
+774:          eleito$joao mendes/id=amz12-per23
+775:             ls$cargo/irmao de menor condicao
+776: 
+
+ERROR: eleicoes1.cli line 776 ** fim unknown element: id.
+Near line: 776 
+Near line: 777       fim$/id=mis mesa1-end12-2
+
+777:       fim$/id=mis mesa1-end12-2
+778: 
+779:       amz$amz13/2/7/1695/46/resumo=termo de eleicao de irmaos da mesa
+780: 
 781: amz$amz13
+781:          eleitor$ pedro de menezes/id=amz13-per1
+782:             ls$titulo/dom
+783: 
+784:          eleitor$ sebastiao soares coelho/id=amz13-per2
+785: 
+786:          eleitor$ vasco botelho de almeida/id=amz13-per3
+787: 
+788:          eleitor$ luis coelho/id=amz13-per4
+789: 
+790:          eleitor$ sebastiao colaco leitao/id=amz13-per5
+791: 
+792:          eleitor$ joao da fonseca/id=amz13-per6
+793: 
+794:          eleitor$ domingos cardoso/id=amz13-per7
+795: 
+796:          eleitor$ antonio lopes/id=amz13-per8
+797: 
+798:          eleitor$ antonio lourenco/id=amz13-per9
+799: 
+800:          eleitor$ joao mendes/id=amz13-per10
+801: 
+802:          eleito$ luis manhos de abreu/id=amz13-per11
+803:             ls$cargo/provedor
+804: 
+805:          eleito$ manuel marques de oliveira/id=amz13-per12
+806:             ls$titulo/licenciado
+807:             ls$cargo/escrivao
+808: 
+809:          eleito$ antonio velho/id=amz13-per13
+810:             ls$cargo/mordomo
+811:             ls$profissao/barbeiro
+812: 
+813:          eleito$mateus manhos de abreu/id=amz13-per14
+814:             ls$cargo/irmao de maior condicao
+815: 
+816:          eleito$ antonio manhos de abreu/id=amz13-per15
+817:             ls$titulo/licenciado
+818:             ls$cargo/irmao de maior condicao
+819: 
+820:          eleito$alexandre mendes ravasco/id=amz13-per16
+821:             ls$cargo/irmao de maior condicao
+822: 
+823:          eleito$bento gomes da costa/id=amz13-per17
+824:             ls$cargo/irmao de maior condicao/obs=foi riscado por nao vir tomar juramento e nao dar escusa
+825: 
+826:          eleito$amaro de pina/id=amz13-per18
+827:             ls$cargo/irmao de maior condicao/obs= fl.49 10-8-1695 em lugar de bento gomes da costa
+828: 
+829:          eleito$inacio coelho da fonseca/id=amz13-per19
+830:             ls$cargo/irmao de maior condicao
+831: 
+832:          eleito$miguel mendes/id=amz13-per20
+833:             ls$cargo/irmao de menor condicao
+834: 
+835:          eleito$antonio lourenco/id=amz13-per21
+836:             ls$cargo/irmao de menor condicao
+837: 
+838:          eleito$joao mendes/id=amz13-per22
+839:             ls$cargo/irmao de menor condicao
+840: 
+841:          eleito$mateus goncalves/id=amz13-per23
+842:             ls$cargo/irmao de menor condicao
+843: 
+844:          eleito$joao da fonseca/id=amz13-per24
+845:             ls$cargo/irmao de menor condicao
+846: 
+
+ERROR: eleicoes1.cli line 846 ** fim unknown element: id.
+Near line: 846 
+Near line: 847       fim$/id=mis mesa1-end13-2
+
+847:       fim$/id=mis mesa1-end13-2
+848: 
+849:       amz$amz14/2/7/1696/50/resumo=termo de eleicao de irmaos da mesa
+850: 
 851: amz$amz14
+851:          eleitor$luis coelho dos reis/id=amz14-per1
+852: 
+853:          eleitor$vasco botelho de almeida/id=amz14-per2
+854: 
+855:          eleitor$sebastiao machado da costa/id=amz14-per3
+856: 
+857:          eleitor$vicente colaco de morais/id=amz14-per4
+858: 
+859:          eleitor$luis manhos de abreu/id=amz14-per5
+860: 
+861:          eleitor$joao mendes/id=amz14-per6
+862: 
+863:          eleitor$miguel mendes/id=amz14-per7
+864: 
+865:          eleitor$mateus goncalves/id=amz14-per8
+866: 
+867:          eleitor$antonio lourenco/id=amz14-per9
+868: 
+869:          eleitor$antonio velho/id=amz14-per10
+870: 
+871:          eleito$ luis manhos de abreu/id=amz14-per11
+872:             ls$cargo/provedor
+873: 
+874:          eleito$ manuel marques de oliveira/id=amz14-per12
+875:             ls$cargo/escrivao
+876: 
+877:          eleito$antonio velho/id=amz14-per13
+878:             ls$cargo/mordomo
+879: 
+880:          eleito$inacio coelho/id=amz14-per14
+881:             ls$cargo/irmao de maior condicao
+882: 
+883:          eleito$antonio manhos/id=amz14-per15
+884:             ls$cargo/irmao de maior condicao
+885: 
+886:          eleito$mateus manhos/id=amz14-per16
+887:             ls$cargo/irmao de maior condicao
+888: 
+889:          eleito$alexandre mendes ravasco/id=amz14-per17
+890:             ls$cargo/irmao de maior condicao
+891: 
+892:          eleito$amaro de pina/obs=morto em 20-8-1696/id=amz14-per18
+893:             ls$morto/agora/16960820
+894:             ls$cargo/irmao de maior condicao
+895: 
+896:          eleito$jose pinto de abreu/id=amz14-per19
+897:             ls$cargo/irmao de maior condicao/obs=para o lugar de amaro de pina fl51v
+898: 
+899:          eleito$joao mendes/id=amz14-per20
+900:             ls$cargo/irmao de menor condicao
+901: 
+902:          eleito$miguel mendes/id=amz14-per21
+903:             ls$cargo/irmao de menor condicao
+904: 
+905:          eleito$mateus goncalves/id=amz14-per22
+906:             ls$cargo/irmao de menor condicao
+907: 
+908:          eleito$joao da fonseca/id=amz14-per23
+909:             ls$cargo/irmao de menor condicao
+910: 
+911:          eleito$antonio lourenco/id=amz14-per24
+912:             ls$cargo/irmao de menor condicao
+913: 
+
+ERROR: eleicoes1.cli line 913 ** fim unknown element: id.
+Near line: 913 
+Near line: 914       fim$/id=mis mesa1-end14-2
+
+914:       fim$/id=mis mesa1-end14-2
+915: 
+916:       amz$amz15/2/7/1697/54/resumo=termo de eleicao de irmaos da mesa
+917: 
 918: amz$amz15
+918:          eleitor$ luis coelho dos reis/id=amz15-per1
+919:             ls$titulo/licenciado
+920: 
+921:          eleitor$vicente colaco de morais/id=amz15-per2
+922: 
+923:          eleitor$luis manhos de abreu/id=amz15-per3
+924: 
+925:          eleitor$pedro de menezes/obs=impedido/id=amz15-per4
+926:             ls$titulo/dom
+927: 
+928:          eleitor$sebastiao colaco leitao/id=amz15-per5
+929: 
+930:          eleitor$miguel mendes/id=amz15-per6
+931: 
+932:          eleitor$joao mendes/id=amz15-per7
+933: 
+934:          eleitor$mateus goncalves/id=amz15-per8
+935: 
+936:          eleitor$joao francisco/id=amz15-per9
+937: 
+938:          eleitor$antonio lourenco/id=amz15-per10
+939: 
+940:          eleito$ manuel soares coelho/id=amz15-per11
+941:             ls$cargo/provedor
+942: 
+943:          eleito$ tome velho/id=amz15-per12
+944:             ls$cargo/escrivao
+945: 
+946:          eleito$ mateus goncalves/id=amz15-per13
+947:             ls$cargo/mordomo
+948: 
+949:          eleito$mateus manhos de abreu/id=amz15-per14
+950:             ls$cargo/irmao de maior condicao
+951: 
+952:          eleito$ antonio manhos/id=amz15-per15
+953:             ls$cargo/irmao de maior condicao
+954:             ls$titulo/licenciado
+955: 
+956:          eleito$inacio coelho de sequeira/id=amz15-per16
+957:             ls$cargo/irmao de maior condicao
+958: 
+959:          eleito$jose barbosa canais/id=amz15-per17
+960:             ls$cargo/irmao de maior condicao
+961: 
+962:          eleito$jose pinto/id=amz15-per18
+963:             ls$cargo/irmao de maior condicao
+964: 
+965:          eleito$antonio velho/id=amz15-per19
+966:             ls$cargo/irmao de maior condicao
+967: 
+968:          eleito$antonio lopes/id=amz15-per20
+969:             ls$cargo/irmao de menor condicao
+970:             ls$profissao/sapateiro
+971: 
+972:          eleito$joao francisco/id=amz15-per21
+973:             ls$cargo/irmao de menor condicao
+974:             ls$profissao/marceneiro
+975: 
+976:          eleito$domingos cardoso/id=amz15-per22
+977:             ls$cargo/irmao de menor condicao
+978: 
+979:          eleito$joao mendes/id=amz15-per23
+980:             ls$cargo/irmao de menor condicao
+981: 
+
+ERROR: eleicoes1.cli line 981 ** fim unknown element: id.
+Near line: 981 
+Near line: 982       fim$/id=mis mesa1-end15-2
+
+982:       fim$/id=mis mesa1-end15-2
+983: 
+984:       amz$amz16/0/0/1698/57v/resumo=termo de eleicao de irmaos da mesa
+985: 
 986: amz$amz16
+986:          eleito$ manuel soares coelho/id=amz16-per1
+987:             ls$cargo/provedor
+988: 
+989:          eleito$ tome velho/id=amz16-per2
+990:             ls$cargo/escrivao
+991: 
+992:          eleito$ mateus goncalves/id=amz16-per3
+993:             ls$cargo/mordomo
+994: 
+995:          eleito$mateus manhos de abreu/id=amz16-per4
+996:             ls$cargo/irmao de maior condicao
+997:             ls$alcunha/cruzado
+998: 
+999:          eleito$antonio manhos de abreu/id=amz16-per5
+1000:             ls$cargo/irmao de maior condicao
+1001: 
+1002:          eleito$jose de abreu/id=amz16-per6
+1003:             ls$cargo/irmao de maior condicao
+1004: 
+1005:          eleito$jose barbosa canais/id=amz16-per7
+1006:             ls$cargo/irmao de maior condicao
+1007: 
+1008:          eleito$inacio coelho da fonseca/id=amz16-per8
+1009:             ls$cargo/irmao de maior condicao
+1010: 
+1011:          eleito$joao mendes/id=amz16-per9
+1012:             ls$cargo/irmao de menor condicao
+1013: 
+1014:          eleito$domingos cardoso/id=amz16-per10
+1015:             ls$cargo/irmao de menor condicao
+1016: 
+1017:          eleito$antonio velho/id=amz16-per11
+1018:             ls$cargo/irmao de menor condicao
+1019: 
+1020:          eleito$joao rodrigues/id=amz16-per12
+1021:             ls$cargo/irmao de menor condicao
+1022:             ls$profissao/barbeiro
+1023: 
+1024:          eleito$cristovao lopes/id=amz16-per13
+1025:             ls$cargo/irmao de menor condicao
+1026: 
+
+ERROR: eleicoes1.cli line 1026 ** fim unknown element: id.
+Near line: 1026 
+Near line: 1027       fim$/id=mis mesa1-end16-2
+
+1027:       fim$/id=mis mesa1-end16-2
+1028: 
+1029:       amz$amz17/2/7/1699/60/resumo=termo de eleicao de irmaos da mesa
+1030: 
 1031: amz$amz17
+1031:          eleito$antonio de menezes/id=amz17-per1
+1032:             ls$cargo/provedor
+1033:             ls$titulo/dom
+1034: 
+1035:          eleito$ manuel soares coelho/id=amz17-per2
+1036:             ls$cargo/escrivao
+1037: 
+1038:          eleito$???/id=amz17-per3
+1039:             ls$cargo/mordomo
+1040: 
+1041:          eleito$vicente colaco de morais/id=amz17-per4
+1042:             ls$cargo/irmao de maior condicao
+1043: 
+1044:          eleito$alexandre mendes ravasco/id=amz17-per5
+1045:             ls$cargo/irmao de maior condicao
+1046: 
+1047:          eleito$jose barbosa canais/id=amz17-per6
+1048:             ls$cargo/irmao de maior condicao
+1049: 
+1050:          eleito$tome velho/id=amz17-per7
+1051:             ls$cargo/irmao de maior condicao
+1052: 
+1053:          eleito$antonio manhos de abreu/id=amz17-per8
+1054:             ls$cargo/irmao de maior condicao
+1055: 
+1056:          eleito$domingos goncalves/id=amz17-per9
+1057:             ls$cargo/irmao de menor condicao
+1058: 
+1059:          eleito$manuel alves/id=amz17-per10
+1060:             ls$cargo/irmao de menor condicao
+1061: 
+1062:          eleito$manuel rodrigues serrao/id=amz17-per11
+1063:             ls$cargo/irmao de menor condicao
+1064: 
+1065:          eleito$manuel carvalho coelho/id=amz17-per12
+1066:             ls$cargo/irmao de menor condicao
+1067: 
+1068:          eleito$mateus goncalves/id=amz17-per13
+1069:             ls$cargo/irmao de menor condicao
+1070: 
+
+ERROR: eleicoes1.cli line 1070 ** fim unknown element: id.
+Near line: 1070 
+Near line: 1071       fim$/id=mis mesa1-end17-2
+
+1071:       fim$/id=mis mesa1-end17-2
+1072: 
+1073:       amz$amz18/2/7/1700/62/resumo=termo de eleicao de irmaos da mesa/obs=mantem a mesa do ano anterior
+1074: 
 1075: amz$amz18
+1075:          eleito$manuel soares coelho/obs=em ausencia de antonio de menezes que esta em lisboa/id=amz18-per1
+1076:             ls$cargo/provedor
+1077: 
+
+ERROR: eleicoes1.cli line 1077 ** fim unknown element: id.
+Near line: 1077 
+Near line: 1078       fim$/id=mis mesa1-end18-2
+
+1078:       fim$/id=mis mesa1-end18-2
+1079: 
+1080:       amz$amz19/11/8/1709/68/resumo=termo de eleicao de irmaos da mesa
+1081: 
 1082: amz$amz19
+1082:          eleitor$manuel marques de oliveira/id=amz19-per1
+1083: 
+1084:          eleitor$dionisio de magalhaes/id=amz19-per2
+1085: 
+1086:          eleitor$pedro de eiro matoso/id=amz19-per3
+1087: 
+1088:          eleitor$jose de barros/id=amz19-per4
+1089: 
+1090:          eleitor$manuel goncalves vargas/id=amz19-per5
+1091: 
+1092:          eleitor$manuel ferreira/id=amz19-per6
+1093:             ls$profissao/sapateiro
+1094: 
+1095:          eleito$ joao da costa (?)/id=amz19-per7
+1096:             ls$cargo/provedor
+1097: 
+1098:          eleito$ manuel pessoa/id=amz19-per8
+1099:             ls$cargo/escrivao
+1100:             ls$profissao/padre
+1101:             ls$ec/solteiro
+1102: 
+1103:          eleito$ jose marques/id=amz19-per9
+1104:             ls$cargo/mordomo
+1105: 
+1106:          eleito$alexandre mendes ravasco/id=amz19-per10
+1107:             ls$cargo/irmao de maior condicao
+1108: 
+1109:          eleito$jose barbosa canais/id=amz19-per11
+1110:             ls$cargo/irmao de maior condicao
+1111: 
+1112:          eleito$bento gomes da costa/id=amz19-per12
+1113:             ls$cargo/irmao de maior condicao
+1114: 
+1115:          eleito$dionisio magalhaes pinto/id=amz19-per13
+1116:             ls$cargo/irmao de maior condicao
+1117: 
+1118:          eleito$????/id=amz19-per14
+1119:             ls$cargo/irmao de maior condicao
+1120: 
+1121:          eleito$mateus mendes/id=amz19-per15
+1122:             ls$cargo/irmao de menor condicao
+1123: 
+1124:          eleito$joao de barros/id=amz19-per16
+1125:             ls$cargo/irmao de menor condicao
+1126: 
+1127:          eleito$joao rodrigues alvaro/id=amz19-per17
+1128:             ls$cargo/irmao de menor condicao
+1129: 
+1130:          eleito$antonio lourenco/id=amz19-per18
+1131:             ls$cargo/irmao de menor condicao
+1132: 
+1133:          eleito$manuel rodrigues descalco/id=amz19-per19
+1134: 
+
+ERROR: eleicoes1.cli line 1134 ** fim unknown element: id.
+Near line: 1134 
+Near line: 1135       fim$/id=mis mesa1-end19-2
+
+1135:       fim$/id=mis mesa1-end19-2
+1136: 
+1137:       amz$amz20/13/7/1710/70/resumo=termo de eleicao de irmaos da mesa
+1138: 
 1139: amz$amz20
+1139:          eleitor$luis manhos de abreu/id=amz20-per1
+1140: 
+1141:          eleitor$vicente colaco de morais/id=amz20-per2
+1142: 
+1143:          eleitor$joao colaco de morais/id=amz20-per3
+1144: 
+1145:          eleitor$pedro de eiro matoso/id=amz20-per4
+1146: 
+1147:          eleitor$ domingos goncalves/id=amz20-per5
+1148:             ls$titulo/licenciado
+1149: 
+1150:          eleitor$mateus mendes/id=amz20-per6
+1151: 
+1152:          eleitor$joao rodrigues alvaro/id=amz20-per7
+1153: 
+1154:          eleitor$antonio lourenco/id=amz20-per8
+1155: 
+1156:          eleitor$manuel rodrigues/id=amz20-per9
+1157: 
+1158:          eleitor$jose de barros/id=amz20-per10
+1159: 
+1160:          eleito$ nuno alvares pereira/id=amz20-per11
+1161:             ls$cargo/provedor
+1162: 
+1163:          eleito$ manuel pessoa leitao/id=amz20-per12
+1164:             ls$cargo/escrivao
+1165:             ls$profissao/padre
+1166:             ls$ec/solteiro
+1167: 
+1168:          eleito$ jose marques harpista/id=amz20-per13
+1169:             ls$cargo/mordomo
+1170: 
+1171:          eleito$dionisio de magalhaes/id=amz20-per14
+1172:             ls$cargo/irmao de maior condicao
+1173: 
+1174:          eleito$alexandre mendes ravasco/id=amz20-per15
+1175:             ls$cargo/irmao de maior condicao
+1176: 
+1177:          eleito$jose barbosa canais/id=amz20-per16
+1178:             ls$cargo/irmao de maior condicao
+1179: 
+1180:          eleito$tome velho/id=amz20-per17
+1181:             ls$cargo/irmao de maior condicao
+1182: 
+1183:          eleito$bento gomes da costa/id=amz20-per18
+1184:             ls$cargo/irmao de maior condicao
+1185: 
+1186:          eleito$joao rodrigues alvaro/id=amz20-per19
+1187:             ls$cargo/irmao de menor condicao
+1188: 
+1189:          eleito$manuel rodrigues serrao/id=amz20-per20
+1190:             ls$cargo/irmao de menor condicao
+1191: 
+1192:          eleito$jose de barros/id=amz20-per21
+1193:             ls$cargo/irmao de menor condicao
+1194: 
+1195:          eleito$manuel rodrigues descalco/id=amz20-per22
+1196:             ls$cargo/irmao de menor condicao
+1197: 
+1198:          eleito$mateus mendes/id=amz20-per23
+1199:             ls$cargo/irmao de menor condicao
+1200: 
+
+ERROR: eleicoes1.cli line 1200 ** fim unknown element: id.
+Near line: 1200 
+Near line: 1201       fim$/id=mis mesa1-end20-2
+
+1201:       fim$/id=mis mesa1-end20-2
+1202: 
+1203:       amz$amz21/14/8/1712/72/resumo=termo de eleicao de irmaos da mesa/obs=eleicao que deve durar ate dia de santa isabel de 1715
+1204: 
 1205: amz$amz21
+1205:          eleitor$joao da costa vasconcelos/id=amz21-per1
+1206: 
+1207:          eleitor$luis manhos de abreu/id=amz21-per2
+1208: 
+1209:          eleitor$domingos goncalves galhardo/id=amz21-per3
+1210: 
+1211:          eleitor$dionisio de magalhaes pinto/id=amz21-per4
+1212: 
+1213:          eleitor$jose barbosa canais/id=amz21-per5
+1214: 
+1215:          eleitor$bento gomes da costa/id=amz21-per6
+1216: 
+1217:          eleitor$manuel rodrigues serrao/id=amz21-per7
+1218: 
+1219:          eleitor$jose marques/id=amz21-per8
+1220: 
+1221:          eleitor$andre goncalves/id=amz21-per9
+1222: 
+1223:          eleitor$joao rodrigues alvaro/id=amz21-per10
+1224: 
+1225:          eleitor$antonio francisco/id=amz21-per11
+1226: 
+1227:          eleitor$mateus mendes/id=amz21-per12
+1228: 
+1229:          eleito$ sebastiao machado da costa/id=amz21-per13
+1230:             ls$cargo/provedor
+1231: 
+1232:          eleito$ domingos goncalves galhardo/id=amz21-per14
+1233:             ls$cargo/escrivao
+1234:             ls$titulo/doutor
+1235: 
+1236:          eleito$ manuel goncalves vargas/id=amz21-per15
+1237:             ls$cargo/mordomo
+1238: 
+1239:          eleito$pedro de eiro matoso/id=amz21-per16
+1240:             ls$cargo/irmao de maior condicao
+1241: 
+1242:          eleito$joao de sequeira/id=amz21-per17
+1243:             ls$cargo/irmao de maior condicao
+1244: 
+1245:          eleito$tome velho/id=amz21-per18
+1246:             ls$cargo/irmao de maior condicao
+1247: 
+1248:          eleito$manuel manhos de abreu/id=amz21-per19
+1249:             ls$cargo/irmao de maior condicao
+1250: 
+1251:          eleito$henrique barbosa canais/id=amz21-per20
+1252:             ls$cargo/irmao de maior condicao
+1253: 
+1254:          eleito$manuel alvares/id=amz21-per21
+1255:             ls$cargo/irmao de menor condicao
+1256: 
+1257:          eleito$andre goncalves/id=amz21-per22
+1258:             ls$cargo/irmao de menor condicao
+1259: 
+1260:          eleito$manuel rodrigues duqueso/id=amz21-per23
+1261:             ls$cargo/irmao de menor condicao
+1262: 
+1263:          eleito$manuel de brito/id=amz21-per24
+1264:             ls$cargo/irmao de menor condicao
+1265: 
+1266:          eleito$manuel monteiro/id=amz21-per25
+1267:             ls$cargo/irmao de menor condicao
+1268: 
+
+ERROR: eleicoes1.cli line 1268 ** fim unknown element: id.
+Near line: 1268 
+Near line: 1269       fim$/id=mis mesa1-end21-2
+
+1269:       fim$/id=mis mesa1-end21-2
+1270: 
+1271:       amz$amz22/1/7/1714/74/resumo=termo de eleicao de irmaos da mesa
+1272: 
 1273: amz$amz22
+1273:          eleitor$ manuel pessoa leitao/id=amz22-per1
+1274:             ls$profissao/padre
+1275:             ls$ec/solteiro
+1276: 
+1277:          eleitor$dionisio de magalhaes pinto/id=amz22-per2
+1278: 
+1279:          eleitor$manuel manhos de abreu/id=amz22-per3
+1280: 
+1281:          eleitor$bento gomes da costa/id=amz22-per4
+1282: 
+1283:          eleitor$alexandre mendes ravasco/id=amz22-per5
+1284: 
+1285:          eleitor$manuel rodrigues serrao/id=amz22-per6
+1286: 
+1287:          eleitor$manuel rodrigues duqueso/id=amz22-per7
+1288: 
+1289:          eleitor$manuel goncalves vargas/id=amz22-per8
+1290: 
+1291:          eleitor$manuel de brito/id=amz22-per9
+1292: 
+1293:          eleitor$sebastiao goncalves/id=amz22-per10
+1294: 
+1295:          eleito$ manuel pessoa leitao/id=amz22-per11
+1296:             ls$titulo/reverendo
+1297:             ls$profissao/padre
+1298:             ls$ec/solteiro
+1299:             ls$cargo/provedor
+1300: 
+1301:          eleito$ pedro de eiro matoso/id=amz22-per12
+1302:             ls$cargo/escrivao
+1303: 
+1304:          eleito$ andre goncalves/id=amz22-per13
+1305:             ls$cargo/mordomo
+1306: 
+1307:          eleito$ manuel manhos de abreu/id=amz22-per14
+1308:             ls$cargo/irmao de maior condicao
+1309: 
+1310:          eleito$ alexandre mendes ravasco/id=amz22-per15
+1311:             ls$cargo/irmao de maior condicao
+1312: 
+1313:          eleito$ joao da costa machado/id=amz22-per16
+1314:             ls$cargo/irmao de maior condicao
+1315: 
+1316:          eleito$ dionisio de magalhaes pinto/id=amz22-per17
+1317:             ls$cargo/irmao de maior condicao
+1318: 
+1319:          eleito$ bento gomes da costa/id=amz22-per18
+1320:             ls$cargo/irmao de maior condicao
+1321: 
+1322:          eleito$ luis da silva/id=amz22-per19
+1323:             ls$cargo/irmao de menor condicao
+1324:             ls$profissao/alfaiate
+1325: 
+1326:          eleito$ jose dias/id=amz22-per20
+1327:             ls$cargo/irmao de menor condicao
+1328: 
+1329:          eleito$ jose de andrade/id=amz22-per21
+1330:             ls$cargo/irmao de menor condicao
+1331: 
+1332:          eleito$ manuel gomes bicho/id=amz22-per22
+1333:             ls$cargo/irmao de menor condicao
+1334: 
+1335:          eleito$ jose de barros/id=amz22-per23
+1336:             ls$cargo/irmao de menor condicao
+1337: 
+
+ERROR: eleicoes1.cli line 1337 ** fim unknown element: id.
+Near line: 1337 
+Near line: 1338       fim$/id=mis mesa1-end22-2
+
+1338:       fim$/id=mis mesa1-end22-2
+1339: 
+1340:       amz$amz23/6/7/1715/76v/resumo=termo de eleicao de irmaos da mesa
+1341: 
 1342: amz$amz23
+1342:          eleitor$jose de morais/id=amz23-per1
+1343: 
+1344:          eleitor$ domingos goncalves galhardo/id=amz23-per2
+1345:             ls$titulo/doutor
+1346: 
+1347:          eleitor$rodrigo homem de quadros/id=amz23-per3
+1348: 
+1349:          eleitor$ antonio de abreu/id=amz23-per4
+1350:             ls$titulo/doutor
+1351: 
+1352:          eleitor$joao coelho sequeira/id=amz23-per5
+1353: 
+1354:          eleitor$jose marques/id=amz23-per6
+1355: 
+1356:          eleitor$andre goncalves/id=amz23-per7
+1357: 
+1358:          eleitor$manuel goncalves vargas/id=amz23-per8
+1359: 
+1360:          eleitor$jose ????/id=amz23-per9
+1361: 
+1362:          eleitor$manuel rodrigues/id=amz23-per10
+1363: 
+1364:          eleito$ joao da costa de vasconcelos/id=amz23-per11
+1365:             ls$cargo/provedor
+1366: 
+1367:          eleito$ luis soares coelho/id=amz23-per12
+1368:             ls$cargo/escrivao
+1369:             ls$profissao/padre
+1370:             ls$ec/solteiro
+1371: 
+1372:          eleito$ jose de barros/id=amz23-per13
+1373:             ls$profissao/mordomo
+1374: 
+1375:          eleito$manuel bento de miranda/id=amz23-per14
+1376:             ls$cargo/irmao de maior condicao
+1377: 
+1378:          eleito$luis barbosa canais/id=amz23-per15
+1379:             ls$cargo/irmao de maior condicao
+1380: 
+1381:          eleito$ antonio de abreu de castelo branco/id=amz23-per16
+1382:             ls$titulo/doutor
+1383:             ls$cargo/irmao de maior condicao
+1384: 
+1385:          eleito$dionisio de magalhaes pinto/id=amz23-per17
+1386:             ls$cargo/irmao de maior condicao
+1387: 
+1388:          eleito$tome velho/id=amz23-per18
+1389:             ls$cargo/irmao de maior condicao
+1390: 
+1391:          eleito$jose mendes alvaro/id=amz23-per19
+1392:             ls$cargo/irmao de menor condicao
+1393: 
+1394:          eleito$andre goncalves/id=amz23-per20
+1395:             ls$cargo/irmao de menor condicao
+1396: 
+1397:          eleito$manuel rodrigues descalco/id=amz23-per21
+1398:             ls$cargo/irmao de menor condicao
+1399: 
+1400:          eleito$jose da costa/id=amz23-per22
+1401:             ls$cargo/irmao de menor condicao
+1402: 
+1403:          eleito$jose marques harpista/id=amz23-per23
+1404:             ls$cargo/irmao de menor condicao
+1405: 
+
+ERROR: eleicoes1.cli line 1405 ** fim unknown element: id.
+Near line: 1405 
+Near line: 1406       fim$/id=mis mesa1-end23-2
+
+1406:       fim$/id=mis mesa1-end23-2
+1407: 
+1408:       amz$amz24/5/7/1716/81/resumo=termo de eleicao de irmaos da mesa
+1409: 
 1410: amz$amz24
+1410:          eleitor$luis barbosa canais/id=amz24-per1
+1411: 
+1412:          eleitor$ domingos goncalves galhardo/id=amz24-per2
+1413:             ls$titulo/doutor
+1414: 
+1415:          eleitor$bento gomes da costa/id=amz24-per3
+1416: 
+1417:          eleitor$joao de sequeira coelho/id=amz24-per4
+1418: 
+1419:          eleitor$joao colaco de morais/id=amz24-per5
+1420: 
+1421:          eleitor$jose da costa/id=amz24-per6
+1422: 
+1423:          eleitor$jose marques/id=amz24-per7
+1424: 
+1425:          eleitor$manuel de brito/id=amz24-per8
+1426: 
+1427:          eleitor$jose de barros/id=amz24-per9
+1428: 
+1429:          eleitor$andre goncalves/id=amz24-per10
+1430: 
+1431:          eleito$ luis soares coelho/id=amz24-per11
+1432:             ls$profissao/padre
+1433:             ls$cargo/provedor
+1434:             ls$ec/solteiro
+1435: 
+1436:          eleito$ manuel pinto de miranda/id=amz24-per12
+1437:             ls$cargo/escrivao
+1438: 
+1439:          eleito$ jose da costa/id=amz24-per13
+1440:             ls$cargo/mordomo
+1441: 
+1442:          eleito$alexandre mendes ravasco/id=amz24-per14
+1443:             ls$cargo/irmao de maior condicao
+1444: 
+1445:          eleito$joao de sequeira coelho/id=amz24-per15
+1446:             ls$cargo/irmao de maior condicao
+1447: 
+1448:          eleito$dionisio de magalhaes pinto/id=amz24-per16
+1449:             ls$cargo/irmao de maior condicao
+1450: 
+1451:          eleito$tome velho/id=amz24-per17
+1452:             ls$cargo/irmao de maior condicao
+1453: 
+1454:          eleito$joao da costa machado/id=amz24-per18
+1455:             ls$cargo/irmao de maior condicao
+1456: 
+1457:          eleito$jose marques/id=amz24-per19
+1458:             ls$cargo/irmao de menor condicao
+1459: 
+1460:          eleito$jose barros/id=amz24-per20
+1461:             ls$cargo/irmao de menor condicao
+1462: 
+1463:          eleito$andre goncalves/id=amz24-per21
+1464:             ls$cargo/irmao de menor condicao
+1465: 
+1466:          eleito$manuel ferreira/id=amz24-per22
+1467:             ls$cargo/irmao de menor condicao
+1468: 
+1469:          eleito$manuel rodrigues serrao/id=amz24-per23
+1470:             ls$cargo/irmao de menor condicao
+1471: 
+
+ERROR: eleicoes1.cli line 1471 ** fim unknown element: id.
+Near line: 1471 
+Near line: 1472       fim$/id=mis mesa1-end24-2
+
+1472:       fim$/id=mis mesa1-end24-2
+1473: 
+1474:       amz$amz25/4/12/1718/87v/resumo=termo de eleicao de irmaos da mesa
+1475: 
 1476: amz$amz25
+1476:          eleitor$manuel soares coelho/id=amz25-per1
+1477: 
+1478:          eleitor$joao da costa vasconcelos/id=amz25-per2
+1479: 
+1480:          eleitor$luis barbosa canais/id=amz25-per3
+1481: 
+1482:          eleitor$henrique barbosa canais/id=amz25-per4
+1483: 
+1484:          eleitor$ manuel pessoa leitao/id=amz25-per5
+1485:             ls$profissao/padre
+1486: 
+1487:          eleitor$manuel goncalves vargas/id=amz25-per6
+1488: 
+1489:          eleitor$jose velho/id=amz25-per7
+1490: 
+1491:          eleitor$alberto ferreira/id=amz25-per8
+1492: 
+1493:          eleitor$manuel rodrigues descalco/id=amz25-per9
+1494: 
+1495:          eleitor$andre goncalves/id=amz25-per10
+1496: 
+1497:          eleito$ rodrigo homem de quadros/id=amz25-per11
+1498:             ls$cargo/provedor
+1499: 
+1500:          eleito$ henrique barbosa/id=amz25-per12
+1501:             ls$titulo/licenciado
+1502:             ls$cargo/escrivao
+1503: 
+1504:          eleito$ alberto ferreira veloso/id=amz25-per13
+1505:             ls$cargo/mordomo
+1506: 
+1507:          eleito$luis barbosa canais/id=amz25-per14
+1508:             ls$cargo/irmao de maior condicao
+1509: 
+1510:          eleito$manuel pinto de miranda/id=amz25-per15
+1511:             ls$cargo/irmao de maior condicao
+1512: 
+1513:          eleito$alexandre mendes ravasco/id=amz25-per16
+1514:             ls$cargo/irmao de maior condicao
+1515: 
+1516:          eleito$pedro de eiro matoso/id=amz25-per17
+1517:             ls$cargo/irmao de maior condicao
+1518: 
+1519:          eleito$ luis soares coelho/id=amz25-per18
+1520:             ls$cargo/irmao de maior condicao
+1521:             ls$profissao/padre
+1522:             ls$ec/solteiro
+1523: 
+1524:          eleito$jose da costa/id=amz25-per19
+1525:             ls$cargo/irmao de menor condicao
+1526: 
+1527:          eleito$antonio soares estanqueiro/id=amz25-per20
+1528:             ls$cargo/irmao de menor condicao
+1529: 
+1530:          eleito$luis da silva/id=amz25-per21
+1531:             ls$cargo/irmao de menor condicao
+1532: 
+1533:          eleito$manuel de brito/id=amz25-per22
+1534:             ls$cargo/irmao de menor condicao
+1535: 
+1536:          eleito$joao rodrigues alvaro/id=amz25-per23
+1537:             ls$cargo/irmao de menor condicao
+1538:             ls$alcunha/velho
+1539: 
+
+ERROR: eleicoes1.cli line 1539 ** fim unknown element: id.
+Near line: 1539 
+Near line: 1540       fim$/id=mis mesa1-end25-2
+
+1540:       fim$/id=mis mesa1-end25-2
+1541: 
+1542:       amz$amz26/17/7/1719/90/resumo=termo de eleicao de irmaos da mesa
+1543: 
 1544: amz$amz26
+1544:          eleitor$manuel soares coelho/id=amz26-per1
+1545: 
+1546:          eleitor$luis soares coelho/id=amz26-per2
+1547: 
+1548:          eleitor$antonio de abreu/id=amz26-per3
+1549:             ls$titulo/doutor
+1550: 
+1551:          eleitor$vicente colaco de morais/id=amz26-per4
+1552: 
+1553:          eleitor$manuel pessoa leitao/id=amz26-per5
+1554: 
+1555:          eleitor$jose marques/id=amz26-per6
+1556: 
+1557:          eleitor$jose de andrade/id=amz26-per7
+1558: 
+1559:          eleitor$jose da costa/id=amz26-per8
+1560: 
+1561:          eleitor$manuel alvares/id=amz26-per9
+1562: 
+1563:          eleitor$luis da silva/id=amz26-per10
+1564: 
+1565:          eleito$ rodrigo homem de quadros/id=amz26-per11
+1566:             ls$cargo/provedor
+1567: 
+1568:          eleito$ manuel pessoa leitao/id=amz26-per12
+1569:             ls$profissao/escrivao
+1570: 
+1571:          eleito$ andre goncalves/id=amz26-per13
+1572:             ls$cargo/mordomoirmaos de maior
+1573: 
+1574:          eleito$pedro de eiro matoso/id=amz26-per14
+1575:             ls$cargo/irmao de maior condicao
+1576: 
+1577:          eleito$manuel pinto de miranda/id=amz26-per15
+1578:             ls$cargo/irmao de maior condicao
+1579: 
+1580:          eleito$tome velho/id=amz26-per16
+1581:             ls$cargo/irmao de maior condicao
+1582: 
+1583:          eleito$dionisio de magalhaes/id=amz26-per17
+1584:             ls$cargo/irmao de maior condicao
+1585: 
+1586:          eleito$tome pereira(?) de brito/id=amz26-per18
+1587:             ls$cargo/irmao de maior condicao
+1588: 
+1589:          eleito$manuel lopes/id=amz26-per19
+1590:             ls$cargo/irmao de menor condicao
+1591:             ls$profissao/sapateiro
+1592: 
+1593:          eleito$jose de morais/id=amz26-per20
+1594:             ls$cargo/irmao de menor condicao
+1595: 
+1596:          eleito$manuel martins camouco/id=amz26-per21
+1597:             ls$cargo/irmao de menor condicao
+1598: 
+1599:          eleito$jose marques/id=amz26-per22
+1600:             ls$cargo/irmao de menor condicao
+1601: 
+1602:          eleito$jose da costa/id=amz26-per23
+1603:             ls$cargo/irmao de menor condicao
+1604: 
+
+ERROR: eleicoes1.cli line 1604 ** fim unknown element: id.
+Near line: 1604 
+Near line: 1605       fim$/id=mis mesa1-end26-2
+
+1605:       fim$/id=mis mesa1-end26-2
+1606: 
+1607:       amz$amz27/7/7/1721/91/resumo=termo de eleicao de irmaos da mesa
+1608: 
 1609: amz$amz27
+1609:          eleitor$rodrigo homem de quadros/id=amz27-per1
+1610: 
+1611:          eleitor$ antonio de abreu castelo branco/id=amz27-per2
+1612:             ls$titulo/doutor
+1613: 
+1614:          eleitor$manuel soares coelho/id=amz27-per3
+1615: 
+1616:          eleitor$joao de sequeira coelho/id=amz27-per4
+1617: 
+1618:          eleitor$vicente colaco de morais/id=amz27-per5
+1619: 
+1620:          eleitor$jose marques/id=amz27-per6
+1621: 
+1622:          eleitor$jose da costa/id=amz27-per7
+1623: 
+1624:          eleitor$antonio lopes/id=amz27-per8
+1625: 
+1626:          eleitor$andre goncalves/id=amz27-per9
+1627: 
+1628:          eleitor$joao henriques/id=amz27-per10
+1629: 
+1630:          eleito$ luis manhos de abreu/id=amz27-per11
+1631:             ls$cargo/provedor
+1632: 
+1633:          eleito$escrivao-padre sebastiao ferreira/id=amz27-per12
+1634:             ls$cargo/escrivao
+1635:             ls$profissao/padre
+1636:             ls$ec/solteiro
+1637: 
+1638:          eleito$ jose de andrade/id=amz27-per13
+1639:             ls$cargo/mordomo
+1640: 
+1641:          eleito$manuel pinto de miranda/id=amz27-per14
+1642:             ls$cargo/irmao de maior condicao
+1643: 
+1644:          eleito$alexandre mendes ravasco/id=amz27-per15
+1645:             ls$cargo/irmao de maior condicao
+1646: 
+1647:          eleito$tome pereira de brito/id=amz27-per16
+1648:             ls$cargo/irmao de maior condicao
+1649: 
+1650:          eleito$tome velho/id=amz27-per17
+1651:             ls$cargo/irmao de maior condicao
+1652: 
+1653:          eleito$dionisio de magalhaes/id=amz27-per18
+1654:             ls$cargo/irmao de maior condicao
+1655: 
+1656:          eleito$antonio lopes estanqueiro/id=amz27-per19
+1657:             ls$cargo/irmao de menor condicao
+1658: 
+1659:          eleito$alberto ferreira/id=amz27-per20
+1660:             ls$cargo/irmao de menor condicao
+1661: 
+1662:          eleito$manuel rodrigues descalco/id=amz27-per21
+1663:             ls$cargo/irmao de menor condicao
+1664: 
+1665:          eleito$andre goncalves/id=amz27-per22
+1666:             ls$cargo/irmao de menor condicao
+1667: 
+1668:          eleito$jose da costa/id=amz27-per23
+1669:             ls$cargo/irmao de menor condicao
+1670: 
+
+ERROR: eleicoes1.cli line 1670 ** fim unknown element: id.
+Near line: 1670 
+Near line: 1671       fim$/id=mis mesa1-end27-2
+
+1671:       fim$/id=mis mesa1-end27-2
+1672: 
+1673:       amz$amz28/4/7/1723/94/resumo=termo de eleicao de irmaos da mesa
+1674: 
 1675: amz$amz28
-*** End of File
-** Processed file- /Users/jrc/mhk-home/sources/soure/documents/irmaos_misericordia/eleicoes1.cli
-** Original file- /Users/jrc/mhk-home/sources/soure/documents/irmaos_misericordia/eleicoes1.org
-** Previous version- /Users/jrc/mhk-home/sources/soure/documents/irmaos_misericordia/eleicoes1.old
-** Temp file with ids- /Users/jrc/mhk-home/sources/soure/documents/irmaos_misericordia/eleicoes1.ids
-0  errors. 
+1675:          eleitor$ manuel pessoa leitao/id=amz28-per1
+1676:             ls$profissao/padre
+1677:             ls$titulo/reverendo
+1678:             ls$ec/solteiro
+1679: 
+1680:          eleitor$jacinto da costa vasconcelos/id=amz28-per2
+1681:             ls$titulo/doutor
+1682: 
+1683:          eleitor$capitao luis manhos de abreu/id=amz28-per3
+1684:             ls$cargo/capitao
+1685: 
+1686:          eleitor$ antonio de abreu/id=amz28-per4
+1687:             ls$titulo/doutor
+1688: 
+1689:          eleitor$manuel soares coelho/id=amz28-per5
+1690: 
+1691:          eleitor$antonio lopes/id=amz28-per6
+1692: 
+1693:          eleitor$jose marques/id=amz28-per7
+1694: 
+1695:          eleitor$jose velho/id=amz28-per8
+1696: 
+1697:          eleitor$jose da costa/id=amz28-per9
+1698: 
+1699:          eleitor$alberto ferreira/id=amz28-per10
+1700: 
+1701:          eleito$ jacinto da costa vasconcelos/id=amz28-per11
+1702:             ls$cargo/provedor
+1703: 
+1704:          eleito$ manuel pessoa leitao/id=amz28-per12
+1705:             ls$profissao/padre
+1706:             ls$ec/solteiro
+1707:             ls$cargo/escrivao
+1708: 
+1709:          eleito$ jose da costa/id=amz28-per13
+1710:             ls$cargo/mordomo
+1711: 
+1712:          eleito$joao de sequeira coelho/id=amz28-per14
+1713:             ls$cargo/irmao de maior condicao
+1714: 
+1715:          eleito$sebastiao machado da costa/id=amz28-per15
+1716:             ls$cargo/irmao de maior condicao
+1717: 
+1718:          eleito$ domingos goncalves/id=amz28-per16
+1719:             ls$cargo/irmao de maior condicao
+1720:             ls$titulo/doutor
+1721: 
+1722:          eleito$alexandre mendes ravasco/id=amz28-per17
+1723:             ls$cargo/irmao de maior condicao
+1724: 
+1725:          eleito$luis barbosa canais/id=amz28-per18
+1726:             ls$cargo/irmao de maior condicao
+1727: 
+1728:          eleito$jose marques/id=amz28-per19
+1729:             ls$cargo/irmao de menor condicao
+1730: 
+1731:          eleito$jose velho/id=amz28-per20
+1732:             ls$cargo/irmao de menor condicao
+1733: 
+1734:          eleito$antonio lopes estanqueiro/id=amz28-per21
+1735:             ls$cargo/irmao de menor condicao
+1736: 
+1737:          eleito$alberto ferreira/id=amz28-per22
+1738:             ls$cargo/irmao de menor condicao
+1739: 
+1740:          eleito$manuel rodrigues serrao/id=amz28-per23
+1741:             ls$cargo/irmao de menor condicao
+1742: *** End of File
+27  errors. 
 0  warnings.
 Translation finished.

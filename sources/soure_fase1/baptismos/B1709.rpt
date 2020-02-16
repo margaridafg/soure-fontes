@@ -1,29 +1,26 @@
-ClioInput - version $Revision$ SWI $Date$
-29-5-2017 15-6
+ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
+13-6-2019 22-46
 
-Processing data file:/Users/jrc/develop/mhk_users/soure/documents/baptismos/B1709.CLI
+Processing data file b1709.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
-1: kleio$gacto.str
+1: kleio$gacto.str/translations=1
 =========================
 kleio translation started
 =========================
 Structure: gacto.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 1
 Obs: 
-Translation count not set or invalid, counting as zero: 
 2:    fonte$baptismos 1709/tipo=reg paroquiais/localizacao=fol. 330-/data=17090000
 3: 
-**** auto rels 2 STARTED.
 ** Processing source fonte$baptismos 1709
 4:       b$b1709.1/1/1/1709/0/0/0/jose pinto
 5: 
-**** auto rels 2 STARTED.
-** Processing act b$b1709.1
+6: b$b1709.1
 6:          n$maria/f/id=b1709.1-per1
 7: 
 8:             pai$joao antunes/id=b1709.1-per1-per2
@@ -32,22 +29,21 @@ Translation count not set or invalid, counting as zero:
 11:             mae$catarina francisca/id=b1709.1-per1-per3
 12: 
 13:             pad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1709.1-per4
+
+WARNING: b1709.cli line 13 destination id of "same as" not found. Will check again at the end of file.
+Near line: 13             pad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1709.1-per4
+Near line: 14                ls$nome/paulo ribeiro
+
 14:                ls$nome/paulo ribeiro
 15: 
 16:             mad$maria goncalves/id=b1709.1-per5
 17: 
-18:             mrmad$antonio rodrigues/id=b1709.1-per6
-19:                ls$residencia/casal das galinhas
+18:                mrmad$antonio rodrigues/id=b1709.1-per6
+19:                   ls$residencia/casal das galinhas
 20: 
 21:       b$b1709.2/3/1/1709/0/0/0/jose pinto
 22: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.1-per1-per2 to b1709.1-per1 parentesco/pai
-   ** auto rel: from b1709.1-per1-per3 to b1709.1-per1 parentesco/mae
-   ** auto rel: from b1709.1-per1-per2 to b1709.1-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.1-per1-per2/ec/c
-   ** Automatic attribute: b1709.1-per1-per3/ec/c
-** Processing act b$b1709.2
+23: b$b1709.2
 23:          n$maria/f/id=b1709.2-per1
 24: 
 25:             pai$manuel duarte/id=b1709.2-per1-per2
@@ -60,18 +56,12 @@ Translation count not set or invalid, counting as zero:
 32: 
 33:             mad$maria cordeiro/id=b1709.2-per5
 34: 
-35:             mrmad$francisco duarte/id=b1709.2-per6
-36:                ls$residencia/casal do migalho
+35:                mrmad$francisco duarte/id=b1709.2-per6
+36:                   ls$residencia/casal do migalho
 37: 
 38:       b$b1709.3/10/1/1709/0/0/0/jose pinto
 39: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.2-per1-per2 to b1709.2-per1 parentesco/pai
-   ** auto rel: from b1709.2-per1-per3 to b1709.2-per1 parentesco/mae
-   ** auto rel: from b1709.2-per1-per2 to b1709.2-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.2-per1-per2/ec/c
-   ** Automatic attribute: b1709.2-per1-per3/ec/c
-** Processing act b$b1709.3
+40: b$b1709.3
 40:          n$maria/f/id=b1709.3-per1
 41: 
 42:             pai$joao rodrigues/id=b1709.3-per1-per2
@@ -84,18 +74,12 @@ Translation count not set or invalid, counting as zero:
 49: 
 50:             mad$maria domingues/id=b1709.3-per5
 51: 
-52:             mrmad$miguel rodrigues/id=b1709.3-per6
-53:                ls$residencia/sobral
+52:                mrmad$miguel rodrigues/id=b1709.3-per6
+53:                   ls$residencia/sobral
 54: 
 55:       b$b1709.4/10/1/1709/0/0/0/jose pinto
 56: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.3-per1-per2 to b1709.3-per1 parentesco/pai
-   ** auto rel: from b1709.3-per1-per3 to b1709.3-per1 parentesco/mae
-   ** auto rel: from b1709.3-per1-per2 to b1709.3-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.3-per1-per2/ec/c
-   ** Automatic attribute: b1709.3-per1-per3/ec/c
-** Processing act b$b1709.4
+57: b$b1709.4
 57:          n$antonio/m/id=b1709.4-per1
 58: 
 59:             pai$manuel francisco/id=b1709.4-per1-per2
@@ -109,18 +93,12 @@ Translation count not set or invalid, counting as zero:
 67: 
 68:             mad$maria das neves/id=b1709.4-per5
 69: 
-70:             mrmad$joao#sic/id=b1709.4-per6
-71:                ls$residencia/casa velha
+70:                mrmad$joao#sic/id=b1709.4-per6
+71:                   ls$residencia/casa velha
 72: 
 73:       b$b1709.5/17/1/1709/0/0/0/jose pinto
 74: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.4-per1-per2 to b1709.4-per1 parentesco/pai
-   ** auto rel: from b1709.4-per1-per3 to b1709.4-per1 parentesco/mae
-   ** auto rel: from b1709.4-per1-per2 to b1709.4-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.4-per1-per2/ec/c
-   ** Automatic attribute: b1709.4-per1-per3/ec/c
-** Processing act b$b1709.5
+75: b$b1709.5
 75:          n$jose/m/id=b1709.5-per1
 76: 
 77:             pai$joao rodrigues/id=b1709.5-per1-per2
@@ -133,18 +111,12 @@ Translation count not set or invalid, counting as zero:
 84: 
 85:             mad$maria domingues/id=b1709.5-per5
 86: 
-87:             mrmad$miguel rodrigues/id=b1709.5-per6
-88:                ls$residencia/sobral
+87:                mrmad$miguel rodrigues/id=b1709.5-per6
+88:                   ls$residencia/sobral
 89: 
 90:       b$b1709.6/22/1/1709/0/0/0/jose mendes
 91: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.5-per1-per2 to b1709.5-per1 parentesco/pai
-   ** auto rel: from b1709.5-per1-per3 to b1709.5-per1 parentesco/mae
-   ** auto rel: from b1709.5-per1-per2 to b1709.5-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.5-per1-per2/ec/c
-   ** Automatic attribute: b1709.5-per1-per3/ec/c
-** Processing act b$b1709.6
+92: b$b1709.6
 92:          n$manuel/m/id=b1709.6-per1
 93: 
 94:             pai$manuel rodrigues/id=b1709.6-per1-per2
@@ -157,18 +129,12 @@ Translation count not set or invalid, counting as zero:
 101: 
 102:             mad$maria goncalves/id=b1709.6-per5
 103: 
-104:             mrmad$mateus carvalho/id=b1709.6-per6
-105:                ls$residencia/mogadouro
+104:                mrmad$mateus carvalho/id=b1709.6-per6
+105:                   ls$residencia/mogadouro
 106: 
 107:       b$b1709.7/24/1/1709/0/0/0/manuel martins
 108: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.6-per1-per2 to b1709.6-per1 parentesco/pai
-   ** auto rel: from b1709.6-per1-per3 to b1709.6-per1 parentesco/mae
-   ** auto rel: from b1709.6-per1-per2 to b1709.6-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.6-per1-per2/ec/c
-   ** Automatic attribute: b1709.6-per1-per3/ec/c
-** Processing act b$b1709.7
+109: b$b1709.7
 109:          n$sebastiao/m/id=b1709.7-per1
 110: 
 111:             pai$antonio madeira/id=b1709.7-per1-per2
@@ -178,20 +144,19 @@ Translation count not set or invalid, counting as zero:
 115: 
 116:             pad$sebastiao goncalves/mesmo_que=sgoncalves/id=b1709.7-per4
 117: 
+
+WARNING: b1709.cli line 117 destination id of "same as" not found. Will check again at the end of file.
+Near line: 117 
+Near line: 118             mad$domingas esteves/id=b1709.7-per5
+
 118:             mad$domingas esteves/id=b1709.7-per5
 119: 
-120:             mrmad$manuel rodrigues feijao/id=b1709.7-per6
-121:                ls$residencia/barril
+120:                mrmad$manuel rodrigues feijao/id=b1709.7-per6
+121:                   ls$residencia/barril
 122: 
 123:       b$b1709.8/4/2/1709/0/0/0/jose pinto
 124: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.7-per1-per2 to b1709.7-per1 parentesco/pai
-   ** auto rel: from b1709.7-per1-per3 to b1709.7-per1 parentesco/mae
-   ** auto rel: from b1709.7-per1-per2 to b1709.7-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.7-per1-per2/ec/c
-   ** Automatic attribute: b1709.7-per1-per3/ec/c
-** Processing act b$b1709.8
+125: b$b1709.8
 125:          n$manuel/m/id=b1709.8-per1
 126: 
 127:             pai$jose domingues/id=b1709.8-per1-per2
@@ -200,20 +165,24 @@ Translation count not set or invalid, counting as zero:
 130: 
 131:             pad$rodrigo/mesmo_que=c6-7-rod/id=b1709.8-per4
 132: 
-133:             ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.8-per5
+
+WARNING: b1709.cli line 132 destination id of "same as" not found. Will check again at the end of file.
+Near line: 132 
+Near line: 133                ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.8-per5
+
+133:                ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.8-per5
 134: 
+
+WARNING: b1709.cli line 134 destination id of "same as" not found. Will check again at the end of file.
+Near line: 134 
+Near line: 135             mad$isabel da silva/obs=VER SE E MULHER DO MANUEL OU DO RODRIGO. A mulher do Manuel homem de Quadros chama-se isabel maria de castelo branco/id=b1709.8-per6
+
 135:             mad$isabel da silva/obs=VER SE E MULHER DO MANUEL OU DO RODRIGO. A mulher do Manuel homem de Quadros chama-se isabel maria de castelo branco/id=b1709.8-per6
 136:                ls$titulo/dona
 137: 
 138:       b$b1709.9/8/2/1709/0/0/0/jose pinto
 139: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.8-per1-per2 to b1709.8-per1 parentesco/pai
-   ** auto rel: from b1709.8-per1-per3 to b1709.8-per1 parentesco/mae
-   ** auto rel: from b1709.8-per1-per2 to b1709.8-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.8-per1-per2/ec/c
-   ** Automatic attribute: b1709.8-per1-per3/ec/c
-** Processing act b$b1709.9
+140: b$b1709.9
 140:          n$jose/m/id=b1709.9-per1
 141: 
 142:             pai$jose rodrigues/id=b1709.9-per1-per2
@@ -223,23 +192,17 @@ Translation count not set or invalid, counting as zero:
 146: 
 147:             pad$jose/id=b1709.9-per4
 148: 
-149:             ppad$luis coelho/id=b1709.9-per5
-150:                ls$residencia/soure
+149:                ppad$luis coelho/id=b1709.9-per5
+150:                   ls$residencia/soure
 151: 
 152:             mad$maria/id=b1709.9-per6
 153: 
-154:             pmad$manuel francisco gabriel/id=b1709.9-per7
-155:                ls$residencia/casa velha
+154:                pmad$manuel francisco gabriel/id=b1709.9-per7
+155:                   ls$residencia/casa velha
 156: 
 157:       b$b1709.10/10/2/1709/0/0/0/jose pinto
 158: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.9-per1-per2 to b1709.9-per1 parentesco/pai
-   ** auto rel: from b1709.9-per1-per3 to b1709.9-per1 parentesco/mae
-   ** auto rel: from b1709.9-per1-per2 to b1709.9-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.9-per1-per2/ec/c
-   ** Automatic attribute: b1709.9-per1-per3/ec/c
-** Processing act b$b1709.10
+159: b$b1709.10
 159:          n$maria/f/id=b1709.10-per1
 160: 
 161:             pai$manuel da costa/id=b1709.10-per1-per2
@@ -252,18 +215,12 @@ Translation count not set or invalid, counting as zero:
 168: 
 169:             mad$maria rodrigues/id=b1709.10-per5
 170: 
-171:             mrmad$francisco rodrigues/id=b1709.10-per6
-172:                ls$residencia/soure
+171:                mrmad$francisco rodrigues/id=b1709.10-per6
+172:                   ls$residencia/soure
 173: 
 174:       b$b1709.11/25/2/1709/0/0/0/jose pinto
 175: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.10-per1-per2 to b1709.10-per1 parentesco/pai
-   ** auto rel: from b1709.10-per1-per3 to b1709.10-per1 parentesco/mae
-   ** auto rel: from b1709.10-per1-per2 to b1709.10-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.10-per1-per2/ec/c
-   ** Automatic attribute: b1709.10-per1-per3/ec/c
-** Processing act b$b1709.11
+176: b$b1709.11
 176:          n$antonio/m/id=b1709.11-per1
 177: 
 178:             pai$domingos joao/id=b1709.11-per1-per2
@@ -274,24 +231,18 @@ Translation count not set or invalid, counting as zero:
 183:             pad$antonio/id=b1709.11-per4
 184:                ls$ec/s
 185: 
-186:             ppad$manuel dinis da silva/id=b1709.11-per5
-187:                ls$residencia/ega, freguesia da ega
-188:                ls$freguesia/ega
+186:                ppad$manuel dinis da silva/id=b1709.11-per5
+187:                   ls$residencia/ega, freguesia da ega
+188:                   ls$freguesia/ega
 189: 
 190:             mad$serafina ferreira/id=b1709.11-per6
 191: 
-192:             mrmad$manuel pereira/id=b1709.11-per7
-193:                ls$residencia/pouca pena
+192:                mrmad$manuel pereira/id=b1709.11-per7
+193:                   ls$residencia/pouca pena
 194: 
 195:       b$b1709.12/25/2/1709/0/0/0/jose pinto
 196: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.11-per1-per2 to b1709.11-per1 parentesco/pai
-   ** auto rel: from b1709.11-per1-per3 to b1709.11-per1 parentesco/mae
-   ** auto rel: from b1709.11-per1-per2 to b1709.11-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.11-per1-per2/ec/c
-   ** Automatic attribute: b1709.11-per1-per3/ec/c
-** Processing act b$b1709.12
+197: b$b1709.12
 197:          n$joao/m/id=b1709.12-per1
 198: 
 199:             pai$manuel simoes/id=b1709.12-per1-per2
@@ -301,21 +252,15 @@ Translation count not set or invalid, counting as zero:
 203: 
 204:             pad$joao/id=b1709.12-per4
 205: 
-206:             ppad$joao mendes/id=bppad25021709
-207:                ls$residencia/s.mateus
+206:                ppad$joao mendes/id=bppad25021709
+207:                   ls$residencia/s.mateus
 208: 
 209:             mad$teresa maria/id=b1709.12-per5
 210:                rel$parentesco/mulher/joao mendes/bppad25021709
 211: 
 212:       b$b1709.13/27/2/1709/0/0/0/jose pinto
 213: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.12-per1-per2 to b1709.12-per1 parentesco/pai
-   ** auto rel: from b1709.12-per1-per3 to b1709.12-per1 parentesco/mae
-   ** auto rel: from b1709.12-per1-per2 to b1709.12-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.12-per1-per2/ec/c
-   ** Automatic attribute: b1709.12-per1-per3/ec/c
-** Processing act b$b1709.13
+214: b$b1709.13
 214:          n$manuel/m/id=b1709.13-per1
 215: 
 216:             pai$manuel luis/id=b1709.13-per1-per2
@@ -329,18 +274,12 @@ Translation count not set or invalid, counting as zero:
 224:             mad$isabel/id=b1709.13-per5
 225:                ls$ec/s
 226: 
-227:             pmad$antonio simoes/id=b1709.13-per6
-228:                ls$residencia/sobral
+227:                pmad$antonio simoes/id=b1709.13-per6
+228:                   ls$residencia/sobral
 229: 
 230:       b$b1709.14/1/3/1709/0/0/0/jose pinto
 231: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.13-per1-per2 to b1709.13-per1 parentesco/pai
-   ** auto rel: from b1709.13-per1-per3 to b1709.13-per1 parentesco/mae
-   ** auto rel: from b1709.13-per1-per2 to b1709.13-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.13-per1-per2/ec/c
-   ** Automatic attribute: b1709.13-per1-per3/ec/c
-** Processing act b$b1709.14
+232: b$b1709.14
 232:          n$catarina/f/id=b1709.14-per1
 233: 
 234:             pai$paulo antunes/id=b1709.14-per1-per2
@@ -350,21 +289,20 @@ Translation count not set or invalid, counting as zero:
 238: 
 239:             pad$ventura martins/mesmo_que=c119-9/id=b1709.14-per4
 240: 
+
+WARNING: b1709.cli line 240 destination id of "same as" not found. Will check again at the end of file.
+Near line: 240 
+Near line: 241             mad$maria/id=b1709.14-per5
+
 241:             mad$maria/id=b1709.14-per5
 242:                ls$ec/s
 243: 
-244:             mmad$maria antunes/id=b1709.14-per6
-245:                ls$residencia/melrical
+244:                mmad$maria antunes/id=b1709.14-per6
+245:                   ls$residencia/melrical
 246: 
 247:       b$b1709.15/3/3/1709/0/0/0/jose pinto
 248: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.14-per1-per2 to b1709.14-per1 parentesco/pai
-   ** auto rel: from b1709.14-per1-per3 to b1709.14-per1 parentesco/mae
-   ** auto rel: from b1709.14-per1-per2 to b1709.14-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.14-per1-per2/ec/c
-   ** Automatic attribute: b1709.14-per1-per3/ec/c
-** Processing act b$b1709.15
+249: b$b1709.15
 249:          n$luis/m/id=b1709.15-per1
 250: 
 251:             pai$jose nunes/id=b1709.15-per1-per2
@@ -382,13 +320,7 @@ Translation count not set or invalid, counting as zero:
 263: 
 264:       b$b1709.16/11/3/1709/0/0/0/jose pinto
 265: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.15-per1-per2 to b1709.15-per1 parentesco/pai
-   ** auto rel: from b1709.15-per1-per3 to b1709.15-per1 parentesco/mae
-   ** auto rel: from b1709.15-per1-per2 to b1709.15-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.15-per1-per2/ec/c
-   ** Automatic attribute: b1709.15-per1-per3/ec/c
-** Processing act b$b1709.16
+266: b$b1709.16
 266:          n$isabel/f/id=b1709.16-per1
 267: 
 268:             pai$manuel domingues/id=b1709.16-per1-per2
@@ -398,21 +330,25 @@ Translation count not set or invalid, counting as zero:
 272: 
 273:             pad$rodrigo/mesmo_que=c6-7-rod/id=b1709.16-per4
 274: 
-275:             ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.16-per5
+
+WARNING: b1709.cli line 274 destination id of "same as" not found. Will check again at the end of file.
+Near line: 274 
+Near line: 275                ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.16-per5
+
+275:                ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.16-per5
 276: 
+
+WARNING: b1709.cli line 276 destination id of "same as" not found. Will check again at the end of file.
+Near line: 276 
+Near line: 277             mad$isabel/id=b1709.16-per6
+
 277:             mad$isabel/id=b1709.16-per6
 278:                ls$titulo/dona
 279:                rel$parentesco/mulher/manuel homem de quadros#podera ser antes mulher do de rodrigo, filho de manuel homem de quadros?/c6-7
 280: 
 281:       b$b1709.17/19/3/1709/0/0/0/jose pinto
 282: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.16-per1-per2 to b1709.16-per1 parentesco/pai
-   ** auto rel: from b1709.16-per1-per3 to b1709.16-per1 parentesco/mae
-   ** auto rel: from b1709.16-per1-per2 to b1709.16-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.16-per1-per2/ec/c
-   ** Automatic attribute: b1709.16-per1-per3/ec/c
-** Processing act b$b1709.17
+283: b$b1709.17
 283:          n$maria/f/id=b1709.17-per1
 284: 
 285:             pai$manuel simoes/id=b1709.17-per1-per2
@@ -426,18 +362,12 @@ Translation count not set or invalid, counting as zero:
 293:             mad$josefa/id=b1709.17-per5
 294:                ls$ec/s
 295: 
-296:             pmad$manuel rodrigues/id=b1709.17-per6
-297:                ls$residencia/eureca
+296:                pmad$manuel rodrigues/id=b1709.17-per6
+297:                   ls$residencia/eureca
 298: 
 299:       b$b1709.18/19/3/1709/0/0/0/jose pinto
 300: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.17-per1-per2 to b1709.17-per1 parentesco/pai
-   ** auto rel: from b1709.17-per1-per3 to b1709.17-per1 parentesco/mae
-   ** auto rel: from b1709.17-per1-per2 to b1709.17-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.17-per1-per2/ec/c
-   ** Automatic attribute: b1709.17-per1-per3/ec/c
-** Processing act b$b1709.18
+301: b$b1709.18
 301:          n$jose/m/id=b1709.18-per1
 302: 
 303:             pai$manuel leao/id=b1709.18-per1-per2
@@ -446,23 +376,22 @@ Translation count not set or invalid, counting as zero:
 306:             mae$isabel madeira/id=b1709.18-per1-per3
 307: 
 308:             pad$vicente colaco de morais/mesmo_que=c104-7/id=b1709.18-per4
+
+WARNING: b1709.cli line 308 destination id of "same as" not found. Will check again at the end of file.
+Near line: 308             pad$vicente colaco de morais/mesmo_que=c104-7/id=b1709.18-per4
+Near line: 309                ls$nome/vicente colaco
+
 309:                ls$nome/vicente colaco
 310: 
 311:             mad$catarina/id=b1709.18-per5
 312:                ls$ec/s
 313: 
-314:             mmad$catarina francisca/id=b1709.18-per6
-315:                ls$residencia/cavaleiros
+314:                mmad$catarina francisca/id=b1709.18-per6
+315:                   ls$residencia/cavaleiros
 316: 
 317:       b$b1709.19/25/3/1709/0/0/0/jose pinto
 318: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.18-per1-per2 to b1709.18-per1 parentesco/pai
-   ** auto rel: from b1709.18-per1-per3 to b1709.18-per1 parentesco/mae
-   ** auto rel: from b1709.18-per1-per2 to b1709.18-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.18-per1-per2/ec/c
-   ** Automatic attribute: b1709.18-per1-per3/ec/c
-** Processing act b$b1709.19
+319: b$b1709.19
 319:          n$jose/m/id=b1709.19-per1
 320: 
 321:             pai$dionisio de magalhaes/id=b1709.19-per1-per2
@@ -477,17 +406,11 @@ Translation count not set or invalid, counting as zero:
 330: 
 331:             mad$antonia pessoa/id=b1709.19-per5
 332: 
-333:             mmad$maria de jesus/id=b1709.19-per6
+333:                mmad$maria de jesus/id=b1709.19-per6
 334: 
 335:       b$b1709.20/26/3/1709/0/0/0/jose pinto
 336: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.19-per1-per2 to b1709.19-per1 parentesco/pai
-   ** auto rel: from b1709.19-per1-per3 to b1709.19-per1 parentesco/mae
-   ** auto rel: from b1709.19-per1-per2 to b1709.19-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.19-per1-per2/ec/c
-   ** Automatic attribute: b1709.19-per1-per3/ec/c
-** Processing act b$b1709.20
+337: b$b1709.20
 337:          n$catarina/f/id=b1709.20-per1
 338: 
 339:             pai$manuel ferreira/id=b1709.20-per1-per2
@@ -501,18 +424,12 @@ Translation count not set or invalid, counting as zero:
 347: 
 348:             mad$catarina/id=b1709.20-per5
 349: 
-350:             mmad$catarina francisca/id=b1709.20-per6
-351:                ls$residencia/cavaleiros
+350:                mmad$catarina francisca/id=b1709.20-per6
+351:                   ls$residencia/cavaleiros
 352: 
 353:       b$b1709.21/26/3/1709/0/0/0/jose pinto
 354: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.20-per1-per2 to b1709.20-per1 parentesco/pai
-   ** auto rel: from b1709.20-per1-per3 to b1709.20-per1 parentesco/mae
-   ** auto rel: from b1709.20-per1-per2 to b1709.20-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.20-per1-per2/ec/c
-   ** Automatic attribute: b1709.20-per1-per3/ec/c
-** Processing act b$b1709.21
+355: b$b1709.21
 355:          n$manuel/m/id=b1709.21-per1
 356: 
 357:             pai$manuel de s.miguel/id=b1709.21-per1-per2
@@ -522,20 +439,19 @@ Translation count not set or invalid, counting as zero:
 361: 
 362:             pad$pedro de eiro matoso/mesmo_que=peiro/id=b1709.21-per4
 363: 
+
+WARNING: b1709.cli line 363 destination id of "same as" not found. Will check again at the end of file.
+Near line: 363 
+Near line: 364             mad$ana maria/id=b1709.21-per5
+
 364:             mad$ana maria/id=b1709.21-per5
 365: 
-366:             pmad$tome velho/id=b1709.21-per6
-367:                ls$residencia/soure
+366:                pmad$tome velho/id=b1709.21-per6
+367:                   ls$residencia/soure
 368: 
 369:       b$b1709.22/1/4/1709/0/0/0/jose pinto
 370: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.21-per1-per2 to b1709.21-per1 parentesco/pai
-   ** auto rel: from b1709.21-per1-per3 to b1709.21-per1 parentesco/mae
-   ** auto rel: from b1709.21-per1-per2 to b1709.21-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.21-per1-per2/ec/c
-   ** Automatic attribute: b1709.21-per1-per3/ec/c
-** Processing act b$b1709.22
+371: b$b1709.22
 371:          n$antonio/m/id=b1709.22-per1
 372: 
 373:             pai$agostinho simoes/id=b1709.22-per1-per2
@@ -549,20 +465,19 @@ Translation count not set or invalid, counting as zero:
 381: 
 382:             mad$angelica/id=b1709.22-per5
 383: 
-384:             pmad$antonio manhos de abreu/mesmo_que=amabreu/id=b1709.22-per6
-385:                ls$nome/antonio manhos
-386:                ls$titulo/doutor
-387:                ls$residencia/soure
+384:                pmad$antonio manhos de abreu/mesmo_que=amabreu/id=b1709.22-per6
+
+WARNING: b1709.cli line 384 destination id of "same as" not found. Will check again at the end of file.
+Near line: 384                pmad$antonio manhos de abreu/mesmo_que=amabreu/id=b1709.22-per6
+Near line: 385                   ls$nome/antonio manhos
+
+385:                   ls$nome/antonio manhos
+386:                   ls$titulo/doutor
+387:                   ls$residencia/soure
 388: 
 389:       b$b1709.23/5/4/1709/0/0/0/jose pinto
 390: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.22-per1-per2 to b1709.22-per1 parentesco/pai
-   ** auto rel: from b1709.22-per1-per3 to b1709.22-per1 parentesco/mae
-   ** auto rel: from b1709.22-per1-per2 to b1709.22-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.22-per1-per2/ec/c
-   ** Automatic attribute: b1709.22-per1-per3/ec/c
-** Processing act b$b1709.23
+391: b$b1709.23
 391:          n$manuel/m/id=b1709.23-per1
 392:             ls$ilegitimo/sim
 393: 
@@ -574,22 +489,21 @@ Translation count not set or invalid, counting as zero:
 399:                rel$profissional/criada/antonio aires/bpai05041709
 400: 
 401:             pad$domingos goncalves/mesmo_que=c2-7/id=b1709.23-per3
+
+WARNING: b1709.cli line 401 destination id of "same as" not found. Will check again at the end of file.
+Near line: 401             pad$domingos goncalves/mesmo_que=c2-7/id=b1709.23-per3
+Near line: 402                ls$profissao/padre
+
 402:                ls$profissao/padre
 403: 
 404:             mad$isabel francisca/id=b1709.23-per4
 405: 
-406:             mrmad$jose goncalves/id=b1709.23-per5
-407:                ls$residencia/casais do espirito santo
+406:                mrmad$jose goncalves/id=b1709.23-per5
+407:                   ls$residencia/casais do espirito santo
 408: 
 409:       b$b1709.24/7/4/1709/0/0/0/jose pinto
 410: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bpai05041709 to b1709.23-per1 parentesco/pai
-   ** auto rel: from b1709.23-per1-per2 to b1709.23-per1 parentesco/mae
-   ** auto rel: from bpai05041709 to b1709.23-per1-per2 parentesco/marido
-   ** Automatic attribute: bpai05041709/ec/c
-   ** Automatic attribute: b1709.23-per1-per2/ec/c
-** Processing act b$b1709.24
+411: b$b1709.24
 411:          n$luis/m/id=b1709.24-per1
 412: 
 413:             pai$manuel rodrigues/id=b1709.24-per1-per2
@@ -601,19 +515,13 @@ Translation count not set or invalid, counting as zero:
 419: 
 420:             mad$isabel de s.miguel/id=b1709.24-per5
 421: 
-422:             mrmad$domingos goncalves/id=b1709.24-per6
-423:                ls$titulo/licenciado
-424:                ls$residencia/soure
+422:                mrmad$domingos goncalves/id=b1709.24-per6
+423:                   ls$titulo/licenciado
+424:                   ls$residencia/soure
 425: 
 426:       b$b1709.25/7/4/1709/0/0/0/jose pinto
 427: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.24-per1-per2 to b1709.24-per1 parentesco/pai
-   ** auto rel: from b1709.24-per1-per3 to b1709.24-per1 parentesco/mae
-   ** auto rel: from b1709.24-per1-per2 to b1709.24-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.24-per1-per2/ec/c
-   ** Automatic attribute: b1709.24-per1-per3/ec/c
-** Processing act b$b1709.25
+428: b$b1709.25
 428:          n$josefa/f/id=b1709.25-per1
 429: 
 430:             pai$joao cordeiro/id=b1709.25-per1-per2
@@ -627,26 +535,20 @@ Translation count not set or invalid, counting as zero:
 438:             mad$josefa/id=b1709.25-per5
 439:                ls$ec/s
 440: 
-441:             pmad$simao cordeiro/id=b1709.25-per6
-442:                ls$residencia/casal novo
+441:                pmad$simao cordeiro/id=b1709.25-per6
+442:                   ls$residencia/casal novo
 443: 
 444:       b$b1709.26/10/4/1709/0/0/0/jose pinto
 445: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.25-per1-per2 to b1709.25-per1 parentesco/pai
-   ** auto rel: from b1709.25-per1-per3 to b1709.25-per1 parentesco/mae
-   ** auto rel: from b1709.25-per1-per2 to b1709.25-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.25-per1-per2/ec/c
-   ** Automatic attribute: b1709.25-per1-per3/ec/c
-** Processing act b$b1709.26
+446: b$b1709.26
 446:          n$antonio/m/id=b1709.26-per1
 447:             ls$ilegitimo/sim
 448: 
 449:             mae$maria/id=b1709.26-per1-per2
 450:                ls$ec/s
 451: 
-452:             pmae$francisco rodrigues/id=b1709.26-per1-per3
-453:                ls$residencia/casais da misericordia
+452:                pmae$francisco rodrigues/id=b1709.26-per1-per3
+453:                   ls$residencia/casais da misericordia
 454: 
 455:             pad$antonio domingues/id=b1709.26-per4
 456:                ls$residencia/casais da misericordia
@@ -654,15 +556,12 @@ Translation count not set or invalid, counting as zero:
 458:             mad$maria/id=b1709.26-per5
 459:                ls$ec/s
 460: 
-461:             pmad$antonio domingues/id=b1709.26-per6
-462:                ls$residencia/casais da misericordia
+461:                pmad$antonio domingues/id=b1709.26-per6
+462:                   ls$residencia/casais da misericordia
 463: 
 464:       b$b1709.26b/15/4/1709/0/0/0/jose pinto/obs=escrito posterior `a margem no fol. 334. Estes dois so se casam em setembro. Note-se que baptismo nao refere que sao solteiros dizendo explicitamente filho de... e de sua mulher...
 465: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.26-per1-per2 to b1709.26-per1 parentesco/mae
-   ** auto rel: from b1709.26-per1-per3 to b1709.26-per1-per2 parentesco/pai
-** Processing act b$b1709.26b
+466: b$b1709.26b
 466:          n$jose/m/id=b1709.26b-per1
 467: 
 468:             pai$joao de barros/id=b1709.26b-per1-per2
@@ -675,18 +574,12 @@ Translation count not set or invalid, counting as zero:
 475: 
 476:             mad$maria rodrigues/id=b1709.26b-per5
 477: 
-478:             mrmad$paulo? rodrigues/id=b1709.26b-per6
-479:                ls$residencia/soure
+478:                mrmad$paulo? rodrigues/id=b1709.26b-per6
+479:                   ls$residencia/soure
 480: 
 481:       b$b1709.27/21/4/1709/0/0/0/jose pinto
 482: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.26b-per1-per2 to b1709.26b-per1 parentesco/pai
-   ** auto rel: from b1709.26b-per1-per3 to b1709.26b-per1 parentesco/mae
-   ** auto rel: from b1709.26b-per1-per2 to b1709.26b-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.26b-per1-per2/ec/c
-   ** Automatic attribute: b1709.26b-per1-per3/ec/c
-** Processing act b$b1709.27
+483: b$b1709.27
 483:          n$jose/m/id=bn21041709
 484: 
 485:             pai$martinho goncalves/id=bpai21041709
@@ -700,19 +593,13 @@ Translation count not set or invalid, counting as zero:
 493:             mad$antonia/id=b1709.27-per2
 494:                ls$titulo/dona
 495: 
-496:             mmad$madalena/id=bmmad21041709
-497:                ls$titulo/dona
-498:                ls$residencia/soure
+496:                mmad$madalena/id=bmmad21041709
+497:                   ls$titulo/dona
+498:                   ls$residencia/soure
 499: 
 500:       b$b1709.28/21/4/1709/0/0/0/jose pinto
 501: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bpai21041709 to bn21041709 parentesco/pai
-   ** auto rel: from bmae21041709 to bn21041709 parentesco/mae
-   ** auto rel: from bpai21041709 to bmae21041709 parentesco/marido
-   ** Automatic attribute: bpai21041709/ec/c
-   ** Automatic attribute: bmae21041709/ec/c
-** Processing act b$b1709.28
+502: b$b1709.28
 502:          n$henrique/m/id=b1709.28-per1
 503:             rel$parentesco/irmao gemeo/jose/bn21041709
 504: 
@@ -722,23 +609,22 @@ Translation count not set or invalid, counting as zero:
 508: 
 509:             pad$henrique/id=b1709.28-per4
 510: 
-511:             ppad$jose barbosa canais/mesmo_que=c17-7/id=b1709.28-per5
-512:                ls$nome/jose barbosa
+511:                ppad$jose barbosa canais/mesmo_que=c17-7/id=b1709.28-per5
+
+WARNING: b1709.cli line 511 destination id of "same as" not found. Will check again at the end of file.
+Near line: 511                ppad$jose barbosa canais/mesmo_que=c17-7/id=b1709.28-per5
+Near line: 512                   ls$nome/jose barbosa
+
+512:                   ls$nome/jose barbosa
 513: 
 514:             mad$barbara/id=b1709.28-per6
 515:                ls$titulo/dona
 516: 
-517:             mmad$madalena/mesmo_que=bmmad21041709/id=b1709.28-per7
+517:                mmad$madalena/mesmo_que=bmmad21041709/id=b1709.28-per7
 518: 
 519:       b$b1709.29/21/4/1709/0/0/0/jose pinto
 520: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.28-per1-per2 to b1709.28-per1 parentesco/pai
-   ** auto rel: from b1709.28-per1-per3 to b1709.28-per1 parentesco/mae
-   ** auto rel: from b1709.28-per1-per2 to b1709.28-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.28-per1-per2/ec/c
-   ** Automatic attribute: b1709.28-per1-per3/ec/c
-** Processing act b$b1709.29
+521: b$b1709.29
 521:          n$josefa/f/id=b1709.29-per1
 522: 
 523:             pai$antonio rodrigues/id=b1709.29-per1-per2
@@ -749,23 +635,17 @@ Translation count not set or invalid, counting as zero:
 528:             pad$manuel/id=b1709.29-per4
 529:                ls$ec/s
 530: 
-531:             mpad$antonia perdigao/id=b1709.29-per5
-532:                ls$residencia/alencarce de cima
+531:                mpad$antonia perdigao/id=b1709.29-per5
+532:                   ls$residencia/alencarce de cima
 533: 
 534:             mad$maria/id=b1709.29-per6
 535: 
-536:             mmad$maria rodrigues/id=b1709.29-per7
-537:                ls$residencia/podengos
+536:                mmad$maria rodrigues/id=b1709.29-per7
+537:                   ls$residencia/podengos
 538: 
 539:       b$b1709.30/21/4/1709/0/0/0/jose pinto
 540: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.29-per1-per2 to b1709.29-per1 parentesco/pai
-   ** auto rel: from b1709.29-per1-per3 to b1709.29-per1 parentesco/mae
-   ** auto rel: from b1709.29-per1-per2 to b1709.29-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.29-per1-per2/ec/c
-   ** Automatic attribute: b1709.29-per1-per3/ec/c
-** Processing act b$b1709.30
+541: b$b1709.30
 541:          n$antonia/f/id=b1709.30-per1
 542: 
 543:             pai$tome goncalves/id=b1709.30-per1-per2
@@ -775,20 +655,19 @@ Translation count not set or invalid, counting as zero:
 547: 
 548:             pad$sebastiao goncalves/mesmo_que=sgoncalves/id=b1709.30-per4
 549: 
+
+WARNING: b1709.cli line 549 destination id of "same as" not found. Will check again at the end of file.
+Near line: 549 
+Near line: 550             mad$antonia da costa/id=b1709.30-per5
+
 550:             mad$antonia da costa/id=b1709.30-per5
 551: 
-552:             mrmad$joao simoes/id=b1709.30-per6
-553:                ls$residencia/vale da borra
+552:                mrmad$joao simoes/id=b1709.30-per6
+553:                   ls$residencia/vale da borra
 554: 
 555:       b$b1709.31/27/4/1709/0/0/0/manuel martins
 556: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.30-per1-per2 to b1709.30-per1 parentesco/pai
-   ** auto rel: from b1709.30-per1-per3 to b1709.30-per1 parentesco/mae
-   ** auto rel: from b1709.30-per1-per2 to b1709.30-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.30-per1-per2/ec/c
-   ** Automatic attribute: b1709.30-per1-per3/ec/c
-** Processing act b$b1709.31
+557: b$b1709.31
 557:          n$antonio/m/id=b1709.31-per1
 558: 
 559:             pai$jose gomes serrano/id=b1709.31-per1-per2
@@ -804,13 +683,7 @@ Translation count not set or invalid, counting as zero:
 569: 
 570:       b$b1709.32/28/4/1709/0/0/0/manuel martins
 571: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.31-per1-per2 to b1709.31-per1 parentesco/pai
-   ** auto rel: from b1709.31-per1-per3 to b1709.31-per1 parentesco/mae
-   ** auto rel: from b1709.31-per1-per2 to b1709.31-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.31-per1-per2/ec/c
-   ** Automatic attribute: b1709.31-per1-per3/ec/c
-** Processing act b$b1709.32
+572: b$b1709.32
 572:          n$ines/f/id=b1709.32-per1
 573: 
 574:             pai$manuel rodrigues/id=b1709.32-per1-per2
@@ -823,18 +696,12 @@ Translation count not set or invalid, counting as zero:
 581: 
 582:             mad$ines/id=b1709.32-per5
 583: 
-584:             pmad$luis ferreira/id=b1709.32-per6
-585:                ls$residencia/casal da lajem
+584:                pmad$luis ferreira/id=b1709.32-per6
+585:                   ls$residencia/casal da lajem
 586: 
 587:       b$b1709.33/28/4/1709/0/0/0/manuel martins
 588: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.32-per1-per2 to b1709.32-per1 parentesco/pai
-   ** auto rel: from b1709.32-per1-per3 to b1709.32-per1 parentesco/mae
-   ** auto rel: from b1709.32-per1-per2 to b1709.32-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.32-per1-per2/ec/c
-   ** Automatic attribute: b1709.32-per1-per3/ec/c
-** Processing act b$b1709.33
+589: b$b1709.33
 589:          n$isabel/f/id=b1709.33-per1
 590: 
 591:             pai$domingos carvalho/id=b1709.33-per1-per2
@@ -847,18 +714,12 @@ Translation count not set or invalid, counting as zero:
 598: 
 599:             mad$isabel/id=b1709.33-per5
 600: 
-601:             pmad$francisco joao/id=b1709.33-per6
-602:                ls$residencia/delgados
+601:                pmad$francisco joao/id=b1709.33-per6
+602:                   ls$residencia/delgados
 603: 
 604:       b$b1709.34/30/4/1709/0/0/0/manuel martins
 605: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.33-per1-per2 to b1709.33-per1 parentesco/pai
-   ** auto rel: from b1709.33-per1-per3 to b1709.33-per1 parentesco/mae
-   ** auto rel: from b1709.33-per1-per2 to b1709.33-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.33-per1-per2/ec/c
-   ** Automatic attribute: b1709.33-per1-per3/ec/c
-** Processing act b$b1709.34
+606: b$b1709.34
 606:          n$manuel/m/id=b1709.34-per1
 607: 
 608:             pai$joao rodrigues/id=b1709.34-per1-per2
@@ -872,18 +733,12 @@ Translation count not set or invalid, counting as zero:
 616:             mad$isabel/id=b1709.34-per5
 617:                ls$ec/s
 618: 
-619:             pmad$diogo joao/id=b1709.34-per6
-620:                ls$residencia/sobral
+619:                pmad$diogo joao/id=b1709.34-per6
+620:                   ls$residencia/sobral
 621: 
 622:       b$b1709.35/1/5/1709/0/0/0/manuel martins
 623: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.34-per1-per2 to b1709.34-per1 parentesco/pai
-   ** auto rel: from b1709.34-per1-per3 to b1709.34-per1 parentesco/mae
-   ** auto rel: from b1709.34-per1-per2 to b1709.34-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.34-per1-per2/ec/c
-   ** Automatic attribute: b1709.34-per1-per3/ec/c
-** Processing act b$b1709.35
+624: b$b1709.35
 624:          n$joao/m/id=b1709.35-per1
 625: 
 626:             pai$lourenco dias/id=b1709.35-per1-per2
@@ -896,18 +751,12 @@ Translation count not set or invalid, counting as zero:
 633: 
 634:             mad$maria duarte/id=b1709.35-per5
 635: 
-636:             pmad$domingos oliveira/id=b1709.35-per6
-637:                ls$residencia/casalinhos
+636:                pmad$domingos oliveira/id=b1709.35-per6
+637:                   ls$residencia/casalinhos
 638: 
 639:       b$b1709.36/1/5/1709/0/0/0/manuel martins
 640: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.35-per1-per2 to b1709.35-per1 parentesco/pai
-   ** auto rel: from b1709.35-per1-per3 to b1709.35-per1 parentesco/mae
-   ** auto rel: from b1709.35-per1-per2 to b1709.35-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.35-per1-per2/ec/c
-   ** Automatic attribute: b1709.35-per1-per3/ec/c
-** Processing act b$b1709.36
+641: b$b1709.36
 641:          n$antonio/m/id=b1709.36-per1
 642: 
 643:             pai$jose dias/id=b1709.36-per1-per2
@@ -922,21 +771,30 @@ Translation count not set or invalid, counting as zero:
 652: 
 653:             mad$mariana/mesmo_que=marianacb/id=b1709.36-per5
 654: 
-655:             pmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1709.36-per6
-656:                ls$nome/luis manhos
+
+WARNING: b1709.cli line 654 destination id of "same as" not found. Will check again at the end of file.
+Near line: 654 
+Near line: 655                pmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1709.36-per6
+
+655:                pmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1709.36-per6
+
+WARNING: b1709.cli line 655 destination id of "same as" not found. Will check again at the end of file.
+Near line: 655                pmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1709.36-per6
+Near line: 656                   ls$nome/luis manhos
+
+656:                   ls$nome/luis manhos
 657: 
 658:       b$b1709.37/5/5/1709/0/0/0/manuel martins
 659: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.36-per1-per2 to b1709.36-per1 parentesco/pai
-   ** auto rel: from b1709.36-per1-per3 to b1709.36-per1 parentesco/mae
-   ** auto rel: from b1709.36-per1-per2 to b1709.36-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.36-per1-per2/ec/c
-   ** Automatic attribute: b1709.36-per1-per3/ec/c
-** Processing act b$b1709.37
+660: b$b1709.37
 660:          n$rosa maria/f/id=b1709.37-per1
 661: 
 662:             pai$antonio manhos de abreu/mesmo_que=amabreu/id=b1709.37-per1-per2
+
+WARNING: b1709.cli line 662 destination id of "same as" not found. Will check again at the end of file.
+Near line: 662             pai$antonio manhos de abreu/mesmo_que=amabreu/id=b1709.37-per1-per2
+Near line: 663                ls$titulo/licenciado
+
 663:                ls$titulo/licenciado
 664: 
 665:             mae$simoa da rosa/id=b1709.37-per1-per3
@@ -949,13 +807,7 @@ Translation count not set or invalid, counting as zero:
 672: 
 673:       b$b1709.38/9/5/1709/0/0/0/manuel martins
 674: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.37-per1-per2 to b1709.37-per1 parentesco/pai
-   ** auto rel: from b1709.37-per1-per3 to b1709.37-per1 parentesco/mae
-   ** auto rel: from b1709.37-per1-per2 to b1709.37-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.37-per1-per2/ec/c
-   ** Automatic attribute: b1709.37-per1-per3/ec/c
-** Processing act b$b1709.38
+675: b$b1709.38
 675:          n$manuel/m/id=b1709.38-per1
 676: 
 677:             pai$antonio domingues/id=b1709.38-per1-per2
@@ -971,13 +823,7 @@ Translation count not set or invalid, counting as zero:
 687: 
 688:       b$b1709.39/12/5/1709/0/0/0/manuel martins
 689: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.38-per1-per2 to b1709.38-per1 parentesco/pai
-   ** auto rel: from b1709.38-per1-per3 to b1709.38-per1 parentesco/mae
-   ** auto rel: from b1709.38-per1-per2 to b1709.38-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.38-per1-per2/ec/c
-   ** Automatic attribute: b1709.38-per1-per3/ec/c
-** Processing act b$b1709.39
+690: b$b1709.39
 690:          n$antonio/m/id=b1709.39-per1
 691: 
 692:             pai$antonio goncalves/id=b1709.39-per1-per2
@@ -990,17 +836,11 @@ Translation count not set or invalid, counting as zero:
 699: 
 700:             mad$caetana/id=b1709.39-per5
 701: 
-702:             pmad$francisco gante/id=b1709.39-per6
+702:                pmad$francisco gante/id=b1709.39-per6
 703: 
 704:       b$b1709.40/12/5/1709/0/0/0/manuel martins
 705: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.39-per1-per2 to b1709.39-per1 parentesco/pai
-   ** auto rel: from b1709.39-per1-per3 to b1709.39-per1 parentesco/mae
-   ** auto rel: from b1709.39-per1-per2 to b1709.39-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.39-per1-per2/ec/c
-   ** Automatic attribute: b1709.39-per1-per3/ec/c
-** Processing act b$b1709.40
+706: b$b1709.40
 706:          n$catarina/f/id=b1709.40-per1
 707: 
 708:             pai$tome dias/id=b1709.40-per1-per2
@@ -1014,18 +854,12 @@ Translation count not set or invalid, counting as zero:
 716: 
 717:             mad$catarina/id=b1709.40-per5
 718: 
-719:             pmad$antonio gomes/id=b1709.40-per6
-720:                ls$residencia/bonitos
+719:                pmad$antonio gomes/id=b1709.40-per6
+720:                   ls$residencia/bonitos
 721: 
 722:       b$b1709.41/12/5/1709/0/0/0/manuel martins/obs=nao diz de quem e'filha a madrinha
 723: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.40-per1-per2 to b1709.40-per1 parentesco/pai
-   ** auto rel: from b1709.40-per1-per3 to b1709.40-per1 parentesco/mae
-   ** auto rel: from b1709.40-per1-per2 to b1709.40-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.40-per1-per2/ec/c
-   ** Automatic attribute: b1709.40-per1-per3/ec/c
-** Processing act b$b1709.41
+724: b$b1709.41
 724:          n$francisco/m/id=b1709.41-per1
 725: 
 726:             pai$antonio goncalves/id=b1709.41-per1-per2
@@ -1035,18 +869,17 @@ Translation count not set or invalid, counting as zero:
 730: 
 731:             pad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.41-per4
 732: 
+
+WARNING: b1709.cli line 732 destination id of "same as" not found. Will check again at the end of file.
+Near line: 732 
+Near line: 733             mad$antonia/id=b1709.41-per5
+
 733:             mad$antonia/id=b1709.41-per5
 734:                ls$titulo/dona
 735: 
 736:       b$b1709.42/12/5/1709/0/0/0/manuel martins
 737: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.41-per1-per2 to b1709.41-per1 parentesco/pai
-   ** auto rel: from b1709.41-per1-per3 to b1709.41-per1 parentesco/mae
-   ** auto rel: from b1709.41-per1-per2 to b1709.41-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.41-per1-per2/ec/c
-   ** Automatic attribute: b1709.41-per1-per3/ec/c
-** Processing act b$b1709.42
+738: b$b1709.42
 738:          n$joao/m/id=b1709.42-per1
 739: 
 740:             pai$domingos marques/id=b1709.42-per1-per2
@@ -1059,18 +892,12 @@ Translation count not set or invalid, counting as zero:
 747: 
 748:             mad$helena simoes/id=b1709.42-per5
 749: 
-750:             mrmad$manuel goncalves/id=b1709.42-per6
-751:                ls$residencia/paleao
+750:                mrmad$manuel goncalves/id=b1709.42-per6
+751:                   ls$residencia/paleao
 752: 
 753:       b$b1709.43/18/5/1709/0/0/0/manuel martins
 754: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.42-per1-per2 to b1709.42-per1 parentesco/pai
-   ** auto rel: from b1709.42-per1-per3 to b1709.42-per1 parentesco/mae
-   ** auto rel: from b1709.42-per1-per2 to b1709.42-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.42-per1-per2/ec/c
-   ** Automatic attribute: b1709.42-per1-per3/ec/c
-** Processing act b$b1709.43
+755: b$b1709.43
 755:          n$manuel/m/id=b1709.43-per1
 756: 
 757:             pai$alexandre gomes/id=b1709.43-per1-per2
@@ -1083,18 +910,12 @@ Translation count not set or invalid, counting as zero:
 764: 
 765:             mad$isabel rodrigues/id=b1709.43-per5
 766: 
-767:             mrmad$antonio gomes/id=b1709.43-per6
-768:                ls$residencia/paleao
+767:                mrmad$antonio gomes/id=b1709.43-per6
+768:                   ls$residencia/paleao
 769: 
 770:       b$b1709.44/19/5/1709/0/0/0/manuel martins
 771: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.43-per1-per2 to b1709.43-per1 parentesco/pai
-   ** auto rel: from b1709.43-per1-per3 to b1709.43-per1 parentesco/mae
-   ** auto rel: from b1709.43-per1-per2 to b1709.43-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.43-per1-per2/ec/c
-   ** Automatic attribute: b1709.43-per1-per3/ec/c
-** Processing act b$b1709.44
+772: b$b1709.44
 772:          n$luis/m/id=b1709.44-per1
 773: 
 774:             pai$domingos goncalves/id=b1709.44-per1-per2
@@ -1104,23 +925,17 @@ Translation count not set or invalid, counting as zero:
 778: 
 779:             pad$luis/id=b1709.44-per4
 780: 
-781:             ppad$jose barbosa/id=b1709.44-per5
-782:                ls$residencia/soure
+781:                ppad$jose barbosa/id=b1709.44-per5
+782:                   ls$residencia/soure
 783: 
 784:             mad$ana/id=b1709.44-per6
 785: 
-786:             pmad$manuel alvares do santo?/id=b1709.44-per7
-787:                ls$residencia/alencarce de cima
+786:                pmad$manuel alvares do santo?/id=b1709.44-per7
+787:                   ls$residencia/alencarce de cima
 788: 
 789:       b$b1709.45/20/5/1709/0/0/0/manuel martins
 790: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.44-per1-per2 to b1709.44-per1 parentesco/pai
-   ** auto rel: from b1709.44-per1-per3 to b1709.44-per1 parentesco/mae
-   ** auto rel: from b1709.44-per1-per2 to b1709.44-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.44-per1-per2/ec/c
-   ** Automatic attribute: b1709.44-per1-per3/ec/c
-** Processing act b$b1709.45
+791: b$b1709.45
 791:          n$antonia/f/id=b1709.45-per1
 792: 
 793:             pai$antonio mendes/id=b1709.45-per1-per2
@@ -1131,23 +946,17 @@ Translation count not set or invalid, counting as zero:
 798:             pad$jose soares/id=b1709.45-per4
 799:                ls$ec/s
 800: 
-801:             ppad$joao soares/id=b1709.45-per5
+801:                ppad$joao soares/id=b1709.45-per5
 802: 
 803:             mad$isabel/id=b1709.45-per6
 804:                ls$ec/s
 805: 
-806:             pmad$antonio nunes/id=b1709.45-per7
-807:                ls$residencia/casal da tojeira
+806:                pmad$antonio nunes/id=b1709.45-per7
+807:                   ls$residencia/casal da tojeira
 808: 
 809:       b$b1709.46/21/5/1709/0/0/0/manuel martins
 810: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.45-per1-per2 to b1709.45-per1 parentesco/pai
-   ** auto rel: from b1709.45-per1-per3 to b1709.45-per1 parentesco/mae
-   ** auto rel: from b1709.45-per1-per2 to b1709.45-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.45-per1-per2/ec/c
-   ** Automatic attribute: b1709.45-per1-per3/ec/c
-** Processing act b$b1709.46
+811: b$b1709.46
 811:          n$antonio/m/id=b1709.46-per1
 812: 
 813:             pai$antonio gomes/id=b1709.46-per1-per2
@@ -1157,8 +966,8 @@ Translation count not set or invalid, counting as zero:
 817: 
 818:             pad$manuel/id=b1709.46-per4
 819: 
-820:             ppad$joao gomes/id=bppad21051709
-821:                ls$residencia/porto panelas
+820:                ppad$joao gomes/id=bppad21051709
+821:                   ls$residencia/porto panelas
 822: 
 823:             mad$maria/id=b1709.46-per5
 824:                ls$ec/s
@@ -1166,13 +975,7 @@ Translation count not set or invalid, counting as zero:
 826: 
 827:       b$b1709.47/25/5/1709/0/0/0/manuel martins
 828: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.46-per1-per2 to b1709.46-per1 parentesco/pai
-   ** auto rel: from b1709.46-per1-per3 to b1709.46-per1 parentesco/mae
-   ** auto rel: from b1709.46-per1-per2 to b1709.46-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.46-per1-per2/ec/c
-   ** Automatic attribute: b1709.46-per1-per3/ec/c
-** Processing act b$b1709.47
+829: b$b1709.47
 829:          n$teresa/f/id=b1709.47-per1
 830: 
 831:             pai$jose de barros/id=b1709.47-per1-per2
@@ -1186,13 +989,7 @@ Translation count not set or invalid, counting as zero:
 839: 
 840:       b$b1709.48/30/5/1709/0/0/0/manuel martins
 841: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.47-per1-per2 to b1709.47-per1 parentesco/pai
-   ** auto rel: from b1709.47-per1-per3 to b1709.47-per1 parentesco/mae
-   ** auto rel: from b1709.47-per1-per2 to b1709.47-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.47-per1-per2/ec/c
-   ** Automatic attribute: b1709.47-per1-per3/ec/c
-** Processing act b$b1709.48
+842: b$b1709.48
 842:          n$jose/m/id=b1709.48-per1
 843: 
 844:             pai$domingos goncalves/id=b1709.48-per1-per2
@@ -1204,18 +1001,12 @@ Translation count not set or invalid, counting as zero:
 850: 
 851:             mad$francisca/id=b1709.48-per5
 852: 
-853:             mmad$maria antunes/id=b1709.48-per6
-854:                ls$residencia/melrical
+853:                mmad$maria antunes/id=b1709.48-per6
+854:                   ls$residencia/melrical
 855: 
 856:       b$b1709.49/30/5/1709/0/0/0/manuel martins
 857: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.48-per1-per2 to b1709.48-per1 parentesco/pai
-   ** auto rel: from b1709.48-per1-per3 to b1709.48-per1 parentesco/mae
-   ** auto rel: from b1709.48-per1-per2 to b1709.48-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.48-per1-per2/ec/c
-   ** Automatic attribute: b1709.48-per1-per3/ec/c
-** Processing act b$b1709.49
+858: b$b1709.49
 858:          n$gabriel/m/id=b1709.49-per1
 859: 
 860:             pai$manuel bras/id=b1709.49-per1-per2
@@ -1227,18 +1018,12 @@ Translation count not set or invalid, counting as zero:
 866: 
 867:             mad$teresa/id=b1709.49-per5
 868: 
-869:             pmad$domingos pires/id=b1709.49-per6
-870:                ls$residencia/charneca
+869:                pmad$domingos pires/id=b1709.49-per6
+870:                   ls$residencia/charneca
 871: 
 872:       b$b1709.50/2/6/1709/0/0/0/manuel martins
 873: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.49-per1-per2 to b1709.49-per1 parentesco/pai
-   ** auto rel: from b1709.49-per1-per3 to b1709.49-per1 parentesco/mae
-   ** auto rel: from b1709.49-per1-per2 to b1709.49-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.49-per1-per2/ec/c
-   ** Automatic attribute: b1709.49-per1-per3/ec/c
-** Processing act b$b1709.50
+874: b$b1709.50
 874:          n$domingos/m/id=b1709.50-per1
 875: 
 876:             pai$antonio fernandes/id=b1709.50-per1-per2
@@ -1250,18 +1035,12 @@ Translation count not set or invalid, counting as zero:
 882: 
 883:             mad$isabel/id=b1709.50-per5
 884: 
-885:             pmad$manuel da fonseca/id=b1709.50-per6
-886:                ls$residencia/casalinhos
+885:                pmad$manuel da fonseca/id=b1709.50-per6
+886:                   ls$residencia/casalinhos
 887: 
 888:       b$b1709.51/3/6/1709/0/0/0/manuel martins
 889: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.50-per1-per2 to b1709.50-per1 parentesco/pai
-   ** auto rel: from b1709.50-per1-per3 to b1709.50-per1 parentesco/mae
-   ** auto rel: from b1709.50-per1-per2 to b1709.50-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.50-per1-per2/ec/c
-   ** Automatic attribute: b1709.50-per1-per3/ec/c
-** Processing act b$b1709.51
+890: b$b1709.51
 890:          n$maria/f/id=b1709.51-per1
 891: 
 892:             pai$joao francisco/id=b1709.51-per1-per2
@@ -1276,13 +1055,7 @@ Translation count not set or invalid, counting as zero:
 901: 
 902:       b$b1709.52/4/6/1709/0/0/0/manuel martins
 903: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.51-per1-per2 to b1709.51-per1 parentesco/pai
-   ** auto rel: from b1709.51-per1-per3 to b1709.51-per1 parentesco/mae
-   ** auto rel: from b1709.51-per1-per2 to b1709.51-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.51-per1-per2/ec/c
-   ** Automatic attribute: b1709.51-per1-per3/ec/c
-** Processing act b$b1709.52
+904: b$b1709.52
 904:          n$isabel/f/id=b1709.52-per1
 905: 
 906:             pai$francisco goncalves/id=b1709.52-per1-per2
@@ -1297,18 +1070,17 @@ Translation count not set or invalid, counting as zero:
 915:             mad$isabel/id=b1709.52-per5
 916:                ls$titulo/dona
 917: 
-918:             mrmad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1709.52-per6
-919:                ls$cargo/capitao
+918:                mrmad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1709.52-per6
+
+WARNING: b1709.cli line 918 destination id of "same as" not found. Will check again at the end of file.
+Near line: 918                mrmad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1709.52-per6
+Near line: 919                   ls$cargo/capitao
+
+919:                   ls$cargo/capitao
 920: 
 921:       b$b1709.53/9/6/1709/0/0/0/manuel martins
 922: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.52-per1-per2 to b1709.52-per1 parentesco/pai
-   ** auto rel: from b1709.52-per1-per3 to b1709.52-per1 parentesco/mae
-   ** auto rel: from b1709.52-per1-per2 to b1709.52-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.52-per1-per2/ec/c
-   ** Automatic attribute: b1709.52-per1-per3/ec/c
-** Processing act b$b1709.53
+923: b$b1709.53
 923:          n$luisa/f/id=b1709.53-per1
 924: 
 925:             pai$jose martins/id=b1709.53-per1-per2
@@ -1318,24 +1090,22 @@ Translation count not set or invalid, counting as zero:
 929: 
 930:             pad$luis manhos de abreu/mesmo_que=lmabreu/id=b1709.53-per4
 931: 
+
+WARNING: b1709.cli line 931 destination id of "same as" not found. Will check again at the end of file.
+Near line: 931 
+Near line: 932             mad$isabel amaral/id=b1709.53-per5
+
 932:             mad$isabel amaral/id=b1709.53-per5
 933:                ls$ec/s
 934: 
-935:             mmad$isabel madeira/id=b1709.53-per6
+935:                mmad$isabel madeira/id=b1709.53-per6
 936: 
-937:             pmad$domingos marques/id=b1709.53-per7
-938:                ls$residencia/paleao
+937:                pmad$domingos marques/id=b1709.53-per7
+938:                   ls$residencia/paleao
 939: 
 940:       b$b1709.54/16/6/1709/0/0/0/manuel martins
 941: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.53-per1-per2 to b1709.53-per1 parentesco/pai
-   ** auto rel: from b1709.53-per1-per3 to b1709.53-per1 parentesco/mae
-   ** auto rel: from b1709.53-per1-per2 to b1709.53-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.53-per1-per2/ec/c
-   ** Automatic attribute: b1709.53-per1-per3/ec/c
-   ** auto rel: from b1709.53-per7 to b1709.53-per6 parentesco/marido
-** Processing act b$b1709.54
+942: b$b1709.54
 942:          n$isabel/f/id=b1709.54-per1
 943: 
 944:             pai$antonio aires/id=b1709.54-per1-per2
@@ -1349,21 +1119,14 @@ Translation count not set or invalid, counting as zero:
 952: 
 953:             mad$isabel afonso/id=b1709.54-per5
 954: 
-955:             pmad$matias jorge/id=b1709.54-per6
-956:                ls$residencia/paleao
+955:                pmad$matias jorge/id=b1709.54-per6
+956:                   ls$residencia/paleao
 957: 
-958:             mmad$maria afonso/id=b1709.54-per7
+958:                mmad$maria afonso/id=b1709.54-per7
 959: 
 960:       b$b1709.55/24/6/1709/0/0/0/manuel martins/obs=dois padrinhos, zero madrinhas
 961: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.54-per1-per2 to b1709.54-per1 parentesco/pai
-   ** auto rel: from b1709.54-per1-per3 to b1709.54-per1 parentesco/mae
-   ** auto rel: from b1709.54-per1-per2 to b1709.54-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.54-per1-per2/ec/c
-   ** Automatic attribute: b1709.54-per1-per3/ec/c
-   ** auto rel: from b1709.54-per6 to b1709.54-per7 parentesco/marido
-** Processing act b$b1709.55
+962: b$b1709.55
 962:          n$joao/m/id=bn24061709
 963: 
 964:             pai$manuel cordeiro/id=bpai24061709
@@ -1375,15 +1138,14 @@ Translation count not set or invalid, counting as zero:
 970: 
 971:             pad$manuel soares coelho/mesmo_que=mscoelho/id=b1709.55-per2
 972: 
+
+WARNING: b1709.cli line 972 destination id of "same as" not found. Will check again at the end of file.
+Near line: 972 
+Near line: 973       b$b1709.56/24/6/1709/0/0/0/manuel martins
+
 973:       b$b1709.56/24/6/1709/0/0/0/manuel martins
 974: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bpai24061709 to bn24061709 parentesco/pai
-   ** auto rel: from bmae24061709 to bn24061709 parentesco/mae
-   ** auto rel: from bpai24061709 to bmae24061709 parentesco/marido
-   ** Automatic attribute: bpai24061709/ec/c
-   ** Automatic attribute: bmae24061709/ec/c
-** Processing act b$b1709.56
+975: b$b1709.56
 975:          n$manuel/m/id=b1709.56-per1
 976:             rel$parentesco/irmao gemeo/joao/bn24061709
 977: 
@@ -1393,20 +1155,14 @@ Translation count not set or invalid, counting as zero:
 981: 
 982:             pad$domingos mateus/id=b1709.56-per4
 983: 
-984:             ppad$joao mateus/id=bppad24061709
+984:                ppad$joao mateus/id=bppad24061709
 985: 
 986:             mad$domingas/id=b1709.56-per5
 987:                rel$parentesco/filha/joao mateus/bppad24061709
 988: 
 989:       b$b1709.57/3/7/1709/0/0/0/manuel martins
 990: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.56-per1-per2 to b1709.56-per1 parentesco/pai
-   ** auto rel: from b1709.56-per1-per3 to b1709.56-per1 parentesco/mae
-   ** auto rel: from b1709.56-per1-per2 to b1709.56-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.56-per1-per2/ec/c
-   ** Automatic attribute: b1709.56-per1-per3/ec/c
-** Processing act b$b1709.57
+991: b$b1709.57
 991:          n$mariana/f/id=b1709.57-per1
 992: 
 993:             pai$bras ferreira/id=b1709.57-per1-per2
@@ -1419,18 +1175,12 @@ Translation count not set or invalid, counting as zero:
 1000: 
 1001:             mad$mariana/id=b1709.57-per5
 1002: 
-1003:             pmad$joao rodrigues/id=b1709.57-per6
-1004:                ls$residencia/sobral
+1003:                pmad$joao rodrigues/id=b1709.57-per6
+1004:                   ls$residencia/sobral
 1005: 
 1006:       b$b1709.58/7/7/1709/0/0/0/manuel martins
 1007: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.57-per1-per2 to b1709.57-per1 parentesco/pai
-   ** auto rel: from b1709.57-per1-per3 to b1709.57-per1 parentesco/mae
-   ** auto rel: from b1709.57-per1-per2 to b1709.57-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.57-per1-per2/ec/c
-   ** Automatic attribute: b1709.57-per1-per3/ec/c
-** Processing act b$b1709.58
+1008: b$b1709.58
 1008:          n$mariana/f/id=b1709.58-per1
 1009: 
 1010:             pai$lourenco dias/id=b1709.58-per1-per2
@@ -1440,17 +1190,21 @@ Translation count not set or invalid, counting as zero:
 1014: 
 1015:             pad$luis manhos de abreu/mesmo_que=lmabreu/id=b1709.58-per4
 1016: 
+
+WARNING: b1709.cli line 1016 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1016 
+Near line: 1017             mad$mariana/mesmo_que=marianacb/id=b1709.58-per5
+
 1017:             mad$mariana/mesmo_que=marianacb/id=b1709.58-per5
 1018: 
+
+WARNING: b1709.cli line 1018 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1018 
+Near line: 1019       b$b1709.59/18/7/1709/0/0/0/manuel martins
+
 1019:       b$b1709.59/18/7/1709/0/0/0/manuel martins
 1020: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.58-per1-per2 to b1709.58-per1 parentesco/pai
-   ** auto rel: from b1709.58-per1-per3 to b1709.58-per1 parentesco/mae
-   ** auto rel: from b1709.58-per1-per2 to b1709.58-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.58-per1-per2/ec/c
-   ** Automatic attribute: b1709.58-per1-per3/ec/c
-** Processing act b$b1709.59
+1021: b$b1709.59
 1021:          n$joao/m/id=b1709.59-per1
 1022: 
 1023:             pai$jose domingues/id=b1709.59-per1-per2
@@ -1467,13 +1221,7 @@ Translation count not set or invalid, counting as zero:
 1034: 
 1035:       b$b1709.60/20/7/1709/0/0/0/manuel cristovao
 1036: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.59-per1-per2 to b1709.59-per1 parentesco/pai
-   ** auto rel: from b1709.59-per1-per3 to b1709.59-per1 parentesco/mae
-   ** auto rel: from b1709.59-per1-per2 to b1709.59-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.59-per1-per2/ec/c
-   ** Automatic attribute: b1709.59-per1-per3/ec/c
-** Processing act b$b1709.60
+1037: b$b1709.60
 1037:          n$antonio/m/id=b1709.60-per1
 1038: 
 1039:             pai$manuel rodrigues serrao/id=b1709.60-per1-per2
@@ -1487,13 +1235,7 @@ Translation count not set or invalid, counting as zero:
 1047: 
 1048:       b$b1709.61/25/7/1709/0/0/0/jose pinto
 1049: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.60-per1-per2 to b1709.60-per1 parentesco/pai
-   ** auto rel: from b1709.60-per1-per3 to b1709.60-per1 parentesco/mae
-   ** auto rel: from b1709.60-per1-per2 to b1709.60-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.60-per1-per2/ec/c
-   ** Automatic attribute: b1709.60-per1-per3/ec/c
-** Processing act b$b1709.61
+1050: b$b1709.61
 1050:          n$joaquim/m/id=b1709.61-per1
 1051: 
 1052:             pai$domingos dos santos/id=b1709.61-per1-per2
@@ -1506,18 +1248,12 @@ Translation count not set or invalid, counting as zero:
 1059: 
 1060:             mad$brigida pereira/id=b1709.61-per5
 1061: 
-1062:             mrmad$pedro gomes/id=b1709.61-per6
-1063:                ls$residencia/casa velha
+1062:                mrmad$pedro gomes/id=b1709.61-per6
+1063:                   ls$residencia/casa velha
 1064: 
 1065:       b$b1709.62/26/7/1709/0/0/0/jose pinto
 1066: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.61-per1-per2 to b1709.61-per1 parentesco/pai
-   ** auto rel: from b1709.61-per1-per3 to b1709.61-per1 parentesco/mae
-   ** auto rel: from b1709.61-per1-per2 to b1709.61-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.61-per1-per2/ec/c
-   ** Automatic attribute: b1709.61-per1-per3/ec/c
-** Processing act b$b1709.62
+1067: b$b1709.62
 1067:          n$catarina/f/id=b1709.62-per1
 1068: 
 1069:             pai$manuel goncalves/id=b1709.62-per1-per2
@@ -1537,13 +1273,7 @@ Translation count not set or invalid, counting as zero:
 1083: 
 1084:       b$b1709.63/4/8/1709/0/0/0/jose pinto
 1085: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.62-per1-per2 to b1709.62-per1 parentesco/pai
-   ** auto rel: from b1709.62-per1-per3 to b1709.62-per1 parentesco/mae
-   ** auto rel: from b1709.62-per1-per2 to b1709.62-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.62-per1-per2/ec/c
-   ** Automatic attribute: b1709.62-per1-per3/ec/c
-** Processing act b$b1709.63
+1086: b$b1709.63
 1086:          n$domingos/m/id=b1709.63-per1
 1087: 
 1088:             pai$manuel domingues/id=b1709.63-per1-per2
@@ -1556,18 +1286,12 @@ Translation count not set or invalid, counting as zero:
 1095: 
 1096:             mad$filipa joao/id=b1709.63-per5
 1097: 
-1098:             mrmad$manuel joao/id=b1709.63-per6
-1099:                ls$residencia/casconho
+1098:                mrmad$manuel joao/id=b1709.63-per6
+1099:                   ls$residencia/casconho
 1100: 
 1101:       b$b1709.64/4/8/1709/0/0/0/jose pinto
 1102: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.63-per1-per2 to b1709.63-per1 parentesco/pai
-   ** auto rel: from b1709.63-per1-per3 to b1709.63-per1 parentesco/mae
-   ** auto rel: from b1709.63-per1-per2 to b1709.63-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.63-per1-per2/ec/c
-   ** Automatic attribute: b1709.63-per1-per3/ec/c
-** Processing act b$b1709.64
+1103: b$b1709.64
 1103:          n$rosa maria/f/id=b1709.64-per1
 1104: 
 1105:             pai$jose rodrigues/id=b1709.64-per1-per2
@@ -1577,21 +1301,15 @@ Translation count not set or invalid, counting as zero:
 1109: 
 1110:             pad$jose/id=b1709.64-per4
 1111: 
-1112:             ppad$joao rodrigues formigo/id=bppad04081709
-1113:                ls$residencia/sobral
+1112:                ppad$joao rodrigues formigo/id=bppad04081709
+1113:                   ls$residencia/sobral
 1114: 
 1115:             mad$domingas/id=b1709.64-per5
 1116:                rel$parentesco/filha/joao rodrigues formigo/bppad04081709
 1117: 
 1118:       b$b1709.65/21/8/1709/0/0/0/jose pinto
 1119: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.64-per1-per2 to b1709.64-per1 parentesco/pai
-   ** auto rel: from b1709.64-per1-per3 to b1709.64-per1 parentesco/mae
-   ** auto rel: from b1709.64-per1-per2 to b1709.64-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.64-per1-per2/ec/c
-   ** Automatic attribute: b1709.64-per1-per3/ec/c
-** Processing act b$b1709.65
+1120: b$b1709.65
 1120:          n$luis/m/id=b1709.65-per1
 1121: 
 1122:             pai$mateus simoes/id=b1709.65-per1-per2
@@ -1601,20 +1319,19 @@ Translation count not set or invalid, counting as zero:
 1126: 
 1127:             pad$luis ribeiro/mesmo_que=plribeiro/id=b1709.65-per4
 1128: 
+
+WARNING: b1709.cli line 1128 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1128 
+Near line: 1129             mad$maria/id=b1709.65-per5
+
 1129:             mad$maria/id=b1709.65-per5
 1130: 
-1131:             mmad$leonor carvalho/id=b1709.65-per6
-1132:                ls$residencia/alencarce de cima
+1131:                mmad$leonor carvalho/id=b1709.65-per6
+1132:                   ls$residencia/alencarce de cima
 1133: 
 1134:       b$b1709.66/21/8/1709/0/0/0/jose pinto
 1135: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.65-per1-per2 to b1709.65-per1 parentesco/pai
-   ** auto rel: from b1709.65-per1-per3 to b1709.65-per1 parentesco/mae
-   ** auto rel: from b1709.65-per1-per2 to b1709.65-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.65-per1-per2/ec/c
-   ** Automatic attribute: b1709.65-per1-per3/ec/c
-** Processing act b$b1709.66
+1136: b$b1709.66
 1136:          n$domingas/f/id=b1709.66-per1
 1137: 
 1138:             pai$matias cordeiro/id=b1709.66-per1-per2
@@ -1631,13 +1348,7 @@ Translation count not set or invalid, counting as zero:
 1149: 
 1150:       b$b1709.67/21/8/1709/0/0/0/jose pinto
 1151: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.66-per1-per2 to b1709.66-per1 parentesco/pai
-   ** auto rel: from bmae21081709 to b1709.66-per1 parentesco/mae
-   ** auto rel: from b1709.66-per1-per2 to bmae21081709 parentesco/marido
-   ** Automatic attribute: b1709.66-per1-per2/ec/c
-   ** Automatic attribute: bmae21081709/ec/c
-** Processing act b$b1709.67
+1152: b$b1709.67
 1152:          n$joao/m/id=b1709.67-per1
 1153: 
 1154:             pai$antonio pereira/id=b1709.67-per1-per2
@@ -1653,13 +1364,7 @@ Translation count not set or invalid, counting as zero:
 1164: 
 1165:       b$b1709.68/21/8/1709/0/0/0/jose pinto/obs=sem madrinha
 1166: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.67-per1-per2 to b1709.67-per1 parentesco/pai
-   ** auto rel: from b1709.67-per1-per3 to b1709.67-per1 parentesco/mae
-   ** auto rel: from b1709.67-per1-per2 to b1709.67-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.67-per1-per2/ec/c
-   ** Automatic attribute: b1709.67-per1-per3/ec/c
-** Processing act b$b1709.68
+1167: b$b1709.68
 1167:          n$joao/m/id=b1709.68-per1
 1168: 
 1169:             pai$joao domingues/m/id=b1709.68-per1-per2
@@ -1668,18 +1373,17 @@ Translation count not set or invalid, counting as zero:
 1172:             mae$maria leao/id=b1709.68-per1-per3
 1173: 
 1174:             pad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1709.68-per4
+
+WARNING: b1709.cli line 1174 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1174             pad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1709.68-per4
+Near line: 1175                ls$residencia/soure
+
 1175:                ls$residencia/soure
 1176:                ls$titulo/doutor
 1177: 
 1178:       b$b1709.69/25/8/1709/0/0/0/jose pinto/obs=os padrinhos sao irmaos de um dos pais masnao se percebe qual. Decidi que eram irmaos do pai porque se fossem da mae havia duas isabeis.
 1179: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.68-per1-per2 to b1709.68-per1 parentesco/pai
-   ** auto rel: from b1709.68-per1-per3 to b1709.68-per1 parentesco/mae
-   ** auto rel: from b1709.68-per1-per2 to b1709.68-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.68-per1-per2/ec/c
-   ** Automatic attribute: b1709.68-per1-per3/ec/c
-** Processing act b$b1709.69
+1180: b$b1709.69
 1180:          n$antonio/m/id=b1709.69-per1
 1181: 
 1182:             pai$mateus pereira/id=bpai25081709
@@ -1697,13 +1401,7 @@ Translation count not set or invalid, counting as zero:
 1194: 
 1195:       b$b1709.70/25/8/1709/0/0/0/jose pinto
 1196: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bpai25081709 to b1709.69-per1 parentesco/pai
-   ** auto rel: from b1709.69-per1-per2 to b1709.69-per1 parentesco/mae
-   ** auto rel: from bpai25081709 to b1709.69-per1-per2 parentesco/marido
-   ** Automatic attribute: bpai25081709/ec/c
-   ** Automatic attribute: b1709.69-per1-per2/ec/c
-** Processing act b$b1709.70
+1197: b$b1709.70
 1197:          n$diogo/m/id=b1709.70-per1
 1198: 
 1199:             pai$manuel lourenco/id=b1709.70-per1-per2
@@ -1725,13 +1423,7 @@ Translation count not set or invalid, counting as zero:
 1215: 
 1216:       b$b1709.71/1/9/1709/0/0/0/jose pinto
 1217: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.70-per1-per2 to b1709.70-per1 parentesco/pai
-   ** auto rel: from b1709.70-per1-per3 to b1709.70-per1 parentesco/mae
-   ** auto rel: from b1709.70-per1-per2 to b1709.70-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.70-per1-per2/ec/c
-   ** Automatic attribute: b1709.70-per1-per3/ec/c
-** Processing act b$b1709.71
+1218: b$b1709.71
 1218:          n$manuel/m/id=b1709.71-per1
 1219: 
 1220:             pai$joao goncalves/id=b1709.71-per1-per2
@@ -1744,18 +1436,12 @@ Translation count not set or invalid, counting as zero:
 1227: 
 1228:             mad$maria rodrigues/id=b1709.71-per5
 1229: 
-1230:             mrmad$antonio jorge/id=b1709.71-per6
-1231:                ls$residencia/casal novo
+1230:                mrmad$antonio jorge/id=b1709.71-per6
+1231:                   ls$residencia/casal novo
 1232: 
 1233:       b$b1709.72/6/9/1709/0/0/0/jose pinto
 1234: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.71-per1-per2 to b1709.71-per1 parentesco/pai
-   ** auto rel: from b1709.71-per1-per3 to b1709.71-per1 parentesco/mae
-   ** auto rel: from b1709.71-per1-per2 to b1709.71-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.71-per1-per2/ec/c
-   ** Automatic attribute: b1709.71-per1-per3/ec/c
-** Processing act b$b1709.72
+1235: b$b1709.72
 1235:          n$antonio/m/id=b1709.72-per1
 1236: 
 1237:             pai$gregorio ferreira/id=b1709.72-per1-per2
@@ -1770,18 +1456,12 @@ Translation count not set or invalid, counting as zero:
 1246: 
 1247:             mad$maria tome/id=b1709.72-per5
 1248: 
-1249:             mrmad$manuel rodrigues centeio/id=b1709.72-per6
-1250:                ls$residencia/casal da charneca
+1249:                mrmad$manuel rodrigues centeio/id=b1709.72-per6
+1250:                   ls$residencia/casal da charneca
 1251: 
 1252:       b$b1709.73/6/9/1709/0/0/0/jose pinto
 1253: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.72-per1-per2 to b1709.72-per1 parentesco/pai
-   ** auto rel: from b1709.72-per1-per3 to b1709.72-per1 parentesco/mae
-   ** auto rel: from b1709.72-per1-per2 to b1709.72-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.72-per1-per2/ec/c
-   ** Automatic attribute: b1709.72-per1-per3/ec/c
-** Processing act b$b1709.73
+1254: b$b1709.73
 1254:          n$jacinta/f/id=b1709.73-per1
 1255:             ls$ilegitima/sim
 1256: 
@@ -1797,18 +1477,12 @@ Translation count not set or invalid, counting as zero:
 1266: 
 1267:             mad$sebastiana da graca/id=b1709.73-per5
 1268: 
-1269:             mrmad$manuel de gouveia/id=b1709.73-per6
-1270:                ls$residencia/casal novo
+1269:                mrmad$manuel de gouveia/id=b1709.73-per6
+1270:                   ls$residencia/casal novo
 1271: 
 1272:       b$b1709.74/12/9/1709/0/0/0/jose pinto
 1273: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.73-per1-per2 to b1709.73-per1 parentesco/pai
-   ** auto rel: from b1709.73-per1-per3 to b1709.73-per1 parentesco/mae
-   ** auto rel: from b1709.73-per1-per2 to b1709.73-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.73-per1-per2/ec/c
-   ** Automatic attribute: b1709.73-per1-per3/ec/c
-** Processing act b$b1709.74
+1274: b$b1709.74
 1274:          n$manuel/m/id=b1709.74-per1
 1275: 
 1276:             pai$manuel cardoso/id=b1709.74-per1-per2
@@ -1822,18 +1496,12 @@ Translation count not set or invalid, counting as zero:
 1284:             mad$isabel/id=b1709.74-per5
 1285:                ls$ec/s
 1286: 
-1287:             pmad$manuel luis/id=b1709.74-per6
-1288:                ls$residencia/casais de s.mateus
+1287:                pmad$manuel luis/id=b1709.74-per6
+1288:                   ls$residencia/casais de s.mateus
 1289: 
 1290:       b$b1709.75/13/9/1709/0/0/0/jose pinto
 1291: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.74-per1-per2 to b1709.74-per1 parentesco/pai
-   ** auto rel: from b1709.74-per1-per3 to b1709.74-per1 parentesco/mae
-   ** auto rel: from b1709.74-per1-per2 to b1709.74-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.74-per1-per2/ec/c
-   ** Automatic attribute: b1709.74-per1-per3/ec/c
-** Processing act b$b1709.75
+1292: b$b1709.75
 1292:          n$caetana/f/id=b1709.75-per1
 1293: 
 1294:             pai$miguel da costa/id=b1709.75-per1-per2
@@ -1846,18 +1514,12 @@ Translation count not set or invalid, counting as zero:
 1301: 
 1302:             mad$maria simoes/id=b1709.75-per5
 1303: 
-1304:             mrmad$jose gomes serrano/id=b1709.75-per6
-1305:                ls$residencia/paleao
+1304:                mrmad$jose gomes serrano/id=b1709.75-per6
+1305:                   ls$residencia/paleao
 1306: 
 1307:       b$b1709.76/15/9/1709/0/0/0/jose pinto
 1308: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.75-per1-per2 to b1709.75-per1 parentesco/pai
-   ** auto rel: from b1709.75-per1-per3 to b1709.75-per1 parentesco/mae
-   ** auto rel: from b1709.75-per1-per2 to b1709.75-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.75-per1-per2/ec/c
-   ** Automatic attribute: b1709.75-per1-per3/ec/c
-** Processing act b$b1709.76
+1309: b$b1709.76
 1309:          n$joao/m/id=b1709.76-per1
 1310: 
 1311:             pai$manuel martins/id=b1709.76-per1-per2
@@ -1868,23 +1530,17 @@ Translation count not set or invalid, counting as zero:
 1316:             pad$joao/id=b1709.76-per4
 1317:                ls$ec/s
 1318: 
-1319:             ppad$simao joao/id=b1709.76-per5
-1320:                ls$residencia/cascao
+1319:                ppad$simao joao/id=b1709.76-per5
+1320:                   ls$residencia/cascao
 1321: 
 1322:             mad$maria martins/id=b1709.76-per6
 1323: 
-1324:             mrmad$manuel madeira/id=b1709.76-per7
-1325:                ls$residencia/cascao
+1324:                mrmad$manuel madeira/id=b1709.76-per7
+1325:                   ls$residencia/cascao
 1326: 
 1327:       b$b1709.77/17/9/1709/0/0/0/jose pinto
 1328: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.76-per1-per2 to b1709.76-per1 parentesco/pai
-   ** auto rel: from b1709.76-per1-per3 to b1709.76-per1 parentesco/mae
-   ** auto rel: from b1709.76-per1-per2 to b1709.76-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.76-per1-per2/ec/c
-   ** Automatic attribute: b1709.76-per1-per3/ec/c
-** Processing act b$b1709.77
+1329: b$b1709.77
 1329:          n$joao/m/id=b1709.77-per1
 1330: 
 1331:             pai$antonio soares/id=b1709.77-per1-per2
@@ -1897,19 +1553,13 @@ Translation count not set or invalid, counting as zero:
 1338: 
 1339:             mad$maria/id=b1709.77-per5
 1340: 
-1341:             pmad$domingos joao/id=b1709.77-per6
-1342:                ls$residencia/moinho das cavadas, freguesia da almagreira
-1343:                ls$freguesia/almagreira
+1341:                pmad$domingos joao/id=b1709.77-per6
+1342:                   ls$residencia/moinho das cavadas, freguesia da almagreira
+1343:                   ls$freguesia/almagreira
 1344: 
 1345:       b$b1709.78/22/9/1709/0/0/0/jose pinto
 1346: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.77-per1-per2 to b1709.77-per1 parentesco/pai
-   ** auto rel: from b1709.77-per1-per3 to b1709.77-per1 parentesco/mae
-   ** auto rel: from b1709.77-per1-per2 to b1709.77-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.77-per1-per2/ec/c
-   ** Automatic attribute: b1709.77-per1-per3/ec/c
-** Processing act b$b1709.78
+1347: b$b1709.78
 1347:          n$manuel/m/id=b1709.78-per1
 1348: 
 1349:             pai$antonio coelho/id=b1709.78-per1-per2
@@ -1922,19 +1572,13 @@ Translation count not set or invalid, counting as zero:
 1356: 
 1357:             mad$maria joao/id=b1709.78-per5
 1358: 
-1359:             mrmad$manuel simoes/id=b1709.78-per6
-1360:                ls$residencia/figueirinha, freguesia da redinha
-1361:                ls$freguesia/redinha
+1359:                mrmad$manuel simoes/id=b1709.78-per6
+1360:                   ls$residencia/figueirinha, freguesia da redinha
+1361:                   ls$freguesia/redinha
 1362: 
 1363:       b$b1709.79/22/9/1709/0/0/0/jose pinto
 1364: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.78-per1-per2 to b1709.78-per1 parentesco/pai
-   ** auto rel: from b1709.78-per1-per3 to b1709.78-per1 parentesco/mae
-   ** auto rel: from b1709.78-per1-per2 to b1709.78-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.78-per1-per2/ec/c
-   ** Automatic attribute: b1709.78-per1-per3/ec/c
-** Processing act b$b1709.79
+1365: b$b1709.79
 1365:          n$mateus/m/id=b1709.79-per1
 1366: 
 1367:             pai$antonio francisco/id=b1709.79-per1-per2
@@ -1951,13 +1595,7 @@ Translation count not set or invalid, counting as zero:
 1378: 
 1379:       b$b1709.80/23/9/1709/0/0/0/jose pinto
 1380: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.79-per1-per2 to b1709.79-per1 parentesco/pai
-   ** auto rel: from b1709.79-per1-per3 to b1709.79-per1 parentesco/mae
-   ** auto rel: from b1709.79-per1-per2 to b1709.79-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.79-per1-per2/ec/c
-   ** Automatic attribute: b1709.79-per1-per3/ec/c
-** Processing act b$b1709.80
+1381: b$b1709.80
 1381:          n$joao/m/id=b1709.80-per1
 1382: 
 1383:             pai$antonio joao/id=b1709.80-per1-per2
@@ -1968,24 +1606,18 @@ Translation count not set or invalid, counting as zero:
 1388:             pad$joao/id=b1709.80-per4
 1389:                ls$ec/s
 1390: 
-1391:             ppad$manuel domingues/id=b1709.80-per5
-1392:                ls$residencia/casconho
+1391:                ppad$manuel domingues/id=b1709.80-per5
+1392:                   ls$residencia/casconho
 1393: 
 1394:             mad$madalena rodrigues/id=b1709.80-per6
 1395: 
-1396:             mrmad$domingos simoes/id=b1709.80-per7
-1397:                ls$residencia/moinhos da figueirinha, freguesia da redinha
-1398:                ls$freguesia/redinha
+1396:                mrmad$domingos simoes/id=b1709.80-per7
+1397:                   ls$residencia/moinhos da figueirinha, freguesia da redinha
+1398:                   ls$freguesia/redinha
 1399: 
 1400:       b$b1709.81/28/9/1709/0/0/0/jose pinto
 1401: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.80-per1-per2 to b1709.80-per1 parentesco/pai
-   ** auto rel: from b1709.80-per1-per3 to b1709.80-per1 parentesco/mae
-   ** auto rel: from b1709.80-per1-per2 to b1709.80-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.80-per1-per2/ec/c
-   ** Automatic attribute: b1709.80-per1-per3/ec/c
-** Processing act b$b1709.81
+1402: b$b1709.81
 1402:          n$jose/m/id=b1709.81-per1
 1403: 
 1404:             pai$manuel goncalves/id=b1709.81-per1-per2
@@ -1996,8 +1628,8 @@ Translation count not set or invalid, counting as zero:
 1409:             pad$manuel/id=b1709.81-per4
 1410:                ls$ec/s
 1411: 
-1412:             mpad$antonia gomes perdigao/id=bmpad28091709
-1413:                ls$residencia/alencarce de cima
+1412:                mpad$antonia gomes perdigao/id=bmpad28091709
+1413:                   ls$residencia/alencarce de cima
 1414: 
 1415:             mad$grimanesa/id=b1709.81-per5
 1416:                ls$ec/s
@@ -2005,13 +1637,7 @@ Translation count not set or invalid, counting as zero:
 1418: 
 1419:       b$b1709.82/29/9/1709/0/0/0/manuel martins
 1420: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.81-per1-per2 to b1709.81-per1 parentesco/pai
-   ** auto rel: from b1709.81-per1-per3 to b1709.81-per1 parentesco/mae
-   ** auto rel: from b1709.81-per1-per2 to b1709.81-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.81-per1-per2/ec/c
-   ** Automatic attribute: b1709.81-per1-per3/ec/c
-** Processing act b$b1709.82
+1421: b$b1709.82
 1421:          n$caetana/f/id=b1709.82-per1
 1422: 
 1423:             pai$joao de almeida/id=b1709.82-per1-per2
@@ -2027,13 +1653,7 @@ Translation count not set or invalid, counting as zero:
 1433: 
 1434:       b$b1709.83/7/10/1709/0/0/0/jose pinto
 1435: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.82-per1-per2 to b1709.82-per1 parentesco/pai
-   ** auto rel: from b1709.82-per1-per3 to b1709.82-per1 parentesco/mae
-   ** auto rel: from b1709.82-per1-per2 to b1709.82-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.82-per1-per2/ec/c
-   ** Automatic attribute: b1709.82-per1-per3/ec/c
-** Processing act b$b1709.83
+1436: b$b1709.83
 1436:          n$jose/m/id=b1709.83-per1
 1437: 
 1438:             pai$jose de andrade/id=b1709.83-per1-per2
@@ -2046,18 +1666,17 @@ Translation count not set or invalid, counting as zero:
 1445:             mad$aldonza/id=b1709.83-per5
 1446:                ls$titulo/dona
 1447: 
-1448:             mrmad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1709.83-per6
-1449:                ls$cargo/desembargador
+1448:                mrmad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1709.83-per6
+
+WARNING: b1709.cli line 1448 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1448                mrmad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1709.83-per6
+Near line: 1449                   ls$cargo/desembargador
+
+1449:                   ls$cargo/desembargador
 1450: 
 1451:       b$b1709.84/10/10/1709/0/0/0/jose pinto
 1452: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.83-per1-per2 to b1709.83-per1 parentesco/pai
-   ** auto rel: from b1709.83-per1-per3 to b1709.83-per1 parentesco/mae
-   ** auto rel: from b1709.83-per1-per2 to b1709.83-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.83-per1-per2/ec/c
-   ** Automatic attribute: b1709.83-per1-per3/ec/c
-** Processing act b$b1709.84
+1453: b$b1709.84
 1453:          n$domingos/m/id=b1709.84-per1
 1454: 
 1455:             pai$antonio simoes/id=b1709.84-per1-per2
@@ -2073,13 +1692,7 @@ Translation count not set or invalid, counting as zero:
 1465: 
 1466:       b$b1709.85/13/10/1709/0/0/0/joao dos santos/obs= a partir daqui o vigario passa a manuel rodrigues
 1467: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.84-per1-per2 to b1709.84-per1 parentesco/pai
-   ** auto rel: from b1709.84-per1-per3 to b1709.84-per1 parentesco/mae
-   ** auto rel: from b1709.84-per1-per2 to b1709.84-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.84-per1-per2/ec/c
-   ** Automatic attribute: b1709.84-per1-per3/ec/c
-** Processing act b$b1709.85
+1468: b$b1709.85
 1468:          n$jose/m/id=b1709.85-per1
 1469: 
 1470:             pai$antonio ferreira/id=b1709.85-per1-per2
@@ -2089,18 +1702,17 @@ Translation count not set or invalid, counting as zero:
 1474: 
 1475:             pad$jose pinto/mesmo_que=jpinto/id=b1709.85-per4
 1476: 
+
+WARNING: b1709.cli line 1476 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1476 
+Near line: 1477             mad$francisca antunes/id=b1709.85-per5
+
 1477:             mad$francisca antunes/id=b1709.85-per5
 1478:                ls$residencia/casal do rei
 1479: 
 1480:       b$b1709.86/14/10/1709/0/0/0/padre joao de deus
 1481: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.85-per1-per2 to b1709.85-per1 parentesco/pai
-   ** auto rel: from b1709.85-per1-per3 to b1709.85-per1 parentesco/mae
-   ** auto rel: from b1709.85-per1-per2 to b1709.85-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.85-per1-per2/ec/c
-   ** Automatic attribute: b1709.85-per1-per3/ec/c
-** Processing act b$b1709.86
+1482: b$b1709.86
 1482:          n$matias/m/id=b1709.86-per1
 1483: 
 1484:             pai$manuel goncalves/id=b1709.86-per1-per2
@@ -2110,19 +1722,23 @@ Translation count not set or invalid, counting as zero:
 1488: 
 1489:             pad$joao da costa e vasconcelos/mesmo_que=c12-7/id=b1709.86-per4
 1490: 
+
+WARNING: b1709.cli line 1490 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1490 
+Near line: 1491             mad$caetana/id=b1709.86-per5
+
 1491:             mad$caetana/id=b1709.86-per5
 1492: 
-1493:             pmad$manuel soares coelho/mesmo_que=mscoelho/id=b1709.86-per6
+1493:                pmad$manuel soares coelho/mesmo_que=mscoelho/id=b1709.86-per6
 1494: 
+
+WARNING: b1709.cli line 1494 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1494 
+Near line: 1495       b$b1709.87/17/10/1709/0/0/0/manuel rodrigues (vigario)
+
 1495:       b$b1709.87/17/10/1709/0/0/0/manuel rodrigues (vigario)
 1496: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.86-per1-per2 to b1709.86-per1 parentesco/pai
-   ** auto rel: from b1709.86-per1-per3 to b1709.86-per1 parentesco/mae
-   ** auto rel: from b1709.86-per1-per2 to b1709.86-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.86-per1-per2/ec/c
-   ** Automatic attribute: b1709.86-per1-per3/ec/c
-** Processing act b$b1709.87
+1497: b$b1709.87
 1497:          n$martinho/m/id=b1709.87-per1
 1498: 
 1499:             pai$mateus gomes/id=b1709.87-per1-per2
@@ -2138,13 +1754,7 @@ Translation count not set or invalid, counting as zero:
 1509: 
 1510:       b$b1709.88/27/10/1709/0/0/0/manuel rodrigues (vigario)
 1511: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.87-per1-per2 to b1709.87-per1 parentesco/pai
-   ** auto rel: from b1709.87-per1-per3 to b1709.87-per1 parentesco/mae
-   ** auto rel: from b1709.87-per1-per2 to b1709.87-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.87-per1-per2/ec/c
-   ** Automatic attribute: b1709.87-per1-per3/ec/c
-** Processing act b$b1709.88
+1512: b$b1709.88
 1512:          n$ines/f/id=b1709.88-per1
 1513: 
 1514:             pai$joao goncalves/id=b1709.88-per1-per2
@@ -2157,25 +1767,23 @@ Translation count not set or invalid, counting as zero:
 1521: 
 1522:             mad$josefa/id=b1709.88-per5
 1523: 
-1524:             pmad$manuel marques de oliveira/id=b1709.88-per6
-1525:                ls$residencia/soure
+1524:                pmad$manuel marques de oliveira/id=b1709.88-per6
+1525:                   ls$residencia/soure
 1526: 
-1527:             mmad$luisa pinto/id=b1709.88-per7
+1527:                mmad$luisa pinto/id=b1709.88-per7
 1528: 
 1529:       b$b1709.89/31/10/1709/0/0/0/manuel rodrigues (vigario)/obs=baptisada em necessidade pela parteira, de nome desconhecido de vila nova de ancos
 1530: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.88-per1-per2 to b1709.88-per1 parentesco/pai
-   ** auto rel: from b1709.88-per1-per3 to b1709.88-per1 parentesco/mae
-   ** auto rel: from b1709.88-per1-per2 to b1709.88-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.88-per1-per2/ec/c
-   ** Automatic attribute: b1709.88-per1-per3/ec/c
-   ** auto rel: from b1709.88-per6 to b1709.88-per7 parentesco/marido
-** Processing act b$b1709.89
+1531: b$b1709.89
 1531:          n$margarida/f/id=bn31101709
 1532: 
 1533:             pai$pedro de eiro matoso/mesmo_que=peiro/id=bn31101709-per1
 1534: 
+
+WARNING: b1709.cli line 1534 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1534 
+Near line: 1535             mae$maria travassos/id=bn31101709-per2
+
 1535:             mae$maria travassos/id=bn31101709-per2
 1536: 
 1537:             pad$jose freire de faria/id=bpad31101709
@@ -2191,13 +1799,7 @@ Translation count not set or invalid, counting as zero:
 1547: 
 1548:       b$b1709.90/1/11/1709/0/0/0/jose pinto/obs=baptisado em necessidade por jose pinto
 1549: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bn31101709-per1 to bn31101709 parentesco/pai
-   ** auto rel: from bn31101709-per2 to bn31101709 parentesco/mae
-   ** auto rel: from bn31101709-per1 to bn31101709-per2 parentesco/marido
-   ** Automatic attribute: bn31101709-per1/ec/c
-   ** Automatic attribute: bn31101709-per2/ec/c
-** Processing act b$b1709.90
+1550: b$b1709.90
 1550:          n$antonia/f/id=b1709.90-per1
 1551: 
 1552:             pai$martinho da cunha/id=b1709.90-per1-per2
@@ -2208,19 +1810,18 @@ Translation count not set or invalid, counting as zero:
 1557: 
 1558:             pad$pedro de eiro matoso/mesmo_que=peiro/id=b1709.90-per4
 1559: 
+
+WARNING: b1709.cli line 1559 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1559 
+Near line: 1560             mad$maria da encarnacao/id=b1709.90-per5
+
 1560:             mad$maria da encarnacao/id=b1709.90-per5
 1561:                ls$ec/v
 1562:                ls$residencia/soure
 1563: 
 1564:       b$b1709.91/9/11/1709/0/0/0/manuel rodrigues (vigario)
 1565: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.90-per1-per2 to b1709.90-per1 parentesco/pai
-   ** auto rel: from b1709.90-per1-per3 to b1709.90-per1 parentesco/mae
-   ** auto rel: from b1709.90-per1-per2 to b1709.90-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.90-per1-per2/ec/c
-   ** Automatic attribute: b1709.90-per1-per3/ec/c
-** Processing act b$b1709.91
+1566: b$b1709.91
 1566:          n$maria/f/id=bn09111709
 1567: 
 1568:             pai$manuel lopes/id=bn09111709-per1
@@ -2230,6 +1831,11 @@ Translation count not set or invalid, counting as zero:
 1572: 
 1573:             pad$sebastiao goncalves/mesmo_que=sgoncalves/id=b1709.91-per3
 1574: 
+
+WARNING: b1709.cli line 1574 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1574 
+Near line: 1575             mad$rosa/id=b1709.91-per4
+
 1575:             mad$rosa/id=b1709.91-per4
 1576:                rel$parentesco/filha/sebastiao goncalves/sgoncalves
 1577: 
@@ -2239,13 +1845,7 @@ Translation count not set or invalid, counting as zero:
 1581: 
 1582:       b$b1709.92/12/11/1709/0/0/0/manuel rodrigues (vigario)
 1583: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bn09111709-per1 to bn09111709 parentesco/pai
-   ** auto rel: from bn09111709-per2 to bn09111709 parentesco/mae
-   ** auto rel: from bn09111709-per1 to bn09111709-per2 parentesco/marido
-   ** Automatic attribute: bn09111709-per1/ec/c
-   ** Automatic attribute: bn09111709-per2/ec/c
-** Processing act b$b1709.92
+1584: b$b1709.92
 1584:          n$luis/m/id=b1709.92-per1
 1585: 
 1586:             pai$manuel joao/id=b1709.92-per1-per2
@@ -2259,18 +1859,12 @@ Translation count not set or invalid, counting as zero:
 1594: 
 1595:             mad$maria francisca/id=b1709.92-per5
 1596: 
-1597:             mrmad$manuel simoes/id=b1709.92-per6
-1598:                ls$residencia/casalinhos
+1597:                mrmad$manuel simoes/id=b1709.92-per6
+1598:                   ls$residencia/casalinhos
 1599: 
 1600:       b$b1709.93/22/11/1709/0/0/0/manuel rodrigues (vigario)
 1601: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.92-per1-per2 to b1709.92-per1 parentesco/pai
-   ** auto rel: from b1709.92-per1-per3 to b1709.92-per1 parentesco/mae
-   ** auto rel: from b1709.92-per1-per2 to b1709.92-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.92-per1-per2/ec/c
-   ** Automatic attribute: b1709.92-per1-per3/ec/c
-** Processing act b$b1709.93
+1602: b$b1709.93
 1602:          n$jose/m/id=b1709.93-per1
 1603: 
 1604:             pai$manuel monteiro lobo/id=b1709.93-per1-per2
@@ -2286,13 +1880,7 @@ Translation count not set or invalid, counting as zero:
 1614: 
 1615:       b$b1709.94/24/11/1709/0/0/0/manuel rodrigues (vigario)
 1616: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.93-per1-per2 to b1709.93-per1 parentesco/pai
-   ** auto rel: from b1709.93-per1-per3 to b1709.93-per1 parentesco/mae
-   ** auto rel: from b1709.93-per1-per2 to b1709.93-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.93-per1-per2/ec/c
-   ** Automatic attribute: b1709.93-per1-per3/ec/c
-** Processing act b$b1709.94
+1617: b$b1709.94
 1617:          n$manuel/m/id=b1709.94-per1
 1618: 
 1619:             pai$antonio fernandes/id=b1709.94-per1-per2
@@ -2302,19 +1890,18 @@ Translation count not set or invalid, counting as zero:
 1623: 
 1624:             pad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1709.94-per4
 1625: 
+
+WARNING: b1709.cli line 1625 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1625 
+Near line: 1626             mad$isabel/id=b1709.94-per5
+
 1626:             mad$isabel/id=b1709.94-per5
 1627:                ls$titulo/dona
 1628:                rel$parentesco/mulher/paulo ribeiro cabral/c24-7
 1629: 
 1630:       b$b1709.95/24/11/1709/0/0/0/manuel martins
 1631: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.94-per1-per2 to b1709.94-per1 parentesco/pai
-   ** auto rel: from b1709.94-per1-per3 to b1709.94-per1 parentesco/mae
-   ** auto rel: from b1709.94-per1-per2 to b1709.94-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.94-per1-per2/ec/c
-   ** Automatic attribute: b1709.94-per1-per3/ec/c
-** Processing act b$b1709.95
+1632: b$b1709.95
 1632:          n$cristina/f/id=b1709.95-per1
 1633: 
 1634:             pai$jose martins/id=b1709.95-per1-per2
@@ -2324,21 +1911,20 @@ Translation count not set or invalid, counting as zero:
 1638: 
 1639:             pad$francisco/id=b1709.95-per4
 1640: 
-1641:             ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.95-per5
+1641:                ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.95-per5
 1642: 
+
+WARNING: b1709.cli line 1642 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1642 
+Near line: 1643             mad$isabel/id=b1709.95-per6
+
 1643:             mad$isabel/id=b1709.95-per6
 1644:                ls$titulo/dona
 1645:                rel$parentesco/mulher/manuel homem de quadros/c6-7
 1646: 
 1647:       b$b1709.96/27/11/1709/0/0/0/manuel rodrigues (vigario)
 1648: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.95-per1-per2 to b1709.95-per1 parentesco/pai
-   ** auto rel: from b1709.95-per1-per3 to b1709.95-per1 parentesco/mae
-   ** auto rel: from b1709.95-per1-per2 to b1709.95-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.95-per1-per2/ec/c
-   ** Automatic attribute: b1709.95-per1-per3/ec/c
-** Processing act b$b1709.96
+1649: b$b1709.96
 1649:          n$antonio/m/id=b1709.96-per1
 1650: 
 1651:             pai$antonio lopes/id=b1709.96-per1-per2
@@ -2353,18 +1939,12 @@ Translation count not set or invalid, counting as zero:
 1660:             mad$esperanca/id=b1709.96-per5
 1661:                ls$ec/s
 1662: 
-1663:             pmad$simao luis/id=b1709.96-per6
-1664:                ls$residencia/casais de s.mateus
+1663:                pmad$simao luis/id=b1709.96-per6
+1664:                   ls$residencia/casais de s.mateus
 1665: 
 1666:       b$b1709.97/30/11/1709/0/0/0/manuel rodrigues (vigario)
 1667: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.96-per1-per2 to b1709.96-per1 parentesco/pai
-   ** auto rel: from b1709.96-per1-per3 to b1709.96-per1 parentesco/mae
-   ** auto rel: from b1709.96-per1-per2 to b1709.96-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.96-per1-per2/ec/c
-   ** Automatic attribute: b1709.96-per1-per3/ec/c
-** Processing act b$b1709.97
+1668: b$b1709.97
 1668:          n$maria/f/id=b1709.97-per1
 1669: 
 1670:             pai$gaspar rodrigues/id=b1709.97-per1-per2
@@ -2382,13 +1962,7 @@ Translation count not set or invalid, counting as zero:
 1682: 
 1683:       b$b1709.98/2/12/1709/0/0/0/manuel rodrigues (vigario)
 1684: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.97-per1-per2 to b1709.97-per1 parentesco/pai
-   ** auto rel: from b1709.97-per1-per3 to b1709.97-per1 parentesco/mae
-   ** auto rel: from b1709.97-per1-per2 to b1709.97-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.97-per1-per2/ec/c
-   ** Automatic attribute: b1709.97-per1-per3/ec/c
-** Processing act b$b1709.98
+1685: b$b1709.98
 1685:          n$manuel/m/id=b1709.98-per1
 1686: 
 1687:             pai$manuel jorge/id=b1709.98-per1-per2
@@ -2404,18 +1978,12 @@ Translation count not set or invalid, counting as zero:
 1697:             mad$maria/id=b1709.98-per5
 1698:                ls$ec/s
 1699: 
-1700:             pmad$pedro francisco/id=b1709.98-per6
-1701:                ls$residencia/casal do casconho
+1700:                pmad$pedro francisco/id=b1709.98-per6
+1701:                   ls$residencia/casal do casconho
 1702: 
 1703:       b$b1709.99/9/12/1709/0/0/0/manuel rodrigues (vigario)
 1704: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.98-per1-per2 to b1709.98-per1 parentesco/pai
-   ** auto rel: from b1709.98-per1-per3 to b1709.98-per1 parentesco/mae
-   ** auto rel: from b1709.98-per1-per2 to b1709.98-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.98-per1-per2/ec/c
-   ** Automatic attribute: b1709.98-per1-per3/ec/c
-** Processing act b$b1709.99
+1705: b$b1709.99
 1705:          n$manuel/m/id=b1709.99-per1
 1706: 
 1707:             pai$domingos cordeiro/id=b1709.99-per1-per2
@@ -2428,18 +1996,12 @@ Translation count not set or invalid, counting as zero:
 1714: 
 1715:             mad$maria goncalves/id=b1709.99-per5
 1716: 
-1717:             mrmad$joao cordeiro/id=b1709.99-per6
-1718:                ls$residencia/casal novo
+1717:                mrmad$joao cordeiro/id=b1709.99-per6
+1718:                   ls$residencia/casal novo
 1719: 
 1720:       b$b1709.100/10/12/1709/0/0/0/manuel rodrigues (vigario)
 1721: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.99-per1-per2 to b1709.99-per1 parentesco/pai
-   ** auto rel: from b1709.99-per1-per3 to b1709.99-per1 parentesco/mae
-   ** auto rel: from b1709.99-per1-per2 to b1709.99-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.99-per1-per2/ec/c
-   ** Automatic attribute: b1709.99-per1-per3/ec/c
-** Processing act b$b1709.100
+1722: b$b1709.100
 1722:          n$manuel/m/id=b1709.100-per1
 1723: 
 1724:             pai$joao rodrigues/id=b1709.100-per1-per2
@@ -2449,20 +2011,24 @@ Translation count not set or invalid, counting as zero:
 1728: 
 1729:             pad$rodrigo/mesmo_que=c6-7-rod/id=b1709.100-per4
 1730: 
+
+WARNING: b1709.cli line 1730 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1730 
+Near line: 1731             mad$isabel/id=b1709.100-per5
+
 1731:             mad$isabel/id=b1709.100-per5
 1732:                ls$titulo/dona
 1733: 
-1734:             mrmad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.100-per6
+1734:                mrmad$manuel homem de quadros/mesmo_que=c6-7/id=b1709.100-per6
 1735: 
+
+WARNING: b1709.cli line 1735 destination id of "same as" not found. Will check again at the end of file.
+Near line: 1735 
+Near line: 1736       b$b1709.101/19/12/1709/0/0/0/francisco nunes, coadjutor em santa maria madalena, prelasia de tomar
+
 1736:       b$b1709.101/19/12/1709/0/0/0/francisco nunes, coadjutor em santa maria madalena, prelasia de tomar
 1737: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.100-per1-per2 to b1709.100-per1 parentesco/pai
-   ** auto rel: from b1709.100-per1-per3 to b1709.100-per1 parentesco/mae
-   ** auto rel: from b1709.100-per1-per2 to b1709.100-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.100-per1-per2/ec/c
-   ** Automatic attribute: b1709.100-per1-per3/ec/c
-** Processing act b$b1709.101
+1738: b$b1709.101
 1738:          n$teresa/f/id=b1709.101-per1
 1739: 
 1740:             pai$joao mendes/id=b1709.101-per1-per2
@@ -2482,13 +2048,7 @@ Translation count not set or invalid, counting as zero:
 1754: 
 1755:       b$b1709.102/28/12/1709/0/0/0/manuel rodrigues (vigario)
 1756: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.101-per1-per2 to b1709.101-per1 parentesco/pai
-   ** auto rel: from b1709.101-per1-per3 to b1709.101-per1 parentesco/mae
-   ** auto rel: from b1709.101-per1-per2 to b1709.101-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.101-per1-per2/ec/c
-   ** Automatic attribute: b1709.101-per1-per3/ec/c
-** Processing act b$b1709.102
+1757: b$b1709.102
 1757:          n$antonio/m/id=b1709.102-per1
 1758: 
 1759:             pai$manuel rodrigues/id=b1709.102-per1-per2
@@ -2501,19 +2061,80 @@ Translation count not set or invalid, counting as zero:
 1766: 
 1767:             mad$maria da costa/id=b1709.102-per5
 1768: 
-1769:             mrmad$luis domingues/id=b1709.102-per6
-1770:                ls$residencia/figueirinha, freguesia da redinha
-1771:                ls$freguesia/redinha
+1769:                mrmad$luis domingues/id=b1709.102-per6
+1770:                   ls$residencia/figueirinha, freguesia da redinha
+1771:                   ls$freguesia/redinha
 1772: *** End of File
-0  errors.
-**** auto rels 2 STARTED.
-   ** auto rel: from b1709.102-per1-per2 to b1709.102-per1 parentesco/pai
-   ** auto rel: from b1709.102-per1-per3 to b1709.102-per1 parentesco/mae
-   ** auto rel: from b1709.102-per1-per2 to b1709.102-per1-per3 parentesco/marido
-   ** Automatic attribute: b1709.102-per1-per2/ec/c
-   ** Automatic attribute: b1709.102-per1-per3/ec/c
-** Translation finished.
-** data file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1709.CLI
-** original file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1709.org
-** old file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1709.old
-** original file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1709.ids
+ERROR:  Could not find same_as id c24-7 referred in line 14. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id sgoncalves referred in line 118. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7-rod referred in line 133. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7 referred in line 135. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c119-9 referred in line 241. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7-rod referred in line 275. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7 referred in line 277. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c104-7 referred in line 309. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id peiro referred in line 364. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id amabreu referred in line 385. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c2-7 referred in line 402. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c17-7 referred in line 512. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id sgoncalves referred in line 550. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id marianacb referred in line 655. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id lmabreu referred in line 656. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id amabreu referred in line 663. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7 referred in line 733. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c24-7 referred in line 919. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id lmabreu referred in line 932. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id mscoelho referred in line 973. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id lmabreu referred in line 1017. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id marianacb referred in line 1019. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id plribeiro referred in line 1129. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id gpereira referred in line 1175. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id gpereira referred in line 1449. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id jpinto referred in line 1477. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c12-7 referred in line 1491. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id mscoelho referred in line 1495. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id peiro referred in line 1535. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id peiro referred in line 1560. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id sgoncalves referred in line 1575. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c24-7 referred in line 1626. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7 referred in line 1643. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7-rod referred in line 1731. If  original reference is on another file use xsame_as
+
+ERROR:  Could not find same_as id c6-7 referred in line 1736. If  original reference is on another file use xsame_as
+
+35  errors. 
+35  warnings.
+Translation finished.

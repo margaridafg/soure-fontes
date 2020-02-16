@@ -1,7 +1,7 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 14-2
+ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
+9-2-2020 15-44
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/baptismos/bpo1.cli
+Processing data file bpo1.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
@@ -17,26 +17,22 @@ Obs:
 ** Processing source fonte$baptismos bpo1
 6: b$po115-b167o
 
-/Users/jrc/mhk-home/sources/soure/documents/baptismos/bpo1.cli:15:destination id of "same as" not found. Will check again at the end of file.
-
-
 WARNING: bpo1.cli line 14 destination id of "same as" not found. Will check again at the end of file.
-Near line: 14 
+Near lines: 14 
 Near line: 15                mrmad$antonio madeira/m/mesmo_que=c1688.7-p4/id=po115-b167o-per5
 
 
-/Users/jrc/mhk-home/sources/soure/documents/baptismos/bpo1.cli:17:destination id of "same as" not found. Will check again at the end of file.
-
-
 WARNING: bpo1.cli line 16 destination id of "same as" not found. Will check again at the end of file.
-Near line: 16 
+Near lines: 16 
 Near line: 17             pad$manuel mateus/id=po115-b167o-per6
 
 *** End of File
-ERROR:  Could not find same_as id c1693.32-p5 referred in line 15. If  original reference is on another file use xsame_as
 
-ERROR:  Could not find same_as id c1688.7-p4 referred in line 17. If  original reference is on another file use xsame_as
+ERROR: bpo1.cli line 14  Could not find same_as id c1693.32-p5. If  original reference is on another file use xsame_as
+Near lines: 14 Near line: 15 
 
+ERROR: bpo1.cli line 16  Could not find same_as id c1688.7-p4. If  original reference is on another file use xsame_as
+Near lines: 16 Near line: 17 
 2  errors. 
 2  warnings.
 Translation finished.

@@ -1,11 +1,12 @@
 ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 14-19
+13-6-2019 22-48
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/casamentos/c1720.cli
+Processing data file c1720.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
+1: kleio$gacto.str/gactoxml.str/translations=1
 =========================
 kleio translation started
 =========================
@@ -14,56 +15,865 @@ Prefix:
 Autorel: 
 Translation count: 1
 Obs: 
+2:    fonte$casamentos 1720/tipo=reg paroquiais/data=17200000/localizacao=290v
+3: 
 ** Processing source fonte$casamentos 1720
+4:       cas$c1720.1/2/1/1720/igreja matriz/manuel rodrigues (vigario)
+5: 
 6: cas$c1720.1
+6:          noivo$manuel madeira/id=c1720.1-per1
+7: 
+8:             pnoivo$jorge vaz/id=c1720.1-per2
+9:                ls$morto/antes
+10:                ls$residencia/venda nova, freguesia de tapeus
+11:                ls$freguesia/tapeus
+12: 
+13:             mnoivo$maria madeira/id=c1720.1-per3
+14:                ls$residencia/venda nova, freguesia de tapeus
+15:                ls$freguesia/tapeus
+16: 
+17:          noiva$isabel alvares/id=c1720.1-per4
+18: 
+19:             pnoiva$vicente rodrigues/id=c1720.1-per5
+20:                ls$residencia/quinta de porto coelheiro
+21:                ls$morto/antes
+22: 
+23:             mnoiva$maria alvares/id=c1720.1-per6
+24:                ls$morta/antes
+25: 
+26:          test$afonso lopes/id=c1720.1-per7
+27:             ls$residencia/laranjeira, freguesia de tapeus
+28:             ls$freguesia/tapeus
+29: 
+30:          test$antonio rodrigues/id=ctest02011720
+31:             ls$residencia/quinta#[de porto coelheiro]
+32: 
+33:          test$domingas da costa/id=c1720.1-per8
+34:             rel$parentesco/mulher/antonio rodrigues/ctest02011720
+35: 
+36:          test$isabel tome/id=ctest02011720b
+37: 
+38:          referido$antonio nunes/id=c1720.1-per9
+39:             ls$residencia/casal da tojeira
+40:             rel$parentesco/marido/isabel tome/ctest02011720b
+41: 
+42:       cas$c1720.2/8/1/1720/igreja matriz/manuel rodrigues (vigario)
+43: 
 44: cas$c1720.2
+44:          noivo$tome goncalves/id=c1720.2-per1
+45: 
+46:             pnoivo$pedro goncalves/id=c1720.2-per2
+47:                ls$residencia/vale da borra
+48:                ls$morto/antes
+49: 
+50:             mnoivo$catarina goncalves/id=c1720.2-per3
+51:                ls$morta/antes
+52: 
+53:             mulher1$antonia rodrigues/id=c1720.2-per4
+54: 
+55:                pmulher1$manuel rodrigues navarro/id=c1720.2-per5
+56:                   ls$residencia/vale da borra
+57:                   ls$morto/antes
+58: 
+59:                mmulher1$maria francisca/id=c1720.2-per6
+60:                   ls$morta/antes
+61: 
+62:          noiva$domingas francisca/id=c1720.2-per7
+63: 
+64:             pnoiva$manuel da fonseca/id=c1720.2-per8
+65:                ls$residencia/casalinhos
+66: 
+67:             mnoiva$maria francisca/id=c1720.2-per9
+68: 
+69:          test$joao simoes/id=c1720.2-per10
+70:             ls$residencia/casalinhos
+71: 
+72:          test$simao goncalves/id=c1720.2-per11
+73:             ls$residencia/vale da borra
+74: 
+75:          test$jose joao/id=c1720.2-per12
+76:             ls$residencia/casalinhos
+77: 
+78:          test$manuel simoes/id=c1720.2-per13
+79:             ls$residencia/casalinhos
+80: 
+81:       cas$c1720.3/24/1/1720/igreja matriz/manuel rodrigues (vigario)
+82: 
 83: cas$c1720.3
+83:          noivo$luis carvalho/id=c1720.3-per1
+84: 
+85:             pnoivo$mateus carvalho/id=c1720.3-per2
+86:                ls$residencia/casal das brancas
+87:                ls$morto/antes
+88: 
+89:             mnoivo$maria gomes/id=c1720.3-per3
+90:                ls$morta/antes
+91: 
+92:          noiva$cecilia goncalves/id=c1720.3-per4
+93: 
+94:             pnoiva$luis goncalves/id=c1720.3-per5
+95:                ls$residencia/casal das brancas
+96: 
+97:             mnoiva$catarina ferreira/id=c1720.3-per6
+98: 
+99:          test$domingos mateus/id=c1720.3-per7
+100:             ls$residencia/casal das brancas
+101: 
+102:          test$jose antunes/id=c1720.3-per8
+103:             ls$residencia/casal das brancas
+104: 
+105:          test$jose goncalves/id=c1720.3-per9
+106:             ls$residencia/casal do melrical
+107: 
+108:          test$domingos goncalves/id=c1720.3-per10
+109:             ls$residencia/casal do melrical
+110: 
+111:       cas$c1720.4/24/1/1720/igreja matriz/manuel rodrigues (vigario)
+112: 
 113: cas$c1720.4
+113:          noivo$domingos fernandes/id=c1720.4-per1
+114: 
+115:             pnoivo$manuel jorge/id=c1720.4-per2
+116:                ls$residencia/casal dos baixos, freguesia de almagreira
+117:                ls$freguesia/almagreira
+118:                ls$morto/antes
+119: 
+120:             mnoivo$catarina fernandes/id=c1720.4-per3
+121:                ls$residencia/casal dos baixos, freguesia de almagreira
+122:                ls$freguesia/almagreira
+123:                ls$morta/antes
+124: 
+125:          noiva$maria simoes/id=c1720.4-per4
+126: 
+127:             pnoiva$antonio simoes/id=c1720.4-per5
+128:                ls$residencia/casal de pedro afonso
+129:                ls$morto/antes
+130: 
+131:             mnoiva$maria pedroso/id=c1720.4-per6
+132:                ls$morta/antes
+133: 
+134:          test$manuel martins/id=c1720.4-per7
+135:             ls$residencia/louzoes
+136: 
+137:          test$manuel pedroso/id=c1720.4-per8
+138:             ls$residencia/louzoes
+139: 
+140:          test$joao simoes/id=c1720.4-per9
+141:             ls$residencia/casal novo
+142: 
+143:          test$antonio jorge/id=c1720.4-per10
+144:             ls$residencia/casal novo
+145: 
+146:       cas$c1720.5/29/1/1720/igreja matriz/manuel rodrigues (vigario)
+147: 
 148: cas$c1720.5
+148:          noivo$joao rodrigues/id=c1720.5-per1
+149: 
+150:             pnoivo$joao fernandes/id=c1720.5-per2
+151:                ls$residencia/casal da venda
+152: 
+153:             mnoivo$teresa rodrigues/id=c1720.5-per3
+154: 
+155:          noiva$isabel francisca/id=c1720.5-per4
+156: 
+157:             pnoiva$jose joao/id=c1720.5-per5
+158:                ls$residencia/casalinhos
+159: 
+160:             mnoiva$ana rodrigues/id=c1720.5-per6
+161: 
+162:          test$manuel rodrigues tome/id=c1720.5-per7
+163:             ls$residencia/casal da venda
+164: 
+165:          test$joao gomes carrasco/id=c1720.5-per8
+166: 
+167:          test$manuel simoes/id=c1720.5-per9
+168:             ls$residencia/casalinhos
+169: 
+170:          test$domingos alvares/id=c1720.5-per10
+171:             ls$alcunha/moco
+172:             ls$residencia/casalinhos
+173: 
+174:       cas$c1720.6/8/2/1720/igreja matriz/manuel rodrigues (vigario)
+175: 
 176: cas$c1720.6
+176:          noivo$matias gomes/id=c1720.6-per1
+177: 
+178:             pnoivo$matias gomes/id=c1720.6-per2
+179:                ls$residencia/mosqueiro, freguesia de macas de caminho
+180:                ls$freguesia/macas de caminho
+181:                ls$morto/antes
+182: 
+183:             mnoivo$guiomar ferreira/id=c1720.6-per3
+184:                ls$residencia/mosqueiro, freguesia de macas de caminho
+185:                ls$freguesia/macas de caminho
+186:                ls$morta/antes
+187: 
+188:          noiva$maria pereira/id=c1720.6-per4
+189: 
+190:             pnoiva$manuel carvalho/id=c1720.6-per5
+191:                ls$residencia/soure
+192:                ls$morto/antes
+193: 
+194:             mnoiva$maria joao/id=c1720.6-per6
+195: 
+196:          test$antonio lopes/id=c1720.6-per7
+197:             ls$residencia/soure
+198: 
+199:          test$manuel rodrigues serrao/id=c1720.6-per8
+200:             ls$residencia/soure
+201: 
+202:          test$manuel rodrigues duquezo/id=c1720.6-per9
+203:             ls$residencia/soure
+204: 
+205:          test$antonio de sousa/id=c1720.6-per10
+206:             ls$profissao/padre
+207:             ls$titulo/frei
+208:             ls$cargo/beneficiado na igreja de soure
+209: 
+210:       cas$c1720.7/8/2/1720/igreja matriz/manuel rodrigues (vigario)
+211: 
 212: cas$c1720.7
+212:          noivo$ambrosio rodrigues/id=c1720.7-per1
+213: 
+214:             pnoivo$pedro rodrigues/id=c1720.7-per2
+215:                ls$morto/antes
+216:                ls$residencia/vila nova de ancos, freguesia de vila nova de ancos
+217:                ls$freguesia/vila nova de ancos
+218: 
+219:             mnoivo$maria mendes/id=c1720.7-per3
+220:                ls$residencia/vila nova de ancos, freguesia de vila nova de ancos
+221:                ls$freguesia/vila nova de ancos
+222: 
+223:          noiva$madalena cordeiro/id=c1720.7-per4
+224: 
+225:             pnoiva$manuel martins/id=c1720.7-per5
+226:                ls$residencia/pouca pena
+227:                ls$morto/antes
+228: 
+229:             mnoiva$catarina cordeiro/id=c1720.7-per6
+230: 
+231:          test$manuel domingues/id=c1720.7-per7
+232:             ls$residencia/vila nova de ancos, freguesia de vila nova de ancos
+233:             ls$freguesia/vila nova de ancos
+234: 
+235:          test$jose rodrigues/id=c1720.7-per8
+236:             ls$residencia/vila nova de ancos, freguesia de vila nova de ancos
+237:             ls$freguesia/vila nova de ancos
+238: 
+239:          test$manuel pereira/id=c1720.7-per9
+240:             ls$residencia/casal do senhor
+241: 
+242:          test$manuel francisco/id=c1720.7-per10
+243:             ls$residencia/casal do senhor
+244: 
+245:       cas$c1720.8/25/3/1720/igreja matriz/manuel rodrigues (vigario)
+246: 
 247: cas$c1720.8
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1720.cli:279:destination id of "same as" not found. Will check again at the end of file.
-
+247:          noivo$francisco lopes/id=c1720.8-per1
+248: 
+249:             pnoivo$domingos aires/id=c1720.8-per2
+250:                ls$residencia/lajem
+251:                ls$morto/antes
+252: 
+253:             mnoivo$isabel lopes/id=c1720.8-per3
+254:                ls$morta/antes
+255: 
+256:          noiva$teresa simoes/id=c1720.8-per4
+257: 
+258:             pnoiva$domingos simoes/id=c1720.8-per5
+259:                ls$residencia/casal da pouca pena
+260:                ls$morto/antes
+261: 
+262:             mnoiva$maria de oliveira/id=c1720.8-per6
+263: 
+264:             marido1$andre ferreira/id=c1720.8-per7
+265: 
+266:                pmarido1$joao ferreira mioto/id=c1720.8-per8
+267:                   ls$residencia/soure
+268: 
+269:                mmarido1$nome desconhecido/id=c1720.8-per9
+270:                   ls$morta/antes
+271: 
+272:          test$manuel rodrigues camorro/id=c1720.8-per10
+273:             ls$residencia/casal do rei
+274: 
+275:          test$jose goncalves/id=c1720.8-per11
+276:             ls$residencia/melrical
+277: 
+278:          test$manuel rodrigues alvaro/mesmo_que=padre_alvaro/id=c1720.8-per12
 
 WARNING: c1720.cli line 278 destination id of "same as" not found. Will check again at the end of file.
 Near line: 278          test$manuel rodrigues alvaro/mesmo_que=padre_alvaro/id=c1720.8-per12
 Near line: 279             ls$cargo/tesoureiro
 
+279:             ls$cargo/tesoureiro
+280: 
+281:          test$joao rodrigues alvaro/id=c1720.8-per13
+282:             ls$alcunha/velho
+283:             ls$residencia/soure
+284: 
+285:       cas$c1720.9/1/4/1720/igreja matriz/manuel rodrigues (vigario)
+286: 
 287: cas$c1720.9
+287:          noivo$lourenco dias/id=c1720.9-per1
+288: 
+289:             pnoivo$joao dias/id=c1720.9-per2
+290:                ls$residencia/soure
+291:                ls$morto/antes
+292: 
+293:             mnoivo$maria goncalves/id=c1720.9-per3
+294: 
+295:             mulher1$maria leao/id=c1720.9-per4
+296: 
+297:                pmulher1$luis alvares/id=c1720.9-per5
+298:                   ls$residencia/alencarce de cima
+299:                   ls$morto/antes
+300: 
+301:                mmulher1$maria leao/id=c1720.9-per6
+302:                   ls$morta/antes
+303: 
+304:          noiva$antonia cordeiro/id=c1720.9-per7
+305: 
+306:             pnoiva$mateus fernandes/id=c1720.9-per8
+307:                ls$residencia/casal do migalho
+308:                ls$morto/antes
+309: 
+310:             mnoiva$isabel cordeiro/id=c1720.9-per9
+311: 
+312:          test$manuel dias/id=c1720.9-per10
+313:             ls$residencia/soure
+314: 
+315:          test$jose dias/id=c1720.9-per11
+316:             ls$residencia/soure
+317: 
+318:          test$manuel dias/id=c1720.9-per12
+319:             ls$profissao/estudante
+320:             ls$residencia/soure
+321: 
+322:          test$mateus cordeiro/id=c1720.9-per13
+323:             ls$cargo/sacristao
+324:             ls$residencia/soure
+325: 
+326:       cas$c1720.10/13/4/1720/igreja matriz/manuel rodrigues (vigario)
+327: 
 328: cas$c1720.10
+328:          noivo$filipe carvalho/id=c1720.10-per1
+329: 
+330:             pnoivo$manuel andre/id=c1720.10-per2
+331:                ls$residencia/barrosos
+332:                ls$morto/antes
+333: 
+334:             mnoivo$ana carvalho/id=c1720.10-per3
+335:                ls$morta/antes
+336: 
+337:          noiva$maria goncalves/id=c1720.10-per4
+338: 
+339:             pnoiva$luis goncalves/id=c1720.10-per5
+340:                ls$residencia/soure
+341:                ls$morto/antes
+342: 
+343:             mnoiva$joana goncalves/id=c1720.10-per6
+344:                ls$morta/antes
+345: 
+346:          test$manuel rodrigues serrao/id=c1720.10-per7
+347:             ls$residencia/soure
+348: 
+349:          test$jose carvalho/id=c1720.10-per8
+350:             ls$residencia/soure
+351: 
+352:          test$jose da gante/id=c1720.10-per9
+353:             ls$residencia/soure
+354: 
+355:          test$sebastiao goncalves/id=c1720.10-per10
+356:             ls$residencia/soure
+357: 
+358:       cas$c1720.11/14/4/1720/igreja matriz/manuel rodrigues (vigario)
+359: 
 360: cas$c1720.11
+360:          noivo$manuel rodrigues/id=c1720.11-per1
+361: 
+362:             pnoivo$manuel rodrigues/id=c1720.11-per2
+363:                ls$residencia/vale da borra
+364:                ls$morta/antes
+365: 
+366:             mnoivo$maria rodrigues/id=c1720.11-per3
+367: 
+368:          noiva$isabel francisca/id=c1720.11-per4
+369: 
+370:             pnoiva$antonio joao/id=c1720.11-per5
+371:                ls$residencia/casal da fonte da bica
+372: 
+373:             mnoiva$maria francisca/id=c1720.11-per6
+374: 
+375:          test$manuel jorge/id=c1720.11-per7
+376:             ls$residencia/marzagao
+377: 
+378:          test$antonio simoes rei/id=c1720.11-per8
+379:             ls$residencia/simoes
+380: 
+381:          test$joao rodrigues alvaro/id=c1720.11-per9
+382:             ls$alcunha/velho
+383: 
+384:          test$sebastiao rodrigues/id=c1720.11-per10
+385:             ls$residencia/netos, freguesia da almagreira
+386:             ls$freguesia/almagreira
+387: 
+388:       cas$c1720.12/28/4/1720/igreja matriz/manuel rodrigues (vigario)
+389: 
 390: cas$c1720.12
+390:          noivo$manuel simoes/id=c1720.12-per1
+391: 
+392:             pnoivo$manuel joao/id=c1720.12-per2
+393:                ls$residencia/casal de alencarce de cima
+394:                ls$morto/antes
+395: 
+396:             mnoivo$isabel rodrigues/id=c1720.12-per3
+397:                ls$morta/antes
+398: 
+399:          noiva$isabel rodrigues/id=c1720.12-per4
+400: 
+401:             pnoiva$sebastiao antunes/id=c1720.12-per5
+402:                ls$residencia/casal da presa
+403:                ls$morto/antes
+404: 
+405:             mnoiva$maria rodrigues/id=c1720.12-per6
+406: 
+407:          test$jose simoes/id=c1720.12-per7
+408:             ls$residencia/casal da presa
+409: 
+410:          test$domingos carvalho/id=c1720.12-per8
+411:             ls$residencia/casal do malvado
+412: 
+413:          test$manuel jorge/id=c1720.12-per9
+414:             ls$residencia/casal do malvado
+415: 
+416:          test$mateus cordeiro/id=c1720.12-per10
+417:             ls$cargo/sacristao
+418: 
+419:       cas$c1720.13/13/5/1720/igreja matriz/manuel rodrigues (vigario)
+420: 
 421: cas$c1720.13
+421:          noivo$manuel rodrigues/id=c1720.13-per1
+422: 
+423:             pnoivo$manuel gomes/id=c1720.13-per2
+424:                ls$residencia/casal do justo%junto ao lugar dos simoes
+425: 
+426:             mnoivo$maria rodrigues/id=c1720.13-per3
+427: 
+428:          noiva$mariana dos santos/id=c1720.13-per4
+429: 
+430:             pnoiva$manuel joao/id=c1720.13-per5
+431:                ls$residencia/casal dos barrosos
+432:                ls$morto/antes
+433: 
+434:             mnoiva$ana jorge/id=c1720.13-per6
+435: 
+436:          test$manuel goncalves branco/id=c1720.13-per7
+437:             ls$alcunha/velho
+438:             ls$residencia/mogadouro
+439: 
+440:          test$manuel goncalves branco/id=c1720.13-per8
+441:             ls$alcunha/moco
+442:             ls$residencia/mogadouro
+443: 
+444:          test$domingos goncalves/id=c1720.13-per9
+445:             ls$residencia/casal dos barrosos
+446: 
+447:          test$manuel rodrigues/id=c1720.13-per10
+448:             ls$residencia/casal dos barrosos
+449: 
+450:       cas$c1720.14/20/5/1720/igreja matriz/manuel rodrigues (vigario)
+451: 
 452: cas$c1720.14
+452:          noivo$manuel pedroso/id=cnoivo20051720
+453: 
+454:             pnoivo$antonio simoes barreto/id=c1720.14-per1
+455:                ls$residencia/casal de pedro afonso
+456:                ls$morto/antes
+457: 
+458:             mnoivo$maria pedroso/id=c1720.14-per2
+459:                ls$morta/antes
+460: 
+461:          noiva$maria luis/id=c1720.14-per3
+462:             rel$parentesco/grau 4c#na linha colateral de comuni stipite [de tronco comum]/manuel pedroso/cnoivo20051720
+463:             rel$parentesco/grau 3c/manuel pedroso/cnoivo20051720
+464: 
+465:             pnoiva$domingos rodrigues/id=c1720.14-per4
+466:                ls$residencia/casa velha
+467: 
+468:             mnoiva$isabel francisca/id=c1720.14-per5
+469: 
+470:          test$manuel goncalves perdigao/id=c1720.14-per6
+471:             ls$residencia/louzoes
+472: 
+473:          test$manuel pedroso/id=c1720.14-per7
+474:             ls$residencia/louzoes
+475: 
+476:          test$joao simoes/id=c1720.14-per8
+477:             ls$residencia/casal novo
+478: 
+479:          test$jose luis/id=c1720.14-per9
+480:             ls$residencia/casa velha
+481: 
+482:       cas$c1720.15/13/8/1720/misericordia/luis ribeiro cabral/obs=visto em visita aos 18 de julho de 1720
+483: 
 484: cas$c1720.15
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1720.cli:502:destination id of "same as" not found. Will check again at the end of file.
-
+484:          noivo$joao francisco/id=c1720.15-per1
+485: 
+486:             pnoivo$manuel francisco morais/id=c1720.15-per2
+487:                ls$residencia/paleao
+488:                ls$morto/antes
+489: 
+490:             mnoivo$isabel simoes/id=c1720.15-per3
+491: 
+492:          noiva$maria marques/id=c1720.15-per4
+493: 
+494:             pnoiva$manuel marques/id=c1720.15-per5
+495:                ls$residencia/paleao
+496:                ls$morto/antes
+497: 
+498:             mnoiva$isabel rodrigues/id=c1720.15-per6
+499: 
+500:          test$rodrigo homem de quadros/mesmo_que=c6-7-rod/id=c1720.15-per7
+501: 
 
 WARNING: c1720.cli line 501 destination id of "same as" not found. Will check again at the end of file.
 Near line: 501 
 Near line: 502          test$joao gaspar/id=c1720.15-per8
 
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1720.cli:512:destination id of "same as" not found. Will check again at the end of file.
-
+502:          test$joao gaspar/id=c1720.15-per8
+503:             ls$residencia/paleao
+504: 
+505:          test$ana pereira/id=ctest13081720
+506: 
+507:          referido$francisco rodrigues gante/id=c1720.15-per9
+508:             ls$residencia/paleao
+509:             rel$parentesco/marido/ana pereira/ctest13081720
+510: 
+511:          test$manuel rodrigues alvaro/mesmo_que=padre_alvaro/id=c1720.15-per10
 
 WARNING: c1720.cli line 511 destination id of "same as" not found. Will check again at the end of file.
 Near line: 511          test$manuel rodrigues alvaro/mesmo_que=padre_alvaro/id=c1720.15-per10
 Near line: 512             ls$cargo/tesoureiro
 
+512:             ls$cargo/tesoureiro
+513: 
+514:       cas$c1720.16/2/9/1720/igreja matriz/manuel rodrigues (vigario)
+515: 
 516: cas$c1720.16
+516:          noivo$antonio martins/id=c1720.16-per1
+517: 
+518:             pnoivo$luis gaspar/id=c1720.16-per2
+519:                ls$residencia/venda nova
+520: 
+521:             mnoivo$ana martins/id=c1720.16-per3
+522:                ls$morta/antes
+523: 
+524:          noiva$maria rodrigues/id=c1720.16-per4
+525: 
+526:             pnoiva$antonio joao/id=c1720.16-per5
+527:                ls$residencia/casal dos delgados
+528:                ls$morta/antes
+529: 
+530:             mnoiva$ana carvalho/id=c1720.16-per6
+531: 
+532:          test$manuel rodrigues falcao/id=c1720.16-per7
+533:             ls$residencia/porto coelheiro
+534: 
+535:          test$manuel goncalves branco/id=c1720.16-per8
+536:             ls$alcunha/velho
+537:             ls$residencia/mogadouro
+538: 
+539:          test$mateus carvalho/id=c1720.16-per9
+540:             ls$residencia/mogadouro
+541: 
+542:          test$manuel martins/id=c1720.16-per10
+543:             ls$residencia/mogadouro
+544:             ls$ec/v
+545: 
+546:       cas$c1720.17/16/9/1720/igreja matriz/manuel rodrigues (vigario)
+547: 
 548: cas$c1720.17
+548:          noivo$antonio domingues/id=c1720.17-per1
+549: 
+550:             pnoivo$antonio domingues/id=c1720.17-per2
+551:                ls$residencia/casais da misericordia
+552: 
+553:             mnoivo$maria dias/id=c1720.17-per3
+554: 
+555:          noiva$maria rodrigues/id=c1720.17-per4
+556: 
+557:             pnoiva$manuel gomes/id=c1720.17-per5
+558:                ls$residencia/casal do justo%junto ao lugar dos simoes
+559: 
+560:             mnoiva$maria rodrigues/id=c1720.17-per6
+561: 
+562:          test$domingos goncalves/id=c1720.17-per7
+563:             ls$residencia/casal dos barrosos
+564: 
+565:          test$antonio marques/id=c1720.17-per8
+566:             ls$residencia/casal dos barrosos
+567: 
+568:          test$manuel goncalves branco/id=c1720.17-per9
+569:             ls$alcunha/moco
+570:             ls$residencia/mogadouro
+571: 
+572:          test$diogo francisco/id=c1720.17-per10
+573:             ls$residencia/simoes
+574: 
+575:       cas$c1720.18/22/9/1720/igreja matriz/manuel rodrigues (vigario)
+576: 
 577: cas$c1720.18
+577:          noivo$manuel rodrigues/id=c1720.18-per1
+578: 
+579:             pnoivo$manuel rodrigues fuseiro/id=c1720.18-per2
+580:                ls$residencia/casal dos feijoes
+581:                ls$morto/antes
+582: 
+583:             mnoivo$isabel rodrigues/id=c1720.18-per3
+584: 
+585:          noiva$ana rodrigues/id=c1720.18-per4
+586: 
+587:             pnoiva$antonio da gante/id=c1720.18-per5
+588:                ls$residencia/casal dos feijoes
+589:                ls$morto/antes
+590: 
+591:             mnoiva$maria rodrigues/id=c1720.18-per6
+592:                ls$morta/antes
+593: 
+594:          test$manuel rodrigues feijao/id=c1720.18-per7
+595:             ls$residencia/barril
+596: 
+597:          test$joao francisco/id=c1720.18-per8
+598:             ls$residencia/barril
+599: 
+600:          test$joao rodrigues galvao/id=c1720.18-per9
+601:             ls$residencia/casal dos guerras
+602: 
+603:          test$mateus cordeiro/id=c1720.18-per10
+604:             ls$cargo/sacristao
+605:             ls$residencia/soure
+606: 
+607:       cas$c1720.19/21/10/1720/igreja matriz/manuel rodrigues (vigario)
+608: 
 609: cas$c1720.19
+609:          noivo$manuel ferreira coelho/id=c1720.19-per1
+610: 
+611:             pnoivo$joao ferreira/id=c1720.19-per2
+612:                ls$residencia/casal dos becos
+613: 
+614:             mnoivo$maria cardoso/id=c1720.19-per3
+615:                ls$morta/antes
+616: 
+617:          noiva$catarina goncalves%cna goncalves/id=c1720.19-per4
+618: 
+619:             pnoiva$joao goncalves camas/id=c1720.19-per5
+620:                ls$residencia/alencarce de baixo
+621: 
+622:             mnoiva$maria rodrigues/id=c1720.19-per6
+623: 
+624:          test$martinho goncalves/id=c1720.19-per7
+625:             ls$residencia/alencarce de baixo
+626: 
+627:          test$domingos goncalves/id=c1720.19-per8
+628:             ls$residencia/alencarce de baixo
+629: 
+630:          test$manuel rodrigues/id=c1720.19-per9
+631:             ls$residencia/casal da fonte do espirito santo
+632: 
+633:          test$bras ferreira/id=c1720.19-per10
+634:             ls$residencia/becos
+635: 
+636:       cas$c1720.20/19/10/1720/ermida de s.sebastiao/manuel rodrigues (vigario)/obs=data sic
+637: 
 638: cas$c1720.20
+638:          noivo$manuel ferreira/id=c1720.20-per1
+639: 
+640:             pnoivo$francisco ferreira/id=c1720.20-per2
+641:                ls$residencia/leiria, freguesia de
+642:                ls$freguesia/leiria
+643:                ls$morto/antes
+644: 
+645:             mnoivo$estefania de oliveira/id=c1720.20-per3
+646:                ls$residencia/leiria, freguesia de
+647:                ls$freguesia/leiria
+648: 
+649:          noiva$josefa pinto/id=c1720.20-per4
+650: 
+651:             pnoiva$manuel pinto/id=c1720.20-per5
+652:                ls$residencia/soure
+653: 
+654:             mnoiva$antonia gomes/id=c1720.20-per6
+655:                ls$morta/antes
+656: 
+657:          test$manuel martins camousso/id=ctest19101720
+658:             ls$residencia/soure
+659: 
+660:          test$manuel rodrigues serrao/id=c1720.20-per7
+661:             ls$residencia/soure
+662: 
+663:          test$mateus cordeiro/id=c1720.20-per8
+664:             ls$residencia/soure
+665: 
+666:          test$maria da conceicao/f/id=c1720.20-per9
+667:             rel$parentesco/mulher/manuel martins camousso/ctest19101720
+668: 
+669:       cas$c1720.21/3/11/1720/igreja matriz/manuel rodrigues (vigario)
+670: 
 671: cas$c1720.21
+671:          noivo$manuel goncalves/id=c1720.21-per1
+672: 
+673:             pnoivo$joao goncalves/id=c1720.21-per2
+674:                ls$residencia/valada, freguesia da gesteira
+675:                ls$freguesia/gesteira
+676: 
+677:             mnoivo$isabel rodrigues/id=c1720.21-per3
+678:                ls$residencia/valada, freguesia da gesteira
+679:                ls$freguesia/gesteira
+680: 
+681:          noiva$isabel duarte/id=c1720.21-per4
+682: 
+683:             pnoiva$manuel duarte/id=c1720.21-per5
+684:                ls$residencia/casal do migalho
+685: 
+686:             mnoiva$catarina cordeiro/id=c1720.21-per6
+687: 
+688:          test$carlos vaz mendes/id=c1720.21-per7
+689:             ls$profissao/padre
+690:             ls$residencia/vila nova de ancos, freguesia de vila nova de ancos
+691:             ls$freguesia/vila nova de ancos
+692: 
+693:          test$diogo francisco/id=c1720.21-per8
+694:             ls$residencia/valada, freguesia da gesteira
+695:             ls$freguesia/gesteira
+696: 
+697:          test$manuel martins/id=c1720.21-per9
+698:             ls$residencia/casal dos louzoes
+699: 
+700:          test$manuel goncalves perdigao/id=c1720.21-per10
+701:             ls$residencia/casal dos louzoes
+702: 
+703:       cas$c1720.22/13/11/1720/igreja matriz/manuel rodrigues (vigario)
+704: 
 705: cas$c1720.22
+705:          noivo$mateus domingues/id=c1720.22-per1
+706: 
+707:             pnoivo$manuel domingues/id=c1720.22-per2
+708:                ls$residencia/casal de eureca
+709: 
+710:             mnoivo$leonor joao/id=c1720.22-per3
+711:                ls$morta/antes
+712: 
+713:          noiva$maria antunes/id=c1720.22-per4
+714: 
+715:             pnoiva$antonio antunes/id=c1720.22-per5
+716:                ls$residencia/cascao
+717:                ls$morto/antes
+718: 
+719:             mnoiva$maria joao/id=c1720.22-per6
+720: 
+721:          test$jose domingues/id=c1720.22-per7
+722:             ls$residencia/casal dos cavaleiros
+723: 
+724:          test$manuel simoes/id=c1720.22-per8
+725:             ls$residencia/eureca
+726: 
+727:          test$manuel rodrigues centeio/id=c1720.22-per9
+728:             ls$residencia/eureca
+729: 
+730:          test$manuel martins/id=c1720.22-per10
+731:             ls$residencia/cascao
+732: 
+733:       cas$c1720.23/18/11/1720/igreja matriz/manuel rodrigues (vigario)
+734: 
 735: cas$c1720.23
+735:          noivo$joao simoes/id=c1720.23-per1
+736: 
+737:             pnoivo$jose lourenco/id=c1720.23-per2
+738:                ls$residencia/casal da fonte
+739:                ls$morto/antes
+740: 
+741:             mnoivo$isabel simoes/id=c1720.23-per3
+742: 
+743:          noiva$maria francisca/id=c1720.23-per4
+744: 
+745:             pnoiva$domingos luis/id=c1720.23-per5
+746:                ls$residencia/casal da quinta da cruz
+747: 
+748:             mnoiva$francisca ferreira/id=c1720.23-per6
+749: 
+750:          test$joao rodrigues/id=c1720.23-per7
+751:             ls$residencia/assamassa
+752: 
+753:          test$jose rodrigues/id=c1720.23-per8
+754:             ls$residencia/cavaleiros
+755: 
+756:          test$manuel antunes/id=c1720.23-per9
+757:             ls$residencia/casal da fonte do espirito santo
+758:             ls$alcunha/moco
+759: 
+760:          test$manuel simoes/id=c1720.23-per10
+761:             ls$residencia/casal de eureca
+762: 
+763:       cas$c1720.24/24/11/1720/igreja matriz/manuel rodrigues (vigario)
+764: 
 765: cas$c1720.24
-*** End of File
+765:          noivo$mateus gomes/id=c1720.24-per1
+766: 
+767:             pnoivo$mateus gomes/id=c1720.24-per2
+768:                ls$residencia/sobral
+769:                ls$morto/antes
+770: 
+771:             mnoivo$margarida lopes/id=c1720.24-per3
+772:                ls$morta/antes
+773: 
+774:             mulher1$maria luis/id=c1720.24-per4
+775: 
+776:                pmulher1$bartolomeu luis/id=c1720.24-per5
+777:                   ls$residencia/soure
+778: 
+779:                mmulher1$gracia gomes/id=c1720.24-per6
+780: 
+781:             mulher2$maria ferreira/id=c1720.24-per7
+782: 
+783:                pmulher2$salvador ferreira/id=c1720.24-per8
+784:                   ls$residencia/soure
+785:                   ls$morto/antes
+786: 
+787:                mmulher2$maria simoes/id=c1720.24-per9
+788: 
+789:             mulher3$antonia domingues/id=c1720.24-per10
+790: 
+791:                pmulher3$antonio domingues/id=c1720.24-per11
+792:                   ls$residencia/mamarosa, freguesia de cantanhede
+793:                   ls$freguesia/cantanhede
+794:                   ls$morto/antes
+795: 
+796:                mmulher3$maria domingues/id=c1720.24-per12
+797:                   ls$morta/antes
+798:                   ls$residencia/mamarosa, freguesia de cantanhede
+799:                   ls$freguesia/cantanhede
+800: 
+801:          noiva$isabel rodrigues/id=c1720.24-per13
+802: 
+803:             pnoiva$antonio da gante/id=c1720.24-per14
+804:                ls$residencia/casais de s.mateus
+805: 
+806:             mnoiva$maria rodrigues/id=c1720.24-per15
+807:                ls$morta/antes
+808: 
+809:          test$joao henriques/id=c1720.24-per16
+810:             ls$residencia/soure
+811: 
+812:          test$antonio alvares/id=c1720.24-per17
+813:             ls$residencia/soure
+814: 
+815:          test$paulo da gante/id=c1720.24-per18
+816:             ls$residencia/casais de s.mateus
+817: 
+818:          test$antonio rodrigues feijao/id=c1720.24-per19
+819:             ls$residencia/casais de s.mateus
+820: *** End of File
 ERROR:  Could not find same_as id padre_alvaro referred in line 279. If  original reference is on another file use xsame_as
 
 ERROR:  Could not find same_as id c6-7-rod referred in line 502. If  original reference is on another file use xsame_as

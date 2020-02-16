@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/documents/varia/soure_apontamentosd.cli" TRANSLATOR="gactoxml2.str" WHEN="2018-8-10 15:43:52" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/varia/soure_apontamentosd.cli" TRANSLATOR="gactoxml2.str" WHEN="2019-6-13 22:50:35" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -28,7 +28,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/documents/varia/soure_apontamentosd.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/varia/soure_apontamentosd.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="apontamentosd">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -113,9 +113,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="apsd-soure-geo197-att1" NAME="atr" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="apsd-soure-geo197-att1-3" NAME="atr" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-att1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-att1-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -128,16 +128,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[titulo de um condado]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-att1]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-att1-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-att2" NAME="atr" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="apsd-soure-geo197-att2-3" NAME="atr" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-att2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-att2-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -148,16 +148,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[1125]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-att2]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-att2-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-rel1" NAME="rel" CLASS="relation" ORDER="7" LEVEL="4" LINE="11">
+<GROUP ID="apsd-soure-geo197-rel1-3" NAME="rel" CLASS="relation" ORDER="7" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-rel1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-rel1-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -172,7 +172,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[apsd-soure-lisboa]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-rel1]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-rel1-3]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[apsd-soure-geo197]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -239,9 +239,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="apsd-soure-geo197-geo199-att3" NAME="atr" CLASS="attribute" ORDER="12" LEVEL="5" LINE="15">
+<GROUP ID="apsd-soure-geo197-geo199-att3-3" NAME="atr" CLASS="attribute" ORDER="12" LEVEL="5" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att3-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-geo199</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -252,16 +252,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sim]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-geo199-att3]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-geo199-att3-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-geo199]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-geo199-att4" NAME="atr" CLASS="attribute" ORDER="13" LEVEL="5" LINE="16">
+<GROUP ID="apsd-soure-geo197-geo199-att4-3" NAME="atr" CLASS="attribute" ORDER="13" LEVEL="5" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att4</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att4-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-geo199</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -274,16 +274,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[presidencia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-geo199-att4]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-geo199-att4-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-geo199]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-geo199-att5" NAME="atr" CLASS="attribute" ORDER="14" LEVEL="5" LINE="17">
+<GROUP ID="apsd-soure-geo197-geo199-att5-3" NAME="atr" CLASS="attribute" ORDER="14" LEVEL="5" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att5-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-geo199</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -294,16 +294,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[mestres de ler e latim]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-geo199-att5]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-geo199-att5-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-geo199]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-geo199-att6" NAME="atr" CLASS="attribute" ORDER="15" LEVEL="5" LINE="18">
+<GROUP ID="apsd-soure-geo197-geo199-att6-3" NAME="atr" CLASS="attribute" ORDER="15" LEVEL="5" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att6</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att6-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-geo199</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -314,16 +314,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sim]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-geo199-att6]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-geo199-att6-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-geo199]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-geo199-att7" NAME="atr" CLASS="attribute" ORDER="16" LEVEL="5" LINE="20">
+<GROUP ID="apsd-soure-geo197-geo199-att7-3" NAME="atr" CLASS="attribute" ORDER="16" LEVEL="5" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-geo199-att7-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-geo199</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -336,7 +336,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[dedicada a n. sra da graca]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-geo199-att7]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-geo199-att7-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-geo199]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -380,9 +380,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="apsd-soure-geo197-obj1-att8" NAME="atr" CLASS="attribute" ORDER="19" LEVEL="5" LINE="22">
+<GROUP ID="apsd-soure-geo197-obj1-att8-3" NAME="atr" CLASS="attribute" ORDER="19" LEVEL="5" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att8</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att8-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-obj1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -393,16 +393,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[3650]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-obj1-att8]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-obj1-att8-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-obj1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-obj1-att9" NAME="atr" CLASS="attribute" ORDER="20" LEVEL="5" LINE="23">
+<GROUP ID="apsd-soure-geo197-obj1-att9-3" NAME="atr" CLASS="attribute" ORDER="20" LEVEL="5" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att9</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att9-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-obj1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -413,16 +413,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[vigario]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-obj1-att9]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-obj1-att9-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-obj1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-obj1-att10" NAME="atr" CLASS="attribute" ORDER="21" LEVEL="5" LINE="24">
+<GROUP ID="apsd-soure-geo197-obj1-att10-3" NAME="atr" CLASS="attribute" ORDER="21" LEVEL="5" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att10-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-obj1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -433,16 +433,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[rei, mesa da consciencia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-obj1-att10]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-obj1-att10-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-obj1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="apsd-soure-geo197-obj1-att11" NAME="atr" CLASS="attribute" ORDER="22" LEVEL="5" LINE="25">
+<GROUP ID="apsd-soure-geo197-obj1-att11-3" NAME="atr" CLASS="attribute" ORDER="22" LEVEL="5" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>apsd-soure-geo197-obj1-att11-3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>apsd-soure-geo197-obj1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -453,7 +453,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[120000 reis]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[apsd-soure-geo197-obj1-att11]]></core>   </ELEMENT>
+         <core><![CDATA[apsd-soure-geo197-obj1-att11-3]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[apsd-soure-geo197-obj1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">

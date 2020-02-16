@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/documents/obitos/ob1714.cli" TRANSLATOR="gactoxml2.str" WHEN="2018-8-10 14:59:9" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/obitos/ob1714.cli" TRANSLATOR="gactoxml2.str" WHEN="2019-6-13 22:50:12" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -30,7 +30,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17140000]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/documents/obitos/ob1714.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/obitos/ob1714.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="o">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -189,9 +189,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="obitos-1714-his3535-gro5297" NAME="locs" CLASS="group_element" ORDER="9" LEVEL="3" LINE="14">
+<GROUP ID="obitos-1714-his3535-gro1184" NAME="locs" CLASS="group_element" ORDER="9" LEVEL="3" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3535-gro5297</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3535-gro1184</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3535</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -251,9 +251,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3536-gro5298" NAME="testamento" CLASS="group_element" ORDER="13" LEVEL="3" LINE="18">
+<GROUP ID="obitos-1714-his3536-gro1185" NAME="testamento" CLASS="group_element" ORDER="13" LEVEL="3" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-gro5298</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-gro1185</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3536</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -263,9 +263,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3536-gro5299" NAME="sacr" CLASS="group_element" ORDER="14" LEVEL="3" LINE="20">
+<GROUP ID="obitos-1714-his3536-gro1186" NAME="sacr" CLASS="group_element" ORDER="14" LEVEL="3" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-gro5299</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-gro1186</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3536</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -355,9 +355,9 @@
          <core><![CDATA[17140105]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3536-gro5300" NAME="locs" CLASS="group_element" ORDER="20" LEVEL="3" LINE="27">
+<GROUP ID="obitos-1714-his3536-gro1187" NAME="locs" CLASS="group_element" ORDER="20" LEVEL="3" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-gro5300</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-gro1187</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3536</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -412,7 +412,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140105</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3536-atra9945" NAME="ls"  ORDER="24" LEVEL="3" CLASS="attribute" LINE="29">
+<GROUP ID="obitos-1714-his3536-atra1" NAME="ls"  ORDER="24" LEVEL="3" CLASS="attribute" LINE="29">
     <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3536</core></ELEMENT>
@@ -422,10 +422,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3536-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-atra9945</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-atra1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140105</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3536-atra9946" NAME="ls"  ORDER="25" LEVEL="3" CLASS="attribute" LINE="29">
+<GROUP ID="obitos-1714-his3536-atra2" NAME="ls"  ORDER="25" LEVEL="3" CLASS="attribute" LINE="29">
     <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3536</core></ELEMENT>
@@ -435,7 +435,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3536-per1-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-atra9946</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3536-atra2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140105</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3537" NAME="o" CLASS="act" ORDER="26" LEVEL="2" LINE="29">
@@ -458,9 +458,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3537-gro5301" NAME="testamento" CLASS="group_element" ORDER="27" LEVEL="3" LINE="31">
+<GROUP ID="obitos-1714-his3537-gro1188" NAME="testamento" CLASS="group_element" ORDER="27" LEVEL="3" LINE="31">
     <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3537-gro5301</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3537-gro1188</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3537</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -470,9 +470,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3537-gro5302" NAME="sacr" CLASS="group_element" ORDER="28" LEVEL="3" LINE="33">
+<GROUP ID="obitos-1714-his3537-gro1189" NAME="sacr" CLASS="group_element" ORDER="28" LEVEL="3" LINE="33">
     <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3537-gro5302</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3537-gro1189</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3537</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -533,9 +533,9 @@
          <core><![CDATA[17140107]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3537-gro5303" NAME="locs" CLASS="group_element" ORDER="32" LEVEL="3" LINE="38">
+<GROUP ID="obitos-1714-his3537-gro1190" NAME="locs" CLASS="group_element" ORDER="32" LEVEL="3" LINE="38">
     <ELEMENT NAME="line" CLASS="line"><core>38</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3537-gro5303</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3537-gro1190</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3537</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -565,9 +565,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3538-gro5304" NAME="testamento" CLASS="group_element" ORDER="34" LEVEL="3" LINE="42">
+<GROUP ID="obitos-1714-his3538-gro1191" NAME="testamento" CLASS="group_element" ORDER="34" LEVEL="3" LINE="42">
     <ELEMENT NAME="line" CLASS="line"><core>42</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro5304</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro1191</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3538</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -577,9 +577,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3538-gro5305" NAME="sacr" CLASS="group_element" ORDER="35" LEVEL="3" LINE="44">
+<GROUP ID="obitos-1714-his3538-gro1192" NAME="sacr" CLASS="group_element" ORDER="35" LEVEL="3" LINE="44">
     <ELEMENT NAME="line" CLASS="line"><core>44</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro5305</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro1192</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3538</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -660,9 +660,9 @@
          <core><![CDATA[17140108]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3538-gro5306" NAME="locs" CLASS="group_element" ORDER="40" LEVEL="3" LINE="50">
+<GROUP ID="obitos-1714-his3538-gro1193" NAME="locs" CLASS="group_element" ORDER="40" LEVEL="3" LINE="50">
     <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro5306</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro1193</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3538</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -672,9 +672,9 @@
          <core><![CDATA[ermida do espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3538-gro5307" NAME="oficios" CLASS="group_element" ORDER="41" LEVEL="3" LINE="52">
+<GROUP ID="obitos-1714-his3538-gro1194" NAME="oficios" CLASS="group_element" ORDER="41" LEVEL="3" LINE="52">
     <ELEMENT NAME="line" CLASS="line"><core>52</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro5307</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3538-gro1194</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3538</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -704,9 +704,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3539-gro5308" NAME="testamento" CLASS="group_element" ORDER="43" LEVEL="3" LINE="56">
+<GROUP ID="obitos-1714-his3539-gro1195" NAME="testamento" CLASS="group_element" ORDER="43" LEVEL="3" LINE="56">
     <ELEMENT NAME="line" CLASS="line"><core>56</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3539-gro5308</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3539-gro1195</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3539</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -716,9 +716,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3539-gro5309" NAME="sacr" CLASS="group_element" ORDER="44" LEVEL="3" LINE="58">
+<GROUP ID="obitos-1714-his3539-gro1196" NAME="sacr" CLASS="group_element" ORDER="44" LEVEL="3" LINE="58">
     <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3539-gro5309</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3539-gro1196</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3539</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -779,9 +779,9 @@
          <core><![CDATA[17140111]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3539-gro5310" NAME="locs" CLASS="group_element" ORDER="48" LEVEL="3" LINE="63">
+<GROUP ID="obitos-1714-his3539-gro1197" NAME="locs" CLASS="group_element" ORDER="48" LEVEL="3" LINE="63">
     <ELEMENT NAME="line" CLASS="line"><core>63</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3539-gro5310</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3539-gro1197</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3539</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -911,9 +911,9 @@
          <core><![CDATA[17140127]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3540-gro5311" NAME="locs" CLASS="group_element" ORDER="56" LEVEL="3" LINE="73">
+<GROUP ID="obitos-1714-his3540-gro1198" NAME="locs" CLASS="group_element" ORDER="56" LEVEL="3" LINE="73">
     <ELEMENT NAME="line" CLASS="line"><core>73</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3540-gro5311</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3540-gro1198</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3540</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1076,9 +1076,9 @@
          <core><![CDATA[17140213]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3541-gro5312" NAME="sacr" CLASS="group_element" ORDER="67" LEVEL="3" LINE="83">
+<GROUP ID="obitos-1714-his3541-gro1199" NAME="sacr" CLASS="group_element" ORDER="67" LEVEL="3" LINE="83">
     <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3541-gro5312</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3541-gro1199</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3541</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1088,9 +1088,9 @@
          <core><![CDATA[penitencia e extrema uncao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3541-gro5313" NAME="locs" CLASS="group_element" ORDER="68" LEVEL="3" LINE="85">
+<GROUP ID="obitos-1714-his3541-gro1200" NAME="locs" CLASS="group_element" ORDER="68" LEVEL="3" LINE="85">
     <ELEMENT NAME="line" CLASS="line"><core>85</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3541-gro5313</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3541-gro1200</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3541</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1150,9 +1150,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3542-gro5314" NAME="testamento" CLASS="group_element" ORDER="72" LEVEL="3" LINE="89">
+<GROUP ID="obitos-1714-his3542-gro1201" NAME="testamento" CLASS="group_element" ORDER="72" LEVEL="3" LINE="89">
     <ELEMENT NAME="line" CLASS="line"><core>89</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro5314</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro1201</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3542</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1162,9 +1162,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3542-gro5315" NAME="sacr" CLASS="group_element" ORDER="73" LEVEL="3" LINE="91">
+<GROUP ID="obitos-1714-his3542-gro1202" NAME="sacr" CLASS="group_element" ORDER="73" LEVEL="3" LINE="91">
     <ELEMENT NAME="line" CLASS="line"><core>91</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro5315</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro1202</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3542</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1225,9 +1225,9 @@
          <core><![CDATA[17140226]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3542-gro5316" NAME="locs" CLASS="group_element" ORDER="77" LEVEL="3" LINE="96">
+<GROUP ID="obitos-1714-his3542-gro1203" NAME="locs" CLASS="group_element" ORDER="77" LEVEL="3" LINE="96">
     <ELEMENT NAME="line" CLASS="line"><core>96</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro5316</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro1203</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3542</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1237,9 +1237,9 @@
          <core><![CDATA[ermida do divino espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3542-gro5317" NAME="oficios" CLASS="group_element" ORDER="78" LEVEL="3" LINE="98">
+<GROUP ID="obitos-1714-his3542-gro1204" NAME="oficios" CLASS="group_element" ORDER="78" LEVEL="3" LINE="98">
     <ELEMENT NAME="line" CLASS="line"><core>98</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro5317</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3542-gro1204</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3542</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1269,9 +1269,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3543-gro5318" NAME="testamento" CLASS="group_element" ORDER="80" LEVEL="3" LINE="102">
+<GROUP ID="obitos-1714-his3543-gro1205" NAME="testamento" CLASS="group_element" ORDER="80" LEVEL="3" LINE="102">
     <ELEMENT NAME="line" CLASS="line"><core>102</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3543-gro5318</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3543-gro1205</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3543</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1281,9 +1281,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3543-gro5319" NAME="sacr" CLASS="group_element" ORDER="81" LEVEL="3" LINE="104">
+<GROUP ID="obitos-1714-his3543-gro1206" NAME="sacr" CLASS="group_element" ORDER="81" LEVEL="3" LINE="104">
     <ELEMENT NAME="line" CLASS="line"><core>104</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3543-gro5319</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3543-gro1206</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3543</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1364,9 +1364,9 @@
          <core><![CDATA[17140228]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3543-gro5320" NAME="locs" CLASS="group_element" ORDER="86" LEVEL="3" LINE="110">
+<GROUP ID="obitos-1714-his3543-gro1207" NAME="locs" CLASS="group_element" ORDER="86" LEVEL="3" LINE="110">
     <ELEMENT NAME="line" CLASS="line"><core>110</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3543-gro5320</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3543-gro1207</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3543</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1397,9 +1397,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3544-gro5321" NAME="testamento" CLASS="group_element" ORDER="88" LEVEL="3" LINE="114">
+<GROUP ID="obitos-1714-his3544-gro1208" NAME="testamento" CLASS="group_element" ORDER="88" LEVEL="3" LINE="114">
     <ELEMENT NAME="line" CLASS="line"><core>114</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-gro5321</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-gro1208</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3544</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1409,9 +1409,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3544-gro5322" NAME="sacr" CLASS="group_element" ORDER="89" LEVEL="3" LINE="116">
+<GROUP ID="obitos-1714-his3544-gro1209" NAME="sacr" CLASS="group_element" ORDER="89" LEVEL="3" LINE="116">
     <ELEMENT NAME="line" CLASS="line"><core>116</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-gro5322</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-gro1209</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3544</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1530,9 +1530,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-per1-rela25</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140306</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3544-gro5323" NAME="locs" CLASS="group_element" ORDER="97" LEVEL="3" LINE="124">
+<GROUP ID="obitos-1714-his3544-gro1210" NAME="locs" CLASS="group_element" ORDER="97" LEVEL="3" LINE="124">
     <ELEMENT NAME="line" CLASS="line"><core>124</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-gro5323</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3544-gro1210</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3544</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1729,9 +1729,9 @@
          <core><![CDATA[17140308]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3545-gro5324" NAME="locs" CLASS="group_element" ORDER="110" LEVEL="3" LINE="138">
+<GROUP ID="obitos-1714-his3545-gro1211" NAME="locs" CLASS="group_element" ORDER="110" LEVEL="3" LINE="138">
     <ELEMENT NAME="line" CLASS="line"><core>138</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-gro5324</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-gro1211</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3545</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1876,7 +1876,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-rela40</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140308</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3545-atra9947" NAME="ls"  ORDER="120" LEVEL="3" CLASS="attribute" LINE="140">
+<GROUP ID="obitos-1714-his3545-atra3" NAME="ls"  ORDER="120" LEVEL="3" CLASS="attribute" LINE="140">
     <ELEMENT NAME="line" CLASS="line"><core>140</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3545</core></ELEMENT>
@@ -1886,10 +1886,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>on08031714-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-atra9947</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-atra3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140308</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3545-atra9948" NAME="ls"  ORDER="121" LEVEL="3" CLASS="attribute" LINE="140">
+<GROUP ID="obitos-1714-his3545-atra4" NAME="ls"  ORDER="121" LEVEL="3" CLASS="attribute" LINE="140">
     <ELEMENT NAME="line" CLASS="line"><core>140</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3545</core></ELEMENT>
@@ -1899,7 +1899,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>on08031714-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-atra9948</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3545-atra4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140308</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3546" NAME="o" CLASS="act" ORDER="122" LEVEL="2" LINE="140">
@@ -1922,9 +1922,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3546-gro5325" NAME="testamento" CLASS="group_element" ORDER="123" LEVEL="3" LINE="142">
+<GROUP ID="obitos-1714-his3546-gro1212" NAME="testamento" CLASS="group_element" ORDER="123" LEVEL="3" LINE="142">
     <ELEMENT NAME="line" CLASS="line"><core>142</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro5325</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro1212</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3546</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1934,9 +1934,9 @@
          <core><![CDATA[nuncupativo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3546-gro5326" NAME="sacr" CLASS="group_element" ORDER="124" LEVEL="3" LINE="144">
+<GROUP ID="obitos-1714-his3546-gro1213" NAME="sacr" CLASS="group_element" ORDER="124" LEVEL="3" LINE="144">
     <ELEMENT NAME="line" CLASS="line"><core>144</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro5326</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro1213</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3546</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1999,9 +1999,9 @@
          <core><![CDATA[17140309]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3546-gro5327" NAME="locs" CLASS="group_element" ORDER="128" LEVEL="3" LINE="149">
+<GROUP ID="obitos-1714-his3546-gro1214" NAME="locs" CLASS="group_element" ORDER="128" LEVEL="3" LINE="149">
     <ELEMENT NAME="line" CLASS="line"><core>149</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro5327</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro1214</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3546</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2011,9 +2011,9 @@
          <core><![CDATA[ermida de s.francisco]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3546-gro5328" NAME="oficios" CLASS="group_element" ORDER="129" LEVEL="3" LINE="151">
+<GROUP ID="obitos-1714-his3546-gro1215" NAME="oficios" CLASS="group_element" ORDER="129" LEVEL="3" LINE="151">
     <ELEMENT NAME="line" CLASS="line"><core>151</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro5328</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3546-gro1215</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3546</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2043,9 +2043,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3547-gro5329" NAME="testamento" CLASS="group_element" ORDER="131" LEVEL="3" LINE="155">
+<GROUP ID="obitos-1714-his3547-gro1216" NAME="testamento" CLASS="group_element" ORDER="131" LEVEL="3" LINE="155">
     <ELEMENT NAME="line" CLASS="line"><core>155</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro5329</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro1216</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3547</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2055,9 +2055,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3547-gro5330" NAME="sacr" CLASS="group_element" ORDER="132" LEVEL="3" LINE="157">
+<GROUP ID="obitos-1714-his3547-gro1217" NAME="sacr" CLASS="group_element" ORDER="132" LEVEL="3" LINE="157">
     <ELEMENT NAME="line" CLASS="line"><core>157</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro5330</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro1217</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3547</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2067,9 +2067,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3547-gro5331" NAME="causa" CLASS="group_element" ORDER="133" LEVEL="3" LINE="159">
+<GROUP ID="obitos-1714-his3547-gro1218" NAME="causa" CLASS="group_element" ORDER="133" LEVEL="3" LINE="159">
     <ELEMENT NAME="line" CLASS="line"><core>159</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro5331</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro1218</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>causa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3547</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2130,9 +2130,9 @@
          <core><![CDATA[17140318]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3547-gro5332" NAME="locs" CLASS="group_element" ORDER="137" LEVEL="3" LINE="164">
+<GROUP ID="obitos-1714-his3547-gro1219" NAME="locs" CLASS="group_element" ORDER="137" LEVEL="3" LINE="164">
     <ELEMENT NAME="line" CLASS="line"><core>164</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro5332</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3547-gro1219</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3547</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2163,9 +2163,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3548-gro5333" NAME="testamento" CLASS="group_element" ORDER="139" LEVEL="3" LINE="168">
+<GROUP ID="obitos-1714-his3548-gro1220" NAME="testamento" CLASS="group_element" ORDER="139" LEVEL="3" LINE="168">
     <ELEMENT NAME="line" CLASS="line"><core>168</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro5333</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro1220</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3548</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2175,9 +2175,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3548-gro5334" NAME="sacr" CLASS="group_element" ORDER="140" LEVEL="3" LINE="170">
+<GROUP ID="obitos-1714-his3548-gro1221" NAME="sacr" CLASS="group_element" ORDER="140" LEVEL="3" LINE="170">
     <ELEMENT NAME="line" CLASS="line"><core>170</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro5334</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro1221</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3548</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2238,9 +2238,9 @@
          <core><![CDATA[17140318]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3548-gro5335" NAME="locs" CLASS="group_element" ORDER="144" LEVEL="3" LINE="175">
+<GROUP ID="obitos-1714-his3548-gro1222" NAME="locs" CLASS="group_element" ORDER="144" LEVEL="3" LINE="175">
     <ELEMENT NAME="line" CLASS="line"><core>175</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro5335</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro1222</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3548</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2250,9 +2250,9 @@
          <core><![CDATA[ermida do espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3548-gro5336" NAME="oficios" CLASS="group_element" ORDER="145" LEVEL="3" LINE="177">
+<GROUP ID="obitos-1714-his3548-gro1223" NAME="oficios" CLASS="group_element" ORDER="145" LEVEL="3" LINE="177">
     <ELEMENT NAME="line" CLASS="line"><core>177</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro5336</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3548-gro1223</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3548</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2282,9 +2282,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3549-gro5337" NAME="testamento" CLASS="group_element" ORDER="147" LEVEL="3" LINE="181">
+<GROUP ID="obitos-1714-his3549-gro1224" NAME="testamento" CLASS="group_element" ORDER="147" LEVEL="3" LINE="181">
     <ELEMENT NAME="line" CLASS="line"><core>181</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3549-gro5337</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3549-gro1224</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3549</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2294,9 +2294,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3549-gro5338" NAME="sacr" CLASS="group_element" ORDER="148" LEVEL="3" LINE="183">
+<GROUP ID="obitos-1714-his3549-gro1225" NAME="sacr" CLASS="group_element" ORDER="148" LEVEL="3" LINE="183">
     <ELEMENT NAME="line" CLASS="line"><core>183</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3549-gro5338</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3549-gro1225</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3549</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2397,9 +2397,9 @@
          <core><![CDATA[17140318]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3549-gro5339" NAME="locs" CLASS="group_element" ORDER="154" LEVEL="3" LINE="190">
+<GROUP ID="obitos-1714-his3549-gro1226" NAME="locs" CLASS="group_element" ORDER="154" LEVEL="3" LINE="190">
     <ELEMENT NAME="line" CLASS="line"><core>190</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3549-gro5339</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3549-gro1226</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3549</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2430,9 +2430,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3550-gro5340" NAME="testamento" CLASS="group_element" ORDER="156" LEVEL="3" LINE="194">
+<GROUP ID="obitos-1714-his3550-gro1227" NAME="testamento" CLASS="group_element" ORDER="156" LEVEL="3" LINE="194">
     <ELEMENT NAME="line" CLASS="line"><core>194</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro5340</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro1227</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3550</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2442,9 +2442,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3550-gro5341" NAME="sacr" CLASS="group_element" ORDER="157" LEVEL="3" LINE="196">
+<GROUP ID="obitos-1714-his3550-gro1228" NAME="sacr" CLASS="group_element" ORDER="157" LEVEL="3" LINE="196">
     <ELEMENT NAME="line" CLASS="line"><core>196</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro5341</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro1228</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3550</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2526,9 +2526,9 @@
          <core><![CDATA[17140401]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3550-gro5342" NAME="locs" CLASS="group_element" ORDER="162" LEVEL="3" LINE="202">
+<GROUP ID="obitos-1714-his3550-gro1229" NAME="locs" CLASS="group_element" ORDER="162" LEVEL="3" LINE="202">
     <ELEMENT NAME="line" CLASS="line"><core>202</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro5342</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro1229</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3550</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2539,9 +2539,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3550-gro5343" NAME="oficios" CLASS="group_element" ORDER="163" LEVEL="3" LINE="204">
+<GROUP ID="obitos-1714-his3550-gro1230" NAME="oficios" CLASS="group_element" ORDER="163" LEVEL="3" LINE="204">
     <ELEMENT NAME="line" CLASS="line"><core>204</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro5343</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3550-gro1230</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3550</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2571,9 +2571,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3551-gro5344" NAME="testamento" CLASS="group_element" ORDER="165" LEVEL="3" LINE="208">
+<GROUP ID="obitos-1714-his3551-gro1231" NAME="testamento" CLASS="group_element" ORDER="165" LEVEL="3" LINE="208">
     <ELEMENT NAME="line" CLASS="line"><core>208</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro5344</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro1231</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3551</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2583,9 +2583,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3551-gro5345" NAME="sacr" CLASS="group_element" ORDER="166" LEVEL="3" LINE="210">
+<GROUP ID="obitos-1714-his3551-gro1232" NAME="sacr" CLASS="group_element" ORDER="166" LEVEL="3" LINE="210">
     <ELEMENT NAME="line" CLASS="line"><core>210</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro5345</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro1232</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3551</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2667,9 +2667,9 @@
          <core><![CDATA[17140402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3551-gro5346" NAME="locs" CLASS="group_element" ORDER="171" LEVEL="3" LINE="216">
+<GROUP ID="obitos-1714-his3551-gro1233" NAME="locs" CLASS="group_element" ORDER="171" LEVEL="3" LINE="216">
     <ELEMENT NAME="line" CLASS="line"><core>216</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro5346</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro1233</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3551</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2680,9 +2680,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3551-gro5347" NAME="oficios" CLASS="group_element" ORDER="172" LEVEL="3" LINE="218">
+<GROUP ID="obitos-1714-his3551-gro1234" NAME="oficios" CLASS="group_element" ORDER="172" LEVEL="3" LINE="218">
     <ELEMENT NAME="line" CLASS="line"><core>218</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro5347</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3551-gro1234</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3551</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2712,9 +2712,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3552-gro5348" NAME="testamento" CLASS="group_element" ORDER="174" LEVEL="3" LINE="222">
+<GROUP ID="obitos-1714-his3552-gro1235" NAME="testamento" CLASS="group_element" ORDER="174" LEVEL="3" LINE="222">
     <ELEMENT NAME="line" CLASS="line"><core>222</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro5348</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro1235</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3552</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2724,9 +2724,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3552-gro5349" NAME="sacr" CLASS="group_element" ORDER="175" LEVEL="3" LINE="224">
+<GROUP ID="obitos-1714-his3552-gro1236" NAME="sacr" CLASS="group_element" ORDER="175" LEVEL="3" LINE="224">
     <ELEMENT NAME="line" CLASS="line"><core>224</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro5349</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro1236</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3552</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2788,9 +2788,9 @@
          <core><![CDATA[17140403]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3552-gro5350" NAME="locs" CLASS="group_element" ORDER="179" LEVEL="3" LINE="229">
+<GROUP ID="obitos-1714-his3552-gro1237" NAME="locs" CLASS="group_element" ORDER="179" LEVEL="3" LINE="229">
     <ELEMENT NAME="line" CLASS="line"><core>229</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro5350</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro1237</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3552</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2801,9 +2801,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3552-gro5351" NAME="oficios" CLASS="group_element" ORDER="180" LEVEL="3" LINE="231">
+<GROUP ID="obitos-1714-his3552-gro1238" NAME="oficios" CLASS="group_element" ORDER="180" LEVEL="3" LINE="231">
     <ELEMENT NAME="line" CLASS="line"><core>231</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro5351</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3552-gro1238</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3552</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2833,9 +2833,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3553-gro5352" NAME="testamento" CLASS="group_element" ORDER="182" LEVEL="3" LINE="235">
+<GROUP ID="obitos-1714-his3553-gro1239" NAME="testamento" CLASS="group_element" ORDER="182" LEVEL="3" LINE="235">
     <ELEMENT NAME="line" CLASS="line"><core>235</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro5352</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro1239</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3553</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2845,9 +2845,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3553-gro5353" NAME="sacr" CLASS="group_element" ORDER="183" LEVEL="3" LINE="237">
+<GROUP ID="obitos-1714-his3553-gro1240" NAME="sacr" CLASS="group_element" ORDER="183" LEVEL="3" LINE="237">
     <ELEMENT NAME="line" CLASS="line"><core>237</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro5353</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro1240</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3553</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2937,9 +2937,9 @@
          <core><![CDATA[17140414]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3553-gro5354" NAME="locs" CLASS="group_element" ORDER="189" LEVEL="3" LINE="244">
+<GROUP ID="obitos-1714-his3553-gro1241" NAME="locs" CLASS="group_element" ORDER="189" LEVEL="3" LINE="244">
     <ELEMENT NAME="line" CLASS="line"><core>244</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro5354</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro1241</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3553</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2949,9 +2949,9 @@
          <core><![CDATA[ermida de s.francisco]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3553-gro5355" NAME="oficios" CLASS="group_element" ORDER="190" LEVEL="3" LINE="246">
+<GROUP ID="obitos-1714-his3553-gro1242" NAME="oficios" CLASS="group_element" ORDER="190" LEVEL="3" LINE="246">
     <ELEMENT NAME="line" CLASS="line"><core>246</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro5355</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-gro1242</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3553</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3006,7 +3006,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-rela52</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140414</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3553-atra9949" NAME="ls"  ORDER="194" LEVEL="3" CLASS="attribute" LINE="248">
+<GROUP ID="obitos-1714-his3553-atra5" NAME="ls"  ORDER="194" LEVEL="3" CLASS="attribute" LINE="248">
     <ELEMENT NAME="line" CLASS="line"><core>248</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3553</core></ELEMENT>
@@ -3016,10 +3016,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3553-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-atra9949</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-atra5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140414</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3553-atra9950" NAME="ls"  ORDER="195" LEVEL="3" CLASS="attribute" LINE="248">
+<GROUP ID="obitos-1714-his3553-atra6" NAME="ls"  ORDER="195" LEVEL="3" CLASS="attribute" LINE="248">
     <ELEMENT NAME="line" CLASS="line"><core>248</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3553</core></ELEMENT>
@@ -3029,7 +3029,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3553-per1-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-atra9950</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3553-atra6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140414</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3554" NAME="o" CLASS="act" ORDER="196" LEVEL="2" LINE="248">
@@ -3052,9 +3052,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3554-gro5356" NAME="testamento" CLASS="group_element" ORDER="197" LEVEL="3" LINE="250">
+<GROUP ID="obitos-1714-his3554-gro1243" NAME="testamento" CLASS="group_element" ORDER="197" LEVEL="3" LINE="250">
     <ELEMENT NAME="line" CLASS="line"><core>250</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro5356</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro1243</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3554</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3064,9 +3064,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3554-gro5357" NAME="sacr" CLASS="group_element" ORDER="198" LEVEL="3" LINE="252">
+<GROUP ID="obitos-1714-his3554-gro1244" NAME="sacr" CLASS="group_element" ORDER="198" LEVEL="3" LINE="252">
     <ELEMENT NAME="line" CLASS="line"><core>252</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro5357</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro1244</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3554</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3147,9 +3147,9 @@
          <core><![CDATA[17140421]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3554-gro5358" NAME="locs" CLASS="group_element" ORDER="203" LEVEL="3" LINE="258">
+<GROUP ID="obitos-1714-his3554-gro1245" NAME="locs" CLASS="group_element" ORDER="203" LEVEL="3" LINE="258">
     <ELEMENT NAME="line" CLASS="line"><core>258</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro5358</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro1245</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3554</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3160,9 +3160,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3554-gro5359" NAME="oficios" CLASS="group_element" ORDER="204" LEVEL="3" LINE="260">
+<GROUP ID="obitos-1714-his3554-gro1246" NAME="oficios" CLASS="group_element" ORDER="204" LEVEL="3" LINE="260">
     <ELEMENT NAME="line" CLASS="line"><core>260</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro5359</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3554-gro1246</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3554</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3192,9 +3192,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3555-gro5360" NAME="testamento" CLASS="group_element" ORDER="206" LEVEL="3" LINE="264">
+<GROUP ID="obitos-1714-his3555-gro1247" NAME="testamento" CLASS="group_element" ORDER="206" LEVEL="3" LINE="264">
     <ELEMENT NAME="line" CLASS="line"><core>264</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3555-gro5360</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3555-gro1247</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3555</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3204,9 +3204,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3555-gro5361" NAME="sacr" CLASS="group_element" ORDER="207" LEVEL="3" LINE="266">
+<GROUP ID="obitos-1714-his3555-gro1248" NAME="sacr" CLASS="group_element" ORDER="207" LEVEL="3" LINE="266">
     <ELEMENT NAME="line" CLASS="line"><core>266</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3555-gro5361</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3555-gro1248</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3555</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3267,9 +3267,9 @@
          <core><![CDATA[17140424]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3555-gro5362" NAME="locs" CLASS="group_element" ORDER="211" LEVEL="3" LINE="271">
+<GROUP ID="obitos-1714-his3555-gro1249" NAME="locs" CLASS="group_element" ORDER="211" LEVEL="3" LINE="271">
     <ELEMENT NAME="line" CLASS="line"><core>271</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3555-gro5362</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3555-gro1249</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3555</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3512,9 +3512,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>on26041714-rela58</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140426</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3556-gro5363" NAME="locs" CLASS="group_element" ORDER="225" LEVEL="3" LINE="287">
+<GROUP ID="obitos-1714-his3556-gro1250" NAME="locs" CLASS="group_element" ORDER="225" LEVEL="3" LINE="287">
     <ELEMENT NAME="line" CLASS="line"><core>287</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3556-gro5363</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3556-gro1250</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3556</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3646,9 +3646,9 @@
          <core><![CDATA[17140429]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3557-gro5364" NAME="testamento" CLASS="group_element" ORDER="233" LEVEL="3" LINE="295">
+<GROUP ID="obitos-1714-his3557-gro1251" NAME="testamento" CLASS="group_element" ORDER="233" LEVEL="3" LINE="295">
     <ELEMENT NAME="line" CLASS="line"><core>295</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3557-gro5364</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3557-gro1251</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3557</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3658,9 +3658,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3557-gro5365" NAME="sacr" CLASS="group_element" ORDER="234" LEVEL="3" LINE="297">
+<GROUP ID="obitos-1714-his3557-gro1252" NAME="sacr" CLASS="group_element" ORDER="234" LEVEL="3" LINE="297">
     <ELEMENT NAME="line" CLASS="line"><core>297</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3557-gro5365</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3557-gro1252</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3557</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3671,9 +3671,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3557-gro5366" NAME="locs" CLASS="group_element" ORDER="235" LEVEL="3" LINE="299">
+<GROUP ID="obitos-1714-his3557-gro1253" NAME="locs" CLASS="group_element" ORDER="235" LEVEL="3" LINE="299">
     <ELEMENT NAME="line" CLASS="line"><core>299</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3557-gro5366</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3557-gro1253</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3557</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3803,9 +3803,9 @@
          <core><![CDATA[17140514]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3558-gro5367" NAME="locs" CLASS="group_element" ORDER="243" LEVEL="3" LINE="309">
+<GROUP ID="obitos-1714-his3558-gro1254" NAME="locs" CLASS="group_element" ORDER="243" LEVEL="3" LINE="309">
     <ELEMENT NAME="line" CLASS="line"><core>309</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3558-gro5367</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3558-gro1254</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3558</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3865,9 +3865,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3559-gro5368" NAME="testamento" CLASS="group_element" ORDER="247" LEVEL="3" LINE="313">
+<GROUP ID="obitos-1714-his3559-gro1255" NAME="testamento" CLASS="group_element" ORDER="247" LEVEL="3" LINE="313">
     <ELEMENT NAME="line" CLASS="line"><core>313</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3559-gro5368</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3559-gro1255</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3559</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3877,9 +3877,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3559-gro5369" NAME="sacr" CLASS="group_element" ORDER="248" LEVEL="3" LINE="315">
+<GROUP ID="obitos-1714-his3559-gro1256" NAME="sacr" CLASS="group_element" ORDER="248" LEVEL="3" LINE="315">
     <ELEMENT NAME="line" CLASS="line"><core>315</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3559-gro5369</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3559-gro1256</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3559</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3940,9 +3940,9 @@
          <core><![CDATA[17140515]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3559-gro5370" NAME="locs" CLASS="group_element" ORDER="252" LEVEL="3" LINE="320">
+<GROUP ID="obitos-1714-his3559-gro1257" NAME="locs" CLASS="group_element" ORDER="252" LEVEL="3" LINE="320">
     <ELEMENT NAME="line" CLASS="line"><core>320</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3559-gro5370</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3559-gro1257</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3559</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3972,9 +3972,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3560-gro5371" NAME="testamento" CLASS="group_element" ORDER="254" LEVEL="3" LINE="324">
+<GROUP ID="obitos-1714-his3560-gro1258" NAME="testamento" CLASS="group_element" ORDER="254" LEVEL="3" LINE="324">
     <ELEMENT NAME="line" CLASS="line"><core>324</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3560-gro5371</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3560-gro1258</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3560</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3984,9 +3984,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3560-gro5372" NAME="sacr" CLASS="group_element" ORDER="255" LEVEL="3" LINE="326">
+<GROUP ID="obitos-1714-his3560-gro1259" NAME="sacr" CLASS="group_element" ORDER="255" LEVEL="3" LINE="326">
     <ELEMENT NAME="line" CLASS="line"><core>326</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3560-gro5372</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3560-gro1259</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3560</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4088,9 +4088,9 @@
          <core><![CDATA[17140516]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3560-gro5373" NAME="locs" CLASS="group_element" ORDER="261" LEVEL="3" LINE="333">
+<GROUP ID="obitos-1714-his3560-gro1260" NAME="locs" CLASS="group_element" ORDER="261" LEVEL="3" LINE="333">
     <ELEMENT NAME="line" CLASS="line"><core>333</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3560-gro5373</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3560-gro1260</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3560</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4120,9 +4120,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3561-gro5374" NAME="sacr" CLASS="group_element" ORDER="263" LEVEL="3" LINE="337">
+<GROUP ID="obitos-1714-his3561-gro1261" NAME="sacr" CLASS="group_element" ORDER="263" LEVEL="3" LINE="337">
     <ELEMENT NAME="line" CLASS="line"><core>337</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3561-gro5374</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3561-gro1261</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3561</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4233,9 +4233,9 @@
          <core><![CDATA[17140521]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3561-gro5375" NAME="locs" CLASS="group_element" ORDER="270" LEVEL="3" LINE="345">
+<GROUP ID="obitos-1714-his3561-gro1262" NAME="locs" CLASS="group_element" ORDER="270" LEVEL="3" LINE="345">
     <ELEMENT NAME="line" CLASS="line"><core>345</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3561-gro5375</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3561-gro1262</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3561</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4245,9 +4245,9 @@
          <core><![CDATA[ermida de s.miguel]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3561-gro5376" NAME="oficios" CLASS="group_element" ORDER="271" LEVEL="3" LINE="347">
+<GROUP ID="obitos-1714-his3561-gro1263" NAME="oficios" CLASS="group_element" ORDER="271" LEVEL="3" LINE="347">
     <ELEMENT NAME="line" CLASS="line"><core>347</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3561-gro5376</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3561-gro1263</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3561</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4307,9 +4307,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3562-gro5377" NAME="testamento" CLASS="group_element" ORDER="275" LEVEL="3" LINE="351">
+<GROUP ID="obitos-1714-his3562-gro1264" NAME="testamento" CLASS="group_element" ORDER="275" LEVEL="3" LINE="351">
     <ELEMENT NAME="line" CLASS="line"><core>351</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro5377</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro1264</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3562</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4319,9 +4319,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3562-gro5378" NAME="sacr" CLASS="group_element" ORDER="276" LEVEL="3" LINE="353">
+<GROUP ID="obitos-1714-his3562-gro1265" NAME="sacr" CLASS="group_element" ORDER="276" LEVEL="3" LINE="353">
     <ELEMENT NAME="line" CLASS="line"><core>353</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro5378</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro1265</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3562</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4384,9 +4384,9 @@
          <core><![CDATA[17140609]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3562-gro5379" NAME="locs" CLASS="group_element" ORDER="281" LEVEL="3" LINE="358">
+<GROUP ID="obitos-1714-his3562-gro1266" NAME="locs" CLASS="group_element" ORDER="281" LEVEL="3" LINE="358">
     <ELEMENT NAME="line" CLASS="line"><core>358</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro5379</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro1266</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3562</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4396,9 +4396,9 @@
          <core><![CDATA[ermida de s.francisco]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3562-gro5380" NAME="oficios" CLASS="group_element" ORDER="282" LEVEL="3" LINE="360">
+<GROUP ID="obitos-1714-his3562-gro1267" NAME="oficios" CLASS="group_element" ORDER="282" LEVEL="3" LINE="360">
     <ELEMENT NAME="line" CLASS="line"><core>360</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro5380</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3562-gro1267</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3562</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4428,9 +4428,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3563-gro5381" NAME="testamento" CLASS="group_element" ORDER="284" LEVEL="3" LINE="364">
+<GROUP ID="obitos-1714-his3563-gro1268" NAME="testamento" CLASS="group_element" ORDER="284" LEVEL="3" LINE="364">
     <ELEMENT NAME="line" CLASS="line"><core>364</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro5381</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro1268</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3563</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4440,9 +4440,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3563-gro5382" NAME="sacr" CLASS="group_element" ORDER="285" LEVEL="3" LINE="366">
+<GROUP ID="obitos-1714-his3563-gro1269" NAME="sacr" CLASS="group_element" ORDER="285" LEVEL="3" LINE="366">
     <ELEMENT NAME="line" CLASS="line"><core>366</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro5382</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro1269</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3563</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4523,9 +4523,9 @@
          <core><![CDATA[17140613]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3563-gro5383" NAME="locs" CLASS="group_element" ORDER="290" LEVEL="3" LINE="372">
+<GROUP ID="obitos-1714-his3563-gro1270" NAME="locs" CLASS="group_element" ORDER="290" LEVEL="3" LINE="372">
     <ELEMENT NAME="line" CLASS="line"><core>372</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro5383</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro1270</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3563</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4535,9 +4535,9 @@
          <core><![CDATA[ermida de santo andre do lugar do casal novo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3563-gro5384" NAME="oficios" CLASS="group_element" ORDER="291" LEVEL="3" LINE="374">
+<GROUP ID="obitos-1714-his3563-gro1271" NAME="oficios" CLASS="group_element" ORDER="291" LEVEL="3" LINE="374">
     <ELEMENT NAME="line" CLASS="line"><core>374</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro5384</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3563-gro1271</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3563</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4567,9 +4567,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3564-gro5385" NAME="testamento" CLASS="group_element" ORDER="293" LEVEL="3" LINE="378">
+<GROUP ID="obitos-1714-his3564-gro1272" NAME="testamento" CLASS="group_element" ORDER="293" LEVEL="3" LINE="378">
     <ELEMENT NAME="line" CLASS="line"><core>378</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro5385</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro1272</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3564</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4579,9 +4579,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3564-gro5386" NAME="sacr" CLASS="group_element" ORDER="294" LEVEL="3" LINE="380">
+<GROUP ID="obitos-1714-his3564-gro1273" NAME="sacr" CLASS="group_element" ORDER="294" LEVEL="3" LINE="380">
     <ELEMENT NAME="line" CLASS="line"><core>380</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro5386</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro1273</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3564</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4737,9 +4737,9 @@
          <core><![CDATA[17140628]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3564-gro5387" NAME="locs" CLASS="group_element" ORDER="303" LEVEL="3" LINE="390">
+<GROUP ID="obitos-1714-his3564-gro1274" NAME="locs" CLASS="group_element" ORDER="303" LEVEL="3" LINE="390">
     <ELEMENT NAME="line" CLASS="line"><core>390</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro5387</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro1274</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3564</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4749,9 +4749,9 @@
          <core><![CDATA[ermida de nossa senhora das neves]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3564-gro5388" NAME="oficios" CLASS="group_element" ORDER="304" LEVEL="3" LINE="392">
+<GROUP ID="obitos-1714-his3564-gro1275" NAME="oficios" CLASS="group_element" ORDER="304" LEVEL="3" LINE="392">
     <ELEMENT NAME="line" CLASS="line"><core>392</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro5388</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3564-gro1275</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3564</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4954,9 +4954,9 @@
          <core><![CDATA[17140629]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3565-gro5389" NAME="locs" CLASS="group_element" ORDER="316" LEVEL="3" LINE="406">
+<GROUP ID="obitos-1714-his3565-gro1276" NAME="locs" CLASS="group_element" ORDER="316" LEVEL="3" LINE="406">
     <ELEMENT NAME="line" CLASS="line"><core>406</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3565-gro5389</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3565-gro1276</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3565</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5016,9 +5016,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3566-gro5390" NAME="testamento" CLASS="group_element" ORDER="320" LEVEL="3" LINE="410">
+<GROUP ID="obitos-1714-his3566-gro1277" NAME="testamento" CLASS="group_element" ORDER="320" LEVEL="3" LINE="410">
     <ELEMENT NAME="line" CLASS="line"><core>410</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3566-gro5390</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3566-gro1277</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3566</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5028,9 +5028,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3566-gro5391" NAME="sacr" CLASS="group_element" ORDER="321" LEVEL="3" LINE="412">
+<GROUP ID="obitos-1714-his3566-gro1278" NAME="sacr" CLASS="group_element" ORDER="321" LEVEL="3" LINE="412">
     <ELEMENT NAME="line" CLASS="line"><core>412</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3566-gro5391</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3566-gro1278</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3566</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5091,9 +5091,9 @@
          <core><![CDATA[17140701]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3566-gro5392" NAME="locs" CLASS="group_element" ORDER="325" LEVEL="3" LINE="417">
+<GROUP ID="obitos-1714-his3566-gro1279" NAME="locs" CLASS="group_element" ORDER="325" LEVEL="3" LINE="417">
     <ELEMENT NAME="line" CLASS="line"><core>417</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3566-gro5392</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3566-gro1279</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3566</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5243,9 +5243,9 @@
          <core><![CDATA[17140701]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3567-gro5393" NAME="sacr" CLASS="group_element" ORDER="334" LEVEL="3" LINE="428">
+<GROUP ID="obitos-1714-his3567-gro1280" NAME="sacr" CLASS="group_element" ORDER="334" LEVEL="3" LINE="428">
     <ELEMENT NAME="line" CLASS="line"><core>428</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3567-gro5393</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3567-gro1280</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3567</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5255,9 +5255,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3567-gro5394" NAME="locs" CLASS="group_element" ORDER="335" LEVEL="3" LINE="430">
+<GROUP ID="obitos-1714-his3567-gro1281" NAME="locs" CLASS="group_element" ORDER="335" LEVEL="3" LINE="430">
     <ELEMENT NAME="line" CLASS="line"><core>430</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3567-gro5394</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3567-gro1281</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3567</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5267,9 +5267,9 @@
          <core><![CDATA[ermida de s.sebastiao do mogadouro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3567-gro5395" NAME="oficios" CLASS="group_element" ORDER="336" LEVEL="3" LINE="432">
+<GROUP ID="obitos-1714-his3567-gro1282" NAME="oficios" CLASS="group_element" ORDER="336" LEVEL="3" LINE="432">
     <ELEMENT NAME="line" CLASS="line"><core>432</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3567-gro5395</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3567-gro1282</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3567</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5429,9 +5429,9 @@
          <core><![CDATA[17140710]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3568-gro5396" NAME="locs" CLASS="group_element" ORDER="346" LEVEL="3" LINE="442">
+<GROUP ID="obitos-1714-his3568-gro1283" NAME="locs" CLASS="group_element" ORDER="346" LEVEL="3" LINE="442">
     <ELEMENT NAME="line" CLASS="line"><core>442</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3568-gro5396</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3568-gro1283</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3568</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5491,9 +5491,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3569-gro5397" NAME="testamento" CLASS="group_element" ORDER="350" LEVEL="3" LINE="446">
+<GROUP ID="obitos-1714-his3569-gro1284" NAME="testamento" CLASS="group_element" ORDER="350" LEVEL="3" LINE="446">
     <ELEMENT NAME="line" CLASS="line"><core>446</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro5397</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro1284</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3569</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5503,9 +5503,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3569-gro5398" NAME="sacr" CLASS="group_element" ORDER="351" LEVEL="3" LINE="448">
+<GROUP ID="obitos-1714-his3569-gro1285" NAME="sacr" CLASS="group_element" ORDER="351" LEVEL="3" LINE="448">
     <ELEMENT NAME="line" CLASS="line"><core>448</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro5398</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro1285</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3569</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5566,9 +5566,9 @@
          <core><![CDATA[17140713]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3569-gro5399" NAME="locs" CLASS="group_element" ORDER="355" LEVEL="3" LINE="453">
+<GROUP ID="obitos-1714-his3569-gro1286" NAME="locs" CLASS="group_element" ORDER="355" LEVEL="3" LINE="453">
     <ELEMENT NAME="line" CLASS="line"><core>453</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro5399</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro1286</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3569</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5578,9 +5578,9 @@
          <core><![CDATA[ermida de s.francisco]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3569-gro5400" NAME="oficios" CLASS="group_element" ORDER="356" LEVEL="3" LINE="455">
+<GROUP ID="obitos-1714-his3569-gro1287" NAME="oficios" CLASS="group_element" ORDER="356" LEVEL="3" LINE="455">
     <ELEMENT NAME="line" CLASS="line"><core>455</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro5400</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3569-gro1287</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3569</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5610,9 +5610,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3570-gro5401" NAME="testamento" CLASS="group_element" ORDER="358" LEVEL="3" LINE="459">
+<GROUP ID="obitos-1714-his3570-gro1288" NAME="testamento" CLASS="group_element" ORDER="358" LEVEL="3" LINE="459">
     <ELEMENT NAME="line" CLASS="line"><core>459</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3570-gro5401</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3570-gro1288</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3570</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5622,9 +5622,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3570-gro5402" NAME="sacr" CLASS="group_element" ORDER="359" LEVEL="3" LINE="461">
+<GROUP ID="obitos-1714-his3570-gro1289" NAME="sacr" CLASS="group_element" ORDER="359" LEVEL="3" LINE="461">
     <ELEMENT NAME="line" CLASS="line"><core>461</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3570-gro5402</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3570-gro1289</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3570</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5726,9 +5726,9 @@
          <core><![CDATA[17140715]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3570-gro5403" NAME="locs" CLASS="group_element" ORDER="365" LEVEL="3" LINE="468">
+<GROUP ID="obitos-1714-his3570-gro1290" NAME="locs" CLASS="group_element" ORDER="365" LEVEL="3" LINE="468">
     <ELEMENT NAME="line" CLASS="line"><core>468</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3570-gro5403</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3570-gro1290</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3570</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5758,9 +5758,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3571-gro5404" NAME="causa" CLASS="group_element" ORDER="367" LEVEL="3" LINE="472">
+<GROUP ID="obitos-1714-his3571-gro1291" NAME="causa" CLASS="group_element" ORDER="367" LEVEL="3" LINE="472">
     <ELEMENT NAME="line" CLASS="line"><core>472</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro5404</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro1291</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>causa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3571</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5770,9 +5770,9 @@
          <core><![CDATA[repentinamente de um acidente]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3571-gro5405" NAME="sacr" CLASS="group_element" ORDER="368" LEVEL="3" LINE="474">
+<GROUP ID="obitos-1714-his3571-gro1292" NAME="sacr" CLASS="group_element" ORDER="368" LEVEL="3" LINE="474">
     <ELEMENT NAME="line" CLASS="line"><core>474</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro5405</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro1292</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3571</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5862,9 +5862,9 @@
          <core><![CDATA[17140718]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3571-gro5406" NAME="locs" CLASS="group_element" ORDER="374" LEVEL="3" LINE="481">
+<GROUP ID="obitos-1714-his3571-gro1293" NAME="locs" CLASS="group_element" ORDER="374" LEVEL="3" LINE="481">
     <ELEMENT NAME="line" CLASS="line"><core>481</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro5406</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro1293</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3571</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5874,9 +5874,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3571-gro5407" NAME="oficios" CLASS="group_element" ORDER="375" LEVEL="3" LINE="483">
+<GROUP ID="obitos-1714-his3571-gro1294" NAME="oficios" CLASS="group_element" ORDER="375" LEVEL="3" LINE="483">
     <ELEMENT NAME="line" CLASS="line"><core>483</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro5407</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-gro1294</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3571</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -5931,7 +5931,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-rela97</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140718</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3571-atra9951" NAME="ls"  ORDER="379" LEVEL="3" CLASS="attribute" LINE="485">
+<GROUP ID="obitos-1714-his3571-atra7" NAME="ls"  ORDER="379" LEVEL="3" CLASS="attribute" LINE="485">
     <ELEMENT NAME="line" CLASS="line"><core>485</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3571</core></ELEMENT>
@@ -5941,10 +5941,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3571-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-atra9951</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-atra7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140718</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3571-atra9952" NAME="ls"  ORDER="380" LEVEL="3" CLASS="attribute" LINE="485">
+<GROUP ID="obitos-1714-his3571-atra8" NAME="ls"  ORDER="380" LEVEL="3" CLASS="attribute" LINE="485">
     <ELEMENT NAME="line" CLASS="line"><core>485</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3571</core></ELEMENT>
@@ -5954,7 +5954,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3571-per1-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-atra9952</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3571-atra8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140718</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3572" NAME="o" CLASS="act" ORDER="381" LEVEL="2" LINE="485">
@@ -6077,9 +6077,9 @@
          <core><![CDATA[17140720]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3572-gro5408" NAME="locs" CLASS="group_element" ORDER="388" LEVEL="3" LINE="493">
+<GROUP ID="obitos-1714-his3572-gro1295" NAME="locs" CLASS="group_element" ORDER="388" LEVEL="3" LINE="493">
     <ELEMENT NAME="line" CLASS="line"><core>493</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3572-gro5408</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3572-gro1295</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3572</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6139,9 +6139,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3573-gro5409" NAME="causa" CLASS="group_element" ORDER="392" LEVEL="3" LINE="497">
+<GROUP ID="obitos-1714-his3573-gro1296" NAME="causa" CLASS="group_element" ORDER="392" LEVEL="3" LINE="497">
     <ELEMENT NAME="line" CLASS="line"><core>497</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3573-gro5409</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3573-gro1296</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>causa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3573</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6203,9 +6203,9 @@
          <core><![CDATA[17140727]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3573-gro5410" NAME="locs" CLASS="group_element" ORDER="396" LEVEL="3" LINE="502">
+<GROUP ID="obitos-1714-his3573-gro1297" NAME="locs" CLASS="group_element" ORDER="396" LEVEL="3" LINE="502">
     <ELEMENT NAME="line" CLASS="line"><core>502</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3573-gro5410</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3573-gro1297</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3573</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6215,9 +6215,9 @@
          <core><![CDATA[ermida de s.joao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3573-gro5411" NAME="oficios" CLASS="group_element" ORDER="397" LEVEL="3" LINE="504">
+<GROUP ID="obitos-1714-his3573-gro1298" NAME="oficios" CLASS="group_element" ORDER="397" LEVEL="3" LINE="504">
     <ELEMENT NAME="line" CLASS="line"><core>504</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3573-gro5411</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3573-gro1298</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3573</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6247,9 +6247,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3574-gro5412" NAME="testamento" CLASS="group_element" ORDER="399" LEVEL="3" LINE="508">
+<GROUP ID="obitos-1714-his3574-gro1299" NAME="testamento" CLASS="group_element" ORDER="399" LEVEL="3" LINE="508">
     <ELEMENT NAME="line" CLASS="line"><core>508</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro5412</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro1299</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3574</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6259,9 +6259,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3574-gro5413" NAME="sacr" CLASS="group_element" ORDER="400" LEVEL="3" LINE="510">
+<GROUP ID="obitos-1714-his3574-gro1300" NAME="sacr" CLASS="group_element" ORDER="400" LEVEL="3" LINE="510">
     <ELEMENT NAME="line" CLASS="line"><core>510</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro5413</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro1300</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3574</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6418,9 +6418,9 @@
          <core><![CDATA[17140801]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3574-gro5414" NAME="locs" CLASS="group_element" ORDER="409" LEVEL="3" LINE="520">
+<GROUP ID="obitos-1714-his3574-gro1301" NAME="locs" CLASS="group_element" ORDER="409" LEVEL="3" LINE="520">
     <ELEMENT NAME="line" CLASS="line"><core>520</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro5414</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro1301</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3574</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6431,9 +6431,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3574-gro5415" NAME="oficios" CLASS="group_element" ORDER="410" LEVEL="3" LINE="522">
+<GROUP ID="obitos-1714-his3574-gro1302" NAME="oficios" CLASS="group_element" ORDER="410" LEVEL="3" LINE="522">
     <ELEMENT NAME="line" CLASS="line"><core>522</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro5415</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3574-gro1302</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3574</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6463,9 +6463,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3575-gro5416" NAME="testamento" CLASS="group_element" ORDER="412" LEVEL="3" LINE="526">
+<GROUP ID="obitos-1714-his3575-gro1303" NAME="testamento" CLASS="group_element" ORDER="412" LEVEL="3" LINE="526">
     <ELEMENT NAME="line" CLASS="line"><core>526</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro5416</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro1303</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3575</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6475,9 +6475,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3575-gro5417" NAME="sacr" CLASS="group_element" ORDER="413" LEVEL="3" LINE="528">
+<GROUP ID="obitos-1714-his3575-gro1304" NAME="sacr" CLASS="group_element" ORDER="413" LEVEL="3" LINE="528">
     <ELEMENT NAME="line" CLASS="line"><core>528</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro5417</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro1304</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3575</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6538,9 +6538,9 @@
          <core><![CDATA[17140802]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3575-gro5418" NAME="locs" CLASS="group_element" ORDER="417" LEVEL="3" LINE="533">
+<GROUP ID="obitos-1714-his3575-gro1305" NAME="locs" CLASS="group_element" ORDER="417" LEVEL="3" LINE="533">
     <ELEMENT NAME="line" CLASS="line"><core>533</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro5418</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro1305</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3575</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6550,9 +6550,9 @@
          <core><![CDATA[ermida do divino espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3575-gro5419" NAME="oficios" CLASS="group_element" ORDER="418" LEVEL="3" LINE="535">
+<GROUP ID="obitos-1714-his3575-gro1306" NAME="oficios" CLASS="group_element" ORDER="418" LEVEL="3" LINE="535">
     <ELEMENT NAME="line" CLASS="line"><core>535</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro5419</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3575-gro1306</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3575</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6582,9 +6582,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3576-gro5420" NAME="testamento" CLASS="group_element" ORDER="420" LEVEL="3" LINE="539">
+<GROUP ID="obitos-1714-his3576-gro1307" NAME="testamento" CLASS="group_element" ORDER="420" LEVEL="3" LINE="539">
     <ELEMENT NAME="line" CLASS="line"><core>539</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro5420</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro1307</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3576</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6594,9 +6594,9 @@
          <core><![CDATA[ao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3576-gro5421" NAME="sacr" CLASS="group_element" ORDER="421" LEVEL="3" LINE="541">
+<GROUP ID="obitos-1714-his3576-gro1308" NAME="sacr" CLASS="group_element" ORDER="421" LEVEL="3" LINE="541">
     <ELEMENT NAME="line" CLASS="line"><core>541</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro5421</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro1308</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3576</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6677,9 +6677,9 @@
          <core><![CDATA[17140809]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3576-gro5422" NAME="locs" CLASS="group_element" ORDER="426" LEVEL="3" LINE="547">
+<GROUP ID="obitos-1714-his3576-gro1309" NAME="locs" CLASS="group_element" ORDER="426" LEVEL="3" LINE="547">
     <ELEMENT NAME="line" CLASS="line"><core>547</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro5422</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro1309</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3576</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6689,9 +6689,9 @@
          <core><![CDATA[ermida do divino espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3576-gro5423" NAME="oficios" CLASS="group_element" ORDER="427" LEVEL="3" LINE="549">
+<GROUP ID="obitos-1714-his3576-gro1310" NAME="oficios" CLASS="group_element" ORDER="427" LEVEL="3" LINE="549">
     <ELEMENT NAME="line" CLASS="line"><core>549</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro5423</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3576-gro1310</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3576</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6721,9 +6721,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3577-gro5424" NAME="testamento" CLASS="group_element" ORDER="429" LEVEL="3" LINE="553">
+<GROUP ID="obitos-1714-his3577-gro1311" NAME="testamento" CLASS="group_element" ORDER="429" LEVEL="3" LINE="553">
     <ELEMENT NAME="line" CLASS="line"><core>553</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3577-gro5424</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3577-gro1311</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3577</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6733,9 +6733,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3577-gro5425" NAME="sacr" CLASS="group_element" ORDER="430" LEVEL="3" LINE="555">
+<GROUP ID="obitos-1714-his3577-gro1312" NAME="sacr" CLASS="group_element" ORDER="430" LEVEL="3" LINE="555">
     <ELEMENT NAME="line" CLASS="line"><core>555</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3577-gro5425</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3577-gro1312</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3577</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6817,9 +6817,9 @@
          <core><![CDATA[17140820]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3577-gro5426" NAME="locf" CLASS="group_element" ORDER="435" LEVEL="3" LINE="561">
+<GROUP ID="obitos-1714-his3577-gro1313" NAME="locf" CLASS="group_element" ORDER="435" LEVEL="3" LINE="561">
     <ELEMENT NAME="line" CLASS="line"><core>561</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3577-gro5426</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3577-gro1313</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locf</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3577</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6849,9 +6849,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3578-gro5427" NAME="testamento" CLASS="group_element" ORDER="437" LEVEL="3" LINE="565">
+<GROUP ID="obitos-1714-his3578-gro1314" NAME="testamento" CLASS="group_element" ORDER="437" LEVEL="3" LINE="565">
     <ELEMENT NAME="line" CLASS="line"><core>565</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro5427</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro1314</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3578</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6861,9 +6861,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3578-gro5428" NAME="sacr" CLASS="group_element" ORDER="438" LEVEL="3" LINE="567">
+<GROUP ID="obitos-1714-his3578-gro1315" NAME="sacr" CLASS="group_element" ORDER="438" LEVEL="3" LINE="567">
     <ELEMENT NAME="line" CLASS="line"><core>567</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro5428</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro1315</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3578</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6924,9 +6924,9 @@
          <core><![CDATA[17140826]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3578-gro5429" NAME="locs" CLASS="group_element" ORDER="442" LEVEL="3" LINE="572">
+<GROUP ID="obitos-1714-his3578-gro1316" NAME="locs" CLASS="group_element" ORDER="442" LEVEL="3" LINE="572">
     <ELEMENT NAME="line" CLASS="line"><core>572</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro5429</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro1316</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3578</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6936,9 +6936,9 @@
          <core><![CDATA[ermida de s.miguel do sobral]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3578-gro5430" NAME="oficios" CLASS="group_element" ORDER="443" LEVEL="3" LINE="574">
+<GROUP ID="obitos-1714-his3578-gro1317" NAME="oficios" CLASS="group_element" ORDER="443" LEVEL="3" LINE="574">
     <ELEMENT NAME="line" CLASS="line"><core>574</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro5430</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3578-gro1317</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3578</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6968,9 +6968,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3579-gro5431" NAME="testamento" CLASS="group_element" ORDER="445" LEVEL="3" LINE="578">
+<GROUP ID="obitos-1714-his3579-gro1318" NAME="testamento" CLASS="group_element" ORDER="445" LEVEL="3" LINE="578">
     <ELEMENT NAME="line" CLASS="line"><core>578</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro5431</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro1318</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3579</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -6980,9 +6980,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3579-gro5432" NAME="sacr" CLASS="group_element" ORDER="446" LEVEL="3" LINE="580">
+<GROUP ID="obitos-1714-his3579-gro1319" NAME="sacr" CLASS="group_element" ORDER="446" LEVEL="3" LINE="580">
     <ELEMENT NAME="line" CLASS="line"><core>580</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro5432</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro1319</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3579</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7084,9 +7084,9 @@
          <core><![CDATA[17140827]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3579-gro5433" NAME="locs" CLASS="group_element" ORDER="452" LEVEL="3" LINE="587">
+<GROUP ID="obitos-1714-his3579-gro1320" NAME="locs" CLASS="group_element" ORDER="452" LEVEL="3" LINE="587">
     <ELEMENT NAME="line" CLASS="line"><core>587</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro5433</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro1320</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3579</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7096,9 +7096,9 @@
          <core><![CDATA[ermida de santo ildefonso]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3579-gro5434" NAME="oficios" CLASS="group_element" ORDER="453" LEVEL="3" LINE="589">
+<GROUP ID="obitos-1714-his3579-gro1321" NAME="oficios" CLASS="group_element" ORDER="453" LEVEL="3" LINE="589">
     <ELEMENT NAME="line" CLASS="line"><core>589</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro5434</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3579-gro1321</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3579</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7129,9 +7129,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3580-gro5435" NAME="testamento" CLASS="group_element" ORDER="455" LEVEL="3" LINE="593">
+<GROUP ID="obitos-1714-his3580-gro1322" NAME="testamento" CLASS="group_element" ORDER="455" LEVEL="3" LINE="593">
     <ELEMENT NAME="line" CLASS="line"><core>593</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro5435</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro1322</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3580</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7141,9 +7141,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3580-gro5436" NAME="sacr" CLASS="group_element" ORDER="456" LEVEL="3" LINE="595">
+<GROUP ID="obitos-1714-his3580-gro1323" NAME="sacr" CLASS="group_element" ORDER="456" LEVEL="3" LINE="595">
     <ELEMENT NAME="line" CLASS="line"><core>595</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro5436</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro1323</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3580</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7273,9 +7273,9 @@
          <core><![CDATA[17140828]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3580-gro5437" NAME="locs" CLASS="group_element" ORDER="464" LEVEL="3" LINE="604">
+<GROUP ID="obitos-1714-his3580-gro1324" NAME="locs" CLASS="group_element" ORDER="464" LEVEL="3" LINE="604">
     <ELEMENT NAME="line" CLASS="line"><core>604</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro5437</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro1324</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3580</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7285,9 +7285,9 @@
          <core><![CDATA[ermida de s.miguel]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3580-gro5438" NAME="oficios" CLASS="group_element" ORDER="465" LEVEL="3" LINE="606">
+<GROUP ID="obitos-1714-his3580-gro1325" NAME="oficios" CLASS="group_element" ORDER="465" LEVEL="3" LINE="606">
     <ELEMENT NAME="line" CLASS="line"><core>606</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro5438</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3580-gro1325</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3580</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7347,9 +7347,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3581-gro5439" NAME="sacr" CLASS="group_element" ORDER="469" LEVEL="3" LINE="610">
+<GROUP ID="obitos-1714-his3581-gro1326" NAME="sacr" CLASS="group_element" ORDER="469" LEVEL="3" LINE="610">
     <ELEMENT NAME="line" CLASS="line"><core>610</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3581-gro5439</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3581-gro1326</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3581</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7460,9 +7460,9 @@
          <core><![CDATA[17140828]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3581-gro5440" NAME="locs" CLASS="group_element" ORDER="476" LEVEL="3" LINE="618">
+<GROUP ID="obitos-1714-his3581-gro1327" NAME="locs" CLASS="group_element" ORDER="476" LEVEL="3" LINE="618">
     <ELEMENT NAME="line" CLASS="line"><core>618</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3581-gro5440</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3581-gro1327</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3581</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7472,9 +7472,9 @@
          <core><![CDATA[ermida de s.joao baptista]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3581-gro5441" NAME="oficios" CLASS="group_element" ORDER="477" LEVEL="3" LINE="620">
+<GROUP ID="obitos-1714-his3581-gro1328" NAME="oficios" CLASS="group_element" ORDER="477" LEVEL="3" LINE="620">
     <ELEMENT NAME="line" CLASS="line"><core>620</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3581-gro5441</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3581-gro1328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3581</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7534,9 +7534,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3582-gro5442" NAME="testamento" CLASS="group_element" ORDER="481" LEVEL="3" LINE="624">
+<GROUP ID="obitos-1714-his3582-gro1329" NAME="testamento" CLASS="group_element" ORDER="481" LEVEL="3" LINE="624">
     <ELEMENT NAME="line" CLASS="line"><core>624</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro5442</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro1329</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3582</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7546,9 +7546,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3582-gro5443" NAME="sacr" CLASS="group_element" ORDER="482" LEVEL="3" LINE="626">
+<GROUP ID="obitos-1714-his3582-gro1330" NAME="sacr" CLASS="group_element" ORDER="482" LEVEL="3" LINE="626">
     <ELEMENT NAME="line" CLASS="line"><core>626</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro5443</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro1330</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3582</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7638,9 +7638,9 @@
          <core><![CDATA[17140831]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3582-gro5444" NAME="locs" CLASS="group_element" ORDER="488" LEVEL="3" LINE="633">
+<GROUP ID="obitos-1714-his3582-gro1331" NAME="locs" CLASS="group_element" ORDER="488" LEVEL="3" LINE="633">
     <ELEMENT NAME="line" CLASS="line"><core>633</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro5444</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro1331</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3582</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7650,9 +7650,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3582-gro5445" NAME="oficios" CLASS="group_element" ORDER="489" LEVEL="3" LINE="635">
+<GROUP ID="obitos-1714-his3582-gro1332" NAME="oficios" CLASS="group_element" ORDER="489" LEVEL="3" LINE="635">
     <ELEMENT NAME="line" CLASS="line"><core>635</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro5445</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-gro1332</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3582</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -7707,7 +7707,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-rela122</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140831</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3582-atra9953" NAME="ls"  ORDER="493" LEVEL="3" CLASS="attribute" LINE="637">
+<GROUP ID="obitos-1714-his3582-atra9" NAME="ls"  ORDER="493" LEVEL="3" CLASS="attribute" LINE="637">
     <ELEMENT NAME="line" CLASS="line"><core>637</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3582</core></ELEMENT>
@@ -7717,10 +7717,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3582-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-atra9953</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-atra9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140831</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3582-atra9954" NAME="ls"  ORDER="494" LEVEL="3" CLASS="attribute" LINE="637">
+<GROUP ID="obitos-1714-his3582-atra10" NAME="ls"  ORDER="494" LEVEL="3" CLASS="attribute" LINE="637">
     <ELEMENT NAME="line" CLASS="line"><core>637</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3582</core></ELEMENT>
@@ -7730,7 +7730,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3582-per1-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-atra9954</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3582-atra10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17140831</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3583" NAME="o" CLASS="act" ORDER="495" LEVEL="2" LINE="637">
@@ -7873,9 +7873,9 @@
          <core><![CDATA[17140917]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3583-gro5446" NAME="locs" CLASS="group_element" ORDER="503" LEVEL="3" LINE="646">
+<GROUP ID="obitos-1714-his3583-gro1333" NAME="locs" CLASS="group_element" ORDER="503" LEVEL="3" LINE="646">
     <ELEMENT NAME="line" CLASS="line"><core>646</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3583-gro5446</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3583-gro1333</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3583</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8036,9 +8036,9 @@
          <core><![CDATA[17140918]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3584-gro5447" NAME="locs" CLASS="group_element" ORDER="513" LEVEL="3" LINE="656">
+<GROUP ID="obitos-1714-his3584-gro1334" NAME="locs" CLASS="group_element" ORDER="513" LEVEL="3" LINE="656">
     <ELEMENT NAME="line" CLASS="line"><core>656</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3584-gro5447</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3584-gro1334</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3584</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8293,9 +8293,9 @@
          <core><![CDATA[17140921]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3585-gro5448" NAME="locs" CLASS="group_element" ORDER="528" LEVEL="3" LINE="671">
+<GROUP ID="obitos-1714-his3585-gro1335" NAME="locs" CLASS="group_element" ORDER="528" LEVEL="3" LINE="671">
     <ELEMENT NAME="line" CLASS="line"><core>671</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3585-gro5448</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3585-gro1335</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3585</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8355,9 +8355,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3586-gro5449" NAME="testamento" CLASS="group_element" ORDER="532" LEVEL="3" LINE="675">
+<GROUP ID="obitos-1714-his3586-gro1336" NAME="testamento" CLASS="group_element" ORDER="532" LEVEL="3" LINE="675">
     <ELEMENT NAME="line" CLASS="line"><core>675</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro5449</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro1336</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3586</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8367,9 +8367,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3586-gro5450" NAME="sacr" CLASS="group_element" ORDER="533" LEVEL="3" LINE="677">
+<GROUP ID="obitos-1714-his3586-gro1337" NAME="sacr" CLASS="group_element" ORDER="533" LEVEL="3" LINE="677">
     <ELEMENT NAME="line" CLASS="line"><core>677</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro5450</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro1337</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3586</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8451,9 +8451,9 @@
          <core><![CDATA[17140925]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3586-gro5451" NAME="locs" CLASS="group_element" ORDER="538" LEVEL="3" LINE="683">
+<GROUP ID="obitos-1714-his3586-gro1338" NAME="locs" CLASS="group_element" ORDER="538" LEVEL="3" LINE="683">
     <ELEMENT NAME="line" CLASS="line"><core>683</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro5451</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro1338</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3586</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8463,9 +8463,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3586-gro5452" NAME="oficios" CLASS="group_element" ORDER="539" LEVEL="3" LINE="685">
+<GROUP ID="obitos-1714-his3586-gro1339" NAME="oficios" CLASS="group_element" ORDER="539" LEVEL="3" LINE="685">
     <ELEMENT NAME="line" CLASS="line"><core>685</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro5452</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3586-gro1339</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3586</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8595,9 +8595,9 @@
          <core><![CDATA[17141011]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3587-gro5453" NAME="locs" CLASS="group_element" ORDER="547" LEVEL="3" LINE="695">
+<GROUP ID="obitos-1714-his3587-gro1340" NAME="locs" CLASS="group_element" ORDER="547" LEVEL="3" LINE="695">
     <ELEMENT NAME="line" CLASS="line"><core>695</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3587-gro5453</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3587-gro1340</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3587</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8657,9 +8657,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3588-gro5454" NAME="testamento" CLASS="group_element" ORDER="551" LEVEL="3" LINE="699">
+<GROUP ID="obitos-1714-his3588-gro1341" NAME="testamento" CLASS="group_element" ORDER="551" LEVEL="3" LINE="699">
     <ELEMENT NAME="line" CLASS="line"><core>699</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3588-gro5454</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3588-gro1341</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3588</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8670,9 +8670,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3588-gro5455" NAME="sacr" CLASS="group_element" ORDER="552" LEVEL="3" LINE="701">
+<GROUP ID="obitos-1714-his3588-gro1342" NAME="sacr" CLASS="group_element" ORDER="552" LEVEL="3" LINE="701">
     <ELEMENT NAME="line" CLASS="line"><core>701</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3588-gro5455</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3588-gro1342</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3588</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8775,9 +8775,9 @@
          <core><![CDATA[17141011]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3588-gro5456" NAME="locs" CLASS="group_element" ORDER="558" LEVEL="3" LINE="708">
+<GROUP ID="obitos-1714-his3588-gro1343" NAME="locs" CLASS="group_element" ORDER="558" LEVEL="3" LINE="708">
     <ELEMENT NAME="line" CLASS="line"><core>708</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3588-gro5456</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3588-gro1343</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3588</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8808,9 +8808,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3589-gro5457" NAME="testamento" CLASS="group_element" ORDER="560" LEVEL="3" LINE="712">
+<GROUP ID="obitos-1714-his3589-gro1344" NAME="testamento" CLASS="group_element" ORDER="560" LEVEL="3" LINE="712">
     <ELEMENT NAME="line" CLASS="line"><core>712</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro5457</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro1344</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3589</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8820,9 +8820,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3589-gro5458" NAME="sacr" CLASS="group_element" ORDER="561" LEVEL="3" LINE="714">
+<GROUP ID="obitos-1714-his3589-gro1345" NAME="sacr" CLASS="group_element" ORDER="561" LEVEL="3" LINE="714">
     <ELEMENT NAME="line" CLASS="line"><core>714</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro5458</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro1345</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3589</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8912,9 +8912,9 @@
          <core><![CDATA[17141019]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3589-gro5459" NAME="locs" CLASS="group_element" ORDER="567" LEVEL="3" LINE="721">
+<GROUP ID="obitos-1714-his3589-gro1346" NAME="locs" CLASS="group_element" ORDER="567" LEVEL="3" LINE="721">
     <ELEMENT NAME="line" CLASS="line"><core>721</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro5459</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro1346</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3589</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8924,9 +8924,9 @@
          <core><![CDATA[ermida do divino espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3589-gro5460" NAME="oficios" CLASS="group_element" ORDER="568" LEVEL="3" LINE="723">
+<GROUP ID="obitos-1714-his3589-gro1347" NAME="oficios" CLASS="group_element" ORDER="568" LEVEL="3" LINE="723">
     <ELEMENT NAME="line" CLASS="line"><core>723</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro5460</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-gro1347</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3589</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -8981,7 +8981,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-rela146</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141019</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3589-atra9955" NAME="ls"  ORDER="572" LEVEL="3" CLASS="attribute" LINE="725">
+<GROUP ID="obitos-1714-his3589-atra11" NAME="ls"  ORDER="572" LEVEL="3" CLASS="attribute" LINE="725">
     <ELEMENT NAME="line" CLASS="line"><core>725</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3589</core></ELEMENT>
@@ -8991,10 +8991,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3589-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-atra9955</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-atra11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141019</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3589-atra9956" NAME="ls"  ORDER="573" LEVEL="3" CLASS="attribute" LINE="725">
+<GROUP ID="obitos-1714-his3589-atra12" NAME="ls"  ORDER="573" LEVEL="3" CLASS="attribute" LINE="725">
     <ELEMENT NAME="line" CLASS="line"><core>725</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3589</core></ELEMENT>
@@ -9004,7 +9004,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3589-per1-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-atra9956</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3589-atra12</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141019</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3590" NAME="o" CLASS="act" ORDER="574" LEVEL="2" LINE="725">
@@ -9127,9 +9127,9 @@
          <core><![CDATA[17141103]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3590-gro5461" NAME="locs" CLASS="group_element" ORDER="581" LEVEL="3" LINE="733">
+<GROUP ID="obitos-1714-his3590-gro1348" NAME="locs" CLASS="group_element" ORDER="581" LEVEL="3" LINE="733">
     <ELEMENT NAME="line" CLASS="line"><core>733</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3590-gro5461</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3590-gro1348</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3590</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9189,9 +9189,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3591-gro5462" NAME="testamento" CLASS="group_element" ORDER="585" LEVEL="3" LINE="737">
+<GROUP ID="obitos-1714-his3591-gro1349" NAME="testamento" CLASS="group_element" ORDER="585" LEVEL="3" LINE="737">
     <ELEMENT NAME="line" CLASS="line"><core>737</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro5462</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro1349</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3591</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9201,9 +9201,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3591-gro5463" NAME="sacr" CLASS="group_element" ORDER="586" LEVEL="3" LINE="739">
+<GROUP ID="obitos-1714-his3591-gro1350" NAME="sacr" CLASS="group_element" ORDER="586" LEVEL="3" LINE="739">
     <ELEMENT NAME="line" CLASS="line"><core>739</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro5463</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro1350</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3591</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9285,9 +9285,9 @@
          <core><![CDATA[17141105]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3591-gro5464" NAME="locs" CLASS="group_element" ORDER="591" LEVEL="3" LINE="745">
+<GROUP ID="obitos-1714-his3591-gro1351" NAME="locs" CLASS="group_element" ORDER="591" LEVEL="3" LINE="745">
     <ELEMENT NAME="line" CLASS="line"><core>745</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro5464</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro1351</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3591</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9297,9 +9297,9 @@
          <core><![CDATA[ermida do divino espirito santo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3591-gro5465" NAME="oficios" CLASS="group_element" ORDER="592" LEVEL="3" LINE="747">
+<GROUP ID="obitos-1714-his3591-gro1352" NAME="oficios" CLASS="group_element" ORDER="592" LEVEL="3" LINE="747">
     <ELEMENT NAME="line" CLASS="line"><core>747</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro5465</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3591-gro1352</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3591</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9431,9 +9431,9 @@
          <core><![CDATA[17141106]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3592-gro5466" NAME="locs" CLASS="group_element" ORDER="600" LEVEL="3" LINE="757">
+<GROUP ID="obitos-1714-his3592-gro1353" NAME="locs" CLASS="group_element" ORDER="600" LEVEL="3" LINE="757">
     <ELEMENT NAME="line" CLASS="line"><core>757</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3592-gro5466</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3592-gro1353</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3592</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9493,9 +9493,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3593-gro5467" NAME="testamento" CLASS="group_element" ORDER="604" LEVEL="3" LINE="761">
+<GROUP ID="obitos-1714-his3593-gro1354" NAME="testamento" CLASS="group_element" ORDER="604" LEVEL="3" LINE="761">
     <ELEMENT NAME="line" CLASS="line"><core>761</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3593-gro5467</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3593-gro1354</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3593</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9505,9 +9505,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3593-gro5468" NAME="sacr" CLASS="group_element" ORDER="605" LEVEL="3" LINE="763">
+<GROUP ID="obitos-1714-his3593-gro1355" NAME="sacr" CLASS="group_element" ORDER="605" LEVEL="3" LINE="763">
     <ELEMENT NAME="line" CLASS="line"><core>763</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3593-gro5468</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3593-gro1355</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3593</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9589,9 +9589,9 @@
          <core><![CDATA[17141110]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3593-gro5469" NAME="locs" CLASS="group_element" ORDER="610" LEVEL="3" LINE="769">
+<GROUP ID="obitos-1714-his3593-gro1356" NAME="locs" CLASS="group_element" ORDER="610" LEVEL="3" LINE="769">
     <ELEMENT NAME="line" CLASS="line"><core>769</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3593-gro5469</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3593-gro1356</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3593</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9772,9 +9772,9 @@
          <core><![CDATA[17141110]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3594-gro5470" NAME="locs" CLASS="group_element" ORDER="621" LEVEL="3" LINE="782">
+<GROUP ID="obitos-1714-his3594-gro1357" NAME="locs" CLASS="group_element" ORDER="621" LEVEL="3" LINE="782">
     <ELEMENT NAME="line" CLASS="line"><core>782</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3594-gro5470</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3594-gro1357</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3594</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9887,9 +9887,9 @@
          <core><![CDATA[17141111]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3595-gro5471" NAME="testamento" CLASS="group_element" ORDER="629" LEVEL="3" LINE="789">
+<GROUP ID="obitos-1714-his3595-gro1358" NAME="testamento" CLASS="group_element" ORDER="629" LEVEL="3" LINE="789">
     <ELEMENT NAME="line" CLASS="line"><core>789</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro5471</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro1358</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3595</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9899,9 +9899,9 @@
          <core><![CDATA[nuncupativo]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3595-gro5472" NAME="sacr" CLASS="group_element" ORDER="630" LEVEL="3" LINE="791">
+<GROUP ID="obitos-1714-his3595-gro1359" NAME="sacr" CLASS="group_element" ORDER="630" LEVEL="3" LINE="791">
     <ELEMENT NAME="line" CLASS="line"><core>791</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro5472</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro1359</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3595</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9911,9 +9911,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3595-gro5473" NAME="locs" CLASS="group_element" ORDER="631" LEVEL="3" LINE="793">
+<GROUP ID="obitos-1714-his3595-gro1360" NAME="locs" CLASS="group_element" ORDER="631" LEVEL="3" LINE="793">
     <ELEMENT NAME="line" CLASS="line"><core>793</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro5473</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro1360</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3595</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -9924,9 +9924,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3595-gro5474" NAME="oficios" CLASS="group_element" ORDER="632" LEVEL="3" LINE="795">
+<GROUP ID="obitos-1714-his3595-gro1361" NAME="oficios" CLASS="group_element" ORDER="632" LEVEL="3" LINE="795">
     <ELEMENT NAME="line" CLASS="line"><core>795</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro5474</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3595-gro1361</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3595</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10056,9 +10056,9 @@
          <core><![CDATA[17141111]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3596-gro5475" NAME="locs" CLASS="group_element" ORDER="640" LEVEL="3" LINE="805">
+<GROUP ID="obitos-1714-his3596-gro1362" NAME="locs" CLASS="group_element" ORDER="640" LEVEL="3" LINE="805">
     <ELEMENT NAME="line" CLASS="line"><core>805</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3596-gro5475</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3596-gro1362</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3596</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10220,9 +10220,9 @@
          <core><![CDATA[17141114]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3597-gro5476" NAME="locs" CLASS="group_element" ORDER="651" LEVEL="3" LINE="815">
+<GROUP ID="obitos-1714-his3597-gro1363" NAME="locs" CLASS="group_element" ORDER="651" LEVEL="3" LINE="815">
     <ELEMENT NAME="line" CLASS="line"><core>815</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3597-gro5476</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3597-gro1363</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3597</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10282,9 +10282,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3598-gro5477" NAME="sacr" CLASS="group_element" ORDER="655" LEVEL="3" LINE="819">
+<GROUP ID="obitos-1714-his3598-gro1364" NAME="sacr" CLASS="group_element" ORDER="655" LEVEL="3" LINE="819">
     <ELEMENT NAME="line" CLASS="line"><core>819</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3598-gro5477</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3598-gro1364</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3598</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10294,9 +10294,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3598-gro5478" NAME="testamento" CLASS="group_element" ORDER="656" LEVEL="3" LINE="821">
+<GROUP ID="obitos-1714-his3598-gro1365" NAME="testamento" CLASS="group_element" ORDER="656" LEVEL="3" LINE="821">
     <ELEMENT NAME="line" CLASS="line"><core>821</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3598-gro5478</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3598-gro1365</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3598</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10377,9 +10377,9 @@
          <core><![CDATA[17141114]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3598-gro5479" NAME="locs" CLASS="group_element" ORDER="661" LEVEL="3" LINE="827">
+<GROUP ID="obitos-1714-his3598-gro1366" NAME="locs" CLASS="group_element" ORDER="661" LEVEL="3" LINE="827">
     <ELEMENT NAME="line" CLASS="line"><core>827</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3598-gro5479</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3598-gro1366</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3598</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10510,9 +10510,9 @@
          <core><![CDATA[17141115]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3599-gro5480" NAME="locs" CLASS="group_element" ORDER="669" LEVEL="3" LINE="837">
+<GROUP ID="obitos-1714-his3599-gro1367" NAME="locs" CLASS="group_element" ORDER="669" LEVEL="3" LINE="837">
     <ELEMENT NAME="line" CLASS="line"><core>837</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3599-gro5480</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3599-gro1367</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3599</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10654,9 +10654,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3600-per1-rela179</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141118</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3600-gro5481" NAME="locs" CLASS="group_element" ORDER="679" LEVEL="3" LINE="846">
+<GROUP ID="obitos-1714-his3600-gro1368" NAME="locs" CLASS="group_element" ORDER="679" LEVEL="3" LINE="846">
     <ELEMENT NAME="line" CLASS="line"><core>846</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3600-gro5481</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3600-gro1368</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3600</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10716,9 +10716,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3601-gro5482" NAME="sacr" CLASS="group_element" ORDER="683" LEVEL="3" LINE="850">
+<GROUP ID="obitos-1714-his3601-gro1369" NAME="sacr" CLASS="group_element" ORDER="683" LEVEL="3" LINE="850">
     <ELEMENT NAME="line" CLASS="line"><core>850</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3601-gro5482</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3601-gro1369</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3601</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10809,9 +10809,9 @@
          <core><![CDATA[17141119]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3601-gro5483" NAME="locs" CLASS="group_element" ORDER="689" LEVEL="3" LINE="857">
+<GROUP ID="obitos-1714-his3601-gro1370" NAME="locs" CLASS="group_element" ORDER="689" LEVEL="3" LINE="857">
     <ELEMENT NAME="line" CLASS="line"><core>857</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3601-gro5483</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3601-gro1370</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3601</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10821,9 +10821,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3601-gro5484" NAME="oficios" CLASS="group_element" ORDER="690" LEVEL="3" LINE="859">
+<GROUP ID="obitos-1714-his3601-gro1371" NAME="oficios" CLASS="group_element" ORDER="690" LEVEL="3" LINE="859">
     <ELEMENT NAME="line" CLASS="line"><core>859</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3601-gro5484</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3601-gro1371</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3601</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -10983,9 +10983,9 @@
          <core><![CDATA[17141120]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3602-gro5485" NAME="locs" CLASS="group_element" ORDER="700" LEVEL="3" LINE="869">
+<GROUP ID="obitos-1714-his3602-gro1372" NAME="locs" CLASS="group_element" ORDER="700" LEVEL="3" LINE="869">
     <ELEMENT NAME="line" CLASS="line"><core>869</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3602-gro5485</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3602-gro1372</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3602</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11222,9 +11222,9 @@
          <core><![CDATA[17141122]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3603-gro5486" NAME="locs" CLASS="group_element" ORDER="714" LEVEL="3" LINE="883">
+<GROUP ID="obitos-1714-his3603-gro1373" NAME="locs" CLASS="group_element" ORDER="714" LEVEL="3" LINE="883">
     <ELEMENT NAME="line" CLASS="line"><core>883</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3603-gro5486</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3603-gro1373</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3603</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11404,9 +11404,9 @@
          <core><![CDATA[17141127]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3604-gro5487" NAME="locs" CLASS="group_element" ORDER="725" LEVEL="3" LINE="894">
+<GROUP ID="obitos-1714-his3604-gro1374" NAME="locs" CLASS="group_element" ORDER="725" LEVEL="3" LINE="894">
     <ELEMENT NAME="line" CLASS="line"><core>894</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3604-gro5487</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3604-gro1374</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3604</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11587,9 +11587,9 @@
          <core><![CDATA[17141129]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3605-gro5488" NAME="locs" CLASS="group_element" ORDER="736" LEVEL="3" LINE="905">
+<GROUP ID="obitos-1714-his3605-gro1375" NAME="locs" CLASS="group_element" ORDER="736" LEVEL="3" LINE="905">
     <ELEMENT NAME="line" CLASS="line"><core>905</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3605-gro5488</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3605-gro1375</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3605</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11649,9 +11649,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3606-gro5489" NAME="testamento" CLASS="group_element" ORDER="740" LEVEL="3" LINE="909">
+<GROUP ID="obitos-1714-his3606-gro1376" NAME="testamento" CLASS="group_element" ORDER="740" LEVEL="3" LINE="909">
     <ELEMENT NAME="line" CLASS="line"><core>909</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3606-gro5489</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3606-gro1376</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3606</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11661,9 +11661,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3606-gro5490" NAME="sacr" CLASS="group_element" ORDER="741" LEVEL="3" LINE="911">
+<GROUP ID="obitos-1714-his3606-gro1377" NAME="sacr" CLASS="group_element" ORDER="741" LEVEL="3" LINE="911">
     <ELEMENT NAME="line" CLASS="line"><core>911</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3606-gro5490</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3606-gro1377</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3606</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11744,9 +11744,9 @@
          <core><![CDATA[17141203]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3606-gro5491" NAME="locs" CLASS="group_element" ORDER="746" LEVEL="3" LINE="917">
+<GROUP ID="obitos-1714-his3606-gro1378" NAME="locs" CLASS="group_element" ORDER="746" LEVEL="3" LINE="917">
     <ELEMENT NAME="line" CLASS="line"><core>917</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3606-gro5491</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3606-gro1378</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3606</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11776,9 +11776,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3607-gro5492" NAME="testamento" CLASS="group_element" ORDER="748" LEVEL="3" LINE="921">
+<GROUP ID="obitos-1714-his3607-gro1379" NAME="testamento" CLASS="group_element" ORDER="748" LEVEL="3" LINE="921">
     <ELEMENT NAME="line" CLASS="line"><core>921</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro5492</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro1379</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11788,9 +11788,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3607-gro5493" NAME="sacr" CLASS="group_element" ORDER="749" LEVEL="3" LINE="923">
+<GROUP ID="obitos-1714-his3607-gro1380" NAME="sacr" CLASS="group_element" ORDER="749" LEVEL="3" LINE="923">
     <ELEMENT NAME="line" CLASS="line"><core>923</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro5493</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro1380</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11801,9 +11801,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3607-gro5494" NAME="causa" CLASS="group_element" ORDER="750" LEVEL="3" LINE="925">
+<GROUP ID="obitos-1714-his3607-gro1381" NAME="causa" CLASS="group_element" ORDER="750" LEVEL="3" LINE="925">
     <ELEMENT NAME="line" CLASS="line"><core>925</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro5494</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro1381</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>causa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11893,9 +11893,9 @@
          <core><![CDATA[17141208]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3607-gro5495" NAME="locs" CLASS="group_element" ORDER="756" LEVEL="3" LINE="932">
+<GROUP ID="obitos-1714-his3607-gro1382" NAME="locs" CLASS="group_element" ORDER="756" LEVEL="3" LINE="932">
     <ELEMENT NAME="line" CLASS="line"><core>932</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro5495</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro1382</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11905,9 +11905,9 @@
          <core><![CDATA[ermida de s.joao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3607-gro5496" NAME="oficios" CLASS="group_element" ORDER="757" LEVEL="3" LINE="934">
+<GROUP ID="obitos-1714-his3607-gro1383" NAME="oficios" CLASS="group_element" ORDER="757" LEVEL="3" LINE="934">
     <ELEMENT NAME="line" CLASS="line"><core>934</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro5496</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-gro1383</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -11962,7 +11962,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-rela209</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141208</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3607-atra9957" NAME="ls"  ORDER="761" LEVEL="3" CLASS="attribute" LINE="936">
+<GROUP ID="obitos-1714-his3607-atra13" NAME="ls"  ORDER="761" LEVEL="3" CLASS="attribute" LINE="936">
     <ELEMENT NAME="line" CLASS="line"><core>936</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
@@ -11972,10 +11972,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3607-per1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-atra9957</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-atra13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141208</core></ELEMENT>
 </GROUP>
-<GROUP ID="obitos-1714-his3607-atra9958" NAME="ls"  ORDER="762" LEVEL="3" CLASS="attribute" LINE="936">
+<GROUP ID="obitos-1714-his3607-atra14" NAME="ls"  ORDER="762" LEVEL="3" CLASS="attribute" LINE="936">
     <ELEMENT NAME="line" CLASS="line"><core>936</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3607</core></ELEMENT>
@@ -11985,7 +11985,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>obitos-1714-his3607-per1-per2</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-atra9958</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3607-atra14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17141208</core></ELEMENT>
 </GROUP>
 <GROUP ID="obitos-1714-his3608" NAME="o" CLASS="act" ORDER="763" LEVEL="2" LINE="936">
@@ -12108,9 +12108,9 @@
          <core><![CDATA[17141212]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3608-gro5497" NAME="locs" CLASS="group_element" ORDER="770" LEVEL="3" LINE="944">
+<GROUP ID="obitos-1714-his3608-gro1384" NAME="locs" CLASS="group_element" ORDER="770" LEVEL="3" LINE="944">
     <ELEMENT NAME="line" CLASS="line"><core>944</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3608-gro5497</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3608-gro1384</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3608</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -12270,9 +12270,9 @@
          <core><![CDATA[17141215]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3609-gro5498" NAME="locs" CLASS="group_element" ORDER="780" LEVEL="3" LINE="954">
+<GROUP ID="obitos-1714-his3609-gro1385" NAME="locs" CLASS="group_element" ORDER="780" LEVEL="3" LINE="954">
     <ELEMENT NAME="line" CLASS="line"><core>954</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3609-gro5498</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3609-gro1385</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3609</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -12332,9 +12332,9 @@
          <core><![CDATA[o]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3610-gro5499" NAME="testamento" CLASS="group_element" ORDER="784" LEVEL="3" LINE="958">
+<GROUP ID="obitos-1714-his3610-gro1386" NAME="testamento" CLASS="group_element" ORDER="784" LEVEL="3" LINE="958">
     <ELEMENT NAME="line" CLASS="line"><core>958</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3610-gro5499</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3610-gro1386</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3610</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -12344,9 +12344,9 @@
          <core><![CDATA[nao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3610-gro5500" NAME="sacr" CLASS="group_element" ORDER="785" LEVEL="3" LINE="960">
+<GROUP ID="obitos-1714-his3610-gro1387" NAME="sacr" CLASS="group_element" ORDER="785" LEVEL="3" LINE="960">
     <ELEMENT NAME="line" CLASS="line"><core>960</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3610-gro5500</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3610-gro1387</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3610</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -12522,9 +12522,9 @@
          <core><![CDATA[17141218]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3610-gro5501" NAME="locs" CLASS="group_element" ORDER="795" LEVEL="3" LINE="971">
+<GROUP ID="obitos-1714-his3610-gro1388" NAME="locs" CLASS="group_element" ORDER="795" LEVEL="3" LINE="971">
     <ELEMENT NAME="line" CLASS="line"><core>971</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3610-gro5501</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3610-gro1388</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3610</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -12655,9 +12655,9 @@
          <core><![CDATA[17141225]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="obitos-1714-his3611-gro5502" NAME="locs" CLASS="group_element" ORDER="803" LEVEL="3" LINE="980">
+<GROUP ID="obitos-1714-his3611-gro1389" NAME="locs" CLASS="group_element" ORDER="803" LEVEL="3" LINE="980">
     <ELEMENT NAME="line" CLASS="line"><core>980</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3611-gro5502</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos-1714-his3611-gro1389</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>obitos-1714-his3611</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>

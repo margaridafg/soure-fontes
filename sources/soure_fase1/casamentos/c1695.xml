@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1695.cli" TRANSLATOR="gactoxml2.str" WHEN="2018-8-10 14:5:28" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1695.cli" TRANSLATOR="gactoxml2.str" WHEN="2019-6-13 22:48:6" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -28,7 +28,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16950000]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1695.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1695.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="cas">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -808,7 +808,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-1-rela24</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950326</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-1-atra6482" NAME="ls"  ORDER="48" LEVEL="3" CLASS="attribute" LINE="37">
+<GROUP ID="c1695-1-atra1" NAME="ls"  ORDER="48" LEVEL="3" CLASS="attribute" LINE="37">
     <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-1</core></ELEMENT>
@@ -818,10 +818,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c1-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-1-atra6482</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-1-atra1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950326</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-1-atra6483" NAME="ls"  ORDER="49" LEVEL="3" CLASS="attribute" LINE="37">
+<GROUP ID="c1695-1-atra2" NAME="ls"  ORDER="49" LEVEL="3" CLASS="attribute" LINE="37">
     <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-1</core></ELEMENT>
@@ -831,7 +831,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c1-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-1-atra6483</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-1-atra2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950326</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-1-rela25" NAME="relation"  ORDER="50" LEVEL="3" CLASS="relation" LINE="37">
@@ -1629,7 +1629,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-2-rela54</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950828</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-2-atra6484" NAME="ls"  ORDER="100" LEVEL="3" CLASS="attribute" LINE="66">
+<GROUP ID="c1695-2-atra3" NAME="ls"  ORDER="100" LEVEL="3" CLASS="attribute" LINE="66">
     <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-2</core></ELEMENT>
@@ -1639,10 +1639,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c2-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-2-atra6484</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-2-atra3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950828</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-2-atra6485" NAME="ls"  ORDER="101" LEVEL="3" CLASS="attribute" LINE="66">
+<GROUP ID="c1695-2-atra4" NAME="ls"  ORDER="101" LEVEL="3" CLASS="attribute" LINE="66">
     <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-2</core></ELEMENT>
@@ -1652,7 +1652,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c2-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-2-atra6485</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-2-atra4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950828</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-2-rela55" NAME="relation"  ORDER="102" LEVEL="3" CLASS="relation" LINE="66">
@@ -2414,7 +2414,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-3-rela85</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950828</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-3-atra6486" NAME="ls"  ORDER="151" LEVEL="3" CLASS="attribute" LINE="93">
+<GROUP ID="c1695-3-atra5" NAME="ls"  ORDER="151" LEVEL="3" CLASS="attribute" LINE="93">
     <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-3</core></ELEMENT>
@@ -2424,10 +2424,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c3-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-3-atra6486</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-3-atra5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950828</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-3-atra6487" NAME="ls"  ORDER="152" LEVEL="3" CLASS="attribute" LINE="93">
+<GROUP ID="c1695-3-atra6" NAME="ls"  ORDER="152" LEVEL="3" CLASS="attribute" LINE="93">
     <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-3</core></ELEMENT>
@@ -2437,7 +2437,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c3-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-3-atra6487</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-3-atra6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16950828</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-3-rela86" NAME="relation"  ORDER="153" LEVEL="3" CLASS="relation" LINE="93">
@@ -3250,7 +3250,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-4-rela114</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951013</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-4-atra6488" NAME="ls"  ORDER="202" LEVEL="3" CLASS="attribute" LINE="122">
+<GROUP ID="c1695-4-atra7" NAME="ls"  ORDER="202" LEVEL="3" CLASS="attribute" LINE="122">
     <ELEMENT NAME="line" CLASS="line"><core>122</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-4</core></ELEMENT>
@@ -3260,10 +3260,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c4-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-4-atra6488</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-4-atra7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951013</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-4-atra6489" NAME="ls"  ORDER="203" LEVEL="3" CLASS="attribute" LINE="122">
+<GROUP ID="c1695-4-atra8" NAME="ls"  ORDER="203" LEVEL="3" CLASS="attribute" LINE="122">
     <ELEMENT NAME="line" CLASS="line"><core>122</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-4</core></ELEMENT>
@@ -3273,7 +3273,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c4-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-4-atra6489</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-4-atra8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951013</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-4-rela115" NAME="relation"  ORDER="204" LEVEL="3" CLASS="relation" LINE="122">
@@ -4007,7 +4007,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-5-rela143</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951024</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-5-atra6490" NAME="ls"  ORDER="250" LEVEL="3" CLASS="attribute" LINE="148">
+<GROUP ID="c1695-5-atra9" NAME="ls"  ORDER="250" LEVEL="3" CLASS="attribute" LINE="148">
     <ELEMENT NAME="line" CLASS="line"><core>148</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-5</core></ELEMENT>
@@ -4017,10 +4017,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c5-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-5-atra6490</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-5-atra9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951024</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-5-atra6491" NAME="ls"  ORDER="251" LEVEL="3" CLASS="attribute" LINE="148">
+<GROUP ID="c1695-5-atra10" NAME="ls"  ORDER="251" LEVEL="3" CLASS="attribute" LINE="148">
     <ELEMENT NAME="line" CLASS="line"><core>148</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-5</core></ELEMENT>
@@ -4030,7 +4030,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c5-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-5-atra6491</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-5-atra10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951024</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-5-rela144" NAME="relation"  ORDER="252" LEVEL="3" CLASS="relation" LINE="148">
@@ -4824,7 +4824,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-6-rela172</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951030</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-6-atra6492" NAME="ls"  ORDER="301" LEVEL="3" CLASS="attribute" LINE="177">
+<GROUP ID="c1695-6-atra11" NAME="ls"  ORDER="301" LEVEL="3" CLASS="attribute" LINE="177">
     <ELEMENT NAME="line" CLASS="line"><core>177</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-6</core></ELEMENT>
@@ -4834,10 +4834,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c6-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-6-atra6492</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-6-atra11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951030</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-6-atra6493" NAME="ls"  ORDER="302" LEVEL="3" CLASS="attribute" LINE="177">
+<GROUP ID="c1695-6-atra12" NAME="ls"  ORDER="302" LEVEL="3" CLASS="attribute" LINE="177">
     <ELEMENT NAME="line" CLASS="line"><core>177</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-6</core></ELEMENT>
@@ -4847,7 +4847,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c6-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-6-atra6493</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-6-atra12</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951030</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-6-rela173" NAME="relation"  ORDER="303" LEVEL="3" CLASS="relation" LINE="177">
@@ -5581,7 +5581,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-7-rela201</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951106</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-7-atra6494" NAME="ls"  ORDER="349" LEVEL="3" CLASS="attribute" LINE="203">
+<GROUP ID="c1695-7-atra13" NAME="ls"  ORDER="349" LEVEL="3" CLASS="attribute" LINE="203">
     <ELEMENT NAME="line" CLASS="line"><core>203</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-7</core></ELEMENT>
@@ -5591,10 +5591,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c7-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-7-atra6494</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-7-atra13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951106</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-7-atra6495" NAME="ls"  ORDER="350" LEVEL="3" CLASS="attribute" LINE="203">
+<GROUP ID="c1695-7-atra14" NAME="ls"  ORDER="350" LEVEL="3" CLASS="attribute" LINE="203">
     <ELEMENT NAME="line" CLASS="line"><core>203</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-7</core></ELEMENT>
@@ -5604,7 +5604,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c7-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-7-atra6495</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-7-atra14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951106</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-7-rela202" NAME="relation"  ORDER="351" LEVEL="3" CLASS="relation" LINE="203">
@@ -6362,7 +6362,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-8-rela230</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951115</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-8-atra6496" NAME="ls"  ORDER="398" LEVEL="3" CLASS="attribute" LINE="230">
+<GROUP ID="c1695-8-atra15" NAME="ls"  ORDER="398" LEVEL="3" CLASS="attribute" LINE="230">
     <ELEMENT NAME="line" CLASS="line"><core>230</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-8</core></ELEMENT>
@@ -6372,10 +6372,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c8-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-8-atra6496</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-8-atra15</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951115</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-8-atra6497" NAME="ls"  ORDER="399" LEVEL="3" CLASS="attribute" LINE="230">
+<GROUP ID="c1695-8-atra16" NAME="ls"  ORDER="399" LEVEL="3" CLASS="attribute" LINE="230">
     <ELEMENT NAME="line" CLASS="line"><core>230</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-8</core></ELEMENT>
@@ -6385,7 +6385,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c8-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-8-atra6497</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-8-atra16</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951115</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-8-rela231" NAME="relation"  ORDER="400" LEVEL="3" CLASS="relation" LINE="230">
@@ -7199,7 +7199,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-9-rela259</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951121</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-9-atra6498" NAME="ls"  ORDER="450" LEVEL="3" CLASS="attribute" LINE="260">
+<GROUP ID="c1695-9-atra17" NAME="ls"  ORDER="450" LEVEL="3" CLASS="attribute" LINE="260">
     <ELEMENT NAME="line" CLASS="line"><core>260</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-9</core></ELEMENT>
@@ -7209,10 +7209,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c9-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-9-atra6498</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-9-atra17</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951121</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-9-atra6499" NAME="ls"  ORDER="451" LEVEL="3" CLASS="attribute" LINE="260">
+<GROUP ID="c1695-9-atra18" NAME="ls"  ORDER="451" LEVEL="3" CLASS="attribute" LINE="260">
     <ELEMENT NAME="line" CLASS="line"><core>260</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-9</core></ELEMENT>
@@ -7222,7 +7222,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c9-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-9-atra6499</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-9-atra18</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951121</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-9-rela260" NAME="relation"  ORDER="452" LEVEL="3" CLASS="relation" LINE="260">
@@ -8147,7 +8147,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-10-rela290</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951201</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-10-atra6500" NAME="ls"  ORDER="509" LEVEL="3" CLASS="attribute" LINE="296">
+<GROUP ID="c1695-10-atra19" NAME="ls"  ORDER="509" LEVEL="3" CLASS="attribute" LINE="296">
     <ELEMENT NAME="line" CLASS="line"><core>296</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-10</core></ELEMENT>
@@ -8157,10 +8157,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c10-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-10-atra6500</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-10-atra19</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951201</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-10-atra6501" NAME="ls"  ORDER="510" LEVEL="3" CLASS="attribute" LINE="296">
+<GROUP ID="c1695-10-atra20" NAME="ls"  ORDER="510" LEVEL="3" CLASS="attribute" LINE="296">
     <ELEMENT NAME="line" CLASS="line"><core>296</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-10</core></ELEMENT>
@@ -8170,7 +8170,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c10-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-10-atra6501</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-10-atra20</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951201</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-10-rela291" NAME="relation"  ORDER="511" LEVEL="3" CLASS="relation" LINE="296">
@@ -8984,7 +8984,7 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1695-11-rela319</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951229</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-11-atra6502" NAME="ls"  ORDER="561" LEVEL="5" CLASS="attribute" LINE="323">
+<GROUP ID="c1695-11-atra21" NAME="ls"  ORDER="561" LEVEL="5" CLASS="attribute" LINE="323">
     <ELEMENT NAME="line" CLASS="line"><core>323</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-11</core></ELEMENT>
@@ -8994,10 +8994,10 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c11-1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-11-atra6502</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-11-atra21</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951229</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1695-11-atra6503" NAME="ls"  ORDER="562" LEVEL="5" CLASS="attribute" LINE="323">
+<GROUP ID="c1695-11-atra22" NAME="ls"  ORDER="562" LEVEL="5" CLASS="attribute" LINE="323">
     <ELEMENT NAME="line" CLASS="line"><core>323</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1695-11</core></ELEMENT>
@@ -9007,7 +9007,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>c11-4</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1695-11-atra6503</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1695-11-atra22</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16951229</core></ELEMENT>
 </GROUP>
 <GROUP ID="c1695-11-rela320" NAME="relation"  ORDER="563" LEVEL="5" CLASS="relation" LINE="323">

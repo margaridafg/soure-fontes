@@ -1,2404 +1,417 @@
-ClioInput - version $Revision$ SWI $Date$
-29-5-2017 15-5
+ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
+9-2-2020 15-44
 
-Processing data file:/Users/jrc/develop/mhk_users/soure/documents/baptismos/B1708.CLI
+Processing data file b1708.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
-1: kleio$gacto.str
 =========================
 kleio translation started
 =========================
 Structure: gacto.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 1
 Obs: 
-Translation count not set or invalid, counting as zero: 
-2:    fonte$baptismos 1708/tipo=reg paroquiais/localizacao=fol. 315v-/data=17080000
-3: 
-**** auto rels 2 STARTED.
 ** Processing source fonte$baptismos 1708
-4:       b$b1708.1/4/1/1708/0/0/0/jose pinto
-5: 
-**** auto rels 2 STARTED.
-** Processing act b$b1708.1
-6:          n$catarina/f/id=b1708.1-per1
-7: 
-8:             pai$alexandre francisco/id=b1708.1-per1-per2
-9:                ls$residencia/fonte da bica
-10: 
-11:             mae$isabel domingues/id=b1708.1-per1-per3
-12: 
-13:             pad$manuel francisco/id=b1708.1-per4
-14:                ls$residencia/sobral
-15: 
-16:             mad$catarina/id=b1708.1-per5
-17:                ls$ec/s
-18: 
-19:             mmad$sebastiana domingues/id=b1708.1-per6
-20:                ls$residencia/netos, freguesia da almagreira
-21:                ls$freguesia/almagreira
-22: 
-23:       b$b1708.2/14/1/1708/0/0/0/jose pinto/obs=sem madrinha
-24: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.1-per1-per2 to b1708.1-per1 parentesco/pai
-   ** auto rel: from b1708.1-per1-per3 to b1708.1-per1 parentesco/mae
-   ** auto rel: from b1708.1-per1-per2 to b1708.1-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.1-per1-per2/ec/c
-   ** Automatic attribute: b1708.1-per1-per3/ec/c
-** Processing act b$b1708.2
-25:          n$ines/f/id=b1708.2-per1
-26: 
-27:             pai$manuel lopes/id=b1708.2-per1-per2
-28:                ls$residencia/soure
-29: 
-30:             mae$jeronima da costa/id=b1708.2-per1-per3
-31: 
-32:             pad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1708.2-per4
-33:                ls$cargo/lente de coimbra
-34:                ls$titulo/doutor
-35: 
-36:       b$b1708.3/15/1/1708/0/0/0/jose pinto
-37: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.2-per1-per2 to b1708.2-per1 parentesco/pai
-   ** auto rel: from b1708.2-per1-per3 to b1708.2-per1 parentesco/mae
-   ** auto rel: from b1708.2-per1-per2 to b1708.2-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.2-per1-per2/ec/c
-   ** Automatic attribute: b1708.2-per1-per3/ec/c
-** Processing act b$b1708.3
-38:          n$maria/f/id=b1708.3-per1
-39: 
-40:             pai$manuel joao/id=b1708.3-per1-per2
-41:                ls$residencia/casconho
-42: 
-43:             mae$filipa joao/id=b1708.3-per1-per3
-44: 
-45:             pad$domingos lourenco/id=b1708.3-per4
-46:                ls$residencia/casconho
-47: 
-48:             mad$maria duarte/id=b1708.3-per5
-49: 
-50:             mrmad$bento martins/id=b1708.3-per6
-51:                ls$residencia/quinta
-52: 
-53:       b$b1708.4/26/1/1708/0/0/0/jose pinto
-54: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.3-per1-per2 to b1708.3-per1 parentesco/pai
-   ** auto rel: from b1708.3-per1-per3 to b1708.3-per1 parentesco/mae
-   ** auto rel: from b1708.3-per1-per2 to b1708.3-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.3-per1-per2/ec/c
-   ** Automatic attribute: b1708.3-per1-per3/ec/c
-** Processing act b$b1708.4
-55:          n$rosa/f/id=b1708.4-per1
-56: 
-57:             pai$matias da silva/id=b1708.4-per1-per2
-58:                ls$residencia/soure
-59: 
-60:             mae$mariana martins/id=b1708.4-per1-per3
-61: 
-62:             pad$pedro de eiro matoso%pedro de eiro/mesmo_que=peiro/id=b1708.4-per4
-63:                ls$cargo/escrivao da camara
-64: 
-65:             mad$rosa/id=b1708.4-per5
-66: 
-67:             pmad$sebastiao goncalves/mesmo_que=sgoncalves/id=b1708.4-per6
-68: 
-69:       b$b1708.5/28/1/1708/0/0/0/jose pinto
-70: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.4-per1-per2 to b1708.4-per1 parentesco/pai
-   ** auto rel: from b1708.4-per1-per3 to b1708.4-per1 parentesco/mae
-   ** auto rel: from b1708.4-per1-per2 to b1708.4-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.4-per1-per2/ec/c
-   ** Automatic attribute: b1708.4-per1-per3/ec/c
-** Processing act b$b1708.5
-71:          n$jose/m/id=b1708.5-per1
-72: 
-73:             pai$bento rodrigues/id=b1708.5-per1-per2
-74:                ls$residencia/cascao
-75: 
-76:             mae$maria francisca/id=b1708.5-per1-per3
-77: 
-78:             pad$antonio madeira/id=b1708.5-per4
-79:                ls$residencia/cascao
-80: 
-81:             mad$antonia goncalves/id=b1708.5-per5
-82: 
-83:             mrmad$? madeira/id=b1708.5-per6
-84:                ls$residencia/cascao
-85: 
-86:       b$b1708.6/28/1/1708/0/0/0/jose pinto
-87: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.5-per1-per2 to b1708.5-per1 parentesco/pai
-   ** auto rel: from b1708.5-per1-per3 to b1708.5-per1 parentesco/mae
-   ** auto rel: from b1708.5-per1-per2 to b1708.5-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.5-per1-per2/ec/c
-   ** Automatic attribute: b1708.5-per1-per3/ec/c
-** Processing act b$b1708.6
-88:          n$antonia/f/id=b1708.6-per1
-89: 
-90:             pai$joao gomes/id=b1708.6-per1-per2
-91:                ls$residencia/vale da borra
-92: 
-93:             mae$isabel francisca/id=b1708.6-per1-per3
-94: 
-95:             pad$jose gomes/id=bpad25011708
-96:                ls$residencia/soure
-97: 
-98:             mad$antonia/id=b1708.6-per4
-99:                rel$parentesco/irma/jose gomes/bpad25011708
-100: 
-101:       b$b1708.7/5/2/1708/0/0/0/jose pinto
-102: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.6-per1-per2 to b1708.6-per1 parentesco/pai
-   ** auto rel: from b1708.6-per1-per3 to b1708.6-per1 parentesco/mae
-   ** auto rel: from b1708.6-per1-per2 to b1708.6-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.6-per1-per2/ec/c
-   ** Automatic attribute: b1708.6-per1-per3/ec/c
-** Processing act b$b1708.7
-103:          n$maria/f/id=b1708.7-per1
-104: 
-105:             pai$manuel joao/id=b1708.7-per1-per2
-106:                ls$residencia/simoes
-107: 
-108:             mae$domingas goncalves/id=b1708.7-per1-per3
-109: 
-110:             pad$manuel soares coelho/mesmo_que=mscoelho/id=b1708.7-per4
-111: 
-112:             mad$maria pereira/id=b1708.7-per5
-113: 
-114:             mrmad$luis manhos de abreu%luis manhos/mesmo_que=lmabreu/id=b1708.7-per6
-115: 
-116:       b$b1708.8/6/2/1708/0/0/0/jose pinto
-117: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.7-per1-per2 to b1708.7-per1 parentesco/pai
-   ** auto rel: from b1708.7-per1-per3 to b1708.7-per1 parentesco/mae
-   ** auto rel: from b1708.7-per1-per2 to b1708.7-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.7-per1-per2/ec/c
-   ** Automatic attribute: b1708.7-per1-per3/ec/c
-** Processing act b$b1708.8
-118:          n$maria/f/id=b1708.8-per1
-119: 
-120:             pai$carlos gomes/id=b1708.8-per1-per2
-121:                ls$residencia/barril
-122: 
-123:             mae$antonia madeira/id=b1708.8-per1-per3
-124: 
-125:             pad$henrique/id=b1708.8-per4
-126: 
-127:             ppad$jose barbosa/id=b1708.8-per5
-128:                ls$residencia/soure
-129: 
-130:             mad$isabel madeira/id=b1708.8-per6
-131: 
-132:             mrmad$domingos da gante/id=b1708.8-per7
-133:                ls$residencia/barril
-134: 
-135:       b$b1708.9/10/2/1708/0/0/0/jose pinto
-136: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.8-per1-per2 to b1708.8-per1 parentesco/pai
-   ** auto rel: from b1708.8-per1-per3 to b1708.8-per1 parentesco/mae
-   ** auto rel: from b1708.8-per1-per2 to b1708.8-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.8-per1-per2/ec/c
-   ** Automatic attribute: b1708.8-per1-per3/ec/c
-** Processing act b$b1708.9
-137:          n$manuel/m/id=b1708.9-per1
-138: 
-139:             pai$jose ferreira/id=b1708.9-per1-per2
-140:                ls$residencia/casal do pinheiro
-141: 
-142:             mae$maria antunes/id=b1708.9-per1-per3
-143: 
-144:             pad$joao mendes/id=b1708.9-per4
-145:                ls$residencia/casal de s.mateus
-146: 
-147:             mad$mariana/id=marianacb
-148: 
-149:             pmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1708.9-per5
-150: 
-151:       b$b1708.10/15/2/1708/0/0/0/jose pinto/obs=sem madrinha
-152: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.9-per1-per2 to b1708.9-per1 parentesco/pai
-   ** auto rel: from b1708.9-per1-per3 to b1708.9-per1 parentesco/mae
-   ** auto rel: from b1708.9-per1-per2 to b1708.9-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.9-per1-per2/ec/c
-   ** Automatic attribute: b1708.9-per1-per3/ec/c
-** Processing act b$b1708.10
-153:          n$jose/m/id=b1708.10-per1
-154: 
-155:             pai$manuel jorge/id=b1708.10-per1-per2
-156:                ls$residencia/casal da corujeira
-157: 
-158:             mae$sebastiana da silva/id=b1708.10-per1-per3
-159: 
-160:             pad$joao mendes/id=b1708.10-per4
-161:                ls$residencia/casal de s.mateus
-162: 
-163:       b$b1708.11/12/2/1708/0/0/0/jose pinto/obs=data sic
-164: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.10-per1-per2 to b1708.10-per1 parentesco/pai
-   ** auto rel: from b1708.10-per1-per3 to b1708.10-per1 parentesco/mae
-   ** auto rel: from b1708.10-per1-per2 to b1708.10-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.10-per1-per2/ec/c
-   ** Automatic attribute: b1708.10-per1-per3/ec/c
-** Processing act b$b1708.11
-165:          n$mariana/f/id=b1708.11-per1
-166: 
-167:             pai$manuel joao/id=b1708.11-per1-per2
-168:                ls$residencia/simoes
-169: 
-170:             mae$teresa rodrigues/id=b1708.11-per1-per3
-171: 
-172:             pad$luis/mesmo_que=c17-7-luis/id=b1708.11-per4
-173: 
-174:             ppad$jose barbosa canais/mesmo_que=c17-7/id=b1708.11-per5
-175: 
-176:             mad$ana joao/id=b1708.11-per6
-177:                ls$ec/v
-178:                ls$residencia/simoes
-179: 
-180:       b$b1708.12/20/2/1708/0/0/0/jose pinto
-181: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.11-per1-per2 to b1708.11-per1 parentesco/pai
-   ** auto rel: from b1708.11-per1-per3 to b1708.11-per1 parentesco/mae
-   ** auto rel: from b1708.11-per1-per2 to b1708.11-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.11-per1-per2/ec/c
-   ** Automatic attribute: b1708.11-per1-per3/ec/c
-** Processing act b$b1708.12
-182:          n$jose/m/id=b1708.12-per1
-183: 
-184:             pai$antonio lopes/id=b1708.12-per1-per2
-185:                ls$residencia/caldeiros
-186: 
-187:             mae$ana da silva/id=b1708.12-per1-per3
-188: 
-189:             pad$jose barbosa/id=bpad20021708
-190: 
-191:             mad$maria pereira/id=bmad20021708
-192: 
-193:             mrmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1708.12-per4
-194: 
-195:             referido$luis soares/id=br20021708
-196:                rel$sociabilidade/procurador em baptismo/jose barbosa/bpad20021708
-197: 
-198:             referido$luis/id=br20021708b
-199:                rel$sociabilidade/procurador em baptismo/maria pereira/bmad20021708
-200:                rel$parentesco/filho/luis manhos de abreu/lmabreu
-201:                rel$parentesco/enteado/maria pereira/bmad20021708
-202: 
-203:       b$b1708.13/20/2/1708/0/0/0/jose pinto
-204: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.12-per1-per2 to b1708.12-per1 parentesco/pai
-   ** auto rel: from b1708.12-per1-per3 to b1708.12-per1 parentesco/mae
-   ** auto rel: from b1708.12-per1-per2 to b1708.12-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.12-per1-per2/ec/c
-   ** Automatic attribute: b1708.12-per1-per3/ec/c
-** Processing act b$b1708.13
-205:          n$jose/m/id=b1708.13-per1
-206: 
-207:             pai$simao gomes/id=b1708.13-per1-per2
-208:                ls$residencia/paleao
-209: 
-210:             mae$luisa rodrigues/id=b1708.13-per1-per3
-211: 
-212:             pad$pascoal gomes de oliveira/id=b1708.13-per4
-213:                ls$profissao/padre
-214: 
-215:             mad$antonia gomes/id=b1708.13-per5
-216: 
-217:             mrmad$jose rodrigues gante/id=b1708.13-per6
-218: 
-219:       b$b1708.14/21/2/1708/0/0/0/manuel martins
-220: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.13-per1-per2 to b1708.13-per1 parentesco/pai
-   ** auto rel: from b1708.13-per1-per3 to b1708.13-per1 parentesco/mae
-   ** auto rel: from b1708.13-per1-per2 to b1708.13-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.13-per1-per2/ec/c
-   ** Automatic attribute: b1708.13-per1-per3/ec/c
-** Processing act b$b1708.14
-221:          n$barbara/f/id=b1708.14-per1
-222: 
-223:             pai$manuel rodrigues serodio/id=b1708.14-per1-per2
-224:                ls$residencia/soure
-225: 
-226:             mae$antonia goncalves/id=b1708.14-per1-per3
-227: 
-228:             pad$luis ribeiro/id=b1708.14-per4
-229:                ls$profissao/padre
-230: 
-231:             mad$maria/id=b1708.14-per5
-232:                ls$ec/s
-233: 
-234:             mmad$maria ferreira/id=b1708.14-per6
-235:                ls$residencia/soure
-236: 
-237:       b$b1708.15/23/2/1708/0/0/0/jose pinto
-238: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.14-per1-per2 to b1708.14-per1 parentesco/pai
-   ** auto rel: from b1708.14-per1-per3 to b1708.14-per1 parentesco/mae
-   ** auto rel: from b1708.14-per1-per2 to b1708.14-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.14-per1-per2/ec/c
-   ** Automatic attribute: b1708.14-per1-per3/ec/c
-** Processing act b$b1708.15
-239:          n$jose/m/id=b1708.15-per1
-240: 
-241:             pai$manuel goncalves/id=b1708.15-per1-per2
-242:                ls$residencia/casal do espirito santo
-243: 
-244:             mae$antonia simoes/id=b1708.15-per1-per3
-245: 
-246:             pad$vicente colaco de morais/mesmo_que=c104-7/id=b1708.15-per4
-247:                ls$nome/vicente colaco
-248:                ls$residencia/casal do espirito santo
-249: 
-250:             mad$francisca soares/id=b1708.15-per5
-251: 
-252:             mrmad$antonio lopes/id=b1708.15-per6
-253:                ls$residencia/panise?
-254: 
-255:       b$b1708.16/26/2/1708/0/0/0/jose pinto
-256: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.15-per1-per2 to b1708.15-per1 parentesco/pai
-   ** auto rel: from b1708.15-per1-per3 to b1708.15-per1 parentesco/mae
-   ** auto rel: from b1708.15-per1-per2 to b1708.15-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.15-per1-per2/ec/c
-   ** Automatic attribute: b1708.15-per1-per3/ec/c
-** Processing act b$b1708.16
-257:          n$leonor/m/id=b1708.16-per1
-258: 
-259:             pai$jose rodrigues/id=b1708.16-per1-per2
-260:                ls$residencia/sobral
-261: 
-262:             mae$maria da costa/id=b1708.16-per1-per3
-263: 
-264:             pad$manuel francisco/id=b1708.16-per4
-265:                ls$residencia/sobral
-266: 
-267:             mad$domingas/id=b1708.16-per5
-268: 
-269:             pmad$joao rodrigues/id=b1708.16-per6
-270:                ls$residencia/sobral
-271: 
-272:       b$b1708.17/26/2/1708/0/0/0/jose pinto
-273: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.16-per1-per2 to b1708.16-per1 parentesco/pai
-   ** auto rel: from b1708.16-per1-per3 to b1708.16-per1 parentesco/mae
-   ** auto rel: from b1708.16-per1-per2 to b1708.16-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.16-per1-per2/ec/c
-   ** Automatic attribute: b1708.16-per1-per3/ec/c
-** Processing act b$b1708.17
-274:          n$jose/m/id=b1708.17-per1
-275: 
-276:             pai$joao rodrigues/id=b1708.17-per1-per2
-277:                ls$residencia/casal do filipito
-278: 
-279:             mae$teresa goncalves/id=b1708.17-per1-per3
-280: 
-281:             pad$jose de andrade/id=b1708.17-per4
-282:                ls$residencia/soure
-283: 
-284:             mad$domingas/id=b1708.17-per5
-285: 
-286:             mrmad$domigos francisco filipo/id=b1708.17-per6
-287:                ls$residencia/casal do filipito#seu casal
-288: 
-289:       b$b1708.18/27/2/1708/0/0/0/jose pinto
-290: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.17-per1-per2 to b1708.17-per1 parentesco/pai
-   ** auto rel: from b1708.17-per1-per3 to b1708.17-per1 parentesco/mae
-   ** auto rel: from b1708.17-per1-per2 to b1708.17-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.17-per1-per2/ec/c
-   ** Automatic attribute: b1708.17-per1-per3/ec/c
-** Processing act b$b1708.18
-291:          n$manuel/m/id=b1708.18-per1
-292: 
-293:             pai$antonio goncalves/id=b1708.18-per1-per2
-294:                ls$residencia/casal da assamassa
-295: 
-296:             mae$maria carvalho/id=b1708.18-per1-per3
-297: 
-298:             pad$manuel goncalves galhardo/id=b1708.18-per4
-299:                ls$residencia/soure
-300: 
-301:             mad$francsca goncalves/id=b1708.18-per5
-302: 
-303:             mrmad$manuel jorge/id=b1708.18-per6
-304:                ls$residencia/ameixieira, freguesia de condeixa-a-velha
-305:                ls$freguesia/condeixa-a-velha
-306: 
-307:       b$b1708.19/27/2/1708/0/0/0/alexandre da conceciao, ordem dos loios
-308: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.18-per1-per2 to b1708.18-per1 parentesco/pai
-   ** auto rel: from b1708.18-per1-per3 to b1708.18-per1 parentesco/mae
-   ** auto rel: from b1708.18-per1-per2 to b1708.18-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.18-per1-per2/ec/c
-   ** Automatic attribute: b1708.18-per1-per3/ec/c
-** Processing act b$b1708.19
-309:          n$joao/m/id=b1708.19-per1
-310: 
-311:             pai$manuel soares coelho/mesmo_que=mscoelho/id=b1708.19-per1-per2
-312:                ls$residencia/quinta da cruz
-313: 
-314:             mae$micaela/id=b1708.19-per1-per3
-315: 
-316:             pad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1708.19-per4
-317:                ls$titulo/doutor
-318: 
-319:             mad$cecilia/mesmo_que=c24-7-cec/id=b1708.19-per5
-320: 
-321:       b$b1708.20/1/3/1708/0/0/0/jose pinto
-322: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.19-per1-per2 to b1708.19-per1 parentesco/pai
-   ** auto rel: from b1708.19-per1-per3 to b1708.19-per1 parentesco/mae
-   ** auto rel: from b1708.19-per1-per2 to b1708.19-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.19-per1-per2/ec/c
-   ** Automatic attribute: b1708.19-per1-per3/ec/c
-** Processing act b$b1708.20
-323:          n$luisa/f/id=b1708.20-per1
-324: 
-325:             pai$jose rodrigues/id=b1708.20-per1-per2
-326:                ls$residencia/casa velha
-327: 
-328:             mae$catarina gomes/id=b1708.20-per1-per3
-329: 
-330:             pad$jose/id=b1708.20-per4
-331: 
-332:             ppad$manuel luis/id=b1708.20-per5
-333:                ls$residencia/netos
-334: 
-335:             mad$luisa/id=b1708.20-per6
-336: 
-337:             mmad$maria joao/id=b1708.20-per7
-338:                ls$residencia/netos
-339: 
-340:       b$b1708.21/2/3/1708/0/0/0/jose pinto
-341: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.20-per1-per2 to b1708.20-per1 parentesco/pai
-   ** auto rel: from b1708.20-per1-per3 to b1708.20-per1 parentesco/mae
-   ** auto rel: from b1708.20-per1-per2 to b1708.20-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.20-per1-per2/ec/c
-   ** Automatic attribute: b1708.20-per1-per3/ec/c
-** Processing act b$b1708.21
-342:          n$manuel/m/id=bn02031708
-343: 
-344:             pai$gaspar rodrigues/id=bn02031708-per1
-345:                ls$residencia/alencarce
-346: 
-347:             mae$penolia manuel/id=bn02031708-per2
-348: 
-349:             pad$jose barbosa/id=b1708.21-per3
-350:                ls$residencia/soure
-351: 
-352:             mad$maria/id=b1708.21-per4
-353: 
-354:             pmad$manuel rodrigues ruivo/id=b1708.21-per5
-355:                ls$residencia/soure
-356: 
-357:             referido$manuel alvares/id=br02031708
-358:                rel$sociabilidade/procurador em baptismo/manuel/bn02031708
-359:                ls$residencia/alencarce
-360: 
-361:       b$b1708.22/6/3/1708/0/0/0/jose pinto
-362: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bn02031708-per1 to bn02031708 parentesco/pai
-   ** auto rel: from bn02031708-per2 to bn02031708 parentesco/mae
-   ** auto rel: from bn02031708-per1 to bn02031708-per2 parentesco/marido
-   ** Automatic attribute: bn02031708-per1/ec/c
-   ** Automatic attribute: bn02031708-per2/ec/c
-** Processing act b$b1708.22
-363:          n$caetana/f/id=b1708.22-per1
-364: 
-365:             pai$manuel simoes/id=b1708.22-per1-per2
-366:                ls$residencia/simoes
-367: 
-368:             mae$maria simoes/id=b1708.22-per1-per3
-369: 
-370:             pad$antonio mendes/id=bpad06031708
-371:                ls$residencia/paleao
-372: 
-373:             mad$caetana/id=b1708.22-per4
-374:                rel$parentesco/sobrinha/antonio mendes/bpad06031708
-375: 
-376:       b$b1708.23/6/3/1708/0/0/0/jose pinto
-377: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.22-per1-per2 to b1708.22-per1 parentesco/pai
-   ** auto rel: from b1708.22-per1-per3 to b1708.22-per1 parentesco/mae
-   ** auto rel: from b1708.22-per1-per2 to b1708.22-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.22-per1-per2/ec/c
-   ** Automatic attribute: b1708.22-per1-per3/ec/c
-** Processing act b$b1708.23
-378:          n$dionisia/f/id=b1708.23-per1
-379: 
-380:             pai$paulo da gante/id=b1708.23-per1-per2
-381:                ls$residencia/barril
-382: 
-383:             mae$barbosa de oliveira/id=b1708.23-per1-per3
-384: 
-385:             pad$dionisio magalhaes/id=b1708.23-per4
-386:                ls$residencia/soure
-387: 
-388:             mad$domingas esteves/id=b1708.23-per5
-389: 
-390:             mrmad$manuel rodrigues feijao/id=b1708.23-per6
-391: 
-392:       b$b1708.24/8/3/1708/0/0/0/jose pinto
-393: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.23-per1-per2 to b1708.23-per1 parentesco/pai
-   ** auto rel: from b1708.23-per1-per3 to b1708.23-per1 parentesco/mae
-   ** auto rel: from b1708.23-per1-per2 to b1708.23-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.23-per1-per2/ec/c
-   ** Automatic attribute: b1708.23-per1-per3/ec/c
-** Processing act b$b1708.24
-394:          n$maria/f/id=b1708.24-per1
-395: 
-396:             pai$domingos goncalves/id=b1708.24-per1-per2
-397:                ls$residencia/sobral
-398: 
-399:             mae$margarida rodrigues/id=b1708.24-per1-per3
-400: 
-401:             pad$joao rodrigues/id=b1708.24-per4
-402:                ls$residencia/sobral
-403: 
-404:             mad$antonia da fonseca/id=b1708.24-per5
-405:                ls$ec/v
-406:                ls$residencia/sobral
-407: 
-408:       b$b1708.25/12/3/1708/0/0/0/jose pinto
-409: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.24-per1-per2 to b1708.24-per1 parentesco/pai
-   ** auto rel: from b1708.24-per1-per3 to b1708.24-per1 parentesco/mae
-   ** auto rel: from b1708.24-per1-per2 to b1708.24-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.24-per1-per2/ec/c
-   ** Automatic attribute: b1708.24-per1-per3/ec/c
-** Processing act b$b1708.25
-410:          n$antonio/m/id=b1708.25-per1
-411: 
-412:             pai$jose goncalves/id=b1708.25-per1-per2
-413:                ls$residencia/espirito santo
-414: 
-415:             mae$isabel francisca/id=b1708.25-per1-per3
-416: 
-417:             pad$antonio aires/id=b1708.25-per4
-418:                ls$residencia/espirito santo
-419: 
-420:             mad$serafina ferreira/id=b1708.25-per5
-421: 
-422:             mrmad$manuel pereira/id=b1708.25-per6
-423:                ls$residencia/pouca pena
-424: 
-425:       b$b1708.26/14/3/1708/0/0/0/jose pinto
-426: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.25-per1-per2 to b1708.25-per1 parentesco/pai
-   ** auto rel: from b1708.25-per1-per3 to b1708.25-per1 parentesco/mae
-   ** auto rel: from b1708.25-per1-per2 to b1708.25-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.25-per1-per2/ec/c
-   ** Automatic attribute: b1708.25-per1-per3/ec/c
-** Processing act b$b1708.26
-427:          n$jose/m/id=b1708.26-per1
-428: 
-429:             pai$antonio aires/id=b1708.26-per1-per2
-430:                ls$residencia/paleao
-431: 
-432:             mae$josefa de oliveira/id=b1708.26-per1-per3
-433: 
-434:             pad$jose barbosa canais/mesmo_que=c17-7/id=b1708.26-per4
-435:                ls$residencia/soure
-436: 
-437:             mad$catarina%cna/id=b1708.26-per5
-438: 
-439:             mmad$ana gaspar/mesmo_que=anagasp/id=b1708.26-per6
-440: 
-441:       b$b1708.27/15/3/1708/0/0/0/manuel martins
-442: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.26-per1-per2 to b1708.26-per1 parentesco/pai
-   ** auto rel: from b1708.26-per1-per3 to b1708.26-per1 parentesco/mae
-   ** auto rel: from b1708.26-per1-per2 to b1708.26-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.26-per1-per2/ec/c
-   ** Automatic attribute: b1708.26-per1-per3/ec/c
-** Processing act b$b1708.27
-443:          n$rosa/f/id=b1708.27-per1
-444: 
-445:             pai$jose vieira/id=b1708.27-per1-per2
-446:                ls$residencia/soure
-447: 
-448:             mae$natalia rodrigues/id=b1708.27-per1-per3
-449: 
-450:             pad$domingos goncalves galhardo/id=b1708.27-per4
-451:                ls$residencia/soure
-452: 
-453:             mad$rosa/id=b1708.27-per5
-454: 
-455:             pmad$sebastiao goncalves/mesmo_que=sgoncalves/id=b1708.27-per6
-456: 
-457:       b$b1708.28/16/3/1708/0/0/0/jose pinto
-458: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.27-per1-per2 to b1708.27-per1 parentesco/pai
-   ** auto rel: from b1708.27-per1-per3 to b1708.27-per1 parentesco/mae
-   ** auto rel: from b1708.27-per1-per2 to b1708.27-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.27-per1-per2/ec/c
-   ** Automatic attribute: b1708.27-per1-per3/ec/c
-** Processing act b$b1708.28
-459:          n$antonia/f/id=b1708.28-per1
-460: 
-461:             pai$manuel francisco/id=b1708.28-per1-per2
-462:                ls$residencia/paleao
-463: 
-464:             mae$isabel simoes/id=b1708.28-per1-per3
-465: 
-466:             pad$manuel domingues/id=bpad16031708
-467:                ls$residencia/paleao
-468: 
-469:             mad$antonia rodrigues/id=b1708.28-per4
-470:                rel$parentesco/irma/manuel domingues/bpad16031708
-471: 
-472:       b$b1708.29/19/3/1708/0/0/0/jose pinto
-473: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.28-per1-per2 to b1708.28-per1 parentesco/pai
-   ** auto rel: from b1708.28-per1-per3 to b1708.28-per1 parentesco/mae
-   ** auto rel: from b1708.28-per1-per2 to b1708.28-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.28-per1-per2/ec/c
-   ** Automatic attribute: b1708.28-per1-per3/ec/c
-** Processing act b$b1708.29
-474:          n$francisca/f/id=b1708.29-per1
-475: 
-476:             pai$antonio lopes/id=b1708.29-per1-per2
-477:                ls$profissao/alfaiate
-478:                ls$residencia/soure
-479: 
-480:             mae$teresa jesus/id=b1708.29-per1-per3
-481: 
-482:             pad$luis manhos de abreu/id=b1708.29-per4
-483: 
-484:             mad$cecilia/mesmo_que=c24-7-cec/id=b1708.29-per5
-485: 
-486:       b$b1708.30/23/3/1708/0/0/0/jose pinto/obs=sem madrinha
-487: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.29-per1-per2 to b1708.29-per1 parentesco/pai
-   ** auto rel: from b1708.29-per1-per3 to b1708.29-per1 parentesco/mae
-   ** auto rel: from b1708.29-per1-per2 to b1708.29-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.29-per1-per2/ec/c
-   ** Automatic attribute: b1708.29-per1-per3/ec/c
-** Processing act b$b1708.30
-488:          n$josefa/f/id=b1708.30-per1
-489: 
-490:             pai$joao francisco/id=b1708.30-per1-per2
-491:                ls$residencia/barril
-492: 
-493:             mae$isabel rodrigues/id=b1708.30-per1-per3
-494: 
-495:             pad$joao mendes/id=b1708.30-per4
-496:                ls$residencia/casal de s.mateus
-497: 
-498:       b$b1708.31/7/4/1708/0/0/0/jose pinto
-499: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.30-per1-per2 to b1708.30-per1 parentesco/pai
-   ** auto rel: from b1708.30-per1-per3 to b1708.30-per1 parentesco/mae
-   ** auto rel: from b1708.30-per1-per2 to b1708.30-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.30-per1-per2/ec/c
-   ** Automatic attribute: b1708.30-per1-per3/ec/c
-** Processing act b$b1708.31
-500:          n$maria/f/id=bn07041708
-501: 
-502:             pai$jose marques/id=bn07041708-per1
-503:                ls$residencia/soure
-504: 
-505:             mae$maria dos ramos/id=bn07041708-per2
-506: 
-507:             pad$jose/id=b1708.31-per3
-508: 
-509:             ppad$sebastiao machado da costa%sebastiao machado/mesmo_que=c12-8/id=b1708.31-per4
-510: 
-511:             mad$angela/id=b1708.31-per5
-512:                rel$parentesco/filha/sebastiao machado da costa/c12-8
-513: 
-514:             referida$isabel marques/id=br07041708
-515:                rel$sociabilidade/baptizou em necessidade/maria/bn07041708
-516: 
-517:       b$b1708.32/9/4/1708/0/0/0/jose pinto/obs=sem madrinha
-518: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bn07041708-per1 to bn07041708 parentesco/pai
-   ** auto rel: from bn07041708-per2 to bn07041708 parentesco/mae
-   ** auto rel: from bn07041708-per1 to bn07041708-per2 parentesco/marido
-   ** Automatic attribute: bn07041708-per1/ec/c
-   ** Automatic attribute: bn07041708-per2/ec/c
-** Processing act b$b1708.32
-519:          n$joao/m/id=b1708.32-per1
-520: 
-521:             pai$francisco mateus/id=b1708.32-per1-per2
-522:                ls$residencia/soure
-523: 
-524:             mae$joana francisca/id=b1708.32-per1-per3
-525: 
-526:             pad$geraldo pereira coutinho%geraldo pereira/mesmo_que=gpereira/id=b1708.32-per4
-527:                ls$cargo/lente da universidade de coimbra
-528: 
-529:       b$b1708.33/15/4/1708/0/0/0/jose pinto
-530: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.32-per1-per2 to b1708.32-per1 parentesco/pai
-   ** auto rel: from b1708.32-per1-per3 to b1708.32-per1 parentesco/mae
-   ** auto rel: from b1708.32-per1-per2 to b1708.32-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.32-per1-per2/ec/c
-   ** Automatic attribute: b1708.32-per1-per3/ec/c
-** Processing act b$b1708.33
-531:          n$joao/m/id=b1708.33-per1
-532: 
-533:             pai$jose gaspar/id=b1708.33-per1-per2
-534:                ls$residencia/simoes
-535: 
-536:             mae$maria francisca/id=b1708.33-per1-per3
-537: 
-538:             pad$joao/id=b1708.33-per4
-539: 
-540:             mpad$maria simoes/id=b1708.33-per5
-541:                ls$residencia/simoes
-542: 
-543:             mad$josefa/id=b1708.33-per6
-544: 
-545:             mmad$antonia gaspar/id=b1708.33-per7
-546:                ls$residencia/simoes
-547: 
-548:       b$b1708.34/15/4/1708/0/0/0/jose pinto
-549: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.33-per1-per2 to b1708.33-per1 parentesco/pai
-   ** auto rel: from b1708.33-per1-per3 to b1708.33-per1 parentesco/mae
-   ** auto rel: from b1708.33-per1-per2 to b1708.33-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.33-per1-per2/ec/c
-   ** Automatic attribute: b1708.33-per1-per3/ec/c
-** Processing act b$b1708.34
-550:          n$isabel/f/id=b1708.34-per1
-551: 
-552:             pai$manuel francisco/id=b1708.34-per1-per2
-553:                ls$residencia/soure
-554: 
-555:             mae$isabel rodrigues/id=b1708.34-per1-per3
-556: 
-557:             pad$miguel da gante/id=b1708.34-per4
-558:                ls$residencia/soure
-559: 
-560:             mad$isabel/id=b1708.34-per5
-561: 
-562:             pmad$antonio francisco baralhao/id=b1708.34-per6
-563:                ls$residencia/soure
-564: 
-565:       b$b1708.35/16/4/1708/0/0/0/jose mendes
-566: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.34-per1-per2 to b1708.34-per1 parentesco/pai
-   ** auto rel: from b1708.34-per1-per3 to b1708.34-per1 parentesco/mae
-   ** auto rel: from b1708.34-per1-per2 to b1708.34-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.34-per1-per2/ec/c
-   ** Automatic attribute: b1708.34-per1-per3/ec/c
-** Processing act b$b1708.35
-567:          n$joao/m/id=b1708.35-per1
-568: 
-569:             pai$antonio joao/id=b1708.35-per1-per2
-570:                ls$residencia/fonte da bica
-571: 
-572:             mae$maria francisca/id=b1708.35-per1-per3
-573: 
-574:             pad$joao francisco/id=b1708.35-per4
-575:                ls$residencia/vascos, freguesia da almagreira
-576:                ls$freguesia/almagreira
-577: 
-578:             mad$maria francisca/id=b1708.35-per5
-579: 
-580:             mrmad$sebastiao rodrigues/id=b1708.35-per6
-581:                ls$residencia/netos
-582: 
-583:       b$b1708.36/26/4/1708/0/0/0/jose pinto
-584: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.35-per1-per2 to b1708.35-per1 parentesco/pai
-   ** auto rel: from b1708.35-per1-per3 to b1708.35-per1 parentesco/mae
-   ** auto rel: from b1708.35-per1-per2 to b1708.35-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.35-per1-per2/ec/c
-   ** Automatic attribute: b1708.35-per1-per3/ec/c
-** Processing act b$b1708.36
-585:          n$caetana/f/id=b1708.36-per1
-586: 
-587:             pai$antonio simoes/id=b1708.36-per1-per2
-588:                ls$residencia/sobral
-589: 
-590:             mae$isabel francisca/id=b1708.36-per1-per3
-591: 
-592:             pad$domingos lopes/id=b1708.36-per4
-593:                ls$residencia/casa velha
-594: 
-595:             mad$josefa francisca/id=b1708.36-per5
-596: 
-597:             mrmad$joao rodrigues/id=b1708.36-per6
-598:                ls$residencia/sobral
-599: 
-600:       b$b1708.37/29/4/1708/0/0/0/jose pinto
-601: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.36-per1-per2 to b1708.36-per1 parentesco/pai
-   ** auto rel: from b1708.36-per1-per3 to b1708.36-per1 parentesco/mae
-   ** auto rel: from b1708.36-per1-per2 to b1708.36-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.36-per1-per2/ec/c
-   ** Automatic attribute: b1708.36-per1-per3/ec/c
-** Processing act b$b1708.37
-602:          n$caetana/f/id=b1708.37-per1
-603: 
-604:             pai$manuel rodrigues/id=b1708.37-per1-per2
-605:                ls$residencia/olho marinho
-606: 
-607:             mae$guiomar da silva/id=b1708.37-per1-per3
-608: 
-609:             pad$antonio madeira/id=b1708.37-per4
-610:                ls$residencia/cascao
-611: 
-612:             mad$josefa/id=b1708.37-per5
-613:                ls$ec/s
-614:                ls$residencia/cascao
-615: 
-616:       b$b1708.38/1/5/1708/0/0/0/jose pinto
-617: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.37-per1-per2 to b1708.37-per1 parentesco/pai
-   ** auto rel: from b1708.37-per1-per3 to b1708.37-per1 parentesco/mae
-   ** auto rel: from b1708.37-per1-per2 to b1708.37-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.37-per1-per2/ec/c
-   ** Automatic attribute: b1708.37-per1-per3/ec/c
-** Processing act b$b1708.38
-618:          n$maria/f/id=bn01051708
-619: 
-620:             pai$jose de morais/id=bpai01051708
-621: 
-622:             mae$domingas da silva/id=bmae01051708
-623: 
-624:             pad$manuel pessoa leitao/id=b1708.38-per1
-625: 
-626:             mad$isabel duarte/id=b1708.38-per2
-627: 
-628:             mrmad$manuel rodrigues serrao/id=b1708.38-per3
-629: 
-630:       b$b1708.39/1/5/1708/0/0/0/jose pinto
-631: 
-**** auto rels 2 STARTED.
-   ** auto rel: from bpai01051708 to bn01051708 parentesco/pai
-   ** auto rel: from bmae01051708 to bn01051708 parentesco/mae
-   ** auto rel: from bpai01051708 to bmae01051708 parentesco/marido
-   ** Automatic attribute: bpai01051708/ec/c
-   ** Automatic attribute: bmae01051708/ec/c
-** Processing act b$b1708.39
-632:          n$antonia/f/id=b1708.39-per1
-633:             rel$parentesco/irma gemea/maria/bn01051708
-634: 
-635:             pai$jose de morais/mesmo_que=bpai01051708/id=b1708.39-per1-per2
-636: 
-637:             mae$domingas da silva/mesmo_que=bmae01051708/id=b1708.39-per1-per3
-638: 
-639:             pad$simao rodrigues/id=b1708.39-per4
-640:                ls$residencia/casal do rei
-641: 
-642:             mad$damiana/id=b1708.39-per5
-643:                rel$parentesco/irma/vicente colaco de morais/c104-7
-644: 
-645:             referido$jeronimo rodrigues/id=br01051708
-646:                ls$profissao/padre
-647:                ls$residencia/soure
-648:                rel$sociabilidade/baptizou em necessidade/maria/bn01051708
-649: 
-650:       b$b1708.40/13/5/1708/0/0/0/jose pinto
-651: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.39-per1-per2 to b1708.39-per1 parentesco/pai
-   ** auto rel: from b1708.39-per1-per3 to b1708.39-per1 parentesco/mae
-   ** auto rel: from b1708.39-per1-per2 to b1708.39-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.39-per1-per2/ec/c
-   ** Automatic attribute: b1708.39-per1-per3/ec/c
-** Processing act b$b1708.40
-652:          n$domingas/f/id=b1708.40-per1
-653: 
-654:             pai$andre goncalves/id=b1708.40-per1-per2
-655:                ls$residencia/sobral
-656: 
-657:             mae$francisca cordeiro/id=b1708.40-per1-per3
-658: 
-659:             pad$antonio francisco/id=b1708.40-per4
-660:                ls$residencia/sobral
-661: 
-662:             mad$domingas/id=b1708.40-per5
-663:                ls$ec/s
-664: 
-665:             pmad$joao rodrigues/id=b1708.40-per6
-666:                ls$residencia/sobral
-667: 
-668:       b$b1708.41/13/5/1708/0/0/0/jose pinto
-669: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.40-per1-per2 to b1708.40-per1 parentesco/pai
-   ** auto rel: from b1708.40-per1-per3 to b1708.40-per1 parentesco/mae
-   ** auto rel: from b1708.40-per1-per2 to b1708.40-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.40-per1-per2/ec/c
-   ** Automatic attribute: b1708.40-per1-per3/ec/c
-** Processing act b$b1708.41
-670:          n$manuel/m/id=b1708.41-per1
-671: 
-672:             pai$ascenso martins/id=b1708.41-per1-per2
-673:                ls$residencia/casal da charneca
-674: 
-675:             mae$maria francisca/id=b1708.41-per1-per3
-676: 
-677:             pad$vicente colaco de morais%vicente colaco/mesmo_que=c104-7/id=b1708.41-per4
-678: 
-679:             mad$damiana/id=b1708.41-per5
-680:                rel$parentesco/filha/vicente colaco de morais/c104-7
-681: 
-682:       b$b1708.42/13/5/1708/0/0/0/jose pinto
-683: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.41-per1-per2 to b1708.41-per1 parentesco/pai
-   ** auto rel: from b1708.41-per1-per3 to b1708.41-per1 parentesco/mae
-   ** auto rel: from b1708.41-per1-per2 to b1708.41-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.41-per1-per2/ec/c
-   ** Automatic attribute: b1708.41-per1-per3/ec/c
-** Processing act b$b1708.42
-684:          n$antonia/f/id=b1708.42-per1
-685: 
-686:             pai$manuel alvares/id=b1708.42-per1-per2
-687:                ls$residencia/alencarce de cima
-688: 
-689:             mae$maria joao/id=b1708.42-per1-per3
-690: 
-691:             pad$henrique barbosa/id=b1708.42-per4
-692:                ls$residencia/soure
-693: 
-694:             mad$antonia/id=b1708.42-per5
-695:                ls$titulo/dona
-696: 
-697:             mmad$madalena/id=b1708.42-per6
-698:                ls$titulo/dona
-699:                ls$residencia/soure
-700: 
-701:       b$b1708.43/13/5/1708/0/0/0/jose pinto
-702: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.42-per1-per2 to b1708.42-per1 parentesco/pai
-   ** auto rel: from b1708.42-per1-per3 to b1708.42-per1 parentesco/mae
-   ** auto rel: from b1708.42-per1-per2 to b1708.42-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.42-per1-per2/ec/c
-   ** Automatic attribute: b1708.42-per1-per3/ec/c
-** Processing act b$b1708.43
-703:          n$domingas/f/id=b1708.43-per1
-704: 
-705:             pai$jose rodrigues/id=b1708.43-per1-per2
-706:                ls$residencia/casal de galegos
-707: 
-708:             mae$isabel goncalves/id=b1708.43-per1-per3
-709: 
-710:             pad$silvestre jorge de carvalho/id=b1708.43-per4
-711:                ls$residencia/casalinhos
-712: 
-713:             mad$iria/id=b1708.43-per5
-714: 
-715:             pmad$domingos alvares/id=b1708.43-per6
-716:                ls$residencia/casalinhos
-717: 
-718:       b$b1708.44/13/5/1708/0/0/0/manuel martins, irmao do pai
-719: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.43-per1-per2 to b1708.43-per1 parentesco/pai
-   ** auto rel: from b1708.43-per1-per3 to b1708.43-per1 parentesco/mae
-   ** auto rel: from b1708.43-per1-per2 to b1708.43-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.43-per1-per2/ec/c
-   ** Automatic attribute: b1708.43-per1-per3/ec/c
-** Processing act b$b1708.44
-720:          n$maria/f/id=b1708.44-per1
-721: 
-722:             pai$jose martins/id=b1708.44-per1-per2
-723:                ls$residencia/soure
-724: 
-725:             mae$joana rodrigues/id=b1708.44-per1-per3
-726: 
-727:             pad$rodrigo/id=b1708.44-per4
-728: 
-729:             ppad$manuel homem de quadros/mesmo_que=c6-7/id=b1708.44-per5
-730: 
-731:             mad$francisca/id=b1708.44-per6
-732:                ls$titulo/dona
-733:                rel$parentesco/filha/manuel homem de quadros/c6-7
-734: 
-735:       b$b1708.45/24/5/1708/0/0/0/jose pinto
-736: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.44-per1-per2 to b1708.44-per1 parentesco/pai
-   ** auto rel: from b1708.44-per1-per3 to b1708.44-per1 parentesco/mae
-   ** auto rel: from b1708.44-per1-per2 to b1708.44-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.44-per1-per2/ec/c
-   ** Automatic attribute: b1708.44-per1-per3/ec/c
-** Processing act b$b1708.45
-737:          n$maria/f/id=b1708.45-per1
-738: 
-739:             pai$manuel jorge/id=b1708.45-per1-per2
-740:                ls$residencia/casal das galinhas
-741: 
-742:             mae$maria travassos/id=b1708.45-per1-per3
-743: 
-744:             pad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1708.45-per4
-745: 
-746:             mad$maria/id=b1708.45-per5
-747: 
-748:             pmad$andre fernandes/id=b1708.45-per6
-749:                ls$residencia/casal das brancas
-750: 
-751:       b$b1708.46/27/5/1708/0/0/0/jose pinto
-752: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.45-per1-per2 to b1708.45-per1 parentesco/pai
-   ** auto rel: from b1708.45-per1-per3 to b1708.45-per1 parentesco/mae
-   ** auto rel: from b1708.45-per1-per2 to b1708.45-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.45-per1-per2/ec/c
-   ** Automatic attribute: b1708.45-per1-per3/ec/c
-** Processing act b$b1708.46
-753:          n$francisca/f/id=b1708.46-per1
-754: 
-755:             pai$manuel rodrigues/id=b1708.46-per1-per2
-756:                ls$residencia/soure
-757: 
-758:             mae$antonia goncalves/id=b1708.46-per1-per3
-759: 
-760:             pad$jose/id=b1708.46-per4
-761: 
-762:             ppad$sebastiao machado da costa%sebastiao machado/mesmo_que=c12-8/id=b1708.46-per5
-763: 
-764:             mad$francisca/mesmo_que=c119-9-fran/id=b1708.46-per6
-765: 
-766:       b$b1708.47/27/5/1708/0/0/0/jose pinto
-767: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.46-per1-per2 to b1708.46-per1 parentesco/pai
-   ** auto rel: from b1708.46-per1-per3 to b1708.46-per1 parentesco/mae
-   ** auto rel: from b1708.46-per1-per2 to b1708.46-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.46-per1-per2/ec/c
-   ** Automatic attribute: b1708.46-per1-per3/ec/c
-** Processing act b$b1708.47
-768:          n$joao/m/id=b1708.47-per1
-769: 
-770:             pai$joao rodrigues perna/id=b1708.47-per1-per2
-771:                ls$residencia/moinhos do paleao
-772: 
-773:             mae$isabel gomes/id=b1708.47-per1-per3
-774: 
-775:             pad$joao gaspar/id=b1708.47-per4
-776: 
-777:             mpad$ana gaspar/mesmo_que=anagasp/id=b1708.47-per5
-778:                ls$residencia/paleao
-779: 
-780:             mad$catarina/id=b1708.47-per6
-781:                rel$parentesco/filha/ana gaspar/anagasp
-782: 
-783:       b$b1708.48/28/5/1708/0/0/0/luis ribeiro
-784: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.47-per1-per2 to b1708.47-per1 parentesco/pai
-   ** auto rel: from b1708.47-per1-per3 to b1708.47-per1 parentesco/mae
-   ** auto rel: from b1708.47-per1-per2 to b1708.47-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.47-per1-per2/ec/c
-   ** Automatic attribute: b1708.47-per1-per3/ec/c
-** Processing act b$b1708.48
-785:          n$ana/f/id=b1708.48-per1
-786: 
-787:             pai$jose antunes/id=b1708.48-per1-per2
-788:                ls$residencia/casal das brancas
-789: 
-790:             mae$mariana rodrigues/id=b1708.48-per1-per3
-791: 
-792:             pad$paulo ribeiro cabral/mesmo_que=c24-7/id=b1708.48-per4
-793: 
-794:             mad$ana de almeida/id=b1708.48-per5
-795:                rel$parentesco/irma/paulo ribeiro cabral/c24-7
-796: 
-797:       b$b1708.49/31/5/1708/0/0/0/jose pinto
-798: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.48-per1-per2 to b1708.48-per1 parentesco/pai
-   ** auto rel: from b1708.48-per1-per3 to b1708.48-per1 parentesco/mae
-   ** auto rel: from b1708.48-per1-per2 to b1708.48-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.48-per1-per2/ec/c
-   ** Automatic attribute: b1708.48-per1-per3/ec/c
-** Processing act b$b1708.49
-799:          n$manuel/m/id=b1708.49-per1
-800: 
-801:             pai$manuel goncalves/id=b1708.49-per1-per2
-802:                ls$residencia/casal dos louzoes
-803: 
-804:             mae$maria cordeiro/id=b1708.49-per1-per3
-805: 
-806:             pad$manuel duarte/id=b1708.49-per4
-807:                ls$residencia/casal dos louzoes
-808: 
-809:             mad$antonia/id=b1708.49-per5
-810: 
-811:             pmad$matias fernades/id=b1708.49-per6
-812:                ls$residencia/casal dos louzoes
-813: 
-814:       b$b1708.50/3/6/1708/0/0/0/jose pinto
-815: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.49-per1-per2 to b1708.49-per1 parentesco/pai
-   ** auto rel: from b1708.49-per1-per3 to b1708.49-per1 parentesco/mae
-   ** auto rel: from b1708.49-per1-per2 to b1708.49-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.49-per1-per2/ec/c
-   ** Automatic attribute: b1708.49-per1-per3/ec/c
-** Processing act b$b1708.50
-816:          n$jose/m/id=b1708.50-per1
-817: 
-818:             pai$joao rodrigues/id=b1708.50-per1-per2
-819:                ls$residencia/fatacos
-820: 
-821:             mae$mariana ferreira/id=b1708.50-per1-per3
-822: 
-823:             pad$jose goncalves/id=b1708.50-per4
-824:                ls$profissao/padre
-825: 
-826:             mad$maria tome/id=b1708.50-per5
-827: 
-828:             mrmad$manuel rodrigues/id=b1708.50-per6
-829:                ls$residencia/charneca
-830: 
-831:       b$b1708.51/3/6/1708/0/0/0/jose pinto
-832: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.50-per1-per2 to b1708.50-per1 parentesco/pai
-   ** auto rel: from b1708.50-per1-per3 to b1708.50-per1 parentesco/mae
-   ** auto rel: from b1708.50-per1-per2 to b1708.50-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.50-per1-per2/ec/c
-   ** Automatic attribute: b1708.50-per1-per3/ec/c
-** Processing act b$b1708.51
-833:          n$jose/m/id=b1708.51-per1
-834: 
-835:             pai$manuel francisco/id=b1708.51-per1-per2
-836:                ls$alcunha/moco
-837:                ls$residencia/sobral
-838: 
-839:             mae$isabel francisca/id=b1708.51-per1-per3
-840: 
-841:             pad$jose/id=b1708.51-per4
-842: 
-843:             ppad$joao rodrigues/id=b1708.51-per5
-844:                ls$residencia/sobral
-845: 
-846:             mad$antonia esteves/id=b1708.51-per6
-847: 
-848:             mrmad$domingos francisco/id=b1708.51-per7
-849:                ls$residencia/sobral
-850: 
-851:       b$b1708.52/7/6/1708/0/0/0/jose pinto
-852: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.51-per1-per2 to b1708.51-per1 parentesco/pai
-   ** auto rel: from b1708.51-per1-per3 to b1708.51-per1 parentesco/mae
-   ** auto rel: from b1708.51-per1-per2 to b1708.51-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.51-per1-per2/ec/c
-   ** Automatic attribute: b1708.51-per1-per3/ec/c
-** Processing act b$b1708.52
-853:          n$joao/m/id=b1708.52-per1
-854: 
-855:             pai$manuel da costa/id=b1708.52-per1-per2
-856:                ls$residencia/casa velha
-857: 
-858:             mae$antonia goncalves/id=b1708.52-per1-per3
-859: 
-860:             pad$joao duarte/id=b1708.52-per4
-861: 
-862:             mad$mizia rodrigues/id=b1708.52-per5
-863: 
-864:             mrmad$manuel lopes/id=b1708.52-per6
-865:                ls$residencia/casa velha
-866: 
-867:       b$b1708.53/10/6/1708/0/0/0/jose pinto
-868: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.52-per1-per2 to b1708.52-per1 parentesco/pai
-   ** auto rel: from b1708.52-per1-per3 to b1708.52-per1 parentesco/mae
-   ** auto rel: from b1708.52-per1-per2 to b1708.52-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.52-per1-per2/ec/c
-   ** Automatic attribute: b1708.52-per1-per3/ec/c
-** Processing act b$b1708.53
-869:          n$joao/m/id=b1708.53-per1
-870: 
-871:             pai$joao coelho/id=b1708.53-per1-per2
-872:                ls$residencia/corujeira
-873: 
-874:             mae$maria simoes/id=b1708.53-per1-per3
-875: 
-876:             pad$manuel cardoso/id=b1708.53-per4
-877:                ls$residencia/corcozes
-878: 
-879:             mad$esperanca/id=b1708.53-per5
-880: 
-881:             pmad$simao luis/id=b1708.53-per6
-882:                ls$residencia/corujeira
-883: 
-884:       b$b1708.54/10/6/1708/0/0/0/jose pinto
-885: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.53-per1-per2 to b1708.53-per1 parentesco/pai
-   ** auto rel: from b1708.53-per1-per3 to b1708.53-per1 parentesco/mae
-   ** auto rel: from b1708.53-per1-per2 to b1708.53-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.53-per1-per2/ec/c
-   ** Automatic attribute: b1708.53-per1-per3/ec/c
-** Processing act b$b1708.54
-886:          n$luis/m/id=b1708.54-per1
-887: 
-888:             pai$manuel rodrigues/id=b1708.54-per1-per2
-889:                ls$residencia/lajem
-890: 
-891:             mae$isabel rodrigues/id=b1708.54-per1-per3
-892: 
-893:             pad$luis manhos de abreu/id=b1708.54-per4
-894: 
-895:             mad$catarina/id=b1708.54-per5
-896: 
-897:             mmad$luisa de pina/id=b1708.54-per6
-898:                ls$residencia/casais de s.mateus
-899: 
-900:       b$b1708.55/17/6/1708/0/0/0/jose pinto
-901: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.54-per1-per2 to b1708.54-per1 parentesco/pai
-   ** auto rel: from b1708.54-per1-per3 to b1708.54-per1 parentesco/mae
-   ** auto rel: from b1708.54-per1-per2 to b1708.54-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.54-per1-per2/ec/c
-   ** Automatic attribute: b1708.54-per1-per3/ec/c
-** Processing act b$b1708.55
-902:          n$francisco/m/id=b1708.55-per1
-903: 
-904:             pai$manuel ramos/id=b1708.55-per1-per2
-905:                ls$residencia/charneca
-906: 
-907:             mae$isabel rodrigues/id=b1708.55-per1-per3
-908: 
-909:             pad$manuel francisco/id=bpad17061708
-910:                ls$residencia/alencarce
-911: 
-912:             mad$francisca/id=b1708.55-per4
-913:                rel$parentesco/irma/manuel francisco/bpad17061708
-914: 
-915:       b$b1708.56/17/6/1708/0/0/0/jose pinto
-916: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.55-per1-per2 to b1708.55-per1 parentesco/pai
-   ** auto rel: from b1708.55-per1-per3 to b1708.55-per1 parentesco/mae
-   ** auto rel: from b1708.55-per1-per2 to b1708.55-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.55-per1-per2/ec/c
-   ** Automatic attribute: b1708.55-per1-per3/ec/c
-** Processing act b$b1708.56
-917:          n$manuel/m/id=b1708.56-per1
-918: 
-919:             pai$pedro cordeiro/id=b1708.56-per1-per2
-920:                ls$residencia/casa velha
-921: 
-922:             mae$ines da costa/id=b1708.56-per1-per3
-923: 
-924:             pad$manuel cardoso/id=b1708.56-per4
-925:                ls$residencia/casa velha
-926: 
-927:             mad$maria pedroso/id=b1708.56-per5
-928: 
-929:             mrmad$joao mateus/id=b1708.56-per6
-930:                ls$residencia/casa velha
-931: 
-932:       b$b1708.57/20/6/1708/0/0/0/jose pinto
-933: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.56-per1-per2 to b1708.56-per1 parentesco/pai
-   ** auto rel: from b1708.56-per1-per3 to b1708.56-per1 parentesco/mae
-   ** auto rel: from b1708.56-per1-per2 to b1708.56-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.56-per1-per2/ec/c
-   ** Automatic attribute: b1708.56-per1-per3/ec/c
-** Processing act b$b1708.57
-934:          n$joao/m/id=b1708.57-per1
-935: 
-936:             pai$manuel de abreu/id=b1708.57-per1-per2
-937:                ls$residencia/paleao
-938: 
-939:             mae$antonia carvalho/id=b1708.57-per1-per3
-940: 
-941:             pad$joao gaspar/id=b1708.57-per4
-942:                ls$residencia/paleao
-943: 
-944:             mad$maria leao/id=b1708.57-per5
-945: 
-946:             mrmad$joao domingues/id=b1708.57-per6
-947:                ls$residencia/paleao
-948: 
-949:       b$b1708.58/23/6/1708/0/0/0/jose pinto
-950: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.57-per1-per2 to b1708.57-per1 parentesco/pai
-   ** auto rel: from b1708.57-per1-per3 to b1708.57-per1 parentesco/mae
-   ** auto rel: from b1708.57-per1-per2 to b1708.57-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.57-per1-per2/ec/c
-   ** Automatic attribute: b1708.57-per1-per3/ec/c
-** Processing act b$b1708.58
-951:          n$manuel/m/id=b1708.58-per1
-952: 
-953:             pai$manuel cordeiro/id=b1708.58-per1-per2
-954:                ls$residencia/casal do vinagre
-955: 
-956:             mae$maria madeira/id=b1708.58-per1-per3
-957: 
-958:             pad$manuel duarte/id=b1708.58-per4
-959:                ls$titulo/frei
-960:                ls$cargo/capelao de soure
-961: 
-962:             mad$madalena/id=b1708.58-per5
-963: 
-964:             pmad$filipe ?/id=b1708.58-per6
-965:                ls$residencia/condeixa-a-nova, freguesia de condeixa-a-nova
-966:                ls$freguesia/condeixa-a-nova
-967: 
-968:       b$b1708.59/24/6/1708/0/0/0/jose pinto
-969: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.58-per1-per2 to b1708.58-per1 parentesco/pai
-   ** auto rel: from b1708.58-per1-per3 to b1708.58-per1 parentesco/mae
-   ** auto rel: from b1708.58-per1-per2 to b1708.58-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.58-per1-per2/ec/c
-   ** Automatic attribute: b1708.58-per1-per3/ec/c
-** Processing act b$b1708.59
-970:          n$teresa/f/id=b1708.59-per1
-971: 
-972:             pai$manuel luis/id=b1708.59-per1-per2
-973:                ls$alcunha/moco
-974:                ls$residencia/casconho
-975: 
-976:             mae$maria domingues/id=b1708.59-per1-per3
-977: 
-978:             pad$antonio domingues/id=b1708.59-per4
-979:                ls$residencia/casconho
-980: 
-981:             mad$teresa joao/id=b1708.59-per5
-982: 
-983:             mrmad$domingos lourenco/id=b1708.59-per6
-984:                ls$residencia/casconho
-985: 
-986:       b$b1708.60/27/6/1708/0/0/0/manuel duarte
-987: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.59-per1-per2 to b1708.59-per1 parentesco/pai
-   ** auto rel: from b1708.59-per1-per3 to b1708.59-per1 parentesco/mae
-   ** auto rel: from b1708.59-per1-per2 to b1708.59-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.59-per1-per2/ec/c
-   ** Automatic attribute: b1708.59-per1-per3/ec/c
-** Processing act b$b1708.60
-988:          n$ana/f/id=b1708.60-per1
-989: 
-990:             pai$manuel ferreira mioto/id=b1708.60-per1-per2
-991:                ls$residencia/soure
-992: 
-993:             mae$antonia rodrigues/id=b1708.60-per1-per3
-994: 
-995:             pad$diogo coelho/id=bpad27061708
-996:                ls$residencia/montemor-o-velho, freguesia de
-997:                ls$freguesia/montemor ?
-998: 
-999:             mad$ana de almeida/id=b1708.60-per4
-1000:                rel$parentesco/irma/luis ribeiro/plribeiro
-1001: 
-1002:             referido$luis ribeiro/mesmo_que=plribeiro/id=b1708.60-per5
-1003:                rel$sociabilidade/procurador em baptismo/diogo coelho/bpad27061708
-1004: 
-1005:       b$b1708.61/29/6/1708/0/0/0/jose pinto
-1006: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.60-per1-per2 to b1708.60-per1 parentesco/pai
-   ** auto rel: from b1708.60-per1-per3 to b1708.60-per1 parentesco/mae
-   ** auto rel: from b1708.60-per1-per2 to b1708.60-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.60-per1-per2/ec/c
-   ** Automatic attribute: b1708.60-per1-per3/ec/c
-** Processing act b$b1708.61
-1007:          n$antonio/m/id=b1708.61-per1
-1008: 
-1009:             pai$manuel lopes segurelho/id=b1708.61-per1-per2
-1010:                ls$residencia/mogadouro
-1011: 
-1012:             mae$maria manuel/id=b1708.61-per1-per3
-1013: 
-1014:             pad$antonio goncalves/id=b1708.61-per4
-1015:                ls$alcunha/moco
-1016:                ls$residencia/mogadouro
-1017: 
-1018:             mad$ana/id=b1708.61-per5
-1019: 
-1020:             pmad$gaspar francisco/id=b1708.61-per6
-1021:                ls$residencia/mogadouro
-1022: 
-1023:       b$b1708.62/1/7/1708/0/0/0/jose pinto
-1024: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.61-per1-per2 to b1708.61-per1 parentesco/pai
-   ** auto rel: from b1708.61-per1-per3 to b1708.61-per1 parentesco/mae
-   ** auto rel: from b1708.61-per1-per2 to b1708.61-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.61-per1-per2/ec/c
-   ** Automatic attribute: b1708.61-per1-per3/ec/c
-** Processing act b$b1708.62
-1025:          n$josefa/f/id=b1708.62-per1
-1026: 
-1027:             pai$manuel luis/id=b1708.62-per1-per2
-1028:                ls$residencia/soure
-1029: 
-1030:             mae$maria goncalves/id=b1708.62-per1-per3
-1031: 
-1032:             pad$antonio cardoso/id=b1708.62-per4
-1033:                ls$residencia/soure
-1034: 
-1035:             mad$josefa/id=b1708.62-per5
-1036: 
-1037:             pmad$antonio/id=b1708.62-per6
-1038:                ls$residencia/casal do rei
-1039: 
-1040:       b$b1708.63/2/7/1708/0/0/0/manuel duarte
-1041: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.62-per1-per2 to b1708.62-per1 parentesco/pai
-   ** auto rel: from b1708.62-per1-per3 to b1708.62-per1 parentesco/mae
-   ** auto rel: from b1708.62-per1-per2 to b1708.62-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.62-per1-per2/ec/c
-   ** Automatic attribute: b1708.62-per1-per3/ec/c
-** Processing act b$b1708.63
-1042:          n$luis/m/id=b1708.63-per1
-1043: 
-1044:             pai$antonio martins camousso/id=b1708.63-per1-per2
-1045:                ls$residencia/soure
-1046: 
-1047:             mae$ana simoes/id=b1708.63-per1-per3
-1048: 
-1049:             pad$luis manhos/id=b1708.63-per4
-1050: 
-1051:             mad$isabel duarte/id=b1708.63-per5
-1052: 
-1053:             mrmad$manuel rodrigues serrao/id=b1708.63-per6
-1054:                ls$residencia/soure
-1055: 
-1056:       b$b1708.64/15/7/1708/0/0/0/jose pinto/obs=repete-se no inicio da pag. seguinte
-1057: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.63-per1-per2 to b1708.63-per1 parentesco/pai
-   ** auto rel: from b1708.63-per1-per3 to b1708.63-per1 parentesco/mae
-   ** auto rel: from b1708.63-per1-per2 to b1708.63-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.63-per1-per2/ec/c
-   ** Automatic attribute: b1708.63-per1-per3/ec/c
-** Processing act b$b1708.64
-1058:          n$francisco/m/id=b1708.64-per1
-1059: 
-1060:             pai$antonio francisco/id=b1708.64-per1-per2
-1061:                ls$residencia/montais
-1062: 
-1063:             mae$maria francisca/id=b1708.64-per1-per3
-1064: 
-1065:             pad$simao jorge/id=b1708.64-per4
-1066:                ls$residencia/marzagao
-1067: 
-1068:             mad$catarina cordeiro/id=b1708.64-per5
-1069: 
-1070:             mrmad$pascoal rodrigues/id=b1708.64-per6
-1071:                ls$residencia/montais
-1072: 
-1073:       b$b1708.65/16/7/1708/0/0/0/jose pinto
-1074: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.64-per1-per2 to b1708.64-per1 parentesco/pai
-   ** auto rel: from b1708.64-per1-per3 to b1708.64-per1 parentesco/mae
-   ** auto rel: from b1708.64-per1-per2 to b1708.64-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.64-per1-per2/ec/c
-   ** Automatic attribute: b1708.64-per1-per3/ec/c
-** Processing act b$b1708.65
-1075:          n$luisa/m/id=b1708.65-per1
-1076: 
-1077:             pai$jose velho/id=b1708.65-per1-per2
-1078:                ls$residencia/soure
-1079: 
-1080:             mae$maria de lemos/id=b1708.65-per1-per3
-1081: 
-1082:             pad$jose mendes/id=b1708.65-per4
-1083:                ls$titulo/frei
-1084:                ls$profissao/padre
-1085:                ls$cargo/beneficiado da igreja de soure
-1086: 
-1087:             mad$luisa pinto/id=b1708.65-per5
-1088: 
-1089:             mrmad$manuel marques/id=b1708.65-per6
-1090:                ls$titulo/doutor
-1091:                ls$residencia/soure
-1092: 
-1093:       b$b1708.66/22/7/1708/0/0/0/matia goncalves
-1094: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.65-per1-per2 to b1708.65-per1 parentesco/pai
-   ** auto rel: from b1708.65-per1-per3 to b1708.65-per1 parentesco/mae
-   ** auto rel: from b1708.65-per1-per2 to b1708.65-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.65-per1-per2/ec/c
-   ** Automatic attribute: b1708.65-per1-per3/ec/c
-** Processing act b$b1708.66
-1095:          n$paula/f/id=b1708.66-per1
-1096: 
-1097:             pai$jose faria/id=b1708.66-per1-per2
-1098:                ls$residencia/soure
-1099: 
-1100:             mae$paula coelho/id=b1708.66-per1-per3
-1101: 
-1102:             pad$manuel pessoa/id=bpad22071708
-1103:                ls$profissao/padre
-1104: 
-1105:             mad$antonia pessoa/id=bmad22071708
-1106:                rel$parentesco/irma/manuel pessoa/bpad22071708
-1107:                ls$residencia/montais
-1108: 
-1109:             referido$antonio colaco/id=br22071708
-1110:                rel$parentesco/primo/antonia pessoa/bmad22071708
-1111: 
-1112:       b$b1708.67/5/8/1708/0/0/0/jose pinto
-1113: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.66-per1-per2 to b1708.66-per1 parentesco/pai
-   ** auto rel: from b1708.66-per1-per3 to b1708.66-per1 parentesco/mae
-   ** auto rel: from b1708.66-per1-per2 to b1708.66-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.66-per1-per2/ec/c
-   ** Automatic attribute: b1708.66-per1-per3/ec/c
-** Processing act b$b1708.67
-1114:          n$antonio/m/id=b1708.67-per1
-1115: 
-1116:             pai$simao antunes/id=b1708.67-per1-per2
-1117:                ls$residencia/presa
-1118: 
-1119:             mae$domingas joao/id=b1708.67-per1-per3
-1120: 
-1121:             pad$antonio simoes/id=b1708.67-per4
-1122:                ls$residencia/presa
-1123: 
-1124:             mad$maria da costa/id=b1708.67-per5
-1125: 
-1126:             mrmad$jose simoes/id=b1708.67-per6
-1127:                ls$residencia/presa
-1128: 
-1129:       b$b1708.68/5/8/1708/0/0/0/jose pinto
-1130: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.67-per1-per2 to b1708.67-per1 parentesco/pai
-   ** auto rel: from b1708.67-per1-per3 to b1708.67-per1 parentesco/mae
-   ** auto rel: from b1708.67-per1-per2 to b1708.67-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.67-per1-per2/ec/c
-   ** Automatic attribute: b1708.67-per1-per3/ec/c
-** Processing act b$b1708.68
-1131:          n$ana/f/id=b1708.68-per1
-1132: 
-1133:             pai$manuel rodrigues marmeleiro/id=b1708.68-per1-per2
-1134:                ls$residencia/casal de alencarce
-1135: 
-1136:             mae$maria antunes/id=b1708.68-per1-per3
-1137: 
-1138:             pad$luis manhos/id=b1708.68-per4
-1139: 
-1140:             mad$maria/id=b1708.68-per5
-1141: 
-1142:             pmad$manuel antunes/id=b1708.68-per6
-1143:                ls$residencia/alencarce
-1144: 
-1145:       b$b1708.69/12/8/1708/0/0/0/jose pinto
-1146: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.68-per1-per2 to b1708.68-per1 parentesco/pai
-   ** auto rel: from b1708.68-per1-per3 to b1708.68-per1 parentesco/mae
-   ** auto rel: from b1708.68-per1-per2 to b1708.68-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.68-per1-per2/ec/c
-   ** Automatic attribute: b1708.68-per1-per3/ec/c
-** Processing act b$b1708.69
-1147:          n$agostinho/m/id=b1708.69-per1
-1148: 
-1149:             pai$joao francisco/id=b1708.69-per1-per2
-1150:                ls$residencia/casal novo
-1151: 
-1152:             mae$josefa dos santos/id=b1708.69-per1-per3
-1153: 
-1154:             pad$manuel cordeiro/id=b1708.69-per4
-1155:                ls$residencia/casal novo
-1156: 
-1157:             mad$teresa de jesus/id=b1708.69-per5
-1158: 
-1159:             mrmad$antonio lopes/id=b1708.69-per6
-1160:                ls$residencia/soure
-1161: 
-1162:       b$b1708.70/12/8/1708/0/0/0/jose pinto
-1163: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.69-per1-per2 to b1708.69-per1 parentesco/pai
-   ** auto rel: from b1708.69-per1-per3 to b1708.69-per1 parentesco/mae
-   ** auto rel: from b1708.69-per1-per2 to b1708.69-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.69-per1-per2/ec/c
-   ** Automatic attribute: b1708.69-per1-per3/ec/c
-** Processing act b$b1708.70
-1164:          n$antonio/m/id=b1708.70-per1
-1165: 
-1166:             pai$antono rodrigues/id=b1708.70-per1-per2
-1167:                ls$residencia/casa velha
-1168: 
-1169:             mae$maria gomes/id=b1708.70-per1-per3
-1170: 
-1171:             pad$antonio de melo/id=b1708.70-per4
-1172:                ls$residencia/casa velha
-1173: 
-1174:             mad$mizia rodrigues/id=b1708.70-per5
-1175: 
-1176:             mrmad$manuel lopes/id=b1708.70-per6
-1177:                ls$residencia/casa velha
-1178: 
-1179:       b$b1708.71/19/8/1708/0/0/0/jose mendes
-1180: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.70-per1-per2 to b1708.70-per1 parentesco/pai
-   ** auto rel: from b1708.70-per1-per3 to b1708.70-per1 parentesco/mae
-   ** auto rel: from b1708.70-per1-per2 to b1708.70-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.70-per1-per2/ec/c
-   ** Automatic attribute: b1708.70-per1-per3/ec/c
-** Processing act b$b1708.71
-1181:          n$antonio/m/id=b1708.71-per1
-1182: 
-1183:             pai$manuel goncalves/id=b1708.71-per1-per2
-1184:                ls$residencia/paleao
-1185: 
-1186:             mae$helena simoes/id=b1708.71-per1-per3
-1187: 
-1188:             pad$manuel marques/id=bpad19081708
-1189:                ls$residencia/lisboa, freguesia de
-1190:                ls$freguesia/lisboa ?
-1191: 
-1192:             referido$antonio mendes/id=br19081708
-1193:                ls$residencia/paleao
-1194:                rel$parentesco/irmao/manuel marques/bpad19081708
-1195: 
-1196:       b$b1708.72/20/8/1708/0/0/0/joao dos santos
-1197: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.71-per1-per2 to b1708.71-per1 parentesco/pai
-   ** auto rel: from b1708.71-per1-per3 to b1708.71-per1 parentesco/mae
-   ** auto rel: from b1708.71-per1-per2 to b1708.71-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.71-per1-per2/ec/c
-   ** Automatic attribute: b1708.71-per1-per3/ec/c
-** Processing act b$b1708.72
-1198:          n$leonardo/m/id=b1708.72-per1
-1199: 
-1200:             pai$domingos lopes/id=b1708.72-per1-per2
-1201:                ls$residencia/casa velha
-1202: 
-1203:             mae$maria pereira/id=b1708.72-per1-per3
-1204: 
-1205:             pad$sebastiao machado da costa%sebastiao machado/mesmo_que=c12-8/id=b1708.72-per4
-1206: 
-1207:             mad$angela/id=c12-8-ang
-1208:                rel$parentesco/filha/sebastiao machado da costa/c12-8
-1209: 
-1210:       b$b1708.73/6/9/1708/0/0/0/jose pinto
-1211: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.72-per1-per2 to b1708.72-per1 parentesco/pai
-   ** auto rel: from b1708.72-per1-per3 to b1708.72-per1 parentesco/mae
-   ** auto rel: from b1708.72-per1-per2 to b1708.72-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.72-per1-per2/ec/c
-   ** Automatic attribute: b1708.72-per1-per3/ec/c
-** Processing act b$b1708.73
-1212:          n$jose/m/id=b1708.73-per1
-1213: 
-1214:             pai$manuel simoes galhardo/id=b1708.73-per1-per2
-1215:                ls$residencia/sobral
-1216: 
-1217:             mae$domingas jorge/id=b1708.73-per1-per3
-1218: 
-1219:             pad$domingos francisco/id=b1708.73-per4
-1220:                ls$residencia/sobral
-1221: 
-1222:             mad$maria domingues/id=b1708.73-per5
-1223: 
-1224:             mrmad$miguel rodrigues/id=b1708.73-per6
-1225:                ls$residencia/sobral
-1226: 
-1227:       b$b1708.74/9/9/1708/0/0/0/jose pinto
-1228: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.73-per1-per2 to b1708.73-per1 parentesco/pai
-   ** auto rel: from b1708.73-per1-per3 to b1708.73-per1 parentesco/mae
-   ** auto rel: from b1708.73-per1-per2 to b1708.73-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.73-per1-per2/ec/c
-   ** Automatic attribute: b1708.73-per1-per3/ec/c
-** Processing act b$b1708.74
-1229:          n$manuel/m/id=b1708.74-per1
-1230: 
-1231:             pai$manuel cardoso/id=b1708.74-per1-per2
-1232:                ls$residencia/paleao
-1233: 
-1234:             mae$ana joao/id=b1708.74-per1-per3
-1235: 
-1236:             pad$joao gaspar/id=b1708.74-per4
-1237:                ls$residencia/paleao
-1238: 
-1239:             mad$maria gomes/id=b1708.74-per5
-1240: 
-1241:             mrmad$antonio gomes/id=b1708.74-per6
-1242:                ls$residencia/paleao
-1243: 
-1244:       b$b1708.75/25/9/1708/0/0/0/jose pinto
-1245: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.74-per1-per2 to b1708.74-per1 parentesco/pai
-   ** auto rel: from b1708.74-per1-per3 to b1708.74-per1 parentesco/mae
-   ** auto rel: from b1708.74-per1-per2 to b1708.74-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.74-per1-per2/ec/c
-   ** Automatic attribute: b1708.74-per1-per3/ec/c
-** Processing act b$b1708.75
-1246:          n$maria/f/id=b1708.75-per1
-1247: 
-1248:             pai$domingos lourenco/id=b1708.75-per1-per2
-1249:                ls$residencia/casconho
-1250: 
-1251:             mae$teresa joao/id=b1708.75-per1-per3
-1252: 
-1253:             pad$manuel joao/id=b1708.75-per4
-1254:                ls$residencia/casconho
-1255: 
-1256:             mad$isabel/id=b1708.75-per5
-1257:                ls$ec/s
-1258: 
-1259:             pmad$manuel rodrigues capitao/id=b1708.75-per6
-1260:                ls$residencia/porto coelheiro
-1261: 
-1262:       b$b1708.76/30/9/1708/0/0/0/jose pinto/obs=baptisada em necessidade pelo padrinho
-1263: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.75-per1-per2 to b1708.75-per1 parentesco/pai
-   ** auto rel: from b1708.75-per1-per3 to b1708.75-per1 parentesco/mae
-   ** auto rel: from b1708.75-per1-per2 to b1708.75-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.75-per1-per2/ec/c
-   ** Automatic attribute: b1708.75-per1-per3/ec/c
-** Processing act b$b1708.76
-1264:          n$manuel/m/id=b1708.76-per1
-1265: 
-1266:             pai$joao goncalves/id=b1708.76-per1-per2
-1267:                ls$residencia/alencarce de cima
-1268: 
-1269:             mae$maria rodrigues/id=b1708.76-per1-per3
-1270: 
-1271:             pad$domingos joao/id=b1708.76-per4
-1272:                ls$residencia/alencarce de cima
-1273: 
-1274:             mad$isabel/id=b1708.76-per5
-1275:                ls$ec/s
-1276: 
-1277:             pmad$mateus goncalves galhim/id=b1708.76-per6
-1278:                ls$residencia/alencarce de cima
-1279: 
-1280:       b$b1708.77/4/10/1708/0/0/0/jose pinto
-1281: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.76-per1-per2 to b1708.76-per1 parentesco/pai
-   ** auto rel: from b1708.76-per1-per3 to b1708.76-per1 parentesco/mae
-   ** auto rel: from b1708.76-per1-per2 to b1708.76-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.76-per1-per2/ec/c
-   ** Automatic attribute: b1708.76-per1-per3/ec/c
-** Processing act b$b1708.77
-1282:          n$manuel/m/id=b1708.77-per1
-1283: 
-1284:             pai$francisco de almeida/id=b1708.77-per1-per2
-1285:                ls$residencia/paleao
-1286: 
-1287:             mae$filipa rodrigues/id=b1708.77-per1-per3
-1288: 
-1289:             pad$manuel domingues/id=b1708.77-per4
-1290:                ls$residencia/paleao
-1291: 
-1292:             mad$francisca madeira/id=b1708.77-per5
-1293: 
-1294:             mrmad$manuel rodrigues/id=b1708.77-per6
-1295:                ls$residencia/paleao
-1296: 
-1297:       b$b1708.78/7/10/1708/0/0/0/manuel duarte
-1298: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.77-per1-per2 to b1708.77-per1 parentesco/pai
-   ** auto rel: from b1708.77-per1-per3 to b1708.77-per1 parentesco/mae
-   ** auto rel: from b1708.77-per1-per2 to b1708.77-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.77-per1-per2/ec/c
-   ** Automatic attribute: b1708.77-per1-per3/ec/c
-** Processing act b$b1708.78
-1299:          n$maria/f/id=b1708.78-per1
-1300: 
-1301:             pai$jose cardoso/id=b1708.78-per1-per2
-1302:                ls$residencia/paleao
-1303: 
-1304:             mae$isabel joao/id=b1708.78-per1-per3
-1305: 
-1306:             pad$manuel simoes/id=bpad07101708
-1307:                ls$residencia/figueirinha, freguesia da redinha
-1308:                ls$freguesia/redinha
-1309: 
-1310:             mad$teresa/id=b1708.78-per4
-1311:                rel$parentesco/filha/manuel simoes/bpad07101708
-1312: 
-1313:       b$b1708.79/9/10/1708/0/0/0/jose pinto
-1314: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.78-per1-per2 to b1708.78-per1 parentesco/pai
-   ** auto rel: from b1708.78-per1-per3 to b1708.78-per1 parentesco/mae
-   ** auto rel: from b1708.78-per1-per2 to b1708.78-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.78-per1-per2/ec/c
-   ** Automatic attribute: b1708.78-per1-per3/ec/c
-** Processing act b$b1708.79
-1315:          n$francisca/f/id=b1708.79-per1
-1316: 
-1317:             pai$manuel simoes/id=b1708.79-per1-per2
-1318:                ls$residencia/casalinhos
-1319: 
-1320:             mae$maria francisca/id=b1708.79-per1-per3
-1321: 
-1322:             pad$manuel simoes/id=b1708.79-per4
-1323:                ls$residencia/casalinhos
-1324: 
-1325:             mad$domingas da silva/id=b1708.79-per5
-1326: 
-1327:             mrmad$jose de morais/id=b1708.79-per6
-1328:                ls$residencia/soure
-1329: 
-1330:       b$b1708.80/14/10/1708/0/0/0/jose pinto
-1331: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.79-per1-per2 to b1708.79-per1 parentesco/pai
-   ** auto rel: from b1708.79-per1-per3 to b1708.79-per1 parentesco/mae
-   ** auto rel: from b1708.79-per1-per2 to b1708.79-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.79-per1-per2/ec/c
-   ** Automatic attribute: b1708.79-per1-per3/ec/c
-** Processing act b$b1708.80
-1332:          n$maria/f/id=b1708.80-per1
-1333: 
-1334:             pai$andre ferreira/id=b1708.80-per1-per2
-1335:                ls$residencia/casal das brancas
-1336: 
-1337:             mae$teresa rodrigues/id=b1708.80-per1-per3
-1338: 
-1339:             pad$paulo ribeiro cabral%paulo ribeiro/mesmo_que=c24-7/id=b1708.80-per4
-1340: 
-1341:             mad$isabel ferreira mioto/id=b1708.80-per5
-1342:                ls$residencia/soure
-1343: 
-1344:       b$b1708.81/14%quatro/10/1708/0/0/0/jose pinto
-1345: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.80-per1-per2 to b1708.80-per1 parentesco/pai
-   ** auto rel: from b1708.80-per1-per3 to b1708.80-per1 parentesco/mae
-   ** auto rel: from b1708.80-per1-per2 to b1708.80-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.80-per1-per2/ec/c
-   ** Automatic attribute: b1708.80-per1-per3/ec/c
-** Processing act b$b1708.81
-1346:          n$joao/m/id=b1708.81-per1
-1347: 
-1348:             pai$joao francisco/id=b1708.81-per1-per2
-1349:                ls$residencia/mogadouro
-1350: 
-1351:             mae$isabel joao/id=b1708.81-per1-per3
-1352: 
-1353:             pad$manuel goncalves/id=b1708.81-per4
-1354:                ls$residencia/mogadouro
-1355: 
-1356:             mad$isabel/id=b1708.81-per5
-1357:                ls$ec/s
-1358: 
-1359:             pmad$francisco joao/id=b1708.81-per6
-1360:                ls$residencia/delgados
-1361: 
-1362:       b$b1708.82/14/10/1708/0/0/0/jose pinto
-1363: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.81-per1-per2 to b1708.81-per1 parentesco/pai
-   ** auto rel: from b1708.81-per1-per3 to b1708.81-per1 parentesco/mae
-   ** auto rel: from b1708.81-per1-per2 to b1708.81-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.81-per1-per2/ec/c
-   ** Automatic attribute: b1708.81-per1-per3/ec/c
-** Processing act b$b1708.82
-1364:          n$maria/f/id=b1708.82-per1
-1365: 
-1366:             pai$joao francisco/id=b1708.82-per1-per2
-1367:                ls$residencia/mogadouro
-1368: 
-1369:             mae$catarina de oliveira/id=b1708.82-per1-per3
-1370: 
-1371:             pad$bras domingues/id=b1708.82-per4
-1372:                ls$residencia/mogadouro
-1373: 
-1374:             mad$ana/id=b1708.82-per5
-1375:                ls$ec/s
-1376: 
-1377:             pmad$gaspar francisco/id=b1708.82-per6
-1378:                ls$residencia/mogadouro
-1379: 
-1380:       b$b1708.83/17/11/1708/0/0/0/jose pinto
-1381: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.82-per1-per2 to b1708.82-per1 parentesco/pai
-   ** auto rel: from b1708.82-per1-per3 to b1708.82-per1 parentesco/mae
-   ** auto rel: from b1708.82-per1-per2 to b1708.82-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.82-per1-per2/ec/c
-   ** Automatic attribute: b1708.82-per1-per3/ec/c
-** Processing act b$b1708.83
-1382:          n$rosa/f/id=b1708.83-per1
-1383: 
-1384:             pai$domingos goncalves/id=b1708.83-per1-per2
-1385:                ls$residencia/barrosas
-1386: 
-1387:             mae$isabel rodrigues/id=b1708.83-per1-per3
-1388: 
-1389:             pad$manuel da cunha/id=b1708.83-per4
-1390:                ls$profissao/boticario
-1391:                ls$residencia/redinha, freguesia da redinha
-1392:                ls$freguesia/redinha
-1393: 
-1394:             mad$maria de santo antonio/obs=irma do medico da redinha/id=b1708.83-per5
-1395:                ls$residencia/redinha, freguesia da redinha
-1396:                ls$freguesia/redinha
-1397: 
-1398:       b$b1708.84/18/11/1708/0/0/0/jose pinto
-1399: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.83-per1-per2 to b1708.83-per1 parentesco/pai
-   ** auto rel: from b1708.83-per1-per3 to b1708.83-per1 parentesco/mae
-   ** auto rel: from b1708.83-per1-per2 to b1708.83-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.83-per1-per2/ec/c
-   ** Automatic attribute: b1708.83-per1-per3/ec/c
-** Processing act b$b1708.84
-1400:          n$maria/f/id=b1708.84-per1
-1401: 
-1402:             pai$joao goncalves bizarro/id=b1708.84-per1-per2
-1403:                ls$residencia/pinheiro
-1404: 
-1405:             mae$maria madeira/id=b1708.84-per1-per3
-1406: 
-1407:             pad$manuel de s.miguel/id=b1708.84-per4
-1408:                ls$residencia/pinheiro
-1409: 
-1410:             mad$madalena/id=b1708.84-per5
-1411: 
-1412:             pmad$manuel carvalho/id=b1708.84-per6
-1413:                ls$residencia/carvalhal da azoia
-1414: 
-1415:       b$b1708.85/21/11/1708/0/0/0/manuel duarte
-1416: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.84-per1-per2 to b1708.84-per1 parentesco/pai
-   ** auto rel: from b1708.84-per1-per3 to b1708.84-per1 parentesco/mae
-   ** auto rel: from b1708.84-per1-per2 to b1708.84-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.84-per1-per2/ec/c
-   ** Automatic attribute: b1708.84-per1-per3/ec/c
-** Processing act b$b1708.85
-1417:          n$maria/f/id=b1708.85-per1
-1418: 
-1419:             pai$agostinho francisco/id=b1708.85-per1-per2
-1420:                ls$residencia/mogadouro
-1421: 
-1422:             mae$domingas goncalves/id=b1708.85-per1-per3
-1423: 
-1424:             pad$manuel goncalves/id=b1708.85-per4
-1425:                ls$residencia/mogadouro
-1426: 
-1427:             mad$maria duarte/id=b1708.85-per5
-1428: 
-1429:             mrmad$manuel rodrigues serrao/id=b1708.85-per6
-1430:                ls$residencia/soure
-1431: 
-1432:       b$b1708.86/21/11/1708/0/0/0/manuel duarte
-1433: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.85-per1-per2 to b1708.85-per1 parentesco/pai
-   ** auto rel: from b1708.85-per1-per3 to b1708.85-per1 parentesco/mae
-   ** auto rel: from b1708.85-per1-per2 to b1708.85-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.85-per1-per2/ec/c
-   ** Automatic attribute: b1708.85-per1-per3/ec/c
-** Processing act b$b1708.86
-1434:          n$maria/f/id=b1708.86-per1
-1435: 
-1436:             pai$joao goncalves/id=b1708.86-per1-per2
-1437:                ls$residencia/beltroes
-1438: 
-1439:             mae$joana rodrigues/id=b1708.86-per1-per3
-1440: 
-1441:             pad$manuel/id=b1708.86-per4
-1442:                ls$ec/s
-1443: 
-1444:             ppad$manuel joao/id=b1708.86-per5
-1445:                ls$residencia/casalinhos
-1446: 
-1447:             mad$maria francisca/id=b1708.86-per6
-1448: 
-1449:             mrmad$manuel simoes/id=b1708.86-per7
-1450:                ls$residencia/casalinhos
-1451: 
-1452:       b$b1708.87/25/11/1708/0/0/0/jose pinto
-1453: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.86-per1-per2 to b1708.86-per1 parentesco/pai
-   ** auto rel: from b1708.86-per1-per3 to b1708.86-per1 parentesco/mae
-   ** auto rel: from b1708.86-per1-per2 to b1708.86-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.86-per1-per2/ec/c
-   ** Automatic attribute: b1708.86-per1-per3/ec/c
-** Processing act b$b1708.87
-1454:          n$luis/m/id=b1708.87-per1
-1455: 
-1456:             pai$manuel alves/id=b1708.87-per1-per2
-1457:                ls$residencia/soure
-1458: 
-1459:             mae$maria de almeida/id=b1708.87-per1-per3
-1460: 
-1461:             pad$luis coelho/id=bpad25111708
-1462:                ls$residencia/soure
-1463: 
-1464:             mad$luisa/id=b1708.87-per4
-1465:                rel$parentesco/filha/luis coelho/bpad25111708
-1466: 
-1467:       b$b1708.88/25/11/1708/0/0/0/jose pinto
-1468: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.87-per1-per2 to b1708.87-per1 parentesco/pai
-   ** auto rel: from b1708.87-per1-per3 to b1708.87-per1 parentesco/mae
-   ** auto rel: from b1708.87-per1-per2 to b1708.87-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.87-per1-per2/ec/c
-   ** Automatic attribute: b1708.87-per1-per3/ec/c
-** Processing act b$b1708.88
-1469:          n$joao/m/id=b1708.88-per1
-1470: 
-1471:             pai$joao leao/id=b1708.88-per1-per2
-1472:                ls$residencia/casa velha
-1473: 
-1474:             mae$maria da costa/id=b1708.88-per1-per3
-1475: 
-1476:             pad$joao duarte/id=b1708.88-per4
-1477:                ls$residencia/casa velha
-1478: 
-1479:             mad$maria/id=b1708.88-per5
-1480:                ls$ec/s
-1481: 
-1482:             pmad$manuel francisco gabriel/id=b1708.88-per6
-1483:                ls$residencia/casa velha
-1484: 
-1485:       b$b1708.89/28/11/1708/0/0/0/jose pinto
-1486: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.88-per1-per2 to b1708.88-per1 parentesco/pai
-   ** auto rel: from b1708.88-per1-per3 to b1708.88-per1 parentesco/mae
-   ** auto rel: from b1708.88-per1-per2 to b1708.88-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.88-per1-per2/ec/c
-   ** Automatic attribute: b1708.88-per1-per3/ec/c
-** Processing act b$b1708.89
-1487:          n$jose/m/id=b1708.89-per1
-1488: 
-1489:             pai$antonio goncalves ventura/id=b1708.89-per1-per2
-1490:                ls$residencia/corujeira
-1491: 
-1492:             mae$maria da silva/id=b1708.89-per1-per3
-1493: 
-1494:             pad$jose gomes/id=bpad28111708
-1495:                ls$residencia/soure
-1496: 
-1497:             mad$antonia gomes/id=b1708.89-per4
-1498:                rel$parentesco/irma/jose gomes/bpad28111708
-1499: 
-1500:       b$b1708.90/5/12/1708/0/0/0/jose pinto
-1501: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.89-per1-per2 to b1708.89-per1 parentesco/pai
-   ** auto rel: from b1708.89-per1-per3 to b1708.89-per1 parentesco/mae
-   ** auto rel: from b1708.89-per1-per2 to b1708.89-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.89-per1-per2/ec/c
-   ** Automatic attribute: b1708.89-per1-per3/ec/c
-** Processing act b$b1708.90
-1502:          n$isabel/f/id=b1708.90-per1
-1503: 
-1504:             pai$simao francisco/id=b1708.90-per1-per2
-1505:                ls$residencia/sobral
-1506: 
-1507:             mae$isabel cordeiro/id=b1708.90-per1-per3
-1508: 
-1509:             pad$manuel simoes/id=b1708.90-per4
-1510:                ls$residencia/sobral
-1511: 
-1512:             mad$domingas/id=b1708.90-per5
-1513:                ls$ec/s
-1514: 
-1515:             mmad$maria jorge/id=b1708.90-per6
-1516:                ls$residencia/sobral
-1517: 
-1518:       b$b1708.91/16/12/1708/0/0/0/jose pinto
-1519: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.90-per1-per2 to b1708.90-per1 parentesco/pai
-   ** auto rel: from b1708.90-per1-per3 to b1708.90-per1 parentesco/mae
-   ** auto rel: from b1708.90-per1-per2 to b1708.90-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.90-per1-per2/ec/c
-   ** Automatic attribute: b1708.90-per1-per3/ec/c
-** Processing act b$b1708.91
-1520:          n$maria/f/id=b1708.91-per1
-1521: 
-1522:             pai$jose rodrigues/id=b1708.91-per1-per2
-1523:                ls$residencia/casconho
-1524: 
-1525:             mae$maria simoes/id=b1708.91-per1-per3
-1526: 
-1527:             pad$manuel domingues/id=b1708.91-per4
-1528:                ls$residencia/casconho
-1529: 
-1530:             mad$maria joao/id=b1708.91-per5
-1531: 
-1532:             mrmad$manuel simoes/id=b1708.91-per6
-1533:                ls$residencia/figueirinha, freguesia da redinha
-1534:                ls$freguesia/figueirinha
-1535: 
-1536:       b$b1708.92/16/12/1708/0/0/0/ventura martins
-1537: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.91-per1-per2 to b1708.91-per1 parentesco/pai
-   ** auto rel: from b1708.91-per1-per3 to b1708.91-per1 parentesco/mae
-   ** auto rel: from b1708.91-per1-per2 to b1708.91-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.91-per1-per2/ec/c
-   ** Automatic attribute: b1708.91-per1-per3/ec/c
-** Processing act b$b1708.92
-1538:          n$manuel/m/id=b1708.92-per1
-1539: 
-1540:             pai$jose gomes/id=b1708.92-per1-per2
-1541:                ls$residencia/casalinhos
-1542: 
-1543:             mae$micaela mendes/id=b1708.92-per1-per3
-1544: 
-1545:             pad$jose gomes carrasco/id=b1708.92-per4
-1546:                ls$residencia/casal venda
-1547: 
-1548:             mad$maria de almeida/id=b1708.92-per5
-1549: 
-1550:             mrmad$manuel alves/id=b1708.92-per6
-1551:                ls$residencia/soure
-1552: 
-1553:       b$b1708.93/16/12/1708/0/0/0/jose pinto/obs=sem pai
-1554: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.92-per1-per2 to b1708.92-per1 parentesco/pai
-   ** auto rel: from b1708.92-per1-per3 to b1708.92-per1 parentesco/mae
-   ** auto rel: from b1708.92-per1-per2 to b1708.92-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.92-per1-per2/ec/c
-   ** Automatic attribute: b1708.92-per1-per3/ec/c
-** Processing act b$b1708.93
-1555:          n$manuel/m/id=b1708.93-per1
-1556:             ls$ilegitimo/sim
-1557: 
-1558:             mae$teresa hospitaleira/id=b1708.93-per1-per2
-1559:                ls$ec/s
-1560:                ls$residencia/soure
-1561: 
-1562:             pad$jose/id=b1708.93-per3
-1563: 
-1564:             mpad$isabel de paiva/id=mpad16121708
-1565:                ls$residencia/soure
-1566: 
-1567:             mad$mariana/id=b1708.93-per4
-1568:                rel$parentesco/filha/isabel de paiva/mpad16121708
-1569: 
-1570:       b$b1708.94/23/12/1708/0/0/0/jose pinto
-1571: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.93-per1-per2 to b1708.93-per1 parentesco/mae
-** Processing act b$b1708.94
-1572:          n$luis/m/id=b1708.94-per1
-1573: 
-1574:             pai$manuel rodrigues/id=b1708.94-per1-per2
-1575:                ls$residencia/casal do livreiro
-1576: 
-1577:             mae$joana baptista/id=b1708.94-per1-per3
-1578: 
-1579:             pad$luis manhos de abreu/id=b1708.94-per4
-1580: 
-1581:             mad$antonia/mesmo_que=c17-7-anta/id=b1708.94-per5
-1582:                ls$titulo/dona
-1583: 
-1584:             mrmad$jose barbosa canais%jose barbosa/mesmo_que=c17-7/id=b1708.94-per6
-1585:                ls$nome/jose barbosa
-1586: 
-1587:       b$b1708.95/26/12/1708/0/0/0/jose pinto
-1588: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.94-per1-per2 to b1708.94-per1 parentesco/pai
-   ** auto rel: from b1708.94-per1-per3 to b1708.94-per1 parentesco/mae
-   ** auto rel: from b1708.94-per1-per2 to b1708.94-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.94-per1-per2/ec/c
-   ** Automatic attribute: b1708.94-per1-per3/ec/c
-** Processing act b$b1708.95
-1589:          n$ana/f/id=b1708.95-per1
-1590: 
-1591:             pai$luis goncalves/id=b1708.95-per1-per2
-1592:                ls$residencia/casal das brancas
-1593: 
-1594:             mae$catarina ferreira/id=b1708.95-per1-per3
-1595: 
-1596:             pad$luis ribeiro/mesmo_que=plribeiro/id=b1708.95-per4
-1597:                ls$residencia/soure
-1598: 
-1599:             mad$ana de almeida/id=b1708.95-per5
-1600:                rel$parentesco/irma/luis ribeiro/plribeiro
-1601: 
-1602:       b$b1708.96/26/12/1708/0/0/0/jose pinto
-1603: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.95-per1-per2 to b1708.95-per1 parentesco/pai
-   ** auto rel: from b1708.95-per1-per3 to b1708.95-per1 parentesco/mae
-   ** auto rel: from b1708.95-per1-per2 to b1708.95-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.95-per1-per2/ec/c
-   ** Automatic attribute: b1708.95-per1-per3/ec/c
-** Processing act b$b1708.96
-1604:          n$joao/m/id=b1708.96-per1
-1605: 
-1606:             pai$pedro joao/id=b1708.96-per1-per2
-1607:                ls$residencia/casconho
-1608: 
-1609:             mae$ana rodrigues/id=b1708.96-per1-per3
-1610: 
-1611:             pad$manuel luis/id=b1708.96-per4
-1612:                ls$residencia/casconho
-1613: 
-1614:             mad$madalena joao/id=b1708.96-per5
-1615: 
-1616:             mrmad$domingos simoes/id=b1708.96-per6
-1617:                ls$residencia/figueirinha
-1618: 
-1619:       b$b1708.97/27/12/1708/0/0/0/jose pinto
-1620: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.96-per1-per2 to b1708.96-per1 parentesco/pai
-   ** auto rel: from b1708.96-per1-per3 to b1708.96-per1 parentesco/mae
-   ** auto rel: from b1708.96-per1-per2 to b1708.96-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.96-per1-per2/ec/c
-   ** Automatic attribute: b1708.96-per1-per3/ec/c
-** Processing act b$b1708.97
-1621:          n$tome/m/id=b1708.97-per1
-1622: 
-1623:             pai$jose rodrigues/id=b1708.97-per1-per2
-1624:                ls$residencia/assamassa
-1625: 
-1626:             mae$maria gomes/id=b1708.97-per1-per3
-1627: 
-1628:             pad$vicente colaco de morais/mesmo_que=c104-7/id=b1708.97-per4
-1629: 
-1630:             mad$maria/id=b1708.97-per5
-1631: 
-1632:             pmad$manuel antunes/id=b1708.97-per6
-1633:                ls$residencia/assamassa
-1634: 
-1635:       b$b1708.98/28/12/1708/0/0/0/jose pinto
-1636: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.97-per1-per2 to b1708.97-per1 parentesco/pai
-   ** auto rel: from b1708.97-per1-per3 to b1708.97-per1 parentesco/mae
-   ** auto rel: from b1708.97-per1-per2 to b1708.97-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.97-per1-per2/ec/c
-   ** Automatic attribute: b1708.97-per1-per3/ec/c
-** Processing act b$b1708.98
-1637:          n$isabel/f/id=b1708.98-per1
-1638: 
-1639:             pai$diogo francisco/id=b1708.98-per1-per2
-1640:                ls$residencia/simoes
-1641: 
-1642:             mae$isabel dias/id=b1708.98-per1-per3
-1643: 
-1644:             pad$pedro de eiro matoso/mesmo_que=peiro/id=b1708.98-per4
-1645: 
-1646:             mad$mariana/mesmo_que=marianacb/id=b1708.98-per5
-1647: 
-1648:             pmad$luis manhos de abreu/mesmo_que=lmabreu/id=b1708.98-per6
-1649: 
-1650:       b$b1708.99/30/12/1708/0/0/0/jose pinto
-1651: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.98-per1-per2 to b1708.98-per1 parentesco/pai
-   ** auto rel: from b1708.98-per1-per3 to b1708.98-per1 parentesco/mae
-   ** auto rel: from b1708.98-per1-per2 to b1708.98-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.98-per1-per2/ec/c
-   ** Automatic attribute: b1708.98-per1-per3/ec/c
-** Processing act b$b1708.99
-1652:          n$ana maria/f/id=b1708.99-per1
-1653: 
-1654:             pai$luis manhos de abreu%luis manhos/mesmo_que=lmabreu/id=b1708.99-per1-per2
-1655:                ls$nome/luis manhos
-1656: 
-1657:             mae$maria pereira/id=b1708.99-per1-per3
-1658: 
-1659:             pad$gabriel coutinho/id=b1708.99-per4
-1660:                ls$profissao/padre
-1661:                ls$titulo/frei
-1662:                ls$ordem/religioso de s.bernardo
-1663: 
-1664:             mad$ana maria da silva/id=b1708.99-per5
-1665: 
-1666:             mrmad$luis coelho/id=b1708.99-per6
-1667:                ls$residencia/soure
-1668: 
-1669:       b$b1708.100/30/12/1708/0/0/0/manuel pedrosa
-1670: 
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.99-per1-per2 to b1708.99-per1 parentesco/pai
-   ** auto rel: from b1708.99-per1-per3 to b1708.99-per1 parentesco/mae
-   ** auto rel: from b1708.99-per1-per2 to b1708.99-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.99-per1-per2/ec/c
-   ** Automatic attribute: b1708.99-per1-per3/ec/c
-** Processing act b$b1708.100
-1671:          n$rodrigo/m/id=b1708.100-per1
-1672: 
-1673:             pai$manuel rodrigues duqueso/id=b1708.100-per1-per2
-1674:                ls$residencia/soure
-1675: 
-1676:             mae$vitoria da cruz/id=b1708.100-per1-per3
-1677: 
-1678:             pad$rodrigo/mesmo_que=c6-7-rod/id=b1708.100-per4
-1679: 
-1680:             mad$isabel/id=b1708.100-per5
-1681:                rel$parentesco/mulher/manuel homem de quadros/c6-7
-1682: *** End of File
-0  errors.
-**** auto rels 2 STARTED.
-   ** auto rel: from b1708.100-per1-per2 to b1708.100-per1 parentesco/pai
-   ** auto rel: from b1708.100-per1-per3 to b1708.100-per1 parentesco/mae
-   ** auto rel: from b1708.100-per1-per2 to b1708.100-per1-per3 parentesco/marido
-   ** Automatic attribute: b1708.100-per1-per2/ec/c
-   ** Automatic attribute: b1708.100-per1-per3/ec/c
-** Translation finished.
-** data file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1708.CLI
-** original file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1708.org
-** old file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1708.old
-** original file- /Users/jrc/develop/mhk_users/soure/documents/baptismos/B1708.ids
+6: b$b1708.1
+25: b$b1708.2
+
+WARNING: b1708.cli line 32 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 32             pad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1708.2-per4
+Near line: 33                ls$cargo/lente de coimbra
+
+38: b$b1708.3
+55: b$b1708.4
+
+WARNING: b1708.cli line 62 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 62             pad$pedro de eiro matoso%pedro de eiro/mesmo_que=peiro/id=b1708.4-per4
+Near line: 63                ls$cargo/escrivao da camara
+
+
+WARNING: b1708.cli line 68 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 68 
+Near line: 69       b$b1708.5/28/1/1708/0/0/0/jose pinto
+
+71: b$b1708.5
+88: b$b1708.6
+103: b$b1708.7
+
+WARNING: b1708.cli line 111 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 111 
+Near line: 112             mad$maria pereira/id=b1708.7-per5
+
+
+WARNING: b1708.cli line 115 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 115 
+Near line: 116       b$b1708.8/6/2/1708/0/0/0/jose pinto
+
+118: b$b1708.8
+137: b$b1708.9
+
+WARNING: b1708.cli line 150 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 150 
+Near line: 151       b$b1708.10/15/2/1708/0/0/0/jose pinto/obs=sem madrinha
+
+153: b$b1708.10
+165: b$b1708.11
+
+WARNING: b1708.cli line 173 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 173 
+Near line: 174                ppad$jose barbosa canais/mesmo_que=c17-7/id=b1708.11-per5
+
+
+WARNING: b1708.cli line 175 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 175 
+Near line: 176             mad$ana joao/id=b1708.11-per6
+
+182: b$b1708.12
+
+WARNING: b1708.cli line 194 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 194 
+Near line: 195             referido$luis soares/id=br20021708
+
+205: b$b1708.13
+221: b$b1708.14
+239: b$b1708.15
+
+WARNING: b1708.cli line 246 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 246             pad$vicente colaco de morais/mesmo_que=c104-7/id=b1708.15-per4
+Near line: 247                ls$nome/vicente colaco
+
+257: b$b1708.16
+274: b$b1708.17
+291: b$b1708.18
+309: b$b1708.19
+
+WARNING: b1708.cli line 311 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 311             pai$manuel soares coelho/mesmo_que=mscoelho/id=b1708.19-per1-per2
+Near line: 312                ls$residencia/quinta da cruz
+
+
+WARNING: b1708.cli line 316 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 316             pad$geraldo pereira coutinho/mesmo_que=gpereira/id=b1708.19-per4
+Near line: 317                ls$titulo/doutor
+
+
+WARNING: b1708.cli line 320 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 320 
+Near line: 321       b$b1708.20/1/3/1708/0/0/0/jose pinto
+
+323: b$b1708.20
+342: b$b1708.21
+363: b$b1708.22
+378: b$b1708.23
+394: b$b1708.24
+410: b$b1708.25
+427: b$b1708.26
+
+WARNING: b1708.cli line 434 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 434             pad$jose barbosa canais/mesmo_que=c17-7/id=b1708.26-per4
+Near line: 435                ls$residencia/soure
+
+
+WARNING: b1708.cli line 440 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 440 
+Near line: 441       b$b1708.27/15/3/1708/0/0/0/manuel martins
+
+443: b$b1708.27
+
+WARNING: b1708.cli line 456 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 456 
+Near line: 457       b$b1708.28/16/3/1708/0/0/0/jose pinto
+
+459: b$b1708.28
+474: b$b1708.29
+
+WARNING: b1708.cli line 485 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 485 
+Near line: 486       b$b1708.30/23/3/1708/0/0/0/jose pinto/obs=sem madrinha
+
+488: b$b1708.30
+500: b$b1708.31
+
+WARNING: b1708.cli line 510 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 510 
+Near line: 511             mad$angela/id=b1708.31-per5
+
+519: b$b1708.32
+
+WARNING: b1708.cli line 526 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 526             pad$geraldo pereira coutinho%geraldo pereira/mesmo_que=gpereira/id=b1708.32-per4
+Near line: 527                ls$cargo/lente da universidade de coimbra
+
+531: b$b1708.33
+550: b$b1708.34
+567: b$b1708.35
+585: b$b1708.36
+602: b$b1708.37
+618: b$b1708.38
+632: b$b1708.39
+652: b$b1708.40
+670: b$b1708.41
+
+WARNING: b1708.cli line 678 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 678 
+Near line: 679             mad$damiana/id=b1708.41-per5
+
+684: b$b1708.42
+703: b$b1708.43
+720: b$b1708.44
+
+WARNING: b1708.cli line 730 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 730 
+Near line: 731             mad$francisca/id=b1708.44-per6
+
+737: b$b1708.45
+
+WARNING: b1708.cli line 745 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 745 
+Near line: 746             mad$maria/id=b1708.45-per5
+
+753: b$b1708.46
+
+WARNING: b1708.cli line 763 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 763 
+Near line: 764             mad$francisca/mesmo_que=c119-9-fran/id=b1708.46-per6
+
+
+WARNING: b1708.cli line 765 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 765 
+Near line: 766       b$b1708.47/27/5/1708/0/0/0/jose pinto
+
+768: b$b1708.47
+
+WARNING: b1708.cli line 777 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 777                mpad$ana gaspar/mesmo_que=anagasp/id=b1708.47-per5
+Near line: 778                   ls$residencia/paleao
+
+785: b$b1708.48
+
+WARNING: b1708.cli line 793 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 793 
+Near line: 794             mad$ana de almeida/id=b1708.48-per5
+
+799: b$b1708.49
+816: b$b1708.50
+833: b$b1708.51
+853: b$b1708.52
+869: b$b1708.53
+886: b$b1708.54
+902: b$b1708.55
+917: b$b1708.56
+934: b$b1708.57
+951: b$b1708.58
+970: b$b1708.59
+988: b$b1708.60
+
+WARNING: b1708.cli line 1002 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1002             referido$luis ribeiro/mesmo_que=plribeiro/id=b1708.60-per5
+Near line: 1003                rel$sociabilidade/procurador em baptismo/diogo coelho/bpad27061708
+
+1007: b$b1708.61
+1025: b$b1708.62
+1042: b$b1708.63
+1058: b$b1708.64
+1075: b$b1708.65
+1095: b$b1708.66
+1114: b$b1708.67
+1131: b$b1708.68
+1147: b$b1708.69
+1164: b$b1708.70
+1181: b$b1708.71
+1198: b$b1708.72
+
+WARNING: b1708.cli line 1206 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1206 
+Near line: 1207             mad$angela/id=c12-8-ang
+
+1212: b$b1708.73
+1229: b$b1708.74
+1246: b$b1708.75
+1264: b$b1708.76
+1282: b$b1708.77
+1299: b$b1708.78
+1315: b$b1708.79
+1332: b$b1708.80
+
+WARNING: b1708.cli line 1340 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1340 
+Near line: 1341             mad$isabel ferreira mioto/id=b1708.80-per5
+
+1346: b$b1708.81
+1364: b$b1708.82
+1382: b$b1708.83
+1400: b$b1708.84
+1417: b$b1708.85
+1434: b$b1708.86
+1454: b$b1708.87
+1469: b$b1708.88
+1487: b$b1708.89
+1502: b$b1708.90
+1520: b$b1708.91
+1538: b$b1708.92
+1555: b$b1708.93
+1572: b$b1708.94
+
+WARNING: b1708.cli line 1581 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1581             mad$antonia/mesmo_que=c17-7-anta/id=b1708.94-per5
+Near line: 1582                ls$titulo/dona
+
+
+WARNING: b1708.cli line 1584 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1584                mrmad$jose barbosa canais%jose barbosa/mesmo_que=c17-7/id=b1708.94-per6
+Near line: 1585                   ls$nome/jose barbosa
+
+1589: b$b1708.95
+
+WARNING: b1708.cli line 1596 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1596             pad$luis ribeiro/mesmo_que=plribeiro/id=b1708.95-per4
+Near line: 1597                ls$residencia/soure
+
+1604: b$b1708.96
+1621: b$b1708.97
+
+WARNING: b1708.cli line 1629 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1629 
+Near line: 1630             mad$maria/id=b1708.97-per5
+
+1637: b$b1708.98
+
+WARNING: b1708.cli line 1645 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1645 
+Near line: 1646             mad$mariana/mesmo_que=marianacb/id=b1708.98-per5
+
+
+WARNING: b1708.cli line 1649 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1649 
+Near line: 1650       b$b1708.99/30/12/1708/0/0/0/jose pinto
+
+1652: b$b1708.99
+
+WARNING: b1708.cli line 1654 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1654             pai$luis manhos de abreu%luis manhos/mesmo_que=lmabreu/id=b1708.99-per1-per2
+Near line: 1655                ls$nome/luis manhos
+
+1671: b$b1708.100
+
+WARNING: b1708.cli line 1679 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1679 
+Near line: 1680             mad$isabel/id=b1708.100-per5
+
+*** End of File
+
+ERROR: b1708.cli line 32  Could not find same_as id gpereira. If  original reference is on another file use xsame_as
+Near lines: 32 Near line: 33 
+
+ERROR: b1708.cli line 62  Could not find same_as id peiro. If  original reference is on another file use xsame_as
+Near lines: 62 Near line: 63 
+
+ERROR: b1708.cli line 68  Could not find same_as id sgoncalves. If  original reference is on another file use xsame_as
+Near lines: 68 Near line: 69 
+
+ERROR: b1708.cli line 111  Could not find same_as id mscoelho. If  original reference is on another file use xsame_as
+Near lines: 111 Near line: 112 
+
+ERROR: b1708.cli line 115  Could not find same_as id lmabreu. If  original reference is on another file use xsame_as
+Near lines: 115 Near line: 116 
+
+ERROR: b1708.cli line 150  Could not find same_as id lmabreu. If  original reference is on another file use xsame_as
+Near lines: 150 Near line: 151 
+
+ERROR: b1708.cli line 173  Could not find same_as id c17-7-luis. If  original reference is on another file use xsame_as
+Near lines: 173 Near line: 174 
+
+ERROR: b1708.cli line 175  Could not find same_as id c17-7. If  original reference is on another file use xsame_as
+Near lines: 175 Near line: 176 
+
+ERROR: b1708.cli line 194  Could not find same_as id lmabreu. If  original reference is on another file use xsame_as
+Near lines: 194 Near line: 195 
+
+ERROR: b1708.cli line 246  Could not find same_as id c104-7. If  original reference is on another file use xsame_as
+Near lines: 246 Near line: 247 
+
+ERROR: b1708.cli line 311  Could not find same_as id mscoelho. If  original reference is on another file use xsame_as
+Near lines: 311 Near line: 312 
+
+ERROR: b1708.cli line 316  Could not find same_as id gpereira. If  original reference is on another file use xsame_as
+Near lines: 316 Near line: 317 
+
+ERROR: b1708.cli line 320  Could not find same_as id c24-7-cec. If  original reference is on another file use xsame_as
+Near lines: 320 Near line: 321 
+
+ERROR: b1708.cli line 434  Could not find same_as id c17-7. If  original reference is on another file use xsame_as
+Near lines: 434 Near line: 435 
+
+ERROR: b1708.cli line 440  Could not find same_as id anagasp. If  original reference is on another file use xsame_as
+Near lines: 440 Near line: 441 
+
+ERROR: b1708.cli line 456  Could not find same_as id sgoncalves. If  original reference is on another file use xsame_as
+Near lines: 456 Near line: 457 
+
+ERROR: b1708.cli line 485  Could not find same_as id c24-7-cec. If  original reference is on another file use xsame_as
+Near lines: 485 Near line: 486 
+
+ERROR: b1708.cli line 510  Could not find same_as id c12-8. If  original reference is on another file use xsame_as
+Near lines: 510 Near line: 511 
+
+ERROR: b1708.cli line 526  Could not find same_as id gpereira. If  original reference is on another file use xsame_as
+Near lines: 526 Near line: 527 
+
+ERROR: b1708.cli line 678  Could not find same_as id c104-7. If  original reference is on another file use xsame_as
+Near lines: 678 Near line: 679 
+
+ERROR: b1708.cli line 730  Could not find same_as id c6-7. If  original reference is on another file use xsame_as
+Near lines: 730 Near line: 731 
+
+ERROR: b1708.cli line 745  Could not find same_as id c24-7. If  original reference is on another file use xsame_as
+Near lines: 745 Near line: 746 
+
+ERROR: b1708.cli line 763  Could not find same_as id c12-8. If  original reference is on another file use xsame_as
+Near lines: 763 Near line: 764 
+
+ERROR: b1708.cli line 765  Could not find same_as id c119-9-fran. If  original reference is on another file use xsame_as
+Near lines: 765 Near line: 766 
+
+ERROR: b1708.cli line 777  Could not find same_as id anagasp. If  original reference is on another file use xsame_as
+Near lines: 777 Near line: 778 
+
+ERROR: b1708.cli line 793  Could not find same_as id c24-7. If  original reference is on another file use xsame_as
+Near lines: 793 Near line: 794 
+
+ERROR: b1708.cli line 1002  Could not find same_as id plribeiro. If  original reference is on another file use xsame_as
+Near lines: 1002 Near line: 1003 
+
+ERROR: b1708.cli line 1206  Could not find same_as id c12-8. If  original reference is on another file use xsame_as
+Near lines: 1206 Near line: 1207 
+
+ERROR: b1708.cli line 1340  Could not find same_as id c24-7. If  original reference is on another file use xsame_as
+Near lines: 1340 Near line: 1341 
+
+ERROR: b1708.cli line 1581  Could not find same_as id c17-7-anta. If  original reference is on another file use xsame_as
+Near lines: 1581 Near line: 1582 
+
+ERROR: b1708.cli line 1584  Could not find same_as id c17-7. If  original reference is on another file use xsame_as
+Near lines: 1584 Near line: 1585 
+
+ERROR: b1708.cli line 1596  Could not find same_as id plribeiro. If  original reference is on another file use xsame_as
+Near lines: 1596 Near line: 1597 
+
+ERROR: b1708.cli line 1629  Could not find same_as id c104-7. If  original reference is on another file use xsame_as
+Near lines: 1629 Near line: 1630 
+
+ERROR: b1708.cli line 1645  Could not find same_as id peiro. If  original reference is on another file use xsame_as
+Near lines: 1645 Near line: 1646 
+
+ERROR: b1708.cli line 1649  Could not find same_as id lmabreu. If  original reference is on another file use xsame_as
+Near lines: 1649 Near line: 1650 
+
+ERROR: b1708.cli line 1654  Could not find same_as id lmabreu. If  original reference is on another file use xsame_as
+Near lines: 1654 Near line: 1655 
+
+ERROR: b1708.cli line 1679  Could not find same_as id c6-7-rod. If  original reference is on another file use xsame_as
+Near lines: 1679 Near line: 1680 
+37  errors. 
+37  warnings.
+Translation finished.

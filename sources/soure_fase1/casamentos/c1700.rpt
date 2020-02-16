@@ -1,7 +1,7 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 14-7
+ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
+16-2-2020 13-20
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/casamentos/c1700.cli
+Processing data file c1700.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
@@ -17,33 +17,14 @@ Obs:
 ** Processing source fonte$casamentos 1700
 6: cas$1700-142
 41: cas$1700-143
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1700.cli:44:destination id of "same as" not found. Will check again at the end of file.
-
-
-WARNING: c1700.cli line 43 destination id of "same as" not found. Will check again at the end of file.
-Near line: 43             pnoivo$manuel mateus/id=c143-2/mesmo_que=c117-5
-Near line: 44                ls$morto/antes
-
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1700.cli:48:destination id of "same as" not found. Will check again at the end of file.
-
-
-WARNING: c1700.cli line 47 destination id of "same as" not found. Will check again at the end of file.
-Near line: 47             mnoivo$madalena dos santos/id=c143-3/mesmo_que=c117-6
-Near line: 48                ls$morta/antes
-
 73: cas$1700-144
 106: cas$1700-145
 139: cas$1700-146
 164: cas$1700-147
 188: cas$1700-148
 
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1700.cli:209:destination id of "same as" not found. Will check again at the end of file.
-
-
 WARNING: c1700.cli line 208 destination id of "same as" not found. Will check again at the end of file.
-Near line: 208          test$jose barbosa canais/mesmo_que=c148-8/id=1700-148-per1
+Near lines: 208          test$jose barbosa canais/mesmo_que=c148-8/id=1700-148-per1
 Near line: 209             ls$residencia/soure
 
 216: cas$1700-149
@@ -82,12 +63,15 @@ Near line: 209             ls$residencia/soure
 1132: cas$1700-182
 1159: cas$1700-183
 *** End of File
-ERROR:  Could not find same_as id c117-5 referred in line 44. If  original reference is on another file use xsame_as
 
-ERROR:  Could not find same_as id c117-6 referred in line 48. If  original reference is on another file use xsame_as
+ERROR: c1700.cli line 208  Could not find same_as id c148-8. If  original reference is on another file use xsame_as
+Near lines: 208 Near line: 209 
 
-ERROR:  Could not find same_as id c148-8 referred in line 209. If  original reference is on another file use xsame_as
+WARNING: c1700.cli line 43  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c117-5) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 43 Near line: 44 
 
-3  errors. 
+WARNING: c1700.cli line 47  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c117-6) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 47 Near line: 48 
+1  errors. 
 3  warnings.
 Translation finished.

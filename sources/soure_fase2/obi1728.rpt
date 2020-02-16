@@ -1,130 +1,1619 @@
 ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 15-36
+13-6-2019 16-42
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/soure2/obi1728.cli
+Processing data file obi1728.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
+1: kleio$gacto2.str/translations=1
 =========================
 kleio translation started
 =========================
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 1
 Obs: 
-Translation count not set or invalid, counting as zero: 
+2:    fonte$obitos 1728/1728/paroquiais/auc/obs=em muito mau estado
+3: 
 ** Processing source fonte$obitos 1728
+4:       obito$o1728.01/5/1/1728/fl.11v/celebrante__ vigario manuel rodrigues
+5: 
 6: obito$o1728.01
+6:          n$antonio/m/id=o1728.01-per1
+7:             ls$idade_aprox/recem nascido/obs=logo apos ter sido baptizado
+8:             ls$naturalidade/soure
+9: 
+10:             pai$ventura gomes pinheiro/id=o1728.01-per1-per2
+11:                ls$residencia/soure
+12: 
+13:          locs$ermida de sao sebastiao
+14: 
+15:       obito$o1728.2/10/1/1728/fl.11v/celebrante__ vigario manuel rodrigues
+16: 
 17: obito$o1728.2
+17:          n$manuel simoes galhardo/m/id=o1728.2-per1
+18:             ls$residencia/sobral
+19: 
+20:          locs$igreja de sao tiago
+21: 
+22:          sacr$sim
+23: 
+24:          oficios$3 de 9 licoes
+25: 
+26:          testamento$n
+27: 
+28:       obito$o1728.3/13/1/1728/fl.11v-12/celebrante__ vigario manuel rodrigues
+29: 
 30: obito$o1728.3
+30:          n$maria/f/id=o1728.3-per1
+31:             ls$idade_aprox/maior de idade
+32:             ls$ec/solteira
+33:             ls$residencia/soure
+34: 
+35:             mae$maria jeronima/id=o1728.3-per1-per2
+36:                ls$residencia/soure
+37:                ls$ec/viuva
+38: 
+39:          locs$igreja de sao tiago/obs=em cova da fabrica
+40: 
+41:          sacr$sim
+42: 
+43:          oficios$1
+44: 
+45:          testamento$n
+46: 
+47:       obito$o1728.4/15/1/1728/fl.12/celebrante__ vigario manuel rodrigues
+48: 
 49: obito$o1728.4
+49:          n$mateus/m/id=o1728.4-per1
+50:             ls$idade_aprox/2 para 3 anos
+51:             ls$residencia/simoes
+52: 
+53:             pai$manuel jorge/id=o1728.4-per1-per2
+54:                ls$residencia/simoes
+55: 
+56:          locs$adro
+57: 
+58:       obito$o1728.5/25/1/1728/fl.12/celebrante__ vigario manuel rodrigues
+59: 
 60: obito$o1728.5
+60:          n$isabel dos santos/f/id=o1728.5-per1
+61:             ls$residencia/bonitos
+62: 
+63:             marido$antonio coelho/id=o1728.5-per1-per2
+64:                ls$residencia/bonitos
+65: 
+66:          locs$ermida de sao sebastiao no mogadouro
+67: 
+68:          sacr$sim/obs=excepto sagrada eucaristia por nao estar em estado de comungar
+69: 
+70:          oficios$2
+71: 
+72:          testamento$n
+73: 
+74:       obito$o1728.6/26/1/1728/fl.12-12v/celebrante__ vigario manuel rodrigues
+75: 
 76: obito$o1728.6
+76:          n$joao manco/m/id=o1728.6-per1
+77:             ls$naturalidade/almagreira
+78:             ls$ec/solteiro
+79: 
+80:          locs$adro da ermida do espirito santo
+81: 
+82:          locf$quinta da telhada/obs=onde andava mendincando
+83: 
+84:          sacr$sim/obs=excepto sagrada comunhao por nao estar ja capaz
+85: 
+86:       obito$o1728.7/31/1/1728/fl.12v/celebrante__ vigario manuel rodrigues
+87: 
 88: obito$o1728.7
+88:          n$domingos/m/id=o1728.7-per1
+89:             ls$ilegitimo/sim
+90:             ls$idade_aprox/2 para 3 anos
+91:             ls$residencia/alencarce de cima
+92: 
+93:             mae$isabel goncalves/id=o1728.7-per1-per2
+94:                ls$ec/solteira
+95:                ls$residencia/alencarce de cima
+96: 
+97:          locs$adro
+98: 
+99:       obito$o1728.8/31/1/1728/fl.12v/celebrante__ vigario manuel rodrigues
+100: 
 101: obito$o1728.8
+101:          n$isabel de oliveira/f/id=o1728.8-per1
+102:             ls$residencia/mogadouro
+103: 
+104:             marido$bras domingues/id=o1728.8-per1-per2
+105:                ls$residencia/mogadouro
+106: 
+107:          locs$ermida de sao sebastiao
+108: 
+109:          sacr$sim
+110: 
+111:          oficios$3
+112: 
+113:          testamento$n
+114: 
+115:       obito$o1728.9/1/2/1728/fl.12v/celebrante__ vigario manuel rodrigues
+116: 
 117: obito$o1728.9
+117:          n$manuel/m/id=1728-o9-manuel
+118:             ls$idade_aprox/recem nascido
+119:             ls$naturalidade/mogadouro
+120: 
+121:             pai$jose lopes/id=1728-o9-manuel-per1
+122:                ls$residencia/mogadouro
+123: 
+124:          locs$adro
+125: 
+126:          referido$jose ferreira/id=o1728.9-per2
+127:             ls$residencia/mogadouro
+128:             rel$sociabilidade/baptizou em necessidade/manuel/1728-o9-manuel
+129: 
+130:       obito$o1728.10/6/2/1728/fl.13/celebrante__ vigario manuel rodrigues
+131: 
 132: obito$o1728.10
+132:          n$jose/m/id=1728-o10-jose
+133:             ls$idade_aprox/recem nascido
+134:             ls$naturalidade/vale de galegos
+135: 
+136:             pai$simao pereira/id=1728-o10-jose-per1
+137:                ls$residencia/vale de galegos
+138: 
+139:          locs$ermida de sao sebastiao em soure
+140: 
+141:          referido$jeronimo mendes/id=o1728.10-per2
+142:             ls$profissao/barbeiro
+143:             ls$residencia/soure
+144:             rel$sociabilidade/baptizou em necessidade/jose/1728-o10-jose
+145: 
+146:       obito$o1728.11/10/2/1728/fl.13/celebrante__ vigario manuel rodrigues
+147: 
 148: obito$o1728.11
+148:          n$isabel gomes/f/id=o1728.11-per1
+149:             ls$residencia/casal dos guerras
+150: 
+151:             marido$joao rodrigues galvao/id=o1728.11-per1-per2
+152:                ls$residencia/casal dos guerras
+153: 
+154:          locs$ermida de sao sebastiao em mogadouro
+155: 
+156:          causa$morreu apressada
+157: 
+158:          sacr$sim/obs=excepto sagrada comunhao por nao haver tempo para mais
+159: 
+160:          oficios$3
+161: 
+162:          testamento$n
+163: 
+164:       obito$o1728.12/13/2/1728/fl.13/celebrante__ vigario manuel rodrigues
+165: 
 166: obito$o1728.12
+166:          n$antonio/m/id=o1728.12-per1
+167:             ls$idade_aprox/5 dias
+168:             ls$residencia/paleao
+169: 
+170:             pai$manuel gomes/id=o1728.12-per1-per2
+171:                ls$profissao/ferreiro
+172:                ls$residencia/paleao
+173: 
+174:          locs$ermida de sao joao baptista
+175: 
+176:       obito$o1728.13/23/2/1728/fl.13v/celebrante__ vigario manuel rodrigues
+177: 
 178: obito$o1728.13
+178:          n$joao mateus/m/id=o1728.13-per1
+179:             ls$residencia/casal de galinhas
+180: 
+181:          locs$ermida do divino espirito santo
+182: 
+183:          causa$morreu apressadamente
+184: 
+185:          sacr$nao
+186: 
+187:          oficios$3 de 9 licoes
+188: 
+189:          testamento$s
+190: 
+191:       obito$o1728.14/23/2/1728/fl.13v/celebrante__ vigario manuel rodrigues
+192: 
 193: obito$o1728.14
+193:          n$francisca madeira/f/id=o1728.14-per1
+194:             ls$residencia/alencarce de cima
+195: 
+196:          locs$ermida de santo tirso
+197: 
+198:          sacr$sim
+199: 
+200:          oficios$3 de 9 licoes
+201: 
+202:          testamento$n
+203: 
+204:       obito$o1728.15/28/2/1727/fl.13v/celebrante__ vigario manuel rodrigues
+205: 
 206: obito$o1728.15
+206:          n$maria goncalves menderica/f/id=o1728.15-per1
+207:             ls$residencia/soure
+208: 
+209:          locs$adro
+210: 
+211:          sacr$sim
+212: 
+213:          oficios$1
+214: 
+215:          testamento$n
+216: 
+217:       obito$o1728.16/28/2/1728/fl.13v/celebrante__ vigario manuel rodrigues
+218: 
 219: obito$o1728.16
+219:          n$luisa/f/id=o1728.16-per1
+220:             ls$ilegitima/sim
+221:             ls$idade_aprox/8 anos
+222:             ls$residencia/soure
+223: 
+224:             mae$margarida labias/id=o1728.16-per1-per2
+225:                ls$ec/solteira
+226:                ls$residencia/soure
+227: 
+228:          locs$ermida de nossa senhora dos anjos
+229: 
+230:          causa$morreu apressada
+231: 
+232:          sacr$nao/obs=nao o chamaram
+233: 
+234:       obito$o1728.17/1/3/1728/fl.14/celebrante__ vigario manuel rodrigues
+235: 
 236: obito$o1728.17
+236:          n$maria rodrigues/f/id=o1728.17-per1
+237:             ls$ec/viuva
+238:             ls$residencia/barrosos
+239: 
+240:          locs$ermida de sao sebastiao em mogadouro
+241: 
+242:          sacr$sim
+243: 
+244:          oficios$3
+245: 
+246:          testamento$n
+247: 
+248:       obito$o1728.18/2/3/1728/fl.14/celebrante__ vigario manuel rodrigues
+249: 
 250: obito$o1728.18
+250:          n$manuel goncalves ovelho/m/id=o1728.18-per1
+251:             ls$residencia/fatacos
+252: 
+253:          locs$ermida do divino espirito santo
+254: 
+255:          sacr$sim
+256: 
+257:          oficios$3 de 9 licoes
+258: 
+259:          testamento$n
+260: 
+261:       obito$o1728.19/15/3/1728/fl.14/celebrante__ vigario manuel rodrigues
+262: 
 263: obito$o1728.19
+263:          n$manuel/m/id=o1728.19-per1
+264:             ls$idade_aprox/18 anos
+265:             ls$residencia/simoes
+266: 
+267:             pai$antonio jorge/id=o1728.19-per1-per2
+268:                ls$residencia/simoes
+269: 
+270:          locs$adro
+271: 
+272:          sacr$sim
+273: 
+274:          oficios$1
+275: 
+276:       obito$o1728.20/20/3/1728/fl.14/celebrante__ vigario manuel rodrigues
+277: 
 278: obito$o1728.20
+278:          n$madalena pinta/f/id=o1728.20-per1
+279:             ls$residencia/soure
+280: 
+281:          locs$ermida de sao francisco
+282: 
+283:          sacr$sim
+284: 
+285:          oficios$1
+286: 
+287:          testamento$n
+288: 
+289:       obito$o1728.21/23/3/1728/fl.14v/celebrante__ vigario manuel rodrigues
+290: 
 291: obito$o1728.21
+291:          n$caetana/f/id=o1728.21-per1
+292:             ls$idade_aprox/de maior idade
+293:             ls$residencia/soure
+294: 
+295:             mae$maria de oliveira/id=o1728.21-per1-per2
+296:                ls$residencia/soure
+297: 
+298:          locs$ermida de nossa senhora dos anjos
+299: 
+300:          sacr$sim
+301: 
+302:          oficios$3
+303: 
+304:       obito$o1728.22/24/3/1728/fl.14v/celebrante__ vigario manuel rodrigues
+305: 
 306: obito$o1728.22
+306:          n$maria rodrigues/f/id=o1728.22-per1
+307:             ls$residencia/casal do rei
+308: 
+309:             marido$joao ferreira duque/id=o1728.22-per1-per2
+310:                ls$residencia/casal do rei
+311: 
+312:          locs$ermida do divino espirito santo
+313: 
+314:          causa$morreu apressada
+315: 
+316:          sacr$sim/obs=so penitencia
+317: 
+318:          oficios$1
+319: 
+320:          testamento$n
+321: 
+322:       obito$o1728.23/27/3/1728/fl.14v/celebrante__ vigario manuel rodrigues
+323: 
 324: obito$o1728.23
+324:          n$manuel/m/id=1728-o23-manuel
+325:             ls$idade_aprox/recem nascido
+326:             ls$naturalidade/vale da borra
+327: 
+328:             pai$joao da silva/id=1728-o23-manuel-per1
+329:                ls$residencia/vale da borra
+330: 
+331:          locs$ermida de nossa senhora do bom sucesso
+332: 
+333:          locf$vale da borra
+334: 
+335:          referida$maria rodrigues/id=1728-o23-maria
+336:             ls$profissao/parteira
+337:             ls$residencia/vale da borra
+338:             rel$sociabilidade/baptizou em necessidade/manuel/1728-o23-manuel
+339: 
+340:          referido$manuel/id=o1728.23-per2
+341:             ls$residencia/vale da borra
+342:             rel$parentesco/marido/maria rodrigues/1728-o23-maria
+343: 
+344:       obito$o1728.24/31/3/1728/fl.14v-15/celebrante__ vigario manuel rodrigues
+345: 
 346: obito$o1728.24
+346:          n$joao ferreira duque/m/id=o1728.24-per1
+347:             ls$residencia/casal do rei
+348: 
+349:          locs$ermida do divino espirito santo
+350: 
+351:          sacr$sim
+352: 
+353:          oficios$1
+354: 
+355:          testamento$n
+356: 
+357:       obito$o1728.25/5/4/1728/fl.15/celebrante__ vigario manuel rodrigues
+358: 
 359: obito$o1728.25
+359:          n$manuel rodrigues centeio/m/id=o1728.25-per1
+360:             ls$residencia/charneca
+361: 
+362:          locs$igreja de sao tiago/obs=em cova da fabrica
+363: 
+364:          sacr$sim
+365: 
+366:          oficios$3 de 9 licoes
+367: 
+368:          testamento$s
+369: 
+370:       obito$o1728.26/8/4/1728/fl.15/celebrante__ vigario manuel rodrigues
+371: 
 372: obito$o1728.26
+372:          n$maria de oliveira/f/id=o1728.26-per1
+373:             ls$ec/viuva
+374:             ls$residencia/soure
+375: 
+376:          locs$ermida de sao francisco
+377: 
+378:          causa$morreu apressada
+379: 
+380:          sacr$sim/obs=excepto sagrada comunhao por nao haver tempo para isso
+381: 
+382:          oficios$3
+383: 
+384:          testamento$n
+385: 
+386:       obito$o1728.27/8/4/1728/fl.15/celebrante__ vigario manuel rodrigues
+387: 
 388: obito$o1728.27
+388:          n$maria goncalves/f/id=o1728.27-per1
+389:             ls$ec/viuva
+390:             ls$residencia/paleao
+391: 
+392:          locs$ermida de sao joao baptista
+393: 
+394:          sacr$sim
+395: 
+396:          oficios$1
+397: 
+398:          testamento$n
+399: 
+400:       obito$o1728.28/10/4/1728/fl.15v/celebrante__ vigario manuel rodrigues
+401: 
 402: obito$o1728.28
+402:          n$maria goncalves/f/id=o1728.28-per1
+403:             ls$residencia/vale da borra
+404: 
+405:             marido$joao da silva/id=o1728.28-per1-per2
+406:                ls$residencia/vale da borra
+407: 
+408:          locs$igreja de sao tiago/obs=em cova da vila
+409: 
+410:          sacr$sim
+411: 
+412:          oficios$2
+413: 
+414:          testamento$n
+415: 
+416:       obito$o1728.29/12/4/1728/fl.15v/celebrante__ vigario manuel rodrigues
+417: 
 418: obito$o1728.29
+418:          n$jose/m/id=1728-o29-jose
+419:             ls$idade_aprox/recem nascido
+420:             ls$naturalidade/casal da amoreira
+421: 
+422:             pai$manuel da silva/id=1728-o29-jose-per1
+423:                ls$residencia/casal da amoreira
+424: 
+425:          locs$adro
+426: 
+427:          referido$luis carvalho/id=o1728.29-per2
+428:             ls$profissao/padre
+429:             ls$residencia/casal das brancas
+430:             rel$sociabilidade/baptizou em necessidade/jose/1728-o29-jose
+431: 
+432:       obito$o1728.30/13/4/1728/fl.15v/celebrante__ vigario manuel rodrigues
+433: 
 434: obito$o1728.30
+434:          n$maria muda/f/id=o1728.30-per1
+435:             ls$idade_aprox/20 anos
+436:             ls$residencia/quinta da grisoma
+437: 
+438:             pai$manuel rodrigues cupido/id=o1728.30-per1-per2
+439:                ls$residencia/quinta da grisoma
+440:                ls$morto/antes
+441: 
+442:             mae$guiomar da silva/id=o1728.30-per1-per3
+443: 
+444:          locs$igreja de sao tiago/obs=em cova da fabrica
+445: 
+446:          sacr$sim
+447: 
+448:          oficios$1
+449: 
+450:       obito$o1728.31/14/4/1728/fl.15v-16/celebrante__ vigario manuel rodrigues
+451: 
 452: obito$o1728.31
+452:          n$maria rodrigues curada/f/id=o1728.31-per1
+453:             ls$ec/viuva
+454:             ls$residencia/paleao
+455: 
+456:          locs$ermida de sao joao baptista
+457: 
+458:          sacr$sim
+459: 
+460:          oficios$3
+461: 
+462:          testamento$s
+463: 
+464:       obito$o1728.32/17/4/1728/fl.16/celebrante__ vigario manuel rodrigues
+465: 
 466: obito$o1728.32
+466:          n$manuel/m/id=1728-o32-manuel
+467:             ls$idade_aprox/recem nascido
+468:             ls$naturalidade/mogadouro
+469: 
+470:             pai$manuel domingues/id=1728-o32-domingues
+471:                ls$residencia/mogadouro
+472: 
+473:             mae$maria da costa/id=1728-o32-manuel-per1
+474: 
+475:          locs$adro
+476: 
+477:          referido$bras domingues/id=o1728.32-per2
+478:             ls$residencia/mogadouro
+479:             rel$sociabilidade/baptizou em necessidade/manuel/1728-o32-manuel
+480:             rel$parentesco/pai/manuel domingues/1728-o32-domingues
+481: 
+482:       obito$o1728.33/18/4/1728/fl.16/celebrante__ vigario manuel rodrigues
+483: 
 484: obito$o1728.33
+484:          n$maria/f/id=o1728.33-per1
+485:             ls$idade_aprox/5 anos
+486:             ls$residencia/casa velha
+487: 
+488:             pai$manuel pedroso/id=o1728.33-per1-per2
+489:                ls$residencia/casa velha
+490: 
+491:             mae$maria luis/id=o1728.33-per1-per3
+492: 
+493:          locs$ermida de nossa senhora das neves
+494: 
+495:       obito$o1728.34/20/4/1728/fl.16/celebrante__ vigario manuel rodrigues
+496: 
 497: obito$o1728.34
+497:          n$manuel lucas/m/id=o1728.34-per1
+498:             ls$residencia/riba
+499:             ls$freguesia/arrifana
+500: 
+501:             mulher$pascoa dos santos/id=o1728.34-per1-per2
+502: 
+503:          locs$adro
+504: 
+505:          locf$estalagem de jose da silva em soure
+506: 
+507:          sacr$sim/obs=excepto sagrada comunhao por nao estar ja capaz de comungar
+508: 
+509:          oficios$9 missas
+510: 
+511:       obito$o1728.35/21/4/1728/fl.16v/celebrante__ vigario manuel rodrigues
+512: 
 513: obito$o1728.35
+513:          n$jose goncalves/m/id=o1728.35-per1
+514:             ls$idade_aprox/maior de idade/obs=herdado de mae
+515:             ls$residencia/alencarce de baixo
+516: 
+517:             pai$manuel goncalves/id=o1728.35-per1-per2
+518:                ls$residencia/alencarce de baixo
+519: 
+520:          locs$igreja de sao tiago/obs=em cova da fabrica
+521: 
+522:          sacr$s
+523: 
+524:          oficios$3 de 9 licoes
+525: 
+526:          testamento$s
+527: 
+528:       obito$o1728.36/22/4/1728/fl.16v/celebrante__ vigario manuel rodrigues
+529: 
 530: obito$o1728.36
+530:          n$isabel de paiva/f/id=o1728.36-per1
+531:             ls$ec/viuva
+532:             ls$residencia/soure
+533: 
+534:          locs$igreja de soa tiago/obs=em cova da fabrica
+535: 
+536:          sacr$sim
+537: 
+538:          oficios$1
+539: 
+540:          testamento$n
+541: 
+542:       obito$o1728.37/28/4/1728/fl.16v/celebrante__ vigario manuel rodrigues
+543: 
 544: obito$o1728.37
+544:          n$sebastiao/m/id=o1728.37-per1
+545:             ls$idade_aprox/6 para 7 anos
+546:             ls$residencia/soure
+547: 
+548:             pai$jose dias/id=o1728.37-per1-per2
+549:                ls$residencia/soure/obs= do outeiro
+550: 
+551:          locs$ermida de sao joao francisco
+552: 
+553:       obito$o1728.38/2/5/1728/fl.16v-17/celebrante__ vigario manuel rodrigues
+554: 
 555: obito$o1728.38
+555:          n$domingos goncalves galhardo/m/id=o1728.38-per1
+556:             ls$profissao/padre
+557:             ls$residencia/soure
+558: 
+559:          locs$ermida de sao francisco/obs=na capela
+560: 
+561:          sacr$sim
+562: 
+563:          oficios$3 de 9 licoes
+564: 
+565:          testamento$n
+566: 
+567:       obito$o1728.39/3/5/1728/fl.17/celebrante__ vigario manuel rodrigues
+568: 
 569: obito$o1728.39
+569:          n$andre domingues/m/id=o1728.39-per1
+570:             ls$residencia/casa velha
+571: 
+572:          locs$ermida de nossa senhora das neves
+573: 
+574:          sacr$sim/obs=so penitencia por o nao procurarem a tempo
+575: 
+576:          oficios$1
+577: 
+578:          testamento$n
+579: 
+580:       obito$o1728.40/5/5/1728/fl.17/celebrante__ vigario manuel rodrigues
+581: 
 582: obito$o1728.40
+582:          n$joao rodrigues calhau/m/id=o1728.40-per1
+583:             ls$residencia/alencarce de cima
+584: 
+585:          locs$ermida de santo tirso
+586: 
+587:          sacr$sim
+588: 
+589:          oficios$3
+590: 
+591:          testamento$n
+592: 
+593:       obito$o1728.41/8/5/1728/fl.17/celebrante__ vigario manuel rodrigues
+594: 
 595: obito$o1728.41
+595:          n$manuel rodrigues/m/id=o1728.41-per1
+596:             ls$alcunha/o mouco
+597:             ls$residencia/casal das brancas
+598: 
+599:          locs$ermida do divino espirito santo
+600: 
+601:          sacr$sim/obs=excepto sagrada comunhao por ter vomitos
+602: 
+603:          oficios$3
+604: 
+605:          testamento$n
+606: 
+607:       obito$o1728.42/12/5/1728/fl.17v/celebrante__ vigario manuel rodrigues
+608: 
 609: obito$o1728.42
+609:          n$manuel rodrigues inchado/id=o1728.42-per1
+610:             ls$residencia/alencarce de cima
+611: 
+612:          locs$ermida de santo tirso
+613: 
+614:          sacr$sim
+615: 
+616:          oficios$2 de 9 licoes
+617: 
+618:          testamento$n
+619: 
+620:       obito$o1728.43/21/5/1728/fl.17v/celebrante__ vigario manuel rodrigues
+621: 
 622: obito$o1728.43
+622:          n$maria/f/id=o1728.43-per1
+623:             ls$idade_aprox/2 para 3 anos
+624:             ls$residencia/casa velha
+625: 
+626:             pai$francisco da costa/id=o1728.43-per1-per2
+627:                ls$residencia/casa velha
+628: 
+629:          locs$ermida de nossa senhora das neves
+630: 
+631:       obito$o1728.44/25/5/1728/fl.17v/celebrante__ vigario manuel rodrigues
+632: 
 633: obito$o1728.44
+633:          n$josefa/f/id=o1728.44-per1
+634:             ls$idade_aprox/3 anos
+635:             ls$residencia/mogadouro
+636: 
+637:             pai$joao nunes/id=o1728.44-per1-per2
+638:                ls$residencia/mogadouro
+639: 
+640:          locs$adro
+641: 
+642:       obito$o1728.45/25/5/1728/fl.17v/celebrante__ vigario manuel rodrigues
+643: 
 644: obito$o1728.45
+644:          n$antonio da fonseca/m/id=o1728.45-per1
+645:             ls$profissao/ferrador
+646:             ls$residencia/soure
+647: 
+648:          locs$ermida de nossa senhora dos anjos
+649: 
+650:          locf$ponte da portela
+651: 
+652:          causa$suicidio/obs=caiu da ponte da portela acabando com a vida
+653: 
+654:          sacr$nao
+655: 
+656:          oficios$1
+657: 
+658:          testamento$n
+659: 
+660:       obito$o1728.46/26/5/1728/fl.18/celebrante__ vigario manuel rodrigues
+661: 
 662: obito$o1728.46
+662:          n$francisco antunes/m/id=o1728.46-per1
+663:             ls$ec/viuvo
+664:             ls$residencia/alencarce de cima
+665: 
+666:          locs$ermida desanto tirso
+667: 
+668:          sacr$sim
+669: 
+670:          oficios$3 de 9 licoes
+671: 
+672:          testamento$n
+673: 
+674:       obito$o1728.47/29/5/1728/fl.18/celebrante__ vigario manuel rodrigues
+675: 
 676: obito$o1728.47
+676:          n$antonio goncalves do paco/m/id=o1728.47-per1
+677:             ls$ec/viuvo
+678:             ls$residencia/soure
+679: 
+680:          locs$igreja e sao tiago/obs=em cova da fabrica
+681: 
+682:          sacr$sim
+683: 
+684:          oficios$1 de 9 licoes
+685: 
+686:          testamento$n
+687: 
+688:       obito$o1728.48/29/5/1728/fl.18/celebrante__ vigario manuel rodrigues
+689: 
 690: obito$o1728.48
+690:          n$joao/m/id=o1728.48-per1
+691:             ls$idade_aprox/2 meses
+692:             ls$residencia/casa velha
+693: 
+694:             pai$diogo da costa/id=o1728.48-per1-per2
+695:                ls$residencia/casa velha
+696: 
+697:          locs$ermida de nossa senhora das neves
+698: 
+699:       obito$o1728.49/3/6/1728/fl.18/celebrante__ vigario manuel rodrigues
+700: 
 701: obito$o1728.49
+701:          n$bento gomes/m/id=o1728.49-per1
+702:             ls$residencia/soure
+703: 
+704:          locs$igreja de sao tiago/obs=em cova da fabrica
+705: 
+706:          sacr$sim
+707: 
+708:          oficios$1 de 9 licoes
+709: 
+710:          testamento$n
+711: 
+712:       obito$o1728.50/4/6/1728/fl.18v/celebrante__ vigario manuel rodrigues
+713: 
 714: obito$o1728.50
+714:          n$antonia/f/id=o1728.50-per1
+715:             ls$idade_aprox/de maior idade/obs=herdada de mae
+716:             ls$ec/solteira
+717:             ls$residencia/porto coelheiro
+718: 
+719:             pai$lourenco rodrigues/id=o1728.50-per1-per2
+720:                ls$residencia/porto coelheiro
+721: 
+722:          locs$ermida de santo ildefonso
+723: 
+724:          sacr$sim
+725: 
+726:          oficios$3
+727: 
+728:          testamento$n
+729: 
+730:       obito$o1728.51/5/6/1728/fl.18v/celebrante__ vigario manuel rodrigues
+731: 
 732: obito$o1728.51
+732:          n$isabel gaspar/f/id=o1728.51-per1
+733:             ls$ec/viuva
+734:             ls$residencia/alencarce de cima
+735: 
+736:             marido$manuel madeira/id=o1728.51-per1-per2
+737:                ls$residencia/alencarce de cima
+738:                ls$morto/antes
+739: 
+740:          locs$ermida de santo tirso
+741: 
+742:          sacr$sim
+743: 
+744:          oficios$3 de 9 licoes
+745: 
+746:          testamento$s
+747: 
+748:       obito$o1728.52/5/6/1728/fl.18v/celebrante__ vigario manuel rodrigues
+749: 
 750: obito$o1728.52
+750:          n$joao rodrigues lobinho/m/id=o1728.52-per1
+751:             ls$residencia/quinta da cruz
+752: 
+753:          locs$ermida de sao sebastiao no mogadouro
+754: 
+755:          sacr$sim
+756: 
+757:          oficios$1
+758: 
+759:          testamento$n
+760: 
+761:       obito$o1728.53/7/6/1728/fl.18v-19/celebrante__ vigario manuel rodrigues
+762: 
 763: obito$o1728.53
+763:          n$maria/f/id=o1728.53-per1
+764:             ls$idade_aprox/1 ano
+765:             ls$residencia/soure
+766: 
+767:             pai$joao de sequeira coelho/id=o1728.53-per1-per2
+768:                ls$residencia/soure
+769: 
+770:          locs$igreja de sao tiago/obs=em cova de seus antepassados
+771: 
+772:       obito$o1728.54/12/6/1728/fl.19/celebrante__ vigario manuel rodrigues
+773: 
 774: obito$o1728.54
+774:          n$joao goncalves/m/id=o1728.54-per1
+775:             ls$residencia/lousoes
+776: 
+777:          locs$ermida de santo andre no casal novo
+778: 
+779:          sacr$sim
+780: 
+781:          oficios$1
+782: 
+783:          testamento$n
+784: 
+785:       obito$o1728.55/15/6/1728/fl.19/celebrante__ vigario manuel rodrigues
+786: 
 787: obito$o1728.55
+787:          n$maria francisca/f/id=o1728.55-per1
+788:             ls$residencia/quinta da cruz
+789: 
+790:             marido$joao simoes/id=o1728.55-per1-per2
+791:                ls$residencia/quinta da cruz
+792: 
+793:          locs$ermida de sao sebastiao no mogadouro
+794: 
+795:          sacr$sim
+796: 
+797:          oficios$1
+798: 
+799:          testamento$n
+800: 
+801:       obito$o1728.56/18/6/1728/fl.19-19v/celebrante__ vigario manuel rodrigues
+802: 
 803: obito$o1728.56
+803:          n$isabel cardosa/f/id=o1728.56-per1
+804:             ls$ec/viuva
+805:             ls$residencia/casal do migalho
+806: 
+807:          locf$hospital de coimbra
+808: 
+809:       obito$o1728.57/27/6/1728/fl.19v/celebrante__ vigario manuel rodrigues
+810: 
 811: obito$o1728.57
+811:          n$maria/f/id=1728-o57-maria
+812:             ls$enjeitada/sim
+813:             ls$idade_aprox/1 mes e meio
+814:             ls$residencia/soure
+815: 
+816:          locs$adro
+817: 
+818:          referida$isabel joao/id=1728-o57-isabel
+819:             ls$residencia/soure
+820:             rel$sociabilidade/ama/maria/1728-o57-maria
+821: 
+822:          referido$jose martins camouco/id=o1728.57-per1
+823:             ls$residencia/soure
+824:             rel$parentesco/marido/isabel joao/1728-o57-isabel
+825: 
+826:       obito$o1728.58/22/6/1728/fl.19v/celebrante__ vigario manuel rodrigues
+827: 
 828: obito$o1728.58
+828:          n$jose/m/id=o1728.58-per1
+829:             ls$profissao/soldado
+830: 
+831:             pai$pedro francisco/id=o1728.58-per1-per2
+832:                ls$residencia/casconho
+833: 
+834:          locf$no mar/obs=faleceu no mar em uma embarcacao
+835: 
+836:       obito$o1728.59/30/6/1728/fl.19v/celebrante__ vigario manuel rodrigues
+837: 
 838: obito$o1728.59
+838:          n$maria simoes/f/id=o1728.59-per1
+839:             ls$ec/viuva
+840:             ls$residencia/rolhao
+841: 
+842:          locs$ermida de sao joao baptista em paleao
+843: 
+844:          sacr$sim
+845: 
+846:          oficios$1
+847: 
+848:          testamento$n
+849: 
+850:       obito$o1728.60/6/7/1728/fl.19v-20/celebrante__ vigario manuel rodrigues
+851: 
 852: obito$o1728.60
+852:          n$joana/f/id=o1728.60-per1
+853:             ls$idade_aprox/1 dia depois de ser baptizada
+854:             ls$residencia/paleao
+855: 
+856:             pai$manuel de almeida/id=o1728.60-per1-per2
+857:                ls$residencia/paleao
+858: 
+859:             mae$ana gomes/id=o1728.60-per1-per3
+860: 
+861:          locs$ermida de sao joao baptista
+862: 
+863:       obito$o1728.61/25/7/1728/fl.20/celebrante__ vigario manuel rodrigues
+864: 
 865: obito$o1728.61
+865:          n$jose velho/m/id=o1728.61-per1
+866:             ls$profissao/barbeiro
+867:             ls$residencia/soure
+868: 
+869:          locs$ermida de sao francisco
+870: 
+871:          sacr$sim
+872: 
+873:          oficios$1
+874: 
+875:          testamento$n
+876: 
+877:       obito$o1728.62/3/8/1728/fl.20/celebrante__ vigario manuel rodrigues
+878: 
 879: obito$o1728.62
+879:          n$maria cardosa/f/id=o1728.62-per1
+880:             ls$residencia/casal novo
+881: 
+882:             marido$antonio nunes/id=o1728.62-per1-per2
+883:                ls$residencia/casal novo
+884: 
+885:          locs$ermida de santo andre
+886: 
+887:          sacr$sim
+888: 
+889:          oficios$3 de 9 licoes
+890: 
+891:          testamento$n
+892: 
+893:       obito$o1728.63/5/8/1728/fl.20/celebrante__ vigario manuel rodrigues
+894: 
 895: obito$o1728.63
+895:          n$joao/m/id=o1728.63-per1
+896:             ls$idade_aprox/18 anos
+897:             ls$ec/solteiro
+898:             ls$residencia/sobral
+899: 
+900:             pai$jose goncalves/id=o1728.63-per1-per2
+901:                ls$residencia/sobral
+902: 
+903:          locs$ermida de sao miguel
+904: 
+905:          sacr$sim
+906: 
+907:          oficios$1
+908: 
+909:       obito$o1728.64/5/8/1728/fl.20v/celebrante__ vigario manuel rodrigues
+910: 
 911: obito$o1728.64
+911:          n$manuel rodrigues/m/id=o1728.64-per1
+912:             ls$alcunha/o capitao
+913:             ls$residencia/porto coelheiro
+914: 
+915:          locs$ermida de santo ildefonso
+916: 
+917:          sacr$sim
+918: 
+919:          oficios$3 de 9 licoes
+920: 
+921:          testamento$n
+922: 
+923:       obito$o1728.65/6/8/1728/fl.20v/celebrante__ vigario manuel rodrigues
+924: 
 925: obito$o1728.65
+925:          n$luisa/f/id=o1728.65-per1
+926:             ls$idade_aprox/20 anos
+927:             ls$ec/solteira
+928:             ls$residencia/casa velha
+929: 
+930:             pai$antonio dos santos/id=o1728.65-per1-per2
+931:                ls$residencia/casa velha
+932: 
+933:          locs$colegiada da igreja de sao tiago/obs=em cova da fabrica
+934: 
+935:          sacr$sim
+936: 
+937:          oficios$1
+938: 
+939:          testamento$
+940: 
+941:       obito$o1728.66/10/8/1728/fl.20v/celebrante__ vigario manuel rodrigues
+942: 
 943: obito$o1728.66
+943:          n$francisca rodrigues/f/id=o1728.66-per1
+944:             ls$residencia/casal dos guerras
+945: 
+946:             marido$francisco rodrigues/id=o1728.66-per1-per2
+947:                ls$residencia/casal dos guerras
+948: 
+949:          locs$adro
+950: 
+951:          sacr$sim
+952: 
+953:          oficios$3
+954: 
+955:          testamento$s
+956: 
+957:       obito$o1728.67/14/8/1728/fl.20v-21/celebrante__ vigario manuel rodrigues
+958: 
 959: obito$o1728.67
+959:          n$isabel luis/m/id=o1728.67-per1
+960:             ls$residencia/casal do oliveira
+961: 
+962:             marido$bartolomeu antunes/id=o1728.67-per1-per2
+963:                ls$residencia/casal do oliveira
+964: 
+965:          locs$igreja de sao tiago/obs=em cova da fabrica
+966: 
+967:          causa$morte apressada
+968: 
+969:          sacr$nao
+970: 
+971:          oficios$1 de 9 licoes
+972: 
+973:          testamento$n
+974: 
+975:       obito$o1728.68/14/8/1728/fl.21/celebrante__ vigario manuel rodrigues
+976: 
 977: obito$o1728.68
+977:          n$maria/f/id=o1728.68-per1
+978:             ls$idade_aprox/16 meses
+979:             ls$residencia/casa velha
+980: 
+981:             pai$manuel nunes/id=o1728.68-per1-per2
+982:                ls$residencia/casa velha
+983: 
+984:          locs$ermida de nossa senhora das neves
+985: 
+986:       obito$o1728.69/16/8/1728/fl.21v/celebrante__ vigario manuel rodrigues
+987: 
 988: obito$o1728.69
+988:          n$maria martins/f/id=o1728.69-per1
+989:             ls$residencia/soure
+990: 
+991:             marido$matias da silva/id=o1728.69-per1-per2
+992:                ls$profissao/oficial
+993:                ls$residencia/soure
+994: 
+995:          locs$ermida de nossa senhora dos anjos
+996: 
+997:          sacr$sim
+998: 
+999:          oficios$1
+1000: 
+1001:          testamento$n
+1002: 
+1003:       obito$o1728.70/17/8/1728/fl.21/celebrante__ vigario manuel rodrigues
+1004: 
 1005: obito$o1728.70
+1005:          n$antonio/m/id=o1728.70-per1
+1006:             ls$idade_aprox/2 meses e meio
+1007:             ls$residencia/simoes
+1008: 
+1009:             pai$joao rodrigues monteiro/id=o1728.70-per1-per2
+1010:                ls$residencia/simoes
+1011: 
+1012:          locs$adro
+1013: 
+1014:       obito$o1728.71/23/8/1728/fl.21/celebrante__ vigario manuel rodrigues
+1015: 
 1016: obito$o1728.71
+1016:          n$antonia francisca/f/id=o1728.71-per1
+1017:             ls$ec/viuva
+1018:             ls$residencia/casal do rei
+1019: 
+1020:          locs$ermida do divino espirito santo
+1021: 
+1022:          sacr$sim
+1023: 
+1024:          oficios$3 de 9 licoes
+1025: 
+1026:          testamento$n
+1027: 
+1028:       obito$o1728.72/28/8/1728/fl.21v/celebrante__ vigario manuel rodrigues
+1029: 
 1030: obito$o1728.72
+1030:          n$francisca rodrigues/f/id=o1728.72-per1
+1031:             ls$residencia/alencarce de baixo
+1032: 
+1033:             marido$domingos joao/id=o1728.72-per1-per2
+1034:                ls$residencia/alencarce de baixo
+1035: 
+1036:          locs$ermida de santo tirso
+1037: 
+1038:          causa$doenca prolongada
+1039: 
+1040:          sacr$sim
+1041: 
+1042:          oficios$3
+1043: 
+1044:          testamento$n
+1045: 
+1046:       obito$o1728.73/30/8/1728/fl.21v/celebrante__ vigario manuel rodrigues
+1047: 
 1048: obito$o1728.73
+1048:          n$iria/f/id=o1728.73-per1
+1049:             ls$idade_aprox/3 para 4 anos
+1050:             ls$residencia/soure
+1051: 
+1052:             pai$manuel lopes/id=o1728.73-per1-per2
+1053:                ls$profissao/sapateiro
+1054:                ls$residencia/soure/obs=na rua da levada
+1055: 
+1056:          locs$ermida de nossa senhora dos anjos
+1057: 
+1058:       obito$o1728.74/3/9/1728/fl.21v/celebrante__ vigario manuel rodrigues
+1059: 
 1060: obito$o1728.74
+1060:          n$antonia goncalves/f/id=o1728.74-per1
+1061:             ls$ec/viuva
+1062:             ls$residencia/cascao
+1063: 
+1064:          locs$ermida de santo tirso em alencarce de cima
+1065: 
+1066:          causa$acidente
+1067: 
+1068:          sacr$nao/obs=morreu repentinamente de um acidente
+1069: 
+1070:          oficios$3
+1071: 
+1072:          testamento$n
+1073: 
+1074:       obito$o1728.75/9/9/1728/fl.22/celebrante__ vigario manuel rodrigues
+1075: 
 1076: obito$o1728.75
+1076:          n$jose antunes/m/id=o1728.75-per1
+1077:             ls$profissao/alfaiate
+1078:             ls$residencia/alencarce de cima
+1079: 
+1080:          locs$ermida de santo tirso
+1081: 
+1082:          sacr$sim
+1083: 
+1084:          oficios$3
+1085: 
+1086:          testamento$n
+1087: 
+1088:       obito$o1728.76/28/9/1728/fl.22/celebrante__ vigario manuel rodrigues
+1089: 
 1090: obito$o1728.76
+1090:          n$manuel/m/id=o1728.76-per1
+1091:             ls$idade_aprox/1 ano
+1092:             ls$residencia/alencarce de cima
+1093: 
+1094:             pai$jose madeira/id=o1728.76-per1-per2
+1095:                ls$residencia/alencarce de cima
+1096: 
+1097:          locs$ermida e santo tirso
+1098: 
+1099:       obito$o1728.77/1/10/1728/fl.22/celebrante__ vigario manuel rodrigues
+1100: 
 1101: obito$o1728.77
+1101:          n$maria jorge/f/id=o1728.77-per1
+1102:             ls$ec/viuva
+1103:             ls$residencia/casa velha
+1104: 
+1105:             marido$andre domingues/id=o1728.77-per1-per2
+1106:                ls$residencia/casa velha
+1107:                ls$morto/antes
+1108: 
+1109:          locs$ermida de nossa senhora das neves
+1110: 
+1111:          sacr$sim/obs=excepto extrema uncao porque o nao procurou
+1112: 
+1113:          oficios$1
+1114: 
+1115:          testamento$n
+1116: 
+1117:       obito$o1728.78/5/10/1728/fl.22v/celebrante__ vigario manuel rodrigues
+1118: 
 1119: obito$o1728.78
+1119:          n$joao francisco/m/id=o1728.78-per1
+1120:             ls$residencia/simoes
+1121: 
+1122:          locs$igreja de sao tiago/obs=em cova da fabrica
+1123: 
+1124:          sacr$sim/obs=excepto extrema uncao porque o nao procurou
+1125: 
+1126:          oficios$3
+1127: 
+1128:          testamento$a
+1129: 
+1130:       obito$o1728.79/7/10/1728/fl.22v/celebrante__ vigario manuel rodrigues
+1131: 
 1132: obito$o1728.79
+1132:          n$mariana/f/id=o1728.79-per1
+1133:             ls$idade_aprox/17 meses
+1134:             ls$residencia/soure
+1135: 
+1136:             pai$mateus cardoso/id=o1728.79-per1-per2
+1137:                ls$residencia/soure
+1138: 
+1139:          locs$igreja e sao tiago/obs=em cova da fabrica
+1140: 
+1141:       obito$o1728.80/7/10/1728/fl.22v/celebrante__ vigario manuel rodrigues
+1142: 
 1143: obito$o1728.80
+1143:          n$manuel/m/id=1728-o80-manuel
+1144:             ls$idade_aprox/recem nascido
+1145:             ls$naturalidade/espirito santo
+1146: 
+1147:             pai$manuel goncalves seco/id=1728-o80-manuel-per1
+1148:                ls$residencia/espirito santo
+1149: 
+1150:          locs$ermida do divino espirito santo
+1151: 
+1152:          referido$paulo antunes/id=o1728.80-per2
+1153:             ls$profissao/padre
+1154:             ls$residencia/assamassa
+1155:             rel$sociabilidade/baptizou em necessidade/manuel/1728-o80-manuel
+1156: 
+1157:       obito$o1728.81/10/10/1728/fl.22v-23/celebrante__ vigario manuel rodrigues
+1158: 
 1159: obito$o1728.81
+1159:          n$maria francisca/f/id=o1728.81-per1
+1160:             ls$ec/viuva
+1161:             ls$residencia/casalinhos
+1162: 
+1163:          locs$ermida de sao francisco
+1164: 
+1165:          causa$doenca prolongada
+1166: 
+1167:          sacr$sim
+1168: 
+1169:          oficios$1
+1170: 
+1171:          testamento$n
+1172: 
+1173:       obito$o1728.82/11/10/1728/fl.23/celebrante__ vigario manuel rodrigues
+1174: 
 1175: obito$o1728.82
+1175:          n$manuel goncalves arrafil/m/id=o1728.82-per1
+1176:             ls$naturalidade/pinheiro
+1177: 
+1178:          locf$alentejo
+1179: 
+1180:       obito$o1728.83/13/10/1728/fl.23/celebrante__ vigario manuel rodrigues
+1181: 
 1182: obito$o1728.83
+1182:          n$joao fernandes/m/id=o1728.83-per1
+1183:             ls$residencia/casal da venda
+1184: 
+1185:          locs$adro
+1186: 
+1187:          sacr$sim
+1188: 
+1189:          oficios$1
+1190: 
+1191:          testamento$n
+1192: 
+1193:       obito$o1728.84/20/10/1728/fl.23/celebrante__ vigario manuel rodrigues
+1194: 
 1195: obito$o1728.84
+1195:          n$antonia/f/id=o1728.84-per1
+1196:             ls$idade_aprox/7 para 8 anos
+1197:             ls$residencia/soure
+1198: 
+1199:             pai$joao mendes francisco/id=o1728.84-per1-per2
+1200:                ls$residencia/soure
+1201: 
+1202:          locs$ermida de nossa senhora dos anjos
+1203: 
+1204:          sacr$sim
+1205: 
+1206:       obito$o1728.85/21/10/1728/fl.23v/celebrante__ vigario manuel rodrigues
+1207: 
 1208: obito$o1728.85
+1208:          n$inacio da rocha/m/id=o1728.85-per1
+1209:             ls$ec/viuvo
+1210:             ls$naturalidade/montemor o novo
+1211:             ls$residencia/soure
+1212: 
+1213:          locs$igreja de nossa senhora de finisterra/obs=em cova da fabrica
+1214: 
+1215:          causa$acidente
+1216: 
+1217:          sacr$nao/obs=morreu apressadamente de um acidente
+1218: 
+1219:       obito$o1728.86/27/10/1728/fl.23v/celebrante__ vigario manuel rodrigues
+1220: 
 1221: obito$o1728.86
+1221:          n$bras ferreira/m/id=o1728.86-per1
+1222:             ls$ec/viuvo
+1223:             ls$residencia/bechos
+1224: 
+1225:          locs$ermida do divino espirito santo
+1226: 
+1227:          sacr$sim
+1228: 
+1229:          oficios$1
+1230: 
+1231:          testamento$n
+1232: 
+1233:       obito$o1728.87/29/10/1728/fl.23v/celebrante__ vigario manuel rodrigues
+1234: 
 1235: obito$o1728.87
+1235:          n$mariana/f/id=o1728.87-per1
+1236:             ls$idade_aprox/21 anos
+1237:             ls$ec/solteira
+1238:             ls$residencia/casa velha
+1239: 
+1240:             pai$joao francisco/id=o1728.87-per1-per2
+1241:                ls$profissao/cozinheiro
+1242:                ls$residencia/casa velha
+1243: 
+1244:          locs$ermida de nossa senhora das neves
+1245: 
+1246:          sacr$sim
+1247: 
+1248:          oficios$1
+1249: 
+1250:          testamento$n
+1251: 
+1252:       obito$o1728.88/31/10/1728/fl.23v-24/celebrante__ vigario manuel rodrigues
+1253: 
 1254: obito$o1728.88
+1254:          n$antonio/m/id=o1728.88-per1
+1255:             ls$idade_aprox/14 anos
+1256:             ls$residencia/venda nova
+1257: 
+1258:             pai$antonio domingues/id=o1728.88-per1-per2
+1259:                ls$residencia/venda nova
+1260: 
+1261:          locs$ermida de santo antonio
+1262: 
+1263:          sacr$sim
+1264: 
+1265:          oficios$1
+1266: 
+1267:          testamento$n
+1268: 
+1269:       obito$o1728.89/31/10/1728/fl.24/celebrante__ vigario manuel rodrigues
+1270: 
 1271: obito$o1728.89
+1271:          n$josefa/f/id=o1728.89-per1
+1272:             ls$idade_aprox/2 para 3 anos
+1273:             ls$residencia/corujeira
+1274: 
+1275:             pai$antonio de oliveira/id=o1728.89-per1-per2
+1276:                ls$residencia/corujeira
+1277: 
+1278:          locs$adro
+1279: 
+1280:       obito$o1728.90/9/11/1728/fl.24/celebrante__ vigario manuel rodrigues
+1281: 
 1282: obito$o1728.90
+1282:          n$teresa/f/id=o1728.90-per1
+1283:             ls$idade_aprox/1 ano
+1284:             ls$residencia/paleao
+1285: 
+1286:             pai$manuel rodrigues goncalves/id=o1728.90-per1-per2
+1287:                ls$residencia/paleao
+1288: 
+1289:          locs$ermida de sao joao baptista
+1290: 
+1291:       obito$o1728.91/12/11/1728/fl.24-24v/celebrante__ vigario manuel rodrigues
+1292: 
 1293: obito$o1728.91
+1293:          n$antonia joao/f/id=o1728.91-per1
+1294:             ls$residencia/alencarce de cima
+1295: 
+1296:             marido$manuel rodrigues gingoso/id=o1728.91-per1-per2
+1297:                ls$residencia/alencarce de cima
+1298: 
+1299:          locs$igreja de sao tiago/obs=em cova da fabrica
+1300: 
+1301:          causa$morte apressada
+1302: 
+1303:          sacr$sim/obs=so penitencia por nao haver tempo para mais
+1304: 
+1305:          oficios$1 de 9 licoes
+1306: 
+1307:          testamento$n
+1308: 
+1309:       obito$o1728.92/14/11/1728/fl.24v/celebrante__ vigario manuel rodrigues
+1310: 
 1311: obito$o1728.92
+1311:          n$paulo/m/id=o1728.92-per1
+1312:             ls$ilegitimo/sim
+1313:             ls$idade_aprox/20 dias
+1314:             ls$residencia/espirito santo
+1315: 
+1316:             mae$maria/id=1728-o92-maria
+1317:                ls$ec/solteira
+1318:                ls$residencia/espirito santo
+1319: 
+1320:          locs$ermida do divino espirito santo
+1321: 
+1322:          referido$jose goncalves cacao/id=o1728.92-per2
+1323:             ls$residencia/espirito santo
+1324:             rel$parentesco/pai/maria/1728-o92-maria
+1325: 
+1326:       obito$o1728.93/17/11/1728/fl.24v/celebrante__ vigario manuel rodrigues
+1327: 
 1328: obito$o1728.93
+1328:          n$jose rodrigues formigo/m/id=o1728.93-per1
+1329:             ls$residencia/barril
+1330: 
+1331:          locs$ermida de sao mateus
+1332: 
+1333:          causa$doenca prolongada
+1334: 
+1335:          sacr$sim/obs=excepto a extrema uncao porque a nao procurou
+1336: 
+1337:          oficios$1
+1338: 
+1339:          testamento$n
+1340: 
+1341:       obito$o1728.94/20/11/1728/fl.24v-25/celebrante__ vigario manuel rodrigues
+1342: 
 1343: obito$o1728.94
+1343:          n$pedro/m/id=o1728.94-per1
+1344:             ls$idade_aprox/4 anos
+1345:             ls$residencia/soure
+1346: 
+1347:             pai$mateus cardoso/id=o1728.94-per1-per2
+1348:                ls$residencia/soure
+1349: 
+1350:          locs$igreja de sao tiago/obs=em cova da fabrica
+1351: 
+1352:       obito$o1728.95/25/11/1728/fl.25/celebrante__ vigario manuel rodrigues
+1353: 
 1354: obito$o1728.95
+1354:          n$josefa figueireda/f/id=o1728.95-per1
+1355:             ls$ec/solteira
+1356:             ls$residencia/soure
+1357: 
+1358:          locs$ermida de nossa senhora dos anjos
+1359: 
+1360:          sacr$sim
+1361: 
+1362:          oficios$1
+1363: 
+1364:          testamento$n
+1365: 
+1366:       obito$o1728.96/27/11/1728/fl.25/celebrante__ vigario manuel rodrigues
+1367: 
 1368: obito$o1728.96
+1368:          n$maria madeira/f/id=o1728.96-per1
+1369:             ls$residencia/quinta da telhada
+1370: 
+1371:             marido$antonio rodrigues/id=o1728.96-per1-per2
+1372:                ls$residencia/quinta da telhada
+1373: 
+1374:          locs$igreja de sao tiago/obs=em cova da fabrica
+1375: 
+1376:          sacr$sim
+1377: 
+1378:          oficios$1
+1379: 
+1380:          testamento$n
+1381: 
+1382:       obito$o1728.97/27/11/1728/fl.25/celebrante__ vigario manuel rodrigues
+1383: 
 1384: obito$o1728.97
+1384:          n$joao mateus/m/id=o1728.97-per1
+1385:             ls$ec/viuvo
+1386:             ls$residencia/pouca pena
+1387: 
+1388:          locs$ermida do divino espirito santo
+1389: 
+1390:          sacr$sim/obs=excepto o da sagrada comunhao por noa estar capaz
+1391: 
+1392:          oficios$3
+1393: 
+1394:          testamento$n
+1395: 
+1396:       obito$o1728.98/28/11/1728/fl.25-25v/celebrante__ vigario manuel rodrigues
+1397: 
 1398: obito$o1728.98
+1398:          n$jose/m/id=o1728.98-per1
+1399:             ls$idade_aprox/11 meses
+1400:             ls$residencia/cascao
+1401: 
+1402:             pai$antonio madeira/id=o1728.98-per1-per2
+1403:                ls$residencia/cascao
+1404: 
+1405:          locs$ermida de santo tirso
+1406: 
+1407:       obito$o1728.99/2/12/1728/fl.25v/celebrante__ vigario manuel rodrigues
+1408: 
 1409: obito$o1728.99
+1409:          n$maria joao/f/id=o1728.99-per1
+1410:             ls$alcunha/a seguerelha
+1411:             ls$residencia/mogadouro
+1412: 
+1413:          locs$adro
+1414: 
+1415:          sacr$sim
+1416: 
+1417:          oficios$2
+1418: 
+1419:          testamento$n
+1420: 
+1421:       obito$o1728.100/10/12/1728/fl.25v/celebrante__ vigario manuel rodrigues
+1422: 
 1423: obito$o1728.100
+1423:          n$domingas joao/f/id=o1728.100-per1
+1424:             ls$ec/viuva
+1425:             ls$residencia/casconho
+1426: 
+1427:          locs$ermida de sao joao baptista
+1428: 
+1429:          sacr$sim
+1430: 
+1431:          oficios$3 de 9 licoes
+1432: 
+1433:          testamento$n
+1434: 
+1435:       obito$o1728.101/18/12/1728/fl.25v/celebrante__ vigario manuel rodrigues
+1436: 
 1437: obito$o1728.101
+1437:          n$isabel/f/id=1728-o101-isabel
+1438:             ls$idade_aprox/recem nascida
+1439:             ls$naturalidade/sobral
+1440: 
+1441:             pai$jose duarte/id=1728-o101-isabel-per1
+1442:                ls$residencia/sobral
+1443: 
+1444:          locs$ermida de sao miguel
+1445: 
+1446:          referido$jose francisco/id=o1728.101-per2
+1447:             ls$ec/solteiro
+1448:             ls$residencia/sobral
+1449:             rel$sociabilidade/baptizou em necessidade/isabel/1728-101-isabel
+1450: 
+1451:       obito$o1728.102/19/12/1728/fl.26/celebrante__ vigario manuel rodrigues
+1452: 
 1453: obito$o1728.102
+1453:          n$manuel rodrigues goncalves/m/id=o1728.102-per1
+1454:             ls$alcunha/o moco
+1455:             ls$residencia/paleao
+1456: 
+1457:          locs$igreja de sao joao baptista
+1458: 
+1459:          sacr$sim
+1460: 
+1461:          oficios$1
+1462: 
+1463:          testamento$n
+1464: 
+1465:       obito$o1728.103/21/12/1728/fl.26/celebrante__ vigario manuel rodrigues
+1466: 
 1467: obito$o1728.103
+1467:          n$maria goncalves calada/f/id=o1728.103-per1
+1468:             ls$residencia/vale da borra
+1469: 
+1470:             marido$lourenco rodrigues/id=o1728.103-per1-per2
+1471:                ls$residencia/vale da borra
+1472: 
+1473:          locs$ermida de sao sebastiao
+1474: 
+1475:          sacr$sim
+1476: 
+1477:          oficios$3
+1478: 
+1479:          testamento$n
+1480: 
+1481:       obito$o1728.104/29/12/1728/fl.26/celebrante__ vigario manuel rodrigues
+1482: 
 1483: obito$o1728.104
-*** End of File
-** Processed file- /Users/jrc/mhk-home/sources/soure/documents/soure2/obi1728.cli
-** Original file- /Users/jrc/mhk-home/sources/soure/documents/soure2/obi1728.org
-** Previous version- /Users/jrc/mhk-home/sources/soure/documents/soure2/obi1728.old
-** Temp file with ids- /Users/jrc/mhk-home/sources/soure/documents/soure2/obi1728.ids
+1483:          n$gabriel/m/id=o1728.104-per1
+1484:             ls$idade_aprox/1 ano e meio
+1485:             ls$residencia/casconho
+1486: 
+1487:             pai$joao mendes/id=o1728.104-per1-per2
+1488:                ls$residencia/casconho
+1489: 
+1490:          locs$ermida de sao joao baptista no paleao
+1491: *** End of File
+** Processed file- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase2/obi1728.cli
+** Original file- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase2/obi1728.org
+** Previous version- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase2/obi1728.old
+** Temp file with ids- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase2/obi1728.ids
 0  errors. 
 0  warnings.
 Translation finished.

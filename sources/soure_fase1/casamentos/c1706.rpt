@@ -1,11 +1,12 @@
 ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 14-10
+13-6-2019 22-48
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/casamentos/c1706.cli
+Processing data file c1706.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
+1: kleio$gacto.str/gactoxml.str
 =========================
 kleio translation started
 =========================
@@ -15,44 +16,857 @@ Autorel:
 Translation count: 
 Obs: 
 Translation count not set or invalid, counting as zero: 
+2:    fonte$casamentos 1706/tipo=reg paroquiais/data=17060000/localizacao=?
+3: 
 ** Processing source fonte$casamentos 1706
+4:       cas$c1706-303/3/1/1706/igreja matriz/luis alvares pinto
+5: 
 6: cas$c1706-303
+6:          noivo$manuel rodrigues/id=c303-1
+7: 
+8:          pnoivo$jose gomes/id=c303-2
+9:             ls$residencia/paleao
+10: 
+11:          mnoivo$antonia rodrigues/id=c303-3
+12: 
+13:          noiva$francisca leao/id=c303-4/obs=nasceu em 1683, primeiro cruzamento casam-bapt
+14: 
+15:          pnoiva$manuel madeira/id=c303-5
+16:             ls$residencia/paleao
+17: 
+18:          mnoiva$maria leao/id=c303-6
+19: 
+20:          test$joao gaspar/id=c303-7
+21:             ls$residencia/paleao
+22: 
+23:          test$bartolomeu de almeida/id=c303-8
+24:             ls$residencia/paleao
+25: 
+26:          test$manuel domingues da cruz/id=c303-9
+27:             ls$profissao/estudante
+28:             ls$residencia/porto panelas
+29: 
+30:       cas$c1706-304/10/1/1706/igreja matriz/luis alvares pinto
+31: 
 32: cas$c1706-304
+32:          noivo$jose gomes/id=c304-1
+33: 
+34:          pnoivo$manuel gomes/id=c304-2
+35:             ls$morto/antes
+36:             ls$residencia/paleao
+37: 
+38:          mnoivo$maria simoes/id=c304-3
+39:             ls$morta/antes
+40:             ls$residencia/paleao
+41: 
+42:          noiva$isabel esteves/id=c304-4
+43: 
+44:          pnoiva$manuel mateus/id=c304-5
+45:             ls$morto/antes
+46:             ls$residencia/paleao
+47: 
+48:          mnoiva$ana esteves/id=c304-6
+49:             ls$residencia/paleao
+50: 
+51:          test$joao gaspar/id=c304-7
+52:             ls$residencia/paleao
+53: 
+54:          test$jose/id=c304-8
+55:             ls$residencia/paleao
+56:             rel$parentesco/irmao/joao gaspar/c304-7
+57: 
+58:          test$manuel rodrigues alvaro/id=c304-9
+59:             ls$residencia/soure
+60:             ls$profissao/padre
+61: 
+62:       cas$c1706-305/10/1/1706/igreja matriz/ventura martins
+63: 
 64: cas$c1706-305
-
-/Users/jrc/mhk-home/sources/soure/documents/casamentos/c1706.cli:93:** Failure: undefined element. 
-
+64:          referido$ventura martins/id=c305-r1
+65:             ls$residencia/soure
+66:             ls$profissao/padre/obs=celebra casamento 305 em 10-1-1706
+67: 
+68:          noivo$jose de morais/id=c305-1
+69: 
+70:          pnoivo$vicente colaco/id=c305-2
+71:             ls$residencia/soure
+72: 
+73:          mnoivo$maria antunes/id=c305-3
+74: 
+75:          noiva$domingas da silva/id=c305-4
+76: 
+77:          pnoiva$joao da silva/id=c305-5
+78:             ls$residencia/soure
+79: 
+80:          mnoiva$maria francisca/id=c305-6
+81: 
+82:          test$simao rodrigues/id=c305-7
+83:             ls$residencia/casal do rei
+84: 
+85:          test$joao rodrigues/id=c305-8
+86:             ls$residencia/assamassa
+87: 
+88:          test$joao/id=c305-9
+89:             ls$cargo/tesoureiro da igreja
+90: 
+91:       cas$c1706-306/11/1/1706/igreja matriz/luis alvares pinto/obs=a.mg.: manuel rodrigues, irmao de domingos lourenco, tem o assento do seu recebimento acima a 28/1/1697 a fol. 143 ou 13.  Manuel lourenco, seu filho, recebeu-se no Pombal em 1733
+92: 
 
 ERROR: c1706.cli line 92 ** Failure: undefined element. 
 Near line: 92 
 Near line: 93          noivo$domingos lourenco/id=c306-1
 
 93: cas$c1706-306
+93:          noivo$domingos lourenco/id=c306-1
+94: 
+95:          pnoivo$lourenco rodrigues/id=c306-2
+96:             ls$residencia/porto coelheiro
+97: 
+98:          mnoivo$maria joao/id=c306-3
+99: 
+100:          noiva$teresa joao/id=c306-4
+101: 
+102:          pnoiva$pedro francisco/id=c306-5
+103:             ls$residencia/casconho
+104: 
+105:          mnoiva$maria joao/id=c306-6
+106: 
+107:          test$manuel rodrigues falcao/id=c306-7
+108:             ls$residencia/porto coelheiro
+109: 
+110:          test$manuel gaspar/id=c306-8
+111:             ls$residencia/porto coelheiro
+112: 
+113:          test$manuel rodrigues capitao/id=c306-9
+114:             ls$residencia/porto coelheiro
+115: 
+116:       cas$c1706-307/11/1/1706/igreja matriz/luis alvares pinto
+117: 
 118: cas$c1706-307
+118:          noivo$manuel madeira/id=c307-1
+119: 
+120:          pnoivo$joao madeira/id=c307-2
+121:             ls$residencia/carvalheira de baixo
+122: 
+123:          mnoivo$maria ferreira/id=c307-3
+124:             ls$morta/antes
+125: 
+126:          noiva$maria martins/id=c307-4
+127: 
+128:          pnoiva$gaspar martins/id=c307-5
+129:             ls$morto/antes
+130:             ls$residencia/cascao
+131: 
+132:          mnoiva$maria martins/id=c307-6
+133: 
+134:          test$antonio rodrigues/id=c307-7
+135:             ls$residencia/telhada
+136: 
+137:          test$antonio madeira/id=c307-8
+138:             ls$residencia/areias
+139: 
+140:          test$manuel ferreira/id=c307-9
+141:             ls$residencia/areias
+142:             rel$parentesco/filho/antonio madeira/c307-8
+143: 
+144:       cas$c1706-308/20/1/1706/igreja matriz/luis alvares pinto
+145: 
 146: cas$c1706-308
+146:          noivo$carlos gomes/id=c308-1
+147: 
+148:          pnoivo$manuel gomes de ?/id=c308-2
+149:             ls$residencia/paleao
+150: 
+151:          mnoivo$maria gomes/id=c308-3
+152: 
+153:          noiva$antonia madeira/id=c308-4
+154: 
+155:          pnoiva$antonio madeira/id=c308-5
+156:             ls$residencia/casal do barril
+157: 
+158:          mnoiva$isabel rodrigues/id=c308-6
+159:             ls$morta/antes
+160: 
+161:          test$jose barbosa canais/id=c308-7
+162:             ls$residencia/soure
+163: 
+164:          test$sebastiao goncalves/id=c308-8
+165:             ls$residencia/soure
+166: 
+167:          test$pascoal gomes/id=c308-9
+168:             ls$residencia/paleao
+169:             ls$profissao/padre
+170: 
+171:       cas$c1706-309/20/1/1706/igreja matriz/luis alvares pinto/obs=por comissao do provisor do bispado
+172: 
 173: cas$c1706-309
+173:          noivo$joao fernandes/id=c309-1/obs=cigano
+174: 
+175:          pnoivo$manuel fernandes/id=c309-2
+176: 
+177:          mnoivo$maria da rosa/id=c309-3
+178: 
+179:          noiva$arcangela da silva/id=c309-4
+180: 
+181:          pnoiva$antonio da rocha/id=c309-5
+182: 
+183:          mnoiva$angela da silva/id=c309-6
+184: 
+185:          test$antonio soares/id=c309-7
+186: 
+187:          test$maria da graca/id=c309-8
+188:             rel$parentesco/mulher/antonio soares/c309-7
+189: 
+190:          test$jose barbosa canais/id=c309-9
+191:             ls$residencia/soure
+192: 
+193:          test$sebastiao goncalves/id=c309-10
+194:             ls$residencia/soure
+195: 
+196:       cas$c1706-310/25/1/1706/igreja matriz/luis alvares pinto
+197: 
 198: cas$c1706-310
+198:          noivo$manuel simoes/id=c310-1
+199: 
+200:          pnoivo$antonio simoes/id=c310-2
+201:             ls$residencia/simoes
+202:             ls$alcunha/conde
+203: 
+204:          mnoivo$catarina goncalves/id=c310-3
+205:             ls$morta/antes
+206: 
+207:          noiva$maria gomes/id=c310-4
+208: 
+209:          pnoiva$domingos gomes/id=c310-5
+210:             ls$morto/antes
+211:             ls$residencia/casal do mau
+212: 
+213:          mnoiva$maria francisca/id=c310-6
+214:             ls$morta/antes
+215:             ls$residencia/casal do mau
+216: 
+217:          test$manuel goncalves/id=c310-7
+218:             ls$alcunha/branco
+219:             ls$residencia/mogadouro
+220: 
+221:          test$gaspar francisco/id=c310-8
+222:             ls$residencia/mogadouro
+223: 
+224:          test$joao/id=c310-9
+225:             ls$cargo/tesoureiro
+226: 
+227:       cas$c1706-311/8/2/1706/igreja matriz/luis alvares pinto
+228: 
 229: cas$c1706-311
+229:          noivo$manuel duarte/id=c311-1
+230:             ls$residencia/casal do almeida, freguesia de vinha da rainha
+231:             ls$freguesia/vinha da rainha
+232:             ls$ec/v
+233: 
+234:          pnoivo$antonio duarte/id=c311-2
+235:             ls$residencia/casal do almeida, freguesia de vinha da rainha
+236:             ls$freguesia/vinha da rainha
+237:             ls$morto/antes
+238: 
+239:          mnoivo$isabel goncalves/id=c311-3
+240:             ls$morta/antes
+241:             ls$residencia/casal do almeida, freguesia de vinha da rainha
+242:             ls$freguesia/vinha da rainha
+243: 
+244:          noiva$domingas joao/id=c311-4
+245:             ls$ec/v
+246: 
+247:          pnoiva$lourenco rodrigues/id=c311-5
+248:             ls$residencia/porto coelheiro
+249: 
+250:          mnoiva$maria joao/id=c311-6
+251: 
+252:          test$manuel rodrigues falcao/id=c311-7
+253:             ls$residencia/porto coelheiro
+254: 
+255:          test$mateus rodrigues/id=c311-8
+256:             ls$residencia/porto coelheiro
+257: 
+258:          test$antonio rodrigues/id=c311-9
+259:             ls$residencia/alencarce de cima
+260: 
+261:       cas$c1706-312/8/2/1706/igreja matriz/luis alvares pinto
+262: 
 263: cas$c1706-312
+263:          noivo$lucas da silva/id=c312-1
+264:             ls$residencia/ribeira de condeixa, sebal
+265:             ls$freguesia/sebal
+266: 
+267:          pnoivo$domingos jorge/id=c312-2
+268:             ls$morto/antes
+269:             ls$residencia/ribeira de condeixa, sebal
+270:             ls$freguesia/sebal
+271: 
+272:          mnoivo$isabel goncalves/id=c312-3
+273:             ls$residencia/ribeira de condeixa, sebal
+274:             ls$freguesia/sebal
+275: 
+276:          noiva$isabel goncalves/id=c312-4
+277: 
+278:          pnoiva$gaspar antunes/id=c312-5
+279:             ls$residencia/casal do olho marinho
+280: 
+281:          mnoiva$isabel goncalves/id=c312-6
+282: 
+283:          test$ventura martins/id=c312-7
+284:             ls$profissao/padre
+285:             ls$residencia/soure
+286: 
+287:          test$manuel rodrigues alvaro/id=c312-8
+288:             ls$profissao/padre
+289:             ls$residencia/soure
+290: 
+291:          test$antonio madeira/id=c312-9
+292:             ls$residencia/casal das areias
+293: 
+294:       cas$c1706-313/10/2/1706/igreja matriz/luis alvares pinto
+295: 
 296: cas$c1706-313
+296:          noivo$manuel joao/id=c313-1
+297: 
+298:          pnoivo$pedro francisco/id=c313-2
+299:             ls$residencia/casconho
+300: 
+301:          mnoivo$maria joao/id=c313-3
+302: 
+303:          noiva$filipa joana/id=c313-4
+304: 
+305:          pnoiva$joao rodrigues/id=c313-5
+306:             ls$morto/antes
+307:             ls$residencia/quinta
+308: 
+309:          mnoiva$ana henriques/id=c313-6
+310: 
+311:          test$manuel domingues/id=c313-7
+312:             ls$residencia/casconho
+313: 
+314:          test$manuel rodrigues falcao/id=c313-8
+315:             ls$residencia/porto coelheiro
+316: 
+317:          test$simao domingues/id=c313-9
+318:             ls$residencia/quinta
+319: 
+320:       cas$c1706-314/10/2/1706/igreja matriz/luis alvares pinto
+321: 
 322: cas$c1706-314
+322:          noivo$jose rodrigues/id=c314-1
+323:             ls$residencia/serrazina, freguesia da redinha%carraninha
+324:             ls$freguesia/redinha
+325: 
+326:          pnoivo$joao rodrigues/id=c314-2
+327:             ls$residencia/serrazina, freguesia da redinha%carraninha
+328:             ls$freguesia/redinha
+329: 
+330:          mnoivo$bebiana gaspar/id=c314-3
+331:             ls$residencia/serrazina, freguesia da redinha%carraninha
+332:             ls$freguesia/redinha
+333: 
+334:          noiva$maria simoes/id=c314-4
+335: 
+336:          pnoiva$manuel simoes/id=c314-5
+337:             ls$morto/antes
+338:             ls$residencia/casconho
+339: 
+340:          mnoiva$maria goncalves/id=c314-6
+341:             ls$morta/antes
+342:             ls$residencia/casconho
+343: 
+344:          test$manuel simoes laudemio/id=c314-7
+345:             ls$freguesia/redinha
+346: 
+347:          test$manuel domingues/id=c314-8
+348:             ls$residencia/casconho
+349: 
+350:          test$simao domingues/id=c314-9
+351:             ls$residencia/casconho
+352: 
+353:       cas$c1706-315/14/2/1706/igreja matriz/luis alvares pinto
+354: 
 355: cas$c1706-315
+355:          noivo$antonio rodrigues/id=c315-1
+356: 
+357:          pnoivo$antonio rodrigues feijao/id=c315-2
+358:             ls$residencia/casal dos feijoes
+359: 
+360:          mnoivo$catarina jorge/id=c315-3
+361:             ls$morta/antes
+362: 
+363:          noiva$maria gomes/id=c315-4
+364: 
+365:          pnoiva$mateus rodrigues/id=c315-5
+366:             ls$residencia/paleao
+367: 
+368:          mnoiva$paula de oliveira/id=c315-6
+369:             ls$residencia/paleao
+370:             ls$morta/antes
+371: 
+372:          test$domingos da costa/id=c315-7
+373:             ls$profissao/padre
+374:             ls$residencia/s.mateus
+375: 
+376:          test$manuel rodrigues feijao/id=c315-8
+377:             ls$residencia/casal dos feijoes
+378: 
+379:          test$simao jorge/id=c315-9
+380:             ls$residencia/paleao
+381: 
+382:       cas$c1706-316/15/2/1706/igreja matriz/jose pinto
+383: 
 384: cas$c1706-316
+384:          noivo$manuel de s.miguel/m/id=c1706-316-per1
+385:             ls$residencia/feteiras, freguesia de pucos
+386:             ls$freguesia/pucos
+387: 
+388:          pnoivo$baltazar antunes/id=c316-2
+389:             ls$residencia/feteiras, freguesia de pucos
+390:             ls$freguesia/pucos
+391: 
+392:          mnoivo$maria s.miguel/f/id=c1706-316-per2
+393:             ls$residencia/feteiras, freguesia de pucos
+394:             ls$freguesia/pucos
+395: 
+396:          noiva$catarina de jesus/id=c316-4
+397: 
+398:          pnoiva$joao carvalho/id=c316-5
+399:             ls$residencia/casal do pinheiro
+400: 
+401:          mnoiva$maria gaspar/id=c316-6
+402: 
+403:          test$alexandre mendes/id=c316-7
+404:             ls$residencia/soure
+405: 
+406:          test$manuel rodrigues alvaro/id=c316-8
+407:             ls$profissao/padre
+408:             ls$residencia/soure
+409: 
+410:          test$mateus mendes/id=c316-9
+411:             ls$residencia/casal do pinheiro
+412: 
+413:       cas$c1706-317/15/2/1706/igreja matriz/luis alvares pinto
+414: 
 415: cas$c1706-317
+415:          noivo$jose gomes de carvalho/id=c317-1
+416:             ls$residencia/redinha, freguesia da redinha
+417:             ls$freguesia/redinha
+418: 
+419:          pnoivo$joao simoes de carvalho/id=c317-2
+420:             ls$residencia/redinha, freguesia da redinha
+421:             ls$freguesia/redinha
+422: 
+423:          mnoivo$ana gomes/id=c317-3
+424:             ls$residencia/redinha, freguesia da redinha
+425:             ls$freguesia/redinha
+426: 
+427:          noiva$maria do espirito santo/id=c317-4
+428: 
+429:          pnoiva$manuel rodrigues/id=c317-5
+430:             ls$morto/antes
+431:             ls$residencia/simoes
+432: 
+433:          mnoiva$maria domingues/id=c317-6
+434:             ls$morta/antes
+435:             ls$residencia/simoes
+436: 
+437:          test$manuel simoes/id=c317-7
+438:             ls$residencia/redinha, freguesia da redinha
+439:             ls$freguesia/redinha
+440: 
+441:          test$joao/id=c317-8
+442:             ls$cargo/tesoureiro da igreja
+443: 
+444:          test$manuel joao/id=c317-9
+445:             ls$residencia/simoes
+446: 
+447:       cas$c1706-318/3/3/1706/igreja matriz/luis alvares pinto
+448: 
 449: cas$c1706-318
+449:          noivo$manuel mendes/id=c318-1
+450: 
+451:          pnoivo$antonio francisco/id=c318-2
+452:             ls$residencia/soure
+453: 
+454:          mnoivo$maria mendes/id=c318-3
+455: 
+456:          noiva$catarina da gante/id=c318-4
+457: 
+458:          pnoiva$manuel rodrigues/id=c318-5
+459:             ls$residencia/soure
+460: 
+461:          mnoiva$maria da gante/id=c318-6
+462: 
+463:          test$manuel cardoso/id=c318-7
+464:             ls$residencia/soure
+465: 
+466:          test$manuel de brito/id=c318-8
+467:             ls$residencia/soure
+468: 
+469:          test$manuel monteiro/id=c318-9
+470:             ls$residencia/soure
+471: 
+472:       cas$c1706-319/9/3/1706/igreja matriz/luis alvares pinto
+473: 
 474: cas$c1706-319
+474:          noivo$mateus jorge/id=c319-1
+475:             ls$residencia/gabrielos, granja do ulmeiro
+476:             ls$freguesia/granja do ulmeiro
+477: 
+478:          pnoivo$manuel jorge/id=c319-2
+479:             ls$residencia/gabrielos, granja do ulmeiro
+480:             ls$freguesia/granja do ulmeiro
+481: 
+482:          mnoivo$isabel carraca?%carraqua?/f/id=c1706-319-per1
+483:             ls$residencia/gabrielos, granja do ulmeiro
+484:             ls$freguesia/granja do ulmeiro
+485: 
+486:          noiva$maria da costa martins/id=c319-4
+487: 
+488:          pnoiva$antonio martins/id=c319-5
+489:             ls$morto/antes
+490:             ls$residencia/casal da lage%lages
+491: 
+492:          mnoiva$desconhecida/id=c319-6
+493: 
+494:          test$domingos da costa/id=c319-7
+495:             ls$residencia/s.mateus
+496:             ls$profissao/padre
+497: 
+498:          test$manuel rodrigues alvaro/id=c319-8
+499:             ls$profissao/padre
+500:             ls$residencia/soure
+501: 
+502:          test$sebastiao ferreira/id=c319-9
+503:             ls$residencia/areias
+504:             ls$profissao/padre
+505: 
+506:       cas$c1706-320/9/5/1706/igreja matriz/luis alvares pinto
+507: 
 508: cas$c1706-320
+508:          noivo$joao mateus/id=c320-1
+509:             ls$residencia/vila nova de ancos, freguesia de v.a n.a de ancos
+510:             ls$freguesia/vila nova de ancos
+511: 
+512:          pnoivo$joao mateus#ou matias?/m/id=c320-2
+513:             ls$morto/antes
+514:             ls$residencia/vila nova de ancos, freguesia de v.a n.a de ancos
+515:             ls$freguesia/vila nova de ancos
+516: 
+517:          mnoivo$maria goncalves/id=c320-3
+518:             ls$morta/antes
+519:             ls$residencia/vila nova de ancos, freguesia de v.a n.a de ancos
+520:             ls$freguesia/vila nova de ancos
+521: 
+522:          noiva$maria goncalves/id=c320-4
+523:             rel$parentesco/grau 4c/joao mateus/c320-1
+524: 
+525:          pnoiva$manuel mateus/id=c320-5
+526:             ls$morto/antes
+527:             ls$residencia/casais do espirito santo
+528: 
+529:          mnoiva$isabel goncalves/id=c320-6
+530:             ls$residencia/casais do espirito santo
+531: 
+532:          test$francisco tavares de carvalho/id=c320-7/obs=provavelmente filho de antonio tavares de carvalho, que aparece no rol do Sebal de 1737, fogo n¼150 no levantamento da veronique. Nao se percebe o que aparece a fazer como testemunha de casamento em soure. Ver tb. o possivle irmao, antonio tavares c320-8
+533:             ls$residencia/rodao, freguesia do sebal
+534:             ls$freguesia/sebal
+535: 
+536:          test$antonio tavares/id=c320-8/obs=provavelmente filho de antonio tavares de carvalho, que aparece no rol do Sebal de 1737, fogo n¼150 no levantamento da veronique. Nao se percebe o que aparece a fazer como testemunha de casamento em soure. Ver tb. o possivle irmao, francisco tavares de carvalho c320-7
+537:             ls$residencia/rodao, freguesia do sebal
+538:             ls$freguesia/sebal
+539: 
+540:          test$manuel goncalves/id=c320-9
+541:             ls$alcunha/moco
+542:             ls$residencia/casal do espirito santo
+543: 
+544:       cas$c1706-321/24/5/1706/igreja matriz/luis alvares pinto
+545: 
 546: cas$c1706-321
+546:          noivo$andre domingues/id=c321-1
+547: 
+548:          pnoivo$manuel joao/id=c321-2
+549:             ls$residencia/montais
+550: 
+551:          mnoivo$isabel domingues/id=c321-3
+552: 
+553:          noiva$maria jorge/id=c321-4
+554: 
+555:          pnoiva$miguel de oliveira/id=c321-5
+556:             ls$residencia/casa velha
+557: 
+558:          mnoiva$isabel jorge/id=c321-6
+559: 
+560:          test$domingos cordeiro/id=c321-7
+561:             ls$residencia/casal novo
+562: 
+563:          test$manuel jorge soeiro/id=c321-8
+564:             ls$residencia/casa velha
+565: 
+566:          test$joao/id=c321-9
+567:             ls$residencia/soure
+568:             ls$cargo/tesoureiro
+569: 
+570:       cas$c1706-322/31/5/1706/igreja matriz/luis alvares pinto
+571: 
 572: cas$c1706-322
+572:          noivo$manuel francisco/id=c322-1
+573:             ls$residencia/casavel?, freguesia da ega
+574:             ls$freguesia/ega
+575: 
+576:          pnoivo$antonio goncalves/id=c322-2
+577:             ls$residencia/casavel?, freguesia da ega
+578:             ls$freguesia/ega
+579: 
+580:          mnoivo$catarina francisca/id=c322-3
+581:             ls$morta/antes
+582:             ls$residencia/casavel?, freguesia da ega
+583:             ls$freguesia/ega
+584: 
+585:          noiva$isabel martins/id=c322-4
+586: 
+587:          pnoiva$manuel vaz/id=c322-5
+588:             ls$residencia/casal da pouca pena
+589:             ls$morto/antes
+590: 
+591:          mnoiva$maria martins/id=c322-6
+592: 
+593:          test$manuel martins/id=c322-7
+594:             ls$residencia/pouca pena
+595: 
+596:          test$manuel francisco/id=c322-8
+597:             ls$residencia/pouca pena
+598: 
+599:          test$simao vaz/id=c322-9
+600:             ls$residencia/charneca
+601: 
+602:       cas$c1706-323/31/5/1706/igreja matriz/luis alvares pinto
+603: 
 604: cas$c1706-323
+604:          noivo$domingos cordeiro/id=c323-1
+605: 
+606:          pnoivo$simao cordeiro/id=c323-2
+607:             ls$residencia/casal novo
+608: 
+609:          mnoivo$antonia manuel/id=c323-3
+610: 
+611:          noiva$isabel do santos/id=c323-4
+612: 
+613:          pnoiva$antonio goncalves/id=c323-5
+614:             ls$residencia/casal do migalho
+615: 
+616:          mnoiva$francisca jorge/id=c323-6
+617: 
+618:          test$domingos cordeiro/id=c323-7
+619:             ls$residencia/casal novo
+620: 
+621:          test$joao simoes/id=c323-8
+622:             ls$residenciac/asal novo
+623: 
+624:          test$simao cordeiro/id=c323-9
+625:             ls$residencia/casal novo
+626: 
+627:       cas$c1706-324/31/5/1706/igreja matriz/luis alvares pinto
+628: 
 629: cas$c1706-324
+629:          noivo$joao cordeiro/id=c324-1
+630: 
+631:          pnoivo$simao cordeiro/id=c324-2/mesmo_que=c323-2
+632:             ls$residencia/casal novo
+633: 
+634:          mnoivo$antonia manuel/id=c324-3/mesmo_que=c323-3
+635: 
+636:          noiva$maria goncalves/id=c324-4
+637: 
+638:          pnoiva$antonio goncalves/id=c324-5/mesmo_que=c323-5
+639:             ls$residencia/casal do migalho
+640: 
+641:          mnoiva$francisca jorge/id=c324-6/mesmo_que=c323-6
+642: 
+643:          test$domingos cordeiro/id=c324-7/mesmo_que=c323-7
+644:             ls$residencia/casal novo
+645: 
+646:          test$joao simoes/id=c324-8/mesmo_que=c323-8
+647:             ls$residenciac/asal novo
+648: 
+649:          test$simao cordeiro/id=c324-9/mesmo_que=c323-9
+650:             ls$residencia/casal novo
+651: 
+652:       cas$c1706-325/18/7/1706/igreja matriz/luis alvares pinto
+653: 
 654: cas$c1706-325
+654:          noivo$manuel marques/id=c325-1
+655: 
+656:          pnoivo$domingos marques/id=c325-2
+657:             ls$residencia/paleao
+658: 
+659:          mnoivo$isabel madeira/id=c325-3
+660: 
+661:          noiva$catarina goncalves/id=c325-4
+662:             rel$parentesco/grau 4c/manuel marques/c325-1
+663: 
+664:          pnoiva$antonio goncalves/id=c325-5
+665:             ls$residencia/casal dos podengos
+666: 
+667:          mnoiva$isabel rodrigues/id=c325-6
+668: 
+669:          test$domingos goncalves galhardo/id=c325-7
+670:             ls$residencia/soure
+671:             ls$titulo/licenciado
+672: 
+673:          test$joao gaspar/id=c325-8
+674:             ls$residencia/paleao
+675: 
+676:          test$manuel/id=c325-9
+677:             ls$cargo/tesoureiro da igreja
+678: 
+679:       cas$c1706-326/18/8/1706/igreja matriz/luis alvares pinto
+680: 
 681: cas$c1706-326
+681:          noivo$manuel cordeiro/id=c326-1
+682: 
+683:          pnoivo$simao cordeiro/id=c326-2
+684:             ls$residencia/casal novo
+685: 
+686:          mnoivo$antonia manuel/id=c326-3
+687: 
+688:          noiva$catarina dos santos/id=c326-4
+689: 
+690:          pnoiva$manuel tome/id=c326-5
+691:             ls$residencia/casal novo
+692: 
+693:          mnoiva$maria jorge/id=c326-6
+694: 
+695:          test$antonio de meneses/id=c326-7
+696:             ls$residencia/soure
+697:             ls$titulo/dom
+698: 
+699:          test$antonio de melo/id=c326-8
+700:             ls$residencia/quinta#possivelmente a quinta da capa-rota
+701: 
+702:       cas$c1706-327/18/8/1706/igreja matriz/luis alvares pinto
+703: 
 704: cas$c1706-327
+704:          noivo$francisco de oliveira/id=c327-1
+705:             ls$residencia/cabeca carvalho, freguesia de vinha da rainha
+706:             ls$freguesia/vinha da rainha
+707: 
+708:          pnoivo$antonio de oliveira/id=c327-2
+709:             ls$residencia/cabeca carvalho, freguesia de vinha da rainha
+710:             ls$freguesia/vinha da rainha
+711: 
+712:          mnoivo$catarina antonia/id=c327-3
+713:             ls$residencia/cabeca carvalho, freguesia de vinha da rainha
+714:             ls$freguesia/vinha da rainha
+715: 
+716:          noiva$francisca goncalves/id=c327-4
+717: 
+718:          pnoiva$domingos francisco/id=c327-5
+719:             ls$residencia/casal do serrano
+720: 
+721:          mnoiva$maria goncalves/id=c327-6
+722: 
+723:          test$joao simoes/id=c327-7
+724:             ls$residencia/cabeca carvalho, freguesia de vinha da rainha
+725:             ls$freguesia/vinha da rainha
+726: 
+727:          test$manuel joao/id=c327-8
+728:             ls$residencia/cabeca carvalho, freguesia de vinha da rainha
+729:             ls$freguesia/vinha da rainha
+730: 
+731:          test$manuel joao/id=c327-9
+732:             ls$residencia/casalinhos
+733: 
+734:       cas$c1706-328/17/10/1706/igreja matriz/luis alvares pinto
+735: 
 736: cas$c1706-328
+736:          noivo$manuel goncalves/id=c328-1
+737: 
+738:          pnoivo$domingos francisco/id=c328-2
+739:             ls$residencia/casal de mendinho
+740: 
+741:          mnoivo$maria goncalves/id=c328-3
+742: 
+743:          noiva$teresa de oliveira/id=c328-4
+744: 
+745:          pnoiva$miguel de oliveira/id=c328-5
+746:             ls$residencia/casa velha
+747: 
+748:          mnoiva$isabel jorge/id=c328-6
+749: 
+750:          test$antonio goncalves/id=c328-7
+751:             ls$residencia/louzoes
+752: 
+753:          test$manuel duarte/id=c328-8
+754:             ls$residencia/louzoes
+755: 
+756:          test$manuel marques de oliveira/id=c328-9/obs=este e' novo
+757:             ls$residencia/soure
+758:             ls$titulo/doutor
+759: 
+760:       cas$c1706-329/7/11/1706/igreja matriz/luis alvares pinto
+761: 
 762: cas$c1706-329
+762:          noivo$joao goncalves/id=c329-1
+763: 
+764:          pnoivo$bartolomeu goncalves/id=c329-2
+765:             ls$residencia/casalinhos
+766: 
+767:          mnoivo$maria simoes/id=c329-3
+768: 
+769:          noiva$joana rodrigues/id=c329-4
+770: 
+771:          pnoiva$joao rodrigues/id=c329-5
+772:             ls$residencia/beltroes
+773:             ls$morto/antes
+774: 
+775:          mnoiva$maria tome/id=c329-6
+776: 
+777:          test$domingos alves/id=c329-7
+778:             ls$residencia/casalinhos
+779: 
+780:          test$manuel joao/id=c329-8
+781:             ls$residencia/casalinhos
+782: 
+783:          test$sebastiao da silva/id=c329-9
+784:             ls$residencia/soure
+785: 
+786:       cas$c1706-330/8/12/1706/igreja matriz/luis alvares pinto
+787: 
 788: cas$c1706-330
-*** End of File
+788:          noivo$francisco simoes/id=c330-1
+789:             ls$residencia/taveiro, freguesia de taveiro
+790:             ls$freguesia/taveiro
+791: 
+792:          pnoivo$manuel fernandes lameiro/id=c330-2
+793:             ls$residencia/taveiro, freguesia de taveiro
+794:             ls$freguesia/taveiro
+795: 
+796:          mnoivo$antonia simoes/id=c330-3
+797:             ls$residencia/taveiro, freguesia de taveiro
+798:             ls$freguesia/taveiro
+799:             ls$morta/antes
+800: 
+801:          noiva$luisa dos santos/id=c330-4
+802: 
+803:          pnoiva$mateus rodrigues/id=c330-5
+804:             ls$residencia/porto coelheiro
+805: 
+806:          mnoiva$maria gomes/id=c330-6
+807:             ls$morta/antes
+808: 
+809:          test$manuel gaspar/id=c330-7
+810:             ls$residencia/porto coelheiro
+811: 
+812:          test$manuel rodrigues/id=c330-8
+813:             ls$profissao/estudante
+814:             ls$residencia/porto coelheiro
+815: 
+816:          test$manuel rodrigues capitao/id=c330-9
+817:             ls$residencia/porto coelheiro
+818: *** End of File
 1  errors. 
 0  warnings.
 Translation finished.

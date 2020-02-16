@@ -1,65 +1,51 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-10-8-2018 13-16
+ClioInput - version 2.3.1 - build 1768 21/05/2019 19:22 
+17-6-2019 8-48
 
-Processing data file /Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli
+Processing data file Xpto.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:1:*** Current group xpto cannot be linked with previous group []([])
-
-
-ERROR: Xpto.cli line 0 *** Current group xpto cannot be linked with previous group []([])
-Near line: 0 Near line: 1 xpto$cxpto-36-334/loc=ANTT chanc.ord.Xpto. livro 36, fol 334-
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:1:***xpto group not stored.
-
-
-ERROR: Xpto.cli line 0 ***xpto group not stored.
-Near line: 0 Near line: 1 xpto$cxpto-36-334/loc=ANTT chanc.ord.Xpto. livro 36, fol 334-
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:1:** Failure. Could not process group -xpto
-
-
-ERROR: Xpto.cli line 0 ** Failure. Could not process group -xpto
-Near line: 0 Near line: 1 xpto$cxpto-36-334/loc=ANTT chanc.ord.Xpto. livro 36, fol 334-
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:1:** Failure: undefined element. 
-
-
-ERROR: Xpto.cli line 0 ** Failure: undefined element. 
-Near line: 0 Near line: 1 xpto$cxpto-36-334/loc=ANTT chanc.ord.Xpto. livro 36, fol 334-
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:1:** [] unknown element: loc.
-
-
-ERROR: Xpto.cli line 0 ** [] unknown element: loc.
-Near line: 0 Near line: 1 xpto$cxpto-36-334/loc=ANTT chanc.ord.Xpto. livro 36, fol 334-
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:2:** [] unknown element: descricao.
-
-
-ERROR: Xpto.cli line 1 ** [] unknown element: descricao.
-Near line: 1 xpto$cxpto-36-334/loc=ANTT chanc.ord.Xpto. livro 36, fol 334-Near line: 2  /descricao=
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:12:*** Current group xpto cannot be linked with previous group []([])
-
-
-ERROR: Xpto.cli line 11 *** Current group xpto cannot be linked with previous group []([])
-Near line: 11 Near line: 12 xpto$xptoliv75-201v
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:12:***xpto group not stored.
-
-
-ERROR: Xpto.cli line 11 ***xpto group not stored.
-Near line: 11 Near line: 12 xpto$xptoliv75-201v
-
-/Users/jrc/mhk-home/sources/soure/documents/Chancelarias/Xpto.cli:12:** Failure. Could not process group -xpto
-
-
-ERROR: Xpto.cli line 11 ** Failure. Could not process group -xpto
-Near line: 11 Near line: 12 xpto$xptoliv75-201v
-*** End of File
-9  errors. 
+** New document: kleio
+1: kleio$gacto2.str/translations=2
+=========================
+kleio translation started
+=========================
+Structure: gacto2.str
+Prefix: 
+Autorel: 
+Translation count: 2
+Obs: 
+2:    fonte$cxpto-36-334/ letra da Margarida./loc=ANTT chanc.ord.Xpto. livro 36, fol 334-/tipo=chancelarias/obs= El-Rei como governador e perpetuo adminsitrador que sendo mestre dos cavaleiros da ordem de nosso senhor jesus cristo faço saber..... o resto esta no caderno azul c
+3: 
+** Processing source fonte$cxpto-36-334
+4:       chanc$xptoliv75-201v/2/8/1696/201v
+5: 
+6: chanc$xptoliv75-201v
+6:          item$Confirmacao do aforamente em segunda vida a Pedro de Brito e Ataide e suamulher D.Maayor da Silva, 2-8-1696/obs= Inclui varios docs que ficam aqui em items./resumo=Confirmacaao do aforamento em tres vidas, feito a maria da silva e martinho da cunha de saem Pedro de Brito e Ataide e sua mulher D.a Mayor da Silva e Melo. Cita o pedidoanterior./id=xptoliv75-201v-obj1
+7: 
+8:             referido$pedro de brito e ataide/id=xptoliv75-201v-pba
+9:                ls$titulo/dom
+10: 
+11:             referida$maior da silva/id=xptoliv75-201v-obj1-per1
+12:                ls$titulo/dona
+13:                rel$parentesco/mulher/pedro de brito e ataide/xptoliv75-201v-pba
+14: 
+15:             referido$martinho da cunha de sa/id=xptoliv75-201v-obj1-per2
+16: 
+17:             referida$maria da silva/id=xptoliv75-201v-obj1-per3
+18: 
+19:          item$ apostilha/resumo=em que o D.Pedro de Ataide alega que o forode tres alqueires de trigo e um moio de cevada deveria ser mudado porqueo prazo nao dava trigo "e estarem as terras do prazo estarem areadas com as inundacoesdos Rios Ancos e Cabruncas e ribeiro de St. Isidoro.. e nao darem trigo nem milhomuitas delas... " pedem abatimento para tres moios de milho " passam a pagar 4 moios de milho e um de segunda. LX.4 4-12-699./id=xptoliv75-201v-obj2
+20: 
+21:          item$vedoria feita quando do pedido de maria da silva./resumo=Confrontam porreferencia ao tomobo velho e percebe-se que as terras circundantes foramcompradas por Martinho da cunha e Sa. Descreve a casa e todo o prazo. Dizque o Martinho da Cunha o trazi muito melhorado com muitas valas paraescoar as enchentes lx 7-1-1640./id=xptoliv75-201v-obj3
+22: 
+23:          item$Concessao do prazo na primeira vida em D.Maria da Silva, por tres vidas./resumo=E' prazo da mesa mestral.Tem o novo aforamento. Pagam tres moios de trigo mais um de segunda e mais dez alqueires de trigo nesta renovacao/id=xptoliv75-201v-obj4
+24: 
+25:          item$apostilha/resumo=fazem, num tabeliao da alvorninhaha, nomeacao da segunda vida emsua filha e genro, Pedro de brito e Ataide e D.a Mayor da Silva, e este pedeem abatimento do foro 19-11-1678/id=xptoliv75-201v-obj5
+26: *** End of File
+** Processed file- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/Chancelarias/Xpto.cli
+** Original file- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/Chancelarias/Xpto.org
+** Previous version- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/Chancelarias/Xpto.old
+** Temp file with ids- /Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/Chancelarias/Xpto.ids
+0  errors. 
 0  warnings.
 Translation finished.
