@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure/soure-sources/sources/soure_fase1/baptismos/b1706.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-2-9 15:43:3" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure/soure-sources/sources/soure_fase1/baptismos/b1706.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-2-18 9:45:9" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -613,7 +613,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jacinta]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-jac]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -852,7 +852,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel soares coelho]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[mscoelho]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -1529,7 +1529,7 @@
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao machado da costa]]></core>         <original><![CDATA[sebastiao machado]]></original>
    </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c12-8]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -1937,7 +1937,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[antonio de meneses]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -2589,7 +2589,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao machado da costa]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c12-8]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -4242,7 +4242,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[placido]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-plac]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -4273,7 +4273,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jacinta]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-jac]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -5121,7 +5121,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao goncalves]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[sgoncalves]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -6406,7 +6406,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[joao da costa de vasconcelos]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c12-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -6486,7 +6486,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jorge de meneses]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7-jor]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -6517,7 +6517,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[mariana]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7-mar]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -6776,7 +6776,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[paulo ribeiro cabral]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -9456,7 +9456,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jorge de meneses]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7-jor]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -10355,7 +10355,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel soares coelho]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[mscoelho]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -10573,7 +10573,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jacinta]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-jac]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -11167,7 +11167,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[ana gaspar]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[anagasp]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -11495,7 +11495,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jorge]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7-jor]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -11546,7 +11546,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[mariana]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7-mar]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -18129,7 +18129,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[luis manhos de abreu]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[lmabreu]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -18190,7 +18190,7 @@
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao machado da costa]]></core>         <original><![CDATA[sebastiao machado]]></original>
    </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c12-8]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -19416,7 +19416,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[antonio manhos de abreu]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[amabreu]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -19614,7 +19614,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[luis manhos de abreu]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[lmabreu]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -19645,7 +19645,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[ventura martins]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c119-9]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -21223,7 +21223,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[rodrigo]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c6-7-rod]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -21254,7 +21254,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel homem de quadros]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c6-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -21285,7 +21285,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[josefa]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c6-7-josa]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -21470,7 +21470,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel dinis]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[bpai13061706]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -21521,7 +21521,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[maria simoes]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[bmae13061706]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -25370,7 +25370,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jose da cunha de sa]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c180-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -26430,7 +26430,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[joao da costa de vasconcelos]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c12-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -26534,7 +26534,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[placido]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-plac]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -27303,7 +27303,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[ana gaspar]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[anagasp]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -29577,7 +29577,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[placido]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-plac]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -29608,7 +29608,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[cecilia]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c24-7-cec]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -32902,7 +32902,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[vicente colaco]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c104-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -33583,7 +33583,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[ana gaspar]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[anagasp]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -33957,7 +33957,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[jose pinto]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[jpinto]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -33988,7 +33988,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[maria joao]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[br06111706]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -34768,7 +34768,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[luis manhos de abreu]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[lmabreu]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -34897,7 +34897,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao machado da costa]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c12-8]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -35242,7 +35242,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao goncalves]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[sgoncalves]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -35592,7 +35592,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel soares coelho]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[mscoelho]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -36534,7 +36534,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[ventura martins]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c119-9]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -36565,7 +36565,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[francisca]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c119-9-fran]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[f]]></core>   </ELEMENT>
@@ -37063,7 +37063,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel homem de quadros]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c6-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -37192,7 +37192,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[antonio de meneses]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[c113-7]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -37431,7 +37431,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[luis manhos de abreu]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[lmabreu]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
@@ -37817,7 +37817,7 @@
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[sebastiao goncalves]]></core>   </ELEMENT>
-   <ELEMENT NAME="mesmo_que" CLASS="undef">
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
          <core><![CDATA[sgoncalves]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>

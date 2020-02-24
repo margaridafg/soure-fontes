@@ -1,5 +1,5 @@
 ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
-16-2-2020 13-20
+16-2-2020 22-39
 
 Processing data file c1700.cli
 -------------------------------------------
@@ -22,11 +22,6 @@ Obs:
 139: cas$1700-146
 164: cas$1700-147
 188: cas$1700-148
-
-WARNING: c1700.cli line 208 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 208          test$jose barbosa canais/mesmo_que=c148-8/id=1700-148-per1
-Near line: 209             ls$residencia/soure
-
 216: cas$1700-149
 241: cas$1700-150
 269: cas$1700-151
@@ -64,14 +59,18 @@ Near line: 209             ls$residencia/soure
 1159: cas$1700-183
 *** End of File
 
-ERROR: c1700.cli line 208  Could not find same_as id c148-8. If  original reference is on another file use xsame_as
-Near lines: 208 Near line: 209 
-
 WARNING: c1700.cli line 43  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c117-5) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 43 Near line: 44 
 
 WARNING: c1700.cli line 47  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c117-6) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 47 Near line: 48 
-1  errors. 
+
+WARNING: c1700.cli line 208  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c148-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 208 Near line: 209 
+** Processed file- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1700.cli
+** Original file- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1700.org
+** Previous version- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1700.old
+** Temp file with ids- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1700.ids
+0  errors. 
 3  warnings.
 Translation finished.

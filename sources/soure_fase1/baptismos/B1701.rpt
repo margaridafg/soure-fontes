@@ -1,5 +1,5 @@
 ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
-9-2-2020 15-41
+16-2-2020 21-53
 
 Processing data file b1701.cli
 -------------------------------------------
@@ -24,28 +24,13 @@ Obs:
 110: b$b1701.7
 132: b$b1701.8
 149: b$b1701.9
-
-WARNING: b1701.cli line 156 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 156             pad$domingos goncalves/mesmo_que=c2-7/id=b1701.9-per4
-Near line: 157                ls$residencia/casal do espirito santo
-
 167: b$b1701.10
 185: b$b1701.11
 202: b$b1701.12
 223: b$b1701.13
-
-WARNING: b1701.cli line 230 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 230             pad$manuel homem de quadros/mesmo_que=c6-7/id=b1701.13-per4
-Near line: 231                ls$residencia/soure
-
 240: b$b1701.14
 258: b$b1701.15
 275: b$b1701.16
-
-WARNING: b1701.cli line 282 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 282             pad$pedro de eiro matoso/mesmo_que=peiro/id=b1701.16-per3
-Near line: 283                ls$residencia/soure
-
 294: b$b1701.17
 316: b$b1701.18
 334: b$b1701.19
@@ -64,21 +49,11 @@ Near line: 283                ls$residencia/soure
 571: b$b1701.32
 588: b$b1701.33
 604: b$b1701.34
-
-WARNING: b1701.cli line 611 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 611             pad$pedro de eiro matoso/mesmo_que=peiro/id=b1701.34-per4
-Near line: 612                ls$residencia/soure
-
 624: b$b1701.35
 640: b$b1701.36
 657: b$b1701.37
 673: b$b1701.38
 692: b$b1701.39
-
-WARNING: b1701.cli line 699 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 699             pad$pedro de eiro matoso/mesmo_que=peiro/id=b1701.39-per3
-Near line: 700                ls$residencia/soure
-
 713: b$b1701.40
 728: b$b1701.41
 743: b$b1701.42
@@ -90,11 +65,6 @@ Near line: 700                ls$residencia/soure
 848: b$b1701.48
 866: b$b1701.49
 887: b$b1701.50
-
-WARNING: b1701.cli line 900 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 900                pmad$pedro de eiro matoso/mesmo_que=peiro/id=b1701.50-per6
-Near line: 901                   ls$residencia/soure
-
 905: b$b1701.51
 925: b$b1701.52
 940: b$b1701.53
@@ -109,36 +79,38 @@ Near line: 901                   ls$residencia/soure
 1117: b$b1701.62
 1133: b$b1701.63
 1151: b$b1701.64
-
-WARNING: b1701.cli line 1161 destination id of "same as" not found. Will check again at the end of file.
-Near lines: 1161 
-Near line: 1162             mad$jacinta/id=b1701.64-per6
-
 1167: b$b1701.65
 1187: b$b1701.66
 1204: b$b1701.67
 *** End of File
 
-ERROR: b1701.cli line 156  Could not find same_as id c2-7. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 156  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c2-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 156 Near line: 157 
 
-ERROR: b1701.cli line 230  Could not find same_as id c6-7. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 230  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c6-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 230 Near line: 231 
 
-ERROR: b1701.cli line 282  Could not find same_as id peiro. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 282  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (peiro) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 282 Near line: 283 
 
-ERROR: b1701.cli line 611  Could not find same_as id peiro. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 611  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (peiro) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 611 Near line: 612 
 
-ERROR: b1701.cli line 699  Could not find same_as id peiro. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 699  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (peiro) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 699 Near line: 700 
 
-ERROR: b1701.cli line 900  Could not find same_as id peiro. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 808  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c119-9) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 808 Near line: 809 
+
+WARNING: b1701.cli line 900  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (peiro) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 900 Near line: 901 
 
-ERROR: b1701.cli line 1161  Could not find same_as id c24-7. If  original reference is on another file use xsame_as
+WARNING: b1701.cli line 1161  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c24-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Near lines: 1161 Near line: 1162 
-7  errors. 
-7  warnings.
+** Processed file- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/baptismos/b1701.cli
+** Original file- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/baptismos/b1701.org
+** Previous version- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/baptismos/b1701.old
+** Temp file with ids- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/baptismos/b1701.ids
+0  errors. 
+8  warnings.
 Translation finished.

@@ -1,957 +1,101 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-13-6-2019 22-48
+ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
+16-2-2020 22-9
 
 Processing data file c1698.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
-1: kleio$gacto.str/gactoxml.str
 =========================
 kleio translation started
 =========================
 Structure: gacto.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 1
 Obs: 
-Translation count not set or invalid, counting as zero: 
-2:    fonte$casamentos 1698/tipo=reg paroquiais/data=16980000/localizacao=fol.?
-3: 
 ** Processing source fonte$casamentos 1698
-4:       cas$c1698-95/5/1/1698/igreja matriz/luis alvares pinto
-5: 
 6: cas$c1698-95
-6:          noivo$joao francisco/id=c95-1
-7: 
-8:          pnoivo$manuel francisco/id=c95-2
-9:             ls$morto/antes
-10:             ls$residencia/casal do barril
-11: 
-12:          mnoivo$maria esteves/id=c95-3
-13:             ls$residencia/casal do barril
-14: 
-15:          noiva$isabel rodrigues/id=c95-4
-16: 
-17:          pnoiva$manuel rodrigues feijao/id=c95-5
-18:             ls$residencia/casal dos feijoes
-19: 
-20:          mnoiva$maria simoes/id=c95-6
-21: 
-22:          test$manuel jorge/id=c95-7
-23:             ls$alcunha/moco
-24:             ls$residencia/sobral
-25: 
-26:          test$manuel francisco/id=c95-8
-27:             ls$alcunha/moco
-28:             ls$residencia/sobral
-29: 
-30:          test$manuel martins/id=c95-9
-31:             ls$residencia/soure
-32:             ls$profissao/padre
-33: 
-34:       cas$c1698-96/6/1/1698/igreja matriz/luis alvares pinto
-35: 
 36: cas$c1698-96
-36:          noivo$manuel rodrigues/id=c96-1
-37: 
-38:          pnoivo$manuel rodrigues/id=c96-2
-39:             ls$morto/antes
-40:             ls$residencia/casal do olho marinho
-41: 
-42:          mnoivo$isabel rodrigues/id=c96-3
-43:             ls$residencia/casal do olho marinho
-44: 
-45:          noiva$guiomar da silva/id=c96-4
-46: 
-47:          pnoiva$manuel goncalves/id=c96-5
-48:             ls$morto/antes
-49:             ls$residencia/freguesia de alfarelos
-50:             ls$freguesia/alfarelos
-51: 
-52:          mnoiva$paula lopes/id=c96-6
-53:             ls$morto/antes
-54:             ls$residencia/freguesia de alfarelos
-55:             ls$freguesia/alfarelos
-56: 
-57:          test$manuel goncalves/id=c96-7
-58:             ls$residencia/casal da amoreira
-59: 
-60:          test$manuel rodrigues da carreira# caneira sera toponimo/m/id=c96-8
-61:             ls$profissao/padre
-62:             ls$residencia/soure
-63: 
-64:          test$manuel martins/id=c96-9
-65:             ls$residencia/soure
-66:             ls$profissao/padre
-67: 
-68:       cas$c1698-97/6/1/1698/igreja matriz/luis alvares pinto
-69: 
 70: cas$c1698-97
-70:          noivo$manuel martins/id=c97-1
-71: 
-72:          pnoivo$manuel martins/id=c97-2
-73:             ls$residencia/casal do paul
-74:             ls$morto/antes
-75: 
-76:          mnoivo$isabel simoes/id=c97-3
-77:             ls$residencia/casal do paul
-78:             ls$morta/antes
-79: 
-80:          noiva$natalia rodrigues/id=c97-4
-81: 
-82:          pnoiva$manuel rodrigues centeio/id=c97-5
-83:             ls$residencia/casal do rei
-84: 
-85:          mnoiva$catarina goncalves/id=c97-6
-86: 
-87:          test$manuel homem de quadros/id=c97-7/mesmo_que=c6-7
-88: 
-
-WARNING: c1698.cli line 88 destination id of "same as" not found. Will check again at the end of file.
-Near line: 88 
-Near line: 89          test$manuel rodrigues da carreira/id=c97-8/mesmo_que=c96-8
-
-89:          test$manuel rodrigues da carreira/id=c97-8/mesmo_que=c96-8
-90:             ls$profissao/padre
-91:             ls$residencia/soure
-92: 
-93:          test$manuel martins/id=c97-9/mesmo_que=c96-9
-94:             ls$profissao/padre
-95:             ls$residencia/soure
-96: 
-97:       cas$c1698-98/8/1/1698/igreja matriz/frei jose pinto
-98: 
 99: cas$c1698-98
-99:          noivo$joao marques/id=c98-1
-100: 
-101:          pnoivo$joao rodrigues/id=c98-2
-102:             ls$morto/antes
-103:             ls$residencia/soure
-104: 
-105:          mnoivo$isabel marques/id=c98-3
-106:             ls$residencia/soure
-107: 
-108:          noiva$maria dos ramos/id=c98-4
-109: 
-110:          pnoiva$joao martins/id=c98-5
-111:             ls$morto/antes
-112:             ls$residencia/soure
-113: 
-114:          mnoiva$maria joao/id=c98-6
-115:             ls$residencia/soure
-116:             ls$morta/antes
-117: 
-118:          test$sebastiao machado/id=c98-7
-119:             ls$residencia/soure
-120: 
-121:          test$manuel rodrigues alvaro/id=c98-8/mesmo_que=c2-8
-
-WARNING: c1698.cli line 121 destination id of "same as" not found. Will check again at the end of file.
-Near line: 121          test$manuel rodrigues alvaro/id=c98-8/mesmo_que=c2-8
-Near line: 122             ls$residencia/soure
-
-122:             ls$residencia/soure
-123:             ls$profissao/padre
-124: 
-125:          test$manuel martins/id=c98-9/mesmo_que=c96-9
-126: 
-127:       cas$c1698-99/12/1/1698/igreja da misericordia/frei manuel duarte
-128: 
 129: cas$c1698-99
-129:          referido$manuel duarte/id=c99-r1/obs=celebra casamento em 1698 (c99)
-130:             ls$profissao/padre
-131:             ls$titulo/frei
-132:             ls$cargo/beneficiado da igreja de soure
-133:             ls$cargo/capelao da misericordia de soure
-134: 
-135:          noivo$domingos goncalves/id=c99-1
-136: 
-137:          pnoivo$mateus goncalves/id=c99-2
-138:             ls$morto/antes
-139:             ls$residencia/alencarce de baixo
-140: 
-141:          mnoivo$maria joao/id=c99-3
-142:             ls$morta/antes
-143:             ls$residencia/alencarce de baixo
-144: 
-145:          noiva$maria madeira/id=c99-4
-146: 
-147:          pnoiva$geraldo rodrigues/id=c99-5
-148:             ls$morto/antes
-149:             ls$residencia/casal do vinagre
-150: 
-151:          mnoiva$isabel madeira/id=c99-6
-152:             ls$residencia/casal do vinagre
-153: 
-154:          test$manuel soares coelho/id=c99-7
-155:             ls$residencia/soure
-156: 
-157:          test$manuel marques/id=c99-8
-158:             ls$residencia/soure
-159:             ls$titulo/licenciado
-160: 
-161:          test$antonio martins pisarra/id=c99-9
-162:             ls$residencia/casal do vinagre
-163: 
-164:       cas$c1698-100/13/1/1698/igreja matriz/luis alvares pinto
-165: 
 166: cas$c1698-100
-166:          noivo$luis duarte/id=c100-1
-167: 
-168:          pnoivo$domingos duarte/id=c100-2
-169:             ls$residencia/casa velha
-170: 
-171:          mnoivo$francisca jorge/id=c100-3
-172: 
-173:          noiva$domingas da costa/id=c100-4
-174: 
-175:          pnoiva$manuel alves/id=c100-5
-176:             ls$morto/antes
-177:             ls$residencia/casa velha
-178: 
-179:          mnoiva$maria da costa/id=c100-6
-180:             ls$residencia/casa velha
-181: 
-182:          test$antonio de melo e ataide/id=c100-7/mesmo_que=c83-7
-
-WARNING: c1698.cli line 182 destination id of "same as" not found. Will check again at the end of file.
-Near line: 182          test$antonio de melo e ataide/id=c100-7/mesmo_que=c83-7
-Near line: 183             ls$residencia/casa velha/obs=provavelmente a quinta e dele
-
-183:             ls$residencia/casa velha/obs=provavelmente a quinta e dele
-184: 
-185:          test$domingos lopes/id=c100-8
-186:             ls$residencia/casa velha
-187: 
-188:          test$manuel simoes/id=c100-9
-189:             ls$alcunha/moco
-190:             ls$residencia/casa velha
-191: 
-192:       cas$c1698-101/13/1/1698/igreja matriz/luis alvares pinto
-193: 
 194: cas$c1698-101
-194:          noivo$domingos simoes/m/id=c101-1o
-195: 
-196:          pnoivo$domingos simoes/id=c101-2
-197:             ls$morto/antes
-198:             ls$residencia/presa
-199: 
-200:          mnoivo$isabel luis/id=c101-3
-201:             ls$morta/antes
-202:             ls$residencia/presa
-203: 
-204:          noiva$catarina francisca/id=c101-4
-205: 
-206:          pnoiva$manuel francisco/id=c101-5
-207:             ls$residencia/alencarce de cima
-208:             ls$morto/antes
-209: 
-210:          mnoiva$antonia luis/id=c101-6
-211:             ls$morta/antes
-212:             ls$residencia/alencarce de cima
-213: 
-214:          test$manuel jorge/id=c101-7
-215:             ls$residencia/casal de alencarce de cima
-216: 
-217:          test$manuel simoes/id=c101-8
-218:             ls$residencia/alencarce de cima
-219:             ls$profissao/soldado
-220: 
-221:          test$manuel martins/id=c101-9/mesmo_que=c96-9
-222: 
-223:       cas$c1698-102/19/1/1698/igreja matriz/luis alvares pinto
-224: 
 225: cas$c1698-102
-225:          noivo$manuel marques/id=c102-1
-226: 
-227:          pnoivo$domingos marques/id=c102-2
-228:             ls$residencia/paleao
-229: 
-230:          mnoivo$isabel madeira/id=c102-3
-231: 
-232:          noiva$margarida gomes/id=c102-4
-233: 
-234:          pnoiva$manuel fernandes/id=c102-5
-235:             ls$morto/antes
-236:             ls$freguesia/abiul
-237:             ls$residencia/loureira, freguesia de abiul
-238: 
-239:          mnoiva$helena luis/id=c102-6
-240:             ls$residencia/loureira, freguesia de abiul
-241:             ls$freguesia/abiul
-242: 
-243:          test$antonio soares/id=c102-7
-244:             ls$residencia/paleao
-245: 
-246:          test$joao soares/id=c102-8
-247:             ls$residencia/paleao
-248: 
-249:          test$manuel martins/id=c102-9/mesmo_que=c96-9
-250: 
-251:       cas$c1698-103/6/2/1698/igreja matriz/luis alvares pinto
-252: 
 253: cas$c1698-103
-253:          noivo$luis goncalves/id=c103-1
-254: 
-255:          pnoivo$manuel goncalves/id=c103-2
-256:             ls$residencia/casal das brancas
-257: 
-258:          mnoivo$domingas francisca/id=c103-3
-259: 
-260:          noiva$catarina ferreira/id=c103-4
-261: 
-262:          pnoiva$joao francisco/id=c103-5
-263:             ls$residencia/casal dos bechos
-264: 
-265:          mnoiva$sebastiana francisca/id=c103-6
-266: 
-267:          test$joao lopes/id=c103-7
-268:             ls$residencia/casais do espirito santo
-269: 
-270:          test$bras ferreira/id=c103-8
-271:             ls$residencia/bechos
-272: 
-273:          test$manuel martins/id=c103-9/mesmo_que=c96-9
-274: 
-275:       cas$c1698-104/9/2/1698/igreja matriz/luis alvares pinto
-276: 
 277: cas$c1698-104
-277:          noivo$alexandre rodrigues/id=c104-1a
-278: 
-279:          pnoivo$manuel rodrigues/id=c104-2
-280:             ls$residencia/casais do espirito santo
-281: 
-282:          mnoivo$antonia agostinha/id=c104-3
-283: 
-284:          noiva$maria simoes/id=c104-4
-285: 
-286:          pnoiva$manuel simoes/id=c104-5
-287:             ls$residencia/casal dos simoes
-288: 
-289:          mnoiva$maria jorge/id=c104-6
-290: 
-291:          test$vicente colaco/id=c104-7
-292:             ls$residencia/soure
-293: 
-294:          test$manuel martins/id=c104-8/mesmo_que=c96-9
-295: 
-296:          test$domingos goncalves/id=c104-9/mesmo_que=c2-7
-297: 
-
-WARNING: c1698.cli line 297 destination id of "same as" not found. Will check again at the end of file.
-Near line: 297 
-Near line: 298       cas$c1698-105/17/2/1698/igreja matriz/luis alvares pinto
-
-298:       cas$c1698-105/17/2/1698/igreja matriz/luis alvares pinto
-299: 
 300: cas$c1698-105
-300:          noivo$manuel mateus/id=c105-1
-301:             ls$freguesia/figueiro do campo
-302:             ls$residencia/maracha, freguesia de figueiro do campo
-303: 
-304:          pnoivo$joao mateus/id=c105-2
-305:             ls$freguesia/figueiro do campo
-306:             ls$residencia/maracha, freguesia de figueiro do campo
-307: 
-308:          mnoivo$maria francisca/id=c105-3
-309:             ls$freguesia/figueiro do campo
-310:             ls$morta/antes
-311: 
-312:          noiva$paula antunes/id=c105-4
-313: 
-314:          pnoiva$joao antunes/id=c105-5
-315:             ls$residencia/casal do pinheiro
-316: 
-317:          mnoiva$catarina manuel/id=c105-6
-318:             ls$morta/antes
-319: 
-320:          test$francisco lopes/id=c105-7
-321:             ls$residencia/casal do pinheiro
-322: 
-323:          test$mateus mendes/id=c105-8
-324:             ls$residencia/casal do pinheiro
-325: 
-326:          test$manuel martins/id=c105-9/mesmo_que=c96-9
-327:             ls$cargo/tesoureiro da igreja
-328: 
-329:       cas$c1698-106/24/2/1698/igreja matriz/luis alvares pinto
-330: 
 331: cas$c1698-106
-331:          noivo$manuel silvestre/id=c106-1
-332: 
-333:          pnoivo$domingos silvestre/id=c106-2
-334:             ls$residencia/casais de pedro vaz
-335: 
-336:          mnoivo$antonia francisca/id=c106-3
-337: 
-338:          noiva$maria antonia/id=c106-4
-339: 
-340:          pnoiva$lourenco domingos/id=c106-5
-341:             ls$residencia/cascao
-342: 
-343:          mnoiva$maria antonia/id=c106-6
-344: 
-345:          test$antonio nunes/id=c106-7
-346:             ls$residencia/cascao
-347: 
-348:          test$joao madeira/id=c106-8
-349:             ls$residencia/cascao
-350: 
-351:          test$manuel martins/id=c106-9/mesmo_que=c96-9
-352: 
-353:       cas$c1698-107/24/2/1698/igreja matriz/luis alvares pinto/obs="... dispensados por sua santidade no quarto grau de afinidade o qual impedimento se soube depois de estarem recebidos em face da igreja por isso se tornaram a receber solenemente..." atencao: provavelmente aparecem num casamento anterior
-354: 
 355: cas$c1698-107
-355:          noivo$manuel francisco/id=c107-1
-356: 
-357:          pnoivo$simao afonso/id=c107-2
-358:             ls$residencia/vale da borra
-359: 
-360:          mnoivo$maria francisca/id=c107-3
-361: 
-362:          noiva$maria simoes/id=c107-4
-363:             rel$parentesco/grau 4a/manuel francisco/c107-1
-364: 
-365:          pnoiva$andre fernandes/id=c107-5
-366:             ls$residencia/vale da borra
-367: 
-368:          mnoiva$domingas simoes/id=c107-6
-369: 
-370:          test$simao jorge/id=c107-7
-371:             ls$residencia/marzagao
-372: 
-373:          test$manuel goncalves/id=c107-8
-374:             ls$residencia/vale da borra
-375: 
-376:          test$manuel martins/id=c107-9/mesmo_que=c96-9
-377: 
-378:       cas$c1698-108/20/4/1698/igreja matriz/luis alvares pinto
-379: 
 380: cas$c1698-108
-380:          noivo$luis cordeiro/id=c108-1
-381: 
-382:          pnoivo$manuel carvalho/id=c108-2
-383:             ls$morto/antes
-384:             ls$residencia/quinta de s.tome
-385: 
-386:          mnoivo$maria de andrade/id=c108-3
-387:             ls$residencia/quinta de s.tome
-388:             ls$morta/antes
-389: 
-390:          noiva$maria jorge/id=c108-4
-391: 
-392:          pnoiva$manuel de oliveira/id=c108-5
-393:             ls$residencia/casal das galinhas
-394: 
-395:          mnoiva$maria goncalves/id=c108-6
-396: 
-397:          test$paulo ribeiro cabral/id=c108-7/mesmo_que=c24-7
-
-WARNING: c1698.cli line 397 destination id of "same as" not found. Will check again at the end of file.
-Near line: 397          test$paulo ribeiro cabral/id=c108-7/mesmo_que=c24-7
-Near line: 398             ls$cargo/capitao-mor
-
-398:             ls$cargo/capitao-mor
-399: 
-400:          test$manuel martins/id=c108-8/mesmo_que=c96-9
-401: 
-402:       cas$c1698-109/4/5/1698/igreja matriz/luis alvares pinto
-403: 
 404: cas$c1698-109
-404:          noivo$ascenso martins/id=c109-1
-405: 
-406:          pnoivo$manuel vaz/id=c109-2
-407:             ls$morto/antes
-408:             ls$residencia/pouca pena
-409: 
-410:          mnoivo$maria martins/id=c109-3
-411:             ls$residencia/pouca pena
-412: 
-413:          noiva$maria ferreira#verificar/f/id=c109-4
-414: 
-415:          pnoiva$domingos pires/id=c109-5
-416:             ls$residencia/casal da charneca
-417: 
-418:          mnoiva$maria ferreira/id=c109-6
-419:             ls$morta/antes
-420: 
-421:          test$manuel francisco/id=c109-7
-422:             ls$alcunha/moco
-423:             ls$residencia/pouca pena
-424: 
-425:          test$antonio mateus/id=c109-8
-426:             ls$residencia/pouca pena
-427: 
-428:          test$manuel martins/id=c109-9/mesmo_que=c96-9
-429: 
-430:       cas$c1698-110/5/7/1698/igreja matriz/luis alvares pinto
-431: 
 432: cas$c1698-110
-432:          noivo$mateus goncalves/id=c110-1
-433:             ls$residencia/cavaleiros
-434: 
-435:          pnoivo$jorge simoes/id=c110-2
-436:             ls$morto/antes
-437:             ls$freguesia/ega
-438:             ls$residencia/robalia, freguesia de ega
-439: 
-440:          mnoivo$luisa simoes/id=c110-3
-441:             ls$morta/antes
-442:             ls$freguesia/ega
-443:             ls$residencia/robalia, freguesia da ega
-444: 
-445:          noiva$francisca rodrigues/id=c110-4
-446: 
-447:          pnoiva$manuel rodrigues/id=c110-5
-448:             ls$morto/antes
-449:             ls$residencia/casal da ourada
-450: 
-451:          mnoiva$isabel silvestre/id=c110-6
-452:             ls$morta/antes
-453:             ls$residencia/casal da ourada
-454: 
-455:          test$manuel antunes rolim/id=c110-7
-456:             ls$residencia/casal do livreiro
-457: 
-458:          test$manuel domingues/id=c110-8
-459:             ls$residencia/casal do leonel
-460: 
-461:          test$luis cordeiro/id=c110-9/mesmo_que=c26-8
-
-WARNING: c1698.cli line 461 destination id of "same as" not found. Will check again at the end of file.
-Near line: 461          test$luis cordeiro/id=c110-9/mesmo_que=c26-8
-Near line: 462             ls$cargo/tesoureiro
-
-462:             ls$cargo/tesoureiro
-463:             ls$residencia/soure
-464: 
-465:       cas$c1698-111/13/7/1698/igreja matriz/frei jose pinto, beneficiado
-466: 
 467: cas$c1698-111
-467:          noivo$joao gomes/id=c111-1
-468: 
-469:          pnoivo$manuel gomes lendla?/id=c111-2
-470:             ls$residencia/soure
-471: 
-472:          mnoivo$isabel goncalves/id=c111-3
-473: 
-474:          noiva$francisca andrade/id=c111-4
-475: 
-476:          pnoiva$francisco de andrade/id=c111-5
-477:             ls$morto/antes
-478:             ls$residencia/casa velha
-479: 
-480:          mnoiva$jeronima rodrigues/id=c111-6
-481:             ls$residencia/casa velha
-482: 
-483:          test$domingos cardoso/id=c111-7
-484:             ls$residencia/soure
-485: 
-486:          test$manuel gomes lendla#verificar tem o mesmo nome que o pai/m/id=c111-8
-487:             ls$residencia/soure
-488: 
-489:       cas$c1698-112/23/8/1698/igreja matriz/luis alvares pinto
-490: 
 491: cas$c1698-112
-491:          noivo$antonio pires/id=c112-1
-492:             ls$residencia/assamassa
-493: 
-494:          pnoivo$antonio pires/id=c112-2
-495:             ls$morto/antes
-496:             ls$freguesia/ega
-497:             ls$residencia/campigas, freguesia de ega/obs=muito provavelmente campizes
-498: 
-499:          mnoivo$maria pedroso/id=c112-3
-500:             ls$freguesia/ega
-501:             ls$residencia/campigas, freguesia de ega/obs=muito provavelmente campizes
-502: 
-503:          noiva$antonia rodrigues/id=c112-4
-504: 
-505:          pnoiva$mateus rodrigues/id=c112-5
-506:             ls$residencia/porto coelheiro
-507: 
-508:          mnoiva$maria gomes/id=c112-6
-509: 
-510:          test$lourenco rodrigues/id=c112-7
-511:             ls$residencia/porto coelheiro
-512: 
-513:          test$manuel rodrigues/id=c112-8
-514:             ls$alcunha/conde
-515:             ls$residencia/porto coelheiro
-516: 
-517:          test$manuel rodrigues/id=c112-9
-518:             ls$residencia/porto das cabras
-519: 
-520:          test$antonio rodrigues/id=c112-10
-521:             ls$residencia/porto das cabras
-522: 
-523:       cas$c1698-113/5/10/1698/igreja matriz/luis alvares pinto
-524: 
 525: cas$c1698-113
-525:          noivo$tome de brito pereira/id=c113-1
-526:             ls$freguesia/condeixa-a-nova
-527: 
-528:          pnoivo$sebastiao pereira/id=c113-2
-529:             ls$freguesia/condeixa-a-nova
-530: 
-531:          mnoivo$maria de brito/id=c113-3
-532:             ls$freguesia/condeixa-a-nova
-533: 
-534:          noiva$maria cardoso da encarnacao/id=c113-4
-535: 
-536:          pnoiva$manuel cardoso/id=c113-5
-537:             ls$residencia/soure
-538: 
-539:          mnoiva$maria francisca/id=c113-6
-540:             ls$residencia/soure
-541: 
-542:          test$antonio de menezes/id=c113-7
-543:             ls$titulo/dom
-544:             ls$residencia/soure
-545: 
-546:          test$manuel rodrigues alvaro/id=c113-8/mesmo_que=c2-8
-
-WARNING: c1698.cli line 546 destination id of "same as" not found. Will check again at the end of file.
-Near line: 546          test$manuel rodrigues alvaro/id=c113-8/mesmo_que=c2-8
-Near line: 547             ls$profissao/padre
-
-547:             ls$profissao/padre
-548:             ls$residencia/soure
-549: 
-550:          test$luis cordeiro/id=c113-9/mesmo_que=c26-8
-
-WARNING: c1698.cli line 550 destination id of "same as" not found. Will check again at the end of file.
-Near line: 550          test$luis cordeiro/id=c113-9/mesmo_que=c26-8
-Near line: 551             ls$cargo/tesoureiro
-
-551:             ls$cargo/tesoureiro
-552:             ls$residencia/soure
-553: 
-554:       cas$c1698-114/5/10/1698/igreja matriz/luis alvares pinto
-555: 
 556: cas$c1698-114
-556:          noivo$antonio goncalves/id=c114-1
-557: 
-558:          pnoivo$manuel goncalves/id=c114-2
-559:             ls$residencia/casais dos corcoris? e corujeira
-560: 
-561:          mnoivo$francisca pedroso/id=c114-3
-562: 
-563:          noiva$isabel dos santos/id=c114-4
-564: 
-565:          pnoiva$ventura goncalves/id=c114-5
-566:             ls$residencia/soure
-567: 
-568:          mnoiva$maria mendes/id=c114-6
-569: 
-570:          test$manuel rodrigues alvaro/id=c114-7/mesmo_que=c2-8
-571: 
-
-WARNING: c1698.cli line 571 destination id of "same as" not found. Will check again at the end of file.
-Near line: 571 
-Near line: 572          test$luis cordeiro/id=c114-8/mesmo_que=c26-8
-
-572:          test$luis cordeiro/id=c114-8/mesmo_que=c26-8
-573: 
-
-WARNING: c1698.cli line 573 destination id of "same as" not found. Will check again at the end of file.
-Near line: 573 
-Near line: 574       cas$c1698-115/6/10/1698/igreja matriz/luis alvares pinto
-
-574:       cas$c1698-115/6/10/1698/igreja matriz/luis alvares pinto
-575: 
 576: cas$c1698-115
-576:          noivo$domingos francisco/id=c115-1
-577:             ls$freguesia/gesteira
-578: 
-579:          pnoivo$domingos francisco/id=c115-2
-580:             ls$residencia/casal do penedo, freguesia da gesteira
-581:             ls$freguesia/gesteira
-582: 
-583:          mnoivo$isabel gomes/id=c115-3
-584:             ls$residencia/casal do penedo, freguesia da gesteira
-585:             ls$freguesia/gesteira
-586: 
-587:          noiva$maria francisca/id=c115-4
-588: 
-589:          pnoiva$manuel francisco/id=c115-5
-590:             ls$morto/antes
-591:             ls$residencia/montais
-592: 
-593:          mnoiva$domingas joao/id=c115-6
-594:             ls$morta/antes
-595:             ls$residencia/montais
-596: 
-597:          test$manuel joao/id=c115-7
-598:             ls$residencia/montais
-599: 
-600:          test$manuel luis/id=c115-8
-601:             ls$freguesia/gesteira
-602:             ls$residencia/santo isidoro, freguesia da gesteira
-603: 
-604:          test$luis cordeiro/id=c115-9/mesmo_que=c26-8
-605: 
-
-WARNING: c1698.cli line 605 destination id of "same as" not found. Will check again at the end of file.
-Near line: 605 
-Near line: 606       cas$c1698-116/13/10/1698/igreja matriz/luis alvares pinto
-
-606:       cas$c1698-116/13/10/1698/igreja matriz/luis alvares pinto
-607: 
 608: cas$c1698-116
-608:          noivo$joao duarte/id=c116-1
-609:             ls$freguesia/vinha da rainha
-610: 
-611:          pnoivo$antonio duarte/id=c116-2
-612:             ls$residencia/quieitide, freguesia de vinha da rainha
-613:             ls$freguesia/vinha da rainha
-614: 
-615:          mnoivo$isabel francisca/id=c116-3
-616:             ls$residencia/quieitide, freguesia de vinha da rainha
-617:             ls$freguesia/vinha da rainha
-618: 
-619:          noiva$isabel rodrigues/id=c116-4
-620: 
-621:          pnoiva$simao jorge/id=c116-5
-622:             ls$residencia/casal de marzagao
-623: 
-624:          mnoiva$maria joao/id=c116-6
-625: 
-626:          test$joao alves/id=c116-7
-627:             ls$residencia/quinta de quieitide, freguesia de vinha da rainha
-628:             ls$freguesia/vinha da rainha
-629: 
-630:          test$manuel goncalves melado/id=c116-8
-631:             ls$residencia/mogadouro
-632: 
-633:          test$manuel rodrigues pachancas?/id=c116-9
-634:             ls$residencia/sobral
-635: 
-636:       cas$c1698-117/5/11/1698/igreja matriz/luis alvares pinto
-637: 
 638: cas$c1698-117
-638:          noivo$andre goncalves/id=c117-1
-639: 
-640:          pnoivo$ascenso goncalves/id=c117-2
-641:             ls$residencia/casal do melrical
-642: 
-643:          mnoivo$maria antunes/id=c117-3
-644:             ls$morta/antes
-645: 
-646:          noiva$catarina galvao/id=c117-4
-647: 
-648:          pnoiva$manuel mateus/id=c117-5
-649:             ls$morto/antes
-650:             ls$residencia/soure
-651: 
-652:          mnoiva$madalena dos santos/id=c117-6
-653:             ls$morta/antes
-654:             ls$residencia/soure
-655: 
-656:          test$paulo ribeiro cabral/id=c117-7/mesmo_que=c24-7
-
-WARNING: c1698.cli line 656 destination id of "same as" not found. Will check again at the end of file.
-Near line: 656          test$paulo ribeiro cabral/id=c117-7/mesmo_que=c24-7
-Near line: 657             ls$cargo/capitao-mor
-
-657:             ls$cargo/capitao-mor
-658:             ls$residencia/soure
-659: 
-660:          test$manuel soares galvao/id=c117-8
-661:             ls$residencia/soure
-662: 
-663:          test$luis cordeiro/id=c117-9/mesmo_que=c26-8
-
-WARNING: c1698.cli line 663 destination id of "same as" not found. Will check again at the end of file.
-Near line: 663          test$luis cordeiro/id=c117-9/mesmo_que=c26-8
-Near line: 664             ls$cargo/tesoureiro
-
-664:             ls$cargo/tesoureiro
-665: 
-666:       cas$c1698-118/17/11/1698/freguesia de s.joao de almedina/manuel da fonseca roberto/obs=noivo estava preso no aljube e o casamento deu-se por ordem do provisor do bispado, certidao do paroco de almedina transcrita no livro de casamentos de soure
-667: 
 668: cas$c1698-118
-668:          noivo$simao de oliveira/id=c118-1
-669:             ls$residencia/soure/obs=preso no aljube em novembro de 1698
-670: 
-671:          pnoivo$manuel fernandes/id=c118-2
-672:             ls$residencia/soure
-673: 
-674:          mnoivo$maria pedroso/id=c118-3
-675: 
-676:          noiva$domingas jorge/id=c118-4
-677: 
-678:          pnoiva$joao jorge/id=c118-5
-679:             ls$residencia/quinta da pintora/obs=nao e' certo que seja soure
-680: 
-681:          mnoiva$maria rodrigues/id=c118-6
-682: 
-683:       cas$c1698-119/23/11/1698/igreja matriz/luis alvares pinto
-684: 
 685: cas$c1698-119
-685:          noivo$manuel goncalves/id=c119-1
-686: 
-687:          pnoivo$simao dias/id=c119-2
-688:             ls$residencia/casal da ourada
-689: 
-690:          mnoivo$maria goncalves/id=c119-3
-691: 
-692:          noiva$antonia gomes/id=c119-4
-693: 
-694:          pnoiva$domingos francisco/id=c119-5
-695:             ls$residencia/casal do mendinho
-696: 
-697:          mnoiva$maria goncalves/id=c119-6
-698: 
-699:          test$manuel homem de quadros/id=c119-7/mesmo_que=c6-7
-
-WARNING: c1698.cli line 699 destination id of "same as" not found. Will check again at the end of file.
-Near line: 699          test$manuel homem de quadros/id=c119-7/mesmo_que=c6-7
-Near line: 700             ls$residencia/soure
-
-700:             ls$residencia/soure
-701: 
-702:          test$joao da costa/id=c119-8
-703:             ls$profissao/padre
-704:             ls$residencia/soure
-705: 
-706:          test$ventura martins/mesmo_que=c119-9/id=c1698-119-per1
-
-WARNING: c1698.cli line 706 destination id of "same as" not found. Will check again at the end of file.
-Near line: 706          test$ventura martins/mesmo_que=c119-9/id=c1698-119-per1
-Near line: 707             ls$profissao/padre
-
-707:             ls$profissao/padre
-708:             ls$residencia/soure
-709: 
-710:       cas$c1698-120/24/11/1698/igreja matriz/luis alvares pinto
-711: 
 712: cas$c1698-120
-712:          noivo$antonio alves/id=c120-1
-713: 
-714:          pnoivo$manuel nunes/id=c120-2
-715:             ls$morto/antes
-716:             ls$residencia/casa velha
-717: 
-718:          mnoivo$domingas francisca/id=c120-3
-719:             ls$residencia/casa velha
-720:             ls$morta/antes
-721: 
-722:          noiva$maria cordeiro/id=c120-4
-723: 
-724:          pnoiva$domingos cordeiro/id=c120-5
-725:             ls$residencia/casal novo
-726: 
-727:          mnoiva$sebastiana manuel/id=c120-6
-728: 
-729:          test$joao duarte/id=c120-7
-730:             ls$residencia/casa velha
-731: 
-732:          test$luis cordeiro/id=c120-8/mesmo_que=c26-8
-
-WARNING: c1698.cli line 732 destination id of "same as" not found. Will check again at the end of file.
-Near line: 732          test$luis cordeiro/id=c120-8/mesmo_que=c26-8
-Near line: 733             ls$cargo/tesoureiro da igreja de soure
-
-733:             ls$cargo/tesoureiro da igreja de soure
-734: 
-735:       cas$c1698-121/10/12/1698/igreja matriz/luis alvares pinto
-736: 
 737: cas$c1698-121
-737:          noivo$antonio joao/id=c121-1
-738: 
-739:          pnoivo$manuel joao/id=c121-2
-740:             ls$morto/antes
-741:             ls$residencia/casa velha
-742: 
-743:          mnoivo$domingas francisca/id=c121-3
-744:             ls$residencia/casa velha
-745: 
-746:          noiva$maria luis/id=c121-4
-747: 
-748:          pnoiva$antonio simoes/id=c121-5
-749:             ls$residencia/casa velha
-750: 
-751:          mnoiva$maria luis/id=c121-6
-752:             ls$morta/antes
-753: 
-754:          test$sebastiao goncalves/id=c121-7
-755:             ls$residencia/soure
-756: 
-757:          test$domingos lopes/id=c121-8
-758:             ls$residencia/casa velha
-759: 
-760:          test$manuel simoes/id=c121-9
-761:             ls$alcunha/moco
-762:             ls$residencia/casa velha
-763: 
-764:       cas$c1698-120a/27/11/1698/ermida do espirito santo do lugar dos casais/padre domingos goncalves/obs= fora de ordem no livro. antes do casamento de 7/1/1699
-765: 
-
-ERROR: c1698.cli line 765 ** Failure: undefined element. 
-Near line: 765 
-Near line: 766          noivo$manuel goncalves cavaleiro/id=c120a-1
-
 766: cas$c1698-120a
-766:          noivo$manuel goncalves cavaleiro/id=c120a-1
-767: 
-768:          pnoivo$manuel goncalves cavaleiro/id=c120a-2
-769:             ls$residencia/freguesia de alfarelos
-770:             ls$freguesia/alfarelos
-771: 
-772:          mnoivo$isabel goncalves/id=c120a-3
-773:             ls$freguesia/alfarelos
-774: 
-775:          noiva$catarina espirito santo/id=c120a-4
-776: 
-777:          pnoiva$mateus goncalves/id=c120a-5
-778:             ls$morto/antes
-779:             ls$residencia/espirito santo
-780: 
-781:          mnoiva$maria simoes/id=c120a-6
-782:             ls$residencia/espirito santo
-783: 
-784:          test$leonardo moniz/id=c120a-7
-785:             ls$residencia/freguesia de alfarelos
-786:             ls$freguesia/alfarelos
-787: 
-788:          test$alvaro rodrigues/id=c120a-8
-789:             ls$residencia/freguesia de alfarelos
-790:             ls$freguesia/alfarelos
-791: *** End of File
-ERROR:  Could not find same_as id c6-7 referred in line 89. If  original reference is on another file use xsame_as
+*** End of File
 
-ERROR:  Could not find same_as id c2-8 referred in line 122. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 88  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c6-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 88 Near line: 89 
 
-ERROR:  Could not find same_as id c83-7 referred in line 183. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 121  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c2-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 121 Near line: 122 
 
-ERROR:  Could not find same_as id c2-7 referred in line 298. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 182  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c83-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 182 Near line: 183 
 
-ERROR:  Could not find same_as id c24-7 referred in line 398. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 297  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c2-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 297 Near line: 298 
 
-ERROR:  Could not find same_as id c26-8 referred in line 462. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 397  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c24-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 397 Near line: 398 
 
-ERROR:  Could not find same_as id c2-8 referred in line 547. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 461  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c26-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 461 Near line: 462 
 
-ERROR:  Could not find same_as id c26-8 referred in line 551. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 546  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c2-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 546 Near line: 547 
 
-ERROR:  Could not find same_as id c2-8 referred in line 572. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 550  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c26-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 550 Near line: 551 
 
-ERROR:  Could not find same_as id c26-8 referred in line 574. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 571  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c2-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 571 Near line: 572 
 
-ERROR:  Could not find same_as id c26-8 referred in line 606. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 573  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c26-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 573 Near line: 574 
 
-ERROR:  Could not find same_as id c24-7 referred in line 657. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 605  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c26-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 605 Near line: 606 
 
-ERROR:  Could not find same_as id c26-8 referred in line 664. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 656  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c24-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 656 Near line: 657 
 
-ERROR:  Could not find same_as id c6-7 referred in line 700. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 663  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c26-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 663 Near line: 664 
 
-ERROR:  Could not find same_as id c119-9 referred in line 707. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 699  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c6-7) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 699 Near line: 700 
 
-ERROR:  Could not find same_as id c26-8 referred in line 733. If  original reference is on another file use xsame_as
+WARNING: c1698.cli line 706  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c119-9) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 706 Near line: 707 
 
-17  errors. 
+WARNING: c1698.cli line 732  "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c26-8) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Near lines: 732 Near line: 733 
+** Processed file- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1698.cli
+** Original file- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1698.org
+** Previous version- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1698.old
+** Temp file with ids- /kleio-home/sources/soure/soure-sources/sources/soure_fase1/casamentos/c1698.ids
+0  errors. 
 16  warnings.
 Translation finished.
