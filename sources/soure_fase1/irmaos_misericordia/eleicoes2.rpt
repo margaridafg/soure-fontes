@@ -1,12 +1,12 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-13-6-2019 22-49
+ClioInput - version 2019.A1 - build 507 15/07/2019 21:58 
+9-3-2020 22-21
 
 Processing data file eleicoes2.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
-1: kleio$gacto2.str=========================
+=========================
 kleio translation started
 =========================
 Structure: gacto2.str
@@ -15,137 +15,150 @@ Autorel:
 Translation count: 
 Obs: 
 Translation count not set or invalid, counting as zero: 
-2: fonte$mis mesa2/tipo=livro de eleicoes datas/localizacao=arquivo  da santa casa da misericordia de soure3: ** Processing source fonte$mis mesa2
-4: amz$amz1/02/07/1724/35: 	/resumo=termo de eleicao de irmaos da mesa6: 7: amz$amz1
-7: eleitor$jacinto da costa de vasconcelos8: 9: eleitor$sebastiao machado da costa10: 11: eleitor$joao de sequeira coelho12: 13: eleitor$ manuel pessoa leitao14: 	ls$profissa/padre15: 16: eleitor$luis manhos de abreu17: 18: eleitor$jose marques19: 20: eleitor$joao henriques21: 22: eleitor$antonio lopes 23: 24: eleitor$jose velho25: 26: eleitor$alberto ferreira27: 28: 29: eleito$ jacinto da costa de vasconcelos30: 	ls$cargo/provedor31: 	ls$titulo/doutor32: 33: eleito$sebastiao ferreira34: 	ls$cargo/escrivao35: 	ls$profissao/padre36: 	ls$ec/solteiro37: 	ls$naturalidade/olivais38: 39: eleito$ jose da costa40: 	ls$cargo/mordomo41: 42: eleito$antonio lopes43: 	ls$cargo/irmao da mesa44: 45: eleito$alberto ferreira46: 	ls$cargo/irmao da mesa47: 48: eleito$manuel rodrigues descalco49: 	ls$cargo/irmao da mesa50: 51: eleito$jose de morais/obs=impedido em seu lugar 52: manuel goncalves vargas em 10-07-172453: 	ls$cargo/irmao da mesa54: 55: eleito$manuel goncalves vargas/obs=em lugar de jose de morais em10-07-172456: 	ls$cargo/irmao da mesa57: 58: eleito$manuel rodrigues duqueso59: 	ls$cargo/irmao da mesa60: 61: eleito$andre goncalves/obs=sustituido por jose marques harpista62: 	ls$cargo/irmao da mesa63: 64: eleito$jose marques harpista/obs=em lugar de andre goncalves65: 	ls$cargo/irmao da mesa66: 67: eleito$manuel alvares da silva68: 	ls$cargo/irmao da mesa69: 70: eleito$joao henriques71: 	ls$cargo/irmao da mesa72: 73: eleito$jose velho74: 	ls$cargo/irmao da mesa75: 76: eleito$manuel rodrigues serrao77: 	ls$cargo/irmao da mesa78: fim$amz79: 80: 81: amz$amz2/08/09/1727/4v82: 	/resumo=termo de eleicao de irmaos da mesa83: 84: amz$amz2
-84: eleitor$manuel pessoa leitao85: 	ls$profissao/padre86: 	ls$ec/solteiro87: 88: eleitor$jose marques89: 90: eleitor$sebastiao ferreira91: 92: eleitor$domingos lopes93: 94: eleitor$antonio de abreu95: 	ls$titulo/doutor96: 97: eleitor$manuel rodrigues98: 99: eleitor$domingos goncalves galhardo100: 	ls$titulo/doutor101: 102: eleitor$jose de barros103: 104: eleitor$placido soares coelho105: 106: eleitor$joao henriques107: 108: eleito$ joao de sequeira coelho109: 	ls$cargo/provedor110: 111: eleito$ manuel de tavora112: 	ls$titulo/reverendo113: 	ls$profissao/padre114: 	ls$ec/solteiro115: 	ls$cargo/escrivao116: 117: eleito$jose marques118: 	ls$cargo/mordomo119: 120: eleito$joao henriques121: 	ls$cargo/irmao da mesa122: 123: eleito$manuel rodrigues descalco124: 	ls$cargo/irmao da mesa125: 126: eleito$jose de barros127: 	ls$cargo/irmao da mesa128: 129: eleito$manuel alvares130: 	ls$cargo/irmao da mesa131: 132: eleito$manuel jorge133: 	ls$cargo/irmao da mesa134: 	ls$profissao/sapateiro135: 136: eleito$andre goncalves137: 	ls$cargo/irmao da mesa138: 139: eleito$manuel lopes140: 	ls$cargo/irmao da mesa141: 142: eleito$manuel dos santos143: 	ls$cargo/irmao da mesa144: 145: eleito$alberto ferreira146: 	ls$cargo/irmao da mesa147: 148: eleito$jose velho149: 	ls$cargo/irmao da mesa150: 151: fim$amz152: 
+** Processing source fonte$mis mesa2
+7: amz$amz1
+84: amz$amz2
+
 ERROR: eleicoes2.cli line 152 ** ID already used in this file: amz
-Near line: 152 Near line: 153 amz$amz3/11/07/1728/7
-153: amz$amz3/11/07/1728/7154: 	/resumo=termo de eleicao de irmaos da mesa155: 156: amz$amz3
-156: eleito$joao de sequeira coelho157: 158: eleito$jose da costa159: 160: eleito$manuel soares coelho161: 162: eleito$alberto ferreira163: 164: eleito$placido soares165: 166: eleito$joao henriques167: 168: eleito$ manuel pessoa leitao169: 	ls$titulo/licenciado170: 	ls$profissao/padre171: 	ls$ec/solteiro172: 173: eleito$manuel rodrigues serrao174: 175: eleito$ manuel de tavora176: 	ls$profissao/padre177: 	ls$ec/solteiro178: 179: eleito$manuel lopes180: 181: eleitor$manuel soares coelho182: 	ls$cargo/provedor183: 184: eleitor$ placido soares coelho185: 	ls$cargo/escrivao186: 187: eleitor$ jose da costa188: 	ls$cargo/mordomo189: 190: eleito$jose marques/obs=riscado em 11-03-1731191: 	ls$cargo/irmao da mesa192: 193: eleito$joao da costa pimentel194: 	ls$cargo/irmao da mesa/obs=em 11-031731 em lugar de jose marques195: 196: eleito$joao henriques197: 	ls$cargo/irmao da mesa198: 199: eleito$alberto ferreira200: 	ls$cargo/irmao da mesa201: 202: eleito$jeronimo mendes203: 	ls$cargo/irmao da mesa204: 205: eleito$andre goncalves/obs= falecido em 01-03-1733 falecido206: 	ls$cargo/irmao da mesa207: 208: eleito$gerardo de faria/obs=em 01-03-1733 em lugar de andre goncalves209: 	ls$cargo/irmao da mesa210: 211: eleito$manuel alvares212: 	ls$cargo/irmao da mesa213: 214: eleito$manuel rodrigues descalco215: 	ls$cargo/irmao da mesa216: 217: eleito$jose de barros218: 	ls$cargo/irmao da mesa219: 220: eleito$jorge monteiro221: 	ls$cargo/irmao da mesa222: 223: eleito$manuel lopes224: 	ls$profissao/sapateiro225: 	ls$cargo/irmao da mesa226: 227: fim$amz228: 
+Near lines: 152 Near line: 153 amz$amz3/11/07/1728/7
+156: amz$amz3
+
 ERROR: eleicoes2.cli line 228 ** ID already used in this file: amz
-Near line: 228 Near line: 229 amz$amz4/17/09/1733/10
-229: amz$amz4/17/09/1733/10230: 	/resumo=termo de eleicao de irmaos da mesa231: 232: amz$amz4
-232: eleitor$manuel pessoa leitao233: 	ls$profissao/padre234: 	ls$ec/solteiro235: 236: eleitor$joao de sequeira coelho237: 238: eleitor$joao da costa e vasconcelos239: 240: eleitor$manuel soares coelho241: 242: eleitor$jacinto soares coelho243: 	ls$profissao/padre244: 	ls$ec/solteiro245: 246: eleitor$jose de barros247: 248: eleitor$jorge monteiro249: 250: eleitor$jose da costa 251: 252: eleitor$alberto ferreira veloso253: 254: eleitor$joao henriques255: 256: eleito$bernardo de lafita(??) de tavora e sande257: 	ls$cargo/provedor258: 259: eleito$manuel pessoa leitao260: 	ls$profissao/padre261: 	ls$ec/solteiro262: 	ls$titulo/reverendo263: 	ls$cargo/escrivao264: 265: eleito$jose da costa266: 	ls$cargo/mordomo267: 268: eleito$joao de sequeira coelho269: 	ls$cargo/irmao da mesa270: 271: eleito$placido soares coelho272: 	ls$cargo/irmao da mesa273: 	274: eleito$manuel pinto de miranda275: 	ls$cargo/irmao da mesa276: 277: eleito$alexandre mendes ravasco278: 	ls$cargo/irmao da mesa279: 280: eleito$sebastiao ferreira281: 	ls$cargo/irmao da mesa282: 	ls$profissao/padre283: 	ls$ec/solteiro284: 	ls$titulo/reverendo285: 286: eleito$gerardo de faria287: 	ls$cargo/irmao da mesa288: 289: eleito$manuel simoes cabeca290: 	ls$cargo/irmao da mesa291: 292: eleito$jorge monteiro293: 	ls$cargo/irmao da mesa294: 295: eleito$sebastiao martins296: 	ls$cargo/irmao da mesa297: 298: eleito$jose de barros299: 	ls$cargo/irmao da mesa300: 301: fim$amz302: 303: 
+Near lines: 228 Near line: 229 amz$amz4/17/09/1733/10
+232: amz$amz4
+
 ERROR: eleicoes2.cli line 303 ** ID already used in this file: amz
-Near line: 303 Near line: 304 amz$amz5/02/07/1736/13v
-304: amz$amz5/02/07/1736/13v305: 	/resumo=termo de eleicao de irmaos da mesa306: 307: amz$amz5
-307: eleitor$bernardo de lafita308: 309: eleitor$joao de sequeira coelho310: 311: eleitor$luis barbosa312: 313: eleitor$manuel soares coelho314: 315: eleitor$placido soares coelho316: 317: eleitor$jose da costa318: 319: eleitor$jose de barros320: 321: eleitor$antonio rodrigues322: 	ls$profissao/barbeiro323: 324: eleitor$jeronimo mendes325: 326: eleitor$manuel rodrigues descalco327: 328: eleito$ rodrigo homem de quadros329: 	ls$cargo/provedor330: 331: eleito$sebastiao ferreira dos olivais332: 	ls$titulo/reverendo333: 	ls$profissao/padre334: 	ls$ec/solteiro335: 	ls$cargo/escrivao336: 	337: eleito$ jose da costa338: 	ls$cargo/mordomo339: 340: eleito$jorge monteiro341: 	ls$cargo/irmao da mesa342: 343: eleito$manuel simoes cabeca344: 	ls$cargo/irmao da mesa345: 346: eleito$jose de barros347: 	ls$cargo/irmao da mesa348: 349: eleito$francisco vieira350: 	ls$cargo/irmao da mesa351: 352: eleito$jeronimo mendes353: 	ls$cargo/irmao da mesa354: 355: eleito$sebastiao martins camouco356: 	ls$cargo/irmao da mesa357: 358: eleito$manuel martins359: 	ls$cargo/irmao da mesa360: 361: eleito$joao monteiro362: 	ls$cargo/irmao da mesa363: 364: eleito$manuel lopes365: 	ls$cargo/irmao da mesa366: 367: eleito$francisco dos reis368: 	ls$cargo/irmao da mesa369: 370: 371: fim$amz372: 
+Near lines: 303 Near line: 304 amz$amz5/02/07/1736/13v
+307: amz$amz5
+
 ERROR: eleicoes2.cli line 372 ** ID already used in this file: amz
-Near line: 372 Near line: 373 amz$amz6/21/07/1737/14v
-373: amz$amz6/21/07/1737/14v374: 	/resumo=termo de eleicao de irmaos da mesa375: 376: amz$amz6
-376: eleitor$rodrigo homem de quadros377: 378: eleitor$bernardo de lafita379: 380: eleitor$manuel soares coelho381: 382: eleitor$joao de sequeira coelho383: 384: eleitor$placido soares coelho385: 386: eleitor$jose da costa387: 388: eleitor$jeronimo mendes 389: 390: eleitor$jorge monteiro391: 392: eleitor$sebastiao martins393: 394: eleitor$francisco vieira395: 396: eleito$bernardo de lafita tavora e sande397: 	ls$cargo/provedor398: 399: eleito$placido soares coelho400: 	ls$cargo/escrivao401: 402: eleito$jose da costa403: 	ls$cargo/mordomo404: 405: eleito$jorge monteiro406: 	ls$cargo/irmao da mesa407: 408: eleito$joao monteiro409: 	ls$cargo/irmao da mesa410: 411: eleito$sebastiao martins412: 	ls$cargo/irmao da mesa413: 414: eleito$jose da sousa415: 	ls$cargo/irmao da mesa416: 417: eleito$jose oliveira de barros418: 	ls$cargo/irmao da mesa419: 420: eleito$manuel martins421: 	ls$cargo/irmao da mesa422: 423: eleito$joao rodrigues alvaro424: 	ls$cargo/irmao da mesa425: 426: eleito$manuel lopes427: 	ls$cargo/irmao da mesa428: 429: eleito$jeronimo mendes430: 	ls$cargo/irmao da mesa431: 432: eleito$francisco vieira433: 	ls$cargo/irmao da mesa434: 435: fim$amz436: 
+Near lines: 372 Near line: 373 amz$amz6/21/07/1737/14v
+376: amz$amz6
+
 ERROR: eleicoes2.cli line 436 ** ID already used in this file: amz
-Near line: 436 Near line: 437 amz$amz7/02/07/1742/17v
-437: amz$amz7/02/07/1742/17v438: 	/resumo=termo de eleicao de irmaos da mesa/obs=os irmaos da mesa sao os mesmos da mesa passada439: 440: amz$amz7
-440: eleitor$manuel soares coelho441: 442: eleitor$pedro barbosa443: 	ls$titulo/doutor444: 445: eleitor$joao da costa machado446: 	ls$titulo/reverendo447: 	ls$profissao/padre448: 	ls$ec/solteiro449: 450: eleitor$luis barbosa451: 452: eleitor$antonio jose coutinho453: 454: eleitor$jorge monteiro455: 456: eleitor$joao monteiro457: 458: eleitor$alberto ferreira veloso459: 460: eleitor$francisco vieira461: 462: eleitor$jose de barros463: 464: eleito$antonio jose pereira coutinho465: 	ls$cargo/provedor466: 467: eleito$pedro barbosa canais468: 	ls$titulo/doutor469: 	ls$cargo/escrivao470: 471: eleito$jorge monteiro472: 	ls$cargo/mordomo473: 474: fim$amz475: 
+Near lines: 436 Near line: 437 amz$amz7/02/07/1742/17v
+440: amz$amz7
+
 ERROR: eleicoes2.cli line 475 ** ID already used in this file: amz
-Near line: 475 Near line: 476 amz$amz8/02/07/1744/34
-476: amz$amz8/02/07/1744/34477: 	/resumo=termo de eleicao de irmaos da mesa478: 479: 480: amz$amz8
-480: eleitor$antonio jose pereira coutinho481: 482: eleitor$manuel soares coelho483: 484: eleitor$luis barbosa canais485: 486: eleitor$reverendo padre joao da costa machado487: 	ls$titulo/reverendo488: 	ls$profissao/padre489: 	ls$ec/solteiro490: 491: eleitor$tomas francisco492: 493: eleitor$ antonio rodrigues494: 	ls$profissao/barbeiro495: 496: eleitor$jorge monteiro497: 	498: eleitor$joao monteiro499: 500: eleitor$joao henriques501: 502: eleitor$alberto ferreira503: 504: eleito$ placido soares coelho505: 	ls$cargo/provedor506: 507: eleito$pedro barbosa canais/obs=deu escusa para nao servir508: 	ls$cargo/escrivao509: 510: eleito$francisco da silva/obs=em lugar de pedro barbosa canais511: 	ls$titulo/doutor512: 	ls$cargo/escrivao513: 514: eleito$jorge monteiro515: 	ls$cargo/mordomo516: 517: eleito$antonio ribeiro518: 	ls$cargo/irmao da mesa519: 520: eleito$jose de barros521: 	ls$cargo/irmao da mesa522: 523: eleito$jose antonio de oliveira524: 	ls$cargo/irmao da mesa525: 526: eleito$manuel tavares 527: 	ls$cargo/irmao da mesa528: 529: eleito$joao de andrade 530: 	ls$cargo/irmao da mesa531: 532: eleito$francisco gomes533: 	ls$cargo/irmao da mesa534: 	ls$profissao/ferreiro535: 536: eleito$francisco vieira537: 	ls$cargo/irmao da mesa538: 539: eleito$sebastiao martins540: 	ls$cargo/irmao da mesa541: 542: eleito$antonio rodrigues543: 	ls$cargo/irmao da mesa544: 	ls$profissao/barbeiro545: 546: eleito$luis da silva547: 	ls$cargo/irmao da mesa548: fim$amz549: 
+Near lines: 475 Near line: 476 amz$amz8/02/07/1744/34
+480: amz$amz8
+
 ERROR: eleicoes2.cli line 549 ** ID already used in this file: amz
-Near line: 549 Near line: 550 amz$amz9/07/07/1746/37
-550: amz$amz9/07/07/1746/37551: 	/resumo=termo de eleicao de irmaos da mesa552: 553: amz$amz9
-553: eleitor$ clemente martins554: 	ls$profissao/padre555: 	ls$ec/solteiro556: 557: eleitor$joao da costa machado558: 	ls$profissao/padre559: 	ls$ec/solteiro560: 561: eleitor$ agostinho aurelio matos562: 	ls$profissao/padre563: 	ls$ec/solteiro564: 565: eleitor$luis barbosa canais566: 567: eleitor$tomas francisco carvalhosa568: 569: eleitor$jorge monteiro570: 571: eleitor$antonio rodrigues572: 	ls$profissao/barbeiro573: 574: eleitor$luis alvares575: 576: eleitor$manuel alvares577: 578: eleitor$jose antonio579: 580: eleito$francisco da silva matoso581: 	ls$titulo/doutor582: 	ls$cargo/provedor583: 584: eleito$clemente martins585: 	ls$profissao/padre586: 	ls$ec/solteiro587: 	ls$cargo/escrivao588: 589: eleito$jose monteiro590: 	ls$cargo/escrivao591: 592: eleito$joao monteiro593: 	ls$cargo/irmao da mesa594: 595: eleito$jose da silva596: 	ls$cargo/irmao da mesa597: 598: eleito$antonio rodrigues599: 	ls$cargo/irmao da mesa600: 	ls$profissao/barbeiro601: 602: eleito$jose jorge/obs=riscado  em 12-10-1749 por faltar a sucessivos enterros603: 	ls$cargo/irmao da mesa604: 605: eleito$caetano rodrigues trovao/obs=para o lugar de jose jorge em 12-10-1749606: 	ls$cargo/irmao da mesa607: 	608: eleito$joao rodrigues alvaro609: 	ls$cargo/irmao da mesa610: 611: eleito$francisco dos reis612: 	ls$cargo/irmao da mesa613: 614: eleito$luis alvares615: 	ls$cargo/irmao da mesa616: 617: eleito$francisco gomes618: 	ls$cargo/irmao da mesa619: 	620: eleito$manuel tavares621: 	ls$cargo/irmao da mesa622: 623: eleito$mateus cordeiro624: 	ls$cargo/irmao da mesa625: 626: fim$amz627: 628: 
+Near lines: 549 Near line: 550 amz$amz9/07/07/1746/37
+553: amz$amz9
+
 ERROR: eleicoes2.cli line 628 ** ID already used in this file: amz
-Near line: 628 Near line: 629 amz$amz10/02/07/1750/45v
-629: amz$amz10/02/07/1750/45v630: 	/resumo=termo de eleicao de irmaos da mesa631: 632: amz$amz10
-632: eleitor$joao da costa machado633: 	ls$profissao/padre634: 635: eleitor$luis barbosa canais636: 	637: eleitor$agostinho aurelio de matos638: 	ls$profissao/padre639: 640: eleitor$tomas francisco carvalhosa641: 	ls$titulo/doutor642: 643: eleitor$bento vieira de carvalho644: 	ls$profissao/padre645: 646: eleitor$antonio rodrigues647: 	ls$profissao/barbeiro648: 649: eleitor$damiao gomes650: 651: eleitor$francisco gomes652: 653: eleitor$manuel tavares654: 655: eleitor$joao monteiro656:  657: eleito$pedro barbosa canais658: 	ls$cargo/provedor659: 	ls$titulo/doutor660: 661: eleito$antonio rodrigues662: 	ls$cargo/mordomo663: 	ls$profissao/barbeiro664: 665: eleito$tomas francisco carvalhosa666: 	ls$cargo/escrivao667: 	ls$titulo/doutor668: 669: 670: eleito$caetano rodrigues trovao671: 	ls$cargo/irmao da mesa672: 673: eleito$jose lopes674: 	ls$cargo/irmao da mesa675: 	676: eleito$jose jorge677: 	ls$cargo/irmao da mesa678: 679: eleito$damiao gomes 680: 	ls$cargo/irmao da mesa681: 682: eleito$antonio rodrigues683: 	ls$cargo/irmao da mesa684: 685: eleito$antonio ribeiro686: 	ls$cargo/irmao da mesa687: 688: eleito$joao rodrigues alvaro689: 	ls$cargo/irmao da mesa690: 691: eleito$mateus cordeiro692: 	ls$cargo/irmao da mesa693: 694: eleito$manuel da costa695: 	ls$cargo/irmao da mesa696: 	ls$profissao/sapateiro697: 698: eleito$antonio dos reis 699: 	ls$cargo/irmao da mesa700: 701: eleito$jose da silva	702: 	ls$cargo/irmao da mesa703: 704: fim$amz705: 706: 
+Near lines: 628 Near line: 629 amz$amz10/02/07/1750/45v
+632: amz$amz10
+
 ERROR: eleicoes2.cli line 706 ** ID already used in this file: amz
-Near line: 706 Near line: 707 amz$amz11/02/07/1752/52
-707: amz$amz11/02/07/1752/52708: 	/resumo=termo de eleicao de irmaos da mesa/obs=sao aclamados o provedor e709: 	escrivao do ano anterior710: 711: 712: 
-ERROR: eleicoes2.cli line 712 ** Failure: undefined element. 
-Near line: 712 Near line: 713 o mordomo foi eleito pelo provedor em 10/7/1752 antonio rodrigues
-713: o mordomo foi eleito pelo provedor em 10/7/1752 antonio rodrigues714: eleitores715: 
-ERROR: eleicoes2.cli line 715 ** Failure: undefined element. 
-Near line: 715 Near line: 716 eleitor$ francisco da silva matoso/obs=de maior condicao
+Near lines: 706 Near line: 707 amz$amz11/02/07/1752/52
+
+ERROR: eleicoes2.cli line 712 ** Failure: undefined element. 7
+
+Near lines: 712 Near line: 713 o mordomo foi eleito pelo provedor em 10/7/1752 antonio rodrigues
+
+ERROR: eleicoes2.cli line 715 ** Failure: undefined element. 1752 antonio rodrigueseleitores
+
+Near lines: 715 Near line: 716 eleitor$ francisco da silva matoso/obs=de maior condicao
 716: amz$amz11
-716: eleitor$ francisco da silva matoso/obs=de maior condicao717: 	ls$titulo/doutor718: 719: eleitor$ luis barbosa canais/obs=de maior condicao720: 721: eleitor$agostinho aurelio dos santos/obs=de maior condicao722: 	ls$titulo/reverendo723: 	ls$profissao/padre724: 	ls$ec/s725: 726: eleitor$ tomas francisco carvalhosa/obs=de maior condicao727: 728: eleitor$ francisco pereira coutinho de lacerda/obs=de maior condicao729: 730: 731: 732: eleitor$ antonio ribeiro/obs=de menor condicao733: 734: eleitor$ bento jose de carvalho/obs=de menor condicao735: 736: eleitor$ jose lopes/obs=de menor condicao737: 738: eleitor$ antonio ribeiro/obs=de menor condicao739: 740: eleitor$ damiao gomes/obs=de menor condicao741: 742: 743: eleito$ francisco pereira coutinho de lacerda/obs=recusa o cargo por todos os outros estarem impedidos744: 	ls$cargo/irmao de maior condicao745: 746: eleito$ luis barbosa canais747: 	ls$cargo/irmao de maior condicao748: 749: eleito$ agostinho aurelio de matos/obs=impedido750: 	ls$cargo/irmao de maior condicao751: 	ls$titulo/reverendo752: 	ls$profissao/padre753: 	ls$ec/solteiro754: 755: eleito$francisco da silva matoso/obs=estava doente756: 	ls$cargo/irmao de maior condicao757: 	ls$titulo/doutor758: 759: eleito$ placido soares coelho/obs=recusou tomar juramento/id=pscoelho760: 	ls$cargo/irmao de maior condicao761: 762: eleito$ antonio rodrigues763: 	ls$cargo/irmao de menor condicao764: 765: eleito$ joao monteiro766: 	ls$cargo/irmao de menor condicao767: 768: eleito$ francisco gomes ferreiro769: 	ls$cargo/irmao de menor condicao770: 771: eleito$ antonio ribeiro772: 	ls$cargo/irmao de menor condicao773: 774: eleito$ joao rodrigues alvaro775: 	ls$cargo/irmao de menor condicao776: 777: eleito$ damiao gomes778: 	ls$cargo/irmao de menor condicao779: 780: eleito$francisco dos reis/obs=para o lugar dos irmaos escusos781: 	ls$cargo/irmao da mesa782: 783: eleito$manuel rodrigues duqueso/obs=para o lugar dos irmaos escusos784: 	ls$cargo/irmao da mesa785: 786: eleito$jose  lopes/obs=para o lugar dos irmaos escusos787: 	ls$cargo/irmao da mesa788: 789: fim$amz790: 791: 
+
 ERROR: eleicoes2.cli line 791 ** ID already used in this file: amz
-Near line: 791 Near line: 792 amz$amz12/02/07/1753/58
-792: amz$amz12/02/07/1753/58793: 	/resumo=termo de eleicao de irmaos da mesa794: 795: 796: amz$amz12
-796: eleitor$francisco da silva matoso797: 	ls$titulo/doutor798: 799: eleitor$clemente martins800: 	ls$profissao/padre801: 	ls$ec/solteiro802: 803: eleitor$antonio martins804: 	ls$titulo/reverendo805: 	ls$cargo/vigario806: 	ls$titulo/frei807: 	ls$profissao/padre808: 	ls$ec/solteiro809: 810: eleitor$ agostinho aurelio de matos811: 	ls$titulo/reverendo812: 	ls$titulo/frei813: 	ls$profissao/padre814: 	ls$ec/solteiro815: 816: 	817: eleitor$francisco pereira coutinho818: 819: eleitor$antonio rodrigues 820: 	ls$profissao/barbeiro821: 822: eleitor$jorge monteiro823: 824: eleitor$joao rodrigues alvaro825: 826: eleitor$francisco gomes827: 828: eleitor$jose lopes829: 830: 831: eleito$rodrigo homem de quadros832: 	ls$cargo/provedor833: 834: eleito$agostinho aurelio de matos835: 	ls$cargo/escrivao836: 	ls$titulo/reverendo837: 	ls$profissao/padre838: 	ls$ec/solteiro839: 840: eleito$jose lopes841: 	ls$cargo/irmao da mesa842: 843: eleito$jorge monteiro844: 	ls$cargo/irmao da mesa845: 846: eleito$jose jorge847: 	ls$cargo/irmao da mesa848: 849: eleito$francisco vieira850: 	ls$cargo/irmao da mesa851: 852: eleito$francisco dos reis853: 	ls$cargo/irmao da mesa854: 855: eleito$antonio rodrigues856: 	ls$cargo/irmao da mesa857: 	ls$profissao/barbeiro858: 859: eleito$joao monteiro860: 	ls$cargo/irmao da mesa861: 862: eleito$joao rodrigues alvaro863: 	ls$cargo/irmao da mesa864: 865: eleito$manuel da costa866: 	ls$cargo/irmao da mesa867: 868: eleito$jose da silva felicito869: 	ls$cargo/irmao da mesa870: 871: eleito$manuel rodrigues duqueso872: 	ls$cargo/irmao da mesa873: 874: 875: fim$amz876: 877: 
+Near lines: 791 Near line: 792 amz$amz12/02/07/1753/58
+796: amz$amz12
+
 ERROR: eleicoes2.cli line 877 ** ID already used in this file: amz
-Near line: 877 Near line: 878 amz$amz13/14/07/1754/60v
-878: amz$amz13/14/07/1754/60v879: 	/resumo=termo de eleicao de irmaos da mesa880: 881: 882: amz$amz13
-882: eleitor$luis barbosa canais883: 884: eleitor$francisco da silva matoso885: 886: eleitor$tomas francisco carvalho887: 888: eleitor$pedro barbosa canais889: 	ls$titulo/reverendo890: eleitor$agostinho aurelio de matos891: 	ls$titulo/frei892: 893: eleitor$antonio ribeiro894: 895: eleitor$francisco dos reis896: 897: eleitor$joao monteiro898: 899: eleitor$francisco vieira900: 901: eleitor$joao rodrigues alvaro902: 903: eleito$ agostinho aurelio de matos904: 	ls$cargo/provedor905: 	ls$titulo/reverendo906: 907: eleito$gabriel colaco908: 	ls$cargo/escrivao909: 	ls$profissao/padre910: 	ls/ec/solteiro911: 
-ERROR: eleicoes2.cli line 911 ** Failure: undefined element. 
-Near line: 911 Near line: 912 eleito$manuel tavares/obs=nomeado pelo provedor
-912: eleito$manuel tavares/obs=nomeado pelo provedor913: 	ls$cargo/mordomo914: 915: eleito$antonio rodrigues916: 	ls$cargo/irmao da mesa917: 918: eleito$manuel tavares919: 	ls$cargo/irmao da mesa920: 921: eleito$francisco vieira922: 	ls$cargo/irmao da mesa923: 924: eleito$jose lopes925: 	ls$cargo/irmao da mesa926: 927: eleito$joao monteiro928: 	ls$cargo/irmao da mesa929: 930: eleito$manuel da costa931: 	ls$cargo/irmao da mesa932: 933: eleito$antonio ribeiro934: 	ls$cargo/irmao da mesa935: 936: eleito$manuel rodrigues duqueso937: 	ls$cargo/irmao da mesa938: 939: eleito$jose rodrigues940: 	ls$cargo/irmao da mesa941: 942: eleito$joao rodrigues alvaro943: 	ls$cargo/irmao da mesa944: 945: eleito$jose jorge946: 	ls$cargo/irmao da mesa947: 948: fim$amz949: 950: 
+Near lines: 877 Near line: 878 amz$amz13/14/07/1754/60v
+882: amz$amz13
+
+ERROR: eleicoes2.cli line 911 ** Failure: undefined element. solteiro
+
+Near lines: 911 Near line: 912 eleito$manuel tavares/obs=nomeado pelo provedor
+
 ERROR: eleicoes2.cli line 950 ** ID already used in this file: amz
-Near line: 950 Near line: 951 amz$amz14/12/07/1756/63v
-951: amz$amz14/12/07/1756/63v952: 	/resumo=termo de eleicao de irmaos da mesa953: 954: amz$amz14
-954: eleitor$agostinho aurelio de matos955: 	ls$titulo/frei956: 	ls$profissao/padre957: 	ls/ec/solteiro958: 
-ERROR: eleicoes2.cli line 958 ** Failure: undefined element. 
-Near line: 958 Near line: 959 eleitor$pedro barbosa canais
-959: eleitor$pedro barbosa canais960: 	ls$profissao/padre961: 	ls/ec/solteiro962: 
-ERROR: eleicoes2.cli line 962 ** Failure: undefined element. 
-Near line: 962 Near line: 963 eleitor$ francisco da silva matoso
-963: eleitor$ francisco da silva matoso964: 	ls$titulo/doutor965: 966: eleitor$tomas francisco carvalhosa967: 	ls$titulo/doutor968: 969: eleitor$ antonio vieira guimaraes970: 	ls$titulo/doutor971: 972: eleitor$caetano  rodrigues trovao973: 974: eleitor$jose lopes machado975: 976: eleitor$joao rodrigues alvares977: 978: eleitor$manuel tavares979: 980: eleitor$joao monteiro981: 982: 983: eleito$pedro barbosa canais/obs=pede escusa por ja ter desempenhado  o cargo e por ser capelao984: 	ls$titulo/doutor985: 	ls$cargo/provedor986: 987: eleito$antonio viera guimaraes988: 	ls$titulo/doutor989: 	ls$cargo/escrivao990: 991: eleito$antonio tavares992: 	ls$cargo/mordomo993: 994: eleito$joao rodrigues alvaro995: 	ls$cargo/irmao da mesa996: 997: eleito$antonio ribeiro998: 	ls$cargo/irmao da mesa999: 	1000: eleito$jose lopes machado1001: 	ls$cargo/irmao da mesa1002: 1003: eleito$caetano  rodrigues trovao1004: 	ls$cargo/irmao da mesa1005: 1006: eleito$francisco gomes1007: 	ls$cargo/irmao da mesa1008: 	ls$profissao/ferreiro1009: 1010: eleito$joao monteiro1011: 	ls$cargo/irmao da mesa1012: 1013: eleito$manuel da costa1014: 	ls$cargo/irmao da mesa1015: 1016: eleito$jose  rodrigues luzio1017: 	ls$cargo/irmao da mesa1018: 1019: eleito$manuel tavares1020: 	ls$cargo/irmao da mesa1021: 1022: eleito$jose da silva felicito1023: 	ls$cargo/irmao da mesa1024: 1025: eleito$bento jose1026: 	ls$cargo/irmao da mesa1027: 1028: fim$amz1029: 1030: 
+Near lines: 950 Near line: 951 amz$amz14/12/07/1756/63v
+954: amz$amz14
+
+ERROR: eleicoes2.cli line 958 ** Failure: undefined element. solteiro
+
+Near lines: 958 Near line: 959 eleitor$pedro barbosa canais
+
+ERROR: eleicoes2.cli line 962 ** Failure: undefined element. solteiro
+
+Near lines: 962 Near line: 963 eleitor$ francisco da silva matoso
+
 ERROR: eleicoes2.cli line 1030 ** ID already used in this file: amz
-Near line: 1030 Near line: 1031 amz$amz15/02/07/1757/67v
-1031: amz$amz15/02/07/1757/67v1032: 	/resumo=termo de eleicao de irmaos da mesa1033: 1034: amz$amz15
-1034: eleitor$francisco da silva matoso1035: 	ls$titulo/doutor1036: 1037: eleitor$tomas francisco carvalhosa1038: 	ls$titulo/doutor1039: 1040: eleitor$antonio vieira guimaraes1041: 	ls$titulo/doutor1042: 1043: eleitor$agostinho aurelio de matos1044: 	ls$titulo/reverendo1045: 	ls$titulo/frei1046: 	ls$profissao/padre1047: 	ls$ec/solteiro1048: 1049: eleitor$jose mendes/obs=nao se achou em casa1050: 	ls$profissao/padre1051: 	ls$ec/solteiro1052: 1053: eleitor$luis carvalho/obs=em lugar de jose mendes1054: 	ls$profissao/padre1055: 	ls$ec/solteiro1056: 1057: eleitor$caetano  rodrigues trovao1058: 1059: eleitor$joao rodrigues alvaro1060: 1061: eleitor$antonio ribeiro1062: 1063: eleitor$jose jorge1064: 1065: eleitor$mateus cordeiro1066: 1067: eleito$antonio jose pereira coutinho1068: 	ls$cargo/provedor1069: 1070: eleito$francisco da silva1071: 	ls$cargo/escrivao1072: 	ls$titulo/doutor1073: 1074: eleito$manuel tavares1075: 	ls$cargo/irmao da mesa1076: 1077: eleito$antonio ribeiro1078: 	ls$cargo/irmao da mesa1079: 1080: eleito$jose jorge1081: 	ls$cargo/irmao da mesa1082: 1083: eleito$jose da silva1084: 	ls$cargo/irmao da mesa1085: 1086: eleito$manuel rodrigues duqueso1087: 	ls$cargo/irmao da mesa1088: 1089: eleito$joao rodrigues alvaro1090: 	ls$cargo/irmao da mesa1091: 1092: eleito$jose lopes1093: 	ls$cargo/irmao da mesa1094: 1095: eleito$joao monteiro1096: 	ls$cargo/irmao da mesa1097: 1098: eleito$francisco gomes1099: 	ls$cargo/irmao da mesa1100: 1101: eleito$manuel da costa1102: 	ls$cargo/irmao da mesa1103: 1104: 1105: fim$amz1106: 1107: 
+Near lines: 1030 Near line: 1031 amz$amz15/02/07/1757/67v
+1034: amz$amz15
+
 ERROR: eleicoes2.cli line 1107 ** ID already used in this file: amz
-Near line: 1107 Near line: 1108 amz$amz16/02/07/1759/71
-1108: amz$amz16/02/07/1759/711109: 	/resumo=termo de eleicao de irmaos da mesa auto de eleicao1110: 1111: amz$amz16
-1111: eleitor$tomas francisco carvalhosa1112: 	ls$titulo/doutor1113: 1114: eleitor$antonio vieira guimaraes1115: 1116: eleitor$agostinho aurelio1117: 	ls$titulo/frei1118: 	ls$profissao/padre1119: 	ls$ec/solteiro1120: 1121: eleitor$jacinto da costa vasconcelos1122: 1123: eleitor$antonio martins da costa1124: 1125: eleitor$joao rodrigues alvaro1126: 1127: eleitor$joao monteiro1128: 1129: eleitor$jose mendes1130: 1131: eleitor$francisco manuel tavares1132: 1133: eleitor$jose lopes1134: 1135: eleito$antonio jose pereira coutinho1136: 	ls$cargo/provedor1137: 1138: eleito$francisco da silva matoso1139: 	ls$cargo/escrivao1140: 1141: eleito$joao rodrigues alvaro1142: 	ls$cargo/irmao da mesa1143: 1144: eleito$joao monteiro1145: 	ls$cargo/irmao da mesa1146: 1147: eleito$antonio ribeiro1148: 	ls$cargo/irmao da mesa1149: 1150: eleito$jose lopes1151: 	ls$cargo/irmao da mesa1152: 1153: eleito$jose jorge1154: 	ls$cargo/irmao da mesa1155: 1156: eleito$jose mendes francisco1157: 	ls$cargo/irmao da mesa1158: 1159: eleito$jose da silva felicito/obs=morto em 6-6-17601160: 	ls$cargo/irmao da mesa1161: 1162: eleito$jose mendes vicente/a 6-6-1670 em lugar de jose da silva felicito
+Near lines: 1107 Near line: 1108 amz$amz16/02/07/1759/71
+1111: amz$amz16
+
 WARNING: eleicoes2.cli line 1162 Element value exceeds database field length: sexo=a 6-6-1670 em lugar de jose da silva felicito. Size:45 limit: 1
-Near line: 1162 eleito$jose mendes vicente/a 6-6-1670 em lugar de jose da silva felicitoNear line: 1163 	ls$cargo/irmao da mesa
-1163: 	ls$cargo/irmao da mesa1164: 1165: eleito$manuel tavares1166: 	ls$cargo/irmao da mesa1167: 1168: eleito$damiao gomes1169: 	ls$cargo/irmao da mesa1170: 1171: eleito$fernando de brito1172: 	ls$cargo/irmao da mesa1173: 1174: eleito$manuel rodrigues duqueso1175: 	ls$cargo/irmao da mesa1176: 1177: fim$amz1178: 1179: 
+Near lines: 1162 eleito$jose mendes vicente/a 6-6-1670 em lugar de jose da silva felicitoNear line: 1163 	ls$cargo/irmao da mesa
+
 ERROR: eleicoes2.cli line 1179 ** ID already used in this file: amz
-Near line: 1179 Near line: 1180 amz$amz17/04/07/1767/??/obs=livro rasgado entre o fl.70 e o 137
-1180: amz$amz17/04/07/1767/??/obs=livro rasgado entre o fl.70 e o 1371181: 	/resumo=termo de eleicao incompleta de irmaos da mesa auto de eleicao1182: 1183: amz$amz17
-1183: eleitor$manuel homem de quadros1184: 1185: eleitor$pedro fabiao de qudros1186: 1187: eleitor$antonio jose pereira coutinho1188: 1189: eleitor$doutor jose soeiro de gouveia1190: 1191: eleitor$tomas francisco carvalhosa1192: 1193: eleitor$jose vicente mendes1194: 1195: eleitor$jose mendes1196: 1197: eleitor$joao monteiro1198: 1199: eleitor$jose lopes1200: 1201: eleitor$joao monteiro1202: 1203: 1204: fim$amz1205: 1206: 
+Near lines: 1179 Near line: 1180 amz$amz17/04/07/1767/??/obs=livro rasgado entre o fl.70 e o 137
+1183: amz$amz17
+
 ERROR: eleicoes2.cli line 1206 ** ID already used in this file: amz
-Near line: 1206 Near line: 1207 amz$amz18/02/07/1781/00
-1207: amz$amz18/02/07/1781/001208: 	/resumo=termo de eleicao de provedor e escrivao1209: 1210: amz$amz18
-1210: eleito$joao da costa cabral e vasconcelos/obs=eleito por aclamacao1211: 	ls$cargo/provedor1212: 1213: eleito$jose de azevedo feio/obs=eleito por aclamacao1214: 	ls$cargo/escrivao1215: 1216: fim$amz1217: 1218: 
+Near lines: 1206 Near line: 1207 amz$amz18/02/07/1781/00
+1210: amz$amz18
+
 ERROR: eleicoes2.cli line 1218 ** ID already used in this file: amz
-Near line: 1218 Near line: 1219 amz$amz19/02/07/1783/143v
-1219: amz$amz19/02/07/1783/143v1220: 	/resumo=termo de eleicao de provedor e escrivao1221: 1222: amz$amz19
-1222: eleitor$pedro barbosa canais1223: 	ls$titulo/doutor1224: 1225: eleitor$joaquim jose de andrade1226: 	ls$titulo/doutor1227: 1228: eleitor$antonio carvalhosa de oliveira1229: 	ls$titulo/doutor1230: 1231: eleitor$jose da silva machado1232: 	ls$titulo/doutor1233: 1234: eleitor$joao da costa cabral e vasconcelos1235: 1236: eleitor$manuel tavares1237: 1238: eleitor$jose joaquim dos santos1239: 1240: eleitor$francisco gomes dos santos1241: 1242: eleitor$domingos da costa1243: 1244: eleitor$manuel jose  dias1245: 1246: eleito$ nuno pereira coutinho1247: 	ls$cargo/provedor1248: 1249: eleito$joao da costa cabral e vasconcelos1250: 	ls$cargo/escrivao1251: 1252: eleito$antonio carvalhosa de oliveira1253: 	ls$titulo/doutor1254: 	ls$cargo/irmao de maior condicao1255: 1256: eleito$valerio jose de azevedo feio1257: 	ls$cargo/irmao de maior condicao1258: 1259: eleito$francisco gomes dos santos1260: 	ls$cargo/irmao de menor condicao1261: 1262: eleito$domingos da costa1263: 	ls$cargo/irmao de menor condicao1264: 1265: eleito$joao rodrigues navarro1266: 	ls$cargo/irmao de menor condicao1267: 1268: eleito$caetano jose monteiro1269: 	ls$cargo/irmao de menor condicao1270: 1271: eleito$jose rodrigues centeio1272: 	ls$cargo/irmao de menor condicao1273: 1274: eleito$fernando de brito1275: 	ls$cargo/irmao de menor condicao1276: 1277: eleito$jose joaquim dos santos1278: 	ls$cargo/irmao de menor condicao1279: 1280: eleito$manuel jose  dias1281: 	ls$cargo/irmao de menor condicao1282: 1283: eleito$joao rodrigues rosa1284: 	ls$cargo/irmao de menor condicao1285: 1286: fim$amz1287: 
+Near lines: 1218 Near line: 1219 amz$amz19/02/07/1783/143v
+1222: amz$amz19
+
 ERROR: eleicoes2.cli line 1287 ** ID already used in this file: amz
-Near line: 1287 Near line: 1288 amz$amz20/02/07/1786/159
-1288: amz$amz20/02/07/1786/1591289: 	/resumo=termo de eleicao de provedor e escrivao1290: 1291: 1292: amz$amz20
-1292: eleitor$jose da silva rosado1293: 	ls$titulo/doutor1294: 1295: eleitor$jose soeiro de gouveia1296: 	ls$titulo/doutor1297: 1298: eleitor$jose manuel de ????   ????1299: 	ls$titulo/doutor1300: 1301: eleitor$antonio carvalhosa de oliveira1302: 	ls$titulo/doutor1303: 1304: eleitor$pedro mauricio de sa mesquita1305: 1306: eleitor$jose joaquim dos santos1307: 1308: eleitor$jose rodrigues centeio1309: 1310: eleitor$joao gomes dos santos1311: 1312: eleitor$joao rosa1313: 1314: eleitor$manuel jose dias1315: 1316: eleito$joao da costa cabral e vasconcelos1317: 	ls$cargo/provedor1318: 1319: eleito$valerio jose de temudo feio1320: 	ls$cargo/capitao1321: 	ls$cargo/escrivao1322: 1323: fim$amz1324: 
+Near lines: 1287 Near line: 1288 amz$amz20/02/07/1786/159
+1292: amz$amz20
+
 ERROR: eleicoes2.cli line 1324 ** ID already used in this file: amz
-Near line: 1324 Near line: 1325 amz$amz21/02/07/1786/169???
-1325: amz$amz21/02/07/1786/169???1326: 	/resumo=termo de eleicao  de irmaos da mesa/obs=valida para os tres anos seguintes1327: 1328: amz$amz21
-1328: eleitor$jose de sa rosado1329: 	ls$titulo/doutor1330: 1331: eleitor$joao da costa cabral e vasconcelos1332: 1333: eleitor$valerio jose de azevedo feio1334: 1335: eleitor$jose antonio teles de almeida1336: 	ls$titulo/frei1337: 1338: eleitor$jose soeiro de gouveia1339: 	ls$titulo/doutor1340: 1341: eleitor$joao jacques barbosa1342: 1343: eleitor$jose caetano monteiro1344: 	ls$profissao/padre1345: 	ls$ec/solteiro1346: 1347: eleito$joao da costa cabral e vasconcelos1348: 	ls$cargo/provedor1349: 1350: eleito$valerio jose de azevedo freire1351: 	ls$cargo/escrivao1352: 1353: eleito$jose antonio teles de almeida1354: 	ls$cargo/irmao da mesa1355: 1356: eleito$jose caetano monteiro da silva1357: 	ls$profissao/padre1358: 	ls$ec/solteiro1359: 1360: eleito$joao jacques barbosa canais1361: 1362: eleito$antonio carvalhosa de oliveira1363: 1364: eleito$jose soeiro de gouveia1365: 1366: eleito$manuel  ???? elias1367: 1368: eleito$jose da silva rosado de  ???1369: 1370: eleito$jose soeiro de gouveia1371: 1372: eleito$manuel antonio da silva1373: 1374: eleito$antonio mendes1375: 1376: eleito$jose rodrigues centeio1377: 1378: eleito$jose joaquim dos santos1379: 1380: amz$amz22/02/04/1786/179????1381: 	/resumo=termo de eleicao  de irmaos da mesa1382: 1383: amz$amz22
-1383: eleitor$jose manuel de santa ana freire1384: 	ls$titulo/doutor1385: 1386: eleitor$joaquim valerio de azevedo	1387: 	ls$titulo/doutor1388: 1389: eleitor$pedro mauricio matoso1390: 1391: eleitor$joaquim jose de andrade	1392: 	ls$titulo/doutor1393: 1394: eleitor$ jose joaquim de morais		1395: 	ls$titulo/doutor1396: 1397: eleitor$ jose joaquim da costa1398: 1399: eleitor$agostinho de barros1400: 1401: eleitor$jorge pereira1402: 1403: eleitor$jose esteves1404: 1405: eleitor$antonio mendes1406: 1407: 1408: amz$amz23/02/07/1794/1821409: 	/resumo=termo de eleicao  de irmaos da mesa1410: 1411: 1412: 1413: amz$amz23
-1413: eleitor$antonio carvalho de oliveira1414: 	ls$titulo/reverendo1415: 	ls$cargo/vigario1416: 	ls$titulo/doutor1417: 1418: eleitor$joao jacques1419: 1420: eleitor$jose da silva rosado1421: 1422: eleitor$jose manuel de santa ana1423: 1424: eleitor$jose caetano1425: 1426: eleitor$joaquim valerio1427: 1428: eleitor$jose joaquim da costa1429: 1430: eleitor$jorge pereira1431: 1432: eleitor$jose joaquim das santas1433: 1434: eleitor$jose  rodrigues centeio1435: 1436: eleitor$francisco gomes dos santos1437: 1438: eleito$joao da costa cabral de vasconcelos1439: 	ls$cargo/provedor1440: 1441: eleito$joaquim jose de andrade1442: 	ls$cargo/escrivao1443: 1444: eleito$jose joaquim de morais1445: 	ls$cargo/irmao da mesa1446: 1447: eleito$joaquim valerio1448: 	ls$cargo/irmao da mesa1449: 1450: eleito$joao jacques barbosa1451: 	ls$cargo/irmao da mesa1452: 1453: eleito$antonio carvalho de oliveira1454: 	ls$cargo/irmao da mesa1455: 1456: eleito$agostinho de barros1457: 	ls$cargo/irmao da mesa1458: 1459: eleito$pedro rodrigues ascencio1460: 	ls$cargo/irmao da mesa1461: 1462: eleito$jose esteves1463: 	ls$cargo/irmao da mesa1464: 1465: eleito$jose da costa1466: 	ls$cargo/irmao da mesa1467: 1468: eleito$francisco gomes dos santos1469: 	ls$cargo/irmao da mesa1470: 1471: eleito$jose joaquim dos santos1472: 	ls$cargo/irmao da mesa1473: 1474: eleito$jorge pereira1475: 	ls$cargo/irmao da mesa1476: 1477: eleito$jose dias1478: 	ls$cargo/irmao da mesa1479: 1480: amz$amz24/02/07/1797/191v1481: 	/resumo=termo de eleicao  de irmaos da mesa/obs=aclamados o provedor e irmaos da mesa anterior1482: 1483: amz$amz24
-1483: amz$amz25/02/07/1801/1981484: 	/resumo=termo de eleicao  de irmaos da mesa/obs=aclamados o provedor e irmaos 1485: da mesa1486: 1487: amz$amz25
-1487: eleito$ jose caetano monteiro da silva1488: 	ls$cargo/escrivao/obs=eleicao por aclamacao1489: 	ls$profissao/padre1490: 	ls$ec/solteiro1491: 1492: eleito$manuel goncalves ribeiro1493: 	ls$cargo/mordomo/obs=nao aceita o cargo1494: 1495: eleito$ jose joaquim dos santos1496: 	ls$cargo/mordomo/obs=em lugar de manuel goncalves ribeiro que nao 1497: 	aceita o cargo1498: 1499: amz$amz26/02/07/1805/2051500: 	/resumo=termo de eleicao  de irmaos da mesa1501: 1502: amz$amz26
-1502: eleitor$jose pereira da costa1503: 1504: eleitor$manuel jose colaco1505: 1506: eleitor$ antonio jose vieira guimaraes1507: 	ls$titulo/reverendo1508: 	ls$titulo/doutor1509: 1510: eleitor$jose antonio teles de ascencao1511: 	ls$titulo/reverendo1512: 	ls$cargo/vigario1513: 	ls$itulo/frei1514: 1515: eleitor$luis jose de sousa pimentel1516: 	ls$titulo/reverendo1517: 	ls$titulo/frei1518: 1519: eleitor$pedro mauricio matoso1520: 1521: eleitor$ascencio fernandes de macedo1522: 1523: eleitor$manuel goncalves vargas1524: 1525: eleitor$manuel soares castela1526: 1527: eleitor$jose joaquim dos santos1528: 1529: eleitor$francisco jose ribeiro1530: 1531: eleitor$agostinho jose de barros1532: 1533: eleitor$sebastiao nunes da costa1534: 1535: eleitor$sebastiao da silva1536: 1537: eleitor$manuel goncalves ribeiro1538: 1539: eleitor$manuel antonio1540: 1541: eleito$jacinto da costa de vasconcelos1542: 	ls$cargo/provedor1543: 1544: eleito$joaquim jose da silveira1545: 	ls$titulo/escrivao1546: 1547: eleito$pedro mauricio matoso1548: 	ls$cargo/irmao de maior condicao1549: 1550: eleito$jose pereira da costa1551: 	ls$cargo/irmao de maior condicao1552: 1553: eleito$manuel goncalves vargas1554: 	ls$cargo/irmao de maior condicao1555: 1556: eleito$antonio soares1557: 	ls$cargo/irmao de maior condicao1558: 1559: eleito$jose joaquim de morais1560: 	ls$cargo/irmao de maior condicao1561: 	ls$titulo/doutor1562: 1563: eleito$manuel joaquim de carvalho1564: 	ls$cargo/irmao de menor condicao1565: 1566: eleito$manuel soares castela1567: 	ls$cargo/irmao de menor condicao1568: 1569: eleito$sebastiao nunes da costa1570: 	ls$cargo/irmao de menor condicao1571: 1572: eleito$pedro de andrade1573: 	ls$cargo/irmao de menor condicao1574: eleito$agostinho de barros1575: 	ls$cargo/irmao de menor condicao1576: 1577: alteracao na paginacao1578: 1579: 1580: amz$amz27/23/02/1806/211v/obs=alteracao na paginacao1581: 	/resumo= eleicao de provedor agente1582: 1583: amz$amz27
-1583: eleito$jorge pereira fagundes1584: 	ls$cargo/provedor1585: 1586: 1587: amz$amz28/02/07/1807/2151588: 	/resumo=termo de eleicao de irmaos da mesa1589: 1590: 1591: amz$amz28
-1591: eleitor$manuel jose colaco1592: 1593: eleitor$luis jose de sousa1594: 1595: eleitor$antonio soares1596: 1597: eleitor$jose joaquim soares1598: 1599: eleitor$jose pereira da costa1600: 1601: eleitor$jose pereira fagundes1602: 1603: eleitor$constantino januario de carvalho1604: 1605: eleitor$jose joaquim da costa1606: 1607: eleitor$jose joaquim de morais1608: 1609: eleitor$joaquim inacio de andrade1610: 1611: eleitor$sebastiao nunes1612: 1613: eleitor$manuel joaquim de carvalho1614: 1615: eleitor$antonio rodrigues de noronha1616: 1617: eleitor$sebastiao da silva1618: 1619: eleitor$joao antonio1620: 1621: eleitor$pedro de andrade1622: 1623: eleitor$manuel jose dias1624: 1625: eleito$jacinto da costa e vasconcelos1626: 	ls$cargo/provedor1627: 1628: eleito$jose de sousa homem1629: 	ls$cargo/escrivao1630: 1631: 1632: eleito$jose joaquim soares1633: 	ls$cargo/irmao da mesa1634: 1635: eleito$luis jose de sousa1636: 	ls$cargo/irmao da mesa1637: 	ls$titulo/frei1638: 1639: eleito$jose pereira da costa1640: 	ls$cargo/irmao da mesa1641: 1642: eleito$jose joaquim de morais1643: 	ls$cargo/irmao da mesa1644: 	ls$titulo/doutor1645: 1646: eleito$antonio soares coelho1647: 	ls$cargo/irmao da mesa1648: 1649: eleito$joao antonio de azevedo1650: 	ls$cargo/irmao da mesa1651: 1652: eleito$manuel joaquim de carvalho1653: 	ls$cargo/irmao da mesa1654: 1655: eleito$joaquim inacio de andrade1656: 	ls$cargo/irmao da mesa1657: 1658: eleito$sebastiao da silva1659: 	ls$cargo/irmao da mesa1660: 1661: eleito$antonio rodrigues noronha1662: 	ls$cargo/irmao da mesa1663: 1664: amz$amz28/02/07/1807/2151665: 	/resumo=termo de eleicao de irmaos da mesa1666: 1667: 1668: 
-ERROR: eleicoes2.cli line 1668 ** Failure: undefined element. 
-Near line: 1668 Near line: 1669 auto de eleicao  de novo provedor por escusa do eleito para esse anofl.217 6/9/1805
-1669: auto de eleicao  de novo provedor por escusa do eleito para esse anofl.217 6/9/18051670: 1671: eleitores1672: +1673: reverendo vigario frei jose antonio teles de ascencao1674: frei luis jose de sousa pimentel1675: manuel goncalves vargas1676: doutor jose joaquim de morais1677: reverendo doutor jose caetano monteiro da silva1678: -1679: agostinho de barros1680: manuel joaquim de carvalho	 1681: sebastiao nunes da costa1682: jose joaquim dos santos1683: domingos da costa1684: 1685: provedor -jose de sousa homem1686: 1687: 
-ERROR: eleicoes2.cli line 1687 ** Failure: undefined element. 
-Near line: 1687 Near line: 1688 auto de eleicao fl.224  2/7/1812
+Near lines: 1324 Near line: 1325 amz$amz21/02/07/1786/169???
+1328: amz$amz21
+1383: amz$amz22
+1413: amz$amz23
+1483: amz$amz24
+1487: amz$amz25
+1502: amz$amz26
+1583: amz$amz27
+1591: amz$amz28
 
-ERROR: eleicoes2.cli line 1687 ** Failure: undefined element. 
-Near line: 1687 Near line: 1688 auto de eleicao fl.224  2/7/1812
-1688: auto de eleicao fl.224  2/7/18121689: 1690: aclamacao do provedor, escrivao e irmaos da mesa1691: 1692: 
-ERROR: eleicoes2.cli line 1692 ** Failure: undefined element. 
-Near line: 1692 Near line: 1693 nomeacao de mordomo fl.232v  30/5/1814
+ERROR: eleicoes2.cli line 1668 ** Failure: undefined element. 9
 
-ERROR: eleicoes2.cli line 1692 ** Failure: undefined element. 
-Near line: 1692 Near line: 1693 nomeacao de mordomo fl.232v  30/5/1814
-1693: nomeacao de mordomo fl.232v  30/5/18141694: mordomo-jose pereira da costa1695: 
-ERROR: eleicoes2.cli line 1695 ** Failure: undefined element. 
-Near line: 1695 Near line: 1696 auto de eleicao fl.245  2/7/1822
+Near lines: 1668 Near line: 1669 auto de eleicao  de novo provedor por escusa do eleito para esse anofl.217 6/9/1805
 
-ERROR: eleicoes2.cli line 1695 ** Failure: undefined element. 
-Near line: 1695 Near line: 1696 auto de eleicao fl.245  2/7/1822
-1696: auto de eleicao fl.245  2/7/18221697: 1698: eleitores1699: 1700: 1701: 1702: 
-ERROR: eleicoes2.cli line 1701 ** Failure: undefined element. 
-Near line: 1701 Near line: 1702 
+ERROR: eleicoes2.cli line 1687 ** Failure: undefined element. 1805eleitores+reverendo vigario frei jose antonio teles de ascencaofrei luis jose de sousa pimentelmanuel goncalves vargasdoutor jose joaquim de moraisreverendo doutor jose caetano monteiro da silva-agostinho de barrosmanuel joaquim de carvalho sebastiao nunes da costajose joaquim dos santosdomingos da costaprovedor -jose de sousa homemauto de eleicao fl.224 2
+
+Near lines: 1687 Near line: 1688 auto de eleicao fl.224  2/7/1812
+
+ERROR: eleicoes2.cli line 1687 ** Failure: undefined element. 7
+
+Near lines: 1687 Near line: 1688 auto de eleicao fl.224  2/7/1812
+
+ERROR: eleicoes2.cli line 1692 ** Failure: undefined element. 1812aclamacao do provedor, escrivao e irmaos da mesanomeacao de mordomo fl.232v 30
+
+Near lines: 1692 Near line: 1693 nomeacao de mordomo fl.232v  30/5/1814
+
+ERROR: eleicoes2.cli line 1692 ** Failure: undefined element. 5
+
+Near lines: 1692 Near line: 1693 nomeacao de mordomo fl.232v  30/5/1814
+
+ERROR: eleicoes2.cli line 1695 ** Failure: undefined element. 1814mordomo-jose pereira da costaauto de eleicao fl.245 2
+
+Near lines: 1695 Near line: 1696 auto de eleicao fl.245  2/7/1822
+
+ERROR: eleicoes2.cli line 1695 ** Failure: undefined element. 7
+
+Near lines: 1695 Near line: 1696 auto de eleicao fl.245  2/7/1822
+
+ERROR: eleicoes2.cli line 1701 ** Failure: undefined element. 1822eleitores
+
+Near lines: 1701 Near line: 1702 
 
 ERROR: eleicoes2.cli line 1701 ** ID already used in this file: amz28
-Near line: 1701 Near line: 1702 
+Near lines: 1701 Near line: 1702 
 1702: amz$amz28
 *** End of File
 33  errors. 
