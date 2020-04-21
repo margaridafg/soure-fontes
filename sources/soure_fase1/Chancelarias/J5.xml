@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/Users/jrc/develop/apache-tomcat-7.0.67/webapps/mhk/WEB-INF/clio/src/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/Chancelarias/J5.cli" TRANSLATOR="gactoxml2.str" WHEN="2019-6-17 8:48:14" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/chancelarias/J5.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-4-9 16:48:49" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -26,7 +26,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure/soure-sources/sources/soure_fase1/Chancelarias/J5.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/chancelarias/J5.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="chanc">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -67,8 +67,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="cj5-1-per1" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="12">
-    <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
+<GROUP ID="cj5-1-per1" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="8">
+    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>cj5-1-per1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>cj5-1</core></ELEMENT>
@@ -79,8 +79,6 @@
          <core><![CDATA[diogo de abreu castelo branco]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[cj5-1-per1]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="relation" SUPER="entity" TABLE="relations" GROUP="relation">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -92,8 +90,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="cj5-1-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="12">
-    <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
+<GROUP ID="cj5-1-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="8">
+    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>cj5-1-per1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -107,8 +105,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>cj5-1-rela1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17400328</core></ELEMENT>
 </GROUP>
-<GROUP ID="cj5-4" NAME="chanc" CLASS="act" ORDER="5" LEVEL="2" LINE="16">
-    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
+<GROUP ID="cj5-4" NAME="chanc" CLASS="act" ORDER="5" LEVEL="2" LINE="10">
+    <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>cj5-4</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>chanc</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>cj5</core></ELEMENT>
@@ -131,39 +129,42 @@
          <core><![CDATA[chanc]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="cj5-4" NAME="chanc" CLASS="act" ORDER="6" LEVEL="2" LINE="18">
-    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>cj5-4</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>chanc</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>cj5</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>act</core></ELEMENT>
+<GROUP ID="cj5-4-p1" NAME="n" CLASS="person" ORDER="6" LEVEL="3" LINE="12">
+    <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4-p1</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>6</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
-   <ELEMENT NAME="dia" CLASS="undef">
-         <core><![CDATA[20]]></core>   </ELEMENT>
-   <ELEMENT NAME="mes" CLASS="undef">
-         <core><![CDATA[12]]></core>   </ELEMENT>
-   <ELEMENT NAME="ano" CLASS="undef">
-         <core><![CDATA[1710]]></core>   </ELEMENT>
-   <ELEMENT NAME="obs" CLASS="obs">
-         <core><![CDATA[alvara]]></core>   </ELEMENT>
-   <ELEMENT NAME="resumo" CLASS="undef">
-         <core><![CDATA[merce vitalicia do campo da velha. Manuel de Ataide diz que o campo e' da coroa e que a camera o usufrui e esta disposto a demandar a camara 'as suas custas. Passou-se o alvara por sua vida somente]]></core>   </ELEMENT>
-   <ELEMENT NAME="loc" CLASS="loc">
+    <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel de carvalho e ataide]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[17101220]]></core>   </ELEMENT>
-   <ELEMENT NAME="type" CLASS="type">
-         <core><![CDATA[chanc]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="cj5-4b" NAME="chanc" CLASS="act" ORDER="7" LEVEL="2" LINE="26">
-    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+<GROUP ID="cj5-4-rela2" NAME="relation"  ORDER="7" LEVEL="4" CLASS="relation" LINE="12">
+    <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4-p1</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>7</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>chanc</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>cj5-4-p1</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>cj5-4</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4-rela2</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>17101220</core></ELEMENT>
+</GROUP>
+<GROUP ID="cj5-4b" NAME="chanc" CLASS="act" ORDER="8" LEVEL="2" LINE="14">
+    <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>cj5-4b</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>chanc</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>cj5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>act</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>7</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
    <ELEMENT NAME="dia" CLASS="undef">
          <core><![CDATA[20]]></core>   </ELEMENT>
@@ -171,8 +172,6 @@
          <core><![CDATA[1]]></core>   </ELEMENT>
    <ELEMENT NAME="ano" CLASS="undef">
          <core><![CDATA[1711]]></core>   </ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[obs]]></core>   </ELEMENT>
    <ELEMENT NAME="resumo" CLASS="undef">
          <core><![CDATA[alvara de administracao de capela. Diz o requerente que estava vaga para a coroa a capela de Pinidor[?] que instituira Martim Geraldo, cita no concelho de Porto Carreiro de que estava de posse Fernao Ribeiro Geraldo, e a queria tomar por demanda 'a sua custa pelo que pede merce da administracao da capela. O que lhe e' concedido por uma vida somente.]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -181,13 +180,13 @@
          <core><![CDATA[chanc]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="cj5-4b-per1" NAME="n" CLASS="person" ORDER="8" LEVEL="3" LINE="27">
-    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
+<GROUP ID="cj5-4b-per1" NAME="n" CLASS="person" ORDER="9" LEVEL="3" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-per1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>9</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[manuel de carvalho e ataide]]></core>   </ELEMENT>
@@ -195,69 +194,94 @@
          <core><![CDATA[cj5-4-p1]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[cj5-4b-per1]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="cj5-4b-rela2" NAME="relation"  ORDER="9" LEVEL="4" CLASS="relation" LINE="27">
-    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
+<GROUP ID="cj5-4b-rela3" NAME="relation"  ORDER="10" LEVEL="4" CLASS="relation" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b-per1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>9</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>10</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>chanc</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>cj5-4b-per1</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>cj5-4b</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-rela2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17110120</core></ELEMENT>
 </GROUP>
-<GROUP ID="cj5-4b-per1-per2" NAME="referido" CLASS="person" ORDER="11" LEVEL="4" LINE="33">
-    <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
+<GROUP ID="cj5-4b-per1-per2" NAME="referido" CLASS="person" ORDER="12" LEVEL="4" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-per1-per2</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>11</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>12</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[fernao ribeiro geraldo]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[cj5-4b-per1-per2]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="cj5-4b-per1-rela4" NAME="relation"  ORDER="12" LEVEL="5" CLASS="relation" LINE="33">
-    <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
+<GROUP ID="cj5-4b-per1-rela5" NAME="relation"  ORDER="13" LEVEL="5" CLASS="relation" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b-per1-per2</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>12</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>13</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>chanc</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>cj5-4b-per1-per2</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>cj5-4b</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-per1-rela4</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-per1-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17110120</core></ELEMENT>
 </GROUP>
-<RELATION ID="cj5-4b-rela3" ORG="cj5-4b-per1" DEST="cj5-4-p1" TYPE="META" VALUE="same_as"/>
-<GROUP ID="cj5-4b-rela3" NAME="relation"  ORDER="10" LEVEL="4"  CLASS="relation" LINE="27">
-    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
+<GROUP ID="cj5-4b-per1-per3" NAME="referido" CLASS="person" ORDER="14" LEVEL="4" LINE="19">
+    <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b-per1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>14</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[martim geraldo]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="cj5-4b-per1-rela6" NAME="relation"  ORDER="15" LEVEL="5" CLASS="relation" LINE="19">
+    <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>15</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>chanc</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>cj5-4b-per1-per3</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>cj5-4b</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-per1-rela6</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>17110120</core></ELEMENT>
+</GROUP>
+<RELATION ID="cj5-4b-rela4" ORG="cj5-4b-per1" DEST="cj5-4-p1" TYPE="META" VALUE="same_as"/>
+<GROUP ID="cj5-4b-rela4" NAME="relation"  ORDER="11" LEVEL="4"  CLASS="relation" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>cj5-4b</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>10</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>11</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>cj5-4b-per1</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>cj5-4-p1</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-rela3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>cj5-4b-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17110120</core></ELEMENT>
 </GROUP></KLEIO>

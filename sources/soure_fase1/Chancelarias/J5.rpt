@@ -1,55 +1,28 @@
-ClioInput - version 2.3.1 - build 1768 21/05/2019 19:22 
-17-6-2019 8-48
+ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
+9-4-2020 16-48
 
 Processing data file J5.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
-1: kleio$gacto2.str=========================
+=========================
 kleio translation started
 =========================
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 6
 Obs: 
-Translation count not set or invalid, counting as zero: 
-2: fonte$cj5/loc=ANTT/obs=visto pelos indices, entrada de Soure.3: ** Processing source fonte$cj5
-4: chanc$cj5-1/28/3/1740/obs=alvara5: 	/resumo=alvara a diogo de abreu castelo branco
-ERROR: J5.cli line 5 ** Error: missing element(s) in chanc(cj5-1) must have: loc
-Near line: 5 	/resumo=alvara a diogo de abreu castelo brancoNear line: 6 	n$diogo de abreu castelo branco
+** Processing source fonte$cj5
 6: chanc$cj5-1
-6: 	n$diogo de abreu castelo branco7: 	8: 	9: 	10: 11: 12: chanc$cj5-4/20/12/1710/obs=alvara13: 	/resumo=merce vitalicia do campo da velha. Manuel de Ataide diz que o14: 		campo e' da coroa e que a camera o usufrui e esta disposto a demandar15: 		a camara 'as suas custas. Passou-se o alvara por sua vida somente
-ERROR: J5.cli line 15 ** Error: missing element(s) in chanc(cj5-4) must have: loc
-Near line: 15 		a camara 'as suas custas. Passou-se o alvara por sua vida somenteNear line: 16 	requerente$manuel de carvalho e ataide/id=cj5-4-p1
-16: chanc$cj5-4
-
-ERROR: J5.cli line 15 *** Current group requerente cannot be linked with previous group chanc(cj5-4)
-Near line: 15 		a camara 'as suas custas. Passou-se o alvara por sua vida somenteNear line: 16 	requerente$manuel de carvalho e ataide/id=cj5-4-p1
-
-ERROR: J5.cli line 15 ***requerente group not stored.
-Near line: 15 		a camara 'as suas custas. Passou-se o alvara por sua vida somenteNear line: 16 	requerente$manuel de carvalho e ataide/id=cj5-4-p1
-
-ERROR: J5.cli line 15 ** Failure. Could not process group -requerente
-Near line: 15 		a camara 'as suas custas. Passou-se o alvara por sua vida somenteNear line: 16 	requerente$manuel de carvalho e ataide/id=cj5-4-p1
-16: 	requerente$manuel de carvalho e ataide/id=cj5-4-p117: 
-ERROR: J5.cli line 17 ** ID already used in this file: cj5-4
-Near line: 17 Near line: 18 chanc$cj5-4b/20/1/1711/tipo=obs
-18: chanc$cj5-4
-
-ERROR: J5.cli line 17 ** chanc unknown element: tipo.
-Near line: 17 Near line: 18 chanc$cj5-4b/20/1/1711/tipo=obs
-18: chanc$cj5-4b/20/1/1711/tipo=obs19: 	/resumo=alvara de administracao de capela. Diz o requerente que20: 			estava vaga para a coroa a capela de Pinidor[?] que instituira21: 			Martim Geraldo, cita no concelho de Porto Carreiro de que estava de posse22: 			Fernao Ribeiro Geraldo, e a queria tomar por demanda 'a sua custa23: 			pelo que pede merce da administracao da capela. O que lhe e' concedido24: 			por uma vida somente.25: 			
-ERROR: J5.cli line 25 ** Error: missing element(s) in chanc(cj5-4b) must have: loc
-Near line: 25 			Near line: 26 		n$manuel de carvalho e ataide/mesmo_que=cj5-4-p1
-26: chanc$cj5-4b
-26: 		n$manuel de carvalho e ataide/mesmo_que=cj5-4-p1
-WARNING: J5.cli line 26 destination id of "same as" not found. Will check again at the end of file.
-Near line: 26 		n$manuel de carvalho e ataide/mesmo_que=cj5-4-p1Near line: 27 		referido$fernao ribeiro geraldo
-27: 		referido$fernao ribeiro geraldo28: 		29: 30: 			31: 	32: 	33: *** End of File
-ERROR:  Could not find same_as id cj5-4-p1 referred in line 27. If  original reference is on another file use xsame_as
-
-9  errors. 
-1  warnings.
+10: chanc$cj5-4
+14: chanc$cj5-4b
+*** End of File
+** Processed file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/chancelarias/J5.cli
+** Original file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/chancelarias/J5.org
+** Previous version- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/chancelarias/J5.old
+** Temp file with ids- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/chancelarias/J5.ids
+0  errors. 
+0  warnings.
 Translation finished.

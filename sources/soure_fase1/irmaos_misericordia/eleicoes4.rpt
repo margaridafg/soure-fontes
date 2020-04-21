@@ -1,130 +1,42 @@
 ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-13-6-2019 22-49
+9-4-2020 16-48
 
 Processing data file eleicoes4.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
-1: kleio$gacto2.str=========================
+=========================
 kleio translation started
 =========================
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 
+Translation count: 9
 Obs: 
-Translation count not set or invalid, counting as zero: 
-2: fonte$mis mesa4/tipo=livro de eleicoes datas/localizacao=arquivo  da santa casa da misericordia de soure3: 4: ** Processing source fonte$mis mesa4
-5: amz$amz1/3/7/1887/36: 	/resumo=termo de eleicao de irmaos da mesa7: 8: amz$amz1
-8: eleito$joao maria de moura matos9: 	ls$cargo/provedor10: 	ls$titulo/doutor11: 12: eleito$antonio maria correia13: 	ls$cargo/irmao da mesa14: 15: eleito$antonio pereira da costa 16: 	ls$cargo/irmao da mesa17: 18: eleito$manuel valerio dos santos19: 	ls$cargo/irmao da mesa20: 21: eleito$joaquim ferreira dos santos junior22: 	ls$cargo/irmao da mesa23: 24: eleito$joao simoes galvao25: 	ls$cargo/irmao da mesa26: 27: eleito$manuel rodrigues gomes28: 	ls$cargo/irmao da mesa29: 30: fim$amz31: 32: amz$amz2/1/7/1688/1533: 	/resumo=termo de eleicao deprovedor e irmaos da mesa34: 35: amz$amz2
-
-ERROR: eleicoes4.cli line 34 *** Current group escrutinador cannot be linked with previous group amz(amz2)
-Near line: 34 Near line: 35 escrutinador$antonio maria correia
-
-ERROR: eleicoes4.cli line 34 ***escrutinador group not stored.
-Near line: 34 Near line: 35 escrutinador$antonio maria correia
-
-ERROR: eleicoes4.cli line 34 ** Failure. Could not process group -escrutinador
-Near line: 34 Near line: 35 escrutinador$antonio maria correia
-35: escrutinador$antonio maria correia36: 
-ERROR: eleicoes4.cli line 36 ** Failure: undefined element. 
-Near line: 36 Near line: 37 escrutinador$antonio joaquim da fonseca
-
-ERROR: eleicoes4.cli line 36 ** ID already used in this file: amz2
-Near line: 36 Near line: 37 escrutinador$antonio joaquim da fonseca
-37: amz$amz2
-
-ERROR: eleicoes4.cli line 36 *** Current group escrutinador cannot be linked with previous group amz(amz2)
-Near line: 36 Near line: 37 escrutinador$antonio joaquim da fonseca
-
-ERROR: eleicoes4.cli line 36 ***escrutinador group not stored.
-Near line: 36 Near line: 37 escrutinador$antonio joaquim da fonseca
-
-ERROR: eleicoes4.cli line 36 ** Failure. Could not process group -escrutinador
-Near line: 36 Near line: 37 escrutinador$antonio joaquim da fonseca
-37: escrutinador$antonio joaquim da fonseca38: 
-ERROR: eleicoes4.cli line 38 ** Failure: undefined element. 
-Near line: 38 Near line: 39 secretario$carlos cabral de vasconcelos carreira
-
-ERROR: eleicoes4.cli line 38 ** ID already used in this file: amz2
-Near line: 38 Near line: 39 secretario$carlos cabral de vasconcelos carreira
-39: amz$amz2
-
-ERROR: eleicoes4.cli line 38 *** Current group secretario cannot be linked with previous group amz(amz2)
-Near line: 38 Near line: 39 secretario$carlos cabral de vasconcelos carreira
-
-ERROR: eleicoes4.cli line 38 ***secretario group not stored.
-Near line: 38 Near line: 39 secretario$carlos cabral de vasconcelos carreira
-
-ERROR: eleicoes4.cli line 38 ** Failure. Could not process group -secretario
-Near line: 38 Near line: 39 secretario$carlos cabral de vasconcelos carreira
-39: secretario$carlos cabral de vasconcelos carreira40: 
-ERROR: eleicoes4.cli line 40 ** Failure: undefined element. 
-Near line: 40 Near line: 41 secretario$adelino pereira da costa
-
-ERROR: eleicoes4.cli line 40 ** ID already used in this file: amz2
-Near line: 40 Near line: 41 secretario$adelino pereira da costa
-41: amz$amz2
-
-ERROR: eleicoes4.cli line 40 *** Current group secretario cannot be linked with previous group amz(amz2)
-Near line: 40 Near line: 41 secretario$adelino pereira da costa
-
-ERROR: eleicoes4.cli line 40 ***secretario group not stored.
-Near line: 40 Near line: 41 secretario$adelino pereira da costa
-
-ERROR: eleicoes4.cli line 40 ** Failure. Could not process group -secretario
-Near line: 40 Near line: 41 secretario$adelino pereira da costa
-41: secretario$adelino pereira da costa42: 
-ERROR: eleicoes4.cli line 42 ** Failure: undefined element. 
-Near line: 42 Near line: 43 eleito$joao de moura matoso
-
-ERROR: eleicoes4.cli line 42 ** ID already used in this file: amz2
-Near line: 42 Near line: 43 eleito$joao de moura matoso
-43: amz$amz2
-43: eleito$joao de moura matoso44: 	ls$titulo/doutor45: 	ls$cargo/provedor46: 47: eleito$manuel rodrigues gomes48: 	ls$cargo/vice provedor49: 50: eleito$manuel valerio dos santos51: 	ls$cargo/irmao da mesa52: 53: eleito$manuel rodrigues gomes54: 	ls$cargo/irmao da mesa55: 56: eleito$joaquim ferreira dos santos junior57: 	ls$cargo/irmao da mesa58: 59: eleito$jo�o simoes galvao60: 	ls$cargo/irmao da mesa61: 62: eleito$jose joaquim nunes de sousa63: 	ls$cargo/irmao da mesa64: 65: eleito$antonio maria correia66: 	ls$cargo/irmao da mesa67: 68: fim$amz69: 
-ERROR: eleicoes4.cli line 69 ** ID already used in this file: amz
-Near line: 69 Near line: 70 amz$amz3/7/7/1689/36
-70: amz$amz3/7/7/1689/3671: 	/resumo=termo de eleicao deprovedor e irmaos da mesa72: 73: amz$amz3
-73: eleito$joao de moura matoso74: 	ls$cargo /provedor75: 	ls$titulo /doutor76: 77: eleito$antonio maria correia78: 	ls$cargo/vice provedors79: 80: eleito$antonio maria pereira da costa81: 	ls$cargo/irmao da mesa82: 83: eleito$jose joaquim nunes de sousa84: 	ls$cargo/irmao da mesa85: 86: eleito$manuel rodrigues gomes87: 	ls$cargo/irmao da mesa88: 89: eleito$manuel val�rio dos santos90: 	ls$cargo/irmao da mesa91: 92: eleito$joaquim ferreira dos santos junior93: 	ls$cargo/irmao da mesa94: 95: eleito$antonio joaquim da fonseca96: 	ls$cargo/irmao da mesa97: fim$amz98: 99: 
-ERROR: eleicoes4.cli line 99 ** ID already used in this file: amz
-Near line: 99 Near line: 100 amz$amz4/6/7/1890/51
-100: amz$amz4/6/7/1890/51101: 	/resumo=termo de eleicao de irmaos da mesa102: 103: amz$amz4
-103: eleito$alfredo de moura matoso104: 	ls$cargo/provedor105: 	ls$titulo/doutor106: 107: eleito$antonio maria correia108: 	ls$cargo/irmao da mesa109: 	ls$cargo/vice provedor110: 111: eleito$manuel rodrigues gomes112: 	ls$cargo/irmao da mesa113: 114: eleito$antonio joaquim da fonseca115: 	ls$cargo/irmao da mesa116: 117: eleito$francisco antonio vasco118: 	ls$cargo/irmao da mesa119: 120: eleito$francisco amaro rodrigues pereira121: 	ls$cargo/irmao da mesa122: 123: eleito$joaquim ferreira dos santos124: 	ls$cargo/irmao da mesa125: 126: fim$amz127: 
-ERROR: eleicoes4.cli line 127 ** ID already used in this file: amz
-Near line: 127 Near line: 128 amz$amz5/5/7/1691/64
-128: amz$amz5/5/7/1691/64129: 130: amz$amz5
-130: eleito$joao de moura matoso131: 	ls$cargo/provedor132: 	ls$titulo/doutor133: 134: eleito$antonio maria correia135: 	ls$cargo/irmao da mesa136: 	ls$cargo/vice provedor137: 138: eleito$manuel rodrigues gomes139: 	ls$cargo/irmao da mesa140: 141: eleito$antonio joaquim da fonseca142: 	ls$cargo/irmao da mesa143: 144: eleito$joaquim ferreira dos santos145: 	ls$cargo/irmao da mesa146: 147: eleito$francisco amaro rodrigues pereira148: 	ls$cargo/irmao da mesa149: 150: eleito$luis cordeiro peru151: 	ls$cargo/irmao da mesa152: 153: fim$amz154: 
-ERROR: eleicoes4.cli line 154 ** ID already used in this file: amz
-Near line: 154 Near line: 155 amz$amz6/3/7/1892/76v
-155: amz$amz6/3/7/1892/76v156: 	/resumo=termo de eleicao de irmaos da mesa157: 158: amz$amz6
-158: eleito$joao de moura matoso159: 	ls$cargo/provedor160: 	ls$titulo/doutor161: 162: eleito$antonio maria correia163: 	ls$cargo/irmao da mesa164: 	ls$cargo/vice provedor165: 166: eleito$antonio joaquim da fonseca167: 	ls$cargo/irmao da mesa168: 169: eleito$joaquim ferreira dos santos170: 	ls$cargo/irmao da mesa171: 172: eleito$ luis cordeiro peru173: 	ls$cargo/irmao da mesa174: 175: eleito$francisco amaro rodrigues pereira176: 	ls$cargo/irmao da mesa177: 178: eleito$manuel rodrigues gomes179: 	ls$cargo/irmao da mesa180: 181: fim$amz182: 
-ERROR: eleicoes4.cli line 182 ** ID already used in this file: amz
-Near line: 182 Near line: 183 amz$amz7/2/7/1893/87
-183: amz$amz7/2/7/1893/87184: 	/resumo=termo de eleicao de irmaos da mesa185: 186: amz$amz7
-186: eleito$joao de moura matoso187: 	ls$cargo/provedor188: 	ls$titulo/doutor189: 190: eleito$antonio  maria correia191: 	ls$cargo/irmao da mesa192: 	ls$cargo/vice provedor193: 194: eleito$antonio joaquim da fonseca195: 	ls$cargo/irmao da mesa196: 197: eleito$luis cordeiro peru198: 	ls$cargo/irmao da mesa199: 200: eleito$manuel rodrigues gomes201: 	ls$cargo/irmao da mesa202: 203: eleito$joaquim ferreira dos santos204: 	ls$cargo/irmao da mesa205: 206: eleito$francisco amaro rodrigues pereira207: 	ls$cargo/irmao da mesa208: 209: fim$amz210: 
-ERROR: eleicoes4.cli line 210 ** ID already used in this file: amz
-Near line: 210 Near line: 211 amz$amz8/1/7/1894/97v
-211: amz$amz8/1/7/1894/97v212: 	/resumo=termo de eleicao de irmaos da mesa213: 214: amz$amz8
-214: eleito$joao de moura matoso215: 	ls$cargo/provedor216: 	ls$titulo/doutor217: 218: eleito$antonio  maria correia219: 	ls$cargo/irmao da mesa220: 	ls$cargo/vice provedor221: 222: eleito$antonio joaquim fonseca223: 	ls$cargo/irmao da mesa224: 225: eleito$manuel rodrigues gomes226: 	ls$cargo/irmao da mesa227: 228: eleito$luis cordeiro peru229: 	ls$cargo/irmao da mesa230: 231: eleito$joaquim ferreira dos santos232: 	ls$cargo/irmao da mesa233: 234: eleito$francisco amaro rodrigues pereira235: 	ls$cargo/irmao da mesa236: 237: 238: fim$amz239: 
-ERROR: eleicoes4.cli line 239 ** ID already used in this file: amz
-Near line: 239 Near line: 240 amz$amz9/7/7/1895/110
-240: amz$amz9/7/7/1895/110241: 	/resumo=termo de eleicao de irmaos da mesa242: 243: amz$amz9
-243: eleito$joao de moura matoso244: 	ls$cargo/provedor245: 	ls$titulo/doutor246: 247: eleito$antonio  maria correia248: 	ls$cargo/irmao da mesa249: 	ls$cargo/vice provedor250: 251: eleito$antonio joaquim fonseca252: 	ls$cargo/irmao da mesa253: 254: eleito$manuel rodrigues gomes255: 	ls$cargo/irmao da mesa256: 257: eleito$francisco amaro rodrigues pereira258: 	ls$cargo/irmao da mesa259: 260: eleito$luis cordeiro peru261: 	ls$cargo/irmao da mesa262: 263: eleito$joaquim ferreira dos santos264: 	ls$cargo/irmao da mesa265: 266: fim$amz267: 
-ERROR: eleicoes4.cli line 267 ** ID already used in this file: amz
-Near line: 267 Near line: 268 amz$amz10/5/7/1896/124
-268: amz$amz10/5/7/1896/124269: 	/resumo=termo de eleicao de irmaos da mesa270: 271: amz$amz10
-271: eleito$joao de moura matoso272: 	ls$cargo/provedor273: 	ls$titulo/doutor274: 275: eleito$antonio  maria correia276: 	ls$cargo/irmao da mesa277: 	ls$cargo/vice provedor278: 279: eleito$francisco amaro rodrigues pereira280: 	ls$cargo/irmao da mesa281: 282: eleito$manuel rodrigues gomes283: 	ls$cargo/irmao da mesa284: 285: eleito$jose de oliveira curado286: 	ls$cargo/irmao da mesa287: 288: eleito$jose maria rodrigues lapim289: 	ls$cargo/irmao da mesa290: 291: eleito$joaosimoes galvao292: 	ls$cargo/irmao da mesa293: 294: fim$amz295: 
-ERROR: eleicoes4.cli line 295 ** ID already used in this file: amz
-Near line: 295 Near line: 296 amz$amz11/4/7/1897/143
-296: amz$amz11/4/7/1897/143297: 	/resumo=termo de eleicao de irmaos da mesa298: 299: amz$amz11
-299: eleito$joao de moura matoso300: 	ls$cargo/provedor301: 	ls$titulo/doutor302: 303: eleito$antonio  maria correia304: 	ls$cargo/irmao da mesa305: 	ls$cargo/vice provedor306: 307: eleito$manuel rodrigues gomes308: 	ls$cargo/irmao da mesa309: 310: eleito$joaosimoes galvao311: 	ls$cargo/irmao da mesa312: 313: eleito$jose de oliveira curado314: 	ls$cargo/irmao da mesa315: 316: eleito$jose maria rodrigues lapim317: 	ls$cargo/irmao da mesa318: 319: eleito$antonio sa cruz ferrao320: 	ls$cargo/irmao da mesa321: 322: 323: 324: 325: amz$amz12/3/7/1898/164326: 	/resumo=termo de eleicao de irmaos da mesa327: 328: amz$amz12
-328: eleito$joao de moura matoso329: 	ls$cargo/provedor330: 	ls$titulo/doutor331: 332: eleito$antonio  maria correia333: 	ls$cargo/irmao da mesa334: 	ls$cargo/vice provedor335: 336: eleito$manuel rodrigues gomes337: 	ls$cargo/irmao da mesa338: 339: eleito$joaosimoes galvao340: 	ls$cargo/irmao da mesa341: 342: eleito$antonio da conceicao serra343: 	ls$cargo/irmao da mesa344: 345: eleito$manuel ramos346: 	ls$cargo/irmao da mesa347: 348: eleito$antonio goncalves salazar349: 	ls$cargo/irmao da mesa350: 	ls$profissao/padre351: 352: 353: 354: 355: amz$amz13/2/7/1899/181v356: 	/resumo=termo de eleicao de irmaos da mesa357: 358: amz$amz13
-358: eleito$joao de moura matoso359: 	ls$cargo/provedor360: 	ls$titulo/doutor361: 362: eleito$antonio  maria correia363: 	ls$cargo/irmao da mesa364: 	ls$cargo/vice provedor365: 366: eleito$manuel ramos367: 	ls$cargo/irmao da mesa368: 369: eleito$antonio goncalves salazar370: 	ls$cargo/irmao da mesa371: 	ls$profissao/padre372: 373: eleito$joaosimoes galvao374: 	ls$cargo/irmao da mesa375: 376: eleito$manuel rodrigues gomes377: 	ls$cargo/irmao da mesa378: 379: eleito$daniel pedroso baptista380: 	ls$cargo/irmao da mesa381: 382: 383: 384: amz$amz14/1/7/1900/203385: 	/resumo=termo de eleicao de irmaos da mesa386: 387: amz$amz14
-387: eleito$joao de moura matoso388: 	ls$cargo/provedor389: 	ls$titulo/doutor390: 391: eleito$antonio  maria correia392: 	ls$cargo/irmao da mesa393: 	ls$cargo/vice provedor394: 395: eleito$manuel rodrigues gomes396: 	ls$cargo/irmao da mesa397: 398: eleito$manuel ramos399: 	ls$cargo/irmao da mesa400: 401: eleito$joaosimoes galvao402: 	ls$cargo/irmao da mesa403: 404: eleito$antonio goncalves salazar405: 	ls$cargo/irmao da mesa406: 	ls$profissao/padre407: 408: eleito$luis cordeiro peru409: 	ls$cargo/irmao da mesa410: 411: 412: amz$amz15/7/7/1901/218v413: 	/resumo=termo de eleicao de irmaos da mesa414: 415: amz$amz15
-415: eleito$joao de moura matoso416: 	ls$cargo/provedor417: 	ls$titulo/doutor418: 419: eleito$antonio  maria correia420: 	ls$cargo/irmao da mesa421: 	ls$cargo/vice provedor422: 423: eleito$manuel rodrigues gomes424: 	ls$cargo/irmao da mesa425: 426: eleito$manuel ramos427: 	ls$cargo/irmao da mesa428: 429: eleito$luis cordeiro peru430: 	ls$cargo/irmao da mesa431: 432: eleito$joaosimoes galvao433: 	ls$cargo/irmao da mesa434: 435: eleito$antonio goncalves salazar436: 	ls$cargo/irmao da mesa437: 	ls$profissao/padre438: 439:  440: amz$amz16/6/7/1902/233441: 	/resumo=termo de eleicao de irmaos da mesa442: 443: amz$amz16
-443: eleito$joao de moura matoso444: 	ls$cargo/provedor445: 	ls$titulo/doutor446: 447: eleito$antonio  maria correia448: 	ls$cargo/irmao da mesa449: 	ls$cargo/vice provedor450: 451: eleito$manuel rodrigues gomes452: 	ls$cargo/irmao da mesa453: 454: eleito$antonio goncalves salazar455: 	ls$cargo/irmao da mesa456: 	ls$profissao/padre457: 458: eleito$luis cordeiro peru459: 	ls$cargo/irmao da mesa460: 461: eleito$manuel ramos462: 	ls$cargo/irmao da mesa463: 464: eleito$joaosimoes galvao465: 	ls$cargo/irmao da mesa466: 467: 468: amz$amz17/5/7/1903/252469: 	/resumo=termo de eleicao de irmaos da mesa470: 471: amz$amz17
-471: eleito$joao de moura matoso472: 	ls$cargo/provedor473: 	ls$titulo/doutor474: 475: eleito$antonio  maria correia476: 	ls$cargo/irmao da mesa477: 	ls$cargo/vice provedor478: 479: eleito$manuel rodrigues gomes480: 	ls$cargo/irmao da mesa481: 482: eleito$manuel ramos483: 	ls$cargo/irmao da mesa484: 485: eleito$joaosimoes galvao486: 	ls$cargo/irmao da mesa487: 488: eleito$antonio goncalves salazar489: 	ls$cargo/irmao da mesa490: 	ls$profissao/padre491: 492: eleito$luis cordeiro peru493: 	ls$cargo/irmao da mesa494: 495: 496: 497: 498: 499: 500: *** End of File
-29  errors. 
+** Processing source fonte$mis mesa4
+6: amz$emz4-1
+30: amz$emz4-2
+69: amz$emz4-3
+96: amz$emz4-4
+121: amz$emz4-5
+146: amz$emz4-6
+171: amz$emz4-7
+196: amz$emz4-8
+221: amz$emz4-9
+246: amz$emz4-10
+271: amz$emz4-11
+296: amz$emz4-12
+322: amz$emz4-13
+348: amz$emz4-14
+374: amz$emz4-15
+400: amz$emz4-16
+426: amz$emz4-17
+*** End of File
+** Processed file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/irmaos_misericordia/eleicoes4.cli
+** Original file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/irmaos_misericordia/eleicoes4.org
+** Previous version- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/irmaos_misericordia/eleicoes4.old
+** Temp file with ids- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/irmaos_misericordia/eleicoes4.ids
+0  errors. 
 0  warnings.
 Translation finished.
