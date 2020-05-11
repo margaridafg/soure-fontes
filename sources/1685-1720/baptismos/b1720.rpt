@@ -1,125 +1,2223 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-28-4-2020 14-38
+KleioTranslator - server version @@VERSION@@ - build @@BUILD@@ @@DATE@@
+9-5-2020 21-19
 
 Processing data file b1720.cli
 -------------------------------------------
 Generic Act translation module with geoentities (XML).
      Joaquim Ramos de Carvalho (joaquim@uc.pt) 
 ** New document: kleio
+1: kleio$gacto.str/translations=25
 =========================
 kleio translation started
 =========================
 Structure: gacto.str
 Prefix: 
 Autorel: 
-Translation count: 23
+Translation count: 25
 Obs: 
+2:    fonte$baptismos 1720/tipo=reg paroquiais/localizacao=fol.?/data=17200000
+3: 
 ** Processing source fonte$baptismos 1720
+4:       bap$b1720.1/1/1/1720/?/igreja de s. tiago
+5: 
 6: bap$b1720.1
+6:          n$antonio/m/id=b1720.1-per1
+7: 
+8:             pai$antonio rodrigues/id=b1720.1-per1-per2
+9:                ls$residencia/alencarce de cima
+10:                ls$naturalidade/porto coelheiro
+11: 
+12:             mae$maria pires/id=b1720.1-per1-per3
+13:                ls$naturalidade/alencarce de cima
+14: 
+15:             pad$jose madeira/id=b1720.1-per4
+16:                ls$ec/s
+17:                ls$residencia/cascao
+18: 
+19:             mad$teresa/id=b1720.1-per5
+20:                ls$ec/s
+21: 
+22:                pmad$lourenco rodrigues/id=b1720.1-per6
+23:                   ls$residencia/porto coelheiro
+24: 
+25:       bap$b1720.2/1/1/1720/?/igreja de s. tiago
+26: 
 27: bap$b1720.2
+27:          n$maria/f/id=b1720.2-per1
+28:             ls$ilegitima/sim
+29: 
+30:             mae$maria/id=b1720.2-per1-per2
+31:                ls$ec/s
+32:                ls$residencia/casal da venda
+33:                ls$naturalidade/casal da venda
+34: 
+35:                pmae$joao fernandes/id=b1720.2-per1-per3
+36: 
+37:                mmae$teresa francisca/id=b1720.2-per1-per4
+38: 
+39:             pad$jose gomes/id=b1720.2-per5
+40:                ls$profissao/estudante
+41:                ls$residencia/casal da venda
+42: 
+43:                ppad$joao gomes carrasco/id=b1720.2-per6
+44: 
+45:             mad$isabel/id=b1720.2-per7
+46:                ls$ec/s
+47: 
+48:                pmad$joao gomes carrasco/id=b1720.2-per8
+49: 
+50:       bap$b1720.3/14/1/1720/?/igreja de s. tiago
+51: 
 52: bap$b1720.3
+52:          n$luisa/f/id=b1720.3-per1
+53: 
+54:             pai$manuel domingues/id=b1720.3-per1-per2
+55:                ls$alcunha/moco
+56:                ls$residencia/casconho
+57:                ls$naturalidade/casconho
+58: 
+59:             mae$isabel francisca/id=b1720.3-per1-per3
+60:                ls$naturalidade/casconho
+61: 
+62:             pad$carlos de oliveira/id=b1720.3-per4
+63:                ls$residencia/casconho
+64: 
+65:             mad$maria/id=b1720.3-per5
+66:                ls$ec/s
+67: 
+68:                pmad$pedro francisco/id=b1720.3-per6
+69:                   ls$residencia/casconho
+70: 
+71:       bap$b1720.4/14/1/1720/?/igreja de s. tiago
+72: 
 73: bap$b1720.4
+73:          n$domingos/m/id=b1720.4-per1
+74: 
+75:             pai$antonio lopes/id=b1720.4-per1-per2
+76:                ls$residencia/casal dos corcozes
+77:                ls$naturalidade/casal do corcozes
+78: 
+79:             mae$isabel cardoso/id=b1720.4-per1-per3
+80:                ls$naturalidade/casal dos corcozes
+81: 
+82:             pad$domingos da gante/id=bpad14011720
+83:                ls$residencia/barril
+84: 
+85:             mad$maria/id=b1720.4-per4
+86:                ls$ec/s
+87:                rel$parentesco/filha/domingos da gante/bpad14011720
+88: 
+89:       bap$b1720.5/14/1/1720/?/igreja de s. tiago
+90: 
 91: bap$b1720.5
+91:          n$josefa/f/id=b1720.5-per1
+92: 
+93:             pai$manuel rodrigues feijao/id=b1720.5-per1-per2
+94:                ls$residencia/casal dos cavaleiros
+95:                ls$naturalidade/casal dos cavaleiros
+96: 
+97:             mae$isabel rodrigues/id=b1720.5-per1-per3
+98:                ls$naturalidade/casal da lajem
+99: 
+100:             pad$manuel/id=bpad14011720b
+101:                ls$ec/s
+102: 
+103:                mpad$isabel da silva/id=b1720.5-per4
+104:                   ls$titulo/dona
+105:                   ls$residencia/soure
+106: 
+107:             mad$josefa de azevedo/id=b1720.5-per5
+108:                ls$residencia/soure
+109: 
+110:             referido$manuel rodrigues descalco/id=br14011720
+111:                ls$residencia/soure
+112:                rel$sociabilidade/procurador em baptismo/manuel/bpad14011720b
+113:                rel$sociabilidade/procurador em baptismo/josefa de azevedo/c6-7-josa
+114: 
+115:       bap$b1720.6/15/1/1720/?/igreja de s. tiago
+116: 
 117: bap$b1720.6
+117:          n$feliciana/f/id=b1720.6-per1
+118: 
+119:             pai$joao goncalves/id=b1720.6-per1-per2
+120:                ls$residencia/casal dos beltroes
+121:                ls$naturalidade/casalinhos
+122: 
+123:             mae$joana rodrigues/id=b1720.6-per1-per3
+124:                ls$naturalidade/casal dos beltroes
+125: 
+126:             pad$manuel simoes/id=b1720.6-per4
+127:                ls$residencia/casalinhos
+128: 
+129:             mad$feliciana/id=b1720.6-per5
+130:                ls$ec/s
+131: 
+132:                pmad$manuel rodrigues tome/id=b1720.6-per6
+133:                   ls$residencia/casal da venda
+134: 
+135:       bap$b1720.7/28/1/1720/?/igreja de s. tiago
+136: 
 137: bap$b1720.7
+137:          n$manuel/m/id=b1720.7-per1
+138: 
+139:             pai$jose de oliveira/id=b1720.7-per1-per2
+140:                ls$residencia/casal de eureca
+141:                ls$naturalidade/casal da lajem
+142: 
+143:             mae$isabel cardoso/id=b1720.7-per1-per3
+144:                ls$naturalidade/casal de eureca
+145: 
+146:             pad$manuel rodrigues/id=b1720.7-per4
+147:                ls$residencia/casal da fonte do espirito santo
+148: 
+149:             mad$antonia/id=b1720.7-per5
+150:                ls$ec/s
+151: 
+152:                mmad$maria cardoso/id=b1720.7-per6
+153:                   ls$residencia/casal de eureca
+154: 
+155:       bap$b1720.8/31/1/1720/?/igreja de s. tiago
+156: 
 157: bap$b1720.8
+157:          n$manuel/m/id=b1720.8-per1
+158: 
+159:             pai$joao rodrigues/id=b1720.8-per1-per2
+160:                ls$residencia/casconho
+161:                ls$naturalidade/moinhos de olho de agua de ancos, freguesia da redinha
+162: 
+163:             mae$maria joao/id=b1720.8-per1-per3
+164:                ls$naturalidade/casconho
+165: 
+166:             pad$pascoal dias/id=b1720.8-per4
+167:                ls$residencia/moinhos de olho de agua de ancos, freguesia da redinha
+168:                ls$freguesia/redinha
+169: 
+170:             mad$maria/id=b1720.8-per5
+171:                ls$ec/s
+172: 
+173:                pmad$antonio domingues/id=b1720.8-per6
+174:                   ls$residencia/casconho
+175: 
+176:       bap$b1720.9/4/2/1720/?/igreja de s. tiago
+177: 
 178: bap$b1720.9
+178:          n$josefa/f/id=b1720.9-per1
+179: 
+180:             pai$francisco dinis/id=b1720.9-per1-per2
+181:                ls$residencia/casal de eureca
+182:                ls$naturalidade/casal de eureca
+183: 
+184:             mae$josefa madeira/id=b1720.9-per1-per3
+185:                ls$naturalidade/casal da quinta da telhada
+186: 
+187:             pad$manuel/id=b1720.9-per4
+188:                ls$ec/s
+189: 
+190:                mpad$isabel da silva/id=b1720.9-per5
+191:                   ls$titulo/dona
+192:                   ls$residencia/soure
+193: 
+194:             mad$josefa de azevedo/id=b1720.9-per6
+195:                ls$ec/s
+196:                ls$residencia/soure
+197: 
+198:       bap$b1720.10/7/2/1720/?/igreja de s. tiago
+199: 
 200: bap$b1720.10
+200:          n$pascoa/f/id=b1720.10-per1
+201:             ls$nome/maria/obs= nota `a mg. " no crisma que fez nesta igreja o exmo. sr. bispo aos 1 [4,7?] dias de mes de julho de 1743 anos se lhe pos por nome | maria de que fiz este assento. O encomendado Agostinho Aurelio de Matos"
+202: 
+203:             pai$antonio bernardes/id=b1720.10-per1-per2
+204:                ls$residencia/casa velha
+205:                ls$naturalidade/paiao, freguesia do paiao
+206: 
+207:             mae$josefa gomes/id=b1720.10-per1-per3
+208:                ls$naturalidade/casa velha
+209: 
+210:             pad$francisco/id=b1720.10-per4
+211:                ls$ec/s
+212: 
+213:                ppad$joao bernardes/id=b1720.10-per5
+214:                   ls$residencia/paiao, freguesia do paiao
+215:                   ls$freguesia/paiao
+216: 
+217:             mad$pascoa pereira/id=b1720.10-per6
+218:                ls$ec/s
+219:                ls$residencia/casa velha
+220: 
+221:       bap$b1720.11/8/2/1720/?/igreja de s. tiago
+222: 
 223: bap$b1720.11
+223:          n$joao/m/id=b1720.11-per1
+224: 
+225:             pai$joao rodrigues/id=b1720.11-per1-per2
+226:                ls$residencia/sobral
+227:                ls$naturalidade/sobral
+228: 
+229:             mae$isabel rodrigues/id=b1720.11-per1-per3
+230:                ls$naturalidade/sobral
+231: 
+232:             pad$manuel rodrigues/id=b1720.11-per4
+233: 
+234:             mad$maria/id=b1720.11-per5
+235:                ls$ec/s
+236: 
+237:                pmad$manuel jorge/id=b1720.11-per6
+238:                   ls$residencia/sobral
+239: 
+240:       bap$b1720.12/11/2/1720/?/igreja de s. tiago
+241: 
 242: bap$b1720.12
+242:          n$lourenco/m/id=b1720.12-per1
+243: 
+244:             pai$jose martins/id=bpai11021720
+245:                ls$residencia/soure
+246:                ls$naturalidade/soure
+247: 
+248:             mae$joana rodrigues/id=b1720.12-per1-per2
+249:                ls$residencia/soure
+250: 
+251:             referido$manuel martins/id=br11021720
+252:                ls$profissao/padre
+253:                rel$parentesco/irmao/jose martins/bpai11021720
+254: 
+255:             pad$lourenco rodrigues/id=bpad110217120
+256:                ls$residencia/quinta do cano
+257: 
+258:             mad$maria jorge/id=b1720.12-per3
+259:                rel$parentesco/mulher/lourenco rodrigues/bpad110217120
+260: 
+261:       bap$b1720.13/11/2/1720/?/igreja de s. tiago
+262: 
 263: bap$b1720.13
+263:          n$luis/m/id=b1720.13-per1
+264: 
+265:             pai$manuel rodrigues/id=b1720.13-per1-per2
+266:                ls$residencia/paleao
+267:                ls$naturalidade/paleao
+268: 
+269:             mae$francisca leao/id=b1720.13-per1-per3
+270:                ls$naturalidade/paleao
+271: 
+272:             pad$luis manhos de abreu/id=b1720.13-per4
+273:                ls$residencia/soure
+274: 
+275:             mad$catarina gaspar/id=bmad11021720
+276:                ls$ec/s
+277:                ls$residencia/paleao
+278: 
+279:             referido$joao gaspar/id=br11021720b
+280:                ls$ec/s
+281:                rel$parentesco/irmao/catarina gaspar/bmad11021720
+282:                rel$sociabilidade/procurador em baptismo/catarina gaspar/bmad11021720
+283: 
+284:       bap$b1720.14/11/2/1720/?/igreja de s. tiago
+285: 
 286: bap$b1720.14
+286:          n$joana/f/id=b1720.14-per1
+287: 
+288:             pai$mateus rodrigues/id=b1720.14-per1-per2
+289:                ls$residencia/quinta de porto coelheiro
+290:                ls$naturalidade/quinta de porto coelheiro
+291: 
+292:             mae$isabel da costa/id=b1720.14-per1-per3
+293:                ls$naturalidade/moinhos da figueirinha, freguesia da redinha
+294: 
+295:             pad$jose/id=b1720.14-per4
+296:                ls$ec/s
+297: 
+298:                ppad$manuel joao/id=b1720.14-per5
+299:                   ls$residencia/laranjeira, freguesia de tapeus
+300:                   ls$freguesia/tapeus
+301: 
+302:             mad$domingas da costa/id=b1720.14-per6
+303: 
+304:                mrmad$antonio rodrigues/id=b1720.14-per7
+305:                   ls$residencia/quinta de porto coelheiro
+306: 
+307:       bap$b1720.15/18/2/1720/?/igreja de s. tiago
+308: 
 309: bap$b1720.15
+309:          n$joao/m/id=bn18021719
+310: 
+311:             pai$jose domingues/id=bn18021719-per1
+312:                ls$residencia/quinta de porto coelheiro
+313:                ls$naturalidade/quinta de porto coelheiro
+314: 
+315:             mae$maria joao/id=bn18021719-per2
+316:                ls$naturalidade/carvalheira de cima
+317: 
+318:             pad$manuel tome/id=b1720.15-per3
+319:                ls$ec/s
+320:                ls$residencia/casal da tojeira
+321: 
+322:             mad$isabel/id=b1720.15-per4
+323:                ls$ec/s
+324: 
+325:                pmad$joao da costa/id=b1720.15-per5
+326:                   ls$residencia/santo ildefonso
+327:                   rel$sociabilidade/baptisou em necessidade/joao/bn18021719
+328: 
+329:       bap$b1720.16/18/2/1720/?/igreja de s. tiago
+330: 
 331: bap$b1720.16
+331:          n$teresa/f/id=b1720.16-per1
+332: 
+333:             pai$manuel rodrigues/id=b1720.16-per1-per2
+334:                ls$residencia/casal de pencarpia
+335:                ls$naturalidade/casal de pedro afonso
+336: 
+337:             mae$antonia goncalves/id=b1720.16-per1-per3
+338:                ls$naturalidade/casal da corujeira
+339: 
+340:             pad$sebastiao ferreira/id=b1720.16-per4
+341:                ls$profissao/padre
+342: 
+343:             mad$teresa rodrigues/id=b1720.16-per5
+344:                ls$ec/s
+345:                ls$residencia/soure
+346: 
+347:       bap$b1720.17/19/2/1720/?/igreja de s. tiago
+348: 
 349: bap$b1720.17
+349:          n$maria/f/id=b1720.17-per1
+350: 
+351:             pai$joao rodrigues/id=b1720.17-per1-per2
+352:                ls$residencia/simoes
+353:                ls$naturalidade/simoes
+354: 
+355:             mae$mariana rodrigues/id=b1720.17-per1-per3
+356:                ls$naturalidade/simoes
+357: 
+358:             pad$manuel joao/id=b1720.17-per4
+359:                ls$alcunha/marcos
+360:                ls$residencia/simoes
+361: 
+362:             mad$antonia/id=b1720.17-per5
+363:                ls$ec/s
+364: 
+365:                pmad$maria rodrigues/id=b1720.17-per6
+366:                   ls$alcunha/barqueiro
+367:                   ls$ec/v
+368:                   ls$residencia/simoes
+369: 
+370:       bap$b1720.18/26/2/1720/?/igreja de s. tiago
+371: 
 372: bap$b1720.18
+372:          n$antonio/m/id=b1720.18-per1
+373: 
+374:             pai$manuel joao soeiro/id=b1720.18-per1-per2
+375:                ls$alcunha/moco
+376:                ls$residencia/sobral
+377:                ls$naturalidade/sobral
+378: 
+379:             mae$maria francisca/id=b1720.18-per1-per3
+380:                ls$naturalidade/simoes
+381: 
+382:             pad$manuel dias/id=b1720.18-per4
+383:                ls$residencia/sobral
+384: 
+385:             mad$maria jorge/id=b1720.18-per5
+386: 
+387:                mrmad$antonio simoes/id=b1720.18-per6
+388:                   ls$residencia/sobral
+389: 
+390:       bap$b1720.19/29/2/1720/?/igreja de s. tiago/obs=data sic
+391: 
 392: bap$b1720.19
+392:          n$manuel/m/id=b1720.19-per1
+393: 
+394:             pai$joao antunes/id=b1720.19-per1-per2
+395:                ls$residencia/casal de assamassa
+396:                ls$naturalidade/casal de assamassa
+397: 
+398:             mae$petronilha alvares/id=b1720.19-per1-per3
+399:                ls$naturalidade/vila nova de ancos, freguesia de v.a n.a de ancos
+400: 
+401:             pad$manuel pinto de miranda/id=b1720.19-per4
+402:                ls$residencia/soure
+403: 
+404:             mad$josefa/id=b1720.19-per5
+405:                ls$ec/s
+406: 
+407:                pmad$afonso lopes/id=b1720.19-per6
+408:                   ls$residencia/laranjeira, freguesia de tapeus
+409:                   ls$freguesia/tapeus
+410: 
+411:       bap$b1720.20/24/3/1720/?/igreja de s. tiago
+412: 
 413: bap$b1720.20
+413:          n$manuel/m/id=b1720.20-per1
+414: 
+415:             pai$jose luis/id=b1720.20-per1-per2
+416:                ls$residencia/casa velha
+417:                ls$naturalidade/casa velha
+418: 
+419:             mae$ines da conceicao/id=b1720.20-per1-per3
+420:                ls$naturalidade/casa velha
+421: 
+422:             pad$manuel jorge/id=b1720.20-per4
+423:                ls$ec/s
+424:                ls$residencia/casa velha
+425: 
+426:             mad$maria/id=b1720.20-per5
+427:                ls$ec/s
+428: 
+429:                pmad$manuel gouveia/id=b1720.20-per6
+430:                   ls$residencia/casal novo
+431: 
+432:       bap$b1720.21/24/3/1720/?/igreja de s. tiago
+433: 
 434: bap$b1720.21
+434:          n$domingos/m/id=b1720.21-per1
+435: 
+436:             pai$manuel rodrigues marmeleiro/id=b1720.21-per1-per2
+437:                ls$residencia/casal de alencarce de cima
+438:                ls$naturalidade/casal de alencarce de cima
+439: 
+440:             mae$maria antunes/id=b1720.21-per1-per3
+441:                ls$naturalidade/casais da ega
+442: 
+443:             pad$domingos simoes/id=b1720.21-per4
+444:                ls$residencia/casal de alencarce de cima
+445: 
+446:             mad$ana/id=b1720.21-per5
+447:                ls$ec/s
+448: 
+449:                mmad$maria ferreira/id=b1720.21-per6
+450:                   ls$ec/v
+451:                   ls$residencia/alencarce de cima
+452: 
+453:       bap$b1720.22/24/3/1720/?/igreja de s. tiago
+454: 
 455: bap$b1720.22
+455:          n$maria/f/id=b1720.22-per1
+456: 
+457:             pai$manuel madeira/id=b1720.22-per1-per2
+458:                ls$alcunha/moco
+459:                ls$residencia/casal de alencarce de cima
+460:                ls$naturalidade/casal de alencarce de cima
+461: 
+462:             mae$margarida simoes/id=b1720.22-per1-per3
+463:                ls$naturalidade/casal de alencarce de cima
+464: 
+465:             pad$manuel/id=b1720.22-per4
+466:                ls$ec/s
+467: 
+468:                ppad$antonio rodrigues lourenco/id=b1720.22-per5
+469:                   ls$residencia/casal de alencarce de cima
+470: 
+471:             mad$josefa de carvalho/id=b1720.22-per6
+472:                ls$ec/s
+473:                ls$residencia/casal de alencarce de cima
+474: 
+475:       bap$b1720.23/27/3/1720/?/igreja de s. tiago
+476: 
 477: bap$b1720.23
+477:          n$josefa/f/id=b1720.23-per1
+478: 
+479:             pai$manuel rodrigues fuseiro/id=b1720.23-per1-per2
+480:                ls$residencia/casal da lajem
+481:                ls$naturalidade/casal da lajem
+482: 
+483:             mae$luisa francisca/id=b1720.23-per1-per3
+484:                ls$naturalidade/marachao, freguesia de figueiro do campo
+485: 
+486:             pad$manuel da costa/id=bpad27031720
+487:                ls$residencia/cavaleiros
+488: 
+489:             mad$catarina francisca/id=b1720.23-per4
+490:                rel$parentesco/mulher/manuel da costa/bpad27031720
+491: 
+492:       bap$b1720.24/27/3/1720/?/igreja de s. tiago
+493: 
 494: bap$b1720.24
+494:          n$angelo/m/id=b1720.24-per1
+495:             ls$ilegitimo/sim
+496: 
+497:             mae$catarina/id=b1720.24-per1-per2
+498:                ls$ec/s
+499:                ls$residencia/pinheiro
+500:                ls$naturalidade/pinheiro
+501: 
+502:                pmae$manuel vaz/id=b1720.24-per1-per3
+503:                   ls$residencia/pinheiro
+504: 
+505:             pad$tome velho/id=bpad27031720b
+506:                ls$residencia/soure
+507: 
+508:             mad$ana maria/id=b1720.24-per4
+509:                ls$ec/s
+510:                rel$parentesco/filha/tome velho/bpad27031720b
+511: 
+512:       bap$b1720.25/3/4/1720/?/igreja de s. tiago
+513: 
 514: bap$b1720.25
+514:          n$dionisio/m/id=b1720.25-per1
+515: 
+516:             pai$joao antunes/id=b1720.25-per1-per2
+517:                ls$residencia/casal das galinhas
+518:                ls$naturalidade/casal das galinhas
+519: 
+520:             mae$catarina francisca/id=b1720.25-per1-per3
+521:                ls$naturalidade/cavaleiros
+522: 
+523:             pad$manuel coelho pinto/id=b1720.25-per4
+524:                ls$residencia/loreto, extra muros da cidade de coimbra
+525:                ls$freguesia/coimbra ?
+526: 
+527:             mad$antonia jorge/id=b1720.25-per5
+528: 
+529:                mrmad$joao pereira/id=b1720.25-per6
+530:                   ls$residencia/casal de galinhas
+531: 
+532:       bap$b1720.26/7/4/1720/?/igreja de s. tiago
+533: 
 534: bap$b1720.26
+534:          n$josefa/f/id=b1720.26-per1
+535: 
+536:             pai$jose rodrigues/id=b1720.26-per1-per2
+537:                ls$residencia/casais de s.mateus
+538:                ls$naturalidade/casais de s.mateus
+539: 
+540:             mae$isabel rodrigues/id=b1720.26-per1-per3
+541:                ls$naturalidade/casais de s.mateus
+542: 
+543:             pad$jose pereira/id=bpad07041720
+544:                ls$residencia/casais de s.mateus
+545:                ls$ec/s
+546: 
+547:             mad$catarina/f/id=b1720.26-per4
+548:                rel$parentesco/irma/jose pereira/bpad07041720
+549: 
+550:       bap$b1720.27/14/4/1720/?/igreja de s. tiago
+551: 
 552: bap$b1720.27
+552:          n$manuel/m/id=bn14041720
+553: 
+554:             pai$joao domingues/id=bn14041720-per1
+555:                ls$residencia/casconho
+556:                ls$naturalidade/casconho
+557: 
+558:             mae$maria martins/id=bn14041720-per2
+559:                ls$naturalidade/porto coelheiro
+560: 
+561:             pad$manuel joao/id=b1720.27-per3
+562:                ls$residencia/casconho
+563: 
+564:             mad$luzia/id=b1720.27-per4
+565:                ls$ec/s
+566: 
+567:                pmad$simao duarte/id=b1720.27-per5
+568:                   ls$residencia/porto coelheiro
+569: 
+570:             referido$manuel domingues/id=br14041720
+571:                ls$residencia/casconho
+572:                rel$parentesco/avo/manuel/bn14041720
+573:                rel$sociabilidade/baptisou em necessidade/manuel/bn14041720
+574: 
+575:       bap$b1720.28/14/4/1720/?/igreja de s. tiago
+576: 
 577: bap$b1720.28
+577:          n$jose/m/id=bn14041720b
+578: 
+579:             pai$jose antunes/id=bn14041720b-per1
+580:                ls$residencia/alencarce de cima
+581:                ls$naturalidade/alencarce de cima
+582: 
+583:             mae$maria antunes/id=bn14041720b-per2
+584:                ls$naturalidade/alencarce de cima
+585: 
+586:             pad$manuel martins/id=b1720.28-per3
+587:                ls$residencia/cascao
+588: 
+589:             mad$francisca da conceicao/id=b1720.28-per4
+590:                ls$residencia/alencarce de cima
+591: 
+592:                mrmad$jose gomes/id=b1720.28-per5
+593:                   rel$sociabilidade/baptisou em necessidade/jose/bn14041720b
+594: 
+595:       bap$b1720.29/14/4/1720/?/igreja de s. tiago
+596: 
 597: bap$b1720.29
+597:          n$maria/f/id=b1720.29-per1
+598: 
+599:             pai$sebastiao marques/id=b1720.29-per1-per2
+600:                ls$residencia/fatacos
+601:                ls$naturalidade/s.martinho da arvore, freguesia de s.martinho da arvore
+602: 
+603:             mae$maria ferreira/id=b1720.29-per1-per3
+604:                ls$naturalidade/fatacos
+605: 
+606:             pad$joao da costa de vasconcelos/id=b1720.29-per4
+607:                ls$residencia/soure
+608: 
+609:             mad$maria joao/id=b1720.29-per5
+610: 
+611:                mrmad$manuel ferreira/id=b1720.29-per6
+612:                   ls$residencia/fatacos
+613: 
+614:       bap$b1720.30/15/4/1720/?/igreja de s. tiago
+615: 
 616: bap$b1720.30
+616:          n$antonia/f/id=b1720.30-per1
+617: 
+618:             pai$tome dias/id=b1720.30-per1-per2
+619:                ls$residencia/bonitos
+620:                ls$naturalidade/casais da misericordia
+621: 
+622:             mae$maria de oliveira/id=b1720.30-per1-per3
+623:                ls$naturalidade/bonitos
+624: 
+625:             pad$antonio manhos de abreu/id=b1720.30-per4
+626:                ls$nome/antonio de abreu
+627:                ls$titulo/doutor
+628:                ls$residencia/soure
+629: 
+630:             mad$catarina francisca/id=b1720.30-per5
+631: 
+632:                mrmad$diogo francisco/id=b1720.30-per6
+633:                   ls$residencia/moinhos dos simoes
+634: 
+635:       bap$b1720.31/21/4/1720/?/igreja de s. tiago
+636: 
 637: bap$b1720.31
+637:          n$rodrigo/m/id=b1720.31-per1
+638: 
+639:             pai$antonio goncalves/id=b1720.31-per1-per2
+640:                ls$residencia/casal dos cavaleiros
+641:                ls$naturalidade/alencarce de baixo
+642: 
+643:             mae$maria simoes/id=b1720.31-per1-per3
+644:                ls$naturalidade/casal dos cavaleiros
+645: 
+646:             pad$rodrigo homem de quadros/id=b1720.31-per4/xmesmo_que=c6-7-rod
+647: 
+648:             mad$josefa de azevedo/id=b1720.31-per5
+649:                ls$ec/s
+650: 
+651:             referido$francisco marques/id=b1720.31-per6
+652:                ls$profissao/padre
+653:                rel$sociabilidade/procurador em baptismo/rodrigo homem de quadros/b1720.31-per4
+654: 
+655:             referido$pedro da silva/id=br21041720
+656:                ls$ec/s
+657:                rel$sociabilidade/procurador em baptismo/josefa de azevedo/c6-7-josa
+658: 
+659:       bap$b1720.32/28/4/1720/?/igreja de s. tiago
+660: 
 661: bap$b1720.32
+661:          n$sebastiao/m/id=b1720.32-per1
+662: 
+663:             pai$manuel rodrigues/id=b1720.32-per1-per2
+664:                ls$residencia/alencarce de cima
+665:                ls$naturalidade/alencarce de cima
+666: 
+667:             mae$maria joao/id=b1720.32-per1-per3
+668:                ls$naturalidade/alencarce de cima
+669: 
+670:             pad$manuel simoes/id=b1720.32-per4
+671:                ls$residencia/podengos
+672: 
+673:             mad$esperanca da conceicao/id=b1720.32-per5
+674: 
+675:                mrmad$manuel antunes/id=b1720.32-per6
+676:                   ls$alcunha/moco
+677:                   ls$residencia/casal do espirito santo
+678: 
+679:       bap$b1720.33/28/4/1720/?/igreja de s. tiago
+680: 
 681: bap$b1720.33
+681:          n$rosa/f/id=b1720.33-per1
+682: 
+683:             pai$joao domingues/id=b1720.33-per1-per2
+684:                ls$residencia/paleao
+685:                ls$naturalidade/paleao
+686: 
+687:             mae$maria leao/id=b1720.33-per1-per3
+688:                ls$naturalidade/paleao
+689: 
+690:             pad$manuel domingues/id=b1720.33-per4
+691:                ls$ec/s
+692:                ls$residencia/sobrado
+693: 
+694:             mad$rosa/id=b1720.33-per5
+695:                ls$ec/s
+696:                ls$residencia/sobrado
+697: 
+698:                pmad$antonio gomes/id=b1720.33-per6
+699: 
+700:       bap$b1720.34/1/5/1720/?/igreja de s. tiago
+701: 
 702: bap$b1720.34
+702:          n$lourenco/m/id=b1720.34-per1
+703: 
+704:             pai$antonio goncalves ventura/id=b1720.34-per1-per2
+705:                ls$residencia/casal da corujeira
+706:                ls$naturalidade/casal da corujeira
+707: 
+708:             mae$maria da silva/id=b1720.34-per1-per3
+709:                ls$naturalidade/netos, freguesia da redinha
+710: 
+711:             pad$lourenco rodrigues/id=b1720.34-per4
+712:                ls$residencia/quinta do cano
+713: 
+714:             mad$maria/id=b1720.34-per5
+715:                ls$ec/s
+716:                ls$residencia/barril
+717: 
+718:                pmad$domingos da gante/id=b1720.34-per6
+719: 
+720:       bap$b1720.35/2/5/1720/?/igreja de s. tiago
+721: 
 722: bap$b1720.35
+722:          n$luis/m/id=bn02051720
+723: 
+724:             pai$manuel rodrigues/id=bpai02051720
+725:                ls$residencia/casal da fonte do espirito santo
+726:                ls$naturalidade/casal de eureca
+727: 
+728:             mae$maria ferreira/id=bmae02051720
+729:                ls$naturalidade/pousafoles, freguesia de lamas
+730: 
+731:             pad$diogo cordeiro/id=bpad02051720
+732:                ls$cargo/almoxarife de vila nova de ancos
+733: 
+734:             mad$serafina ferreira/id=bmad02051720
+735:                ls$residencia/casal do senhor
+736: 
+737:                mrmad$manuel pereira/id=b1720.35-per1
+738: 
+739:             referido$luis soares coelho/id=b502051720b
+740:                ls$profissao/padre
+741:                rel$sociabilidade/procurador em baptismo/diogo cordeiro/bpad02051720
+742: 
+743:             referido$manuel rodrigues centeio/id=br02051720
+744:                rel$sociabilidade/baptisou em necessidade/luis/bn02051720
+745: 
+746:       bap$b1720.36/2/5/1720/?/igreja de s. tiago
+747: 
 748: bap$b1720.36
+748:          n$maria/f/id=b1720.36-per1
+749:             rel$parentesco/irma gemea/luis/bn02051720
+750: 
+751:             pai$manuel rodrigues/mesmo_que=bpai02051720/id=b1720.36-per1-per2
+752:                ls$residencia/casal da fonte do espirito santo
+753:                ls$naturalidade/casal de eureca
+754: 
+755:             mae$maria ferreira/mesmo_que=bmae02051720/id=b1720.36-per1-per3
+756:                ls$naturalidade/pousafoles, freguesia de lamas
+757: 
+758:             pad$vicente colaco de morais/id=b1720.36-per4
+759:                ls$residencia/soure
+760: 
+761:             mad$damiana colaco/id=b1720.36-per5
+762: 
+763:       bap$b1720.37/9/5/1720/?/igreja de s. tiago
+764: 
 765: bap$b1720.37
+765:          n$maria/f/id=b1720.37-per1
+766: 
+767:             pai$antonio aires/id=b1720.37-per1-per2
+768:                ls$residencia/paleao
+769:                ls$naturalidade/paleao
+770: 
+771:             mae$josefa de oliveira/id=b1720.37-per1-per3
+772:                ls$naturalidade/condeixa-a-velha, freguesia de condeixa-a-velha
+773: 
+774:             pad$manuel rodrigues branco/id=b1720.37-per4
+775:                ls$residencia/paleao
+776: 
+777:             mad$isabel/id=b1720.37-per5
+778:                ls$ec/s
+779: 
+780:                pmad$antonio mendes/id=b1720.37-per6
+781:                   ls$residencia/paleao
+782: 
+783:       bap$b1720.38/9/5/1720/?/igreja de s. tiago
+784: 
 785: bap$b1720.38
+785:          n$maria/f/id=b1720.38-per1
+786: 
+787:             pai$andre domingues/id=b1720.38-per1-per2
+788:                ls$residencia/casa velha
+789:                ls$naturalidade/casais de montais
+790: 
+791:             mae$maria jorge/id=b1720.38-per1-per3
+792:                ls$naturalidade/casa velha
+793: 
+794:             pad$jose luis/id=b1720.38-per4
+795:                ls$residencia/casa velha
+796: 
+797:             mad$maria/id=b1720.38-per5
+798:                ls$ec/s
+799: 
+800:                pmad$manuel bras/id=b1720.38-per6
+801:                   ls$residencia/casa velha
+802: 
+803:       bap$b1720.39/9/5/1720/?/igreja de s. tiago
+804: 
 805: bap$b1720.39
+805:          n$anastasia/f/id=b1720.39-per1
+806: 
+807:             pai$eduardo nogueira/id=b1720.39-per1-per2
+808:                ls$residencia/soure
+809:                ls$naturalidade/lisboa, freguesia de alecrim
+810: 
+811:             mae$ermosina teresa de magalhaes/id=b1720.39-per1-per3
+812:                ls$naturalidade/braga, freguesia de ?
+813: 
+814:             pad$domingos goncalves galhardo/id=b1720.39-per4
+815:                ls$titulo/licenciado
+816: 
+817:             mad$luisa/id=bmad09051720
+818:                ls$titulo/dona
+819:                ls$ec/s
+820: 
+821:                mmad$ana/id=b1720.39-per5
+822:                   ls$ec/v
+823:                   ls$titulo/dona
+824: 
+825:             referido$manuel rodrigues/id=b1720.39-per6
+826:                rel$sociabilidade/procurador em baptismo/luisa/bmad09051720
+827:                ls$profissao/padre
+828: 
+829:       bap$b1720.40/17/5/1720/?/igreja de s. tiago
+830: 
 831: bap$b1720.40
+831:          n$jose/m/id=b1720.40-per1
+832: 
+833:             pai$sebastiao goncalves/id=b1720.40-per1-per2
+834:                ls$residencia/soure
+835:                ls$naturalidade/soure
+836: 
+837:             mae$maria carvalho/id=bmae17051720
+838:                ls$naturalidade/casal dos barrosos
+839: 
+840:             pad$filipe carvalho/id=b1720.40-per3
+841:                ls$residencia/soure
+842:                rel$parentesco/irmao/maria carvalho/bmae17051720
+843: 
+844:             mad$catarina/id=b1720.40-per4
+845:                ls$ec/s
+846:                rel$parentesco/irma/maria carvalho/bmae17051720
+847: 
+848:       bap$b1720.41/30/5/1720/?/igreja de s. tiago
+849: 
 850: bap$b1720.41
+850:          n$maria/f/id=b1720.41-per1
+851: 
+852:             pai$manuel simoes galhardo/id=b1720.41-per1-per2
+853:                ls$alcunha/moco
+854:                ls$residencia/sobral
+855:                ls$naturalidade/sobral
+856: 
+857:             mae$ines rodrigues/id=b1720.41-per1-per3
+858:                ls$naturalidade/sobral
+859: 
+860:             pad$joao/id=b1720.41-per4
+861:                ls$profissao/estudante
+862:                ls$ec/s
+863: 
+864:                ppad$manuel simoes galhardo/id=b1720.41-per5
+865:                   ls$residencia/sobral
+866: 
+867:             mad$maria/id=b1720.41-per6
+868:                ls$ec/s
+869: 
+870:                pmad$manuel jorge/id=b1720.41-per7
+871:                   ls$residencia/sobral
+872: 
+873:       bap$b1720.42/2/6/1720/?/igreja de s. tiago
+874: 
 875: bap$b1720.42
+875:          n$jose/m/id=b1720.42-per1
+876: 
+877:             pai$domingos marques/id=b1720.42-per1-per2
+878:                ls$residencia/moinhos novos
+879:                ls$naturalidade/paleao
+880: 
+881:             mae$antonia simoes/id=b1720.42-per1-per3
+882:                ls$naturalidade/casal e prazo do paul#junto do mesmo lugar [paleao]
+883: 
+884:             pad$manuel duarte/id=b1720.42-per4
+885: 
+886:             mad$isabel cardoso/id=b1720.42-per5
+887:                ls$residencia/porto panelas
+888:                ls$ec/s
+889: 
+890:       bap$b1720.43/9/6/1720/?/igreja de s. tiago
+891: 
 892: bap$b1720.43
+892:          n$manuel/m/id=b1720.43-per1
+893: 
+894:             pai$antonio pereira/id=b1720.43-per1-per2
+895:                ls$residencia/casal das brancas
+896:                ls$naturalidade/casal das brancas
+897: 
+898:             mae$catarina simoes/id=b1720.43-per1-per3
+899:                ls$naturalidade/casal dos cavaleiros
+900: 
+901:             pad$manuel vaz/id=b1720.43-per4
+902:                ls$residencia/casal das brancas
+903: 
+904:             mad$francisca/id=b1720.43-per5
+905:                ls$ec/s
+906: 
+907:                pmad$francisco simoes/id=b1720.43-per6
+908:                   ls$residencia/casal dos cavaleiros
+909: 
+910:       bap$b1720.44/9/6/1720/?/igreja de s. tiago
+911: 
 912: bap$b1720.44
+912:          n$helena/f/id=b1720.44-per1
+913: 
+914:             pai$manuel fernandes/id=b1720.44-per1-per2
+915:                ls$residencia/casa velha
+916:                ls$naturalidade/casal da ribeira de carnide, freguesia do lourical
+917: 
+918:             mae$isabel pereira/id=b1720.44-per1-per3
+919:                ls$naturalidade/casa velha
+920: 
+921:             pad$joao simoes/id=b1720.44-per4
+922:                ls$ec/s
+923:                ls$residencia/casa velha
+924: 
+925:             mad$helena pereira/id=b1720.44-per5
+926:                ls$ec/s
+927:                ls$residencia/casa velha
+928: 
+929:       bap$b1720.45/11/6/1720/?/igreja de s. tiago
+930: 
 931: bap$b1720.45
+931:          n$maria/f/id=bn11061720
+932: 
+933:             pai$domingos jorge/id=bn11061720-per1
+934:                ls$residencia/soure
+935:                ls$naturalidade/degracias, freguesia de degracias
+936: 
+937:             mae$madalena rodrigues/id=bn11061720-per2
+938:                ls$naturalidade/soure
+939: 
+940:             pad$joao cristovao/id=b1720.45-per3
+941:                ls$profissao/padre
+942: 
+943:             mad$catarina/id=b1720.45-per4
+944:                ls$ec/s
+945: 
+946:                pmad$antonio goncalves de passo/id=b1720.45-per5
+947:                   ls$residencia/soure
+948: 
+949:             referido$manuel goncalves vargas/id=br11061720
+950:                ls$residencia/soure
+951:                rel$sociabilidade/baptisou em necessidade/maria/bn11061720
+952: 
+953:       bap$b1720.46/16/6/1720/?/igreja de s. tiago
+954: 
 955: bap$b1720.46
+955:          n$manuel/m/id=b1720.46-per1
+956: 
+957:             pai$sebastiao dinis/id=b1720.46-per1-per2
+958:                ls$residencia/casal das areias
+959:                ls$naturalidade/casal das areias
+960: 
+961:             mae$antonia simoes/id=b1720.46-per1-per3
+962:                ls$naturalidade/casal da lajem
+963: 
+964:             pad$sebastiao ferreira/id=b1720.46-per4
+965:                ls$residencia/casal das areias
+966:                ls$profissao/padre
+967: 
+968:             mad$francisca rodrigues/id=b1720.46-per5
+969: 
+970:                mrmad$domingos joao/id=b1720.46-per6
+971:                   ls$residencia/alencarce de baixo
+972: 
+973:       bap$b1720.47/16/6/1720/?/igreja de s. tiago
+974: 
 975: bap$b1720.47
+975:          n$teresa/f/id=b1720.47-per1
+976: 
+977:             pai$manuel joao/id=b1720.47-per1-per2
+978:                ls$residencia/casconho
+979:                ls$naturalidade/quinta de porto coelheiro
+980: 
+981:             mae$filipa joao/id=b1720.47-per1-per3
+982:                ls$naturalidade/quinta de porto coelheiro
+983: 
+984:             pad$domingos lourenco/id=b1720.47-per4
+985:                ls$residencia/casconho
+986: 
+987:             mad$ana/id=b1720.47-per5
+988:                ls$ec/s
+989: 
+990:                pmad$pedro francisco/id=b1720.47-per6
+991:                   ls$residencia/casconho
+992: 
+993:       bap$b1720.48/17/6/1720/?/igreja de s. tiago/obs=sem madrinha
+994: 
 995: bap$b1720.48
+995:          n$luisa/f/id=b1720.48-per1
+996: 
+997:             pai$joao da cunha/id=b1720.48-per1-per2
+998:                ls$residencia/sobral
+999:                ls$naturalidade/sobral
+1000: 
+1001:             mae$luisa maria/id=b1720.48-per1-per3
+1002:                ls$naturalidade/sobral
+1003: 
+1004:             pad$joao ribeiro/id=bpad17061720
+1005:                ls$residencia/redinha, freguesia da redinha
+1006:                ls$freguesia/redinha
+1007: 
+1008:             referido$manuel duarte/id=b1720.48-per4
+1009:                ls$profissao/padre
+1010:                rel$sociabilidade/procurador em baptismo/joao ribeiro/bpad17061720
+1011: 
+1012:       bap$b1720.49/23/6/1720/?/igreja de s. tiago
+1013: 
 1014: bap$b1720.49
+1014:          n$manuel/m/id=bn23061720
+1015: 
+1016:             pai$manuel mendes/id=bn23061720-per1
+1017:                ls$residencia/casal dos fatacos
+1018:                ls$naturalidade/casal dos fatacos
+1019: 
+1020:             mae$isabel goncalves/id=bn23061720-per2
+1021:                ls$naturalidade/casal da portela
+1022: 
+1023:             pad$manuel/id=b1720.49-per3
+1024:                ls$ec/s
+1025: 
+1026:                ppad$domingos simoes/id=b1720.49-per4
+1027:                   ls$residencia/casal do marco, freguesia da ega
+1028:                   ls$freguesia/ega
+1029: 
+1030:             referida$maria ferreira/id=br23061720
+1031:                rel$sociabilidade/baptisou em necessidade/manuel/bn23061720
+1032:                rel$parentesco/mulher/sebastiao marques/br23061720b
+1033: 
+1034:             referido$sebastiao marques/id=br23061720b
+1035: 
+1036:       bap$b1720.50/30/6/1720/?/igreja de s. tiago/obs=baptizada em necessidade pelo padrinho
+1037: 
 1038: bap$b1720.50
+1038:          n$joao/m/id=b1720.50-per1
+1039: 
+1040:             pai$manuel fernandes/id=b1720.50-per1-per2
+1041:                ls$residencia/casal dos casalinhos
+1042:                ls$naturalidade/casal da venda
+1043: 
+1044:             mae$isabel gomes/id=b1720.50-per1-per3
+1045:                ls$naturalidade/casal dos casalinhos
+1046: 
+1047:             pad$jose gomes/id=b1720.50-per4
+1048:                ls$residencia/casal da venda
+1049:                ls$profissao/estudante
+1050: 
+1051:             mad$maria francisca/id=b1720.50-per5
+1052: 
+1053:                mrmad$manuel simoes/id=b1720.50-per6
+1054:                   ls$residencia/casal dos casalinhos
+1055: 
+1056:       bap$b1720.51/14/7/1720/?/igreja de s. tiago
+1057: 
 1058: bap$b1720.51
+1058:          n$manuel/m/id=b1720.51-per1
+1059: 
+1060:             pai$manuel da costa/id=b1720.51-per1-per2
+1061:                ls$residencia/casa velha
+1062:                ls$naturalidade/carregosa, freguesia da gesteira
+1063: 
+1064:             mae$antonia goncalves/id=b1720.51-per1-per3
+1065:                ls$naturalidade/casa velha
+1066: 
+1067:             pad$manuel/id=b1720.51-per4
+1068:                ls$ec/s
+1069: 
+1070:                mpad$maria da costa/id=b1720.51-per5
+1071:                   ls$ec/v
+1072:                   ls$residencia/casa velha
+1073: 
+1074:             mad$mizia rodrigues/id=b1720.51-per6
+1075: 
+1076:                mrmad$manuel lopes/id=b1720.51-per7
+1077:                   ls$residencia/casa velha
+1078: 
+1079:       bap$b1720.52/17/7/1720/?/igreja de s. tiago/obs=visto em visita em 18 de julho de 1720. Sampaio
+1080: 
 1081: bap$b1720.52
+1081:          n$maria/f/id=b1720.52-per1
+1082: 
+1083:             pai$jacinto da silva/id=b1720.52-per1-per2
+1084:                ls$residencia/soure
+1085:                ls$naturalidade/lourical, freguesia do lourical
+1086: 
+1087:             mae$maria pereira/id=b1720.52-per1-per3
+1088:                ls$naturalidade/soure
+1089: 
+1090:             pad$jose da costa/id=bpad17071720
+1091:                ls$residencia/soure
+1092: 
+1093:             mad$leonarda texeira/id=b1720.52-per4
+1094:                rel$parentesco/mulher/jose da costa/bpad17071720
+1095: 
+1096:       bap$b1720.53/21/7/1720/?/igreja de s. tiago
+1097: 
 1098: bap$b1720.53
+1098:          n$maria/f/id=b1720.53-per1
+1099: 
+1100:             pai$jose madeira/id=b1720.53-per1-per2
+1101:                ls$residencia/alencarce
+1102:                ls$naturalidade/alencarce
+1103: 
+1104:             mae$isabel madeira/id=b1720.53-per1-per3
+1105:                ls$naturalidade/alencarce
+1106: 
+1107:             pad$domingos/id=b1720.53-per4
+1108:                ls$ec/s
+1109: 
+1110:                ppad$manuel madeira/id=b1720.53-per5
+1111:                   ls$residencia/alencarce
+1112: 
+1113:             mad$maria/id=b1720.53-per6
+1114:                ls$ec/s
+1115: 
+1116:                mmad$maria joao/id=b1720.53-per7
+1117:                   ls$ec/v
+1118:                   ls$residencia/cascao
+1119: 
+1120:       bap$b1720.54/21/7/1720/?/igreja de s. tiago/obs=baptizado em necessidade pelo padrinho
+1121: 
 1122: bap$b1720.54
+1122:          n$manuel/m/id=b1720.54-per1
+1123:             ls$ilegitimo/sim
+1124: 
+1125:             mae$esperanca dos santos/id=b1720.54-per1-per2
+1126:                ls$ec/v
+1127:                ls$naturalidade/venda nova
+1128:                ls$residencia/casal dos delgados
+1129: 
+1130:             pad$domingos joao palaio/id=b1720.54-per3
+1131:                ls$residencia/casal dos delgados
+1132: 
+1133:             mad$maria goncalves/id=b1720.54-per4
+1134: 
+1135:                mrmad$mateus carvalho/id=b1720.54-per5
+1136:                   ls$residencia/mogadouro
+1137: 
+1138:       bap$b1720.55/29/7/1720/?/igreja de s. tiago
+1139: 
 1140: bap$b1720.55
+1140:          n$maria/f/id=b1720.55-per1
+1141:             ls$enjeitado/sim/obs=que achou `a porta de manuel goncalves vargas desta vila de soure com um escrito de letra desconhecida em que dizia a principio que nao fora bnaptizada e no fim que fora baptizada.
+1142: 
+1143:             pad$joao de barros/id=b1720.55-per2
+1144:                ls$cargo/alcaide
+1145: 
+1146:             mad$ana pereira/id=b1720.55-per3
+1147:                ls$residencia/soure
+1148: 
+1149:       bap$b1720.56/31/7/1720/?/igreja de s. tiago
+1150: 
 1151: bap$b1720.56
+1151:          n$inacio/m/id=b1720.56-per1
+1152: 
+1153:             pai$antonio alvares ribeiro/id=b1720.56-per1-per2
+1154:                ls$residencia/soure
+1155:                ls$naturalidade/farroeira, freguesia de pucos
+1156: 
+1157:             mae$maria dos santos/id=b1720.56-per1-per3
+1158:                ls$naturalidade/soure
+1159: 
+1160:             pad$joao dos santos/id=b1720.56-per4
+1161:                ls$profissao/padre
+1162:                ls$cargo/vigario de tapeus
+1163: 
+1164:             mad$ana de mendonca/id=b1720.56-per5
+1165: 
+1166:                mrmad$antonio dos santos/id=b1720.56-per6
+1167:                   ls$residencia/soure
+1168: 
+1169:       bap$b1720.57/31/7/1720/?/igreja de s. tiago
+1170: 
 1171: bap$b1720.57
+1171:          n$luis/m/id=b1720.57-per1
+1172: 
+1173:             pai$joao simoes/id=b1720.57-per1-per2
+1174:                ls$residencia/sobral
+1175:                ls$naturalidade/sobral
+1176: 
+1177:             mae$catarina rodrigues/id=b1720.57-per1-per3
+1178:                ls$naturalidade/sobral
+1179: 
+1180:             pad$luis de seabra jacques/id=b1720.57-per4
+1181:                ls$titulo/licenciado
+1182:                rel$parentesco/irmao/luisa/bmad31071720
+1183: 
+1184:             mad$luisa/id=bmad31071720
+1185:                ls$ec/s
+1186: 
+1187:       bap$b1720.58/3/8/1720/?/igreja de s. tiago/obs=sem madrinha
+1188: 
 1189: bap$b1720.58
+1189:          n$jose/m/id=bn03081720
+1190: 
+1191:             pai$joao da costa de vasconcelos/id=bn03081720-per1
+1192:                ls$residencia/soure
+1193:                ls$naturalidade/soure
+1194: 
+1195:             mae$isabel florenca/id=bn03081720-per2
+1196:                ls$naturalidade/quinta da granja, freguesia de almoster, bispado de lisboa
+1197: 
+1198:             pad$jacinto da costa de vasconcelos/id=b1720.58-per3
+1199:                ls$titulo/doutor
+1200:                rel$parentesco/irmao/jose/bn03081720
+1201: 
+1202:       bap$b1720.59/4/8/1720/?/igreja de s. tiago
+1203: 
 1204: bap$b1720.59
+1204:          n$jose/m/id=bn04081720
+1205: 
+1206:             pai$joao rodrigues/id=bn04081720-per1
+1207:                ls$residencia/paleao
+1208:                ls$naturalidade/moinhos da figueirinha, freguesia da redinha
+1209: 
+1210:             mae$ascensa carvalho/id=bn04081720-per2
+1211:                ls$naturalidade/rodao, freguesia de condeixa-a-nova
+1212: 
+1213:             pad$jose mateus/id=bpad04081720
+1214:                ls$residencia/paleao
+1215: 
+1216:             mad$antonia joao/id=b1720.59-per3
+1217:                rel$parentesco/mulher/jose mateus/bpad04081720
+1218: 
+1219:             referido$antonia carvalho/id=br04081720
+1220:                rel$sociabilidade/procurador em baptismo/jose/bn04081720
+1221:                rel$parentesco/mulher/miguel ferreira/br04081720b
+1222: 
+1223:             referido$miguel ferreira/id=br04081720b
+1224: 
+1225:       bap$b1720.60/4/8/1720/?/igreja de s. tiago
+1226: 
 1227: bap$b1720.60
+1227:          n$joana/f/id=b1720.60-per1
+1228: 
+1229:             pai$jose rodrigues/id=b1720.60-per1-per2
+1230:                ls$residencia/casa velha
+1231:                ls$naturalidade/casa velha
+1232: 
+1233:             mae$josefa do espirito santo/id=b1720.60-per1-per3
+1234:                ls$naturalidade/casa velha
+1235: 
+1236:             pad$manuel jorge/id=b1720.60-per4
+1237:                ls$ec/s
+1238:                ls$residencia/casa velha
+1239: 
+1240:             mad$joana do espirito santo/id=b1720.60-per5
+1241: 
+1242:                mrmad$francisco pereira/id=b1720.60-per6
+1243:                   ls$residencia/soure
+1244: 
+1245:       bap$b1720.61/12/8/1720/?/igreja de s. tiago
+1246: 
 1247: bap$b1720.61
+1247:          n$isabel/f/id=b1720.61-per1
+1248: 
+1249:             pai$joao luis/id=b1720.61-per1-per2
+1250:                ls$residencia/vale da borra
+1251:                ls$naturalidade/casais de s.mateus
+1252: 
+1253:             mae$francisca rodrigues/id=b1720.61-per1-per3
+1254:                ls$naturalidade/vale da borra
+1255: 
+1256:             pad$joao simoes/id=b1720.61-per4
+1257:                ls$residencia/vale da borra
+1258: 
+1259:             mad$isabel/id=b1720.61-per5
+1260:                ls$ec/s
+1261:                ls$residencia/vale da borra
+1262: 
+1263:                pmad$joao gomes carrasco/id=b1720.61-per6
+1264:                   ls$morto/antes
+1265: 
+1266:       bap$b1720.62/25/8/1720/?/igreja de s. tiago
+1267: 
 1268: bap$b1720.62
+1268:          n$manuel/m/id=bn25081720
+1269: 
+1270:             pai$manuel francisco/id=bn25081720-per1
+1271:                ls$residencia/simoes
+1272:                ls$naturalidade/simoes
+1273: 
+1274:             mae$antonia francisca/id=bn25081720-per2
+1275:                ls$naturalidade/casal dos delgados
+1276: 
+1277:             pad$manuel goncalves branco/id=b1720.62-per3
+1278:                ls$alcunha/velho
+1279:                ls$residencia/mogadouro
+1280: 
+1281:             mad$domingas/id=b1720.62-per4
+1282:                ls$ec/s
+1283: 
+1284:                pmad$francisco joao/id=b1720.62-per5
+1285:                   ls$residencia/casal dos delgados
+1286: 
+1287:             referida$maria francisca/id=br25081720
+1288:                ls$ec/v
+1289:                ls$residencia/simoes
+1290:                rel$sociabilidade/baptisou em necessidade/manuel/bn25081720
+1291: 
+1292:       bap$b1720.63/1/9/1720/?/igreja de s. tiago
+1293: 
 1294: bap$b1720.63
+1294:          n$antonia/f/id=b1720.63-per1
+1295: 
+1296:             pai$manuel domingues/id=b1720.63-per1-per2
+1297:                ls$residencia/casal da quinta da telhada
+1298:                ls$naturalidade/casal de eureca
+1299: 
+1300:             mae$maria madeira/id=b1720.63-per1-per3
+1301:                ls$naturalidade/casal da quinta da telhada
+1302: 
+1303:             pad$mateus/id=b1720.63-per4
+1304:                ls$ec/s
+1305: 
+1306:                ppad$manuel domingues/id=b1720.63-per5
+1307:                   ls$residencia/casal de eureca
+1308: 
+1309:             mad$maria tome/id=b1720.63-per6
+1310: 
+1311:                mrmad$manuel rodrigues centeio/id=b1720.63-per7
+1312:                   ls$residencia/casal da charneca
+1313: 
+1314:       bap$b1720.64/4/9/1720/?/igreja de s. tiago
+1315: 
 1316: bap$b1720.64
+1316:          n$tomas/m/id=bn04091720
+1317: 
+1318:             pai$joao henriques/id=bn04091720-per1
+1319:                ls$residencia/soure
+1320:                ls$naturalidade/soure
+1321: 
+1322:             mae$angela pereira/id=bn04091720-per2
+1323:                ls$naturalidade/casa velha
+1324: 
+1325:             pad$rodrigo homem de quadros/id=b1720.64-per3
+1326:                ls$residencia/soure
+1327: 
+1328:             mad$teresa/id=b1720.64-per4
+1329:                ls$titulo/dona
+1330:                ls$ec/s
+1331:                ls$residencia/vinha da rainha, freguesia de vinha da rainha
+1332:                ls$freguesia/vinha da rainha
+1333: 
+1334:                pmad$jose henriques cavaco/id=b1720.64-per5
+1335:                   ls$cargo/desembargador
+1336:                   ls$residencia/vinha da rainha, freguesia de vinha da rainha
+1337:                   ls$freguesia/vinha da rainha
+1338: 
+1339:             referido$manuel dos anjos/id=br04091720
+1340:                ls$titulo/dom
+1341:                ls$profissao/padre
+1342:                ls$ordem/religioso de santa cruz de coimbra
+1343:                rel$sociabilidade/procurador em baptismo/tomas/bn04091720
+1344: 
+1345:       bap$b1720.65/2/9/1720/?/igreja de s. tiago/obs=data sic
+1346: 
 1347: bap$b1720.65
+1347:          n$luisa/f/id=b1720.65-per1
+1348:             ls$ilegitima/sim
+1349: 
+1350:             mae$filipa marques/id=b1720.65-per1-per2
+1351:                ls$ec/v
+1352:                ls$naturalidade/soure
+1353:                ls$residencia/soure
+1354: 
+1355:             pad$luis jose/id=b1720.65-per3
+1356:                ls$profissao/padre
+1357: 
+1358:                ppad$tome velho/id=bppad02091720
+1359:                   ls$residencia/soure
+1360: 
+1361:             mad$ana maria/id=b1720.65-per4
+1362:                rel$parentesco/filha/tome velho/bppad02091720
+1363:                ls$ec/s
+1364: 
+1365:       bap$b1720.66/9/9/1720/?/igreja de s. tiago
+1366: 
 1367: bap$b1720.66
+1367:          n$manuel/m/id=b1720.66-per1
+1368: 
+1369:             pai$joao de sequeira coelho/id=b1720.66-per1-per2
+1370:                ls$residencia/soure
+1371:                ls$naturalidade/soure
+1372: 
+1373:             mae$leogarda maria pessoa da silva/id=bmae09091720
+1374:                ls$naturalidade/soure
+1375: 
+1376:             pad$diogo ramires alemao/id=bpad09091720
+1377:                ls$residencia/lisboa, freguesia de ?
+1378: 
+1379:             mad$isabel margarida colaco pessoa/id=bmad09091720
+1380:                rel$parentesco/irma/leogarda maria pessoa da silva/bmae09091720
+1381: 
+1382:             referido$gabriel colaco/id=br09091720a
+1383:                ls$profissao/padre
+1384:                rel$sociabilidade/procurador em baptismo/diogo ramires alemao/bpad09091720
+1385: 
+1386:             referido$vicente colaco de morais/id=br09091720b
+1387:                rel$sociabilidade/procurador em baptismo/isabel margarida colaco pessoa/bmad09091720
+1388: 
+1389:       bap$b1720.67/10/9/1720/?/igreja de s. tiago
+1390: 
 1391: bap$b1720.67
+1391:          n$manuel/m/id=b1720.67-per1
+1392: 
+1393:             pai$antonio marques/id=b1720.67-per1-per2
+1394:                ls$residencia/casal dos barrosos
+1395:                ls$naturalidade/redinha, freguesia da redinha
+1396: 
+1397:             mae$maria rodrigues/id=b1720.67-per1-per3
+1398:                ls$naturalidade/casal dos barrosos
+1399: 
+1400:             pad$manuel goncalves branco/id=b1720.67-per4
+1401:                ls$alcunha/moco
+1402:                ls$residencia/mogadouro
+1403: 
+1404:             mad$ana rodrigues/id=b1720.67-per5
+1405:                ls$ec/s
+1406:                ls$residencia/casal dos barrosos
+1407: 
+1408:       bap$b1720.68/12/9/1720/?/igreja de s. tiago
+1409: 
 1410: bap$b1720.68
+1410:          n$luis/m/id=b1720.68-per1
+1411: 
+1412:             pai$jose goncalves/id=b1720.68-per1-per2
+1413:                ls$residencia/casal do espirito santo
+1414:                ls$naturalidade/gesteira, freguesia da gesteira
+1415: 
+1416:             mae$francisca goncalves/id=b1720.68-per1-per3
+1417:                ls$naturalidade/pereiro, freguesia do furadouro
+1418: 
+1419:             pad$manuel/id=b1720.68-per4
+1420:                ls$ec/s
+1421: 
+1422:                ppad$domingos jorge/id=b1720.68-per5
+1423:                   ls$residencia/pereiro, freguesia do furadouro
+1424:                   ls$freguesia/furadouro
+1425: 
+1426:             mad$mariana/id=b1720.68-per6
+1427:                ls$ec/s
+1428: 
+1429:                mmad$isabel francisca/id=b1720.68-per7
+1430:                   ls$residencia/casal do espirito santo
+1431:                   ls$morto/antes
+1432: 
+1433:       bap$b1720.69/25/9/1720/?/igreja de s. tiago
+1434: 
 1435: bap$b1720.69
+1435:          n$joao/m/id=b1720.69-per1
+1436: 
+1437:             pai$simao jorge/id=b1720.69-per1-per2
+1438:                ls$residencia/casal do malvado
+1439:                ls$naturalidade/cadaval, freguesia do furadouro
+1440: 
+1441:             mae$isabel jorge/id=b1720.69-per1-per3
+1442:                ls$naturalidade/casal do malvado
+1443: 
+1444:             pad$joao cristovao/id=b1720.69-per4
+1445:                ls$profissao/padre
+1446:                ls$titulo/frei
+1447:                ls$cargo/beneficiado na igreja de soure
+1448: 
+1449:             mad$maria/id=b1720.69-per5
+1450: 
+1451:                mmad$maria rodrigues/id=b1720.69-per6
+1452:                   ls$ec/v
+1453:                   ls$residencia/cascao
+1454: 
+1455:       bap$b1720.70/29/9/1720/?/igreja de s. tiago
+1456: 
 1457: bap$b1720.70
+1457:          n$teresa/f/id=b1720.70-per1
+1458: 
+1459:             pai$manuel carvalho/id=b1720.70-per1-per2
+1460:                ls$residencia/paleao
+1461:                ls$naturalidade/paleao
+1462: 
+1463:             mae$maria soares/id=b1720.70-per1-per3
+1464:                ls$naturalidade/urmar, freguesia de samuel
+1465: 
+1466:             pad$joao henriques/id=b1720.70-per4
+1467:                ls$residencia/soure
+1468: 
+1469:             mad$teresa/id=b1720.70-per5
+1470:                ls$ec/s
+1471: 
+1472:                pmad$manuel simoes/id=b1720.70-per6
+1473:                   ls$residencia/moinhos do paleao
+1474: 
+1475:       bap$b1720.71/29/9/1720/?/igreja de s. tiago
+1476: 
 1477: bap$b1720.71
+1477:          n$mateus/m/id=b1720.71-per1
+1478: 
+1479:             pai$manuel rodrigues/id=b1720.71-per1-per2
+1480:                ls$residencia/casal de alencarce de cima
+1481:                ls$naturalidade/casal de alencarce de cima
+1482: 
+1483:             mae$maria rodrigues/id=b1720.71-per1-per3
+1484:                ls$naturalidade/casal de alencarce de cima
+1485: 
+1486:             pad$mateus simoes/id=b1720.71-per4
+1487:                ls$residencia/alencarce de cima
+1488: 
+1489:             mad$antonia/id=b1720.71-per5
+1490:                ls$ec/s
+1491: 
+1492:                mmad$maria ferreira/id=b1720.71-per6
+1493:                   ls$ec/v
+1494:                   ls$residencia/alencarce de cima
+1495: 
+1496:       bap$b1720.72/5/10/1720/?/igreja de s. tiago
+1497: 
 1498: bap$b1720.72
+1498:          n$miguel/m/id=b1720.72-per1
+1499: 
+1500:             pai$joao rodrigues/id=b1720.72-per1-per2
+1501:                ls$residencia/sobral
+1502:                ls$naturalidade/sobral
+1503: 
+1504:             mae$josefa francisca/id=b1720.72-per1-per3
+1505:                ls$naturalidade/sobral
+1506: 
+1507:             pad$jose gomes/id=b1720.72-per4
+1508:                ls$profissao/estudante
+1509: 
+1510:                mpad$isabel francisca#viuva do joao gomes carrasco/id=b1720.72-per5
+1511:                   ls$ec/v
+1512:                   ls$residencia/casal da venda
+1513: 
+1514:             mad$maria francisca/id=b1720.72-per6
+1515: 
+1516:                mrmad$jose rodrigues pachancas/id=b1720.72-per7
+1517:                   ls$residencia/sobral
+1518: 
+1519:       bap$b1720.73/8/10/1720/?/igreja de s. tiago
+1520: 
 1521: bap$b1720.73
+1521:          n$manuel/m/id=b1720.73-per1
+1522: 
+1523:             pai$antonio mateus/id=b1720.73-per1-per2
+1524:                ls$alcunha/moco
+1525:                ls$residencia/soure
+1526:                ls$naturalidade/pinheiro
+1527: 
+1528:             mae$maria rodrigues/id=b1720.73-per1-per3
+1529:                ls$naturalidade/casal do rego, freguesia de figueiro do campo
+1530: 
+1531:             pad$jacinto da silva/id=b1720.73-per4
+1532:                ls$residencia/soure
+1533: 
+1534:             mad$maria pereira/id=b1720.73-per5
+1535:                ls$residencia/soure
+1536: 
+1537:       bap$b1720.74/9/10/1720/?/igreja de s. tiago
+1538: 
 1539: bap$b1720.74
+1539:          n$jose/m/id=b1720.74-per1
+1540: 
+1541:             pai$manuel lourenco/id=b1720.74-per1-per2
+1542:                ls$residencia/bonitos
+1543:                ls$naturalidade/bonitos
+1544: 
+1545:             mae$ana dias/id=b1720.74-per1-per3
+1546:                ls$naturalidade/casais da misericordia
+1547: 
+1548:             pad$manuel domingues/id=b1720.74-per4
+1549:                ls$residencia/simoes
+1550: 
+1551:             mad$maria rodrigues/id=b1720.74-per5
+1552: 
+1553:                mrmad$antonio domingues/id=b1720.74-per6
+1554:                   ls$alcunha/moco
+1555:                   ls$residencia/casais da misericordia
+1556: 
+1557:       bap$b1720.75/10/10/1720/?/igreja de s. tiago
+1558: 
 1559: bap$b1720.75
+1559:          n$manuel/m/id=b1720.75-per1
+1560: 
+1561:             pai$manuel rodrigues centeio/id=b1720.75-per1-per2
+1562:                ls$residencia/sobral
+1563:                ls$naturalidade/casal de eureca
+1564: 
+1565:             mae$catarina joao/id=b1720.75-per1-per3
+1566:                ls$naturalidade/sobral
+1567: 
+1568:             pad$lourenco rodrigues/id=b1720.75-per4
+1569:                ls$residencia/quinta do cano#que e' de joao da costa de vasconcelos
+1570: 
+1571:             mad$maria rodrigues/id=b1720.75-per5
+1572: 
+1573:                mrmad$manuel ferreira/id=b1720.75-per6
+1574:                   ls$residencia/marco
+1575: 
+1576:       bap$b1720.76/10/10/1720/?/igreja de s. tiago
+1577: 
 1578: bap$b1720.76
+1578:          n$manuel/m/id=b1720.76-per1
+1579: 
+1580:             pai$manuel antunes/id=b1720.76-per1-per2
+1581:                ls$residencia/presa
+1582:                ls$naturalidade/presa
+1583: 
+1584:             mae$catarina rodrigues/id=b1720.76-per1-per3
+1585:                ls$naturalidade/presa
+1586: 
+1587:             pad$manuel francisco/id=b1720.76-per4
+1588:                ls$residencia/cadaval, freguesia do furadouro
+1589: 
+1590:             mad$maria da costa/id=b1720.76-per5
+1591: 
+1592:                mrmad$jose simoes/id=b1720.76-per6
+1593:                   ls$residencia/presa
+1594: 
+1595:       bap$b1720.77/13/10/1720/?/igreja de s. tiago
+1596: 
 1597: bap$b1720.77
+1597:          n$jose/m/id=b1720.77-per1
+1598: 
+1599:             pai$joao rodrigues/id=b1720.77-per1-per2
+1600:                ls$residencia/casal do migalho
+1601:                ls$naturalidade/casal do migalho
+1602: 
+1603:             mae$isabel rodrigues/id=b1720.77-per1-per3
+1604:                ls$naturalidade/sobral
+1605: 
+1606:             pad$manuel duarte/id=b1720.77-per4
+1607:                ls$residencia/casal do migalho
+1608: 
+1609:             mad$isabel dos santos/id=b1720.77-per5
+1610: 
+1611:                mrmad$domingos cordeiro/id=b1720.77-per6
+1612:                   ls$residencia/casal do migalho
+1613: 
+1614:       bap$b1720.78/13/10/1720/?/igreja de s. tiago
+1615: 
 1616: bap$b1720.78
+1616:          n$joao/m/id=bn13101720
+1617: 
+1618:             pai$manuel gomes/id=bn13101720-per1
+1619:                ls$residencia/paleao
+1620:                ls$naturalidade/paleao
+1621: 
+1622:             mae$ana cardoso/id=bn13101720-per2
+1623:                ls$naturalidade/casal da corujeira
+1624: 
+1625:             pad$joao de barros/id=b1720.78-per3
+1626:                ls$cargo/alcaide de soure
+1627: 
+1628:             mad$maria marques/id=b1720.78-per4
+1629: 
+1630:                mrmad$joao francisco/id=b1720.78-per5
+1631:                   ls$residencia/paleao
+1632: 
+1633:             referida$antonia carvalho/mesmo_que=br04081720/id=b1720.78-per6
+1634:                rel$sociabilidade/procurador em baptismo/joao/bn13101720
+1635: 
+1636:       bap$b1720.79/14/10/1720/?/igreja de s. tiago
+1637: 
 1638: bap$b1720.79
+1638:          n$maria/f/id=b1720.79-per1
+1639: 
+1640:             pai$jose luis/id=b1720.79-per1-per2
+1641:                ls$residencia/casal do corujeira
+1642:                ls$naturalidade/casal da corujeira
+1643: 
+1644:             mae$teresa de oliveira/id=b1720.79-per1-per3
+1645:                ls$naturalidade/casal dos corcozes
+1646: 
+1647:             pad$manuel rodrigues alvaro/id=b1720.79-per4
+1648:                ls$profissao/padre
+1649:                ls$cargo/tesoureiro das igrejas de soure
+1650: 
+1651:             mad$maria/id=b1720.79-per5
+1652:                ls$ec/s
+1653: 
+1654:                pmad$joao rodrigues perna/id=b1720.79-per6
+1655:                   ls$residencia/moinhos do paleao
+1656: 
+1657:       bap$b1720.80/20/10/1720/?/igreja de s. tiago
+1658: 
 1659: bap$b1720.80
+1659:          n$maria/f/id=b1720.80-per1
+1660: 
+1661:             pai$domingos carvalho/id=b1720.80-per1-per2
+1662:                ls$residencia/casal do malvado
+1663:                ls$naturalidade/casal do malvado
+1664: 
+1665:             mae$maria agostinho/id=b1720.80-per1-per3
+1666:                ls$naturalidade/sardeiras, freguesia de lamas
+1667: 
+1668:             pad$manuel madeira/id=b1720.80-per4
+1669:                ls$residencia/cascao
+1670: 
+1671:             mad$maria mateus/id=b1720.80-per5
+1672: 
+1673:                mrmad$joao francisco/id=b1720.80-per6
+1674:                   ls$residencia/casal do malvado
+1675: 
+1676:       bap$b1720.81/20/10/1720/?/igreja de s. tiago
+1677: 
 1678: bap$b1720.81
+1678:          n$antonia/f/id=b1720.81-per1
+1679: 
+1680:             pai$manuel goncalves marinheiro/id=b1720.81-per1-per2
+1681:                ls$residencia/paleao
+1682:                ls$naturalidade/paleao
+1683: 
+1684:             mae$ascensa ferreira/id=b1720.81-per1-per3
+1685:                ls$naturalidade/paleao
+1686: 
+1687:             pad$manuel carvalho/id=b1720.81-per4
+1688:                ls$residencia/paleao
+1689: 
+1690:             mad$antonia/id=b1720.81-per5
+1691:                ls$ec/s
+1692: 
+1693:                mmad$domingas joao/id=b1720.81-per6
+1694:                   ls$ec/v
+1695:                   ls$residencia/paleao
+1696: 
+1697:       bap$b1720.82/20/10/1720/?/igreja de s. tiago
+1698: 
 1699: bap$b1720.82
+1699:          n$ana/f/id=b1720.82-per1
+1700: 
+1701:             pai$antonio carvalho/id=b1720.82-per1-per2
+1702:                ls$morto/antes
+1703:                ls$residencia/casal dos delgados
+1704:                ls$naturalidade/casal dos delgados
+1705: 
+1706:             mae$maria carvalho/id=b1720.82-per1-per3
+1707:                ls$naturalidade/mogadouro
+1708: 
+1709:             pad$francisco/id=b1720.82-per4
+1710:                ls$ec/s
+1711: 
+1712:                ppad$manuel francisco/id=b1720.82-per5
+1713:                   ls$residencia/mogadouro
+1714: 
+1715:             mad$ana/id=b1720.82-per6
+1716:                ls$ec/s
+1717: 
+1718:                mmad$ana carvalho/id=b1720.82-per7
+1719:                   ls$ec/v
+1720:                   ls$residencia/casal dos delgados
+1721: 
+1722:       bap$b1720.83/25/10/1720/?/igreja de s. tiago
+1723: 
 1724: bap$b1720.83
+1724:          n$manuel/m/id=b1720.83-per1
+1725: 
+1726:             pai$joao goncalves/id=b1720.83-per1-per2
+1727:                ls$residencia/pinheiro
+1728:                ls$naturalidade/pinheiro
+1729: 
+1730:             mae$maria rodrigues/id=b1720.83-per1-per3
+1731:                ls$naturalidade/casal de lajem#alem do ribeiro da mesma freguesia
+1732: 
+1733:             pad$manuel simoes/id=b1720.83-per4
+1734:                ls$residencia/pinheiro
+1735: 
+1736:             mad$maria madeira/id=b1720.83-per5
+1737: 
+1738:                mrmad$joao goncalves bizarro/id=b1720.83-per6
+1739:                   ls$residencia/pinheiro
+1740: 
+1741:       bap$b1720.84/27/10/1720/?/igreja de s. tiago
+1742: 
 1743: bap$b1720.84
+1743:          n$manuel/m/id=bn27101720
+1744: 
+1745:             pai$manuel da costa/id=bn27101720-per1
+1746:                ls$residencia/quinta de samgrande?
+1747:                rel$vizinhanca/co-residente/luis manhos de abreu/b1720.84-per3
+1748:                ls$naturalidade/vale da borra
+1749: 
+1750:             mae$catarina francisca/id=bn27101720-per2
+1751:                ls$naturalidade/casal dos cavaleiros
+1752: 
+1753:             pad$luis manhos de abreu/id=b1720.84-per3
+1754:                ls$cargo/capitao
+1755:                ls$nome/luis manhos
+1756: 
+1757:             mad$mariana/id=b1720.84-per4
+1758: 
+1759:                pmad$luis manhos de abreu/id=b1720.84-per4-per1-2
+1760: 
+1761:             referida$catarina francisca/id=br27101720
+1762:                ls$ec/v
+1763:                ls$residencia/cavaleiros
+1764:                rel$sociabilidade/baptisou em necessidade/manuel/bn27101720
+1765: 
+1766:       bap$b1720.85/27/10/1720/?/igreja de s. tiago
+1767: 
 1768: bap$b1720.85
+1768:          n$maria/f/id=b1720.85-per1
+1769: 
+1770:             pai$manuel pedroso/id=b1720.85-per1-per2
+1771:                ls$residencia/casal do migalho
+1772:                ls$naturalidade/casal do migalho
+1773: 
+1774:             mae$agueda gomes/id=b1720.85-per1-per3
+1775:                ls$naturalidade/vinha da rainha, freguesia de vinha da rainha
+1776: 
+1777:             pad$domingos cordeiro/id=b1720.85-per4
+1778:                ls$residencia/casal do migalho
+1779: 
+1780:             mad$antonia cordeiro/id=b1720.85-per5
+1781: 
+1782:                mrmad$manuel duarte/id=b1720.85-per6
+1783:                   ls$residencia/casal do migalho
+1784: 
+1785:       bap$b1720.86/5/11/1720/?/igreja de s. tiago
+1786: 
 1787: bap$b1720.86
+1787:          n$maria/f/id=b1720.86-per1
+1788: 
+1789:             pai$luis carvalho/id=b1720.86-per1-per2
+1790:                ls$residencia/casal das brancas
+1791:                ls$naturalidade/casal das brancas
+1792: 
+1793:             mae$cecilia goncalves/id=b1720.86-per1-per3
+1794:                ls$naturalidade/casal das brancas
+1795: 
+1796:             pad$joao da costa de vasconcelos/id=b1720.86-per4
+1797:                ls$cargo/capitao-mor
+1798: 
+1799:             mad$maria/id=b1720.86-per5
+1800: 
+1801:                pmad$jose carvalho/id=b1720.86-per6
+1802:                   ls$residencia/casal das brancas
+1803: 
+1804:       bap$b1720.87/6/11/1720/?/igreja de s. tiago
+1805: 
 1806: bap$b1720.87
+1806:          n$antonia/f/id=b1720.87-per1
+1807: 
+1808:             pai$manuel goncalves camorro/id=b1720.87-per1-per2
+1809:                ls$residencia/casal dos louzoes
+1810:                ls$naturalidade/casal dos louzoes
+1811: 
+1812:             mae$maria cordeiro/id=b1720.87-per1-per3
+1813:                ls$naturalidade/moinho do migalho, freguesia da gesteira
+1814: 
+1815:             pad$joao da costa de vasconcelos/id=b1720.87-per4
+1816:                ls$cargo/capitao
+1817: 
+1818:             mad$antonia/id=b1720.87-per5
+1819:                ls$titulo/dona
+1820: 
+1821:                mmad$madalena/id=b1720.87-per6
+1822:                   ls$titulo/dona
+1823:                   ls$residencia/soure
+1824: 
+1825:       bap$b1720.88/7/11/1720/?/igreja de s. tiago
+1826: 
 1827: bap$b1720.88
+1827:          n$maria/f/id=b1720.88-per1
+1828: 
+1829:             pai$henrique barbosa canais/id=b1720.88-per1-per2
+1830:                ls$residencia/soure
+1831:                ls$naturalidade/soure
+1832:                ls$titulo/doutor
+1833: 
+1834:             mae$angela luisa de abreu/id=bmae07111720
+1835:                ls$naturalidade/soure
+1836: 
+1837:             pad$jose/id=bpad07111720
+1838:                ls$titulo/frei
+1839:                ls$profissao/padre
+1840:                ls$ordem/religioso de s.bernardo
+1841:                rel$parentesco/irmao/angela luisa de abreu/bmae07111720
+1842: 
+1843:             mad$antonia/id=b1720.88-per3
+1844:                ls$titulo/dona
+1845: 
+1846:                mrmad$jose barbosa canais/id=b1720.88-per4
+1847: 
+1848:             referido$joao da costa machado/id=br07111720
+1849:                rel$sociabilidade/procurador em baptismo/jose/bpad07111720
+1850:                rel$parentesco/irmao/angela luisa de abreu/bmae07111720
+1851: 
+1852:             referido$luis barbosa canais/id=br07111720b
+1853:                rel$sociabilidade/procurador em baptismo/angela luisa de abreu/bmae07111720
+1854: 
+1855:       bap$b1720.89/23/11/1720/?/igreja de s. tiago
+1856: 
 1857: bap$b1720.89
+1857:          n$jose/m/id=b1720.89-per1
+1858: 
+1859:             pai$joao gomes da cruz/id=b1720.89-per1-per2
+1860:                ls$residencia/paleao
+1861:                ls$naturalidade/paleao
+1862: 
+1863:             mae$cecilia afonso/id=b1720.89-per1-per3
+1864:                ls$naturalidade/paleao
+1865: 
+1866:             pad$jose pereira/id=b1720.89-per4
+1867:                ls$residencia/casais de s.mateus
+1868: 
+1869:             mad$teresa/id=b1720.89-per5
+1870:                ls$ec/s
+1871: 
+1872:                pmad$manuel simoes/id=b1720.89-per6
+1873:                   ls$residencia/paleao
+1874: 
+1875:       bap$b1720.90/23/11/1720/?/igreja de s. tiago
+1876: 
 1877: bap$b1720.90
+1877:          n$jose/m/id=b1720.90-per1
+1878: 
+1879:             pai$jose francisco/id=b1720.90-per1-per2
+1880:                ls$residencia/casal novo
+1881:                ls$naturalidade/casal novo
+1882: 
+1883:             mae$maria do espirito santo/id=b1720.90-per1-per3
+1884:                ls$naturalidade/almafala, freguesia de alvorrinha, arcebispado de lisboa ocidental
+1885: 
+1886:             pad$joao simoes/id=bpad23111720
+1887:                ls$residencia/casal novo
+1888: 
+1889:             mad$maria/id=b1720.90-per4
+1890:                ls$ec/s
+1891:                rel$parentesco/filha/joao simoes/bpad23111720
+1892: 
+1893:       bap$b1720.91/24/11/1720/?/igreja de s. tiago
+1894: 
 1895: bap$b1720.91
+1895:          n$domingos/m/id=b1720.91-per1
+1896: 
+1897:             pai$francisco gomes/id=b1720.91-per1-per2
+1898:                ls$residencia/casal de alencarce de cima
+1899:                ls$naturalidade/casal de alencarce de cima
+1900: 
+1901:             mae$maria francisca/id=b1720.91-per1-per3
+1902:                ls$naturalidade/casal de alencarce de cima
+1903: 
+1904:             pad$domingos simoes/id=b1720.91-per4
+1905:                ls$residencia/casal de alencarce de cima
+1906: 
+1907:             mad$josefa/id=b1720.91-per5
+1908:                ls$ec/s
+1909: 
+1910:                pmad$joao gomes/id=b1720.91-per6
+1911:                   ls$residencia/casal de alencarce de cima
+1912: 
+1913:       bap$b1720.92/24/11/1720/?/igreja de s. tiago/obs=baptizada em necessidade pelo celebrante
+1914: 
 1915: bap$b1720.92
+1915:          n$manuel/m/id=b1720.92-per1
+1916: 
+1917:             pai$manuel martins camousso/id=b1720.92-per1-per2
+1918:                ls$residencia/soure
+1919:                ls$naturalidade/pinheiro
+1920: 
+1921:             mae$maria da conceicao/id=b1720.92-per1-per3
+1922:                ls$naturalidade/soure
+1923: 
+1924:             pad$vicente colaco de morais/id=b1720.92-per4
+1925:                ls$cargo/capitao
+1926: 
+1927:             mad$damiana colaco/id=b1720.92-per5
+1928: 
+1929:       bap$b1720.93/25/11/1720/?/igreja de s. tiago
+1930: 
 1931: bap$b1720.93
+1931:          n$maria/f/id=b1720.93-per1
+1932: 
+1933:             pai$manuel rodrigues/id=b1720.93-per1-per2
+1934:                ls$residencia/quinta da cruz
+1935:                ls$naturalidade/casal da portela
+1936: 
+1937:             mae$teresa dos santos/id=b1720.93-per1-per3
+1938:                ls$naturalidade/casal da portela
+1939: 
+1940:             pad$manuel soares coelho/id=b1720.93-per4
+1941: 
+1942:             mad$maria pereira/id=b1720.93-per5
+1943: 
+1944:                mrmad$jacinto da silva/id=b1720.93-per6
+1945:                   ls$residencia/soure
+1946: 
+1947:       bap$b1720.94/25/11/1720/?/igreja de s. tiago
+1948: 
 1949: bap$b1720.94
+1949:          n$antonio/m/id=b1720.94-per1
+1950: 
+1951:             pai$manuel gomes/id=b1720.94-per1-per2
+1952:                ls$residencia/casal da corujeira
+1953:                ls$naturalidade/vale da nabal, freguesia da almagreira
+1954: 
+1955:             mae$isabel jorge/id=b1720.94-per1-per3
+1956:                ls$naturalidade/casal da corujeira
+1957: 
+1958:             pad$antonio alvares ribeiro/id=b1720.94-per4
+1959:                ls$residencia/soure
+1960: 
+1961:             mad$domingas/id=b1720.94-per5
+1962:                ls$ec/s
+1963: 
+1964:                mmad$domingas jorge/id=b1720.94-per6
+1965:                   ls$ec/v
+1966:                   ls$residencia/casal da corujeira
+1967: 
+1968:       bap$b1720.95/25/11/1720/?/igreja de s. tiago
+1969: 
 1970: bap$b1720.95
+1970:          n$joao/m/id=b1720.95-per1
+1971: 
+1972:             pai$jose da silva/id=b1720.95-per1-per2
+1973:                ls$residencia/soure
+1974:                ls$naturalidade/casal da cabeca carvalha, freguesia de vinha da rainha
+1975: 
+1976:             mae$felicia/id=b1720.95-per1-per3
+1977:                ls$naturalidade/varzea de gois, freguesia de varzea de gois
+1978: 
+1979:             pad$joao pinheiro/id=b1720.95-per4
+1980:                ls$residencia/soure
+1981: 
+1982:             mad$damiana gracia/id=b1720.95-per5
+1983:                ls$ec/s
+1984:                ls$residencia/camarinheira, freguesia de samuel
+1985:                ls$freguesia/samuel
+1986: 
+1987:       bap$b1720.96/27/11/1720/?/igreja de s. tiago
+1988: 
 1989: bap$b1720.96
+1989:          n$jose/m/id=b1720.96-per1
+1990:             ls$ilegitimo/sim
+1991: 
+1992:             mae$maria/id=b1720.96-per1-per2
+1993:                ls$ec/s
+1994:                ls$residencia/pinheiro
+1995:                ls$naturalidade/pinheiro
+1996: 
+1997:                pmae$joao goncalves/id=b1720.96-per1-per3
+1998:                   ls$residencia/pinheiro
+1999: 
+2000:             pad$manuel goncalves/id=b1720.96-per4
+2001:                ls$residencia/alencarce de baixo
+2002: 
+2003:             mad$bernardina/id=b1720.96-per5
+2004:                ls$ec/s
+2005: 
+2006:                pmad$manuel de s.miguel/id=b1720.96-per6
+2007:                   ls$residencia/pinheiro
+2008: 
+2009:       bap$b1720.97/28/11/1720/?/igreja de s. tiago
+2010: 
 2011: bap$b1720.97
+2011:          n$angelica/f/id=b1720.97-per1
+2012: 
+2013:             pai$alberto ferreira veloso/id=b1720.97-per1-per2
+2014:                ls$residencia/soure
+2015:                ls$naturalidade/tentugal, freguesia de tentugal
+2016: 
+2017:             mae$helena cardoso/id=b1720.97-per1-per3
+2018:                ls$naturalidade/soure
+2019: 
+2020:             pad$francisco homem de quadros/id=b1720.97-per4
+2021: 
+2022:             mad$josefa de azevedo/id=b1720.97-per5
+2023:                ls$nome/josefa maria de azevedo
+2024: 
+2025:             referido$manuel duarte/id=b1720.97-per6
+2026:                ls$cargo/capelao
+2027:                rel$sociabilidade/procurador em baptismo/josefa de azevedo/c6-7-josa
+2028: 
+2029:       bap$b1720.98/9/12/1720/?/igreja de s. tiago
+2030: 
 2031: bap$b1720.98
+2031:          n$isabel/f/id=b1720.98-per1
+2032: 
+2033:             pai$antonio rodrigues/id=b1720.98-per1-per2
+2034:                ls$residencia/casal dos becos
+2035:                ls$naturalidade/casal da quinta da telhada
+2036: 
+2037:             mae$leonor rodrigues/id=b1720.98-per1-per3
+2038:                ls$naturalidade/casal de eureca
+2039: 
+2040:             pad$joao ferreira/id=b1720.98-per4
+2041:                ls$residencia/becos
+2042: 
+2043:             mad$isabel/id=b1720.98-per5
+2044:                ls$ec/s
+2045: 
+2046:                pmad$manuel rodrigues centeio/id=b1720.98-per6
+2047:                   ls$residencia/casal de eureca
+2048: 
+2049:       bap$b1720.99/23/12/1720/?/igreja de s. tiago
+2050: 
 2051: bap$b1720.99
+2051:          n$manuel/m/id=b1720.99-per1
+2052: 
+2053:             pai$jose fernandes/id=b1720.99-per1-per2
+2054:                ls$residencia/casal dos simoes
+2055:                ls$naturalidade/olho de agua de ancos, freguesia da redinha
+2056: 
+2057:             mae$josefa lourenco/id=b1720.99-per1-per3
+2058:                ls$naturalidade/casal dos simoes
+2059: 
+2060:             pad$manuel/id=b1720.99-per4
+2061:                ls$ec/s
+2062: 
+2063:                ppad$nuno mendes/id=b1720.99-per5
+2064:                   ls$residencia/olho de agua de ancos, freguesia da redinha
+2065:                   ls$freguesia/redinha
+2066: 
+2067:             mad$mariana/id=b1720.99-per6
+2068:                ls$ec/s
+2069: 
+2070:                pmad$manuel fernandes/id=b1720.99-per7
+2071:                   ls$residencia/olho de agua de ancos, freguesia da redinha
+2072:                   ls$freguesia/redinha
+2073: 
+2074:       bap$b1720.100/26/12/1720/?/igreja de s. tiago
+2075: 
 2076: bap$b1720.100
-*** End of File
-** Processed file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/baptismos/b1720.cli
-** Original file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/baptismos/b1720.org
-** Previous version- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/baptismos/b1720.old
-** Temp file with ids- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/baptismos/b1720.ids
+2076:          n$ana/f/id=b1720.100-per1
+2077: 
+2078:             pai$domingos da costa/id=b1720.100-per1-per2
+2079:                ls$residencia/paleao
+2080:                ls$naturalidade/sebal grande, freguesia do sebal
+2081: 
+2082:             mae$luisa dos santos/id=b1720.100-per1-per3
+2083:                ls$naturalidade/porto coelheiro
+2084: 
+2085:             pad$manuel rodrigues branco/id=b1720.100-per4
+2086:                ls$residencia/paleao
+2087: 
+2088:             mad$ana/id=b1720.100-per5
+2089:                ls$ec/s
+2090: 
+2091:                pmad$antonio gomes do sobrado/id=b1720.100-per6
+2092:                   ls$residencia/paleao
+2093: *** End of File
+
+Line 648 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (c6-7-rod) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+
+** Processed file- /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.cli
+** Original file- /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.org
+** Previous version- /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.old
+** Temp file with ids- /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.ids
+** - /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.cli-renamed to- /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.old
+** - /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.ids-renamed to- /Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/baptismos/b1720.cli
+** Translation files closed.
 0  errors. 
 0  warnings.
 Translation finished.
