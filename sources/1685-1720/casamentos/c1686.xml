@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/casamentos/c1686.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-4-9 16:44:10" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/1685-1720/casamentos/c1686.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-5-13 22:19:27" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -30,7 +30,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860000]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/casamentos/c1686.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/kleio-home/sources/soure-fontes/sources/1685-1720/casamentos/c1686.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="cas">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -146,9 +146,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="c1686.1-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="5" LINE="11">
+<GROUP ID="c1686.1-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="5" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.1-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.1-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -159,7 +159,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal do barril]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.1-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.1-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -253,9 +253,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.1-per4-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.1-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="5" LINE="18">
+<GROUP ID="c1686.1-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="5" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.1-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.1-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.1-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -266,7 +266,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[moinhos do paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.1-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.1-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.1-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -331,9 +331,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.1-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest26011686-att3-5" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
+<GROUP ID="ctest26011686-att3-6" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -344,16 +344,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860126]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="ctest26011686-att4-5" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
+<GROUP ID="ctest26011686-att4-6" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -364,16 +364,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[beneficiado na igreja de soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860126]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="ctest26011686-att5-5" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="25">
+<GROUP ID="ctest26011686-att5-6" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -384,7 +384,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha, freguesia da redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -420,9 +420,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.1-rela8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest26011686b-att6-5" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
+<GROUP ID="ctest26011686b-att6-6" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686b-att6-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686b-att6-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686b</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -433,16 +433,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha, freguesia da redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686b-att6-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686b-att6-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686b]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860126]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="ctest26011686b-att7-5" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
+<GROUP ID="ctest26011686b-att7-6" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
     <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686b-att7-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686b-att7-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686b</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -453,16 +453,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686b-att7-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686b-att7-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686b]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860126]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="ctest26011686b-rel1-5" NAME="rel" CLASS="relation" ORDER="26" LEVEL="4" LINE="30">
+<GROUP ID="ctest26011686b-rel1-6" NAME="rel" CLASS="relation" ORDER="26" LEVEL="4" LINE="30">
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686b-rel1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686b-rel1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686b</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -477,7 +477,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ctest26011686]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686b-rel1-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686b-rel1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[ctest26011686b]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -513,9 +513,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.1-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest26011686c-att8-5" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="33">
+<GROUP ID="ctest26011686c-att8-6" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="33">
     <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686c-att8-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686c-att8-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686c</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -526,7 +526,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[barbeiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686c-att8-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686c-att8-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686c]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -562,9 +562,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.1-rela10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest26011686e-att9-5" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="36">
+<GROUP ID="ctest26011686e-att9-6" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="36">
     <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686e-att9-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686e-att9-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686e</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -575,7 +575,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686e-att9-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686e-att9-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686e]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -611,9 +611,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.1-rela11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest26011686d-att10-5" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="39">
+<GROUP ID="ctest26011686d-att10-6" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="39">
     <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686d-att10-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest26011686d-att10-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest26011686d</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -624,7 +624,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[licenciado]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest26011686d-att10-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest26011686d-att10-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest26011686d]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -844,9 +844,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.2-per1-rela20</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.2-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="50" LEVEL="5" LINE="46">
+<GROUP ID="c1686.2-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="50" LEVEL="5" LINE="46">
     <ELEMENT NAME="line" CLASS="line"><core>46</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.2-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.2-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.2-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -857,7 +857,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casais do barril]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.2-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.2-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.2-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -951,9 +951,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.2-per4-rela23</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860126</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.2-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="53">
+<GROUP ID="c1686.2-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="53">
     <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.2-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.2-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.2-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -964,7 +964,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[moinhos do paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.2-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.2-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.2-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1368,9 +1368,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per1-rela43</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860629</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.3-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="89" LEVEL="5" LINE="72">
+<GROUP ID="c1686.3-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="89" LEVEL="5" LINE="72">
     <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.3-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1381,7 +1381,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.3-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.3-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.3-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1475,9 +1475,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per4-rela46</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860629</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.3-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="5" LINE="79">
+<GROUP ID="c1686.3-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="5" LINE="79">
     <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.3-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1488,7 +1488,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.3-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.3-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.3-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1553,9 +1553,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.3-rela48</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860629</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest29061686-att3-5" NAME="ls" CLASS="attribute" ORDER="101" LEVEL="4" LINE="84">
+<GROUP ID="ctest29061686-att3-6" NAME="ls" CLASS="attribute" ORDER="101" LEVEL="4" LINE="84">
     <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest29061686-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest29061686-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest29061686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1566,7 +1566,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[c]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest29061686-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest29061686-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest29061686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1602,9 +1602,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.3-rela49</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860629</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.3-per7-rel1-5" NAME="rel" CLASS="relation" ORDER="104" LEVEL="4" LINE="87">
+<GROUP ID="c1686.3-per7-rel1-6" NAME="rel" CLASS="relation" ORDER="104" LEVEL="4" LINE="87">
     <ELEMENT NAME="line" CLASS="line"><core>87</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per7-rel1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per7-rel1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.3-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1619,7 +1619,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ctest29061686]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.3-per7-rel1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.3-per7-rel1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[c1686.3-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1713,9 +1713,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.3-rela52</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860629</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.3-per10-att4-5" NAME="ls" CLASS="attribute" ORDER="111" LEVEL="4" LINE="94">
+<GROUP ID="c1686.3-per10-att4-6" NAME="ls" CLASS="attribute" ORDER="111" LEVEL="4" LINE="94">
     <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per10-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.3-per10-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.3-per10</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1726,7 +1726,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[ferreiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.3-per10-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.3-per10-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.3-per10]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1975,9 +1975,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per1-rela62</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860702</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.4-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="128" LEVEL="5" LINE="102">
+<GROUP ID="c1686.4-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="128" LEVEL="5" LINE="102">
     <ELEMENT NAME="line" CLASS="line"><core>102</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1988,16 +1988,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[ega, freguesia da ega]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.4-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860702]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.4-per2-att2-5" NAME="ls" CLASS="attribute" ORDER="129" LEVEL="5" LINE="104">
+<GROUP ID="c1686.4-per2-att2-6" NAME="ls" CLASS="attribute" ORDER="129" LEVEL="5" LINE="104">
     <ELEMENT NAME="line" CLASS="line"><core>104</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per2-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per2-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2008,7 +2008,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[ega]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per2-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per2-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.4-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2044,9 +2044,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per1-rela63</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860702</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.4-per3-att3-5" NAME="ls" CLASS="attribute" ORDER="132" LEVEL="5" LINE="106">
+<GROUP ID="c1686.4-per3-att3-6" NAME="ls" CLASS="attribute" ORDER="132" LEVEL="5" LINE="106">
     <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per3-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per3-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2057,16 +2057,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[ega, freguesia da ega]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per3-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per3-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.4-per3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860702]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.4-per3-att4-5" NAME="ls" CLASS="attribute" ORDER="133" LEVEL="5" LINE="108">
+<GROUP ID="c1686.4-per3-att4-6" NAME="ls" CLASS="attribute" ORDER="133" LEVEL="5" LINE="108">
     <ELEMENT NAME="line" CLASS="line"><core>108</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per3-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per3-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2077,7 +2077,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[ega]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per3-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per3-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.4-per3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2142,9 +2142,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per4-rela65</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860702</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.4-per5-att5-5" NAME="ls" CLASS="attribute" ORDER="138" LEVEL="5" LINE="113">
+<GROUP ID="c1686.4-per5-att5-6" NAME="ls" CLASS="attribute" ORDER="138" LEVEL="5" LINE="113">
     <ELEMENT NAME="line" CLASS="line"><core>113</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per5-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per5-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2155,7 +2155,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carvalheira de baixo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per5-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per5-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.4-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2220,9 +2220,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.4-rela67</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860702</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.4-per7-att6-5" NAME="ls" CLASS="attribute" ORDER="143" LEVEL="4" LINE="118">
+<GROUP ID="c1686.4-per7-att6-6" NAME="ls" CLASS="attribute" ORDER="143" LEVEL="4" LINE="118">
     <ELEMENT NAME="line" CLASS="line"><core>118</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per7-att6-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per7-att6-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2233,7 +2233,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carvalheira]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per7-att6-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per7-att6-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.4-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2269,9 +2269,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.4-rela68</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860702</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest02071686-att7-5" NAME="ls" CLASS="attribute" ORDER="146" LEVEL="4" LINE="121">
+<GROUP ID="ctest02071686-att7-6" NAME="ls" CLASS="attribute" ORDER="146" LEVEL="4" LINE="121">
     <ELEMENT NAME="line" CLASS="line"><core>121</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest02071686-att7-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest02071686-att7-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest02071686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2282,7 +2282,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[pinheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest02071686-att7-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest02071686-att7-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest02071686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2318,9 +2318,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.4-rela69</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860702</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.4-per8-rel1-5" NAME="rel" CLASS="relation" ORDER="149" LEVEL="4" LINE="124">
+<GROUP ID="c1686.4-per8-rel1-6" NAME="rel" CLASS="relation" ORDER="149" LEVEL="4" LINE="124">
     <ELEMENT NAME="line" CLASS="line"><core>124</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per8-rel1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.4-per8-rel1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.4-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -2335,7 +2335,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ctest02071686]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.4-per8-rel1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.4-per8-rel1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[c1686.4-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2555,9 +2555,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per1-rela78</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860814</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.5-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="164" LEVEL="5" LINE="131">
+<GROUP ID="c1686.5-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="164" LEVEL="5" LINE="131">
     <ELEMENT NAME="line" CLASS="line"><core>131</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.5-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2568,7 +2568,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.5-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.5-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.5-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2662,9 +2662,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per4-rela81</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860814</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.5-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="171" LEVEL="5" LINE="138">
+<GROUP ID="c1686.5-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="171" LEVEL="5" LINE="138">
     <ELEMENT NAME="line" CLASS="line"><core>138</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.5-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2675,7 +2675,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal novo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.5-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.5-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.5-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2770,9 +2770,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.5-rela84</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860814</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.5-per7-rel1-5" NAME="rel" CLASS="relation" ORDER="178" LEVEL="4" LINE="145">
+<GROUP ID="c1686.5-per7-rel1-6" NAME="rel" CLASS="relation" ORDER="178" LEVEL="4" LINE="145">
     <ELEMENT NAME="line" CLASS="line"><core>145</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per7-rel1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.5-per7-rel1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.5-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -2787,7 +2787,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[c6-7-pai]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.5-per7-rel1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.5-per7-rel1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[c1686.5-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3007,9 +3007,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per1-rela93</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860930</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.6-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="193" LEVEL="5" LINE="152">
+<GROUP ID="c1686.6-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="193" LEVEL="5" LINE="152">
     <ELEMENT NAME="line" CLASS="line"><core>152</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.6-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3020,7 +3020,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carvalheira de cima]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.6-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.6-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.6-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3114,9 +3114,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per4-rela96</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860930</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.6-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="200" LEVEL="5" LINE="159">
+<GROUP ID="c1686.6-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="200" LEVEL="5" LINE="159">
     <ELEMENT NAME="line" CLASS="line"><core>159</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.6-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3127,7 +3127,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.6-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.6-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.6-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3192,9 +3192,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.6-rela98</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860930</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.6-per7-att3-5" NAME="ls" CLASS="attribute" ORDER="205" LEVEL="4" LINE="164">
+<GROUP ID="c1686.6-per7-att3-6" NAME="ls" CLASS="attribute" ORDER="205" LEVEL="4" LINE="164">
     <ELEMENT NAME="line" CLASS="line"><core>164</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per7-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per7-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.6-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3205,7 +3205,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.6-per7-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.6-per7-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.6-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3332,9 +3332,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.6-rela102</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860930</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.6-per11-att4-5" NAME="ls" CLASS="attribute" ORDER="214" LEVEL="4" LINE="173">
+<GROUP ID="c1686.6-per11-att4-6" NAME="ls" CLASS="attribute" ORDER="214" LEVEL="4" LINE="173">
     <ELEMENT NAME="line" CLASS="line"><core>173</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per11-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per11-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.6-per11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3345,7 +3345,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carvalheira]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.6-per11-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.6-per11-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.6-per11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3381,9 +3381,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.6-rela103</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16860930</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.6-per12-att5-5" NAME="ls" CLASS="attribute" ORDER="217" LEVEL="4" LINE="176">
+<GROUP ID="c1686.6-per12-att5-6" NAME="ls" CLASS="attribute" ORDER="217" LEVEL="4" LINE="176">
     <ELEMENT NAME="line" CLASS="line"><core>176</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per12-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.6-per12-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.6-per12</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3394,7 +3394,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.6-per12-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.6-per12-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.6-per12]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3643,9 +3643,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per1-rela113</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861006</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.7-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="234" LEVEL="5" LINE="185">
+<GROUP ID="c1686.7-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="234" LEVEL="5" LINE="185">
     <ELEMENT NAME="line" CLASS="line"><core>185</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.7-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3656,7 +3656,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[vendas novas]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.7-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.7-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.7-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3750,9 +3750,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per4-rela116</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861006</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.7-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="241" LEVEL="5" LINE="192">
+<GROUP ID="c1686.7-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="241" LEVEL="5" LINE="192">
     <ELEMENT NAME="line" CLASS="line"><core>192</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.7-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3763,7 +3763,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casais dos simoes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.7-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.7-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.7-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3857,9 +3857,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.7-rela119</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861006</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.7-per8-att3-5" NAME="ls" CLASS="attribute" ORDER="248" LEVEL="4" LINE="198">
+<GROUP ID="c1686.7-per8-att3-6" NAME="ls" CLASS="attribute" ORDER="248" LEVEL="4" LINE="198">
     <ELEMENT NAME="line" CLASS="line"><core>198</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per8-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per8-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.7-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3870,16 +3870,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[dona]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.7-per8-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.7-per8-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.7-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861006]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.7-per8-rel1-5" NAME="rel" CLASS="relation" ORDER="249" LEVEL="4" LINE="200">
+<GROUP ID="c1686.7-per8-rel1-6" NAME="rel" CLASS="relation" ORDER="249" LEVEL="4" LINE="200">
     <ELEMENT NAME="line" CLASS="line"><core>200</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per8-rel1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per8-rel1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.7-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -3894,7 +3894,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[c17-7]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.7-per8-rel1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.7-per8-rel1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[c1686.7-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3931,9 +3931,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.7-rela120</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861006</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.7-per9-att4-5" NAME="ls" CLASS="attribute" ORDER="252" LEVEL="4" LINE="203">
+<GROUP ID="c1686.7-per9-att4-6" NAME="ls" CLASS="attribute" ORDER="252" LEVEL="4" LINE="203">
     <ELEMENT NAME="line" CLASS="line"><core>203</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per9-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per9-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.7-per9</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3944,7 +3944,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[jose barbosa]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.7-per9-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.7-per9-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.7-per9]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4009,9 +4009,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.7-rela122</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861006</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.7-per11-att5-5" NAME="ls" CLASS="attribute" ORDER="257" LEVEL="4" LINE="208">
+<GROUP ID="c1686.7-per11-att5-6" NAME="ls" CLASS="attribute" ORDER="257" LEVEL="4" LINE="208">
     <ELEMENT NAME="line" CLASS="line"><core>208</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per11-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.7-per11-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.7-per11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4022,7 +4022,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[vendas novas]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.7-per11-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.7-per11-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.7-per11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4329,9 +4329,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per1-rela134</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.8-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="278" LEVEL="5" LINE="221">
+<GROUP ID="c1686.8-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="278" LEVEL="5" LINE="221">
     <ELEMENT NAME="line" CLASS="line"><core>221</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.8-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4342,7 +4342,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casais da misericordia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.8-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.8-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.8-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4436,9 +4436,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per4-rela137</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.8-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="285" LEVEL="5" LINE="228">
+<GROUP ID="c1686.8-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="285" LEVEL="5" LINE="228">
     <ELEMENT NAME="line" CLASS="line"><core>228</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.8-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4449,7 +4449,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[simoes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.8-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.8-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.8-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4630,9 +4630,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.8-rela143</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.8-per11-att3-5" NAME="ls" CLASS="attribute" ORDER="298" LEVEL="4" LINE="241">
+<GROUP ID="c1686.8-per11-att3-6" NAME="ls" CLASS="attribute" ORDER="298" LEVEL="4" LINE="241">
     <ELEMENT NAME="line" CLASS="line"><core>241</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per11-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.8-per11-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.8-per11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4643,7 +4643,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[barrosos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.8-per11-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.8-per11-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.8-per11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4863,9 +4863,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per1-rela152</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.9-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="313" LEVEL="5" LINE="248">
+<GROUP ID="c1686.9-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="313" LEVEL="5" LINE="248">
     <ELEMENT NAME="line" CLASS="line"><core>248</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.9-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4876,7 +4876,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[simoes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.9-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.9-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.9-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4970,9 +4970,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per4-rela155</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.9-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="320" LEVEL="5" LINE="255">
+<GROUP ID="c1686.9-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="320" LEVEL="5" LINE="255">
     <ELEMENT NAME="line" CLASS="line"><core>255</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.9-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4983,7 +4983,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casais da misericordia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.9-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.9-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.9-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5048,9 +5048,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.9-rela157</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.9-per7-att3-5" NAME="ls" CLASS="attribute" ORDER="325" LEVEL="4" LINE="260">
+<GROUP ID="c1686.9-per7-att3-6" NAME="ls" CLASS="attribute" ORDER="325" LEVEL="4" LINE="260">
     <ELEMENT NAME="line" CLASS="line"><core>260</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per7-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per7-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.9-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5061,7 +5061,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[barrosos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.9-per7-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.9-per7-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.9-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5097,9 +5097,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.9-rela158</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861111</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.9-per8-att4-5" NAME="ls" CLASS="attribute" ORDER="328" LEVEL="4" LINE="262">
+<GROUP ID="c1686.9-per8-att4-6" NAME="ls" CLASS="attribute" ORDER="328" LEVEL="4" LINE="262">
     <ELEMENT NAME="line" CLASS="line"><core>262</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per8-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per8-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.9-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5110,16 +5110,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha, freguesia da redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.9-per8-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.9-per8-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.9-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861111]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.9-per8-att5-5" NAME="ls" CLASS="attribute" ORDER="329" LEVEL="4" LINE="264">
+<GROUP ID="c1686.9-per8-att5-6" NAME="ls" CLASS="attribute" ORDER="329" LEVEL="4" LINE="264">
     <ELEMENT NAME="line" CLASS="line"><core>264</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per8-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.9-per8-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.9-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5130,7 +5130,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.9-per8-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.9-per8-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.9-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5495,9 +5495,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per1-rela172</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="354" LEVEL="5" LINE="280">
+<GROUP ID="c1686.10-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="354" LEVEL="5" LINE="280">
     <ELEMENT NAME="line" CLASS="line"><core>280</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5508,16 +5508,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal do casconho]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.10-per2-att2-5" NAME="ls" CLASS="attribute" ORDER="355" LEVEL="5" LINE="282">
+<GROUP ID="c1686.10-per2-att2-6" NAME="ls" CLASS="attribute" ORDER="355" LEVEL="5" LINE="282">
     <ELEMENT NAME="line" CLASS="line"><core>282</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per2-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per2-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5528,7 +5528,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[antes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per2-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per2-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5622,9 +5622,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per4-rela175</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per5-att3-5" NAME="ls" CLASS="attribute" ORDER="362" LEVEL="5" LINE="288">
+<GROUP ID="c1686.10-per5-att3-6" NAME="ls" CLASS="attribute" ORDER="362" LEVEL="5" LINE="288">
     <ELEMENT NAME="line" CLASS="line"><core>288</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per5-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per5-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5635,16 +5635,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal do casconho]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per5-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per5-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.10-per5-att4-5" NAME="ls" CLASS="attribute" ORDER="363" LEVEL="5" LINE="290">
+<GROUP ID="c1686.10-per5-att4-6" NAME="ls" CLASS="attribute" ORDER="363" LEVEL="5" LINE="290">
     <ELEMENT NAME="line" CLASS="line"><core>290</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per5-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per5-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5655,7 +5655,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[antes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per5-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per5-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5720,9 +5720,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela177</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest25111686-att5-5" NAME="ls" CLASS="attribute" ORDER="368" LEVEL="4" LINE="294">
+<GROUP ID="ctest25111686-att5-6" NAME="ls" CLASS="attribute" ORDER="368" LEVEL="4" LINE="294">
     <ELEMENT NAME="line" CLASS="line"><core>294</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest25111686-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest25111686-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest25111686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5733,16 +5733,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sapateiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest25111686-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest25111686-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest25111686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="ctest25111686-att6-5" NAME="ls" CLASS="attribute" ORDER="369" LEVEL="4" LINE="296">
+<GROUP ID="ctest25111686-att6-6" NAME="ls" CLASS="attribute" ORDER="369" LEVEL="4" LINE="296">
     <ELEMENT NAME="line" CLASS="line"><core>296</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest25111686-att6-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest25111686-att6-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest25111686</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5753,7 +5753,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[c]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest25111686-att6-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest25111686-att6-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest25111686]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5791,9 +5791,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela178</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per7-rel1-5" NAME="rel" CLASS="relation" ORDER="372" LEVEL="4" LINE="299">
+<GROUP ID="c1686.10-per7-rel1-6" NAME="rel" CLASS="relation" ORDER="372" LEVEL="4" LINE="299">
     <ELEMENT NAME="line" CLASS="line"><core>299</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per7-rel1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per7-rel1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -5808,7 +5808,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ctest25111686]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per7-rel1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per7-rel1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[c1686.10-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5844,9 +5844,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela179</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per8-att7-5" NAME="ls" CLASS="attribute" ORDER="375" LEVEL="4" LINE="301">
+<GROUP ID="c1686.10-per8-att7-6" NAME="ls" CLASS="attribute" ORDER="375" LEVEL="4" LINE="301">
     <ELEMENT NAME="line" CLASS="line"><core>301</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per8-att7-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per8-att7-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5857,16 +5857,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[tapeus, freguesia de tapeus]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per8-att7-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per8-att7-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.10-per8-att8-5" NAME="ls" CLASS="attribute" ORDER="376" LEVEL="4" LINE="303">
+<GROUP ID="c1686.10-per8-att8-6" NAME="ls" CLASS="attribute" ORDER="376" LEVEL="4" LINE="303">
     <ELEMENT NAME="line" CLASS="line"><core>303</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per8-att8-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per8-att8-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per8</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5877,7 +5877,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[tapeus]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per8-att8-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per8-att8-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per8]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5913,9 +5913,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela180</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per9-att9-5" NAME="ls" CLASS="attribute" ORDER="379" LEVEL="4" LINE="306">
+<GROUP ID="c1686.10-per9-att9-6" NAME="ls" CLASS="attribute" ORDER="379" LEVEL="4" LINE="306">
     <ELEMENT NAME="line" CLASS="line"><core>306</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per9-att9-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per9-att9-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per9</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5926,7 +5926,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per9-att9-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per9-att9-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per9]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5962,9 +5962,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela181</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per10-att10-5" NAME="ls" CLASS="attribute" ORDER="382" LEVEL="4" LINE="309">
+<GROUP ID="c1686.10-per10-att10-6" NAME="ls" CLASS="attribute" ORDER="382" LEVEL="4" LINE="309">
     <ELEMENT NAME="line" CLASS="line"><core>309</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per10-att10-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per10-att10-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per10</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5975,7 +5975,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[juiz?]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per10-att10-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per10-att10-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.10-per10]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6011,9 +6011,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela182</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="ctest25111686b-att11-5" NAME="ls" CLASS="attribute" ORDER="385" LEVEL="4" LINE="312">
+<GROUP ID="ctest25111686b-att11-6" NAME="ls" CLASS="attribute" ORDER="385" LEVEL="4" LINE="312">
     <ELEMENT NAME="line" CLASS="line"><core>312</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ctest25111686b-att11-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ctest25111686b-att11-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ctest25111686b</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6024,7 +6024,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carvalheira de cima]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ctest25111686b-att11-5]]></core>   </ELEMENT>
+         <core><![CDATA[ctest25111686b-att11-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ctest25111686b]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6060,9 +6060,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.10-rela183</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861125</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.10-per11-rel2-5" NAME="rel" CLASS="relation" ORDER="388" LEVEL="4" LINE="315">
+<GROUP ID="c1686.10-per11-rel2-6" NAME="rel" CLASS="relation" ORDER="388" LEVEL="4" LINE="315">
     <ELEMENT NAME="line" CLASS="line"><core>315</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per11-rel2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.10-per11-rel2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.10-per11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -6077,7 +6077,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ctest25111686b]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.10-per11-rel2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.10-per11-rel2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[c1686.10-per11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6297,9 +6297,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per1-rela192</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per2-att1-5" NAME="ls" CLASS="attribute" ORDER="403" LEVEL="5" LINE="322">
+<GROUP ID="c1686.11-per2-att1-6" NAME="ls" CLASS="attribute" ORDER="403" LEVEL="5" LINE="322">
     <ELEMENT NAME="line" CLASS="line"><core>322</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per2-att1-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per2-att1-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6310,7 +6310,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[vale da borra]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per2-att1-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per2-att1-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6404,9 +6404,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per4-rela195</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per5-att2-5" NAME="ls" CLASS="attribute" ORDER="410" LEVEL="5" LINE="328">
+<GROUP ID="c1686.11-per5-att2-6" NAME="ls" CLASS="attribute" ORDER="410" LEVEL="5" LINE="328">
     <ELEMENT NAME="line" CLASS="line"><core>328</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per5-att2-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per5-att2-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6417,16 +6417,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha, freguesia da redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per5-att2-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per5-att2-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861205]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.11-per5-att3-5" NAME="ls" CLASS="attribute" ORDER="411" LEVEL="5" LINE="330">
+<GROUP ID="c1686.11-per5-att3-6" NAME="ls" CLASS="attribute" ORDER="411" LEVEL="5" LINE="330">
     <ELEMENT NAME="line" CLASS="line"><core>330</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per5-att3-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per5-att3-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6437,7 +6437,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per5-att3-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per5-att3-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6473,9 +6473,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per4-rela196</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per6-att4-5" NAME="ls" CLASS="attribute" ORDER="414" LEVEL="5" LINE="332">
+<GROUP ID="c1686.11-per6-att4-6" NAME="ls" CLASS="attribute" ORDER="414" LEVEL="5" LINE="332">
     <ELEMENT NAME="line" CLASS="line"><core>332</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per6-att4-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per6-att4-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6486,16 +6486,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha, freguesia da redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per6-att4-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per6-att4-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861205]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.11-per6-att5-5" NAME="ls" CLASS="attribute" ORDER="415" LEVEL="5" LINE="334">
+<GROUP ID="c1686.11-per6-att5-6" NAME="ls" CLASS="attribute" ORDER="415" LEVEL="5" LINE="334">
     <ELEMENT NAME="line" CLASS="line"><core>334</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per6-att5-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per6-att5-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6506,7 +6506,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[redinha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per6-att5-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per6-att5-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6542,9 +6542,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-rela197</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per7-att6-5" NAME="ls" CLASS="attribute" ORDER="418" LEVEL="4" LINE="336">
+<GROUP ID="c1686.11-per7-att6-6" NAME="ls" CLASS="attribute" ORDER="418" LEVEL="4" LINE="336">
     <ELEMENT NAME="line" CLASS="line"><core>336</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per7-att6-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per7-att6-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6555,16 +6555,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per7-att6-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per7-att6-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16861205]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1686.11-per7-att7-5" NAME="ls" CLASS="attribute" ORDER="419" LEVEL="4" LINE="338">
+<GROUP ID="c1686.11-per7-att7-6" NAME="ls" CLASS="attribute" ORDER="419" LEVEL="4" LINE="338">
     <ELEMENT NAME="line" CLASS="line"><core>338</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per7-att7-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per7-att7-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6575,7 +6575,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sobral]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per7-att7-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per7-att7-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6640,9 +6640,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-rela199</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per9-att8-5" NAME="ls" CLASS="attribute" ORDER="424" LEVEL="4" LINE="343">
+<GROUP ID="c1686.11-per9-att8-6" NAME="ls" CLASS="attribute" ORDER="424" LEVEL="4" LINE="343">
     <ELEMENT NAME="line" CLASS="line"><core>343</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per9-att8-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per9-att8-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per9</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6653,7 +6653,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[penisado?]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per9-att8-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per9-att8-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per9]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6689,9 +6689,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-rela200</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per10-att9-5" NAME="ls" CLASS="attribute" ORDER="427" LEVEL="4" LINE="346">
+<GROUP ID="c1686.11-per10-att9-6" NAME="ls" CLASS="attribute" ORDER="427" LEVEL="4" LINE="346">
     <ELEMENT NAME="line" CLASS="line"><core>346</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per10-att9-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per10-att9-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per10</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6702,7 +6702,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casalinhos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per10-att9-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per10-att9-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per10]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -6738,9 +6738,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1686.11-rela201</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16861205</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1686.11-per11-att10-5" NAME="ls" CLASS="attribute" ORDER="430" LEVEL="4" LINE="348">
+<GROUP ID="c1686.11-per11-att10-6" NAME="ls" CLASS="attribute" ORDER="430" LEVEL="4" LINE="348">
     <ELEMENT NAME="line" CLASS="line"><core>348</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per11-att10-5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1686.11-per11-att10-6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1686.11-per11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -6751,7 +6751,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casalinhos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1686.11-per11-att10-5]]></core>   </ELEMENT>
+         <core><![CDATA[c1686.11-per11-att10-6]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1686.11-per11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">

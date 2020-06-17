@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/baptismos/bpo1.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-4-20 17:24:32" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/1685-1720/baptismos/bpo1.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-5-13 22:16:56" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -30,7 +30,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/baptismos/bpo1.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/kleio-home/sources/soure-fontes/sources/1685-1720/baptismos/bpo1.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="bap">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -150,9 +150,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="po115-b167o-per1-per2-att1-24" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="5" LINE="11">
+<GROUP ID="po115-b167o-per1-per2-att1-25" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="5" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-per2-att1-24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-per2-att1-25</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -163,7 +163,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[vale do freixo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[po115-b167o-per1-per2-att1-24]]></core>   </ELEMENT>
+         <core><![CDATA[po115-b167o-per1-per2-att1-25]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[po115-b167o-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -286,9 +286,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per1-rela6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16700315</core></ELEMENT>
 </GROUP>
-<GROUP ID="po115-b167o-per6-att2-24" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="5" LINE="19">
+<GROUP ID="po115-b167o-per6-att2-25" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="5" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6-att2-24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6-att2-25</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -299,16 +299,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[po115-b167o-per6-att2-24]]></core>   </ELEMENT>
+         <core><![CDATA[po115-b167o-per6-att2-25]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[po115-b167o-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16700315]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="po115-b167o-per6-att3-24" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="5" LINE="20">
+<GROUP ID="po115-b167o-per6-att3-25" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="5" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6-att3-24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>po115-b167o-per6-att3-25</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>po115-b167o-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -319,7 +319,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[frei]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[po115-b167o-per6-att3-24]]></core>   </ELEMENT>
+         <core><![CDATA[po115-b167o-per6-att3-25]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[po115-b167o-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">

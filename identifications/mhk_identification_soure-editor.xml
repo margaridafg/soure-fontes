@@ -1,0 +1,592 @@
+<?xml version='1.0'?>
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/identifications/mhk_identification_soure-editor.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-6-17 18:26:58" OBS="Generated from database soure_editor by user soure-editor ISO8601:2020-05-13T06:59:24.622Z" SPACE="">
+<CLASS NAME="aregister" SUPER="entity" TABLE="aregisters" GROUP="identifications">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="name" COLUMN="name" CLASS="name" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="dbase" COLUMN="dbase" CLASS="dbase" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="replace_mode" COLUMN="replace_mode" CLASS="replace_mode" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="ignore_date" COLUMN="ignore_date" CLASS="ignore_date" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="real-entities" NAME="identifications" CLASS="aregister" ORDER="1" LEVEL="1" LINE="5">
+    <ELEMENT NAME="line" CLASS="line"><core>5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>real-entities</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>identifications</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>aregister</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>1</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>1</core></ELEMENT>
+   <ELEMENT NAME="name" CLASS="name">
+         <core><![CDATA[Real Entities, including real persons and realobjects]]></core>   </ELEMENT>
+   <ELEMENT NAME="dbase" CLASS="dbase">
+         <core><![CDATA[soure_editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[20200513]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="rentity" SUPER="entity" TABLE="rentities" GROUP="rentity">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="the_class" COLUMN="the_class" CLASS="the_class" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="description" COLUMN="description" CLASS="name" TYPE="varchar" SIZE="128" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="status" COLUMN="status" CLASS="status" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+<CLASS NAME="rperson" SUPER="rentity" TABLE="rpersons" GROUP="rperson">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="seq" COLUMN="seq" CLASS="seq" TYPE="int" SIZE="10" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="sname" COLUMN="sname" CLASS="name" TYPE="varchar" SIZE="128" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="status" COLUMN="status" CLASS="status" TYPE="varchar" SIZE="1" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="sex" COLUMN="sex" CLASS="sex" TYPE="varchar" SIZE="1" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="rp-416" NAME="rperson" CLASS="rperson" ORDER="2" LEVEL="2" LINE="6">
+    <ELEMENT NAME="line" CLASS="line"><core>6</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-416</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[afonso de lencastre]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-816]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho aurelio de matos]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho aurelio de matos]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-816]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[afonso de lencastre]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-416-occ1" REGISTER="real-entities" USER="soure-editor" ORG="emz2-12-per12-12" DEST="rp-416" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-667" NAME="rperson" CLASS="rperson" ORDER="3" LEVEL="2" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-667</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>3</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[agostinho de barros]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[agostinho luis de ataide]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-772]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[agostinho de barros]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-667-occ2" REGISTER="real-entities" USER="soure-editor" ORG="b1687.10-per5" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-667-occ3" REGISTER="real-entities" USER="soure-editor" ORG="b1692.27-per4" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-667-occ4" REGISTER="real-entities" USER="soure-editor" ORG="b1696.24-per5" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-667-occ5" REGISTER="real-entities" USER="soure-editor" ORG="b1709.21-per5" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-667-occ6" REGISTER="real-entities" USER="soure-editor" ORG="b1711.91-per3" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-667-occ7" REGISTER="real-entities" USER="soure-editor" ORG="b1715.10-per5" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-667-occ8" REGISTER="real-entities" USER="soure-editor" ORG="b1724.80-per5" DEST="rp-667" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-564" NAME="rperson" CLASS="rperson" ORDER="4" LEVEL="2" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-564</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>4</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-720]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[ana maria]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-564-occ9" REGISTER="real-entities" USER="soure-editor" ORG="b1687.8-per1" DEST="rp-564" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-1575" NAME="rperson" CLASS="rperson" ORDER="5" LEVEL="2" LINE="21">
+    <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-1575</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>5</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[angelica]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[angelica]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-1575-occ10" REGISTER="real-entities" USER="soure-editor" ORG="b1695.85-per1" DEST="rp-1575" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-1578" NAME="rperson" CLASS="rperson" ORDER="6" LEVEL="2" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-1578</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>6</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[angelica]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[angelica]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-1578-occ11" REGISTER="real-entities" USER="soure-editor" ORG="b1690.8-per1" DEST="rp-1578" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-1578-occ12" REGISTER="real-entities" USER="soure-editor" ORG="b1702.29-per1" DEST="rp-1578" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-1578-occ13" REGISTER="real-entities" USER="soure-editor" ORG="b1724.72-per5" DEST="rp-1578" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-1578-occ14" REGISTER="real-entities" USER="soure-editor" ORG="b1728.78-per5" DEST="rp-1578" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-1578-occ15" REGISTER="real-entities" USER="soure-editor" ORG="b1731.17-per5" DEST="rp-1578" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-784" NAME="rperson" CLASS="rperson" ORDER="7" LEVEL="2" LINE="31">
+    <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-784</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>7</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[anselmo]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[anselmo manhos de abreu]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-621]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[anselmo]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-784-occ16" REGISTER="real-entities" USER="soure-editor" ORG="b1692.55-per1" DEST="rp-784" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-784-occ17" REGISTER="real-entities" USER="soure-editor" ORG="b1716.62-per5" DEST="rp-784" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-205" NAME="rperson" CLASS="rperson" ORDER="8" LEVEL="2" LINE="35">
+    <ELEMENT NAME="line" CLASS="line"><core>35</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-205</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[antonia carvalha]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonia carvalho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-129]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[antonia carvalha]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-205-occ18" REGISTER="real-entities" USER="soure-editor" ORG="amz13-per20" DEST="rp-205" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-205-occ19" REGISTER="real-entities" USER="soure-editor" ORG="emz1-6-per21-13" DEST="rp-205" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-205-occ20" REGISTER="real-entities" USER="soure-editor" ORG="t1694-34" DEST="rp-205" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-205-occ21" REGISTER="real-entities" USER="soure-editor" ORG="t1694-35" DEST="rp-205" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-639" NAME="rperson" CLASS="rperson" ORDER="9" LEVEL="2" LINE="40">
+    <ELEMENT NAME="line" CLASS="line"><core>40</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-639</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>9</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[antonio carvalho coelho]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="UNDEFINED" CLASS="undef">
+         <core><![CDATA[antonio carvalhosa de oliveira]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor rperson$rp-763]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[assinou a rogo da vendedora]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[antonio carvalho coelho]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+</KLEIO>
