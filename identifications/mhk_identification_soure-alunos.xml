@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/identifications/mhk_identification_soure-alunos.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-14 16:23:32" OBS="Generated from database soure_editor by user soure-editor, file date: +2020-07-14 Timestamp:2020-07-14T16:02:55.654Z" SPACE="">
+<CLASS NAME="aregister" SUPER="entity" TABLE="aregisters" GROUP="identifications">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="name" COLUMN="name" CLASS="name" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="dbase" COLUMN="dbase" CLASS="dbase" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="mode" COLUMN="mode" CLASS="mode" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="real-entities" NAME="identifications" CLASS="aregister" ORDER="1" LEVEL="1" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>real-entities</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>identifications</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>aregister</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>1</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>1</core></ELEMENT>
+   <ELEMENT NAME="name" CLASS="name">
+         <core><![CDATA[Real Entities, including real persons and real objects]]></core>   </ELEMENT>
+   <ELEMENT NAME="dbase" CLASS="dbase">
+         <core><![CDATA[soure_editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[20200714]]></core>   </ELEMENT>
+   <ELEMENT NAME="mode" CLASS="mode">
+         <core><![CDATA[backup]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="rentity" SUPER="entity" TABLE="rentities" GROUP="rentity">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="the_class" COLUMN="the_class" CLASS="the_class" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="description" COLUMN="description" CLASS="name" TYPE="varchar" SIZE="128" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="status" COLUMN="status" CLASS="status" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+<CLASS NAME="rperson" SUPER="rentity" TABLE="rpersons" GROUP="rperson">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="seq" COLUMN="seq" CLASS="seq" TYPE="int" SIZE="10" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="sname" COLUMN="sname" CLASS="name" TYPE="varchar" SIZE="128" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="status" COLUMN="status" CLASS="status" TYPE="varchar" SIZE="1" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="sex" COLUMN="sex" CLASS="sex" TYPE="varchar" SIZE="1" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="rp-212" NAME="rperson" CLASS="rperson" ORDER="2" LEVEL="2" LINE="10">
+    <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-212</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[antonio marques]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="status" CLASS="status">
+         <core><![CDATA[N]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[antonio marques]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-212-occ1" REGISTER="real-entities" USER="soure-editor" ORG="b1721.26-per4" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ2" REGISTER="real-entities" USER="soure-editor" ORG="b1723.24-per4" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ3" REGISTER="real-entities" USER="soure-editor" ORG="b1723.88-per2" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ4" REGISTER="real-entities" USER="soure-editor" ORG="b1724.82-per4" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ5" REGISTER="real-entities" USER="soure-editor" ORG="b1731.37-per2" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ6" REGISTER="real-entities" USER="soure-editor" ORG="b1731.52-per6" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ7" REGISTER="real-entities" USER="soure-editor" ORG="b1731.69-per3" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ8" REGISTER="real-entities" USER="soure-editor" ORG="b1731.83-per4" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ9" REGISTER="real-entities" USER="soure-editor" ORG="o1733.22-per1-per2" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-212-occ10" REGISTER="real-entities" USER="soure-editor" ORG="o1733.29-per1-per2" DEST="rp-212" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-213" NAME="rperson" CLASS="rperson" ORDER="3" LEVEL="2" LINE="22">
+    <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-213</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>3</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[domingas]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[f]]></core>   </ELEMENT>
+   <ELEMENT NAME="status" CLASS="status">
+         <core><![CDATA[N]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[domingas]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-213-occ11" REGISTER="real-entities" USER="soure-editor" ORG="b1721.26-per5" DEST="rp-213" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-213-occ12" REGISTER="real-entities" USER="soure-editor" ORG="b1723.24-per5" DEST="rp-213" TYPE="META" VALUE="attach_to_rentity"/>
+
+<GROUP ID="rp-214" NAME="rperson" CLASS="rperson" ORDER="4" LEVEL="2" LINE="26">
+    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>rp-214</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>rperson</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>real-entities</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>rperson</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>4</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>2</core></ELEMENT>
+   <ELEMENT NAME="sname" CLASS="name">
+         <core><![CDATA[francisco joao]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+   <ELEMENT NAME="status" CLASS="status">
+         <core><![CDATA[N]]></core>   </ELEMENT>
+   <ELEMENT NAME="description" CLASS="name">
+         <core><![CDATA[francisco joao]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-editor]]></core>   </ELEMENT>
+   <ELEMENT NAME="the_class" CLASS="the_class">
+         <core><![CDATA[rperson]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="rp-214-occ13" REGISTER="real-entities" USER="soure-editor" ORG="b1721.26-per6" DEST="rp-214" TYPE="META" VALUE="attach_to_rentity"/>
+
+<RELATION ID="rp-214-occ14" REGISTER="real-entities" USER="soure-editor" ORG="b1723.24-per6" DEST="rp-214" TYPE="META" VALUE="attach_to_rentity"/>
+</KLEIO>
