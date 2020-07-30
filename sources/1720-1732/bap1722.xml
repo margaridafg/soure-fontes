@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/1720-1732/bap1722.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-29 22:32:24" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/1720-1732/bap1722.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-30 9:45:26" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -40335,9 +40335,9 @@
          <core><![CDATA[1722]]></core>   </ELEMENT>
    <ELEMENT NAME="fol" CLASS="ref">
          <core><![CDATA[fol.37v]]></core>   </ELEMENT>
-   <ELEMENT NAME="local" CLASS="loc">
-         <core><![CDATA[igreja de sao tiago]]></core>   </ELEMENT>
    <ELEMENT NAME="loc" CLASS="loc">
+         <core><![CDATA[local_igreja de sao tiago]]></core>   </ELEMENT>
+   <ELEMENT NAME="celebrante" CLASS="undef">
          <core><![CDATA[celebrante__antonio de sousa]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17221019]]></core>   </ELEMENT>
