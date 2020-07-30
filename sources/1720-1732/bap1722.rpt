@@ -1,5 +1,5 @@
-ClioInput - version @@VERSION@@ - build @@BUILD@@ @@DATE@@
-20-4-2020 21-36
+KleioTranslator - server version 2019.A2 - build 274 (Import-identifications) 22/07/2020 19:36 
+29-7-2020 22-32
 
 Processing data file bap1722.cli
 -------------------------------------------
@@ -12,7 +12,7 @@ kleio translation started
 Structure: gacjo2.str
 Prefix: 
 Autorel: 
-Translation count: 6
+Translation count: 7
 Obs: 
 ** Processing source fonte$baptizados 1722
 6: bap$b1722.01
@@ -104,6 +104,11 @@ Obs:
 2042: bap$b1722.87
 2062: bap$b1722.88
 2086: bap$b1722.89
+
+ERROR: bap1722.cli line 2104 ** bap unknown element: local.
+Near lines: 2104 
+Near line: 2105       bap$b1722.90/19/10/1722/fol.37v/local=igreja de sao tiago/celebrante__antonio de sousa
+
 2107: bap$b1722.90
 2128: bap$b1722.91
 2150: bap$b1722.92
@@ -127,10 +132,8 @@ Obs:
 2577: bap$b1722.110
 2603: bap$b1722.111
 *** End of File
-** Processed file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase2/bap1722.cli
-** Original file- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase2/bap1722.org
-** Previous version- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase2/bap1722.old
-** Temp file with ids- /Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase2/bap1722.ids
-0  errors. 
+
+
+1  errors. 
 0  warnings.
 Translation finished.
