@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/soure_fase2/obi1720.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-4-22 23:45:31" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-fontes/sources/1720-1732/obi1720.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-8-22 11:16:30" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -11,9 +11,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="obitos 1720" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="3">
+<GROUP ID="obitos 1720-removed" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="3">
     <ELEMENT NAME="line" CLASS="line"><core>3</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>obitos 1720</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>obitos 1720-removed</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>fonte</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>source</core></ELEMENT>
@@ -30,6 +30,6 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/kleio-home/sources/soure-fontes/sources/soure_fase2/obi1720.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure-fontes/sources/1720-1732/obi1720.cli]]></core>   </ELEMENT>
 </GROUP>
 </KLEIO>
