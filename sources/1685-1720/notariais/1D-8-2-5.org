@@ -1,5 +1,5 @@
-kleio$gacto2.str/translations=4
-   fonte$n2.5/loc=AUC D-8-2-5/tipo=livro de notas/data=14031691/obs=legivel  o livro nao tem os primeiros 23 folios, a  contagem a partir do um ? provisoria , o local passa a registar a  origem dos contratantes , todo levantado no caderno azul.
+kleio$gacto2.str/translations=6
+   fonte$n2.5/loc=AUC D-8-2-5/tipo=livro de notas/data=14031691/obs=legivel o livro nao tem os primeiros 23 folios, a contagem a partir do um ? provisoria ,  o local passa a registar a origem dos contratantes ,  todo levantado no caderno azul. tabeliao jose barbosa canais
 
       escritura$n.2.5.1/0/0/0/fol=(1)/loc=/obs=truncado
 
@@ -105,13 +105,25 @@ kleio$gacto2.str/translations=4
             ls$residencia/casa velha, termo de soure
             ls$assina/+
 
-      escritura$n2.5.7/09/02/1700/compra/fol=$54v-5v/loc=soure/obs= escritura truncada, local da escritura nas casa de domingos lopes, no lugar da casa velha - venda por 50000 reis de um casal sito no limite da casa velha, junto a ela, que consta de casas com todas suas serventias / e que parte duma banda com eles compradores e com herdeiros que ficaram de simao goncalves do dito lugar e mais com o padre frei joao goncalves de soure e com ?? goncalves da casa velha
+      escritura$n2.5.7/09/02/1700/compra/fol=$54v-5v/loc=casa de domingos lopes, no lugar da casa velha/obs= escritura truncada, venda por 50000 reis de um casal sito no limite da casa velha, junto a ela, que consta de casas com todas suas serventias - e que parte duma banda com eles compradores e com herdeiros que ficaram de simao goncalves do dito lugar e mais com o padre frei joao goncalves de soure e com ?? goncalves da casa velha
 
-         vendedor$manuel de sousa/id=n2.5.7-per1-4
-            ls$residencia/fonte de soure, termo de soure/obs=no sumario da escritura sao tidos como moradores no dito lugar da casa velha / a certidao da sisa coloca fonte de soure no termo de montemor o velho
+         vendedor$manuel de sousa/id=n2.5.7-per1-4/obs=no sumario da escritura sao tidos como moradores no dito lugar da casa velha
+            ls$residencia/fonte de soure, termo de soure/obs=a certidao da sisa coloca fonte de soure no termo de montemor o velho
             ls$ec/c
 
             mulher$maria luisa/id=n2.5.7-per1-4-per2-4
+
+         bem$casal/obs=casas com suas serventias/id=n2.5.7-obj1-6
+         ls$local/casa velha
+         ls$valor/50.000 reis
+         ls$confronta/domingos lopes e sua mulher maria pereira
+         ls$confronta/herdeiros de simao goncalves
+         ls$confronta/padre frei joao goncalves de soure
+         ls$confronta/? goncalves, casa velha
+
+         referido$simao goncalves/id=n2.5.7-per1-6
+            ls$morto/antes
+            ls$residencia/casa velha
 
          comprador$domingos lopes/id=n2.5.7-per3-4
             ls$residencia/casa velha, termo de soure
@@ -138,7 +150,7 @@ kleio$gacto2.str/translations=4
 
       escritura$n2.5.10/10/02/1700/procuracao/fol=$57-7v/loc=redinha e fora
 
-      escritura$n2.5.11/11/02/1700/procuracao/fol=$57v-8/loc=soure/obs= truncado / local da escritura nas casa do tabeliao / nao se consegue ver o nome do procurador nomeado, que e´ de soure
+      escritura$n2.5.11/11/02/1700/procuracao/fol=$57v-8/loc=soure. casa do tabeliao/obs= truncado - nao se consegue ver o nome do procurador nomeado, que é de soure
 
          outorgante$manuel jorge/id=n2.5.11-per1-4
             ls$residencia/soure
@@ -243,7 +255,13 @@ kleio$gacto2.str/translations=4
 
       escritura$n2.5.14/13/02/1700/patrimonio/fol=$510-11v/loc=redinha e fora
 
-      escritura$n2.5.15/23/02/1700/dote de casamento/fol=$512-12v/loc=manuel rodrigues da costa/obs=a doadora com o favor de deus estava havida e contratada com dionisio da rocha manrique (referido na inquisicao num caderno do promotor), boticario e de leiria que assina nesta escritura, para haver de casar com ele uma sua filha de seu primeiro marido antonio lopes de oliveira (casamento 1700-159) / bens dotados por madalena pinta no valor de quatrocentos mil reis, a saber- - uma terra(?) sita onde chamam a barrosa pequena que parte com sebastiao soares coelho de soure e com melchior mendes, lavrador deste termo, e com terras da capela, no valor de querenta mil reis / a doadora disse ainda que metade da terra que est� no sitio da lagem junto ao moinho do mar?o, avaliada em sessenta e um mil reis, pertencia ao seu marido manuel rodrigues da costa, que assim tambem entra na escritura de dote a dotar � sua enteada
+      escritura$n2.5.15/23/02/1700/dote de casamento/fol=$512-12v/loc=manuel rodrigues da costa/obs=a doadora com o favor de deus estava havida e contratada com dionisio da rocha manrique, boticario de leiria que assina nesta escritura, para haver de casar com ele uma sua filha de seu primeiro marido antonio lopes de oliveira (casamento 1700-159) bens dotados por madalena pinta no valor de quatrocentos mil reis, a saber- - A doadora disse ainda que metade da terra que está no sitio da lagem junto ao moinho do mar?o, avaliada em sessenta e um mil reis, pertencia ao seu marido manuel rodrigues da costa, que assim tambem entra na escritura de dote a dotar � sua enteada
+
+         item$uma terra sita onde chamam a barrosa pequena/obs= que parte com/id=n2.5.15-obj1-5
+            ls$confronta/sebastiao soares coelho de soure
+            ls$confronta/melchior mendes, lavrador deste termo
+            ls$confronta/terras da capela
+            ls$valor/40.000 reis
 
          doadora$madalena pinta/xmesmo_que=c1692.14-per3/id=2.5.15.p1
             ls$residencia/soure
@@ -280,7 +298,7 @@ kleio$gacto2.str/translations=4
             ls$confronta/padre domingos ? de são mateus
             ls$valor/100.000 reis
 
-            referido$dioniosio da rocha manrique/xmesmo_que=c159-1/obs=contratado para casar com a dotada/id=n2.5.15-obj4-4-per3-4
+            referido$dionisio da rocha manrique/xmesmo_que=c159-1/obs=contratado para casar com a dotada [referido num caderno do promotor da inquisição/id=n2.5.15-obj4-4-per3-4
                ls$residencia/leiria
                ls$concelho/leiria
                ls$profissao/boticario
@@ -298,7 +316,7 @@ kleio$gacto2.str/translations=4
             ls$residencia/soure
             rel$parentesco/filho/sebastiao goncalves/2.5.15.p4
 
-      escritura$n2.5.16/24/02/1700/compra/fol=$510-11v/loc=soure/obs=local da escritura nas casas do tabeliao / bens vendidos por manuel luis - uma terra que esta na mouta que parte com o licenciado antonio manhos de soure e com joao rodrigues, lavrador e morador no lugar de sobral de soure, no valor de trezentos mil reis / a certidao da sisa ? passada pelo juiz de fora doutor lourenco carrilho leitao
+      escritura$n2.5.16/24/02/1700/compra/fol=$510-11v/loc=soure/obs=local da escritura nas casas do tabeliao - bens vendidos por manuel luis - uma terra que esta na mouta que parte com o licenciado antonio manhos de soure e com joao rodrigues, lavrador e morador no lugar de sobral de soure, no valor de trezentos mil reis - a certidao da sisa ? passada pelo juiz de fora doutor lourenco carrilho leitao
 
          comprador$manuel luis/id=n2.5.16-per1-4
             ls$residencia/casal de s.mateus, termo de soure
@@ -331,7 +349,7 @@ kleio$gacto2.str/translations=4
 
       escritura$n2.5.18/17/03/1700/compra/fol=$514v-15v/loc=redinha/obs=a escritura ? feita em soure, mas com gente da redinha
 
-      escritura$n2.5.19/00/03/1700/doacao remuneratoria entre vivos/fol=$515v-16/loc=soure/obs=a escritura est� truncada / a doadora era uma mulher j� velha e achacada e que estava em companhia da sua filha antonia jorge, a quem doa todos os seus bens da sua ter?a, reservando apenas os usos e usufrutos durante a sua vida
+      escritura$n2.5.19/00/03/1700/doacao remuneratoria entre vivos/fol=$515v-16/loc=soure/obs=a escritura está truncada. Adoadora era uma mulher já velha e achacada e que estava em companhia da sua filha antonia jorge, a quem doa todos os seus bens da sua terra, reservando apenas os usos e usufrutos durante a sua vida
 
          doadora$maria jorge/id=n2.5.19-per1-4
             ls$ec/v
@@ -358,7 +376,7 @@ kleio$gacto2.str/translations=4
 
       escritura$n2.5.21/22/03/1700/emprestimo de juro/fol=$517-18/loc=redinha
 
-      escritura$n2.5.22/22/03/1700/procuracao/fol=$518-18v/loc=soure/obs= local da escritura nas casas de domingos dos santos, na casa velha, termo de soure / fazem a procuracao em especial para uma causa civel que vai por apelacao do juizo dos orfaos desta dita vila de soure para a casa da suplicacao em que eles eram procurantes e os apelados eram manuel pereira e sua mulher moradores tamb?m na casa velha
+      escritura$n2.5.22/22/03/1700/procuracao/fol=18-18v/loc=soure/obs= local da escritura nas casas de domingos dos santos, na casa velha, termo de soure, fazem a procuracao em especial para uma causa civel que vai por apelacao do juizo dos orfaos desta dita vila de soure para a casa da suplicacao em que eles eram procurantes e os apelados eram manuel pereira e sua mulher moradores também na casa velha
 
          outorgante$domingos dos santos/id=n2.5.22-per1-4
             ls$residencia/casa velha, termo de soure
@@ -397,11 +415,29 @@ kleio$gacto2.str/translations=4
             ls$residencia/casa velha
             ls$assina/+
 
-      escritura$n2.5.23/24/03/1700/obrigacao de divida/fol=$518v-19v/loc=soure/obs=local da escritura nas casas de manuel francisco padeiro, no casal da presa, termo de soure / trata-se duma divida de trinta e oito mil e seiscentos reis, provenientes do seguinte - do dinheiro de emprestimo e rendimentos da fazenda que eles devedores trouxeram seis anos, ao preco anual de mil e quinhentos reis, o que soma nove mil reis - mais mil e seiscentos reis - o resto procede de emprestimo em dinheiro de contado / os devedores obriga-se a pagar dentro de tras anos, a comecar nesse mesmo dia / os devedores apresentam a seguinte hipoteca - uma vinha sita no limite deste casal do malvado que parte duma banda com joao rodrigues e da outra com isabel simoes, viuva, tods deste dito casal
+      escritura$n2.5.23/24/03/1700/obrigacao de divida/fol=18v-19v/loc=soure casas de manuel francisco padeiro/obs=local da escritura nas casas de manuel francisco padeiro, no casal da presa, termo de soure. Trata-se duma divida de trinta e oito mil e seiscentos reis, provenientes do seguinte - do dinheiro de emprestimo e rendimentos da fazenda que eles devedores trouxeram seis anos, ao preco anual de mil e quinhentos reis, o que soma nove mil reis - mais mil e seiscentos reis - o resto procede de emprestimo em dinheiro de contado, os devedores obriga-se a pagar dentro de tras anos, a comecar nesse mesmo dia. Os devedores apresentam a seguinte hipoteca - uma vinha sita no limite deste casal do malvado que parte duma banda com joao rodrigues e da outra com isabel simoes, viuva, tods deste dito casal
 
          devedor$manuel francisco/id=n2.5.23-per1-4
-            ls$residencia/casal da priza(?), termo de soure/obs=nao sera casal do malvado em vez de casal de priza?
+            ls$residencia/casal da presa, termo de soure/obs=nao sera casal do malvado em vez de casal de priza?
             ls$profissao/padeiro
+
+         divida$38.600/?/obs=provenientes do seguinte - do dinheiro de emprestimo e rendimentos da fazenda que eles devedores trouxeram seis anos, ao preco anual de mil e quinhentos reis, o que soma nove mil reis - mais mil e seiscentos reis - o resto procede de emprestimo em dinheiro de contado/id=n2.5.23-obj1-5
+            ls$divida-componente/9000 reis, rendimento de fazenda 6 anos 1500 reis por ano/obs="fazenda aque eles devedores trouxeram" - infere-se que os devedores têm arrendada ou aforada uma fazenda do credor há seis anos sem pagar.
+            ls$divida-componente/1600 reis
+            ls$divida-componente/28000 reis/obs=dinheiro contado
+            ls$divida-prazo/3 anos/obs=a comecar nesse mesmo dia
+
+         item$uma vinha sita/id=n2.5.23-obj2-5
+            ls$local/casal do malvado/obs=no limite
+            ls$confina/joao rodrigues
+            ls$confina/isabel simoes, viuva, todos deste dito casal
+
+            referido$joao rodrigues/id=n2.5.23-obj2-5-per1-5
+               ls$residencia/casal do malvado
+
+            referida$isabel simoes/id=n2.5.23-obj2-5-per2-5
+               ls$ec/v
+               ls$residencia/casal do malvado
 
          credor$manuel goncalves/id=n2.5.23-per2-4
             ls$residencia/s.mancos, freguesia do termo de evora
