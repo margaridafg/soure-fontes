@@ -28,7 +28,8 @@ O formato das fontes da fase1 é por vezes diferente dos atualmente usados, uma 
 
 ## About this clone
 
-This repostiory is cloned for testing purposes under github user margaridafg.
+This repostiory is cloned for testing purposes under github user margaridafg. 
+Edited September 7 2020.
 
 ## License
 
