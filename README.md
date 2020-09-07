@@ -26,6 +26,10 @@ A maior parte das fontes são registos paroquiais, mas para 1685-1720 existe um 
 
 O formato das fontes da fase1 é por vezes diferente dos atualmente usados, uma vez que a recolha foi feita numa fase muito inicial de criação do sistema. 
 
+Este é o repositório de referência da reconstituição da comunidade de Soure disponível em 
+ttps://github.com/joaquimrcarvalho/soure-fontes.git 
+
+
 ## License
 
 Timelink link software is distributed under a MIT license that includes usage for commercial purposes. 
