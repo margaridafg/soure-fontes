@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-mfg/identifications/mhk_identification_soure-mfg.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-5-6 9:49:11" OBS="Generated from database soure_mfg by user soure-mfg ISO8601:2020-05-05T21:21:31.635Z" SPACE="">
+<CLASS NAME="aregister" SUPER="entity" TABLE="aregisters" GROUP="identifications">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="user" COLUMN="user" CLASS="user" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="name" COLUMN="name" CLASS="name" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="dbase" COLUMN="dbase" CLASS="dbase" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="replace_mode" COLUMN="replace_mode" CLASS="replace_mode" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="ignore_date" COLUMN="ignore_date" CLASS="ignore_date" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="real-entities" NAME="identifications" CLASS="aregister" ORDER="1" LEVEL="1" LINE="5">
+    <ELEMENT NAME="line" CLASS="line"><core>5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>real-entities</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>identifications</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>aregister</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>1</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>1</core></ELEMENT>
+   <ELEMENT NAME="name" CLASS="name">
+         <core><![CDATA[Real Entities, including real persons and realobjects]]></core>   </ELEMENT>
+   <ELEMENT NAME="dbase" CLASS="dbase">
+         <core><![CDATA[soure_mfg]]></core>   </ELEMENT>
+   <ELEMENT NAME="user" CLASS="user">
+         <core><![CDATA[soure-mfg]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[20200505]]></core>   </ELEMENT>
+</GROUP>
+</KLEIO>
