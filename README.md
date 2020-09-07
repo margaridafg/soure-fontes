@@ -26,6 +26,10 @@ A maior parte das fontes são registos paroquiais, mas na fase 1 existe um conju
 
 O formato das fontes da fase1 é por vezes diferente dos atualmente usados, uma vez que a recolha foi feita numa fase muito inicial de criação do sistema. 
 
+## About this clone
+
+This repostiory is cloned for testing purposes under github user margaridafg.
+
 ## License
 
 Timelink link software is distributed under a MIT license that includes usage for commercial purposes. 
