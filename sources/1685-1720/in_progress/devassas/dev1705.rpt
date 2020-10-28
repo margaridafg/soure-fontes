@@ -1,5 +1,5 @@
 KleioTranslator - server version 2019.A2 - build 312 (master) 03/10/2020 17:40 
-28-10-2020 6-56
+28-10-2020 7-18
 
 Processing data file dev1705.cli
 -------------------------------------------
@@ -13,32 +13,12 @@ Structure: gacto2.str
 Prefix: 
 Autorel: 
 Translation count: 
-Obs: Necessita adaptação novo formato
+Obs: 
 Translation count not set or invalid, counting as zero: 
+** Processing source fonte$vp-1705
+8: devassa$dev1705
 
-ERROR: dev1705.cli line 2 ** Failure: undefined element. 1705
-
-Near lines: 2 devassa$devassa/dev1705/5/10/1705
-Near line: 3 	/visdor=manuel freitas de oliveira#secretario: manuel de freitas
-
-
-ERROR: dev1705.cli line 3 ** devassa unknown element: paroco.
-Near lines: 3 	/visdor=manuel freitas de oliveira#secretario: manuel de freitas
-Near line: 4 	/paroco=?
-
-
-ERROR: dev1705.cli line 4 ** devassa unknown element: cota.
-Near lines: 4 	/paroco=?
-Near line: 5 	/cota=III\/D,1,4,4,50
-
-
-ERROR: dev1705.cli line 7 ** Error: missing element(s) in devassa(devassa) must have: fol
-Near lines: 7 
-Near line: 8 testemunha$1705-t1/manuel goncalves/m
-
-8: devassa$devassa
-
-ERROR: dev1705.cli line 7 *** Current group testemunha cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 7 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
 Near lines: 7 
 Near line: 8 testemunha$1705-t1/manuel goncalves/m
 
@@ -71,18 +51,13 @@ Near lines: 8 testemunha$1705-t1/manuel goncalves/m
 Near line: 9 	acus$1/0/NADA 
 
 
-ERROR: dev1705.cli line 8 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 8 ** ID already used in this file: dev1705
 Near lines: 8 testemunha$1705-t1/manuel goncalves/m
 Near line: 9 	acus$1/0/NADA 
 
+9: devassa$dev1705
 
-ERROR: dev1705.cli line 8 ** ID already used in this file: devassa
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
-
-9: devassa$devassa
-
-ERROR: dev1705.cli line 8 *** Current group acus cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 8 *** Current group acus cannot be linked with previous group devassa(dev1705)
 Near lines: 8 testemunha$1705-t1/manuel goncalves/m
 Near line: 9 	acus$1/0/NADA 
 
@@ -115,18 +90,13 @@ Near lines: 9 	acus$1/0/NADA
 Near line: 10 testemunha$1705-t2/matias rodrigues/m
 
 
-ERROR: dev1705.cli line 9 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 9 ** ID already used in this file: dev1705
 Near lines: 9 	acus$1/0/NADA 
 Near line: 10 testemunha$1705-t2/matias rodrigues/m
 
+10: devassa$dev1705
 
-ERROR: dev1705.cli line 9 ** ID already used in this file: devassa
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
-
-10: devassa$devassa
-
-ERROR: dev1705.cli line 9 *** Current group testemunha cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 9 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
 Near lines: 9 	acus$1/0/NADA 
 Near line: 10 testemunha$1705-t2/matias rodrigues/m
 
@@ -159,18 +129,13 @@ Near lines: 10 testemunha$1705-t2/matias rodrigues/m
 Near line: 11 	acus$2/0/NADA 
 
 
-ERROR: dev1705.cli line 10 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 10 ** ID already used in this file: dev1705
 Near lines: 10 testemunha$1705-t2/matias rodrigues/m
 Near line: 11 	acus$2/0/NADA 
 
+11: devassa$dev1705
 
-ERROR: dev1705.cli line 10 ** ID already used in this file: devassa
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
-
-11: devassa$devassa
-
-ERROR: dev1705.cli line 10 *** Current group acus cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 10 *** Current group acus cannot be linked with previous group devassa(dev1705)
 Near lines: 10 testemunha$1705-t2/matias rodrigues/m
 Near line: 11 	acus$2/0/NADA 
 
@@ -203,18 +168,13 @@ Near lines: 11 	acus$2/0/NADA
 Near line: 12 testemunha$1705-t3/antonio jorge/m
 
 
-ERROR: dev1705.cli line 11 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 11 ** ID already used in this file: dev1705
 Near lines: 11 	acus$2/0/NADA 
 Near line: 12 testemunha$1705-t3/antonio jorge/m
 
+12: devassa$dev1705
 
-ERROR: dev1705.cli line 11 ** ID already used in this file: devassa
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
-
-12: devassa$devassa
-
-ERROR: dev1705.cli line 11 *** Current group testemunha cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 11 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
 Near lines: 11 	acus$2/0/NADA 
 Near line: 12 testemunha$1705-t3/antonio jorge/m
 
@@ -247,18 +207,13 @@ Near lines: 12 testemunha$1705-t3/antonio jorge/m
 Near line: 13 	acus$3/0/NADA 
 
 
-ERROR: dev1705.cli line 12 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 12 ** ID already used in this file: dev1705
 Near lines: 12 testemunha$1705-t3/antonio jorge/m
 Near line: 13 	acus$3/0/NADA 
 
+13: devassa$dev1705
 
-ERROR: dev1705.cli line 12 ** ID already used in this file: devassa
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
-
-13: devassa$devassa
-
-ERROR: dev1705.cli line 12 *** Current group acus cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 12 *** Current group acus cannot be linked with previous group devassa(dev1705)
 Near lines: 12 testemunha$1705-t3/antonio jorge/m
 Near line: 13 	acus$3/0/NADA 
 
@@ -291,18 +246,13 @@ Near lines: 13 	acus$3/0/NADA
 Near line: 14 testemunha$1705-t4/manuel rodrigues/m
 
 
-ERROR: dev1705.cli line 13 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 13 ** ID already used in this file: dev1705
 Near lines: 13 	acus$3/0/NADA 
 Near line: 14 testemunha$1705-t4/manuel rodrigues/m
 
+14: devassa$dev1705
 
-ERROR: dev1705.cli line 13 ** ID already used in this file: devassa
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
-
-14: devassa$devassa
-
-ERROR: dev1705.cli line 13 *** Current group testemunha cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 13 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
 Near lines: 13 	acus$3/0/NADA 
 Near line: 14 testemunha$1705-t4/manuel rodrigues/m
 
@@ -335,18 +285,13 @@ Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
 Near line: 15 	ls$profissao/serralheiro
 
 
-ERROR: dev1705.cli line 14 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 14 ** ID already used in this file: dev1705
 Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
 Near line: 15 	ls$profissao/serralheiro
 
+15: devassa$dev1705
 
-ERROR: dev1705.cli line 14 ** ID already used in this file: devassa
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
-
-15: devassa$devassa
-
-ERROR: dev1705.cli line 14 *** Current group ls cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 14 *** Current group ls cannot be linked with previous group devassa(dev1705)
 Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
 Near line: 15 	ls$profissao/serralheiro
 
@@ -373,18 +318,13 @@ Near lines: 15 	ls$profissao/serralheiro
 Near line: 16 	acus$4/0/NADA 
 
 
-ERROR: dev1705.cli line 15 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 15 ** ID already used in this file: dev1705
 Near lines: 15 	ls$profissao/serralheiro
 Near line: 16 	acus$4/0/NADA 
 
+16: devassa$dev1705
 
-ERROR: dev1705.cli line 15 ** ID already used in this file: devassa
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
-
-16: devassa$devassa
-
-ERROR: dev1705.cli line 15 *** Current group acus cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 15 *** Current group acus cannot be linked with previous group devassa(dev1705)
 Near lines: 15 	ls$profissao/serralheiro
 Near line: 16 	acus$4/0/NADA 
 
@@ -417,18 +357,13 @@ Near lines: 16 	acus$4/0/NADA
 Near line: 17 testemunha$1705-t5/manuel pinto/m
 
 
-ERROR: dev1705.cli line 16 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 16 ** ID already used in this file: dev1705
 Near lines: 16 	acus$4/0/NADA 
 Near line: 17 testemunha$1705-t5/manuel pinto/m
 
+17: devassa$dev1705
 
-ERROR: dev1705.cli line 16 ** ID already used in this file: devassa
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
-
-17: devassa$devassa
-
-ERROR: dev1705.cli line 16 *** Current group testemunha cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 16 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
 Near lines: 16 	acus$4/0/NADA 
 Near line: 17 testemunha$1705-t5/manuel pinto/m
 
@@ -461,18 +396,13 @@ Near lines: 17 testemunha$1705-t5/manuel pinto/m
 Near line: 18 	acus$5/0/NADA 
 
 
-ERROR: dev1705.cli line 17 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 17 ** ID already used in this file: dev1705
 Near lines: 17 testemunha$1705-t5/manuel pinto/m
 Near line: 18 	acus$5/0/NADA 
 
+18: devassa$dev1705
 
-ERROR: dev1705.cli line 17 ** ID already used in this file: devassa
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-18: devassa$devassa
-
-ERROR: dev1705.cli line 17 *** Current group acus cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 17 *** Current group acus cannot be linked with previous group devassa(dev1705)
 Near lines: 17 testemunha$1705-t5/manuel pinto/m
 Near line: 18 	acus$5/0/NADA 
 
@@ -505,18 +435,13 @@ Near lines: 18 	acus$5/0/NADA
 Near line: 19 testemunha$1705-t6/antonio rebelo/m
 
 
-ERROR: dev1705.cli line 18 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 18 ** ID already used in this file: dev1705
 Near lines: 18 	acus$5/0/NADA 
 Near line: 19 testemunha$1705-t6/antonio rebelo/m
 
+19: devassa$dev1705
 
-ERROR: dev1705.cli line 18 ** ID already used in this file: devassa
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-19: devassa$devassa
-
-ERROR: dev1705.cli line 18 *** Current group testemunha cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 18 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
 Near lines: 18 	acus$5/0/NADA 
 Near line: 19 testemunha$1705-t6/antonio rebelo/m
 
@@ -549,18 +474,13 @@ Near lines: 19 testemunha$1705-t6/antonio rebelo/m
 Near line: 20 	acus$6/0/NADA 
 
 
-ERROR: dev1705.cli line 19 ** Error: missing element(s) in devassa(devassa) must have: fol
+ERROR: dev1705.cli line 19 ** ID already used in this file: dev1705
 Near lines: 19 testemunha$1705-t6/antonio rebelo/m
 Near line: 20 	acus$6/0/NADA 
 
+20: devassa$dev1705
 
-ERROR: dev1705.cli line 19 ** ID already used in this file: devassa
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-20: devassa$devassa
-
-ERROR: dev1705.cli line 19 *** Current group acus cannot be linked with previous group devassa(devassa)
+ERROR: dev1705.cli line 19 *** Current group acus cannot be linked with previous group devassa(dev1705)
 Near lines: 19 testemunha$1705-t6/antonio rebelo/m
 Near line: 20 	acus$6/0/NADA 
 
@@ -586,27 +506,100 @@ ERROR: dev1705.cli line 19 ** Failure: undefined element. 0
 Near lines: 19 testemunha$1705-t6/antonio rebelo/m
 Near line: 20 	acus$6/0/NADA 
 
+
+ERROR: dev1705.cli line 20 ** Failure: undefined element. NADA
+
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+
+ERROR: dev1705.cli line 20 ** ID already used in this file: dev1705
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+21: devassa$dev1705
+
+ERROR: dev1705.cli line 20 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+
+ERROR: dev1705.cli line 20 ***testemunha group not stored.
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+
+ERROR: dev1705.cli line 20 ** Failure. Could not process group testemunha
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+
+ERROR: dev1705.cli line 20 ** Failure: undefined element. 1705-t7
+
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+
+ERROR: dev1705.cli line 20 ** Failure: undefined element. jose dias
+
+Near lines: 20 	acus$6/0/NADA 
+Near line: 21 testemunha$1705-t7/jose dias/m
+
+
+ERROR: dev1705.cli line 21 ** Failure: undefined element. m
+
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
+
+ERROR: dev1705.cli line 21 ** ID already used in this file: dev1705
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
+22: devassa$dev1705
+
+ERROR: dev1705.cli line 21 *** Current group acus cannot be linked with previous group devassa(dev1705)
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
+
+ERROR: dev1705.cli line 21 ***acus group not stored.
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
+
+ERROR: dev1705.cli line 21 ** Failure. Could not process group acus
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
+
+ERROR: dev1705.cli line 21 ** Failure: undefined element. 7
+
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
+
+ERROR: dev1705.cli line 21 ** Failure: undefined element. 0
+
+Near lines: 21 testemunha$1705-t7/jose dias/m
+Near line: 22 	acus$7/0/NADA 
+
 *** ERROR: MAXIMUM NUMBER OF ERRORS REACHED. TRANSLATION ABORTED.
 
-ERROR: dev1705.cli line 19 ** Failure: undefined element. NADA
+ERROR: dev1705.cli line 21 ** Failure: undefined element. NADA
 
-Near lines: 19 	acus$6/0/NADA 
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 19 ** Error: missing element(s) in devassa(devassa) must have: fol
-Near lines: 19 	acus$6/0/NADA 
-Near line: 20 	acus$6/0/NADA 
+Near lines: 21 	acus$7/0/NADA 
+Near line: 22 	acus$7/0/NADA 
 
 
-ERROR: dev1705.cli line 19 ** ID already used in this file: devassa
-Near lines: 19 	acus$6/0/NADA 
-Near line: 20 	acus$6/0/NADA 
+ERROR: dev1705.cli line 21 ** ID already used in this file: dev1705
+Near lines: 21 	acus$7/0/NADA 
+Near line: 22 	acus$7/0/NADA 
 
-20: devassa$devassa
+22: devassa$dev1705
 *** End of File
 
 
-107  errors. 
+104  errors. 
 0  warnings.
 Translation finished.
