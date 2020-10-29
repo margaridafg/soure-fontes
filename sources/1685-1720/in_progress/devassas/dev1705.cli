@@ -102,7 +102,7 @@ testo$simao domingues/id=1705-t28
 	ls$residencia/paleao
 	ls$idade/30
 	ls$assina/+
-	acusa$c1705-c1-manuel-marques-ana
+	acusa$c1705-manuel-marques-ana
 
 
 testo$joao rodrigues heleno/id=1705-t29
@@ -115,6 +115,7 @@ testo$antonio gomes/id=1705-t30
 	ls$residencia/paleao
 	ls$assina/m
 	acusa$c1705-manuel-marques-ana 
+
 testo$jose/id=1705-t31
 	ls$ec/s
 	ls$residencia/azenha, freguesia da almagreira
@@ -125,7 +126,10 @@ testo$jose/id=1705-t31
 		ls$residencia/azenha, freguesia da almagreira
 		ls$freguesia/almagreira
 
-	caso$1705-c2/amanc
+	acusa$c1705-manuel-joao-maria-batista
+	/origem=os viu num sitio chamado o ribeiro
+
+	caso$c1705-manuel-joao-maria-batista/amanc
 		acusado$manuel joao/id=1705-a3
 			ls$ec/s
 			ls$residencia/azenha, freguesia da almagreira
@@ -136,7 +140,7 @@ testo$jose/id=1705-t31
 			referido$manuel baptista/id=1705-a4a
 				ls$residencia/casal dos telheiros, freguesia da almagreira
 				ls$freguesia/almagreira
-	acus$31/1705-c2/amanc/origem=os viu num sitio chamado o ribeiro
+
 	
 testo$manuel bras/id=1705-t32
 	ls$ec/s
@@ -144,7 +148,7 @@ testo$manuel bras/id=1705-t32
 	ls$freguesia/almagreira
 	ls$idade/16
 	ls$assina/+
-	acus$32/1705-c2/amanc
+	acusa$c1705-manuel-joao-maria-batista
 		/literal=os viu pelo caminho das espinheiras do val da mieira que
 					vai ter 'a azenha (zenha) e reguengo "e quando so denunciados
 					conheceram a ele testemunha, se levantou o denunciado e se
@@ -161,18 +165,21 @@ testo$manuel bras/id=1705-t32
 					que soubesse". Ela tem dois irmaos que diceram a t.a que tendo
 					o pai estado fora uma noite ha' 7 meses que o denunciado fora
 					dormir com a denunciada a casa. 
+
 testo$domingos joao/id=1705-t33
 	ls$profissao/carpinteiro
 	ls$residencia/reguengo, freguesia da almagreira
 	ls$freguesia/almagreira
 	ls$idade/40
 	ls$assina/+
-	acus$33/1705-c2/amanc 
+	acusa$c1705-manuel-joao-maria-batista
+
 testa$maria francisca/id=1705-t34
 	ls$ec/v
 	ls$residencia/casal dos penedos, freguesia da almagreira
 	ls$freguesia/almagreira
-	acus$34/1705-c2/amanc/literal=ele foi a casa dela e estavam os dois sos.
+	acusa$c1705-manuel-joao-maria-batista
+		/literal=ele foi a casa dela e estavam os dois sos.
 		A denunciada confessou-lhe, quando a testemunha a repreendeu,
 		que ele a tinha desflorado mas que era para casamento.
 
@@ -183,10 +190,26 @@ testo$manuel pedroso/id=1705-t35
 	ls$assina/m
 	rel$parentesco/irmao/luis cordeiro/1705-a5a
 	
-	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
+	acusa$c1705-catarina-leitao
+	/literal= a denunciada vem ao lugar do migalho, finge acidentes
+	em que fala com voz de homem ou de mulher, dizendo que era a
+	voz dos pais e das maes defuntos daqueles em cujas casas estava
+	[notar que ela frequenta casas das pessoas relacionadas com
+	pessoas mortas],  e que vinham buscar remedio para ir para o
+	Ceu, e fora com francisca jorge, antonia cordeira, ha nove
+	meses e mais mulheres, 'a senhora do Desterro, freguesia do Lourical
+	teve um transe e deitou un sinal, toda a tremer no chao e deu
+	'a mulher da testemunha, esperanca goncalves, uma bolsa com
+	corporais, contra a entrada de coisas ruins [tambem faz trafico
+	de amuletos].
+	Ver casamento 166 
+
+	caso$c1705-catarina-leitao/bruxa
+			/obs=espirita, falam os espiritos
 		dos mortos pela sua boca. Parece ser um caso tipico de relacao entre
 		interesses materiais familiares (herancas) e espritismo, provavelmente
 		relacionadas com transmissao de estatuto tambem
+
 		acusada$catarina leitao/id=1705-a5
 			ls$naturalidade/queitide, freguesia de vinha da rainha
 			ls$freguesia/vinha da rainha
@@ -197,24 +220,13 @@ testo$manuel pedroso/id=1705-t35
 			rel$sociabilidade/deu saco com corporais/esperanca goncalves/1705-t35a
 			referido$luis cordeiro/id=1705-a5a
 				ls$residencia/casal do migalho
-	acus$35/1705-c3/bruxa
-		/literal= a denunciada vem ao lugar do migalho, finge acidentes
-			em que fala com voz de homem ou de mulher, dizendo que era a
-			voz dos pais e das maes defuntos daqueles em cujas casas estava
-			[notar que ela frequenta casas das pessoas relacionadas com
-			pessoas mortas],  e que vinham buscar remedio para ir para o
-			Ceu, e fora com francisca jorge, antonia cordeira, ha nove
-			meses e mais mulheres, 'a senhora do Desterro, freguesia do Lourical
-			teve um transe e deitou un sinal, toda a tremer no chao e deu
-			'a mulher da testemunha, esperanca goncalves, uma bolsa com
-			corporais, contra a entrada de coisas ruins [tambem faz trafico
-			de amuletos].
-			Ver casamento 166 
-	referida$1705-a5b/francisca jorge/f
+	
+	
+	referida$rancisca jorge/id=1705-a5b
 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-	referida$1705-a5c/antonia cordeiro/f
+	referida$antonia cordeiro/id=1705-a5c
 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-	referida$1705-t35a/esperanca goncalves/f
+	referida$esperanca goncalves/id=1705-t35a
 		rel$parentesco/mulher/manuel pedroso/1705-t35
 		
 testa$isabel cordeiro/id=1705-t36

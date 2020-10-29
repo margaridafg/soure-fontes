@@ -1,5 +1,5 @@
 KleioTranslator - server version 2019.A2 - build 312 (master) 03/10/2020 17:40 
-29-10-2020 5-45
+29-10-2020 8-56
 
 Processing data file dev1705.cli
 -------------------------------------------
@@ -18,342 +18,142 @@ Translation count not set or invalid, counting as zero:
 ** Processing source fonte$vp-1705
 8: devassa$dev1705
 
-ERROR: dev1705.cli line 127 *** Current group caso cannot be linked with previous group ls(att-33)
-Near lines: 127 
-Near line: 128 	caso$1705-c2/amanc
+ERROR: dev1705.cli line 240 ** Failure: undefined element. bruxa
 
+Near lines: 240 	acus$36/1705-c3/bruxa
+Near line: 241 		/literal=pede dinheiro para os defuntos irem para o ceu.
 
-ERROR: dev1705.cli line 127 ***caso group not stored.
-Near lines: 127 
-Near line: 128 	caso$1705-c2/amanc
 
+WARNING: dev1705.cli line 260 Element value exceeds database field length: literal=pede dinheiro para os defuntos irem para o ceu. Foi com ela ao senhor do desterro, com Antonia Manuel, mulher de Simao Jorge do casal Novo e Francisca Jorge, mulher do Antonio Goncalves do casal do Migalho e Maria Fernandes, viuva de Manuel Cordeiro, do Migalho e outras. [NOTA: reparar que esta testemunha corrige a informacao da anterior sobre a identificacao das mulheres que foram 'a senhora do Desterro.] Foi depois de terem feito oracao, uma hora depois do meio-dia e em frente ao altar de Nossa Senhora que lhe deu o achaque: disse nele que a alma de antonia pedrosa que viveu e morreu no casal do migalho "naquela hora ia para o Ceu e que para isso dava aquele sinal dizendo que as mulheres que lhe assistissem aparassem uma toalha a mais formosa que tivessem e logo a dita testemunha e mais antonia cordeira filha da defunta antonia pedrosa apararam uma toalha [donde veio a toalha?] e a denunciada lancou sobre ela pela boca um sinal que  parecia de prata do tamanho de uma veronica e disse que aquele sinal se desse a luis cordeiro filho da dita defunta para lhe ser de muito  prestimo." E vende bolsas com corporais contas as coisas ruins, e  acha coisas perdidas.. Size:1176 limit: 1024
+Near lines: 260 
+Near line: 261 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
 
-ERROR: dev1705.cli line 127 ** Failure. Could not process group caso
-Near lines: 127 
-Near line: 128 	caso$1705-c2/amanc
 
+ERROR: dev1705.cli line 260 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 128 ** Failure: undefined element. amanc
+Near lines: 260 
+Near line: 261 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
 
-Near lines: 128 	caso$1705-c2/amanc
-Near line: 129 		acusado$manuel joao/id=1705-a3
 
+WARNING: dev1705.cli line 261 Element value exceeds database field length: sexo=francisca jorge. Size:15 limit: 1
+Near lines: 261 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
+Near line: 262 		rel$parentesco/mulher/antonio goncalves/1705-a5ba
 
-ERROR: dev1705.cli line 128 *** Current group acusado cannot be linked with previous group ls(att-34)
-Near lines: 128 	caso$1705-c2/amanc
-Near line: 129 		acusado$manuel joao/id=1705-a3
 
+ERROR: dev1705.cli line 266 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 128 ***acusado group not stored.
-Near lines: 128 	caso$1705-c2/amanc
-Near line: 129 		acusado$manuel joao/id=1705-a3
+Near lines: 266 	referida$1705-a5d/antonia manuel/f
+Near line: 267 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
 
-ERROR: dev1705.cli line 128 ** Failure. Could not process group acusado
-Near lines: 128 	caso$1705-c2/amanc
-Near line: 129 		acusado$manuel joao/id=1705-a3
+WARNING: dev1705.cli line 266 Element value exceeds database field length: sexo=antonia manuel. Size:14 limit: 1
+Near lines: 266 	referida$1705-a5d/antonia manuel/f
+Near line: 267 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
 
-ERROR: dev1705.cli line 128 ** Failure: undefined element. manuel joao
+ERROR: dev1705.cli line 271 ** Failure: undefined element. f
 
-Near lines: 128 	caso$1705-c2/amanc
-Near line: 129 		acusado$manuel joao/id=1705-a3
+Near lines: 271 	referida$1705-a5e/maria fernandes/f
+Near line: 272 		ls$ec/v
 
 
-ERROR: dev1705.cli line 128 ** ls unknown element: id.
-Near lines: 128 	caso$1705-c2/amanc
-Near line: 129 		acusado$manuel joao/id=1705-a3
+WARNING: dev1705.cli line 271 Element value exceeds database field length: sexo=maria fernandes. Size:15 limit: 1
+Near lines: 271 	referida$1705-a5e/maria fernandes/f
+Near line: 272 		ls$ec/v
 
 
-ERROR: dev1705.cli line 132 *** Current group acusada cannot be linked with previous group ls(att-37)
-Near lines: 132 			ls$freguesia/almagreira
-Near line: 133 		acusada$maria baptista/id=1705-a4
+ERROR: dev1705.cli line 279 ** Failure: undefined element. f
 
+Near lines: 279 	referida$1705-a5f/antonia pedroso/f
+Near line: 280 		ls$morta/antes
 
-ERROR: dev1705.cli line 132 ***acusada group not stored.
-Near lines: 132 			ls$freguesia/almagreira
-Near line: 133 		acusada$maria baptista/id=1705-a4
 
+WARNING: dev1705.cli line 279 Element value exceeds database field length: sexo=antonia pedroso. Size:15 limit: 1
+Near lines: 279 	referida$1705-a5f/antonia pedroso/f
+Near line: 280 		ls$morta/antes
 
-ERROR: dev1705.cli line 132 ** Failure. Could not process group acusada
-Near lines: 132 			ls$freguesia/almagreira
-Near line: 133 		acusada$maria baptista/id=1705-a4
 
+ERROR: dev1705.cli line 289 ** Failure: undefined element. bruxa
 
-ERROR: dev1705.cli line 132 ** ls unknown element: id.
-Near lines: 132 			ls$freguesia/almagreira
-Near line: 133 		acusada$maria baptista/id=1705-a4
+Near lines: 289 	acus$37/1705-c3/bruxa
+Near line: 290 		/literal= encontrou-se com ela, por acaso, na senhora do Desterro.
 
 
-ERROR: dev1705.cli line 138 ** Failure: undefined element. amanc
+ERROR: dev1705.cli line 305 ** Failure: undefined element. bruxa
 
-Near lines: 138 				ls$freguesia/almagreira
-Near line: 139 	acus$31/1705-c2/amanc/origem=os viu num sitio chamado o ribeiro
+Near lines: 305 	acus$38/1705-c3/bruxa
+Near line: 306 		/literal=no dia de ano bom de 1704 indo ele t.a com
 
 
-ERROR: dev1705.cli line 147 ** Failure: undefined element. amanc
+WARNING: dev1705.cli line 325 Element value exceeds database field length: literal=no dia de ano bom de 1704 indo ele t.a com ela e mais gente 'a romaria da senhora do desterro. [curiosamente e' o unico que refere a data, facil de lembrar, do primeiro de Janeiro, ou talvez as outras penser ser evidente]. Diz que o transe foi no fim da missa, quando o sacerdote lancou a bencao. E ai disse que a filha de Manuel Cordeiro, ja' naquele tempo defunto, chamada antonia cordeiro, "fosse dar alguma coisa ao clerigo para almocar que tinha acabado de dizer a missa pela alma do defunto [e' tambem o unico que diz que a missa era por alma do defunto] que para esse efeito foi a  denunciada 'a dita romaria e a filha do defunbto que levava umas merendinhas de broa meuda, por concelho da denunciada para dar a quem rezasse pela alma de seu pai [anotar o costume] e vendo a denunciada que o sacerdote estava fora da ermida disse estas palavras: 'Em nome do defunto, __estais_ai_mulher_hoje_faz_um_ano_que_morri_e_ _hoje_me_aparto_de_vos_para_sempre_que_me_vou_para_o_ceu__ [sublinhado no original]." vende bolsas benzidas pelos frades de seica.  ao clerigo para almocar. Size:1077 limit: 1024
+Near lines: 325 		
+Near line: 326 testo$antonio goncalves/id=1705-t39/mesmo_que=1705-a5ba
 
-Near lines: 147 	acus$32/1705-c2/amanc
-Near line: 148 		/literal=os viu pelo caminho das espinheiras do val da mieira que
 
+ERROR: dev1705.cli line 335 ** Failure: undefined element. bruxa
 
-ERROR: dev1705.cli line 170 ** Failure: undefined element. amanc
+Near lines: 335 	acus$39/1705-c3/bruxa
+Near line: 336 		/literal=tambem esteve na romaria que diz ter sido no passado natal
 
-Near lines: 170 	acus$33/1705-c2/amanc 
-Near line: 171 testa$maria francisca/id=1705-t34
 
+ERROR: dev1705.cli line 349 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 174 ** Failure: undefined element. amanc
+Near lines: 349 	referida$1705-t39a/maria/f
+Near line: 350 		rel$parentesco/filha/antonio goncalves/1705-a5ba
 
-Near lines: 174 	ls$freguesia/almagreira
-Near line: 175 	acus$34/1705-c2/amanc/literal=ele foi a casa dela e estavam os dois sos.
 
+WARNING: dev1705.cli line 349 Element value exceeds database field length: sexo=maria. Size:5 limit: 1
+Near lines: 349 	referida$1705-t39a/maria/f
+Near line: 350 		rel$parentesco/filha/antonio goncalves/1705-a5ba
 
-ERROR: dev1705.cli line 185 *** Current group caso cannot be linked with previous group rel(rel-4)
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
+ERROR: dev1705.cli line 352 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 185 ***caso group not stored.
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
+Near lines: 352 	
+Near line: 353 testo$manuel duarte/id=1705-t40
 
 
-ERROR: dev1705.cli line 185 ** Failure. Could not process group caso
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
+WARNING: dev1705.cli line 352 Element value exceeds database field length: sexo=catarina cordeiro. Size:17 limit: 1
+Near lines: 352 	
+Near line: 353 testo$manuel duarte/id=1705-t40
 
 
-ERROR: dev1705.cli line 185 ** Failure: undefined element. 1705-c3
+ERROR: dev1705.cli line 359 ** Failure: undefined element. bruxa
 
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
+Near lines: 359 	acus$40/1705-c3/bruxa
+Near line: 360 		/literal=ha dois anos fazia alguma assistencia no casal do migalho.
 
 
-ERROR: dev1705.cli line 185 ** Failure: undefined element. bruxa
+ERROR: dev1705.cli line 374 ** Failure: undefined element. f
 
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
+Near lines: 374 	referida$1705-t40a/nome desconhecido/f
+Near line: 375 		ls$profissao/moleira
 
 
-ERROR: dev1705.cli line 185 ** Failure: undefined element. catarina leitao
+WARNING: dev1705.cli line 374 Element value exceeds database field length: sexo=nome desconhecido. Size:17 limit: 1
+Near lines: 374 	referida$1705-t40a/nome desconhecido/f
+Near line: 375 		ls$profissao/moleira
 
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
+ERROR: dev1705.cli line 377 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 185 ** Failure: undefined element. 1705-a5
+Near lines: 377 	referida$1705-t40b/nome desconhecido/f
+Near line: 378 		rel$parentesco/mulher/manuel duarte/1705-t40
 
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
+WARNING: dev1705.cli line 377 Element value exceeds database field length: sexo=nome desconhecido. Size:17 limit: 1
+Near lines: 377 	referida$1705-t40b/nome desconhecido/f
+Near line: 378 		rel$parentesco/mulher/manuel duarte/1705-t40
 
-ERROR: dev1705.cli line 185 ** rel unknown element: descricao.
-Near lines: 185 	
-Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
+ERROR: dev1705.cli line 384 ** Failure: undefined element. bruxa
 
-ERROR: dev1705.cli line 189 *** Current group acusada cannot be linked with previous group rel(rel-5)
-Near lines: 189 		relacionadas com transmissao de estatuto tambem
-Near line: 190 		acusada$catarina leitao/id=1705-a5
-
-
-ERROR: dev1705.cli line 189 ***acusada group not stored.
-Near lines: 189 		relacionadas com transmissao de estatuto tambem
-Near line: 190 		acusada$catarina leitao/id=1705-a5
-
-
-ERROR: dev1705.cli line 189 ** Failure. Could not process group acusada
-Near lines: 189 		relacionadas com transmissao de estatuto tambem
-Near line: 190 		acusada$catarina leitao/id=1705-a5
-
-
-ERROR: dev1705.cli line 189 ** Failure: undefined element. catarina leitao
-
-Near lines: 189 		relacionadas com transmissao de estatuto tambem
-Near line: 190 		acusada$catarina leitao/id=1705-a5
-
-
-ERROR: dev1705.cli line 189 ** rel unknown element: id.
-Near lines: 189 		relacionadas com transmissao de estatuto tambem
-Near line: 190 		acusada$catarina leitao/id=1705-a5
-
-
-ERROR: dev1705.cli line 200 ** Failure: undefined element. bruxa
-
-Near lines: 200 	acus$35/1705-c3/bruxa
-Near line: 201 		/literal= a denunciada vem ao lugar do migalho, finge acidentes
-
-
-ERROR: dev1705.cli line 213 ** Failure: undefined element. f
-
-Near lines: 213 	referida$1705-a5b/francisca jorge/f
-Near line: 214 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-
-
-WARNING: dev1705.cli line 213 Element value exceeds database field length: sexo=francisca jorge. Size:15 limit: 1
-Near lines: 213 	referida$1705-a5b/francisca jorge/f
-Near line: 214 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-
-
-ERROR: dev1705.cli line 215 ** Failure: undefined element. f
-
-Near lines: 215 	referida$1705-a5c/antonia cordeiro/f
-Near line: 216 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-
-
-WARNING: dev1705.cli line 215 Element value exceeds database field length: sexo=antonia cordeiro. Size:16 limit: 1
-Near lines: 215 	referida$1705-a5c/antonia cordeiro/f
-Near line: 216 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-
-
-ERROR: dev1705.cli line 217 ** Failure: undefined element. f
-
-Near lines: 217 	referida$1705-t35a/esperanca goncalves/f
-Near line: 218 		rel$parentesco/mulher/manuel pedroso/1705-t35
-
-
-WARNING: dev1705.cli line 217 Element value exceeds database field length: sexo=esperanca goncalves. Size:19 limit: 1
-Near lines: 217 	referida$1705-t35a/esperanca goncalves/f
-Near line: 218 		rel$parentesco/mulher/manuel pedroso/1705-t35
-
-
-ERROR: dev1705.cli line 228 ** Failure: undefined element. bruxa
-
-Near lines: 228 	acus$36/1705-c3/bruxa
-Near line: 229 		/literal=pede dinheiro para os defuntos irem para o ceu.
-
-
-WARNING: dev1705.cli line 248 Element value exceeds database field length: literal=pede dinheiro para os defuntos irem para o ceu. Foi com ela ao senhor do desterro, com Antonia Manuel, mulher de Simao Jorge do casal Novo e Francisca Jorge, mulher do Antonio Goncalves do casal do Migalho e Maria Fernandes, viuva de Manuel Cordeiro, do Migalho e outras. [NOTA: reparar que esta testemunha corrige a informacao da anterior sobre a identificacao das mulheres que foram 'a senhora do Desterro.] Foi depois de terem feito oracao, uma hora depois do meio-dia e em frente ao altar de Nossa Senhora que lhe deu o achaque: disse nele que a alma de antonia pedrosa que viveu e morreu no casal do migalho "naquela hora ia para o Ceu e que para isso dava aquele sinal dizendo que as mulheres que lhe assistissem aparassem uma toalha a mais formosa que tivessem e logo a dita testemunha e mais antonia cordeira filha da defunta antonia pedrosa apararam uma toalha [donde veio a toalha?] e a denunciada lancou sobre ela pela boca um sinal que  parecia de prata do tamanho de uma veronica e disse que aquele sinal se desse a luis cordeiro filho da dita defunta para lhe ser de muito  prestimo." E vende bolsas com corporais contas as coisas ruins, e  acha coisas perdidas.. Size:1176 limit: 1024
-Near lines: 248 
-Near line: 249 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
-
-
-ERROR: dev1705.cli line 248 ** Failure: undefined element. f
-
-Near lines: 248 
-Near line: 249 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
-
-
-WARNING: dev1705.cli line 249 Element value exceeds database field length: sexo=francisca jorge. Size:15 limit: 1
-Near lines: 249 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
-Near line: 250 		rel$parentesco/mulher/antonio goncalves/1705-a5ba
-
-
-ERROR: dev1705.cli line 254 ** Failure: undefined element. f
-
-Near lines: 254 	referida$1705-a5d/antonia manuel/f
-Near line: 255 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-
-
-WARNING: dev1705.cli line 254 Element value exceeds database field length: sexo=antonia manuel. Size:14 limit: 1
-Near lines: 254 	referida$1705-a5d/antonia manuel/f
-Near line: 255 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
-
-
-ERROR: dev1705.cli line 259 ** Failure: undefined element. f
-
-Near lines: 259 	referida$1705-a5e/maria fernandes/f
-Near line: 260 		ls$ec/v
-
-
-WARNING: dev1705.cli line 259 Element value exceeds database field length: sexo=maria fernandes. Size:15 limit: 1
-Near lines: 259 	referida$1705-a5e/maria fernandes/f
-Near line: 260 		ls$ec/v
-
-
-ERROR: dev1705.cli line 267 ** Failure: undefined element. f
-
-Near lines: 267 	referida$1705-a5f/antonia pedroso/f
-Near line: 268 		ls$morta/antes
-
-
-WARNING: dev1705.cli line 267 Element value exceeds database field length: sexo=antonia pedroso. Size:15 limit: 1
-Near lines: 267 	referida$1705-a5f/antonia pedroso/f
-Near line: 268 		ls$morta/antes
-
-
-ERROR: dev1705.cli line 277 ** Failure: undefined element. bruxa
-
-Near lines: 277 	acus$37/1705-c3/bruxa
-Near line: 278 		/literal= encontrou-se com ela, por acaso, na senhora do Desterro.
-
-
-ERROR: dev1705.cli line 293 ** Failure: undefined element. bruxa
-
-Near lines: 293 	acus$38/1705-c3/bruxa
-Near line: 294 		/literal=no dia de ano bom de 1704 indo ele t.a com
-
-
-WARNING: dev1705.cli line 313 Element value exceeds database field length: literal=no dia de ano bom de 1704 indo ele t.a com ela e mais gente 'a romaria da senhora do desterro. [curiosamente e' o unico que refere a data, facil de lembrar, do primeiro de Janeiro, ou talvez as outras penser ser evidente]. Diz que o transe foi no fim da missa, quando o sacerdote lancou a bencao. E ai disse que a filha de Manuel Cordeiro, ja' naquele tempo defunto, chamada antonia cordeiro, "fosse dar alguma coisa ao clerigo para almocar que tinha acabado de dizer a missa pela alma do defunto [e' tambem o unico que diz que a missa era por alma do defunto] que para esse efeito foi a  denunciada 'a dita romaria e a filha do defunbto que levava umas merendinhas de broa meuda, por concelho da denunciada para dar a quem rezasse pela alma de seu pai [anotar o costume] e vendo a denunciada que o sacerdote estava fora da ermida disse estas palavras: 'Em nome do defunto, __estais_ai_mulher_hoje_faz_um_ano_que_morri_e_ _hoje_me_aparto_de_vos_para_sempre_que_me_vou_para_o_ceu__ [sublinhado no original]." vende bolsas benzidas pelos frades de seica.  ao clerigo para almocar. Size:1077 limit: 1024
-Near lines: 313 		
-Near line: 314 testo$antonio goncalves/id=1705-t39/mesmo_que=1705-a5ba
-
-
-ERROR: dev1705.cli line 323 ** Failure: undefined element. bruxa
-
-Near lines: 323 	acus$39/1705-c3/bruxa
-Near line: 324 		/literal=tambem esteve na romaria que diz ter sido no passado natal
-
-
-ERROR: dev1705.cli line 337 ** Failure: undefined element. f
-
-Near lines: 337 	referida$1705-t39a/maria/f
-Near line: 338 		rel$parentesco/filha/antonio goncalves/1705-a5ba
-
-
-WARNING: dev1705.cli line 337 Element value exceeds database field length: sexo=maria. Size:5 limit: 1
-Near lines: 337 	referida$1705-t39a/maria/f
-Near line: 338 		rel$parentesco/filha/antonio goncalves/1705-a5ba
-
-
-ERROR: dev1705.cli line 340 ** Failure: undefined element. f
-
-Near lines: 340 	
-Near line: 341 testo$manuel duarte/id=1705-t40
-
-
-WARNING: dev1705.cli line 340 Element value exceeds database field length: sexo=catarina cordeiro. Size:17 limit: 1
-Near lines: 340 	
-Near line: 341 testo$manuel duarte/id=1705-t40
-
-
-ERROR: dev1705.cli line 347 ** Failure: undefined element. bruxa
-
-Near lines: 347 	acus$40/1705-c3/bruxa
-Near line: 348 		/literal=ha dois anos fazia alguma assistencia no casal do migalho.
-
-
-ERROR: dev1705.cli line 362 ** Failure: undefined element. f
-
-Near lines: 362 	referida$1705-t40a/nome desconhecido/f
-Near line: 363 		ls$profissao/moleira
-
-
-WARNING: dev1705.cli line 362 Element value exceeds database field length: sexo=nome desconhecido. Size:17 limit: 1
-Near lines: 362 	referida$1705-t40a/nome desconhecido/f
-Near line: 363 		ls$profissao/moleira
-
-
-ERROR: dev1705.cli line 365 ** Failure: undefined element. f
-
-Near lines: 365 	referida$1705-t40b/nome desconhecido/f
-Near line: 366 		rel$parentesco/mulher/manuel duarte/1705-t40
-
-
-WARNING: dev1705.cli line 365 Element value exceeds database field length: sexo=nome desconhecido. Size:17 limit: 1
-Near lines: 365 	referida$1705-t40b/nome desconhecido/f
-Near line: 366 		rel$parentesco/mulher/manuel duarte/1705-t40
-
-
-ERROR: dev1705.cli line 372 ** Failure: undefined element. bruxa
-
-Near lines: 372 	ls$idade/VERIFICAR
-Near line: 373 	acus$41/1705-c3/bruxa/origem=confirma mas nao de vista por nao ter visto
+Near lines: 384 	ls$idade/VERIFICAR
+Near line: 385 	acus$41/1705-c3/bruxa/origem=confirma mas nao de vista por nao ter visto
 
 *** End of File
 
 
-48  errors. 
-13  warnings.
+14  errors. 
+10  warnings.
 Translation finished.
