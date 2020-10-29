@@ -1,5 +1,5 @@
 KleioTranslator - server version 2019.A2 - build 312 (master) 03/10/2020 17:40 
-28-10-2020 7-18
+29-10-2020 5-45
 
 Processing data file dev1705.cli
 -------------------------------------------
@@ -18,588 +18,342 @@ Translation count not set or invalid, counting as zero:
 ** Processing source fonte$vp-1705
 8: devassa$dev1705
 
-ERROR: dev1705.cli line 7 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 7 
-Near line: 8 testemunha$1705-t1/manuel goncalves/m
+ERROR: dev1705.cli line 127 *** Current group caso cannot be linked with previous group ls(att-33)
+Near lines: 127 
+Near line: 128 	caso$1705-c2/amanc
 
 
-ERROR: dev1705.cli line 7 ***testemunha group not stored.
-Near lines: 7 
-Near line: 8 testemunha$1705-t1/manuel goncalves/m
+ERROR: dev1705.cli line 127 ***caso group not stored.
+Near lines: 127 
+Near line: 128 	caso$1705-c2/amanc
 
 
-ERROR: dev1705.cli line 7 ** Failure. Could not process group testemunha
-Near lines: 7 
-Near line: 8 testemunha$1705-t1/manuel goncalves/m
+ERROR: dev1705.cli line 127 ** Failure. Could not process group caso
+Near lines: 127 
+Near line: 128 	caso$1705-c2/amanc
 
 
-ERROR: dev1705.cli line 7 ** Failure: undefined element. 1705-t1
+ERROR: dev1705.cli line 128 ** Failure: undefined element. amanc
 
-Near lines: 7 
-Near line: 8 testemunha$1705-t1/manuel goncalves/m
+Near lines: 128 	caso$1705-c2/amanc
+Near line: 129 		acusado$manuel joao/id=1705-a3
 
 
-ERROR: dev1705.cli line 7 ** Failure: undefined element. manuel goncalves
+ERROR: dev1705.cli line 128 *** Current group acusado cannot be linked with previous group ls(att-34)
+Near lines: 128 	caso$1705-c2/amanc
+Near line: 129 		acusado$manuel joao/id=1705-a3
 
-Near lines: 7 
-Near line: 8 testemunha$1705-t1/manuel goncalves/m
 
+ERROR: dev1705.cli line 128 ***acusado group not stored.
+Near lines: 128 	caso$1705-c2/amanc
+Near line: 129 		acusado$manuel joao/id=1705-a3
 
-ERROR: dev1705.cli line 8 ** Failure: undefined element. m
 
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
+ERROR: dev1705.cli line 128 ** Failure. Could not process group acusado
+Near lines: 128 	caso$1705-c2/amanc
+Near line: 129 		acusado$manuel joao/id=1705-a3
 
 
-ERROR: dev1705.cli line 8 ** ID already used in this file: dev1705
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
+ERROR: dev1705.cli line 128 ** Failure: undefined element. manuel joao
 
-9: devassa$dev1705
+Near lines: 128 	caso$1705-c2/amanc
+Near line: 129 		acusado$manuel joao/id=1705-a3
 
-ERROR: dev1705.cli line 8 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
 
+ERROR: dev1705.cli line 128 ** ls unknown element: id.
+Near lines: 128 	caso$1705-c2/amanc
+Near line: 129 		acusado$manuel joao/id=1705-a3
 
-ERROR: dev1705.cli line 8 ***acus group not stored.
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
 
+ERROR: dev1705.cli line 132 *** Current group acusada cannot be linked with previous group ls(att-37)
+Near lines: 132 			ls$freguesia/almagreira
+Near line: 133 		acusada$maria baptista/id=1705-a4
 
-ERROR: dev1705.cli line 8 ** Failure. Could not process group acus
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
 
+ERROR: dev1705.cli line 132 ***acusada group not stored.
+Near lines: 132 			ls$freguesia/almagreira
+Near line: 133 		acusada$maria baptista/id=1705-a4
 
-ERROR: dev1705.cli line 8 ** Failure: undefined element. 1
 
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
+ERROR: dev1705.cli line 132 ** Failure. Could not process group acusada
+Near lines: 132 			ls$freguesia/almagreira
+Near line: 133 		acusada$maria baptista/id=1705-a4
 
 
-ERROR: dev1705.cli line 8 ** Failure: undefined element. 0
+ERROR: dev1705.cli line 132 ** ls unknown element: id.
+Near lines: 132 			ls$freguesia/almagreira
+Near line: 133 		acusada$maria baptista/id=1705-a4
 
-Near lines: 8 testemunha$1705-t1/manuel goncalves/m
-Near line: 9 	acus$1/0/NADA 
 
+ERROR: dev1705.cli line 138 ** Failure: undefined element. amanc
 
-ERROR: dev1705.cli line 9 ** Failure: undefined element. NADA
+Near lines: 138 				ls$freguesia/almagreira
+Near line: 139 	acus$31/1705-c2/amanc/origem=os viu num sitio chamado o ribeiro
 
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
 
+ERROR: dev1705.cli line 147 ** Failure: undefined element. amanc
 
-ERROR: dev1705.cli line 9 ** ID already used in this file: dev1705
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
+Near lines: 147 	acus$32/1705-c2/amanc
+Near line: 148 		/literal=os viu pelo caminho das espinheiras do val da mieira que
 
-10: devassa$dev1705
 
-ERROR: dev1705.cli line 9 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
+ERROR: dev1705.cli line 170 ** Failure: undefined element. amanc
 
+Near lines: 170 	acus$33/1705-c2/amanc 
+Near line: 171 testa$maria francisca/id=1705-t34
 
-ERROR: dev1705.cli line 9 ***testemunha group not stored.
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
 
+ERROR: dev1705.cli line 174 ** Failure: undefined element. amanc
 
-ERROR: dev1705.cli line 9 ** Failure. Could not process group testemunha
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
+Near lines: 174 	ls$freguesia/almagreira
+Near line: 175 	acus$34/1705-c2/amanc/literal=ele foi a casa dela e estavam os dois sos.
 
 
-ERROR: dev1705.cli line 9 ** Failure: undefined element. 1705-t2
+ERROR: dev1705.cli line 185 *** Current group caso cannot be linked with previous group rel(rel-4)
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
 
+ERROR: dev1705.cli line 185 ***caso group not stored.
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
-ERROR: dev1705.cli line 9 ** Failure: undefined element. matias rodrigues
 
-Near lines: 9 	acus$1/0/NADA 
-Near line: 10 testemunha$1705-t2/matias rodrigues/m
+ERROR: dev1705.cli line 185 ** Failure. Could not process group caso
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
 
-ERROR: dev1705.cli line 10 ** Failure: undefined element. m
+ERROR: dev1705.cli line 185 ** Failure: undefined element. 1705-c3
 
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
 
-ERROR: dev1705.cli line 10 ** ID already used in this file: dev1705
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
+ERROR: dev1705.cli line 185 ** Failure: undefined element. bruxa
 
-11: devassa$dev1705
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
-ERROR: dev1705.cli line 10 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
 
+ERROR: dev1705.cli line 185 ** Failure: undefined element. catarina leitao
 
-ERROR: dev1705.cli line 10 ***acus group not stored.
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
 
-ERROR: dev1705.cli line 10 ** Failure. Could not process group acus
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
+ERROR: dev1705.cli line 185 ** Failure: undefined element. 1705-a5
 
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
-ERROR: dev1705.cli line 10 ** Failure: undefined element. 2
 
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
+ERROR: dev1705.cli line 185 ** rel unknown element: descricao.
+Near lines: 185 	
+Near line: 186 	caso$1705-c3/bruxa/catarina leitao/1705-a5/descricao=espirita, falam os espiritos
 
 
-ERROR: dev1705.cli line 10 ** Failure: undefined element. 0
+ERROR: dev1705.cli line 189 *** Current group acusada cannot be linked with previous group rel(rel-5)
+Near lines: 189 		relacionadas com transmissao de estatuto tambem
+Near line: 190 		acusada$catarina leitao/id=1705-a5
 
-Near lines: 10 testemunha$1705-t2/matias rodrigues/m
-Near line: 11 	acus$2/0/NADA 
 
+ERROR: dev1705.cli line 189 ***acusada group not stored.
+Near lines: 189 		relacionadas com transmissao de estatuto tambem
+Near line: 190 		acusada$catarina leitao/id=1705-a5
 
-ERROR: dev1705.cli line 11 ** Failure: undefined element. NADA
 
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
+ERROR: dev1705.cli line 189 ** Failure. Could not process group acusada
+Near lines: 189 		relacionadas com transmissao de estatuto tambem
+Near line: 190 		acusada$catarina leitao/id=1705-a5
 
 
-ERROR: dev1705.cli line 11 ** ID already used in this file: dev1705
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
+ERROR: dev1705.cli line 189 ** Failure: undefined element. catarina leitao
 
-12: devassa$dev1705
+Near lines: 189 		relacionadas com transmissao de estatuto tambem
+Near line: 190 		acusada$catarina leitao/id=1705-a5
 
-ERROR: dev1705.cli line 11 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
 
+ERROR: dev1705.cli line 189 ** rel unknown element: id.
+Near lines: 189 		relacionadas com transmissao de estatuto tambem
+Near line: 190 		acusada$catarina leitao/id=1705-a5
 
-ERROR: dev1705.cli line 11 ***testemunha group not stored.
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
 
+ERROR: dev1705.cli line 200 ** Failure: undefined element. bruxa
 
-ERROR: dev1705.cli line 11 ** Failure. Could not process group testemunha
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
+Near lines: 200 	acus$35/1705-c3/bruxa
+Near line: 201 		/literal= a denunciada vem ao lugar do migalho, finge acidentes
 
 
-ERROR: dev1705.cli line 11 ** Failure: undefined element. 1705-t3
+ERROR: dev1705.cli line 213 ** Failure: undefined element. f
 
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
+Near lines: 213 	referida$1705-a5b/francisca jorge/f
+Near line: 214 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
 
-ERROR: dev1705.cli line 11 ** Failure: undefined element. antonio jorge
+WARNING: dev1705.cli line 213 Element value exceeds database field length: sexo=francisca jorge. Size:15 limit: 1
+Near lines: 213 	referida$1705-a5b/francisca jorge/f
+Near line: 214 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
-Near lines: 11 	acus$2/0/NADA 
-Near line: 12 testemunha$1705-t3/antonio jorge/m
 
+ERROR: dev1705.cli line 215 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 12 ** Failure: undefined element. m
+Near lines: 215 	referida$1705-a5c/antonia cordeiro/f
+Near line: 216 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
 
+WARNING: dev1705.cli line 215 Element value exceeds database field length: sexo=antonia cordeiro. Size:16 limit: 1
+Near lines: 215 	referida$1705-a5c/antonia cordeiro/f
+Near line: 216 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
-ERROR: dev1705.cli line 12 ** ID already used in this file: dev1705
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
 
-13: devassa$dev1705
+ERROR: dev1705.cli line 217 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 12 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
+Near lines: 217 	referida$1705-t35a/esperanca goncalves/f
+Near line: 218 		rel$parentesco/mulher/manuel pedroso/1705-t35
 
 
-ERROR: dev1705.cli line 12 ***acus group not stored.
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
+WARNING: dev1705.cli line 217 Element value exceeds database field length: sexo=esperanca goncalves. Size:19 limit: 1
+Near lines: 217 	referida$1705-t35a/esperanca goncalves/f
+Near line: 218 		rel$parentesco/mulher/manuel pedroso/1705-t35
 
 
-ERROR: dev1705.cli line 12 ** Failure. Could not process group acus
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
+ERROR: dev1705.cli line 228 ** Failure: undefined element. bruxa
 
+Near lines: 228 	acus$36/1705-c3/bruxa
+Near line: 229 		/literal=pede dinheiro para os defuntos irem para o ceu.
 
-ERROR: dev1705.cli line 12 ** Failure: undefined element. 3
 
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
+WARNING: dev1705.cli line 248 Element value exceeds database field length: literal=pede dinheiro para os defuntos irem para o ceu. Foi com ela ao senhor do desterro, com Antonia Manuel, mulher de Simao Jorge do casal Novo e Francisca Jorge, mulher do Antonio Goncalves do casal do Migalho e Maria Fernandes, viuva de Manuel Cordeiro, do Migalho e outras. [NOTA: reparar que esta testemunha corrige a informacao da anterior sobre a identificacao das mulheres que foram 'a senhora do Desterro.] Foi depois de terem feito oracao, uma hora depois do meio-dia e em frente ao altar de Nossa Senhora que lhe deu o achaque: disse nele que a alma de antonia pedrosa que viveu e morreu no casal do migalho "naquela hora ia para o Ceu e que para isso dava aquele sinal dizendo que as mulheres que lhe assistissem aparassem uma toalha a mais formosa que tivessem e logo a dita testemunha e mais antonia cordeira filha da defunta antonia pedrosa apararam uma toalha [donde veio a toalha?] e a denunciada lancou sobre ela pela boca um sinal que  parecia de prata do tamanho de uma veronica e disse que aquele sinal se desse a luis cordeiro filho da dita defunta para lhe ser de muito  prestimo." E vende bolsas com corporais contas as coisas ruins, e  acha coisas perdidas.. Size:1176 limit: 1024
+Near lines: 248 
+Near line: 249 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
 
 
-ERROR: dev1705.cli line 12 ** Failure: undefined element. 0
+ERROR: dev1705.cli line 248 ** Failure: undefined element. f
 
-Near lines: 12 testemunha$1705-t3/antonio jorge/m
-Near line: 13 	acus$3/0/NADA 
+Near lines: 248 
+Near line: 249 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
 
 
-ERROR: dev1705.cli line 13 ** Failure: undefined element. NADA
+WARNING: dev1705.cli line 249 Element value exceeds database field length: sexo=francisca jorge. Size:15 limit: 1
+Near lines: 249 	referida$1705-a5b/francisca jorge/f/mesmo_que=1705-a5b
+Near line: 250 		rel$parentesco/mulher/antonio goncalves/1705-a5ba
 
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
 
+ERROR: dev1705.cli line 254 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 13 ** ID already used in this file: dev1705
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
+Near lines: 254 	referida$1705-a5d/antonia manuel/f
+Near line: 255 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
-14: devassa$dev1705
 
-ERROR: dev1705.cli line 13 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
+WARNING: dev1705.cli line 254 Element value exceeds database field length: sexo=antonia manuel. Size:14 limit: 1
+Near lines: 254 	referida$1705-a5d/antonia manuel/f
+Near line: 255 		rel$sociabilidade/foram juntas 'a romaria/catarina leitao/1705-a5
 
 
-ERROR: dev1705.cli line 13 ***testemunha group not stored.
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
+ERROR: dev1705.cli line 259 ** Failure: undefined element. f
 
+Near lines: 259 	referida$1705-a5e/maria fernandes/f
+Near line: 260 		ls$ec/v
 
-ERROR: dev1705.cli line 13 ** Failure. Could not process group testemunha
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
 
+WARNING: dev1705.cli line 259 Element value exceeds database field length: sexo=maria fernandes. Size:15 limit: 1
+Near lines: 259 	referida$1705-a5e/maria fernandes/f
+Near line: 260 		ls$ec/v
 
-ERROR: dev1705.cli line 13 ** Failure: undefined element. 1705-t4
 
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
+ERROR: dev1705.cli line 267 ** Failure: undefined element. f
 
+Near lines: 267 	referida$1705-a5f/antonia pedroso/f
+Near line: 268 		ls$morta/antes
 
-ERROR: dev1705.cli line 13 ** Failure: undefined element. manuel rodrigues
 
-Near lines: 13 	acus$3/0/NADA 
-Near line: 14 testemunha$1705-t4/manuel rodrigues/m
+WARNING: dev1705.cli line 267 Element value exceeds database field length: sexo=antonia pedroso. Size:15 limit: 1
+Near lines: 267 	referida$1705-a5f/antonia pedroso/f
+Near line: 268 		ls$morta/antes
 
 
-ERROR: dev1705.cli line 14 ** Failure: undefined element. m
+ERROR: dev1705.cli line 277 ** Failure: undefined element. bruxa
 
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
+Near lines: 277 	acus$37/1705-c3/bruxa
+Near line: 278 		/literal= encontrou-se com ela, por acaso, na senhora do Desterro.
 
 
-ERROR: dev1705.cli line 14 ** ID already used in this file: dev1705
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
+ERROR: dev1705.cli line 293 ** Failure: undefined element. bruxa
 
-15: devassa$dev1705
+Near lines: 293 	acus$38/1705-c3/bruxa
+Near line: 294 		/literal=no dia de ano bom de 1704 indo ele t.a com
 
-ERROR: dev1705.cli line 14 *** Current group ls cannot be linked with previous group devassa(dev1705)
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
 
+WARNING: dev1705.cli line 313 Element value exceeds database field length: literal=no dia de ano bom de 1704 indo ele t.a com ela e mais gente 'a romaria da senhora do desterro. [curiosamente e' o unico que refere a data, facil de lembrar, do primeiro de Janeiro, ou talvez as outras penser ser evidente]. Diz que o transe foi no fim da missa, quando o sacerdote lancou a bencao. E ai disse que a filha de Manuel Cordeiro, ja' naquele tempo defunto, chamada antonia cordeiro, "fosse dar alguma coisa ao clerigo para almocar que tinha acabado de dizer a missa pela alma do defunto [e' tambem o unico que diz que a missa era por alma do defunto] que para esse efeito foi a  denunciada 'a dita romaria e a filha do defunbto que levava umas merendinhas de broa meuda, por concelho da denunciada para dar a quem rezasse pela alma de seu pai [anotar o costume] e vendo a denunciada que o sacerdote estava fora da ermida disse estas palavras: 'Em nome do defunto, __estais_ai_mulher_hoje_faz_um_ano_que_morri_e_ _hoje_me_aparto_de_vos_para_sempre_que_me_vou_para_o_ceu__ [sublinhado no original]." vende bolsas benzidas pelos frades de seica.  ao clerigo para almocar. Size:1077 limit: 1024
+Near lines: 313 		
+Near line: 314 testo$antonio goncalves/id=1705-t39/mesmo_que=1705-a5ba
 
-ERROR: dev1705.cli line 14 ***ls group not stored.
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
 
+ERROR: dev1705.cli line 323 ** Failure: undefined element. bruxa
 
-ERROR: dev1705.cli line 14 ** Failure. Could not process group ls
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
+Near lines: 323 	acus$39/1705-c3/bruxa
+Near line: 324 		/literal=tambem esteve na romaria que diz ter sido no passado natal
 
 
-ERROR: dev1705.cli line 14 ** Failure: undefined element. profissao
+ERROR: dev1705.cli line 337 ** Failure: undefined element. f
 
-Near lines: 14 testemunha$1705-t4/manuel rodrigues/m
-Near line: 15 	ls$profissao/serralheiro
+Near lines: 337 	referida$1705-t39a/maria/f
+Near line: 338 		rel$parentesco/filha/antonio goncalves/1705-a5ba
 
 
-ERROR: dev1705.cli line 15 ** Failure: undefined element. serralheiro
+WARNING: dev1705.cli line 337 Element value exceeds database field length: sexo=maria. Size:5 limit: 1
+Near lines: 337 	referida$1705-t39a/maria/f
+Near line: 338 		rel$parentesco/filha/antonio goncalves/1705-a5ba
 
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
 
+ERROR: dev1705.cli line 340 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 15 ** ID already used in this file: dev1705
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
+Near lines: 340 	
+Near line: 341 testo$manuel duarte/id=1705-t40
 
-16: devassa$dev1705
 
-ERROR: dev1705.cli line 15 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
+WARNING: dev1705.cli line 340 Element value exceeds database field length: sexo=catarina cordeiro. Size:17 limit: 1
+Near lines: 340 	
+Near line: 341 testo$manuel duarte/id=1705-t40
 
 
-ERROR: dev1705.cli line 15 ***acus group not stored.
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
+ERROR: dev1705.cli line 347 ** Failure: undefined element. bruxa
 
+Near lines: 347 	acus$40/1705-c3/bruxa
+Near line: 348 		/literal=ha dois anos fazia alguma assistencia no casal do migalho.
 
-ERROR: dev1705.cli line 15 ** Failure. Could not process group acus
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
 
+ERROR: dev1705.cli line 362 ** Failure: undefined element. f
 
-ERROR: dev1705.cli line 15 ** Failure: undefined element. 4
+Near lines: 362 	referida$1705-t40a/nome desconhecido/f
+Near line: 363 		ls$profissao/moleira
 
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
 
+WARNING: dev1705.cli line 362 Element value exceeds database field length: sexo=nome desconhecido. Size:17 limit: 1
+Near lines: 362 	referida$1705-t40a/nome desconhecido/f
+Near line: 363 		ls$profissao/moleira
 
-ERROR: dev1705.cli line 15 ** Failure: undefined element. 0
 
-Near lines: 15 	ls$profissao/serralheiro
-Near line: 16 	acus$4/0/NADA 
+ERROR: dev1705.cli line 365 ** Failure: undefined element. f
 
+Near lines: 365 	referida$1705-t40b/nome desconhecido/f
+Near line: 366 		rel$parentesco/mulher/manuel duarte/1705-t40
 
-ERROR: dev1705.cli line 16 ** Failure: undefined element. NADA
 
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
+WARNING: dev1705.cli line 365 Element value exceeds database field length: sexo=nome desconhecido. Size:17 limit: 1
+Near lines: 365 	referida$1705-t40b/nome desconhecido/f
+Near line: 366 		rel$parentesco/mulher/manuel duarte/1705-t40
 
 
-ERROR: dev1705.cli line 16 ** ID already used in this file: dev1705
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
+ERROR: dev1705.cli line 372 ** Failure: undefined element. bruxa
 
-17: devassa$dev1705
+Near lines: 372 	ls$idade/VERIFICAR
+Near line: 373 	acus$41/1705-c3/bruxa/origem=confirma mas nao de vista por nao ter visto
 
-ERROR: dev1705.cli line 16 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
-
-
-ERROR: dev1705.cli line 16 ***testemunha group not stored.
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
-
-
-ERROR: dev1705.cli line 16 ** Failure. Could not process group testemunha
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
-
-
-ERROR: dev1705.cli line 16 ** Failure: undefined element. 1705-t5
-
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
-
-
-ERROR: dev1705.cli line 16 ** Failure: undefined element. manuel pinto
-
-Near lines: 16 	acus$4/0/NADA 
-Near line: 17 testemunha$1705-t5/manuel pinto/m
-
-
-ERROR: dev1705.cli line 17 ** Failure: undefined element. m
-
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-
-ERROR: dev1705.cli line 17 ** ID already used in this file: dev1705
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-18: devassa$dev1705
-
-ERROR: dev1705.cli line 17 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-
-ERROR: dev1705.cli line 17 ***acus group not stored.
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-
-ERROR: dev1705.cli line 17 ** Failure. Could not process group acus
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-
-ERROR: dev1705.cli line 17 ** Failure: undefined element. 5
-
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-
-ERROR: dev1705.cli line 17 ** Failure: undefined element. 0
-
-Near lines: 17 testemunha$1705-t5/manuel pinto/m
-Near line: 18 	acus$5/0/NADA 
-
-
-ERROR: dev1705.cli line 18 ** Failure: undefined element. NADA
-
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-
-ERROR: dev1705.cli line 18 ** ID already used in this file: dev1705
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-19: devassa$dev1705
-
-ERROR: dev1705.cli line 18 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-
-ERROR: dev1705.cli line 18 ***testemunha group not stored.
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-
-ERROR: dev1705.cli line 18 ** Failure. Could not process group testemunha
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-
-ERROR: dev1705.cli line 18 ** Failure: undefined element. 1705-t6
-
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-
-ERROR: dev1705.cli line 18 ** Failure: undefined element. antonio rebelo
-
-Near lines: 18 	acus$5/0/NADA 
-Near line: 19 testemunha$1705-t6/antonio rebelo/m
-
-
-ERROR: dev1705.cli line 19 ** Failure: undefined element. m
-
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 19 ** ID already used in this file: dev1705
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-20: devassa$dev1705
-
-ERROR: dev1705.cli line 19 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 19 ***acus group not stored.
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 19 ** Failure. Could not process group acus
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 19 ** Failure: undefined element. 6
-
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 19 ** Failure: undefined element. 0
-
-Near lines: 19 testemunha$1705-t6/antonio rebelo/m
-Near line: 20 	acus$6/0/NADA 
-
-
-ERROR: dev1705.cli line 20 ** Failure: undefined element. NADA
-
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-
-ERROR: dev1705.cli line 20 ** ID already used in this file: dev1705
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-21: devassa$dev1705
-
-ERROR: dev1705.cli line 20 *** Current group testemunha cannot be linked with previous group devassa(dev1705)
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-
-ERROR: dev1705.cli line 20 ***testemunha group not stored.
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-
-ERROR: dev1705.cli line 20 ** Failure. Could not process group testemunha
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-
-ERROR: dev1705.cli line 20 ** Failure: undefined element. 1705-t7
-
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-
-ERROR: dev1705.cli line 20 ** Failure: undefined element. jose dias
-
-Near lines: 20 	acus$6/0/NADA 
-Near line: 21 testemunha$1705-t7/jose dias/m
-
-
-ERROR: dev1705.cli line 21 ** Failure: undefined element. m
-
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-
-ERROR: dev1705.cli line 21 ** ID already used in this file: dev1705
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-22: devassa$dev1705
-
-ERROR: dev1705.cli line 21 *** Current group acus cannot be linked with previous group devassa(dev1705)
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-
-ERROR: dev1705.cli line 21 ***acus group not stored.
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-
-ERROR: dev1705.cli line 21 ** Failure. Could not process group acus
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-
-ERROR: dev1705.cli line 21 ** Failure: undefined element. 7
-
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-
-ERROR: dev1705.cli line 21 ** Failure: undefined element. 0
-
-Near lines: 21 testemunha$1705-t7/jose dias/m
-Near line: 22 	acus$7/0/NADA 
-
-*** ERROR: MAXIMUM NUMBER OF ERRORS REACHED. TRANSLATION ABORTED.
-
-ERROR: dev1705.cli line 21 ** Failure: undefined element. NADA
-
-Near lines: 21 	acus$7/0/NADA 
-Near line: 22 	acus$7/0/NADA 
-
-
-ERROR: dev1705.cli line 21 ** ID already used in this file: dev1705
-Near lines: 21 	acus$7/0/NADA 
-Near line: 22 	acus$7/0/NADA 
-
-22: devassa$dev1705
 *** End of File
 
 
-104  errors. 
-0  warnings.
+48  errors. 
+13  warnings.
 Translation finished.
