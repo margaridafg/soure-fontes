@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/soure_fase1/devassas/dev1690.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-4-29 18:37:35" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/devassas/dev1690.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-5-9 10:1:59" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -28,7 +28,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/kleio-home/sources/soure-fontes/sources/soure_fase1/devassas/dev1690.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/Users/jrc/mhk-home/sources/soure-fontes/sources/1685-1720/devassas/dev1690.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="devassa">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -119,9 +119,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="dev1690-per1-att1-17" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="dev1690-per1-att1-22" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-att1-17</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-att1-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -132,16 +132,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[serralheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per1-att1-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per1-att1-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per1-att2-17" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="dev1690-per1-att2-22" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-att2-17</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-att2-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -152,16 +152,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per1-att2-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per1-att2-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per1-att3-17" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="11">
+<GROUP ID="dev1690-per1-att3-22" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-att3-17</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-att3-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -172,7 +172,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[60]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per1-att3-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per1-att3-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -226,8 +226,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="c1690-luisa-manrique-maria-simoes" NAME="caso" CLASS="caso" ORDER="10" LEVEL="5" LINE="15">
-    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+<GROUP ID="c1690-luisa-manrique-maria-simoes" NAME="caso" CLASS="caso" ORDER="10" LEVEL="5" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>caso</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per1-obj1</core></ELEMENT>
@@ -237,13 +237,18 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[amanc]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
-         <core><![CDATA[ela vive longe do marido,numa casa por conta dele. ja acusados em visitas anteriores,relacao com muitos anos]]></core>   </ELEMENT>
+         <core><![CDATA["""
+                   
+                  Ela vive longe do marido, numa casa por conta dele. 
+                  Já acusados em visitas anteriores44relacao com muitos anos.
+
+                  """]]></core>   </ELEMENT>
    <ELEMENT NAME="type" CLASS="type">
          <core><![CDATA[caso]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per1-obj1-rela3" NAME="relation"  ORDER="11" LEVEL="6" CLASS="relation" LINE="15">
-    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+<GROUP ID="dev1690-per1-obj1-rela3" NAME="relation"  ORDER="11" LEVEL="6" CLASS="relation" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1690-luisa-manrique-maria-simoes</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -257,8 +262,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per1-obj1-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1690-luisa-manrique-maria-simoes-per2" NAME="acusado" CLASS="person" ORDER="12" LEVEL="6" LINE="16">
-    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
+<GROUP ID="c1690-luisa-manrique-maria-simoes-per2" NAME="acusado" CLASS="person" ORDER="12" LEVEL="6" LINE="21">
+    <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-per2</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusado</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1690-luisa-manrique-maria-simoes</core></ELEMENT>
@@ -271,8 +276,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1690-luisa-manrique-maria-simoes-rela4" NAME="relation"  ORDER="13" LEVEL="7" CLASS="relation" LINE="16">
-    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
+<GROUP ID="c1690-luisa-manrique-maria-simoes-rela4" NAME="relation"  ORDER="13" LEVEL="7" CLASS="relation" LINE="21">
+    <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>c1690-luisa-manrique-maria-simoes-per2</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -286,9 +291,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="c1690-luisa-manrique-maria-simoes-per2-att4-17" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="7" LINE="17">
-    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-per2-att4-17</core></ELEMENT>
+<GROUP ID="c1690-luisa-manrique-maria-simoes-per2-att4-22" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="7" LINE="22">
+    <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-per2-att4-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1690-luisa-manrique-maria-simoes-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -299,16 +304,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[c]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1690-luisa-manrique-maria-simoes-per2-att4-17]]></core>   </ELEMENT>
+         <core><![CDATA[c1690-luisa-manrique-maria-simoes-per2-att4-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1690-luisa-manrique-maria-simoes-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1690-luisa-manrique-maria-simoes-per2-att5-17" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="7" LINE="19">
-    <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-per2-att5-17</core></ELEMENT>
+<GROUP ID="c1690-luisa-manrique-maria-simoes-per2-att5-22" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="7" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-per2-att5-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1690-luisa-manrique-maria-simoes-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -319,15 +324,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[c1690-luisa-manrique-maria-simoes-per2-att5-17]]></core>   </ELEMENT>
+         <core><![CDATA[c1690-luisa-manrique-maria-simoes-per2-att5-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[c1690-luisa-manrique-maria-simoes-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1690-c1-acus1" NAME="acusada" CLASS="person" ORDER="16" LEVEL="6" LINE="20">
-    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+<GROUP ID="1690-c1-acus1" NAME="acusada" CLASS="person" ORDER="16" LEVEL="6" LINE="25">
+    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>1690-c1-acus1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusada</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>c1690-luisa-manrique-maria-simoes</core></ELEMENT>
@@ -340,8 +345,8 @@
          <core><![CDATA[f]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="c1690-luisa-manrique-maria-simoes-rela5" NAME="relation"  ORDER="17" LEVEL="7" CLASS="relation" LINE="20">
-    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+<GROUP ID="c1690-luisa-manrique-maria-simoes-rela5" NAME="relation"  ORDER="17" LEVEL="7" CLASS="relation" LINE="25">
+    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>1690-c1-acus1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -355,9 +360,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>c1690-luisa-manrique-maria-simoes-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="1690-c1-acus1-att6-17" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="7" LINE="21">
-    <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>1690-c1-acus1-att6-17</core></ELEMENT>
+<GROUP ID="1690-c1-acus1-att6-22" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="7" LINE="26">
+    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>1690-c1-acus1-att6-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1690-c1-acus1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -368,16 +373,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[c]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[1690-c1-acus1-att6-17]]></core>   </ELEMENT>
+         <core><![CDATA[1690-c1-acus1-att6-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[1690-c1-acus1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1690-c1-acus1-att7-17" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="7" LINE="23">
-    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>1690-c1-acus1-att7-17</core></ELEMENT>
+<GROUP ID="1690-c1-acus1-att7-22" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="7" LINE="28">
+    <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>1690-c1-acus1-att7-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1690-c1-acus1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -388,15 +393,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[1690-c1-acus1-att7-17]]></core>   </ELEMENT>
+         <core><![CDATA[1690-c1-acus1-att7-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[1690-c1-acus1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per3" NAME="testo" CLASS="person" ORDER="20" LEVEL="3" LINE="24">
-    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+<GROUP ID="dev1690-per3" NAME="testo" CLASS="person" ORDER="20" LEVEL="3" LINE="29">
+    <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -409,8 +414,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela6" NAME="relation"  ORDER="21" LEVEL="4" CLASS="relation" LINE="24">
-    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+<GROUP ID="dev1690-rela6" NAME="relation"  ORDER="21" LEVEL="4" CLASS="relation" LINE="29">
+    <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -424,9 +429,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per3-att8-17" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
-    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-att8-17</core></ELEMENT>
+<GROUP ID="dev1690-per3-att8-22" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="30">
+    <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-att8-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -437,16 +442,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[pedreiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per3-att8-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per3-att8-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per3-att9-17" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
-    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-att9-17</core></ELEMENT>
+<GROUP ID="dev1690-per3-att9-22" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="31">
+    <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-att9-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -457,16 +462,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per3-att9-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per3-att9-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per3-att10-17" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
-    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-att10-17</core></ELEMENT>
+<GROUP ID="dev1690-per3-att10-22" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="32">
+    <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-att10-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -477,16 +482,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[30]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per3-att10-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per3-att10-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per3-rel1-17" NAME="rel" CLASS="relation" ORDER="25" LEVEL="4" LINE="29">
-    <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-rel1-17</core></ELEMENT>
+<GROUP ID="dev1690-per3-rel1-22" NAME="rel" CLASS="relation" ORDER="25" LEVEL="4" LINE="34">
+    <ELEMENT NAME="line" CLASS="line"><core>34</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-rel1-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -501,15 +506,15 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[1690-c1-acus1]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per3-rel1-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per3-rel1-22]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[dev1690-per3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per3-obj2" NAME="acusa" CLASS="acusacoes" ORDER="26" LEVEL="4" LINE="31">
-    <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
+<GROUP ID="dev1690-per3-obj2" NAME="acusa" CLASS="acusacoes" ORDER="26" LEVEL="4" LINE="36">
+    <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-obj2</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3</core></ELEMENT>
@@ -522,8 +527,8 @@
          <core><![CDATA[acusa]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per3-rela7" NAME="relation"  ORDER="27" LEVEL="5" CLASS="relation" LINE="31">
-    <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
+<GROUP ID="dev1690-per3-rela7" NAME="relation"  ORDER="27" LEVEL="5" CLASS="relation" LINE="36">
+    <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per3-obj2</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -537,8 +542,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per3-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per4" NAME="testo" CLASS="person" ORDER="28" LEVEL="3" LINE="32">
-    <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
+<GROUP ID="dev1690-per4" NAME="testo" CLASS="person" ORDER="28" LEVEL="3" LINE="37">
+    <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -551,8 +556,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela8" NAME="relation"  ORDER="29" LEVEL="4" CLASS="relation" LINE="32">
-    <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
+<GROUP ID="dev1690-rela8" NAME="relation"  ORDER="29" LEVEL="4" CLASS="relation" LINE="37">
+    <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per4</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -566,9 +571,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per4-att11-17" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="4" LINE="33">
-    <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-att11-17</core></ELEMENT>
+<GROUP ID="dev1690-per4-att11-22" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="4" LINE="38">
+    <ELEMENT NAME="line" CLASS="line"><core>38</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-att11-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -579,16 +584,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[ferrador]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per4-att11-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per4-att11-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per4-att12-17" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="34">
-    <ELEMENT NAME="line" CLASS="line"><core>34</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-att12-17</core></ELEMENT>
+<GROUP ID="dev1690-per4-att12-22" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="39">
+    <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-att12-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -599,16 +604,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per4-att12-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per4-att12-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per4-att13-17" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="36">
-    <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-att13-17</core></ELEMENT>
+<GROUP ID="dev1690-per4-att13-22" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="41">
+    <ELEMENT NAME="line" CLASS="line"><core>41</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-att13-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -619,15 +624,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[40]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per4-att13-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per4-att13-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per4-obj3" NAME="acusa" CLASS="acusacoes" ORDER="33" LEVEL="4" LINE="38">
-    <ELEMENT NAME="line" CLASS="line"><core>38</core></ELEMENT>
+<GROUP ID="dev1690-per4-obj3" NAME="acusa" CLASS="acusacoes" ORDER="33" LEVEL="4" LINE="43">
+    <ELEMENT NAME="line" CLASS="line"><core>43</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-obj3</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per4</core></ELEMENT>
@@ -640,8 +645,8 @@
          <core><![CDATA[acusa]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per4-rela9" NAME="relation"  ORDER="34" LEVEL="5" CLASS="relation" LINE="38">
-    <ELEMENT NAME="line" CLASS="line"><core>38</core></ELEMENT>
+<GROUP ID="dev1690-per4-rela9" NAME="relation"  ORDER="34" LEVEL="5" CLASS="relation" LINE="43">
+    <ELEMENT NAME="line" CLASS="line"><core>43</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per4-obj3</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -655,8 +660,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per4-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per5" NAME="testo" CLASS="person" ORDER="35" LEVEL="3" LINE="39">
-    <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
+<GROUP ID="dev1690-per5" NAME="testo" CLASS="person" ORDER="35" LEVEL="3" LINE="44">
+    <ELEMENT NAME="line" CLASS="line"><core>44</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -669,8 +674,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela10" NAME="relation"  ORDER="36" LEVEL="4" CLASS="relation" LINE="39">
-    <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
+<GROUP ID="dev1690-rela10" NAME="relation"  ORDER="36" LEVEL="4" CLASS="relation" LINE="44">
+    <ELEMENT NAME="line" CLASS="line"><core>44</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per5</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -684,9 +689,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per5-att14-17" NAME="ls" CLASS="attribute" ORDER="37" LEVEL="4" LINE="40">
-    <ELEMENT NAME="line" CLASS="line"><core>40</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-att14-17</core></ELEMENT>
+<GROUP ID="dev1690-per5-att14-22" NAME="ls" CLASS="attribute" ORDER="37" LEVEL="4" LINE="45">
+    <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-att14-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -697,16 +702,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[serralheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per5-att14-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per5-att14-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per5-att15-17" NAME="ls" CLASS="attribute" ORDER="38" LEVEL="4" LINE="41">
-    <ELEMENT NAME="line" CLASS="line"><core>41</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-att15-17</core></ELEMENT>
+<GROUP ID="dev1690-per5-att15-22" NAME="ls" CLASS="attribute" ORDER="38" LEVEL="4" LINE="46">
+    <ELEMENT NAME="line" CLASS="line"><core>46</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-att15-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -717,16 +722,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per5-att15-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per5-att15-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per5-att16-17" NAME="ls" CLASS="attribute" ORDER="39" LEVEL="4" LINE="43">
-    <ELEMENT NAME="line" CLASS="line"><core>43</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-att16-17</core></ELEMENT>
+<GROUP ID="dev1690-per5-att16-22" NAME="ls" CLASS="attribute" ORDER="39" LEVEL="4" LINE="48">
+    <ELEMENT NAME="line" CLASS="line"><core>48</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-att16-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per5</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -737,15 +742,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[32]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per5-att16-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per5-att16-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per5]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per5-obj4" NAME="acusa" CLASS="acusacoes" ORDER="40" LEVEL="4" LINE="45">
-    <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
+<GROUP ID="dev1690-per5-obj4" NAME="acusa" CLASS="acusacoes" ORDER="40" LEVEL="4" LINE="50">
+    <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-obj4</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per5</core></ELEMENT>
@@ -758,8 +763,8 @@
          <core><![CDATA[acusa]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per5-rela11" NAME="relation"  ORDER="41" LEVEL="5" CLASS="relation" LINE="45">
-    <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
+<GROUP ID="dev1690-per5-rela11" NAME="relation"  ORDER="41" LEVEL="5" CLASS="relation" LINE="50">
+    <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per5-obj4</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -773,8 +778,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per5-rela11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per6" NAME="testo" CLASS="person" ORDER="42" LEVEL="3" LINE="46">
-    <ELEMENT NAME="line" CLASS="line"><core>46</core></ELEMENT>
+<GROUP ID="dev1690-per6" NAME="testo" CLASS="person" ORDER="42" LEVEL="3" LINE="51">
+    <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -787,8 +792,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela12" NAME="relation"  ORDER="43" LEVEL="4" CLASS="relation" LINE="46">
-    <ELEMENT NAME="line" CLASS="line"><core>46</core></ELEMENT>
+<GROUP ID="dev1690-rela12" NAME="relation"  ORDER="43" LEVEL="4" CLASS="relation" LINE="51">
+    <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per6</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -802,9 +807,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela12</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per6-att17-17" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="4" LINE="47">
-    <ELEMENT NAME="line" CLASS="line"><core>47</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-att17-17</core></ELEMENT>
+<GROUP ID="dev1690-per6-att17-22" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="4" LINE="52">
+    <ELEMENT NAME="line" CLASS="line"><core>52</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-att17-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -815,16 +820,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[serralheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per6-att17-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per6-att17-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per6-att18-17" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="4" LINE="48">
-    <ELEMENT NAME="line" CLASS="line"><core>48</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-att18-17</core></ELEMENT>
+<GROUP ID="dev1690-per6-att18-22" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="4" LINE="53">
+    <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-att18-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -835,16 +840,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per6-att18-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per6-att18-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per6-att19-17" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="4" LINE="50">
-    <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-att19-17</core></ELEMENT>
+<GROUP ID="dev1690-per6-att19-22" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="4" LINE="55">
+    <ELEMENT NAME="line" CLASS="line"><core>55</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-att19-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per6</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -855,15 +860,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[32]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per6-att19-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per6-att19-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per6]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per6-obj5" NAME="acusa" CLASS="acusacoes" ORDER="47" LEVEL="4" LINE="52">
-    <ELEMENT NAME="line" CLASS="line"><core>52</core></ELEMENT>
+<GROUP ID="dev1690-per6-obj5" NAME="acusa" CLASS="acusacoes" ORDER="47" LEVEL="4" LINE="57">
+    <ELEMENT NAME="line" CLASS="line"><core>57</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-obj5</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per6</core></ELEMENT>
@@ -876,8 +881,8 @@
          <core><![CDATA[acusa]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per6-rela13" NAME="relation"  ORDER="48" LEVEL="5" CLASS="relation" LINE="52">
-    <ELEMENT NAME="line" CLASS="line"><core>52</core></ELEMENT>
+<GROUP ID="dev1690-per6-rela13" NAME="relation"  ORDER="48" LEVEL="5" CLASS="relation" LINE="57">
+    <ELEMENT NAME="line" CLASS="line"><core>57</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per6-obj5</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -891,8 +896,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per6-rela13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="1009" NAME="testa" CLASS="person" ORDER="49" LEVEL="3" LINE="53">
-    <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
+<GROUP ID="1009" NAME="testa" CLASS="person" ORDER="49" LEVEL="3" LINE="58">
+    <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>1009</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -905,8 +910,8 @@
          <core><![CDATA[f]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela14" NAME="relation"  ORDER="50" LEVEL="4" CLASS="relation" LINE="53">
-    <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
+<GROUP ID="dev1690-rela14" NAME="relation"  ORDER="50" LEVEL="4" CLASS="relation" LINE="58">
+    <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>1009</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -920,9 +925,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="1009-att20-17" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="54">
-    <ELEMENT NAME="line" CLASS="line"><core>54</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>1009-att20-17</core></ELEMENT>
+<GROUP ID="1009-att20-22" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="59">
+    <ELEMENT NAME="line" CLASS="line"><core>59</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>1009-att20-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1009</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -933,16 +938,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[c]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[1009-att20-17]]></core>   </ELEMENT>
+         <core><![CDATA[1009-att20-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[1009]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1009-att21-17" NAME="ls" CLASS="attribute" ORDER="52" LEVEL="4" LINE="56">
-    <ELEMENT NAME="line" CLASS="line"><core>56</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>1009-att21-17</core></ELEMENT>
+<GROUP ID="1009-att21-22" NAME="ls" CLASS="attribute" ORDER="52" LEVEL="4" LINE="61">
+    <ELEMENT NAME="line" CLASS="line"><core>61</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>1009-att21-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1009</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -953,15 +958,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[35]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[1009-att21-17]]></core>   </ELEMENT>
+         <core><![CDATA[1009-att21-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[1009]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1009-obj6" NAME="acusa" CLASS="acusacoes" ORDER="53" LEVEL="4" LINE="58">
-    <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
+<GROUP ID="1009-obj6" NAME="acusa" CLASS="acusacoes" ORDER="53" LEVEL="4" LINE="63">
+    <ELEMENT NAME="line" CLASS="line"><core>63</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>1009-obj6</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>acusa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1009</core></ELEMENT>
@@ -974,8 +979,8 @@
          <core><![CDATA[acusa]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1009-rela15" NAME="relation"  ORDER="54" LEVEL="5" CLASS="relation" LINE="58">
-    <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
+<GROUP ID="1009-rela15" NAME="relation"  ORDER="54" LEVEL="5" CLASS="relation" LINE="63">
+    <ELEMENT NAME="line" CLASS="line"><core>63</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>1009-obj6</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -989,8 +994,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>1009-rela15</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="1009-per7" NAME="referido" CLASS="person" ORDER="55" LEVEL="4" LINE="59">
-    <ELEMENT NAME="line" CLASS="line"><core>59</core></ELEMENT>
+<GROUP ID="1009-per7" NAME="referido" CLASS="person" ORDER="55" LEVEL="4" LINE="64">
+    <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>1009-per7</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1009</core></ELEMENT>
@@ -1003,8 +1008,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1009-rela16" NAME="relation"  ORDER="56" LEVEL="5" CLASS="relation" LINE="59">
-    <ELEMENT NAME="line" CLASS="line"><core>59</core></ELEMENT>
+<GROUP ID="1009-rela16" NAME="relation"  ORDER="56" LEVEL="5" CLASS="relation" LINE="64">
+    <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>1009-per7</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1018,9 +1023,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>1009-rela16</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="1009-per7-att22-17" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="60">
-    <ELEMENT NAME="line" CLASS="line"><core>60</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>1009-per7-att22-17</core></ELEMENT>
+<GROUP ID="1009-per7-att22-22" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="65">
+    <ELEMENT NAME="line" CLASS="line"><core>65</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>1009-per7-att22-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1009-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1031,16 +1036,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[c]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[1009-per7-att22-17]]></core>   </ELEMENT>
+         <core><![CDATA[1009-per7-att22-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[1009-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="1009-per7-rel2-17" NAME="rel" CLASS="relation" ORDER="58" LEVEL="5" LINE="62">
-    <ELEMENT NAME="line" CLASS="line"><core>62</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>1009-per7-rel2-17</core></ELEMENT>
+<GROUP ID="1009-per7-rel2-22" NAME="rel" CLASS="relation" ORDER="58" LEVEL="5" LINE="67">
+    <ELEMENT NAME="line" CLASS="line"><core>67</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>1009-per7-rel2-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>1009-per7</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1055,15 +1060,15 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[1008]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[1009-per7-rel2-17]]></core>   </ELEMENT>
+         <core><![CDATA[1009-per7-rel2-22]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[1009-per7]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per8" NAME="testo" CLASS="person" ORDER="59" LEVEL="3" LINE="64">
-    <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
+<GROUP ID="dev1690-per8" NAME="testo" CLASS="person" ORDER="59" LEVEL="3" LINE="69">
+    <ELEMENT NAME="line" CLASS="line"><core>69</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1076,8 +1081,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela17" NAME="relation"  ORDER="60" LEVEL="4" CLASS="relation" LINE="64">
-    <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
+<GROUP ID="dev1690-rela17" NAME="relation"  ORDER="60" LEVEL="4" CLASS="relation" LINE="69">
+    <ELEMENT NAME="line" CLASS="line"><core>69</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per8</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1091,8 +1096,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela17</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per9" NAME="testo" CLASS="person" ORDER="61" LEVEL="3" LINE="66">
-    <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
+<GROUP ID="dev1690-per9" NAME="testo" CLASS="person" ORDER="61" LEVEL="3" LINE="71">
+    <ELEMENT NAME="line" CLASS="line"><core>71</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per9</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1105,8 +1110,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela18" NAME="relation"  ORDER="62" LEVEL="4" CLASS="relation" LINE="66">
-    <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
+<GROUP ID="dev1690-rela18" NAME="relation"  ORDER="62" LEVEL="4" CLASS="relation" LINE="71">
+    <ELEMENT NAME="line" CLASS="line"><core>71</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per9</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1120,8 +1125,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela18</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per10" NAME="testo" CLASS="person" ORDER="63" LEVEL="3" LINE="68">
-    <ELEMENT NAME="line" CLASS="line"><core>68</core></ELEMENT>
+<GROUP ID="dev1690-per10" NAME="testo" CLASS="person" ORDER="63" LEVEL="3" LINE="73">
+    <ELEMENT NAME="line" CLASS="line"><core>73</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per10</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1134,8 +1139,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela19" NAME="relation"  ORDER="64" LEVEL="4" CLASS="relation" LINE="68">
-    <ELEMENT NAME="line" CLASS="line"><core>68</core></ELEMENT>
+<GROUP ID="dev1690-rela19" NAME="relation"  ORDER="64" LEVEL="4" CLASS="relation" LINE="73">
+    <ELEMENT NAME="line" CLASS="line"><core>73</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per10</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1149,8 +1154,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela19</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per11" NAME="testo" CLASS="person" ORDER="65" LEVEL="3" LINE="69">
-    <ELEMENT NAME="line" CLASS="line"><core>69</core></ELEMENT>
+<GROUP ID="dev1690-per11" NAME="testo" CLASS="person" ORDER="65" LEVEL="3" LINE="74">
+    <ELEMENT NAME="line" CLASS="line"><core>74</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1163,8 +1168,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela20" NAME="relation"  ORDER="66" LEVEL="4" CLASS="relation" LINE="69">
-    <ELEMENT NAME="line" CLASS="line"><core>69</core></ELEMENT>
+<GROUP ID="dev1690-rela20" NAME="relation"  ORDER="66" LEVEL="4" CLASS="relation" LINE="74">
+    <ELEMENT NAME="line" CLASS="line"><core>74</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per11</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1178,9 +1183,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela20</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per11-att23-17" NAME="ls" CLASS="attribute" ORDER="67" LEVEL="4" LINE="71">
-    <ELEMENT NAME="line" CLASS="line"><core>71</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per11-att23-17</core></ELEMENT>
+<GROUP ID="dev1690-per11-att23-22" NAME="ls" CLASS="attribute" ORDER="67" LEVEL="4" LINE="76">
+    <ELEMENT NAME="line" CLASS="line"><core>76</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per11-att23-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1191,15 +1196,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[pinheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per11-att23-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per11-att23-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per12" NAME="testo" CLASS="person" ORDER="68" LEVEL="3" LINE="72">
-    <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
+<GROUP ID="dev1690-per12" NAME="testo" CLASS="person" ORDER="68" LEVEL="3" LINE="77">
+    <ELEMENT NAME="line" CLASS="line"><core>77</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1212,8 +1217,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela21" NAME="relation"  ORDER="69" LEVEL="4" CLASS="relation" LINE="72">
-    <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
+<GROUP ID="dev1690-rela21" NAME="relation"  ORDER="69" LEVEL="4" CLASS="relation" LINE="77">
+    <ELEMENT NAME="line" CLASS="line"><core>77</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per12</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1227,9 +1232,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela21</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per12-att24-17" NAME="ls" CLASS="attribute" ORDER="70" LEVEL="4" LINE="74">
-    <ELEMENT NAME="line" CLASS="line"><core>74</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per12-att24-17</core></ELEMENT>
+<GROUP ID="dev1690-per12-att24-22" NAME="ls" CLASS="attribute" ORDER="70" LEVEL="4" LINE="79">
+    <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per12-att24-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per12</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1240,15 +1245,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[pinheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per12-att24-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per12-att24-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per12]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per13" NAME="testa" CLASS="person" ORDER="71" LEVEL="3" LINE="76">
-    <ELEMENT NAME="line" CLASS="line"><core>76</core></ELEMENT>
+<GROUP ID="dev1690-per13" NAME="testa" CLASS="person" ORDER="71" LEVEL="3" LINE="81">
+    <ELEMENT NAME="line" CLASS="line"><core>81</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per13</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1261,8 +1266,8 @@
          <core><![CDATA[f]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela22" NAME="relation"  ORDER="72" LEVEL="4" CLASS="relation" LINE="76">
-    <ELEMENT NAME="line" CLASS="line"><core>76</core></ELEMENT>
+<GROUP ID="dev1690-rela22" NAME="relation"  ORDER="72" LEVEL="4" CLASS="relation" LINE="81">
+    <ELEMENT NAME="line" CLASS="line"><core>81</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per13</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1276,8 +1281,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela22</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per14" NAME="testo" CLASS="person" ORDER="73" LEVEL="3" LINE="78">
-    <ELEMENT NAME="line" CLASS="line"><core>78</core></ELEMENT>
+<GROUP ID="dev1690-per14" NAME="testo" CLASS="person" ORDER="73" LEVEL="3" LINE="83">
+    <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1290,8 +1295,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela23" NAME="relation"  ORDER="74" LEVEL="4" CLASS="relation" LINE="78">
-    <ELEMENT NAME="line" CLASS="line"><core>78</core></ELEMENT>
+<GROUP ID="dev1690-rela23" NAME="relation"  ORDER="74" LEVEL="4" CLASS="relation" LINE="83">
+    <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per14</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1305,8 +1310,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela23</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per15" NAME="testo" CLASS="person" ORDER="75" LEVEL="3" LINE="79">
-    <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
+<GROUP ID="dev1690-per15" NAME="testo" CLASS="person" ORDER="75" LEVEL="3" LINE="84">
+    <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1319,8 +1324,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela24" NAME="relation"  ORDER="76" LEVEL="4" CLASS="relation" LINE="79">
-    <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
+<GROUP ID="dev1690-rela24" NAME="relation"  ORDER="76" LEVEL="4" CLASS="relation" LINE="84">
+    <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per15</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1334,9 +1339,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela24</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per15-att25-17" NAME="ls" CLASS="attribute" ORDER="77" LEVEL="4" LINE="81">
-    <ELEMENT NAME="line" CLASS="line"><core>81</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per15-att25-17</core></ELEMENT>
+<GROUP ID="dev1690-per15-att25-22" NAME="ls" CLASS="attribute" ORDER="77" LEVEL="4" LINE="86">
+    <ELEMENT NAME="line" CLASS="line"><core>86</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per15-att25-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per15</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1347,15 +1352,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carpinteiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per15-att25-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per15-att25-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per15]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per16" NAME="testa" CLASS="person" ORDER="78" LEVEL="3" LINE="83">
-    <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
+<GROUP ID="dev1690-per16" NAME="testa" CLASS="person" ORDER="78" LEVEL="3" LINE="88">
+    <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1368,8 +1373,8 @@
          <core><![CDATA[f]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela25" NAME="relation"  ORDER="79" LEVEL="4" CLASS="relation" LINE="83">
-    <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
+<GROUP ID="dev1690-rela25" NAME="relation"  ORDER="79" LEVEL="4" CLASS="relation" LINE="88">
+    <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per16</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1383,8 +1388,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela25</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per17" NAME="testo" CLASS="person" ORDER="80" LEVEL="3" LINE="84">
-    <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
+<GROUP ID="dev1690-per17" NAME="testo" CLASS="person" ORDER="80" LEVEL="3" LINE="89">
+    <ELEMENT NAME="line" CLASS="line"><core>89</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per17</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1397,8 +1402,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela26" NAME="relation"  ORDER="81" LEVEL="4" CLASS="relation" LINE="84">
-    <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
+<GROUP ID="dev1690-rela26" NAME="relation"  ORDER="81" LEVEL="4" CLASS="relation" LINE="89">
+    <ELEMENT NAME="line" CLASS="line"><core>89</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per17</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1412,9 +1417,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela26</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per17-att26-17" NAME="ls" CLASS="attribute" ORDER="82" LEVEL="4" LINE="86">
-    <ELEMENT NAME="line" CLASS="line"><core>86</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per17-att26-17</core></ELEMENT>
+<GROUP ID="dev1690-per17-att26-22" NAME="ls" CLASS="attribute" ORDER="82" LEVEL="4" LINE="91">
+    <ELEMENT NAME="line" CLASS="line"><core>91</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per17-att26-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per17</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1425,15 +1430,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[carpinteiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per17-att26-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per17-att26-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per17]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per18" NAME="testo" CLASS="person" ORDER="83" LEVEL="3" LINE="88">
-    <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
+<GROUP ID="dev1690-per18" NAME="testo" CLASS="person" ORDER="83" LEVEL="3" LINE="93">
+    <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per18</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1446,8 +1451,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela27" NAME="relation"  ORDER="84" LEVEL="4" CLASS="relation" LINE="88">
-    <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
+<GROUP ID="dev1690-rela27" NAME="relation"  ORDER="84" LEVEL="4" CLASS="relation" LINE="93">
+    <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per18</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1461,8 +1466,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela27</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per19" NAME="testo" CLASS="person" ORDER="85" LEVEL="3" LINE="90">
-    <ELEMENT NAME="line" CLASS="line"><core>90</core></ELEMENT>
+<GROUP ID="dev1690-per19" NAME="testo" CLASS="person" ORDER="85" LEVEL="3" LINE="95">
+    <ELEMENT NAME="line" CLASS="line"><core>95</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1475,8 +1480,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela28" NAME="relation"  ORDER="86" LEVEL="4" CLASS="relation" LINE="90">
-    <ELEMENT NAME="line" CLASS="line"><core>90</core></ELEMENT>
+<GROUP ID="dev1690-rela28" NAME="relation"  ORDER="86" LEVEL="4" CLASS="relation" LINE="95">
+    <ELEMENT NAME="line" CLASS="line"><core>95</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per19</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1490,8 +1495,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela28</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per20" NAME="testo" CLASS="person" ORDER="87" LEVEL="3" LINE="92">
-    <ELEMENT NAME="line" CLASS="line"><core>92</core></ELEMENT>
+<GROUP ID="dev1690-per20" NAME="testo" CLASS="person" ORDER="87" LEVEL="3" LINE="97">
+    <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1504,8 +1509,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela29" NAME="relation"  ORDER="88" LEVEL="4" CLASS="relation" LINE="92">
-    <ELEMENT NAME="line" CLASS="line"><core>92</core></ELEMENT>
+<GROUP ID="dev1690-rela29" NAME="relation"  ORDER="88" LEVEL="4" CLASS="relation" LINE="97">
+    <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per20</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1519,8 +1524,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela29</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per21" NAME="testo" CLASS="person" ORDER="89" LEVEL="3" LINE="94">
-    <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
+<GROUP ID="dev1690-per21" NAME="testo" CLASS="person" ORDER="89" LEVEL="3" LINE="99">
+    <ELEMENT NAME="line" CLASS="line"><core>99</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1533,8 +1538,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela30" NAME="relation"  ORDER="90" LEVEL="4" CLASS="relation" LINE="94">
-    <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
+<GROUP ID="dev1690-rela30" NAME="relation"  ORDER="90" LEVEL="4" CLASS="relation" LINE="99">
+    <ELEMENT NAME="line" CLASS="line"><core>99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per21</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1548,8 +1553,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela30</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per22" NAME="testo" CLASS="person" ORDER="91" LEVEL="3" LINE="96">
-    <ELEMENT NAME="line" CLASS="line"><core>96</core></ELEMENT>
+<GROUP ID="dev1690-per22" NAME="testo" CLASS="person" ORDER="91" LEVEL="3" LINE="101">
+    <ELEMENT NAME="line" CLASS="line"><core>101</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1562,8 +1567,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela31" NAME="relation"  ORDER="92" LEVEL="4" CLASS="relation" LINE="96">
-    <ELEMENT NAME="line" CLASS="line"><core>96</core></ELEMENT>
+<GROUP ID="dev1690-rela31" NAME="relation"  ORDER="92" LEVEL="4" CLASS="relation" LINE="101">
+    <ELEMENT NAME="line" CLASS="line"><core>101</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per22</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1577,8 +1582,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela31</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per23" NAME="testo" CLASS="person" ORDER="93" LEVEL="3" LINE="97">
-    <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
+<GROUP ID="dev1690-per23" NAME="testo" CLASS="person" ORDER="93" LEVEL="3" LINE="102">
+    <ELEMENT NAME="line" CLASS="line"><core>102</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per23</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1591,8 +1596,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela32" NAME="relation"  ORDER="94" LEVEL="4" CLASS="relation" LINE="97">
-    <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
+<GROUP ID="dev1690-rela32" NAME="relation"  ORDER="94" LEVEL="4" CLASS="relation" LINE="102">
+    <ELEMENT NAME="line" CLASS="line"><core>102</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per23</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1606,9 +1611,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela32</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per23-att27-17" NAME="ls" CLASS="attribute" ORDER="95" LEVEL="4" LINE="99">
-    <ELEMENT NAME="line" CLASS="line"><core>99</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per23-att27-17</core></ELEMENT>
+<GROUP ID="dev1690-per23-att27-22" NAME="ls" CLASS="attribute" ORDER="95" LEVEL="4" LINE="104">
+    <ELEMENT NAME="line" CLASS="line"><core>104</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per23-att27-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per23</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1619,15 +1624,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[barbeiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per23-att27-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per23-att27-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per23]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per24" NAME="testo" CLASS="person" ORDER="96" LEVEL="3" LINE="101">
-    <ELEMENT NAME="line" CLASS="line"><core>101</core></ELEMENT>
+<GROUP ID="dev1690-per24" NAME="testo" CLASS="person" ORDER="96" LEVEL="3" LINE="106">
+    <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per24</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1640,8 +1645,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela33" NAME="relation"  ORDER="97" LEVEL="4" CLASS="relation" LINE="101">
-    <ELEMENT NAME="line" CLASS="line"><core>101</core></ELEMENT>
+<GROUP ID="dev1690-rela33" NAME="relation"  ORDER="97" LEVEL="4" CLASS="relation" LINE="106">
+    <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per24</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1655,8 +1660,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela33</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per25" NAME="testa" CLASS="person" ORDER="98" LEVEL="3" LINE="103">
-    <ELEMENT NAME="line" CLASS="line"><core>103</core></ELEMENT>
+<GROUP ID="dev1690-per25" NAME="testa" CLASS="person" ORDER="98" LEVEL="3" LINE="108">
+    <ELEMENT NAME="line" CLASS="line"><core>108</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per25</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testa</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1669,8 +1674,8 @@
          <core><![CDATA[f]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela34" NAME="relation"  ORDER="99" LEVEL="4" CLASS="relation" LINE="103">
-    <ELEMENT NAME="line" CLASS="line"><core>103</core></ELEMENT>
+<GROUP ID="dev1690-rela34" NAME="relation"  ORDER="99" LEVEL="4" CLASS="relation" LINE="108">
+    <ELEMENT NAME="line" CLASS="line"><core>108</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per25</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1684,8 +1689,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela34</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per26" NAME="testo" CLASS="person" ORDER="100" LEVEL="3" LINE="105">
-    <ELEMENT NAME="line" CLASS="line"><core>105</core></ELEMENT>
+<GROUP ID="dev1690-per26" NAME="testo" CLASS="person" ORDER="100" LEVEL="3" LINE="110">
+    <ELEMENT NAME="line" CLASS="line"><core>110</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per26</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1698,8 +1703,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela35" NAME="relation"  ORDER="101" LEVEL="4" CLASS="relation" LINE="105">
-    <ELEMENT NAME="line" CLASS="line"><core>105</core></ELEMENT>
+<GROUP ID="dev1690-rela35" NAME="relation"  ORDER="101" LEVEL="4" CLASS="relation" LINE="110">
+    <ELEMENT NAME="line" CLASS="line"><core>110</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per26</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1713,8 +1718,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela35</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per27" NAME="testo" CLASS="person" ORDER="102" LEVEL="3" LINE="106">
-    <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
+<GROUP ID="dev1690-per27" NAME="testo" CLASS="person" ORDER="102" LEVEL="3" LINE="111">
+    <ELEMENT NAME="line" CLASS="line"><core>111</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per27</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1727,8 +1732,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela36" NAME="relation"  ORDER="103" LEVEL="4" CLASS="relation" LINE="106">
-    <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
+<GROUP ID="dev1690-rela36" NAME="relation"  ORDER="103" LEVEL="4" CLASS="relation" LINE="111">
+    <ELEMENT NAME="line" CLASS="line"><core>111</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per27</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1742,9 +1747,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela36</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per27-att28-17" NAME="ls" CLASS="attribute" ORDER="104" LEVEL="4" LINE="108">
-    <ELEMENT NAME="line" CLASS="line"><core>108</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per27-att28-17</core></ELEMENT>
+<GROUP ID="dev1690-per27-att28-22" NAME="ls" CLASS="attribute" ORDER="104" LEVEL="4" LINE="113">
+    <ELEMENT NAME="line" CLASS="line"><core>113</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dev1690-per27-att28-22</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per27</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1755,15 +1760,15 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sapateiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dev1690-per27-att28-17]]></core>   </ELEMENT>
+         <core><![CDATA[dev1690-per27-att28-22]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[dev1690-per27]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900907]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-per28" NAME="testo" CLASS="person" ORDER="105" LEVEL="3" LINE="110">
-    <ELEMENT NAME="line" CLASS="line"><core>110</core></ELEMENT>
+<GROUP ID="dev1690-per28" NAME="testo" CLASS="person" ORDER="105" LEVEL="3" LINE="115">
+    <ELEMENT NAME="line" CLASS="line"><core>115</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per28</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1776,8 +1781,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela37" NAME="relation"  ORDER="106" LEVEL="4" CLASS="relation" LINE="110">
-    <ELEMENT NAME="line" CLASS="line"><core>110</core></ELEMENT>
+<GROUP ID="dev1690-rela37" NAME="relation"  ORDER="106" LEVEL="4" CLASS="relation" LINE="115">
+    <ELEMENT NAME="line" CLASS="line"><core>115</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per28</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1791,8 +1796,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela37</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per29" NAME="testo" CLASS="person" ORDER="107" LEVEL="3" LINE="112">
-    <ELEMENT NAME="line" CLASS="line"><core>112</core></ELEMENT>
+<GROUP ID="dev1690-per29" NAME="testo" CLASS="person" ORDER="107" LEVEL="3" LINE="117">
+    <ELEMENT NAME="line" CLASS="line"><core>117</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per29</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1805,8 +1810,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela38" NAME="relation"  ORDER="108" LEVEL="4" CLASS="relation" LINE="112">
-    <ELEMENT NAME="line" CLASS="line"><core>112</core></ELEMENT>
+<GROUP ID="dev1690-rela38" NAME="relation"  ORDER="108" LEVEL="4" CLASS="relation" LINE="117">
+    <ELEMENT NAME="line" CLASS="line"><core>117</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per29</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1820,8 +1825,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-rela38</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900907</core></ELEMENT>
 </GROUP>
-<GROUP ID="dev1690-per30" NAME="testo" CLASS="person" ORDER="109" LEVEL="3" LINE="113">
-    <ELEMENT NAME="line" CLASS="line"><core>113</core></ELEMENT>
+<GROUP ID="dev1690-per30" NAME="testo" CLASS="person" ORDER="109" LEVEL="3" LINE="118">
+    <ELEMENT NAME="line" CLASS="line"><core>118</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dev1690-per30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testo</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dev1690</core></ELEMENT>
@@ -1834,8 +1839,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dev1690-rela39" NAME="relation"  ORDER="110" LEVEL="4" CLASS="relation" LINE="113">
-    <ELEMENT NAME="line" CLASS="line"><core>113</core></ELEMENT>
+<GROUP ID="dev1690-rela39" NAME="relation"  ORDER="110" LEVEL="4" CLASS="relation" LINE="118">
+    <ELEMENT NAME="line" CLASS="line"><core>118</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dev1690-per30</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
