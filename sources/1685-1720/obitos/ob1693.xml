@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/obitos/ob1693.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-4-9 16:57:15" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/soure-fontes/sources/1685-1720/obitos/ob1693.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-5-13 22:21:39" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -30,7 +30,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930000]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/Users/jrc/mhk-home/sources/soure-fontes/sources/soure_fase1/obitos/ob1693.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/kleio-home/sources/soure-fontes/sources/1685-1720/obitos/ob1693.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="obito">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -66,9 +66,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="o1693-4333-gro8322-11" NAME="sacr" CLASS="group_element" ORDER="3" LEVEL="3" LINE="8">
+<GROUP ID="o1693-4333-gro501-12" NAME="sacr" CLASS="group_element" ORDER="3" LEVEL="3" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-gro8322-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-gro501-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4333</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -132,9 +132,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="o1693-4333-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="11">
+<GROUP ID="o1693-4333-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4333-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -145,16 +145,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarce de baixo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4333-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4333-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4333-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930101]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4333-gro8323-11" NAME="locs" CLASS="group_element" ORDER="7" LEVEL="3" LINE="13">
+<GROUP ID="o1693-4333-gro502-12" NAME="locs" CLASS="group_element" ORDER="7" LEVEL="3" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-gro8323-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-gro502-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4333</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -164,9 +164,9 @@
          <core><![CDATA[igreja de s.sebastiao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4333-gro8324-11" NAME="oficios" CLASS="group_element" ORDER="8" LEVEL="3" LINE="15">
+<GROUP ID="o1693-4333-gro503-12" NAME="oficios" CLASS="group_element" ORDER="8" LEVEL="3" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-gro8324-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4333-gro503-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4333</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -240,9 +240,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-rela2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930106</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4334-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="19">
+<GROUP ID="o1693-4334-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4334-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -253,16 +253,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[menor]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4334-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4334-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4334-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930106]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4334-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="14" LEVEL="4" LINE="21">
+<GROUP ID="o1693-4334-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="14" LEVEL="4" LINE="21">
     <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4334-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -277,7 +277,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930106]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4334-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4334-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4334-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -315,9 +315,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-per1-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930106</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930106-att2-11" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="5" LINE="24">
+<GROUP ID="ro16930106-att2-12" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="5" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930106-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930106-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930106</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -328,16 +328,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930106-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930106-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930106]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930106]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4334-gro8325-11" NAME="locs" CLASS="group_element" ORDER="18" LEVEL="3" LINE="26">
+<GROUP ID="o1693-4334-gro504-12" NAME="locs" CLASS="group_element" ORDER="18" LEVEL="3" LINE="26">
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-gro8325-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4334-gro504-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4334</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -411,9 +411,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930117</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4335-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="30">
+<GROUP ID="o1693-4335-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="30">
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4335-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -424,16 +424,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[v]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4335-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4335-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4335-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930117]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4335-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="32">
+<GROUP ID="o1693-4335-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="32">
     <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4335-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -444,16 +444,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal do espirito santo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4335-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4335-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4335-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930117]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4335-gro8326-11" NAME="locs" CLASS="group_element" ORDER="25" LEVEL="3" LINE="34">
+<GROUP ID="o1693-4335-gro505-12" NAME="locs" CLASS="group_element" ORDER="25" LEVEL="3" LINE="34">
     <ELEMENT NAME="line" CLASS="line"><core>34</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-gro8326-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-gro505-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4335</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -465,9 +465,9 @@
          <core><![CDATA[o assento diz que ela elegeu sepultura nesta igreja]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4335-gro8327-11" NAME="oficios" CLASS="group_element" ORDER="26" LEVEL="3" LINE="36">
+<GROUP ID="o1693-4335-gro506-12" NAME="oficios" CLASS="group_element" ORDER="26" LEVEL="3" LINE="36">
     <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-gro8327-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4335-gro506-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4335</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -543,9 +543,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930118</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4336-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="41">
+<GROUP ID="o1693-4336-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="41">
     <ELEMENT NAME="line" CLASS="line"><core>41</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4336-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -556,16 +556,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal novo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4336-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4336-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4336-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930118]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4336-gro8328-11" NAME="sacr" CLASS="group_element" ORDER="32" LEVEL="3" LINE="43">
+<GROUP ID="o1693-4336-gro507-12" NAME="sacr" CLASS="group_element" ORDER="32" LEVEL="3" LINE="43">
     <ELEMENT NAME="line" CLASS="line"><core>43</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-gro8328-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-gro507-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4336</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -575,9 +575,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4336-gro8329-11" NAME="locs" CLASS="group_element" ORDER="33" LEVEL="3" LINE="45">
+<GROUP ID="o1693-4336-gro508-12" NAME="locs" CLASS="group_element" ORDER="33" LEVEL="3" LINE="45">
     <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-gro8329-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4336-gro508-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4336</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -682,9 +682,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-per1-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930123</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4337-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="40" LEVEL="5" LINE="51">
+<GROUP ID="o1693-4337-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="40" LEVEL="5" LINE="51">
     <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4337-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -695,16 +695,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[moco]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4337-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4337-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4337-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930123]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4337-per1-per2-att2-11" NAME="ls" CLASS="attribute" ORDER="41" LEVEL="5" LINE="53">
+<GROUP ID="o1693-4337-per1-per2-att2-12" NAME="ls" CLASS="attribute" ORDER="41" LEVEL="5" LINE="53">
     <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-per1-per2-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-per1-per2-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4337-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -715,16 +715,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[vale da borra]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4337-per1-per2-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4337-per1-per2-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4337-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930123]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4337-gro8330-11" NAME="sacr" CLASS="group_element" ORDER="42" LEVEL="3" LINE="55">
+<GROUP ID="o1693-4337-gro509-12" NAME="sacr" CLASS="group_element" ORDER="42" LEVEL="3" LINE="55">
     <ELEMENT NAME="line" CLASS="line"><core>55</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-gro8330-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-gro509-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4337</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -734,9 +734,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4337-gro8331-11" NAME="locs" CLASS="group_element" ORDER="43" LEVEL="3" LINE="57">
+<GROUP ID="o1693-4337-gro510-12" NAME="locs" CLASS="group_element" ORDER="43" LEVEL="3" LINE="57">
     <ELEMENT NAME="line" CLASS="line"><core>57</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-gro8331-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4337-gro510-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4337</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -851,9 +851,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930214</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4338-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="62">
+<GROUP ID="o1693-4338-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="62">
     <ELEMENT NAME="line" CLASS="line"><core>62</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4338-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -864,16 +864,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[bonitos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4338-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4338-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4338-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930214]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4338-gro8332-11" NAME="sacr" CLASS="group_element" ORDER="52" LEVEL="3" LINE="64">
+<GROUP ID="o1693-4338-gro511-12" NAME="sacr" CLASS="group_element" ORDER="52" LEVEL="3" LINE="64">
     <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-gro8332-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-gro511-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4338</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -883,9 +883,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4338-gro8333-11" NAME="locs" CLASS="group_element" ORDER="53" LEVEL="3" LINE="66">
+<GROUP ID="o1693-4338-gro512-12" NAME="locs" CLASS="group_element" ORDER="53" LEVEL="3" LINE="66">
     <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-gro8333-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-gro512-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4338</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -895,9 +895,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4338-gro8334-11" NAME="oficios" CLASS="group_element" ORDER="54" LEVEL="3" LINE="68">
+<GROUP ID="o1693-4338-gro513-12" NAME="oficios" CLASS="group_element" ORDER="54" LEVEL="3" LINE="68">
     <ELEMENT NAME="line" CLASS="line"><core>68</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-gro8334-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4338-gro513-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4338</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -940,9 +940,9 @@
          <core><![CDATA[obito]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4339-gro8335-11" NAME="sacr" CLASS="group_element" ORDER="57" LEVEL="3" LINE="72">
+<GROUP ID="o1693-4339-gro514-12" NAME="sacr" CLASS="group_element" ORDER="57" LEVEL="3" LINE="72">
     <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-gro8335-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-gro514-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4339</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1014,9 +1014,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-per1-rela11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930225</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4339-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="5" LINE="77">
+<GROUP ID="o1693-4339-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="5" LINE="77">
     <ELEMENT NAME="line" CLASS="line"><core>77</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4339-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1027,16 +1027,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal da mau?]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4339-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4339-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4339-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930225]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4339-gro8336-11" NAME="locs" CLASS="group_element" ORDER="63" LEVEL="3" LINE="79">
+<GROUP ID="o1693-4339-gro515-12" NAME="locs" CLASS="group_element" ORDER="63" LEVEL="3" LINE="79">
     <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-gro8336-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-gro515-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4339</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1046,9 +1046,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4339-gro8337-11" NAME="oficios" CLASS="group_element" ORDER="64" LEVEL="3" LINE="81">
+<GROUP ID="o1693-4339-gro516-12" NAME="oficios" CLASS="group_element" ORDER="64" LEVEL="3" LINE="81">
     <ELEMENT NAME="line" CLASS="line"><core>81</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-gro8337-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4339-gro516-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4339</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1163,9 +1163,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4340-rela13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930318</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4340-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="72" LEVEL="4" LINE="86">
+<GROUP ID="o1693-4340-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="72" LEVEL="4" LINE="86">
     <ELEMENT NAME="line" CLASS="line"><core>86</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4340-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4340-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4340-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1176,16 +1176,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4340-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4340-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4340-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930318]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4340-gro8338-11" NAME="locs" CLASS="group_element" ORDER="73" LEVEL="3" LINE="88">
+<GROUP ID="o1693-4340-gro517-12" NAME="locs" CLASS="group_element" ORDER="73" LEVEL="3" LINE="88">
     <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4340-gro8338-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4340-gro517-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4340</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1259,9 +1259,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-rela14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930322</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4341-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="78" LEVEL="4" LINE="93">
+<GROUP ID="o1693-4341-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="78" LEVEL="4" LINE="93">
     <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4341-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1272,16 +1272,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4341-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4341-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4341-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930322]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4341-gro8339-11" NAME="locs" CLASS="group_element" ORDER="79" LEVEL="3" LINE="95">
+<GROUP ID="o1693-4341-gro518-12" NAME="locs" CLASS="group_element" ORDER="79" LEVEL="3" LINE="95">
     <ELEMENT NAME="line" CLASS="line"><core>95</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-gro8339-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-gro518-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4341</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1291,9 +1291,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4341-gro8340-11" NAME="oficios" CLASS="group_element" ORDER="80" LEVEL="3" LINE="97">
+<GROUP ID="o1693-4341-gro519-12" NAME="oficios" CLASS="group_element" ORDER="80" LEVEL="3" LINE="97">
     <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-gro8340-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4341-gro519-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4341</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1367,9 +1367,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-rela15</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930326</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4342-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="85" LEVEL="4" LINE="102">
+<GROUP ID="o1693-4342-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="85" LEVEL="4" LINE="102">
     <ELEMENT NAME="line" CLASS="line"><core>102</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4342-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1384,7 +1384,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930326]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4342-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4342-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4342-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1422,9 +1422,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-per1-rela16</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930326</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930326-att1-11" NAME="ls" CLASS="attribute" ORDER="88" LEVEL="5" LINE="105">
+<GROUP ID="ro16930326-att1-12" NAME="ls" CLASS="attribute" ORDER="88" LEVEL="5" LINE="105">
     <ELEMENT NAME="line" CLASS="line"><core>105</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930326-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930326-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930326</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1435,16 +1435,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[pinheiro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930326-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930326-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930326]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930326]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4342-gro8341-11" NAME="sacr" CLASS="group_element" ORDER="89" LEVEL="3" LINE="107">
+<GROUP ID="o1693-4342-gro520-12" NAME="sacr" CLASS="group_element" ORDER="89" LEVEL="3" LINE="107">
     <ELEMENT NAME="line" CLASS="line"><core>107</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-gro8341-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-gro520-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4342</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1454,9 +1454,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4342-gro8342-11" NAME="locs" CLASS="group_element" ORDER="90" LEVEL="3" LINE="109">
+<GROUP ID="o1693-4342-gro521-12" NAME="locs" CLASS="group_element" ORDER="90" LEVEL="3" LINE="109">
     <ELEMENT NAME="line" CLASS="line"><core>109</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-gro8342-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-gro521-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4342</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1466,9 +1466,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4342-gro8343-11" NAME="oficios" CLASS="group_element" ORDER="91" LEVEL="3" LINE="111">
+<GROUP ID="o1693-4342-gro522-12" NAME="oficios" CLASS="group_element" ORDER="91" LEVEL="3" LINE="111">
     <ELEMENT NAME="line" CLASS="line"><core>111</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-gro8343-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4342-gro522-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4342</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1542,9 +1542,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-rela17</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930402</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4343-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="4" LINE="115">
+<GROUP ID="o1693-4343-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="4" LINE="115">
     <ELEMENT NAME="line" CLASS="line"><core>115</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4343-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1555,16 +1555,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[s]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4343-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4343-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4343-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4343-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="97" LEVEL="4" LINE="116">
+<GROUP ID="o1693-4343-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="97" LEVEL="4" LINE="116">
     <ELEMENT NAME="line" CLASS="line"><core>116</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4343-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1575,16 +1575,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[maior]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4343-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4343-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4343-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4343-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="98" LEVEL="4" LINE="118">
+<GROUP ID="o1693-4343-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="98" LEVEL="4" LINE="118">
     <ELEMENT NAME="line" CLASS="line"><core>118</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4343-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1599,7 +1599,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930402a]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4343-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4343-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4343-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1637,9 +1637,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-per1-rela18</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930402</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930402a-att3-11" NAME="ls" CLASS="attribute" ORDER="101" LEVEL="5" LINE="121">
+<GROUP ID="ro16930402a-att3-12" NAME="ls" CLASS="attribute" ORDER="101" LEVEL="5" LINE="121">
     <ELEMENT NAME="line" CLASS="line"><core>121</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930402a-att3-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930402a-att3-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930402a</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1650,16 +1650,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[paleao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930402a-att3-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930402a-att3-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930402a]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4343-gro8344-11" NAME="sacr" CLASS="group_element" ORDER="102" LEVEL="3" LINE="123">
+<GROUP ID="o1693-4343-gro523-12" NAME="sacr" CLASS="group_element" ORDER="102" LEVEL="3" LINE="123">
     <ELEMENT NAME="line" CLASS="line"><core>123</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-gro8344-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-gro523-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4343</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1669,9 +1669,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4343-gro8345-11" NAME="locs" CLASS="group_element" ORDER="103" LEVEL="3" LINE="125">
+<GROUP ID="o1693-4343-gro524-12" NAME="locs" CLASS="group_element" ORDER="103" LEVEL="3" LINE="125">
     <ELEMENT NAME="line" CLASS="line"><core>125</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-gro8345-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-gro524-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4343</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1681,9 +1681,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4343-gro8346-11" NAME="oficios" CLASS="group_element" ORDER="104" LEVEL="3" LINE="127">
+<GROUP ID="o1693-4343-gro525-12" NAME="oficios" CLASS="group_element" ORDER="104" LEVEL="3" LINE="127">
     <ELEMENT NAME="line" CLASS="line"><core>127</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-gro8346-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4343-gro525-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4343</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1757,9 +1757,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-rela19</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930402</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4344-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="109" LEVEL="4" LINE="131">
+<GROUP ID="o1693-4344-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="109" LEVEL="4" LINE="131">
     <ELEMENT NAME="line" CLASS="line"><core>131</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4344-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1770,16 +1770,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[s]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4344-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4344-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4344-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4344-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="110" LEVEL="4" LINE="132">
+<GROUP ID="o1693-4344-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="110" LEVEL="4" LINE="132">
     <ELEMENT NAME="line" CLASS="line"><core>132</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4344-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1790,16 +1790,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[maior]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4344-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4344-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4344-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4344-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="111" LEVEL="4" LINE="134">
+<GROUP ID="o1693-4344-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="111" LEVEL="4" LINE="134">
     <ELEMENT NAME="line" CLASS="line"><core>134</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4344-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1814,7 +1814,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930402]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4344-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4344-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4344-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1852,9 +1852,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-per1-rela20</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930402</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930402-att3-11" NAME="ls" CLASS="attribute" ORDER="114" LEVEL="5" LINE="136">
+<GROUP ID="ro16930402-att3-12" NAME="ls" CLASS="attribute" ORDER="114" LEVEL="5" LINE="136">
     <ELEMENT NAME="line" CLASS="line"><core>136</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930402-att3-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930402-att3-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930402</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1865,16 +1865,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[antes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930402-att3-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930402-att3-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930402]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="ro16930402-att4-11" NAME="ls" CLASS="attribute" ORDER="115" LEVEL="5" LINE="138">
+<GROUP ID="ro16930402-att4-12" NAME="ls" CLASS="attribute" ORDER="115" LEVEL="5" LINE="138">
     <ELEMENT NAME="line" CLASS="line"><core>138</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930402-att4-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930402-att4-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930402</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1885,16 +1885,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarce de baixo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930402-att4-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930402-att4-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930402]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930402]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4344-gro8347-11" NAME="locs" CLASS="group_element" ORDER="116" LEVEL="3" LINE="140">
+<GROUP ID="o1693-4344-gro526-12" NAME="locs" CLASS="group_element" ORDER="116" LEVEL="3" LINE="140">
     <ELEMENT NAME="line" CLASS="line"><core>140</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-gro8347-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-gro526-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4344</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -1904,9 +1904,9 @@
          <core><![CDATA[igreja de s.sebastiao]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4344-gro8348-11" NAME="oficios" CLASS="group_element" ORDER="117" LEVEL="3" LINE="142">
+<GROUP ID="o1693-4344-gro527-12" NAME="oficios" CLASS="group_element" ORDER="117" LEVEL="3" LINE="142">
     <ELEMENT NAME="line" CLASS="line"><core>142</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-gro8348-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4344-gro527-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4344</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2011,9 +2011,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4345-per1-rela22</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930408</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4345-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="124" LEVEL="5" LINE="149">
+<GROUP ID="o1693-4345-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="124" LEVEL="5" LINE="149">
     <ELEMENT NAME="line" CLASS="line"><core>149</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4345-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4345-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4345-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2024,16 +2024,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sobral]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4345-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4345-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4345-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930408]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4345-gro8349-11" NAME="locs" CLASS="group_element" ORDER="125" LEVEL="3" LINE="151">
+<GROUP ID="o1693-4345-gro528-12" NAME="locs" CLASS="group_element" ORDER="125" LEVEL="3" LINE="151">
     <ELEMENT NAME="line" CLASS="line"><core>151</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4345-gro8349-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4345-gro528-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4345</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2148,9 +2148,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-rela24</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930428</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4346-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="133" LEVEL="4" LINE="155">
+<GROUP ID="o1693-4346-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="133" LEVEL="4" LINE="155">
     <ELEMENT NAME="line" CLASS="line"><core>155</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4346-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2161,16 +2161,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soldado]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4346-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4346-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4346-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930428]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4346-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="134" LEVEL="4" LINE="157">
+<GROUP ID="o1693-4346-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="134" LEVEL="4" LINE="157">
     <ELEMENT NAME="line" CLASS="line"><core>157</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4346-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2181,16 +2181,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal da assamaca]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4346-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4346-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4346-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930428]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4346-gro8350-11" NAME="sacr" CLASS="group_element" ORDER="135" LEVEL="3" LINE="159">
+<GROUP ID="o1693-4346-gro529-12" NAME="sacr" CLASS="group_element" ORDER="135" LEVEL="3" LINE="159">
     <ELEMENT NAME="line" CLASS="line"><core>159</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro8350-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro529-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4346</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2200,9 +2200,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4346-gro8351-11" NAME="locs" CLASS="group_element" ORDER="136" LEVEL="3" LINE="161">
+<GROUP ID="o1693-4346-gro530-12" NAME="locs" CLASS="group_element" ORDER="136" LEVEL="3" LINE="161">
     <ELEMENT NAME="line" CLASS="line"><core>161</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro8351-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro530-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4346</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2212,9 +2212,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4346-gro8352-11" NAME="testamento" CLASS="group_element" ORDER="137" LEVEL="3" LINE="163">
+<GROUP ID="o1693-4346-gro531-12" NAME="testamento" CLASS="group_element" ORDER="137" LEVEL="3" LINE="163">
     <ELEMENT NAME="line" CLASS="line"><core>163</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro8352-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro531-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4346</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2226,9 +2226,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4346-gro8353-11" NAME="oficios" CLASS="group_element" ORDER="138" LEVEL="3" LINE="165">
+<GROUP ID="o1693-4346-gro532-12" NAME="oficios" CLASS="group_element" ORDER="138" LEVEL="3" LINE="165">
     <ELEMENT NAME="line" CLASS="line"><core>165</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro8353-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4346-gro532-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4346</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2302,9 +2302,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-rela25</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930504</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4347-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="143" LEVEL="4" LINE="169">
+<GROUP ID="o1693-4347-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="143" LEVEL="4" LINE="169">
     <ELEMENT NAME="line" CLASS="line"><core>169</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4347-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2315,16 +2315,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[cacador]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4347-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4347-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4347-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930504]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4347-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="144" LEVEL="4" LINE="171">
+<GROUP ID="o1693-4347-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="144" LEVEL="4" LINE="171">
     <ELEMENT NAME="line" CLASS="line"><core>171</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4347-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2335,16 +2335,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casa velha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4347-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4347-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4347-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930504]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4347-gro8354-11" NAME="testamento" CLASS="group_element" ORDER="145" LEVEL="3" LINE="173">
+<GROUP ID="o1693-4347-gro533-12" NAME="testamento" CLASS="group_element" ORDER="145" LEVEL="3" LINE="173">
     <ELEMENT NAME="line" CLASS="line"><core>173</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-gro8354-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-gro533-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>testamento</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4347</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2354,9 +2354,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4347-gro8355-11" NAME="locs" CLASS="group_element" ORDER="146" LEVEL="3" LINE="175">
+<GROUP ID="o1693-4347-gro534-12" NAME="locs" CLASS="group_element" ORDER="146" LEVEL="3" LINE="175">
     <ELEMENT NAME="line" CLASS="line"><core>175</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-gro8355-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-gro534-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4347</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2366,9 +2366,9 @@
          <core><![CDATA[igreja de nossa senhora de finisterra]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4347-gro8356-11" NAME="oficios" CLASS="group_element" ORDER="147" LEVEL="3" LINE="177">
+<GROUP ID="o1693-4347-gro535-12" NAME="oficios" CLASS="group_element" ORDER="147" LEVEL="3" LINE="177">
     <ELEMENT NAME="line" CLASS="line"><core>177</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-gro8356-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4347-gro535-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4347</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2442,9 +2442,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-rela26</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930510</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4348-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="152" LEVEL="4" LINE="181">
+<GROUP ID="o1693-4348-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="152" LEVEL="4" LINE="181">
     <ELEMENT NAME="line" CLASS="line"><core>181</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4348-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2455,16 +2455,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[v]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4348-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4348-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4348-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930510]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4348-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="153" LEVEL="4" LINE="183">
+<GROUP ID="o1693-4348-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="153" LEVEL="4" LINE="183">
     <ELEMENT NAME="line" CLASS="line"><core>183</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4348-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2475,16 +2475,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarce de cima]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4348-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4348-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4348-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930510]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4348-gro8357-11" NAME="locs" CLASS="group_element" ORDER="154" LEVEL="3" LINE="185">
+<GROUP ID="o1693-4348-gro536-12" NAME="locs" CLASS="group_element" ORDER="154" LEVEL="3" LINE="185">
     <ELEMENT NAME="line" CLASS="line"><core>185</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-gro8357-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-gro536-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4348</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2494,9 +2494,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4348-gro8358-11" NAME="oficios" CLASS="group_element" ORDER="155" LEVEL="3" LINE="187">
+<GROUP ID="o1693-4348-gro537-12" NAME="oficios" CLASS="group_element" ORDER="155" LEVEL="3" LINE="187">
     <ELEMENT NAME="line" CLASS="line"><core>187</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-gro8358-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4348-gro537-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4348</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2570,9 +2570,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-rela27</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930526</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4349-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="160" LEVEL="4" LINE="191">
+<GROUP ID="o1693-4349-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="160" LEVEL="4" LINE="191">
     <ELEMENT NAME="line" CLASS="line"><core>191</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4349-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2583,16 +2583,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[de 8 para 9]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4349-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4349-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4349-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930526]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4349-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="161" LEVEL="4" LINE="193">
+<GROUP ID="o1693-4349-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="161" LEVEL="4" LINE="193">
     <ELEMENT NAME="line" CLASS="line"><core>193</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4349-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -2607,7 +2607,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930526]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4349-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4349-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4349-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2645,9 +2645,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-per1-rela28</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930526</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930526-att2-11" NAME="ls" CLASS="attribute" ORDER="164" LEVEL="5" LINE="196">
+<GROUP ID="ro16930526-att2-12" NAME="ls" CLASS="attribute" ORDER="164" LEVEL="5" LINE="196">
     <ELEMENT NAME="line" CLASS="line"><core>196</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930526-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930526-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930526</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2658,16 +2658,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casa velha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930526-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930526-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930526]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930526]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4349-gro8359-11" NAME="locs" CLASS="group_element" ORDER="165" LEVEL="3" LINE="198">
+<GROUP ID="o1693-4349-gro538-12" NAME="locs" CLASS="group_element" ORDER="165" LEVEL="3" LINE="198">
     <ELEMENT NAME="line" CLASS="line"><core>198</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-gro8359-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4349-gro538-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4349</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2772,9 +2772,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-per1-rela30</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930606</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4350-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="172" LEVEL="5" LINE="205">
+<GROUP ID="o1693-4350-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="172" LEVEL="5" LINE="205">
     <ELEMENT NAME="line" CLASS="line"><core>205</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4350-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2785,16 +2785,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[bonitos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4350-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4350-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4350-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930606]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4350-gro8360-11" NAME="locs" CLASS="group_element" ORDER="173" LEVEL="3" LINE="207">
+<GROUP ID="o1693-4350-gro539-12" NAME="locs" CLASS="group_element" ORDER="173" LEVEL="3" LINE="207">
     <ELEMENT NAME="line" CLASS="line"><core>207</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-gro8360-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-gro539-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4350</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2804,9 +2804,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4350-gro8361-11" NAME="oficios" CLASS="group_element" ORDER="174" LEVEL="3" LINE="209">
+<GROUP ID="o1693-4350-gro540-12" NAME="oficios" CLASS="group_element" ORDER="174" LEVEL="3" LINE="209">
     <ELEMENT NAME="line" CLASS="line"><core>209</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-gro8361-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4350-gro540-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4350</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2921,9 +2921,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-rela32</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930612</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4351-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="182" LEVEL="4" LINE="214">
+<GROUP ID="o1693-4351-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="182" LEVEL="4" LINE="214">
     <ELEMENT NAME="line" CLASS="line"><core>214</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4351-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2934,16 +2934,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal do espirito santo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4351-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4351-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4351-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930612]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4351-gro8362-11" NAME="locs" CLASS="group_element" ORDER="183" LEVEL="3" LINE="216">
+<GROUP ID="o1693-4351-gro541-12" NAME="locs" CLASS="group_element" ORDER="183" LEVEL="3" LINE="216">
     <ELEMENT NAME="line" CLASS="line"><core>216</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-gro8362-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-gro541-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4351</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -2954,9 +2954,9 @@
    </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4351-gro8363-11" NAME="oficios" CLASS="group_element" ORDER="184" LEVEL="3" LINE="218">
+<GROUP ID="o1693-4351-gro542-12" NAME="oficios" CLASS="group_element" ORDER="184" LEVEL="3" LINE="218">
     <ELEMENT NAME="line" CLASS="line"><core>218</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-gro8363-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4351-gro542-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4351</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3030,9 +3030,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-rela33</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930616</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4352-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="189" LEVEL="4" LINE="222">
+<GROUP ID="o1693-4352-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="189" LEVEL="4" LINE="222">
     <ELEMENT NAME="line" CLASS="line"><core>222</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4352-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3043,16 +3043,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[v]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4352-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4352-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4352-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930616]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4352-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="190" LEVEL="4" LINE="224">
+<GROUP ID="o1693-4352-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="190" LEVEL="4" LINE="224">
     <ELEMENT NAME="line" CLASS="line"><core>224</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4352-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3063,16 +3063,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarce]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4352-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4352-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4352-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930616]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4352-gro8364-11" NAME="sacr" CLASS="group_element" ORDER="191" LEVEL="3" LINE="226">
+<GROUP ID="o1693-4352-gro543-12" NAME="sacr" CLASS="group_element" ORDER="191" LEVEL="3" LINE="226">
     <ELEMENT NAME="line" CLASS="line"><core>226</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-gro8364-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-gro543-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4352</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3082,9 +3082,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4352-gro8365-11" NAME="locs" CLASS="group_element" ORDER="192" LEVEL="3" LINE="228">
+<GROUP ID="o1693-4352-gro544-12" NAME="locs" CLASS="group_element" ORDER="192" LEVEL="3" LINE="228">
     <ELEMENT NAME="line" CLASS="line"><core>228</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-gro8365-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-gro544-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4352</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3094,9 +3094,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4352-gro8366-11" NAME="oficios" CLASS="group_element" ORDER="193" LEVEL="3" LINE="230">
+<GROUP ID="o1693-4352-gro545-12" NAME="oficios" CLASS="group_element" ORDER="193" LEVEL="3" LINE="230">
     <ELEMENT NAME="line" CLASS="line"><core>230</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-gro8366-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4352-gro545-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4352</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3201,9 +3201,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-per1-rela35</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930623</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4353-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="200" LEVEL="5" LINE="237">
+<GROUP ID="o1693-4353-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="200" LEVEL="5" LINE="237">
     <ELEMENT NAME="line" CLASS="line"><core>237</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4353-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3214,16 +3214,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[bonitos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4353-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4353-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4353-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930623]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4353-gro8367-11" NAME="sacr" CLASS="group_element" ORDER="201" LEVEL="3" LINE="239">
+<GROUP ID="o1693-4353-gro546-12" NAME="sacr" CLASS="group_element" ORDER="201" LEVEL="3" LINE="239">
     <ELEMENT NAME="line" CLASS="line"><core>239</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-gro8367-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-gro546-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4353</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3233,9 +3233,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4353-gro8368-11" NAME="locs" CLASS="group_element" ORDER="202" LEVEL="3" LINE="241">
+<GROUP ID="o1693-4353-gro547-12" NAME="locs" CLASS="group_element" ORDER="202" LEVEL="3" LINE="241">
     <ELEMENT NAME="line" CLASS="line"><core>241</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-gro8368-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-gro547-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4353</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3245,9 +3245,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4353-gro8369-11" NAME="oficios" CLASS="group_element" ORDER="203" LEVEL="3" LINE="243">
+<GROUP ID="o1693-4353-gro548-12" NAME="oficios" CLASS="group_element" ORDER="203" LEVEL="3" LINE="243">
     <ELEMENT NAME="line" CLASS="line"><core>243</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-gro8369-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4353-gro548-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4353</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3362,9 +3362,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-rela37</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930625</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4354-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="211" LEVEL="4" LINE="247">
+<GROUP ID="o1693-4354-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="211" LEVEL="4" LINE="247">
     <ELEMENT NAME="line" CLASS="line"><core>247</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4354-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3375,16 +3375,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[s]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4354-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4354-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4354-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930625]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4354-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="212" LEVEL="4" LINE="249">
+<GROUP ID="o1693-4354-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="212" LEVEL="4" LINE="249">
     <ELEMENT NAME="line" CLASS="line"><core>249</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4354-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -3399,7 +3399,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930625]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4354-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4354-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4354-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3437,9 +3437,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-per1-rela38</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930625</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930625-att2-11" NAME="ls" CLASS="attribute" ORDER="215" LEVEL="5" LINE="252">
+<GROUP ID="ro16930625-att2-12" NAME="ls" CLASS="attribute" ORDER="215" LEVEL="5" LINE="252">
     <ELEMENT NAME="line" CLASS="line"><core>252</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930625-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930625-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930625</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3450,16 +3450,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal dos guerras]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930625-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930625-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930625]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930625]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4354-gro8370-11" NAME="locs" CLASS="group_element" ORDER="216" LEVEL="3" LINE="254">
+<GROUP ID="o1693-4354-gro549-12" NAME="locs" CLASS="group_element" ORDER="216" LEVEL="3" LINE="254">
     <ELEMENT NAME="line" CLASS="line"><core>254</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-gro8370-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-gro549-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4354</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3469,9 +3469,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4354-gro8371-11" NAME="oficios" CLASS="group_element" ORDER="217" LEVEL="3" LINE="256">
+<GROUP ID="o1693-4354-gro550-12" NAME="oficios" CLASS="group_element" ORDER="217" LEVEL="3" LINE="256">
     <ELEMENT NAME="line" CLASS="line"><core>256</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-gro8371-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4354-gro550-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4354</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3545,9 +3545,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-rela39</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930710</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4355-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="222" LEVEL="4" LINE="260">
+<GROUP ID="o1693-4355-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="222" LEVEL="4" LINE="260">
     <ELEMENT NAME="line" CLASS="line"><core>260</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4355-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3558,16 +3558,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[menor]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4355-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4355-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4355-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930710]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4355-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="223" LEVEL="4" LINE="262">
+<GROUP ID="o1693-4355-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="223" LEVEL="4" LINE="262">
     <ELEMENT NAME="line" CLASS="line"><core>262</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4355-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -3582,7 +3582,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16930710]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4355-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4355-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4355-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -3620,9 +3620,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-per1-rela40</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930710</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16930710-att2-11" NAME="ls" CLASS="attribute" ORDER="226" LEVEL="5" LINE="265">
+<GROUP ID="ro16930710-att2-12" NAME="ls" CLASS="attribute" ORDER="226" LEVEL="5" LINE="265">
     <ELEMENT NAME="line" CLASS="line"><core>265</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16930710-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16930710-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16930710</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3633,16 +3633,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sobral]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16930710-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16930710-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16930710]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930710]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4355-gro8372-11" NAME="locs" CLASS="group_element" ORDER="227" LEVEL="3" LINE="267">
+<GROUP ID="o1693-4355-gro551-12" NAME="locs" CLASS="group_element" ORDER="227" LEVEL="3" LINE="267">
     <ELEMENT NAME="line" CLASS="line"><core>267</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-gro8372-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4355-gro551-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4355</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3716,9 +3716,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-rela41</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930715</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4356-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="232" LEVEL="4" LINE="272">
+<GROUP ID="o1693-4356-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="232" LEVEL="4" LINE="272">
     <ELEMENT NAME="line" CLASS="line"><core>272</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4356-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3729,16 +3729,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarce de cima]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4356-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4356-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4356-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930715]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4356-gro8373-11" NAME="oficios" CLASS="group_element" ORDER="233" LEVEL="3" LINE="274">
+<GROUP ID="o1693-4356-gro552-12" NAME="oficios" CLASS="group_element" ORDER="233" LEVEL="3" LINE="274">
     <ELEMENT NAME="line" CLASS="line"><core>274</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-gro8373-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-gro552-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4356</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3748,9 +3748,9 @@
          <core><![CDATA[2 de 3]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4356-gro8374-11" NAME="locs" CLASS="group_element" ORDER="234" LEVEL="3" LINE="276">
+<GROUP ID="o1693-4356-gro553-12" NAME="locs" CLASS="group_element" ORDER="234" LEVEL="3" LINE="276">
     <ELEMENT NAME="line" CLASS="line"><core>276</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-gro8374-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4356-gro553-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4356</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3824,9 +3824,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-rela42</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930722</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4357-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="239" LEVEL="4" LINE="280">
+<GROUP ID="o1693-4357-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="239" LEVEL="4" LINE="280">
     <ELEMENT NAME="line" CLASS="line"><core>280</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4357-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3837,16 +3837,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[v]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4357-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4357-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4357-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930722]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4357-per1-att2-11" NAME="ls" CLASS="attribute" ORDER="240" LEVEL="4" LINE="282">
+<GROUP ID="o1693-4357-per1-att2-12" NAME="ls" CLASS="attribute" ORDER="240" LEVEL="4" LINE="282">
     <ELEMENT NAME="line" CLASS="line"><core>282</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-per1-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-per1-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4357-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -3857,16 +3857,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casal dos feijoes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4357-per1-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4357-per1-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4357-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930722]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4357-gro8375-11" NAME="sacr" CLASS="group_element" ORDER="241" LEVEL="3" LINE="284">
+<GROUP ID="o1693-4357-gro554-12" NAME="sacr" CLASS="group_element" ORDER="241" LEVEL="3" LINE="284">
     <ELEMENT NAME="line" CLASS="line"><core>284</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-gro8375-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-gro554-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4357</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3876,9 +3876,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4357-gro8376-11" NAME="locs" CLASS="group_element" ORDER="242" LEVEL="3" LINE="286">
+<GROUP ID="o1693-4357-gro555-12" NAME="locs" CLASS="group_element" ORDER="242" LEVEL="3" LINE="286">
     <ELEMENT NAME="line" CLASS="line"><core>286</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-gro8376-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-gro555-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4357</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3888,9 +3888,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4357-gro8377-11" NAME="oficios" CLASS="group_element" ORDER="243" LEVEL="3" LINE="288">
+<GROUP ID="o1693-4357-gro556-12" NAME="oficios" CLASS="group_element" ORDER="243" LEVEL="3" LINE="288">
     <ELEMENT NAME="line" CLASS="line"><core>288</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-gro8377-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4357-gro556-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4357</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -3995,9 +3995,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-per1-rela44</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930724</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4358-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="250" LEVEL="5" LINE="295">
+<GROUP ID="o1693-4358-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="250" LEVEL="5" LINE="295">
     <ELEMENT NAME="line" CLASS="line"><core>295</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4358-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4008,16 +4008,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarce de cima]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4358-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4358-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4358-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930724]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4358-gro8378-11" NAME="locs" CLASS="group_element" ORDER="251" LEVEL="3" LINE="297">
+<GROUP ID="o1693-4358-gro557-12" NAME="locs" CLASS="group_element" ORDER="251" LEVEL="3" LINE="297">
     <ELEMENT NAME="line" CLASS="line"><core>297</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-gro8378-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-gro557-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4358</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4027,9 +4027,9 @@
          <core><![CDATA[igreja de s.tiago junto a capela de s.to antonio]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4358-gro8379-11" NAME="oficios" CLASS="group_element" ORDER="252" LEVEL="3" LINE="299">
+<GROUP ID="o1693-4358-gro558-12" NAME="oficios" CLASS="group_element" ORDER="252" LEVEL="3" LINE="299">
     <ELEMENT NAME="line" CLASS="line"><core>299</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-gro8379-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4358-gro558-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4358</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4144,9 +4144,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-rela46</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930727</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4359-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="260" LEVEL="4" LINE="304">
+<GROUP ID="o1693-4359-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="260" LEVEL="4" LINE="304">
     <ELEMENT NAME="line" CLASS="line"><core>304</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4359-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4157,16 +4157,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[cavaleiros]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4359-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4359-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4359-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930727]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4359-gro8380-11" NAME="locs" CLASS="group_element" ORDER="261" LEVEL="3" LINE="306">
+<GROUP ID="o1693-4359-gro559-12" NAME="locs" CLASS="group_element" ORDER="261" LEVEL="3" LINE="306">
     <ELEMENT NAME="line" CLASS="line"><core>306</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-gro8380-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-gro559-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4359</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4176,9 +4176,9 @@
          <core><![CDATA[igreja de s.tiago]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4359-gro8381-11" NAME="sacr" CLASS="group_element" ORDER="262" LEVEL="3" LINE="308">
+<GROUP ID="o1693-4359-gro560-12" NAME="sacr" CLASS="group_element" ORDER="262" LEVEL="3" LINE="308">
     <ELEMENT NAME="line" CLASS="line"><core>308</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-gro8381-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-gro560-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4359</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4188,9 +4188,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4359-gro8382-11" NAME="oficios" CLASS="group_element" ORDER="263" LEVEL="3" LINE="310">
+<GROUP ID="o1693-4359-gro561-12" NAME="oficios" CLASS="group_element" ORDER="263" LEVEL="3" LINE="310">
     <ELEMENT NAME="line" CLASS="line"><core>310</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-gro8382-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4359-gro561-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4359</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4295,9 +4295,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-per1-rela48</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930822</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4360-per1-per2-att1-11" NAME="ls" CLASS="attribute" ORDER="270" LEVEL="5" LINE="317">
+<GROUP ID="o1693-4360-per1-per2-att1-12" NAME="ls" CLASS="attribute" ORDER="270" LEVEL="5" LINE="317">
     <ELEMENT NAME="line" CLASS="line"><core>317</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-per1-per2-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-per1-per2-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4360-per1-per2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4308,16 +4308,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[cascao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4360-per1-per2-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4360-per1-per2-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4360-per1-per2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930822]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4360-gro8383-11" NAME="sacr" CLASS="group_element" ORDER="271" LEVEL="3" LINE="319">
+<GROUP ID="o1693-4360-gro562-12" NAME="sacr" CLASS="group_element" ORDER="271" LEVEL="3" LINE="319">
     <ELEMENT NAME="line" CLASS="line"><core>319</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-gro8383-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-gro562-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4360</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4327,9 +4327,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4360-gro8384-11" NAME="locs" CLASS="group_element" ORDER="272" LEVEL="3" LINE="321">
+<GROUP ID="o1693-4360-gro563-12" NAME="locs" CLASS="group_element" ORDER="272" LEVEL="3" LINE="321">
     <ELEMENT NAME="line" CLASS="line"><core>321</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-gro8384-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-gro563-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4360</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4339,9 +4339,9 @@
          <core><![CDATA[igreja de s.tiago]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4360-gro8385-11" NAME="oficios" CLASS="group_element" ORDER="273" LEVEL="3" LINE="323">
+<GROUP ID="o1693-4360-gro564-12" NAME="oficios" CLASS="group_element" ORDER="273" LEVEL="3" LINE="323">
     <ELEMENT NAME="line" CLASS="line"><core>323</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-gro8385-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4360-gro564-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4360</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4456,9 +4456,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-rela50</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930826</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4361-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="281" LEVEL="4" LINE="328">
+<GROUP ID="o1693-4361-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="281" LEVEL="4" LINE="328">
     <ELEMENT NAME="line" CLASS="line"><core>328</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4361-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4469,16 +4469,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[?]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4361-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4361-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4361-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930826]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4361-gro8386-11" NAME="sacr" CLASS="group_element" ORDER="282" LEVEL="3" LINE="330">
+<GROUP ID="o1693-4361-gro565-12" NAME="sacr" CLASS="group_element" ORDER="282" LEVEL="3" LINE="330">
     <ELEMENT NAME="line" CLASS="line"><core>330</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-gro8386-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-gro565-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4361</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4488,9 +4488,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4361-gro8387-11" NAME="locs" CLASS="group_element" ORDER="283" LEVEL="3" LINE="332">
+<GROUP ID="o1693-4361-gro566-12" NAME="locs" CLASS="group_element" ORDER="283" LEVEL="3" LINE="332">
     <ELEMENT NAME="line" CLASS="line"><core>332</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-gro8387-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-gro566-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4361</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4500,9 +4500,9 @@
          <core><![CDATA[igreja de nossa senhora de finisterra]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4361-gro8388-11" NAME="oficios" CLASS="group_element" ORDER="284" LEVEL="3" LINE="334">
+<GROUP ID="o1693-4361-gro567-12" NAME="oficios" CLASS="group_element" ORDER="284" LEVEL="3" LINE="334">
     <ELEMENT NAME="line" CLASS="line"><core>334</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-gro8388-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4361-gro567-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4361</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4576,9 +4576,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-rela51</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16930922</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4362-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="289" LEVEL="4" LINE="339">
+<GROUP ID="o1693-4362-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="289" LEVEL="4" LINE="339">
     <ELEMENT NAME="line" CLASS="line"><core>339</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4362-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4589,16 +4589,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[soure]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4362-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4362-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4362-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16930922]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4362-gro8389-11" NAME="sacr" CLASS="group_element" ORDER="290" LEVEL="3" LINE="341">
+<GROUP ID="o1693-4362-gro568-12" NAME="sacr" CLASS="group_element" ORDER="290" LEVEL="3" LINE="341">
     <ELEMENT NAME="line" CLASS="line"><core>341</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-gro8389-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-gro568-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4362</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4608,9 +4608,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4362-gro8390-11" NAME="locs" CLASS="group_element" ORDER="291" LEVEL="3" LINE="343">
+<GROUP ID="o1693-4362-gro569-12" NAME="locs" CLASS="group_element" ORDER="291" LEVEL="3" LINE="343">
     <ELEMENT NAME="line" CLASS="line"><core>343</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-gro8390-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-gro569-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4362</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4620,9 +4620,9 @@
          <core><![CDATA[igreja de s.tiago junto aos degraus da porta principal]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4362-gro8391-11" NAME="oficios" CLASS="group_element" ORDER="292" LEVEL="3" LINE="345">
+<GROUP ID="o1693-4362-gro570-12" NAME="oficios" CLASS="group_element" ORDER="292" LEVEL="3" LINE="345">
     <ELEMENT NAME="line" CLASS="line"><core>345</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-gro8391-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4362-gro570-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4362</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4696,9 +4696,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-rela52</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16931107</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4363-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="297" LEVEL="4" LINE="350">
+<GROUP ID="o1693-4363-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="297" LEVEL="4" LINE="350">
     <ELEMENT NAME="line" CLASS="line"><core>350</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4363-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4709,16 +4709,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[alencarca de cima]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4363-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4363-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4363-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16931107]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4363-gro8392-11" NAME="locs" CLASS="group_element" ORDER="298" LEVEL="3" LINE="352">
+<GROUP ID="o1693-4363-gro571-12" NAME="locs" CLASS="group_element" ORDER="298" LEVEL="3" LINE="352">
     <ELEMENT NAME="line" CLASS="line"><core>352</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-gro8392-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-gro571-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4363</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4728,9 +4728,9 @@
          <core><![CDATA[adro]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4363-gro8393-11" NAME="sacr" CLASS="group_element" ORDER="299" LEVEL="3" LINE="354">
+<GROUP ID="o1693-4363-gro572-12" NAME="sacr" CLASS="group_element" ORDER="299" LEVEL="3" LINE="354">
     <ELEMENT NAME="line" CLASS="line"><core>354</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-gro8393-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-gro572-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>sacr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4363</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4740,9 +4740,9 @@
          <core><![CDATA[sim]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4363-gro8394-11" NAME="oficios" CLASS="group_element" ORDER="300" LEVEL="3" LINE="356">
+<GROUP ID="o1693-4363-gro573-12" NAME="oficios" CLASS="group_element" ORDER="300" LEVEL="3" LINE="356">
     <ELEMENT NAME="line" CLASS="line"><core>356</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-gro8394-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4363-gro573-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>oficios</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4363</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4818,9 +4818,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-rela53</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16931014</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4364-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="305" LEVEL="4" LINE="360">
+<GROUP ID="o1693-4364-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="305" LEVEL="4" LINE="360">
     <ELEMENT NAME="line" CLASS="line"><core>360</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4364-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4831,16 +4831,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[menor]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4364-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4364-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4364-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16931014]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4364-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="306" LEVEL="4" LINE="362">
+<GROUP ID="o1693-4364-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="306" LEVEL="4" LINE="362">
     <ELEMENT NAME="line" CLASS="line"><core>362</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4364-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -4855,7 +4855,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16931014]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4364-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4364-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4364-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -4893,9 +4893,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-per1-rela54</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16931014</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16931014-att2-11" NAME="ls" CLASS="attribute" ORDER="309" LEVEL="5" LINE="365">
+<GROUP ID="ro16931014-att2-12" NAME="ls" CLASS="attribute" ORDER="309" LEVEL="5" LINE="365">
     <ELEMENT NAME="line" CLASS="line"><core>365</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16931014-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16931014-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16931014</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -4906,16 +4906,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[casalinhos]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16931014-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16931014-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16931014]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16931014]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4364-gro8395-11" NAME="locs" CLASS="group_element" ORDER="310" LEVEL="3" LINE="367">
+<GROUP ID="o1693-4364-gro574-12" NAME="locs" CLASS="group_element" ORDER="310" LEVEL="3" LINE="367">
     <ELEMENT NAME="line" CLASS="line"><core>367</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-gro8395-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4364-gro574-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4364</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
@@ -4989,9 +4989,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-rela55</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16931206</core></ELEMENT>
 </GROUP>
-<GROUP ID="o1693-4365-per1-att1-11" NAME="ls" CLASS="attribute" ORDER="315" LEVEL="4" LINE="371">
+<GROUP ID="o1693-4365-per1-att1-12" NAME="ls" CLASS="attribute" ORDER="315" LEVEL="4" LINE="371">
     <ELEMENT NAME="line" CLASS="line"><core>371</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-per1-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-per1-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4365-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5002,16 +5002,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[menor]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4365-per1-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4365-per1-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[o1693-4365-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16931206]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4365-per1-rel1-11" NAME="rel" CLASS="relation" ORDER="316" LEVEL="4" LINE="373">
+<GROUP ID="o1693-4365-per1-rel1-12" NAME="rel" CLASS="relation" ORDER="316" LEVEL="4" LINE="373">
     <ELEMENT NAME="line" CLASS="line"><core>373</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-per1-rel1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-per1-rel1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4365-per1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -5026,7 +5026,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ro16931206]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[o1693-4365-per1-rel1-11]]></core>   </ELEMENT>
+         <core><![CDATA[o1693-4365-per1-rel1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[o1693-4365-per1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -5064,9 +5064,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-per1-rela56</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16931206</core></ELEMENT>
 </GROUP>
-<GROUP ID="ro16931206-att2-11" NAME="ls" CLASS="attribute" ORDER="319" LEVEL="5" LINE="376">
+<GROUP ID="ro16931206-att2-12" NAME="ls" CLASS="attribute" ORDER="319" LEVEL="5" LINE="376">
     <ELEMENT NAME="line" CLASS="line"><core>376</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ro16931206-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>ro16931206-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>ro16931206</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -5077,16 +5077,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[mogadouro]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[ro16931206-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[ro16931206-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[ro16931206]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16931206]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="o1693-4365-gro8396-11" NAME="locs" CLASS="group_element" ORDER="320" LEVEL="3" LINE="377">
+<GROUP ID="o1693-4365-gro575-12" NAME="locs" CLASS="group_element" ORDER="320" LEVEL="3" LINE="377">
     <ELEMENT NAME="line" CLASS="line"><core>377</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-gro8396-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>o1693-4365-gro575-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>locs</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>o1693-4365</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>group_element</core></ELEMENT>
